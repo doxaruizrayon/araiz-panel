@@ -1,88 +1,144 @@
 /**
  * catalogo_araiz.js
- * Prueba en línea recta: Familia 1 > Subfamilia 1 > Grupo 1 > primer Artículo.
- * Extrae: nombre, marca y código de fabricante.
+ * Extrae TODOS los artículos de la familia "Electricidad" del catálogo de Araiz.
  *
- * Selectores estables (sin _ngcontent):
- *   N1 Familia     → .card con .row.align-items-center  → h5.card-title.mb-0
- *   N2 Subfamilia  → .card con .col.ms-n2               → h5.card-title.mb-0
- *   N3 Grupo       → .card con .col.ms-n2               → h5.card-title.mb-0
- *   N4 Nombre      → .card a.cursor-pointer  (texto mixto, no todo mayúsculas)
- *   N4 Marca       → .card a.cursor-pointer  (texto TODO MAYÚSCULAS)
- *   N4 Cód.fabric. → .card dd               (primer <dd> del card)
+ * Estrategia: re-navega desde BASE_URL en cada iteración para evitar
+ * detached DOM elements de Angular (la URL nunca cambia en esta SPA).
+ *
+ * Estructura: N1 Familia → N2 Subfamilia → N3 Grupo → N4 Artículos
+ * Selectores:
+ *   N1 → .card con .row.align-items-center → h5.card-title.mb-0
+ *   N2/N3 → .card con .col.ms-n2 → h5.card-title.mb-0
+ *   Nombre → .card a.cursor-pointer (texto mixto)
+ *   Marca  → .card a.cursor-pointer (TODO MAYÚSCULAS)
+ *   Código → .card dd
  */
 
 const puppeteer = require('puppeteer');
+const fs = require('fs');
 
 const BASE_URL = 'https://www.araiz.com/catalog/list';
+const OUTPUT   = 'C:/PROYECTOS/ARAIZ/electricidad_completa.json';
+const T_IDLE   = 800;   // ms de red idle para waitForNetworkIdle
+const T_EXTRA  = 2000;  // pausa extra tras cada clic Angular
+
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 
+// ── Helpers de navegación ─────────────────────────────────────────────────────
+
 async function waitAngular(page) {
-  try { await page.waitForNetworkIdle({ timeout: 8000, idleTime: 800 }); } catch (_) {}
-  await sleep(2000);
+  try { await page.waitForNetworkIdle({ timeout: 8000, idleTime: T_IDLE }); } catch (_) {}
+  await sleep(T_EXTRA);
 }
 
-// ── Clic en el primer card de Nivel 1 (Familia) ───────────────────────────────
-async function clickPrimeraNivel1(page) {
+async function resetToBase(page) {
+  await page.goto(BASE_URL, { waitUntil: 'networkidle2', timeout: 40000 });
+  await sleep(T_EXTRA);
+}
+
+/** Hace clic en la tarjeta N1 (Familia) de índice idx. Devuelve el nombre. */
+async function clickN1(page, idx) {
+  await page.waitForSelector('.row.align-items-center h5.card-title.mb-0', { timeout: 15000 });
+  return page.evaluate((i) => {
+    const cards = [...document.querySelectorAll('.card')]
+      .filter(c => c.querySelector('.row.align-items-center'));
+    const card = cards[i];
+    if (!card) return null;
+    const nombre = card.querySelector('h5.card-title.mb-0')?.textContent.trim() ?? null;
+    (card.tagName === 'A' ? card : card.querySelector('a') ?? card).click();
+    return nombre;
+  }, idx);
+}
+
+/** Devuelve los nombres de todas las tarjetas N2/N3 visibles (.col.ms-n2). */
+async function getN23Names(page) {
+  try {
+    await page.waitForSelector('.col.ms-n2 h5.card-title.mb-0', { timeout: 12000 });
+  } catch (_) { return []; }
+  return page.evaluate(() =>
+    [...document.querySelectorAll('.card')]
+      .filter(c => c.querySelector('.col.ms-n2'))
+      .map(c => c.querySelector('.col.ms-n2 h5.card-title.mb-0')?.textContent.trim())
+      .filter(Boolean)
+  );
+}
+
+/** Hace clic en la tarjeta N2/N3 de índice idx. Devuelve el nombre. */
+async function clickN23(page, idx) {
+  try {
+    await page.waitForSelector('.col.ms-n2 h5.card-title.mb-0', { timeout: 12000 });
+  } catch (_) {}
+  return page.evaluate((i) => {
+    const cards = [...document.querySelectorAll('.card')]
+      .filter(c => c.querySelector('.col.ms-n2'));
+    const card = cards[i];
+    if (!card) return null;
+    const nombre = card.querySelector('.col.ms-n2 h5.card-title.mb-0')?.textContent.trim() ?? null;
+    (card.tagName === 'A' ? card : card.querySelector('a') ?? card).click();
+    return nombre;
+  }, idx);
+}
+
+// ── Extracción de artículos (N4) ──────────────────────────────────────────────
+
+async function extraerArticulosDePagina(page) {
   return page.evaluate(() => {
+    const resultado = [];
     for (const card of document.querySelectorAll('.card')) {
-      if (!card.querySelector('.row.align-items-center')) continue;
-      const h5 = card.querySelector('h5.card-title.mb-0');
-      if (!h5) continue;
-      const nombre = h5.textContent.trim();
-      const link = card.tagName === 'A' ? card : card.querySelector('a');
-      if (link) link.click(); else card.click();
-      return nombre;
-    }
-    return null;
-  });
-}
-
-// ── Clic en el primer card de Nivel 2/3 (Subfamilia / Grupo) ─────────────────
-async function clickPrimeraNivel23(page) {
-  return page.evaluate(() => {
-    for (const card of document.querySelectorAll('.card')) {
-      const msDiv = card.querySelector('.col.ms-n2');
-      if (!msDiv) continue;
-      const h5 = msDiv.querySelector('h5.card-title.mb-0');
-      if (!h5) continue;
-      const nombre = h5.textContent.trim();
-      const link = card.tagName === 'A' ? card : card.querySelector('a');
-      if (link) link.click(); else card.click();
-      return nombre;
-    }
-    return null;
-  });
-}
-
-// ── Extrae nombre, marca y código del primer artículo visible ─────────────────
-async function extraerPrimerArticulo(page) {
-  return page.evaluate(() => {
-    const cards = document.querySelectorAll('.card');
-    for (const card of cards) {
-      // Nombre: primer a.cursor-pointer con texto mixto (no todo mayúsculas)
       let nombre = null;
       for (const a of card.querySelectorAll('a.cursor-pointer')) {
         const txt = a.textContent.trim();
         if (txt.length >= 5 && txt !== txt.toUpperCase()) { nombre = txt; break; }
       }
-      if (!nombre) continue; // si no tiene nombre de producto, es otro tipo de card
+      if (!nombre) continue;
 
-      // Marca: primer a.cursor-pointer con texto TODO MAYÚSCULAS
       let marca = null;
       for (const a of card.querySelectorAll('a.cursor-pointer')) {
         const txt = a.textContent.trim();
         if (txt.length >= 2 && txt === txt.toUpperCase()) { marca = txt; break; }
       }
 
-      // Código fabricante: primer <dd> del card
       const dd = card.querySelector('dd');
       const codigoFabricante = dd ? dd.textContent.trim() : null;
 
-      return { nombre, marca, codigoFabricante };
+      resultado.push({ nombre, marca, codigoFabricante });
     }
-    return null;
+    return resultado;
   });
+}
+
+async function hayPaginaSiguiente(page) {
+  return page.evaluate(() => {
+    const activo = document.querySelector('li.page-item.active');
+    if (activo) {
+      let sib = activo.nextElementSibling;
+      while (sib) {
+        if (sib.classList.contains('page-item') && !sib.classList.contains('disabled')) {
+          const link = sib.querySelector('a.page-link');
+          if (link?.href) return link.href;
+        }
+        sib = sib.nextElementSibling;
+      }
+    }
+    return false;
+  });
+}
+
+async function extraerTodosLosArticulos(page) {
+  const todos = [];
+  let pagina = 1;
+  while (true) {
+    const arts = await extraerArticulosDePagina(page);
+    todos.push(...arts);
+    process.stdout.write(`\r        Página ${pagina} — ${todos.length} artículos`);
+    const nextUrl = await hayPaginaSiguiente(page);
+    if (!nextUrl) break;
+    await page.goto(nextUrl, { waitUntil: 'networkidle2', timeout: 40000 });
+    await sleep(T_EXTRA);
+    pagina++;
+  }
+  process.stdout.write('\n');
+  return todos;
 }
 
 // ── MAIN ──────────────────────────────────────────────────────────────────────
@@ -94,65 +150,106 @@ async function extraerPrimerArticulo(page) {
   });
   const page = await browser.newPage();
   await page.setViewport({ width: 1280, height: 900 });
+  page.on('requestfailed', () => {});
+
+  const resultados = [];
 
   try {
-    // ── NIVEL 1: Familia ─────────────────────────────────────────────────────
-    console.log('Navegando al catálogo...');
-    await page.goto(BASE_URL, { waitUntil: 'networkidle2', timeout: 40000 });
-    await sleep(2000);
+    console.log('══════════════════════════════════════════════════');
+    console.log(' Extracción catálogo Araiz — Familia: Electricidad');
+    console.log('══════════════════════════════════════════════════\n');
 
-    await page.waitForSelector('.row.align-items-center h5.card-title.mb-0', { timeout: 15000 });
-    const familia = await clickPrimeraNivel1(page);
-    if (!familia) throw new Error('No se encontró Familia');
-    console.log(`  N1 → "${familia}"`);
+    // ── Obtener nombre de familia y lista de subfamilias ─────────────────────
+    await resetToBase(page);
+    const familiaName = await clickN1(page, 0);
     await waitAngular(page);
+    const subfamiliaNames = await getN23Names(page);
 
-    // ── NIVEL 2: Subfamilia ──────────────────────────────────────────────────
-    await page.waitForSelector('.col.ms-n2 h5.card-title.mb-0', { timeout: 12000 });
-    const subfamilia = await clickPrimeraNivel23(page);
-    if (!subfamilia) throw new Error('No se encontró Subfamilia');
-    console.log(`  N2 → "${subfamilia}"`);
-    await waitAngular(page);
+    console.log(`[FAMILIA] "${familiaName}"`);
+    console.log(`  → ${subfamiliaNames.length} subfamilias\n`);
 
-    // ── NIVEL 3: Grupo ───────────────────────────────────────────────────────
-    await page.waitForSelector('.col.ms-n2 h5.card-title.mb-0', { timeout: 12000 });
-    const grupo = await clickPrimeraNivel23(page);
-    if (!grupo) throw new Error('No se encontró Grupo');
-    console.log(`  N3 → "${grupo}"`);
-    await waitAngular(page);
-    await sleep(2000); // Angular tarda más en renderizar el listado de productos
+    // ── Bucle subfamilias ────────────────────────────────────────────────────
+    for (let si = 0; si < subfamiliaNames.length; si++) {
+      const subfamiliaName = subfamiliaNames[si];
+      console.log(`  [SUBFAMILIA ${si + 1}/${subfamiliaNames.length}] "${subfamiliaName}"`);
 
-    // ── Cerrar banner cookies si aparece ─────────────────────────────────────
-    await page.evaluate(() => {
-      for (const btn of document.querySelectorAll('button, a')) {
-        const t = btn.textContent.trim().toLowerCase();
-        if (t === 'entendido' || t === 'aceptar') { btn.click(); return; }
+      let grupoNames = [];
+      try {
+        // Navegar: BASE → N1 → N2[si]
+        await resetToBase(page);
+        await clickN1(page, 0);
+        await waitAngular(page);
+        await clickN23(page, si);
+        await waitAngular(page);
+        grupoNames = await getN23Names(page);
+      } catch (e) {
+        console.error(`    ERROR obteniendo grupos: ${e.message}`);
+        continue;
       }
-    });
-    await sleep(500);
 
-    // ── NIVEL 4: Artículo ────────────────────────────────────────────────────
-    await page.waitForSelector('.card a.cursor-pointer', { timeout: 15000 });
-    const articulo = await extraerPrimerArticulo(page);
-    if (!articulo) throw new Error('No se encontró Artículo');
+      console.log(`    → ${grupoNames.length} grupos`);
 
-    // ── RESULTADO ─────────────────────────────────────────────────────────────
-    const resultado = {
-      familia,
-      subfamilia,
-      grupo,
-      articulo:          articulo.nombre,
-      marca:             articulo.marca,
-      codigoFabricante:  articulo.codigoFabricante,
-    };
+      // ── Bucle grupos ───────────────────────────────────────────────────────
+      for (let gi = 0; gi < grupoNames.length; gi++) {
+        const grupoName = grupoNames[gi];
+        process.stdout.write(`    [GRUPO ${gi + 1}/${grupoNames.length}] "${grupoName}"\n`);
 
-    console.log('\nResultado:');
-    console.log(JSON.stringify(resultado, null, 2));
+        try {
+          // Navegar: BASE → N1 → N2[si] → N3[gi]
+          await resetToBase(page);
+          await clickN1(page, 0);
+          await waitAngular(page);
+          await clickN23(page, si);
+          await waitAngular(page);
+          await clickN23(page, gi);
+          await waitAngular(page);
+          await sleep(2000); // Angular tarda más en renderizar el listado
 
-  } catch (err) {
-    console.error('\nERROR:', err.message);
+          // Cerrar banner de cookies si aparece
+          await page.evaluate(() => {
+            for (const btn of document.querySelectorAll('button, a')) {
+              const t = btn.textContent.trim().toLowerCase();
+              if (t === 'entendido' || t === 'aceptar') { btn.click(); return; }
+            }
+          });
+          await sleep(300);
+
+          // Extraer artículos
+          await page.waitForSelector('.card a.cursor-pointer', { timeout: 12000 });
+          const articulos = await extraerTodosLosArticulos(page);
+          console.log(`        → ${articulos.length} artículos extraídos`);
+
+          for (const art of articulos) {
+            resultados.push({ familia: familiaName, subfamilia: subfamiliaName, grupo: grupoName, ...art });
+          }
+
+          // Guardado parcial cada 50 artículos
+          if (resultados.length % 50 < articulos.length || articulos.length === 0) {
+            fs.writeFileSync(OUTPUT, JSON.stringify(resultados, null, 2), 'utf8');
+          }
+
+        } catch (e) {
+          console.error(`        ERROR: ${e.message}`);
+        }
+      }
+
+      console.log('');
+    }
+
+    // ── Guardado final ───────────────────────────────────────────────────────
+    fs.writeFileSync(OUTPUT, JSON.stringify(resultados, null, 2), 'utf8');
+    console.log('══════════════════════════════════════════════════');
+    console.log(` COMPLETADO: ${resultados.length} artículos guardados`);
+    console.log(` Archivo: ${OUTPUT}`);
+    console.log('══════════════════════════════════════════════════');
+
+  } catch (eCritico) {
+    console.error('\nERROR CRÍTICO:', eCritico.message);
     try { await page.screenshot({ path: 'C:/PROYECTOS/ARAIZ/debug_error.png' }); } catch (_) {}
   } finally {
+    if (resultados.length > 0) {
+      fs.writeFileSync(OUTPUT, JSON.stringify(resultados, null, 2), 'utf8');
+    }
     await browser.close();
   }
 })();
