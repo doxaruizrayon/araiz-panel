@@ -1,0 +1,151 @@
+CUADRO RESUMEN — BORNAS DE CARRIL DIN (Phoenix Contact / Weidmuller / Siemens / Legrand)
+Familia: Electricidad > Material de conexión eléctrica > Bornas
+Ejemplo en Araiz: Phoenix Contact ref. UK 2,5 BK (Borna tornillo 2,5mm² negro carril DIN)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"bornas carril DIN tipos conexión cuadro eléctrico" o "clema borna tornillo resorte instalacion"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Una borna (también llamada clema, regleta de bornes o bloque de terminales)
+es el elemento que une dos cables eléctricos dentro de un cuadro eléctrico.
+Es el "intermediario" entre el cable que viene del exterior y el cable que
+va al dispositivo dentro del cuadro.
+
+**¿Por qué usar bornas y no empalmar directamente los cables?**
+- **Orden**: cada borna etiquetada corresponde a un número en el plano
+  eléctrico — el técnico sabe exactamente dónde está cada conexión.
+- **Mantenimiento**: se puede desconectar un cable suelto sin afectar al resto.
+- **Seguridad**: la borna garantiza una conexión firme y certificada —
+  no hay riesgo de que el cable se suelte por vibración.
+- **Normativa**: los cuadros eléctricos deben llevar bornas certificadas
+  (IEC 60947-7-1 para bornas industriales).
+
+**Dónde van:** en carril DIN dentro del cuadro eléctrico, formando
+"regletas" de bornas en fila. El número de bornas en una regleta depende
+del número de circuitos a conectar.
+
+============================================================
+
+TIPOS DE CONEXIÓN EN BORNAS
+--------------------------------------------------------------
+| Tipo            | Cómo funciona                              | Ventajas                        | Marcas habituales         |
+|-----------------|--------------------------------------------|---------------------------------|---------------------------|
+| Tornillo        | Tornillo aprieta el cable contra el contacto| Económica, universal            | Todas las marcas          |
+| Resorte (push-in)| El cable se inserta y el muelle lo sujeta | Rápida, sin herramienta         | Phoenix Contact, Weidmuller|
+| Desenchufable   | El cable va en un conector que se extrae   | Fácil sustitución de equipo     | Phoenix Contact PTFIX      |
+
+**Conexión por tornillo:** la más habitual en España. Con un destornillador
+se aprieta el tornillo que sujeta el cable. Fiable y económica.
+
+**Conexión por resorte (PUSH IN):** el cable pelado o con puntero se
+inserta directamente — el muelle lo sujeta solo. Más rápido de cablear
+(30% menos tiempo en instalaciones grandes). Gana terreno en instalaciones
+nuevas con muchas bornas.
+
+============================================================
+
+PHOENIX CONTACT — GAMA UK / UKK / SAK (14.530 art. en Araiz)
+--------------------------------------------------------------
+Phoenix Contact domina el mercado de bornas industriales en España.
+
+**Nomenclatura de las bornas Phoenix Contact:**
+
+**UK 2,5 BK** — la más vendida:
+- **UK**: borna de paso estándar (Universal Klemme)
+- **2,5**: sección máxima de cable en mm²
+- **BK**: color negro (opcional — hay grises, rojas, amarillas, verdes/amarillas)
+
+**Gama UK — bornas de paso (step terminals):**
+| Referencia | Sección máx. | Corriente máx. | Ancho | Para qué                        |
+|------------|--------------|----------------|-------|---------------------------------|
+| UK 1,5     | 1,5 mm²      | 17,5A          | 3,5mm | Señales de control, 24V DC      |
+| UK 2,5     | 2,5 mm²      | 24A            | 5,2mm | Circuitos de mando estándar     |
+| UK 2,5 B   | 2,5 mm²      | 24A            | 5,2mm | Con puente de conexión lateral  |
+| UK 3        | 4 mm²        | 32A            | 6mm   | Cargas mayores                  |
+| UK 5        | 6 mm²        | 41A            | 8mm   | Alimentaciones                  |
+| UK 10       | 10 mm²       | 57A            | 10mm  | Circuitos de potencia           |
+| UK 16       | 16 mm²       | 76A            | 14mm  | Alimentaciones principales      |
+| UKK 5       | 6 mm²        | 41A            | 8mm   | Borna doble nivel (2 conexiones)|
+
+**SAK — bornas con patilla de tierra integrada:**
+El SAK tiene un tornillo adicional para la puesta a tierra del cable
+apantallado. Para circuitos donde el blindaje del cable debe conectarse
+a tierra en cada borna.
+
+**PTFIX — borna desenchufable (push-in con conector extraíble):**
+Sistema moderno donde el cable va en un conector push-in que se extrae
+de la base. Si se avería el equipo, se quita el conector completo y se
+pincha en el equipo nuevo — sin desconectar ningún cable. Ideal para
+variadores, relés de seguridad y módulos que se sustituyen con frecuencia.
+
+============================================================
+
+WEIDMULLER — ALTERNATIVA EQUIVALENTE (8.568 art.)
+--------------------------------------------------------------
+Weidmuller ofrece bornas equivalentes a Phoenix Contact, muy habituales
+en instalaciones con cuadros Weidmuller y en importaciones alemanas.
+
+| Weidmuller | Equivalente Phoenix Contact | Sección máx. |
+|------------|-----------------------------|--------------|
+| WDU 2,5    | UK 2,5                      | 2,5 mm²      |
+| WDU 4      | UK 3                        | 4 mm²        |
+| WDK 2,5    | UK 2,5 (doble nivel)        | 2,5 mm²      |
+| W 2,5      | UK 2,5 (con resorte)        | 2,5 mm²      |
+
+**Compatibilidad entre marcas:**
+Las bornas Phoenix Contact y Weidmuller NO son intercambiables entre sí
+en la misma regleta (tienen distintos sistemas de fijación y accesorios).
+Dentro de la misma regleta, todas las bornas deben ser de la misma marca.
+
+============================================================
+
+SIEMENS / LEGRAND / ENTRELEC — OTRAS MARCAS (865 art.)
+--------------------------------------------------------------
+**Siemens 8WH**: bornas de carril DIN para cuadros con estándar Siemens.
+Series 8WH2/8WH5. Equivalentes funcionales al UK de Phoenix Contact.
+
+**Legrand Viking 3**: bornas ampliamente usadas en instalaciones terciarias
+y residenciales con cuadros Legrand (XL3). Sistemas de 3,5mm a 10mm de
+paso. Económicas para instalaciones de alumbrado y mando sencillo.
+La referencia 037180 (borna seccionable Viking3 4mm²) es de las más pedidas.
+
+**Entrelec** (138 art.): marca suiza, ahora perteneciente a ABB. Bornas
+de alta calidad para instalaciones industriales exigentes.
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                    | Por qué                                         |
+|----|-------------------------------------------------------------|-------------------------------------------------|
+| 1  | ¿Qué sección de cable va a conectar? (mm²)                 | Define el tamaño de la borna                    |
+| 2  | ¿Cuántos amperios tiene el circuito?                        | Verificar que la borna aguanta la corriente     |
+| 3  | ¿Tornillo o resorte (push-in)?                              | Según preferencia del instalador                |
+| 4  | ¿Qué marca tiene el cuadro o las bornas existentes?        | Para seguir con la misma marca y accesorios     |
+| 5  | ¿Cuántas unidades necesita?                                  | Las bornas se venden por unidad o paquetes      |
+| 6  | ¿Necesita algún color específico? (para circuitos de tierra, neutro, emergencia) | Convenios de color en instalaciones |
+
+CONSEJO: El 80% de los pedidos de bornas son UK 2,5 de Phoenix Contact
+(gris o negra) — la borna estándar para circuitos de control a 24V DC
+y mando a 230V AC. Si el cliente no especifica marca, Phoenix Contact es
+la referencia en España.
+Para circuitos de potencia (>10A): subir a UK 4, UK 6 o UK 10 según
+la sección del cable. La regla de oro: la borna debe admitir la sección
+del cable más grueso que va a conectar.
+Colores de borna según convenio:
+- Gris: circuitos de señal y mando genéricos
+- Negro: neutro (N) en algunos convenios
+- Rojo: fase (L1, L2, L3)
+- Verde/Amarillo: tierra (PE) — solo este color para tierra
+
+============================================================
+Fuentes:
+- Phoenix Contact UK bornas: https://www.phoenixcontact.com/es-es/products/terminal-blocks/screw-connection
+- Weidmuller WDU: https://www.weidmuller.com/es/products/terminal_blocks/
+- Legrand Viking3: https://www.legrand.es/catalogo/cuadros-electricos/bornas/
+- Siemens 8WH: https://new.siemens.com/es/es/productos/automatizacion/aparellaje-industrial/terminal-blocks.html
+============================================================

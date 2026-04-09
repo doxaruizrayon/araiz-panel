@@ -58,6 +58,7 @@ function searchBase(query) {
   const q = normText(query);
   if (!q || q.length < 2) return articulosBase.map(a => ({
     filename: a.filename, title: a.title, family: a.family, ref: a.ref,
+    aparellaje: a.family.includes('Aparellaje'),
     score: 0, excerpt: ''
   })).slice(0, 25);
 
@@ -77,7 +78,8 @@ function searchBase(query) {
           excerpt = '…' + a.content.slice(start, end).replace(/\n/g, ' ').trim() + '…';
         }
       }
-      return { filename: a.filename, title: a.title, family: a.family, ref: a.ref, score, excerpt };
+      return { filename: a.filename, title: a.title, family: a.family, ref: a.ref,
+               aparellaje: a.family.includes('Aparellaje'), score, excerpt };
     })
     .filter(a => a.score > 0)
     .sort((a, b) => b.score - a.score)
@@ -114,13 +116,15 @@ function getAlfabetico(letra) {
   const l = normText(letra).charAt(0);
   return articulosBase
     .filter(a => normText(a.title).charAt(0) === l)
-    .map(a => ({ filename: a.filename, title: a.title, family: a.family, ref: a.ref }))
+    .map(a => ({ filename: a.filename, title: a.title, family: a.family, ref: a.ref,
+                 aparellaje: a.family.includes('Aparellaje') }))
     .sort((a, b) => a.title.localeCompare(b.title, 'es'));
 }
 
 function getAllTitles() {
   return articulosBase.map(a => ({
-    filename: a.filename, title: a.title, family: a.family, ref: a.ref
+    filename: a.filename, title: a.title, family: a.family, ref: a.ref,
+    aparellaje: a.family.includes('Aparellaje')
   })).sort((a, b) => a.title.localeCompare(b.title, 'es'));
 }
 
@@ -338,6 +342,13 @@ const HTML = `<!DOCTYPE html>
   .alfa-item .a-titulo { font-weight: 600; font-size: .88rem; color: var(--azul); }
   .alfa-item .a-ref { font-size: .75rem; color: var(--gris3); margin-top: 3px; }
 
+  /* Aparellaje eléctrico — azul claro */
+  .resultado-item.aparellaje { background: #e0f2fe; }
+  .resultado-item.aparellaje:hover { background: #bae6fd; }
+  .resultado-item.aparellaje.activo { background: #bae6fd; border-left: 3px solid var(--azul2); }
+  .alfa-item.aparellaje { background: #e0f2fe; border-color: #7dd3fc; }
+  .alfa-item.aparellaje:hover { background: #bae6fd; border-color: var(--azul2); }
+
   /* BADGE conteo */
   .badge { display:inline-block; background:var(--gris2); color:var(--gris3);
     font-size:.72rem; padding:1px 7px; border-radius:10px; margin-left:6px; }
@@ -434,13 +445,14 @@ function renderLista(items, query) {
     lista.innerHTML = '<div class="resultado-vacio">Sin resultados para "' + escapeHtml(query) + '"</div>';
     return;
   }
-  lista.innerHTML = items.map(a =>
-    '<div class="resultado-item" onclick="verArticulo(\\'' + escapeHtml(a.filename) + '\\', this)">' +
+  lista.innerHTML = items.map(a => {
+    const cls = a.aparellaje ? ' aparellaje' : '';
+    return '<div class="resultado-item' + cls + '" onclick="verArticulo(\\'' + escapeHtml(a.filename) + '\\', this)">' +
       '<div class="r-titulo">' + escapeHtml(a.title) + '</div>' +
       '<div class="r-ref">' + escapeHtml(a.ref) + '</div>' +
       (a.excerpt ? '<div class="r-excerpt">' + escapeHtml(a.excerpt) + '</div>' : '') +
-    '</div>'
-  ).join('');
+    '</div>';
+  }).join('');
 }
 
 async function buscarBase() {
@@ -531,12 +543,13 @@ async function filtrarLetra(letra) {
     lista.innerHTML = '<div style="color:var(--gris3);padding:20px;">Sin artículos para la letra ' + letra + '</div>';
     return;
   }
-  lista.innerHTML = data.map(a =>
-    '<div class="alfa-item" onclick="irAArticulo(\\'' + escapeHtml(a.filename) + '\\')">' +
+  lista.innerHTML = data.map(a => {
+    const cls = a.aparellaje ? ' aparellaje' : '';
+    return '<div class="alfa-item' + cls + '" onclick="irAArticulo(\\'' + escapeHtml(a.filename) + '\\')">' +
       '<div class="a-titulo">' + escapeHtml(a.title) + '</div>' +
       '<div class="a-ref">' + escapeHtml(a.ref) + '</div>' +
-    '</div>'
-  ).join('');
+    '</div>';
+  }).join('');
 }
 
 function irAArticulo(filename) {

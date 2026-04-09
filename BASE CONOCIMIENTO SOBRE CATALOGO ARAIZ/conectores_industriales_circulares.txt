@@ -1,0 +1,150 @@
+CUADRO RESUMEN — CONECTORES INDUSTRIALES CIRCULARES Y MULTIPOLARES
+Familia: Electricidad > Material de conexión eléctrica > Conectores
+Ejemplo en Araiz: Harting ref. 09-20-006-1521 (Han B 6+PE macho carcasa superior)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"conector Han Harting maquina industrial" o "conector circular M12 sensor encoder instalacion"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Los conectores industriales son sistemas de conexión eléctrica robustos
+diseñados para ambientes industriales: aguantan vibraciones, golpes,
+suciedad, humedad y aceite. Permiten conectar y desconectar máquinas
+o equipos de forma rápida y segura.
+
+Se usan cuando hay que:
+- Conectar un robot o máquina a su armario de control (Han/ILME)
+- Conectar sensores a los módulos de E/S (M12/M8)
+- Desconectar rápidamente una máquina para mantenimiento sin herramientas
+- Pasar varios circuitos (potencia + señal + datos) por un solo conector
+
+**Diferencia con los conectores PCB:**
+Los conectores PCB (Phoenix Contact MSTB) van dentro de los cuadros y
+equipos — son pequeños y delicados. Los conectores industriales van en la
+máquina, en el campo — son robustos, con IP65/IP67 o IP68.
+
+============================================================
+
+TIPO 1: CONECTORES CIRCULARES M12 / M8 (Murrelektronik, Phoenix Contact)
+--------------------------------------------------------------
+El **M12** es el conector circular más habitual en automatización industrial.
+Su nombre indica el diámetro de la rosca: 12 mm. Hay variantes de 3, 4,
+5, 8 y 12 pines según la aplicación.
+
+**Códigos de codificación M12:**
+| Código | Pines | Para qué                                 | Colores habituales  |
+|--------|-------|------------------------------------------|---------------------|
+| A      | 3/4/5 | Sensores analógicos, encoders, I/O       | Gris/negro          |
+| B      | 4/5   | Fieldbus PROFIBUS                        | Violeta             |
+| D      | 4     | Ethernet industrial (PROFINET, EtherCAT) | Verde/amarillo       |
+| X      | 4/8   | Ethernet 10Gbit                          | —                   |
+| S/T    | 4/5   | AC power (hasta 630V AC)                 | Rojo/negro          |
+
+**Protección IP:**
+- M12 recto: IP67 (sumergible hasta 1m momentáneamente)
+- M12 con cubierta: IP68/IP69K (aplicaciones de lavado a presión)
+
+**M8:** versión más pequeña, 3-4 pines. Para sensores muy compactos.
+
+**Murrelektronik** (651 art. en Araiz):
+Especialista alemán en conectividad industrial. Sus conectores M12 son
+muy habituales en líneas de producción con Profinet o EtherCAT.
+Gama "Impact67" y "Exact12" — módulos de E/S distribuidas con conectores M12.
+
+**Phoenix Contact** fabrica también M12 con su gama SAC (cables pre-ensamblados)
+y SACC (conectores sueltos para cablear en campo).
+
+============================================================
+
+TIPO 2: CONECTORES MULTIPOLARES HAN (Harting)
+--------------------------------------------------------------
+**Harting** (138 art.) es el fabricante de referencia en conectores
+multipolares industriales de gran formato — los llamados **Han**
+(del alemán "Hauptanschluss" = conexión principal).
+
+Se usan para conectar máquinas completas a su armario: pasan juntos
+cables de potencia (motor), señales de sensores y pines de datos, todo
+en un solo conector robusto con cubierta metálica.
+
+**Gamas Han principales:**
+| Serie   | Pines típicos | Corriente máx. | Para qué                         |
+|---------|---------------|----------------|----------------------------------|
+| Han B   | 6+PE, 10+2    | 16A / pin      | Conexión general de máquinas     |
+| Han 3A  | 3+PE          | 40A / pin      | Alimentación trifásica motores   |
+| Han E   | 6+PE, 10+PE   | 16A            | Señales mixtas + potencia        |
+| Han HPR | 2/4           | 200A           | Grandes cargas de potencia       |
+| Han DD  | 9 pines D-Sub | Señal          | Comunicación serie + señales     |
+
+**Estructura de un conector Han:**
+El sistema Han es modular:
+1. **Carcasa superior** (macho): va en el cable de la máquina
+2. **Carcasa inferior** (hembra): va fija en el armario o en la máquina
+3. **Insertos de contactos**: el interior con los pines. Se cambia según
+   el número de polos y la corriente necesaria.
+4. **Palanca de cierre**: bloquea la conexión contra vibraciones
+
+**Ventaja clave:** si se avería un pin, se sustituye solo el inserto —
+sin cambiar toda la carcasa.
+
+============================================================
+
+TIPO 3: CONECTORES ILME / GAESTOPAS (multipolares económicos)
+--------------------------------------------------------------
+**ILME** y **GAESTOPAS** (301 art.) fabrican conectores multipolares
+rectangulares similares al Han pero más económicos, muy habituales en
+maquinaria italiana y española.
+
+Gamas:
+- **CM / CHO**: carcasa con cubierta basculante (similar al Han B)
+- **CH**: carcasa recta
+- Disponibles en 6, 10, 16, 24, 32, 48 polos
+- Corriente estándar: 16A / pin, 400V AC
+
+Marcas en Araiz: GAESTOPAS (conectores ILME/compatibles), DICOMAT, INTERFLEX.
+
+============================================================
+
+TIPO 4: CONECTORES MODULARES (Phoenix Contact / Weidmuller)
+--------------------------------------------------------------
+Conectores donde los contactos (pines) se pueden combinar y reorganizar
+dentro de una carcasa común. Permiten pasar potencia, señales analógicas,
+señales digitales y datos por un único conector configurable a medida.
+
+Phoenix Contact gama **COMBICON** y Weidmuller **OMNIMATE** son los más
+habituales. Se usan en cuadros de distribución y conexionado de máquinas
+donde hay que conectar muchos circuitos distintos.
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                    | Por qué                                         |
+|----|-------------------------------------------------------------|-------------------------------------------------|
+| 1  | ¿Es para sensor (M12/M8) o para máquina completa (Han)?   | Define el tipo de conector                      |
+| 2  | ¿Cuántos pines necesita?                                    | Determina el tamaño del conector                |
+| 3  | ¿Qué corriente pasa por cada pin? ¿Es potencia o señal?    | Corriente alta → Han; señal → M12               |
+| 4  | ¿Necesita IP67 o superior? ¿Hay agua o limpieza?           | Define el nivel de protección necesario         |
+| 5  | ¿Es macho (cable) o hembra (fija en máquina/armario)?      | Son referencias distintas                       |
+| 6  | ¿Lleva cable ya ensamblado o lo cablea él?                  | Con cable → SAC (Phoenix); sin cable → SACC    |
+
+CONSEJO: Los conectores M12 más pedidos son los de 4 pines código A
+(para sensores digitales PNP/NPN) y los de 4 pines código D (para
+Profinet/EtherCAT). Si el cliente dice "necesito un cable M12 para
+el sensor", preguntar:
+- ¿Macho o hembra?
+- ¿Recto o acodado (90°)?
+- ¿Cuántos metros?
+Con esos datos se puede buscar el cable pre-ensamblado SAC en Phoenix Contact.
+Para conectores Han de sustitución: la referencia está grabada en la carcasa.
+Pide al cliente foto del conector y de la referencia impresa.
+
+============================================================
+Fuentes:
+- Harting Han: https://www.harting.com/ES/es/industrial-connectors
+- Murrelektronik M12: https://www.murrelektronik.com/es/productos/conectividad/
+- Phoenix Contact M12: https://www.phoenixcontact.com/es-es/products/connectors/circular-connectors
+- GAESTOPAS/ILME: https://www.gaestopas.com/es/categorias/conectores/
+============================================================

@@ -1,0 +1,157 @@
+CUADRO RESUMEN — BORNAS ESPECIALES (SECCIONABLES, FUSIBLES, TIERRA, SENSOR)
+Familia: Electricidad > Material de conexión eléctrica > Bornas
+Ejemplo en Araiz: Phoenix Contact ref. UK 5-HESI (Borna seccionable con cuchilla 6mm² carril DIN)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"bornas seccionables fusibles tierra cuadro eléctrico" o "borna con fusible DIN instalacion"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Las bornas especiales son variantes de las bornas estándar que incorporan
+una función adicional: permiten aislar un circuito, protegerlo con fusible,
+conectarlo a tierra o distribuir señales de sensor — sin necesidad de
+instalar elementos separados en el cuadro.
+
+Cada tipo de borna especial sustituye a una borna estándar + un elemento
+adicional, ahorrando espacio en el cuadro y simplificando el cableado.
+
+============================================================
+
+TIPO 1: BORNA CON CUCHILLA DE DESCONEXIÓN (509 art.)
+--------------------------------------------------------------
+Tiene una paleta (cuchilla) que al girarla corta físicamente el circuito.
+Permite aislar un cable concreto para mantenimiento sin desconectarlo.
+
+**Usos:**
+- Aislar el circuito de un sensor durante el mantenimiento de la máquina
+- Verificar si un circuito tiene tensión sin desconectar el cable
+- Seccionar un circuito de forma temporal para diagnóstico
+
+**Marcas en Araiz:**
+- **Phoenix Contact UK-D / HESI**: borna con paleta giratoria. La cuchilla
+  puede llevar un fusible incorporado (UK-D/HESI-F) o solo aislar.
+- **Weidmuller WTR**: equivalente al UK-D de Phoenix Contact.
+- **Entrelec**: bornas seccionables para instalaciones de instrumentación.
+
+**Con portafusible integrado:**
+La variante más habitual incorpora un portafusible de 5×20mm o 6,3×32mm.
+Al girar la cuchilla se cambia el fusible y se aísla el circuito
+simultáneamente — sin tocar el cable. Muy habitual en circuitos de
+instrumentación y señalización donde cada circuito lleva su propio fusible.
+
+============================================================
+
+TIPO 2: BORNA CON FUSIBLE (334 art.)
+--------------------------------------------------------------
+Borna de carril DIN que incorpora un portafusible para proteger el circuito
+sin ocupar espacio adicional. El fusible va dentro de la propia borna.
+
+**Tipos de fusible:**
+| Formato  | Tamaño    | Corriente     | Para qué                              |
+|----------|-----------|---------------|---------------------------------------|
+| 5×20mm   | Minifusible| Hasta 6,3A   | Señales, sensores, circuitos 24V DC  |
+| 6,3×32mm | Fusible estándar| Hasta 25A| Circuitos de mando 230V AC          |
+
+**Phoenix Contact UK 5-HESILED:**
+Versión con LED indicador: si el fusible se funde, el LED se ilumina.
+El técnico ve de un vistazo qué fusible está fundido sin tener que medir
+con polímetro uno por uno.
+
+**Cuándo usar bornas con fusible:**
+- Instalaciones de instrumentación donde cada transmisor lleva su propio
+  fusible de protección.
+- Cuadros de distribución donde hay que proteger circuitos individuales
+  sin añadir magnetotérmicos.
+- Circuitos de señal a 24V DC (los magnetotérmicos estándar no están
+  calibrados para corrientes tan pequeñas).
+
+============================================================
+
+TIPO 3: BORNA DE TIERRA / PE (386 art.)
+--------------------------------------------------------------
+Borna específica para la conexión de los conductores de protección (tierra).
+Se distingue visualmente por su color verde/amarillo y por tener una
+conexión adicional al carril DIN metálico, que actúa como conductor de tierra.
+
+**Tipos:**
+- **UK-D/PE**: borna con doble nivel — un cable entra y dos o más cables
+  salen conectados al mismo punto de tierra.
+- **UK-TWIN-PE**: borna de doble entrada para conectar dos cables de tierra
+  al mismo potencial.
+- **Borne de tierra aislado**: cuando la tierra del circuito no debe
+  conectarse al carril (tierra flotante para circuitos de instrumentación).
+
+**Phoenix Contact USLKG**: la borna de tierra más vendida.
+Se engancha al carril DIN igual que las bornas de fase/neutro, pero
+establece automáticamente continuidad eléctrica con el carril.
+
+**Regla de oro:** las bornas de tierra siempre van en color verde/amarillo
+(estándar IEC 60446). Nunca usar verde/amarillo para otros circuitos.
+
+============================================================
+
+TIPO 4: BORNA PARA SENSOR/ACTUADOR (96 art.)
+--------------------------------------------------------------
+Borna de tres o cuatro niveles diseñada específicamente para conectar
+sensores industriales (inductivos, fotoeléctricos, presostatos) al
+cableado del cuadro.
+
+**Distribución de niveles:**
+| Nivel | Conexión        | Para qué                        |
+|-------|-----------------|---------------------------------|
+| 1     | +24V DC         | Alimentación del sensor         |
+| 2     | Señal (output)  | Señal de salida del sensor      |
+| 3     | 0V (GND)        | Negativo de alimentación        |
+| 4     | Pantalla/tierra | Blindaje del cable (opcional)   |
+
+**Ventaja:** en vez de tres bornas separadas por sensor (+24V, señal, GND)
+se usa una sola borna de 3 niveles — el cuadro ocupa menos espacio y
+el cableado es más ordenado.
+
+**Phoenix Contact SACB**: la gama de bornas para sensor/actuador más habitual.
+También viene en versión con cuchilla de desconexión para aislar el sensor
+durante el mantenimiento.
+
+============================================================
+
+TIPO 5: BORNA MULTINIVEL / DOBLE NIVEL (94 art.)
+--------------------------------------------------------------
+Borna con dos o más niveles de conexión independientes en una sola pieza.
+Permite pasar varios circuitos distintos por el mismo espacio de carril.
+
+**Usos:**
+- Circuitos de señal donde el espacio en carril es muy reducido.
+- Distribución de 24V DC y señal en la misma borna.
+- Cuadros compactos donde se necesitan muchas conexiones en poco espacio.
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                    | Por qué                                         |
+|----|-------------------------------------------------------------|-------------------------------------------------|
+| 1  | ¿Para qué circuito es? ¿Potencia, señal, tierra o sensor?  | Define el tipo de borna especial                |
+| 2  | ¿Necesita poder seccionar el circuito sin desconectar?     | Sí → borna con cuchilla de desconexión          |
+| 3  | ¿Quiere fusible integrado en la borna?                      | Sí → borna con portafusible                     |
+| 4  | ¿Es para conectar un sensor de 3 hilos (24V/señal/GND)?    | Sí → borna para sensor (SACB o similar)         |
+| 5  | ¿Qué marca tiene el resto de bornas del cuadro?            | Para mantener compatibilidad de accesorios      |
+
+CONSEJO: Las bornas con LED indicador de fusible fundido (UK 5-HESILED)
+son una gran mejora en cuadros con muchos circuitos individuales protegidos
+— el ahorro en tiempo de diagnóstico justifica el coste extra.
+Para circuitos de señal de instrumentación (4-20mA): la combinación borna
+seccionable + fusible en la misma unidad (UK-D/HESI-F) es el estándar
+en instalaciones de proceso (refinerías, plantas químicas, agua).
+Las bornas de tierra USLKG de Phoenix Contact van intercaladas en la
+regleta entre las bornas de fase/neutro — una regla habitual es poner una
+borna PE cada 8-10 bornas de fase para facilitar la puesta a tierra de
+cables apantallados.
+
+============================================================
+Fuentes:
+- Phoenix Contact bornas especiales: https://www.phoenixcontact.com/es-es/products/terminal-blocks/special-function
+- Weidmuller WTR: https://www.weidmuller.com/es/products/terminal_blocks/special_function/
+============================================================

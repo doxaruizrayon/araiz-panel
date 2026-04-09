@@ -1,0 +1,135 @@
+CUADRO RESUMEN — CABLES SENSOR-ACTUADOR CON CONECTOR M12
+Familia: Electricidad > Material de conexión eléctrica > Conectores
+Ejemplo en Araiz: Phoenix Contact ref. SAC-4P-M12MS/3,0-PUR/M12FS (Cable M12 4P macho-hembra 3m)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"cable M12 sensor actuador Phoenix Contact" o "cable sensor m12 preconfeccionado instalacion"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Un cable sensor-actuador es un cable flexible pre-ensamblado (ya lleva
+los conectores montados en los extremos) para conectar sensores y
+actuadores a sus módulos de E/S o controladores.
+
+Se compran listos para conectar: no hay que crimpear ni soldar.
+En un extremo va el conector que enchufa al sensor; en el otro, el
+conector que enchufa al módulo de E/S o a la manguera de distribución.
+
+**¿Por qué usar cables pre-ensamblados?**
+- **Rapidez**: en instalaciones con decenas de sensores, ahorras horas
+  de trabajo de crimpado y pelado.
+- **Fiabilidad**: el conector viene crimpado en fábrica con prensas
+  de precisión — mejor que el montaje manual en campo.
+- **IP garantizado**: el conector de fábrica garantiza la estanquidad IP67.
+  Un conector montado manualmente puede perder estanquidad.
+- **Sin errores de conexión**: los cables con código de color están
+  estandarizados (marrón=+, azul=-, negro=señal, blanco=señal 2).
+
+**¿Cuándo es mejor cablear el conector en campo?**
+Cuando el cable tiene que pasar por canaletas estrechas o tubos antes
+de montar el conector, o cuando la longitud exacta es crítica y no
+se puede usar un pre-ensamblado estándar.
+
+============================================================
+
+ESTÁNDAR DE COLORES EN CABLES M12
+--------------------------------------------------------------
+Los cables M12 siguen el código de colores IEC 60947-5-2:
+
+| Pin | Color    | Función habitual                              |
+|-----|----------|-----------------------------------------------|
+| 1   | Marrón   | +24V DC (alimentación)                        |
+| 2   | Blanco   | Señal / entrada 2                             |
+| 3   | Azul     | 0V (GND, negativo)                            |
+| 4   | Negro    | Señal / salida                                |
+| 5   | Gris     | Señal adicional (en conectores 5 pines)       |
+
+Para sensores NPN/PNP de 3 hilos: pines 1 (marrón), 3 (azul), 4 (negro).
+Para sensores de 4 hilos: los 4 pines.
+
+============================================================
+
+GAMAS EN ARAIZ (1.402 art. de cables sensor-actuador)
+--------------------------------------------------------------
+**Phoenix Contact — SAC series**
+La nomenclatura Phoenix Contact SAC describe completamente el cable:
+
+**SAC** - 4P - M12MS / 3,0 - PUR / M12FS
+- **SAC**: cable sensor-actuador
+- **4P**: 4 pines (polos)
+- **M12MS**: conector M12 Macho Recto (S=straight)
+- **3,0**: longitud en metros
+- **PUR**: material de la cubierta (PUR = poliuretano, muy flexible y resistente)
+- **M12FS**: conector M12 Hembra Recto
+
+**Tipos de conector según posición:**
+| Sufijo | Tipo                | Para qué                              |
+|--------|---------------------|---------------------------------------|
+| MS     | M12 Macho Recto     | Estándar para sensores                |
+| MA     | M12 Macho Acodado   | Cuando el espacio no permite recto    |
+| FS     | M12 Hembra Recto    | Para módulos de E/S                   |
+| FA     | M12 Hembra Acodado  | Espacio reducido en módulo            |
+
+**Material de cubierta:**
+| Código | Material  | Resistente a                         | Para qué                    |
+|--------|-----------|--------------------------------------|-----------------------------|
+| PVC    | PVC       | Uso general                          | Interior, sin químicos      |
+| PUR    | Poliuretano| Aceite, abrasión, flexión repetida  | Máquinas con movimiento     |
+| TPE    | Termoplástico| Temperatura extrema, UV           | Exterior, alimentaria       |
+
+**Longitudes estándar:** 1,5m / 3m / 5m / 10m
+
+**Murrelektronik** (651 art.):
+Cables SAC/M12 equivalentes a Phoenix Contact. Muy habituales en
+instalaciones con módulos Murrelektronik Impact67. Misma función,
+referencias distintas.
+
+**Phoenix Contact vs Murrelektronik — cables:**
+Son 100% intercambiables eléctricamente siempre que el número de pines,
+la codificación (A/B/D) y el tipo de conector (macho/hembra, recto/acodado)
+sean iguales. El cable estándar de 4 pines código A es universal.
+
+============================================================
+
+DISTRIBUIDORES Y CAJAS DE CONEXIÓN (Murrelektronik Impact67)
+--------------------------------------------------------------
+Para instalaciones con muchos sensores, en vez de llevar cada cable
+al cuadro individualmente, se usa un **distribuidor**:
+- Se instala cerca de los sensores (en campo, IP67)
+- Tiene una entrada M12 desde el cuadro (cable largo) y múltiples
+  salidas M12 para cada sensor (cables cortos)
+- Reduce el número de cables que van al cuadro y simplifica el tendido
+
+Murrelektronik Impact67 es el sistema más habitual:
+módulos de distribución con E/S digitales integradas y conectores M12,
+que se comunican con el PLC por Profinet o EtherNet/IP.
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                    | Por qué                                         |
+|----|-------------------------------------------------------------|-------------------------------------------------|
+| 1  | ¿Cuántos pines tiene el conector del sensor? ¿3, 4 o 5?   | Define el número de polos del cable             |
+| 2  | ¿Cuántos metros de cable necesita?                          | Longitud del cable pre-ensamblado               |
+| 3  | ¿Macho o hembra en cada extremo?                            | Define los dos extremos del cable               |
+| 4  | ¿Recto o acodado (90°)?                                     | Depende del espacio junto al sensor/módulo      |
+| 5  | ¿Hay aceite, productos químicos o movimiento constante?    | Si sí: PUR en vez de PVC                        |
+| 6  | ¿Qué marca son los módulos de E/S? ¿Murrelektronik?        | Para recomendar la marca compatible             |
+
+CONSEJO: El cable más pedido en instalaciones estándar es:
+Phoenix Contact SAC-4P-M12MS/3,0-PUR/M12FS (4 pines, 3 metros, macho-hembra, PUR).
+Si el cliente no especifica longitud, preguntar siempre — un cable de
+5m donde solo hacen falta 2m es tirar dinero y complica la instalación.
+Los cables de 3m cubren el 70% de las aplicaciones en automatización.
+Para sensores con movimiento (robot, eje móvil): siempre PUR y conector
+acodado (A) en el lado del sensor, para reducir tensión mecánica.
+
+============================================================
+Fuentes:
+- Phoenix Contact SAC cables: https://www.phoenixcontact.com/es-es/products/cable-and-connector-assemblies
+- Murrelektronik cables: https://www.murrelektronik.com/es/productos/conectividad/cables/
+============================================================

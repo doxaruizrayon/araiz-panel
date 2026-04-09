@@ -1,0 +1,140 @@
+CUADRO RESUMEN — CONECTORES Y REGLETAS PARA CIRCUITO IMPRESO (PCB)
+Familia: Electricidad > Material de conexión eléctrica > Conectores
+Ejemplo en Araiz: Phoenix Contact ref. MSTB 2,5/3-ST (Conector macho 3 pines 2,5mm² para PCB)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"conector PCB circuito impreso Phoenix Contact MSTB" o "borna enchufable placa electronica industrial"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Un conector para circuito impreso es el sistema de conexión entre el
+cableado externo (el cable que viene del campo) y la placa electrónica
+(PCB) de un dispositivo industrial: un relé, un variador, un PLC, un
+módulo de E/S, un regulador de temperatura.
+
+Se compone siempre de dos piezas que encajan entre sí:
+- **Parte hembra (base / regleta)**: se suelda a la placa de circuito
+  impreso. Es la que queda fija en el equipo.
+- **Parte macho (conector / enchufe)**: se cablea en campo. Cuando hay
+  que desconectar el equipo, se tira del macho y la base queda en la placa.
+
+**¿Por qué no cablear directamente en la placa?**
+Porque si el equipo se avería y hay que sustituirlo, basta con desenchufar
+el conector (sin desmontar el cableado) y enchufarlo en el equipo nuevo.
+Es la diferencia entre 2 minutos de sustitución y 1 hora de recableado.
+
+============================================================
+
+PHOENIX CONTACT — DOMINADOR DEL MERCADO (32.190 art. en Araiz)
+--------------------------------------------------------------
+Phoenix Contact es el fabricante de referencia mundial en conectores para
+circuitos impresos y bornas industriales. Su catálogo en Araiz es
+el mayor de cualquier marca en la subfamilia de Conectores.
+
+**Gamas principales Phoenix Contact para PCB:**
+
+**MSTB — la más vendida en España**
+Conector desmontable con tornillo. Paso 5,08 mm entre pines.
+- Corriente máxima: 12A por pin
+- Sección cable: 0,2 a 2,5 mm²
+- Número de pines: 2 a 24
+- Color: gris (estándar), verde (versión PCB soldada)
+- La base (GMSTB) se suelda en la placa; el macho (MSTB-ST) se cablea.
+- Uso típico: módulos de E/S de PLCs, reguladores de temperatura, relés.
+
+**MC — paso 3,81 mm (miniatura)**
+Versión compacta del MSTB para aplicaciones donde el espacio en la placa
+es reducido. Misma función, menor paso entre pines.
+- Corriente máxima: 8A por pin
+- Sección cable: hasta 1,5 mm²
+
+**FMC — conexión por resorte (sin tornillo)**
+Conexión por muelle — el cable se inserta y el muelle lo sujeta.
+Ventaja: no se aflojan con las vibraciones. Más rápido de cablear.
+Gana terreno en instalaciones de alta vibración y en automatización
+donde se cablea en serie a gran velocidad.
+
+**IC — paso 2,54 mm (electrónica de señal)**
+Para señales de bajo nivel (4-20mA, 0-10V, señales de bus). Corrientes
+pequeñas, paso muy pequeño, sección de cable hasta 0,5 mm².
+
+**Paso de conector — tabla rápida:**
+| Paso (mm) | Gama        | Corriente máx. | Para qué                          |
+|-----------|-------------|----------------|-----------------------------------|
+| 2,54      | IC          | 2A             | Señales, comunicación             |
+| 3,81      | MC          | 8A             | Control, señales medianas         |
+| 5,08      | MSTB        | 12A            | Potencia baja, E/S industriales   |
+| 7,62      | ST          | 16A            | Potencia media                    |
+| 10,16     | HV          | 32A            | Potencia alta                     |
+
+============================================================
+
+WEIDMULLER — LA ALTERNATIVA (16.545 art.)
+--------------------------------------------------------------
+Weidmuller es el segundo fabricante en importancia dentro de Araiz en
+este segmento. Sus conectores son 100% compatibles con los de Phoenix
+Contact en cuanto a función — se pueden mezclar en una misma instalación
+si el paso de pines coincide.
+
+**Gamas principales Weidmuller:**
+- **B2L**: equivalente al MSTB de Phoenix Contact. Paso 5,08mm, tornillo.
+- **BCZ**: versión con conexión por resorte. Equivalente al FMC.
+- **BLA**: paso 3,81mm, equivalente al MC.
+- **SL/SLS**: conectores para PCB con paso 2,54mm.
+
+**Weidmuller vs Phoenix Contact:**
+| Característica     | Phoenix Contact      | Weidmuller           |
+|--------------------|----------------------|----------------------|
+| Calidad            | Alta                 | Alta (equivalente)   |
+| Compatibilidad     | Solo entre sí        | Solo entre sí        |
+| Disponibilidad     | Muy alta en Araiz    | Alta en Araiz        |
+| Precio             | Referencia           | Ligeramente inferior |
+| Documentación      | Excelente (web CAD)  | Muy buena            |
+
+IMPORTANTE: un conector Phoenix Contact NO encaja en una base Weidmuller
+aunque el paso sea el mismo — son sistemas propietarios dentro de su gama.
+Siempre hay que usar la base y el macho de la misma marca.
+
+============================================================
+
+CÓMO IDENTIFICAR UN CONECTOR PARA SUSTITUIRLO
+--------------------------------------------------------------
+Cuando el cliente necesita reponer un conector roto o pedir más unidades:
+
+1. **Busca el nombre de marca en el conector** (Phoenix Contact / Weidmuller)
+2. **Mide el paso** entre los centros de los pines (en mm)
+3. **Cuenta el número de pines** (polos)
+4. **Determina si es macho o hembra** (¿va cables o va en la placa?)
+5. **Tipo de tornillo o resorte** (conexión por tornillo o push-in)
+
+Con esos 5 datos se identifica la referencia exacta en el catálogo.
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                    | Por qué                                         |
+|----|-------------------------------------------------------------|-------------------------------------------------|
+| 1  | ¿Qué marca es el conector que tiene instalado?             | Phoenix Contact y Weidmuller no son compatibles |
+| 2  | ¿Cuántos pines tiene el conector?                          | Determina el número de polos                    |
+| 3  | ¿Cuál es el paso entre pines? ¿Tiene referencia?           | Define la gama (MSTB/MC/FMC...)                 |
+| 4  | ¿Es el macho (con cables) o la base (soldada en placa)?    | Son referencias distintas                       |
+| 5  | ¿Cuántas unidades necesita?                                 | Los conectores se venden por unidad o en tiras  |
+| 6  | ¿Tiene la referencia impresa en el conector?               | Phoenix Contact la imprime siempre en el plástico|
+
+CONSEJO: La referencia suele estar impresa en el conector en letra muy
+pequeña. Pide al cliente que la busque con lupa o que haga una foto.
+Con la referencia exacta, la búsqueda en Araiz es inmediata.
+El MSTB 2,5/X-ST (X = número de pines) es el conector Phoenix Contact
+más pedido en España para instalaciones industriales estándar.
+Si el cliente solo sabe que es "Phoenix Contact de 3 pines", preguntar
+si tiene tornillo o resorte y medir el paso — casi siempre es MSTB 5,08mm.
+
+============================================================
+Fuentes:
+- Phoenix Contact conectores PCB: https://www.phoenixcontact.com/es-es/products/printed-circuit-board-connectors
+- Weidmuller conectores PCB: https://www.weidmuller.com/es/products/connectors/
+============================================================

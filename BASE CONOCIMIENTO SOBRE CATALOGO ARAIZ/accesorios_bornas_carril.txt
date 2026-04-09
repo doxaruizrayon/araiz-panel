@@ -1,0 +1,160 @@
+CUADRO RESUMEN — ACCESORIOS DE BORNAS Y CARRIL DIN
+Familia: Electricidad > Material de conexión eléctrica > Bornas
+Ejemplo en Araiz: Phoenix Contact ref. D-UK 2,5 (Tapa final para borna UK 2,5 carril DIN)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"accesorios bornas carril DIN tapas puentes identificacion" o "carril omega DIN cuadro electrico"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Los accesorios de bornas son los elementos complementarios que completan
+una regleta de bornas en el cuadro: las tapas de cierre, los puentes
+de interconexión, los separadores, las marcas de identificación y el
+carril donde se montan todas las bornas.
+
+Aunque parecen secundarios, son imprescindibles — sin tapa final la
+borna queda sin protección eléctrica, y sin identificación el cuadro
+no cumple la normativa de seguridad.
+
+============================================================
+
+ACCESORIO 1: TAPAS FINALES E INTERMEDIAS (674 art.)
+--------------------------------------------------------------
+Las tapas van en los extremos de la regleta de bornas para cerrar
+eléctricamente el último borne y evitar contactos accidentales.
+
+**Tipos:**
+- **Tapa final (D-UK)**: cierra el extremo de la regleta. Obligatoria
+  en toda regleta bien terminada.
+- **Tapa intermedia / separador**: se coloca entre grupos de bornas
+  para separar visualmente circuitos distintos (ej. 230V AC / 24V DC).
+  Algunos son de color para facilitar la identificación.
+
+**Phoenix Contact**: D-UK 2,5 (tapa para UK 2,5), D-UK 5 (para UK 5)...
+El número indica la gama de borna a la que corresponde — no son intercambiables.
+
+**Placas de soporte (end bracket):**
+Pieza de plástico que va al final de la regleta y se fija con tornillo
+al carril. Evita que las bornas se desplacen lateralmente.
+
+============================================================
+
+ACCESORIO 2: PUENTES INTERCONECTORES (660 art.)
+--------------------------------------------------------------
+Un puente (o peine conector) conecta eléctricamente varias bornas entre
+sí en un solo golpe — en vez de cablear con un hilo entre borna y borna.
+
+**Cuándo se usa:**
+- Cuando varias bornas deben tener el mismo potencial (+24V o GND)
+- Distribución de una misma señal a múltiples puntos
+- Ahorro de espacio y tiempo — un puente sustituye N cables
+
+**Tipos:**
+| Tipo      | Descripción                                              |
+|-----------|----------------------------------------------------------|
+| Peine     | Barra con pines que entra en las ranuras de las bornas. Cortas a la medida que necesitas (de 2 a 50 bornas) |
+| Puente 2P | Solo conecta 2 bornas adyacentes                        |
+| Puente con aislamiento | Peine con cubierta de seguridad               |
+
+**Phoenix Contact FBS**: peines estándar para la gama UK.
+Se compran en tiras largas (10, 25, 50 posiciones) y se cortan con
+alicates al número de bornas que se quiere conectar.
+
+**Importante:** el peine debe ser de la misma gama que la borna (FBS 2
+para UK 2,5, FBS 4 para UK 4...). Un peine de paso 5,08mm no entra
+en una borna de paso 6mm.
+
+============================================================
+
+ACCESORIO 3: CARRIL DIN / OMEGA (239 art.)
+--------------------------------------------------------------
+El carril DIN (también llamado carril Omega o carril de sombrero por su
+forma en sección) es el perfil metálico en el que se enganchan las bornas,
+los magnetotérmicos, los contactores y casi cualquier aparato de cuadro.
+
+**Tipos de carril DIN:**
+| Tipo        | Ancho  | Perfil  | Para qué                          |
+|-------------|--------|---------|-----------------------------------|
+| DIN 35mm    | 35mm   | Omega   | Estándar universal — el más usado |
+| DIN 15mm    | 15mm   | C       | Aparatos pequeños, cuadros compactos|
+| DIN 75mm    | 75mm   | Especial| Aparatos de gran tamaño           |
+
+**DIN 35mm** es el estándar mundial. Todos los aparatos de cuadro
+(bornas, magnetotérmicos, contactores, relés) están diseñados para este carril.
+
+**Materiales:**
+- Acero galvanizado: el más habitual. Económico y suficiente para la
+  mayoría de instalaciones.
+- Acero inoxidable: para ambientes corrosivos (alimentaria, química, marino).
+- Aluminio: cuando se necesita ligereza o resistencia a la corrosión.
+
+**Phoenix Contact, Weidmuller, Schneider, Legrand** fabrican carril DIN.
+La diferencia entre marcas es mínima — el carril cumple el mismo estándar.
+Se corta a medida con sierra o cortacarriles. Viene en barras de 1 o 2 metros.
+
+============================================================
+
+ACCESORIO 4: IDENTIFICADORES Y ETIQUETAS (167 art.)
+--------------------------------------------------------------
+Cada borna debe identificarse con un número o texto que corresponda al
+plano eléctrico. La normativa IEC 60439 requiere que los cuadros eléctricos
+tengan sus bornas identificadas.
+
+**Sistemas de identificación:**
+| Sistema       | Descripción                                              | Para qué                    |
+|---------------|----------------------------------------------------------|-----------------------------|
+| Marcadores tipo U| Tarjetas pequeñas que se insertan en la borna         | Números, letras, símbolos   |
+| Etiqueta adhesiva| Pegatina que va en la borna o en la tapa final       | Texto libre                 |
+| Tira imprimible  | Tira de plástico que se imprime y se inserta          | Grandes series de bornas    |
+
+**Phoenix Contact KMKK / ZB**: marcadores intercambiables para la gama UK.
+Se imprimen con software (CLIPLINE complete) o se escriben a mano.
+
+**Weidmuller Klippon Print**: sistema equivalente con software propio.
+
+**Software de marcado:**
+Ambas marcas ofrecen software gratuito para PC donde se diseña la
+identificación y se imprime en impresoras de transferencia térmica.
+El resultado es profesional y duradero — no se borra con aceite ni
+con productos de limpieza.
+
+============================================================
+
+ACCESORIO 5: SISTEMAS DE CODIFICACIÓN DE CABLES (116 art.)
+--------------------------------------------------------------
+Elementos para identificar los cables dentro del cuadro:
+- **Espirales de identificación**: anillos de colores que se colocan
+  en el cable para indicar la fase o el circuito.
+- **Bridas con marcador**: brida que sujeta el cable y lleva un espacio
+  para escribir o insertar un marcador.
+- **Tubos termorretráctiles con impresión**: se imprime el número y se
+  aplica calor — el tubo se contrae y queda fijo en el cable.
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                    | Por qué                                         |
+|----|-------------------------------------------------------------|-------------------------------------------------|
+| 1  | ¿Qué gama de bornas tiene? (UK 2,5, UK 4, WDU...)          | Los accesorios son específicos de cada gama     |
+| 2  | ¿Cuántas bornas tiene la regleta?                           | Para calcular los peines y tapas necesarios     |
+| 3  | ¿Necesita carril DIN? ¿Cuántos metros?                      | Se corta a medida — pedir con margen            |
+| 4  | ¿Tiene identificación en las bornas o necesita marcadores?  | Para presupuestar los marcadores y etiquetas    |
+| 5  | ¿Tiene software de marcado o prefiere marcadores en blanco? | Con software → tiras imprimibles; sin → en blanco|
+
+CONSEJO: En presupuestos de cuadros eléctricos, no olvidar incluir:
+- Tapas finales: al menos 2 por regleta (uno en cada extremo)
+- Separadores: uno entre grupos de tensión distintos
+- Carril DIN: calcular longitud con 10% de margen
+- Marcadores: uno por borna (o tira imprimible de la longitud de la regleta)
+Es habitual que el cliente pida solo las bornas y luego llame para pedir
+los accesorios que se olvidó — pregunta siempre si tiene el resto.
+
+============================================================
+Fuentes:
+- Phoenix Contact accesorios UK: https://www.phoenixcontact.com/es-es/products/terminal-blocks/accessories
+- Weidmuller accesorios: https://www.weidmuller.com/es/products/terminal_blocks/accessories/
+============================================================

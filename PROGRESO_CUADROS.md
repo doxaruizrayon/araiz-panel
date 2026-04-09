@@ -3,7 +3,8 @@ Iniciado: 2026-04-07
 Última actualización: 2026-04-07
 
 ## Estado actual
-- **Total cuadros en panel: 172**
+- **Total cuadros en panel: 178**
+- **Última actualización:** 2026-04-09
 - **Grupo Autómatas programables:** 56 cuadros ✅ COMPLETO
 - **Grupo Contactores:** 11 cuadros ✅ COMPLETO (2026-04-07)
 - **Grupo Reles:** 11 cuadros ✅ COMPLETO (2026-04-07)
@@ -31,6 +32,35 @@ Iniciado: 2026-04-07
 - **Grupo Interruptor de pedal:** 1 cuadro ✅ COMPLETO (2026-04-09)
 - **Grupo Autómatas programables (sub-grupo Aparellaje):** cubierto por los lotes A/B/C de Autómatas (56 cuadros) ✅
 - **⭐ SUBFAMILIA APARELLAJE ELÉCTRICO: TODOS LOS GRUPOS COMPLETADOS (2026-04-09)**
+
+---
+## SUBFAMILIA ACTUAL: Material de conexión eléctrica (93.473 art. totales en Araiz)
+
+### Grupos de esta subfamilia (orden por tamaño):
+| # | Grupo | Art. | Estado |
+|---|-------|------|--------|
+| 1 | Conectores | 50.412 | ✅ COMPLETO (2026-04-09) — 3 cuadros |
+| 2 | Bornas | 25.237 | ✅ COMPLETO (2026-04-09) — 3 cuadros |
+| 3 | Prensaestopas, racores y otros accesorios | 4.843 | ⏳ PENDIENTE |
+| 4 | Etiquetas e identificadores para bornes y circuitos | 3.643 | ⏳ PENDIENTE |
+| 5 | Terminales | 3.248 | ⏳ PENDIENTE |
+| 6 | Tomas de corriente industriales | 3.148 | ⏳ PENDIENTE |
+| 7 | Pletinas y embarrados | 937 | ⏳ PENDIENTE |
+| 8 | Terminaciones y empalmes | 572 | ⏳ PENDIENTE |
+| 9 | Regletas y PDU | 519 | ⏳ PENDIENTE |
+| 10 | Repartidores | 518 | ⏳ PENDIENTE |
+| 11 | Material para puesta a tierra | 396 | ⏳ PENDIENTE |
+
+### Cuadros escritos para esta subfamilia:
+- `conectores_regleta_pcb.txt` — Phoenix Contact MSTB/MC/FMC, Weidmuller BCZ — conectores para PCB
+- `conectores_industriales_circulares.txt` — M12/M8, Harting Han, ILME/Gaestopas multipolares
+- `cables_sensor_actuador_m12.txt` — Cables SAC pre-ensamblados Phoenix Contact + Murrelektronik
+- `bornas_carril_din_phoenix.txt` — UK/SAK/PTFIX Phoenix Contact, WDU Weidmuller, Viking3 Legrand, 8WH Siemens
+- `bornas_especiales_funcionales.txt` — Bornas seccionables, con fusible, de tierra, sensor/actuador
+- `accesorios_bornas_carril.txt` — Tapas, puentes/peines, carril DIN Omega, marcadores, identificación
+
+### SIGUIENTE PASO: Grupo "Prensaestopas, racores y otros accesorios" (4.843 art.)
+
 - **Panel:** activo en localhost:5192
 
 ---
