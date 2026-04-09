@@ -1,0 +1,111 @@
+CUADRO RESUMEN — PILOTOS LUMINOSOS, INDICADORES Y LÁMPARAS PARA PULSATERÍA
+Familia: Electricidad > Aparellaje eléctrico > Pulseteria
+Ejemplo en Araiz: Schneider ref. XB5AVB3 (Piloto luminoso verde LED 24V Harmony XB5)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"piloto luminoso industrial 22mm LED montaje" o "piloto indicador cuadro eléctrico"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Los pilotos luminosos (también llamados indicadores luminosos o luces piloto)
+son luces que se montan en la puerta del armario o en el pupitre de mando para
+indicar visualmente el estado de la máquina o del circuito: encendido, en
+automático, alarma activa, fallo, etc.
+
+Se montan en el mismo taladro de 22mm que los pulsadores y forman parte del
+mismo sistema de pulsatería de cada marca.
+
+**COMPONENTES:**
+
+1. **Piloto completo** — Cabezal + base con LED + cuerpo, listo para instalar.
+   Solo hay que conectar los dos cables (alimentación del LED).
+
+2. **Cabezal / Elemento frontal** — La parte visible con la lente de color.
+   Se vende suelto como repuesto cuando la lente se rompe o descolora.
+
+3. **Base portapilotos** — La parte eléctrica con el LED o portalámparas.
+   Incluye el LED y los terminales de conexión. Si el LED se funde (raro pero
+   posible), se cambia esta pieza.
+
+4. **Tapa / Lente de color** — La parte transparente coloreada que se ve
+   desde fuera. Se vende como repuesto en todos los colores.
+
+5. **Lámpara de repuesto** — Para pilotos antiguos que usan bombilla incandescente
+   o neón en vez de LED. Las nuevas instalaciones son todas LED.
+
+**COLORES (misma norma que pulsadores — IEC 60073):**
+| Color | Significado en piloto |
+|-------|-----------------------|
+| Verde | Máquina en marcha / todo OK |
+| Rojo | Fallo / alarma / paro por fallo |
+| Amarillo/Ámbar | Precaución / atención necesaria |
+| Azul | Condición especial / intervención requerida |
+| Blanco | Tensión presente / uso general |
+
+**TENSIONES DE ALIMENTACIÓN:**
+- 24V AC/DC — La más habitual en cuadros de automatización.
+- 230V AC — Para cuadros de distribución y residencial.
+- 110V AC — Menos habitual, instalaciones antiguas.
+- LED integrado: la base portapilotos incluye el LED y la electrónica de
+  adaptación a la tensión. NO se puede conectar un piloto de 24V a 230V.
+
+Lo que facilita:
+- Ver de un vistazo el estado de la máquina sin abrir el armario.
+- Identificar rápidamente qué circuito tiene tensión o está en fallo.
+- Reemplazar solo la pieza dañada (lente, LED, base) sin cambiar todo.
+
+Lo que evita que ocurra:
+- Que el operario no se entere de una alarma o un fallo.
+- Confusión sobre qué circuito está activo (código de colores estandarizado).
+
+============================================================
+
+MODELOS EN ARAIZ (~1.330 artículos)
+--------------------------------------------------------------
+| Tipo                     | Marca           | Serie               | Para qué                      |
+|--------------------------|-----------------|---------------------|-------------------------------|
+| Piloto completo LED      | Schneider       | XB5AVB (24V)         | Piloto estándar 24V           |
+| Piloto completo LED      | Schneider       | XB5AVM (230V)        | Piloto estándar 230V          |
+| Piloto completo LED      | Siemens         | 3SU1152/3SU1156      | Piloto SIRIUS ACT             |
+| Piloto completo LED      | Eaton           | M22-L / M22-LH       | Piloto Eaton M22              |
+| Piloto completo LED      | ABB             | Modular CL2          | Piloto ABB                    |
+| Cabezal piloto           | Schneider       | ZB5AV0               | Repuesto cabezal              |
+| Cabezal piloto           | Siemens         | 3SU1001-6AA          | Repuesto cabezal Siemens      |
+| Cabezal piloto           | Eaton           | M22-L-x              | Repuesto cabezal Eaton        |
+| Base portapilotos LED    | Schneider       | ZBVM / ZBVB          | Base con LED 24V/230V         |
+| Base portapilotos LED    | Siemens         | 3SU1401              | Base LED Siemens              |
+| Tapa/lente color         | Eaton           | M22-XL               | Repuesto lente de color       |
+| Tapa/lente color         | Schneider       | ZBV0                 | Repuesto lente Schneider      |
+| Lámpara repuesto         | Schneider/ABB   | DL1 / KA1            | Bombilla/LED repuesto antiguo |
+| Piloto carril DIN        | ABB             | E219 series          | Piloto modular en cuadro      |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                | Por qué la necesitas                                          |
+|----|----------------------------------------------------------|------------------------------------------------------------- |
+| 1  | Qué marca tiene instalada?                              | Los pilotos NO son intercambiables entre marcas               |
+| 2  | Qué tensión de alimentación? (24V, 230V, 110V)          | Cada tensión es un modelo/base diferente                      |
+| 3  | Qué color?                                              | Define la lente del piloto                                    |
+| 4  | Piloto completo o pieza de repuesto?                    | Completo = nuevo; repuesto = cabezal, lente o base sola       |
+| 5  | LED o incandescente?                                    | Incandescente = instalación antigua, LED = todo lo nuevo      |
+
+CONSEJO: Los pilotos luminosos son un consumible habitual como repuesto — las
+lentes se rompen por golpes y los LED pueden fallar tras años de uso.
+Schneider vende el piloto completo (XB5AVB3 = verde 24V) o las 3 piezas por
+separado (cabezal + base LED + cuerpo). Para instalación nueva, pedir completo.
+Para repuesto, identificar qué pieza falla y pedir solo esa.
+Error típico: el cliente pide "un piloto verde" sin especificar la tensión.
+Un piloto de 24V conectado a 230V se quema instantáneamente. Confirmar SIEMPRE
+la tensión del circuito de mando.
+
+============================================================
+Fuentes:
+- Schneider pilotos Harmony: https://www.se.com/es/es/product-range/832-harmony-xb4/
+- Siemens pilotos SIRIUS ACT: https://www.siemens.com/es/es/productos/automatizacion/aparamenta/sirius-act.html
+- Eaton pilotos M22: https://www.eaton.com/es/es-es/catalog/industrial-controls/m22.html
+============================================================

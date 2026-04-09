@@ -1,0 +1,98 @@
+CUADRO RESUMEN — SISTEMAS DE ALARMA, DETECCIÓN DE INCENDIO E INTRUSIÓN
+Familia: Electricidad > Aparellaje eléctrico > Accesorios
+Ejemplo en Araiz: Hager ref. TG558A (Central alarma intrusión Sepio 8 zonas)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"sistema alarma intrusión instalación" o "detector incendio tipos normativa"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Este cuadro agrupa los sistemas de detección y alarma que protegen personas y
+bienes frente a incendios e intrusiones. Aunque no son aparellaje eléctrico en
+sentido estricto, se comercializan dentro del catálogo eléctrico porque se
+instalan junto con la instalación eléctrica del edificio.
+
+**1. CENTRALES Y KITS DE ALARMA INTRUSIÓN (~25 art.)**
+Sistemas para detectar la entrada no autorizada en un local o vivienda:
+central de alarma (cerebro del sistema), detectores de movimiento (PIR),
+contactos magnéticos para puertas/ventanas, sirenas, teclados.
+Se venden como kits (central + detectores + sirena) o por componentes.
+Marcas: Hager (Sepio), Legrand.
+
+**2. DETECTORES DE INCENDIO (~20 art.)**
+Detectores de humo ópticos (detectan partículas de humo), detectores
+termovelocimétricos (detectan subida rápida de temperatura), pulsadores
+manuales de alarma (el típico botón rojo de romper cristal). Se conectan
+a una central de incendio o funcionan autónomos (detectores domésticos con
+pila). Obligatorios por CTE en muchos tipos de edificio.
+Marcas: Legrand, Hager, Siemens.
+
+**3. MÓDULOS AFDD — DETECCIÓN DE ARCO ELÉCTRICO (~15 art.)**
+Dispositivos que detectan arcos eléctricos en serie (cables dañados, conexiones
+sueltas) que pueden provocar incendio. Se instalan en el cuadro eléctrico
+junto al magnetotérmico. Detectan el patrón eléctrico del arco y desconectan
+el circuito antes de que el cable se incendie. Normativa reciente los recomienda
+en locales de pública concurrencia y con riesgo de incendio (IEC 62606).
+AFDD = Arc Fault Detection Device.
+Marcas: Siemens (5SM6), Schneider, ABB, Hager.
+
+**4. SIRENAS, DETECTORES COMPLEMENTARIOS (~22 art.)**
+Sirenas exteriores/interiores, detectores de rotura de cristal, barreras
+infrarrojas, repetidores de señal inalámbricos, fuentes de alimentación
+para centrales. Complementan los sistemas de alarma básicos.
+
+Lo que facilita:
+- Proteger locales comerciales y viviendas contra intrusión (alarma).
+- Detectar incendios en fase temprana antes de que se propaguen (detectores).
+- Prevenir incendios eléctricos por arcos en cables dañados (AFDD).
+
+Lo que evita que ocurra:
+- Robos e intrusiones no detectadas (alarma intrusión).
+- Incendios no detectados a tiempo (detectores humo/calor).
+- Incendios por cables deteriorados con arco eléctrico (AFDD).
+
+============================================================
+
+MODELOS EN ARAIZ (~82 artículos)
+--------------------------------------------------------------
+| Tipo                     | Marca           | Serie               | Para qué                      |
+|--------------------------|-----------------|---------------------|-------------------------------|
+| Central alarma intrusión | Hager           | Sepio (TG55x)       | Cerebro del sistema alarma    |
+| Kit alarma completo      | Hager           | TG5xx               | Central + detectores + sirena |
+| Detector movimiento PIR  | Hager / Legrand | TG55x               | Detectar personas             |
+| Detector humo óptico     | Legrand         | 0408xx              | Detectar humo incendio        |
+| Pulsador alarma incendio | Legrand         | 0381xx              | Alarma manual de incendio     |
+| AFDD 1P+N               | Siemens         | 5SM6                | Detección arco eléctrico      |
+| AFDD 1P+N               | Hager           | ARC9xx              | Detección arco eléctrico      |
+| Sirena exterior          | Hager           | TG55x               | Alarma sonora visible         |
+| Contacto magnético       | Hager           | TG55x               | Detectar apertura puerta      |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                | Por qué la necesitas                                          |
+|----|----------------------------------------------------------|------------------------------------------------------------- |
+| 1  | Es para intrusión (robo) o para incendio?               | Sistemas completamente diferentes                             |
+| 2  | Cuántas zonas / detectores necesita?                    | Define el tamaño de la central                                |
+| 3  | Con cable o inalámbrico?                                | Inalámbrico para reforma, con cable para obra nueva           |
+| 4  | Si AFDD: para qué circuitos? Cuántos polos?            | Un AFDD por circuito a proteger                               |
+| 5  | Tipo de local? (vivienda, comercio, industria, público) | Define las obligaciones normativas (CTE, REBT)                |
+
+CONSEJO: Los AFDD (detección de arco) son un producto relativamente nuevo en España
+y muchos instaladores aún no los conocen. La normativa IEC 62606 los recomienda en:
+dormitorios de residencias, locales con riesgo de incendio, edificios con estructura
+de madera. Son un buen producto para ofrecer proactivamente en proyectos nuevos.
+Los sistemas de alarma Hager Sepio son sencillos y orientados a vivienda/pequeño
+comercio — para instalaciones grandes (hospitales, centros comerciales) se necesitan
+marcas especializadas que Araiz no suele tener en catálogo.
+
+============================================================
+Fuentes:
+- Hager Sepio: https://www.hager.com/es/catalogo/proteccion-alarma/
+- Siemens AFDD 5SM6: https://www.siemens.com/es/es/productos/automatizacion/aparamenta.html
+- CTE DB-SI: https://www.codigotecnico.org/DocumentosCTE/SeguridadIncendio.html
+============================================================

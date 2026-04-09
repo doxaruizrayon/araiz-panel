@@ -1,0 +1,96 @@
+CUADRO RESUMEN — CONTROLADOR DE TEMPERATURA E5GC / E5AN (FORMATO COMPACTO 48x24mm)
+Familia: Electricidad > Aparellaje eléctrico > Autómatas programables y robots industriales
+Ejemplo en Araiz: Omron ref. E5GC-RX1A6M-000 (Controlador temperatura 48x24mm salida relé 100-240V)
+============================================================
+
+IMAGEN DEL PRODUCTO:
+https://www.ia.omron.com/products/family/3419/
+
+VÍDEO / REFERENCIA TÉCNICA:
+https://industrial.omron.co.uk/en/products/e5gc
+
+Búsqueda recomendada en YouTube (español):
+"controlador temperatura compacto PID E5GC Omron" o "termostato industrial 48x24 panel DIN"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+El E5GC / E5AN es la versión compacta del controlador de temperatura de Omron:
+misma función que el E5CC (regular temperatura con control PID), pero en formato
+de 1/16 DIN (48x24 mm) — la mitad de ancho que el E5CC estándar (48x48 mm).
+Se instala en la puerta del armario o en el panel de la máquina cuando el espacio
+es muy reducido o cuando se necesitan varios reguladores en fila dentro de un panel
+estrecho. Acepta termopares (tipo K, J, T...) y sondas PT100, tiene salida de relé
+o transistor para controlar calefactores o resistencias calefactoras, y mantiene la
+temperatura en el punto de consigna mediante el algoritmo PID. Ideal para máquinas
+de envasado, termoformado, extrusoras y cualquier proceso con múltiples zonas de
+temperatura que necesitan muchos controladores en poco espacio.
+
+Lo que facilita:
+- Instalar más controladores de temperatura en el mismo panel sin ampliar el armario:
+  en el espacio de un E5CC caben dos E5GC en paralelo.
+- Regular hasta 2 zonas de temperatura independientes en un espacio reducido.
+- Mismas funciones PID que el E5CC en un equipo más pequeño: autotune, alarmas,
+  comunicación RS485 (CompoWay/F) con el PLC.
+- Sustituir reguladores de temperatura compactos de otras marcas por el E5GC
+  manteniendo el mismo hueco de panel.
+
+Lo que evita que ocurra:
+- Tener que ampliar el cuadro eléctrico para añadir más zonas de temperatura:
+  el formato compacto permite densidad alta de controladores.
+- Oscilaciones de temperatura en procesos sensibles: el control PID con autotune
+  ajusta los parámetros automáticamente sin intervención del técnico.
+
+============================================================
+
+DIFERENCIA CLAVE: E5GC (compacto) vs E5CC (estándar)
+--------------------------------------------------------------
+| Característica          | E5GC / E5AN (compacto)           | E5CC (estándar, ya documentado)  |
+|-------------------------|----------------------------------|----------------------------------|
+| Formato                 | 48x24 mm (1/16 DIN)              | 48x48 mm (1/8 DIN)               |
+| Ancho                   | 24 mm                            | 48 mm                            |
+| Control PID             | Sí — mismas funciones            | Sí                               |
+| Comunicación            | RS485 CompoWay/F                 | RS485 CompoWay/F                 |
+| Pantalla                | Menor (2 dígitos)                | Mayor (4 dígitos)                |
+| Para qué                | Muchas zonas en poco espacio     | Instalaciones estándar           |
+| Precio                  | Similar / ligeramente menor      | Referencia estándar              |
+
+============================================================
+
+MODELOS E5GC A CONOCER
+--------------------------------------------------------------
+| Modelo              | Salida       | Alimentación | Para qué                          |
+|---------------------|-------------|--------------|-----------------------------------|
+| E5GC-RX1A6M-000    | Relé         | 100-240V AC  | El más habitual — calefactores AC |
+| E5GC-QX1A6M-000    | Transistor  | 100-240V AC  | SSR externo (solid state relay)   |
+| E5GC-RX1D6M-000    | Relé         | 24V DC       | Armarios con bus de 24V DC        |
+
+NOTA: El sufijo "M-000" indica versión con comunicación RS485. Sin comunicación el
+sufijo termina en "-000" sin la M. Para conectar varios E5GC al PLC por RS485, pedir
+la versión con comunicación (M).
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                               | Por qué la necesitas                                          |
+|----|--------------------------------------------------------|---------------------------------------------------------------|
+| 1  | ¿Cuántas zonas de temperatura necesita controlar?      | Si son muchas zonas → E5GC por su formato compacto           |
+| 2  | ¿Qué tipo de sonda usa? (termopar K/J o PT100)         | Define el modelo de entrada del E5GC                         |
+| 3  | ¿La alimentación del cuadro es 230V AC o 24V DC?        | Define la versión de alimentación                            |
+| 4  | ¿Controla calefactor directo o SSR externo?             | Relé → calefactor directo / Transistor → SSR externo         |
+| 5  | ¿Necesita comunicación con el PLC?                     | Si sí → versión con RS485 (sufijo M)                        |
+| 6  | ¿Es sustitución de un regulador existente?             | Si sí → verificar el hueco de panel (48x24mm o 48x48mm)     |
+
+CONSEJO: El E5GC se vende normalmente cuando el cliente ya usa E5CC y necesita más
+zonas de temperatura en el mismo armario. Si un cliente dice "necesito 8 controladores
+de temperatura pero no me caben en el cuadro", el E5GC en formato 48x24mm es la
+respuesta — en el mismo espacio de 4 E5CC caben 8 E5GC. Siempre verificar el tamaño
+del hueco existente antes de proponer el modelo.
+
+============================================================
+Fuentes:
+- Omron E5GC (oficial): https://www.ia.omron.com/products/family/3419/
+- Omron E5AN series: https://www.ia.omron.com/products/family/154/
+============================================================

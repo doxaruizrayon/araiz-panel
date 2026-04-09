@@ -1,0 +1,114 @@
+CUADRO RESUMEN — PORTAFUSIBLES GENÉRICOS, BASES MODULARES Y SECCIONADORES CON FUSIBLE
+Familia: Electricidad > Aparellaje eléctrico > Portafusibles y fusibles industriales
+Ejemplo en Araiz: Eaton ref. 170H3003 (Seccionador con fusible NH tamaño 3 630A)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"seccionador fusible NH industrial" o "portafusible modular carril DIN cuadro"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Este cuadro agrupa los equipos de soporte y maniobra para fusibles que no se han
+cubierto en los cuadros específicos de cada tipo de fusible. Incluye portafusibles
+genéricos, bases modulares para carril DIN, seccionadores con fusible incorporado
+y bloques de terminales fusibleados.
+
+**1. SECCIONADOR CON FUSIBLE NH (~31 art.)**
+Aparato que combina un seccionador (interruptor de corte visible) con un fusible
+NH en un mismo equipo. Permite:
+- Abrir y cerrar el circuito bajo carga de forma segura (función seccionador).
+- Proteger el circuito contra cortocircuito (función fusible).
+- Reemplazar el fusible con el circuito abierto y bloqueado (seguridad LOTO).
+Se usa en cabeceras de cuadros y alimentaciones principales.
+Marcas: Eaton (UNISIZE), Siemens (3NP), ABB.
+
+**2. PORTAFUSIBLE GENÉRICO PARA BAJA TENSIÓN (~106 art.)**
+Bases portafusibles que aceptan distintos formatos de fusible según el modelo.
+Incluye bases para montaje en cuadro, en carril DIN o en panel. Son las bases
+"universales" que no están atadas a un formato concreto.
+Marcas: Eaton, Siemens, Gave, Crady.
+
+**3. BASE PARA MONTAJE EN CAJA DE DISTRIBUCIÓN (~15 art.)**
+Bases portafusibles diseñadas para integrarse en cajas de distribución modulares
+(como las cajas de Gewiss o ABB). Se montan en carril DIN y aceptan fusibles
+cilíndricos o D0/Neozed según el modelo.
+Marcas: ABB, Gewiss, Eaton.
+
+**4. BLOQUE DE TERMINAL CON FUSIBLE (~7 art.)**
+Bornes de conexión para carril DIN que incorporan un fusible miniatura en su
+interior. Se usan para proteger individualmente cada señal de un sistema de
+control: entradas analógicas, lazos 4-20mA, alimentaciones de sensores.
+Formato: fusible 5x20mm dentro de un borne de carril DIN.
+Marcas: Weidmuller (WSI), Phoenix Contact (UT-FUSE).
+
+**5. ACCESORIOS GENERALES PARA FUSIBLES (~95 art.)**
+Accesorios comunes a varios tipos de fusible:
+- Manoplas de extracción de fusibles NH.
+- Tapas de protección para bornes de bases.
+- Contactos auxiliares de señalización (indican fusible fundido).
+- Pletinas y adaptadores para conexión de bases a barras de cobre.
+- Indicadores de fusión (LED o mecánicos).
+Marcas: Siemens, Eaton, Weidmuller, Rittal.
+
+**6. PORTAFUSIBLES PARA FOTOVOLTAICA DC (~20 art.)**
+Bases portafusibles especiales para corriente continua con tensiones de 1000V DC
+o 1500V DC. Se montan en string boxes solares. Algunos integran conector MC4.
+Marcas: Sofamel, Phoenix Contact, Wohner.
+
+Lo que facilita:
+- Cortar y proteger circuitos principales con un solo equipo (seccionador-fusible).
+- Proteger señales de control individualmente (bornes fusibleados).
+- Montar fusibles en cualquier formato de cuadro (bases modulares).
+
+Lo que evita que ocurra:
+- Manipulación de fusibles con el circuito en tensión (seccionador desconecta primero).
+- Pérdida de todo un sistema de control por un cortocircuito en una señal (borne fusible).
+
+============================================================
+
+MODELOS EN ARAIZ (~450 artículos)
+--------------------------------------------------------------
+| Tipo                     | Marca           | Serie               | Para qué                      |
+|--------------------------|-----------------|---------------------|-------------------------------|
+| Seccionador-fusible NH   | Eaton           | UNISIZE             | Cabecera cuadro con fusible   |
+| Seccionador-fusible NH   | Siemens         | 3NP                 | Cabecera cuadro Siemens       |
+| Seccionador-fusible NH   | ABB             | OS                  | Cabecera cuadro ABB           |
+| Portafusible genérico    | Eaton           | CH series            | Base portafusible universal   |
+| Portafusible genérico    | Gave / Crady    | Varias               | Fabricantes nacionales        |
+| Base caja distribución   | ABB / Gewiss    | DIN rail             | Para cajas modulares          |
+| Borne fusible carril DIN | Weidmuller      | WSI                  | Protección señal individual   |
+| Borne fusible carril DIN | Phoenix Contact | UT-FUSE              | Protección señal individual   |
+| Portafusible PV DC       | Sofamel         | SCF/FUSE             | String box solar DC           |
+| Portafusible PV DC       | Wohner          | CAPUS                | Solar con micro               |
+| Accesorios fusible       | Siemens / Eaton | 3NX, tapas           | Tapas, contactos, indicadores |
+| Pletina / adaptador      | Rittal / Eaton  | Varias               | Conexión a barra cobre        |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                | Por qué la necesitas                                          |
+|----|----------------------------------------------------------|------------------------------------------------------------- |
+| 1  | Necesita solo la base o también el fusible?             | Se venden por separado                                        |
+| 2  | Qué tipo de fusible usa? (NH, cilíndrico, D0, 5x20)    | Define la base compatible                                     |
+| 3  | Es seccionador con fusible o solo portafusible?         | El seccionador es más caro pero permite corte bajo carga      |
+| 4  | Cuántos polos? (1P, 3P)                                | Define el número de bases a montar                            |
+| 5  | Para solar DC? Qué tensión? (1000V, 1500V)             | Bases DC especiales, más caras                                |
+
+CONSEJO: Los seccionadores con fusible NH son el equipo estándar para la cabecera
+de cuadros de distribución industriales. Cuando el cliente pide "un seccionador
+general para el cuadro", normalmente se refiere a un seccionador-fusible NH.
+Los bornes fusibleados (Weidmuller WSI, Phoenix UT-FUSE) son un producto premium
+que se usa en cuadros de automatización para proteger señales de instrumentación.
+Se montan junto con los bornes normales en la regleta del carril DIN.
+El dato clave para una base portafusible es SIEMPRE el tamaño y tipo de fusible
+que va a alojar — no existe una base universal que sirva para todo.
+
+============================================================
+Fuentes:
+- Eaton seccionadores-fusible: https://www.eaton.com/es/es-es/catalog/fuses/fuse-switches.html
+- Siemens 3NP: https://www.siemens.com/es/es/productos/automatizacion/aparamenta.html
+- Weidmuller bornes fusible: https://www.weidmuller.com/es/productos/bornes/
+============================================================

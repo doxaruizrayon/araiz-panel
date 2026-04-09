@@ -1,0 +1,111 @@
+CUADRO RESUMEN — DISYUNTOR DE MOTOR SCHNEIDER GV / ROCKWELL 140M
+Familia: Electricidad > Aparellaje eléctrico > Disyuntores y guardamotores
+Ejemplo en Araiz: Schneider ref. GV2ME10 (Guardamotor TeSys 6-10A con función de seccionador)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"Schneider GV2 guardamotor TeSys diferencia PKZM Siemens" o "motor circuit breaker GV3 industrial"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Este cuadro cubre los disyuntores de motor de Schneider Electric (gama GV TeSys)
+y Rockwell Automation (gama 140M), que son los guardamotores de sus respectivas marcas.
+Cumplen la misma función que el Eaton PKZM o el Siemens 3RV2 (ver `disyuntor_guardamotor.txt`),
+pero con su propia gama, referencias y accesorios.
+
+**Schneider TeSys GV (288 art. + 353 sin clase con iC60)**
+
+La gama GV de Schneider (TeSys) es la alternativa directa a Eaton PKZM y Siemens 3RV2.
+Son disyuntores de motor con protección térmica ajustable específicamente diseñados
+para la protección de motores eléctricos. Características clave:
+- Corriente ajustable con rueda giratoria calibrada en amperios.
+- Función de seccionador integrada (se puede usar como interruptor de aislamiento).
+- Compatible con contactores TeSys D de Schneider (LC1D) — mismo fabricante, coordinación garantizada.
+- Amplia gama de accesorios: bloques auxiliares, bobinas MN/MX, adaptadores bus.
+
+Principales gamas GV Schneider:
+| Gama   | Corriente regulable | Forma           | Característica             |
+|--------|---------------------|-----------------|----------------------------|
+| GV2ME  | 0,1 A a 32 A        | Compacta 3P     | La más vendida en industria|
+| GV2P   | 0,1 A a 32 A        | Compacta 3P     | Con tapa de protección     |
+| GV3P   | 25 A a 100 A        | Mayor tamaño 3P | Para motores medianos      |
+| GV7RE  | 15 A a 125 A        | MCCB motor 3P   | Para motores grandes       |
+
+**Rockwell 140M / 140MT (44 art. sin clase)**
+Los guardamotores de Allen-Bradley (Rockwell Automation), la marca de automatización
+americana más usada en grandes empresas multinacionales en España.
+Muy habituales en plantas de fabricación de empresas como Ford, GM, Seat, farmacéuticas...
+donde el estándar de la empresa es Rockwell.
+- Gama 140M: guardamotor compacto 0,16 A a 10 A.
+- Gama 140MT: hasta 32 A con comunicación DeviceNet.
+Referencia de mantenimiento: si una empresa tiene PLCs Allen-Bradley (Compact Logix,
+Control Logix), probablemente también tiene guardamotores 140M.
+
+**Schneider iC60 / Acti9 (parte de los 353 sin clase)**
+La gama de magnetotérmicos modulares de Schneider para cuadros domésticos y terciarios.
+Son los MCBs más vendidos en España para instalaciones eléctricas residenciales
+y comerciales — el equivalente Schneider del Hager o Legrand que se ve en cualquier
+cuadro doméstico. En Araiz aparecen sin clase ETIM pero son muy reconocibles.
+Referencias: iC60N-C10, iC60N-C16, iC60N-C20, iC60N-C32...
+
+Lo que facilita:
+- Proteger motores en instalaciones con estándar Schneider (el contactor LC1D
+  ya es de Schneider → el guardamotor GV2 completa la pareja lógica).
+- Mantenimiento en plantas con estándar Rockwell: el 140M es el único guardamotor
+  compatible directamente con los módulos de bus DeviceNet de Allen-Bradley.
+- Instalaciones eléctricas domésticas/terciarias con Schneider iC60 como MCB.
+
+============================================================
+
+DIFERENCIA CLAVE: GV2ME vs PKZM0 vs 3RV2 (los tres grandes guardamotores)
+--------------------------------------------------------------
+| Característica         | Schneider GV2ME    | Eaton PKZM0        | Siemens 3RV2       |
+|------------------------|--------------------|--------------------|---------------------|
+| Corriente máxima       | 32 A               | 32 A               | 32 A                |
+| Ancho DIN (módulos)    | 45 mm (3 módulos)  | 45 mm (3 módulos)  | 45 mm (3 módulos)  |
+| Seccionador integrado  | Sí                 | Sí                 | Sí                 |
+| Compatible con contactor| LC1D (Schneider) | DILM (Eaton)       | 3RT2 (Siemens)     |
+| Precio relativo        | Medio              | Bajo-medio         | Medio-alto          |
+| Más habitual en        | Instalaciones Schn.| Automatización ind.| Grandes empresas   |
+
+TALLA GV2ME POR CORRIENTE DEL MOTOR:
+| Corriente motor (A) | Referencia GV2ME | Potencia motor aprox. (400V) |
+|---------------------|------------------|------------------------------|
+| 0,1 – 0,16 A        | GV2ME03          | ~0,06 kW                     |
+| 1 – 1,6 A           | GV2ME07          | ~0,55 kW                     |
+| 4 – 6,3 A           | GV2ME14          | ~2,2 kW                      |
+| 6 – 10 A            | GV2ME10          | ~4 kW (el más vendido)       |
+| 9 – 14 A            | GV2ME16          | ~5,5 kW                      |
+| 13 – 18 A           | GV2ME20          | ~7,5 kW                      |
+| 24 – 32 A           | GV2ME32          | ~15 kW                       |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                        | Por qué la necesitas                                        |
+|----|-----------------------------------------------------------------|-------------------------------------------------------------|
+| 1  | ¿Qué marca de contactor tiene en el cuadro?                    | Si es Schneider → GV2ME; si es Eaton → PKZM; si Siemens → 3RV2|
+| 2  | ¿Cuántos amperios tiene el motor?                               | Define la referencia exacta del GV2ME                       |
+| 3  | ¿Necesita bloque auxiliar para señal al PLC?                   | Pedir GVAE1 (1NA) o GVAE11 (1NA+1NC) según necesidad       |
+| 4  | ¿Necesita bobina de disparo MN o MX?                           | MN: dispara si falla tensión de mando. MX: disparo remoto   |
+| 5  | ¿Es Rockwell / Allen-Bradley el estándar de la planta?         | Si sí: buscar 140M en vez de GV2                            |
+| 6  | ¿El iC60 es para instalación doméstica o industrial?           | Doméstico: curva C habitual. Industrial: curva D para motores|
+
+CONSEJO: El GV2ME10 (6-10A) es el guardamotor más vendido de la gama Schneider —
+cubre motores de 2,2 kW a 4 kW, que son los más habituales en maquinaria industrial
+ligera. Si el cliente viene con "se ha roto el guardamotor de Schneider", preguntar
+los amperios del motor o la referencia del GV existente.
+El iC60N de Schneider es el magnetotérmico doméstico equivalente al EATON PKN —
+en instalaciones con cuadros Schneider, el cliente pedirá iC60N y no PKZM.
+Para Rockwell 140M: si la planta usa Allen-Bradley, los ingenieros de mantenimiento
+sabrán exactamente la referencia — raramente hace falta buscar equivalentes.
+
+============================================================
+Fuentes:
+- Schneider GV TeSys: https://www.se.com/es/es/product-subcategory/motor-protection-circuit-breakers/
+- Rockwell 140M: https://www.rockwellautomation.com/es-es/products/hardware/allen-bradley/motor-control/motor-protection/140m-motor-circuit-protector.html
+- Schneider iC60/Acti9: https://www.se.com/es/es/product-subcategory/miniature-circuit-breakers-acti9/
+============================================================

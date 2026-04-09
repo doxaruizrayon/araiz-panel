@@ -1,0 +1,124 @@
+CUADRO RESUMEN — FINAL DE CARRERA DE SEGURIDAD Y CON BLOQUEO (D4GS / XCSR / 3SE2)
+Familia: Electricidad > Aparellaje eléctrico > Final de carrera (interruptor de posición)
+Ejemplo en Araiz: Omron ref. D4GS-N3ER (Interruptor seguridad con bloqueo electromagnético 24V DC)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"interruptor seguridad resguardo máquina enclavamiento" o "safety switch guard lock machine EN ISO 14119"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Los finales de carrera de seguridad son dispositivos diseñados específicamente para
+proteger a las personas en máquinas industriales. A diferencia del final de carrera
+estándar (que solo detecta posición), el de seguridad cumple requisitos normativos
+de fiabilidad (Categoría 1-4 según EN ISO 13849) y tiene características adicionales:
+
+**1. Interruptor de posición con bloqueo (safety interlock switch)**
+Detecta si una puerta o resguardo está cerrado Y lo mantiene bloqueado mientras
+la máquina está en movimiento. El operario no puede abrir la puerta hasta que
+la máquina se detiene completamente. Muy usado en:
+- Puertas de acceso a zonas de robot.
+- Resguardos de prensas y troqueles.
+- Compuertas de cintas y transportadores.
+- Accesos a zonas de alta tensión.
+
+Tipos de bloqueo:
+- **Por llave (key interlock)**: una llave actuadora entra en el cuerpo; mientras está
+  dentro, la puerta no puede abrirse. La llave se libera solo cuando el sistema
+  da la orden.
+- **Electromagnético (solenoid lock)**: un solenoide mantiene bloqueado el actuador.
+  Se desbloquea al cortar la alimentación o por señal del PLC.
+- **Por retención mecánica (spring lock)**: mantiene el bloqueo sin corriente —
+  solo se libera con señal activa (fail-safe: si falla la corriente, sigue bloqueado).
+
+**2. Enclavamiento para interruptor de posición (interlocking)**
+Accesorios y módulos que coordinan varios finales de carrera de seguridad para
+garantizar que la máquina solo puede arrancar cuando todos los resguardos están
+cerrados y bloqueados. Se conectan al relé de seguridad o al controlador de seguridad.
+
+**3. Parada de emergencia por cable (cable pull)**
+Un cable tensado a lo largo de una cinta o zona de trabajo. Si alguien tira del
+cable (o el cable se rompe), el dispositivo dispara la parada de emergencia.
+Siemens (17 art.) y Telemecanique (10 art.) son los fabricantes en Araiz.
+
+Lo que facilita:
+- Cumplir la normativa de seguridad de maquinaria (Directiva Máquinas 2006/42/CE).
+- Garantizar que un operario no puede entrar en una zona peligrosa con la máquina en marcha.
+- Diagnosticar fallos de seguridad: el relé de seguridad detecta si el contacto falla.
+
+Lo que evita que ocurra:
+- Que un operario abra la puerta de una máquina mientras el robot o la prensa sigue moviéndose.
+- Que un fallo eléctrico desbloquee accidentalmente una puerta de seguridad.
+
+============================================================
+
+DIFERENCIA CLAVE: FINAL CARRERA ESTÁNDAR vs SEGURIDAD
+--------------------------------------------------------------
+| Característica              | Final carrera estándar   | Final carrera seguridad        |
+|-----------------------------|--------------------------|-------------------------------|
+| Función                     | Detectar posición        | Detectar posición + bloquear  |
+| Contactos guiados           | A veces                  | Siempre (obligatorio)         |
+| Categoría seguridad (PLd/e) | No                       | Sí (hasta Cat.4 / PLe)       |
+| Bloqueo del resguardo       | No                       | Sí (mecánico o electromag.)   |
+| Diagnóstico de fallo        | No                       | Sí (compatible relé seguridad)|
+| Normativa aplicable         | Detección general        | EN ISO 14119, EN ISO 13849   |
+| Precio                      | Bajo                     | Alto                          |
+
+CATEGORÍAS DE SEGURIDAD (EN ISO 13849):
+| Categoría | Nivel de integridad | Uso típico                                    |
+|-----------|---------------------|-----------------------------------------------|
+| Cat. 1    | PLc                 | Riesgo bajo, un canal de seguridad            |
+| Cat. 3    | PLd                 | Riesgo medio, dos canales (redundancia)       |
+| Cat. 4    | PLe                 | Riesgo alto, dos canales + diagnóstico online |
+
+============================================================
+
+GAMAS PRINCIPALES EN ARAIZ (~693 artículos)
+--------------------------------------------------------------
+| Marca           | Gama                      | Referencias tipo              | Bloqueo           |
+|-----------------|---------------------------|-------------------------------|-------------------|
+| Omron           | D4GS (electromagnético)   | D4GS-N3ER, D4GS-N4SR         | Solenoide 24V DC  |
+| Omron           | D4SL (llave)              | D4SL-N2NFG, D4SL-N2EFA       | Por llave         |
+| Omron           | D4GL / D4GR               | D4GL-1CFG, D4GR-1CFG         | Por llave rotativa|
+| Telemecanique   | XCSR / XCSZ               | XCSR-A1813, XCSR-E12          | Por llave / solen.|
+| Siemens         | 3SE2 (con bloqueo)        | 3SE2120-1AA20, 3SE2130-1AA20  | Por llave         |
+| Pilz            | PSENmlock                 | 512120, 512121                | Electromagnético  |
+| Schmersal       | AZM / BNS                 | AZM190, BNS 260               | Por llave / solen.|
+
+**Parada emergencia por cable:**
+| Marca           | Gama              | Referencias tipo          | Longitud cable   |
+|-----------------|-------------------|---------------------------|------------------|
+| Siemens         | 3SE3 cable pull   | 3SE3100-1H, 3SE3110-1H   | 30 m / 60 m      |
+| Telemecanique   | XY2 cable pull    | XY2CE1A250H7, XY2CH13270H | 30 m / 75 m      |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                        | Por qué la necesitas                                         |
+|----|-----------------------------------------------------------------|--------------------------------------------------------------|
+| 1  | ¿Es para un resguardo de máquina (puerta de seguridad)?         | Confirma que necesita interruptor de seguridad normativo     |
+| 2  | ¿Qué nivel de seguridad necesita? ¿PLc, PLd o PLe?             | Define la categoría del interruptor y el relé de seguridad   |
+| 3  | ¿Necesita bloquear la puerta mientras la máquina trabaja?       | Si sí: bloqueo mecánico o electromagnético                   |
+| 4  | ¿El bloqueo debe mantenerse sin corriente (fail-safe)?          | Fail-safe = bloqueado sin corriente → solenoide NC           |
+| 5  | ¿Tiene relé de seguridad o controlador de seguridad?            | El interruptor debe ser compatible con el relé (marca suele) |
+| 6  | ¿Es para parada de emergencia por cable en una cinta?           | Producto diferente: XY2 o 3SE3                               |
+
+CONSEJO: Los finales de carrera de seguridad son productos normativos — no se pueden
+sustituir por un final de carrera estándar sin comprometer la homologación de la máquina.
+Si el cliente dice "me ha roto el interruptor de la puerta de seguridad", preguntar
+siempre si tiene bloqueo (el actuador no sale sin acción del sistema) porque eso
+confirma que es un interruptor de seguridad y no uno estándar.
+Para instalaciones nuevas, Omron D4GS (electromagnético) y Pilz PSENmlock son
+las referencias más modernas. Para mantenimiento, Telemecanique XCSR y Siemens 3SE2
+son los más habituales por ser las marcas instaladas históricamente en España.
+
+============================================================
+Fuentes:
+- Omron D4GS/D4SL: https://industrial.omron.es/es/products/safety-door-switches
+- Schneider XCSR: https://www.se.com/es/es/product-subcategory/safety-switches/
+- Siemens 3SE2: https://new.siemens.com/es/es/productos/automatizacion/aparamenta/interruptores-posicion-seguridad.html
+- Pilz PSENmlock: https://www.pilz.com/es-ES/products/sensor/interlock
+============================================================

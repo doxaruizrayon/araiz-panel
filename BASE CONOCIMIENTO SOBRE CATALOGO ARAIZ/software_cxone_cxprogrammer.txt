@@ -1,0 +1,100 @@
+CUADRO RESUMEN — SOFTWARE CX-ONE / CX-PROGRAMMER (PROGRAMACIÓN PLCs OMRON LEGACY)
+Familia: Electricidad > Aparellaje eléctrico > Autómatas programables y robots industriales
+Ejemplo en Araiz: Omron ref. — (Software CX-One V4 con 30 licencias de actualización)
+============================================================
+
+IMAGEN DEL PRODUCTO:
+https://www.ia.omron.com/products/family/1527/
+
+VÍDEO / REFERENCIA TÉCNICA:
+https://industrial.omron.co.uk/en/products/cx-one
+
+Búsqueda recomendada en YouTube (español):
+"CX-Programmer tutorial Omron CP1L CJ1 CS1" o "diferencia CX-One Sysmac Studio Omron"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+CX-One es el paquete de software de Omron para programar y configurar la gama
+legacy de PLCs (CS1, CJ1, CP1L, CP1H) y sus periféricos. El componente principal
+es CX-Programmer — el entorno de programación en Ladder (escalera) y texto estructurado
+para esos PLCs. CX-One incluye además: CX-Designer (pantallas HMI NS), CX-Drive
+(variadores y servos), CX-Thermo (reguladores de temperatura E5□), CX-Motion (control
+de movimiento CJ1), Network Configurator (DeviceNet), entre otros. Se instala con un
+DVD y se activa con una clave de licencia. La diferencia fundamental con Sysmac Studio
+es que CX-One es para la gama anterior (CS1/CJ1/CP1) mientras que Sysmac Studio es
+para la gama actual (NJ/NX). Un cliente con CP1L o CJ1 necesita CX-One, no Sysmac Studio.
+
+Lo que facilita:
+- Programar PLCs CP1L, CP1H, CJ1, CS1 en lenguaje Ladder: el estándar de la
+  automatización industrial, visual y fácil de mantener.
+- Hacer backup y restore del programa del PLC: fundamental ante una avería —
+  transferir el programa guardado al PLC nuevo.
+- Monitorizar el programa en tiempo real: ver el estado de contactos, bobinas
+  y variables mientras la máquina está funcionando.
+- Configurar variadores de frecuencia (CX-Drive), reguladores de temperatura
+  (CX-Thermo) y pantallas HMI (CX-Designer) desde el mismo paquete.
+- Simular el programa sin conectar el PLC: útil para comprobar lógica antes de
+  ir a la máquina.
+
+Lo que evita que ocurra:
+- Perder el programa de un PLC averiado sin poder recuperarlo: con CX-Programmer
+  se hace backup antes de que falle el PLC.
+- Necesitar versiones distintas de software para cada periférico Omron: CX-One
+  unifica todo en un único paquete instalado.
+- Errores de programación no detectados antes de la puesta en marcha: el simulador
+  permite probar la lógica completa antes de conectar la máquina.
+
+============================================================
+
+DIFERENCIA CLAVE: CX-ONE vs SYSMAC STUDIO
+--------------------------------------------------------------
+| Característica          | CX-One (legacy)                  | Sysmac Studio (actual)           |
+|-------------------------|----------------------------------|----------------------------------|
+| PLCs compatibles        | CP1L, CP1H, CJ1, CS1             | NJ, NX, NX1P2                   |
+| Lenguajes               | Ladder, ST básico                | Ladder, ST, FBD, SFC (IEC61131-3)|
+| Control servo integrado | No (CX-Motion separado)          | Sí — todo en uno                 |
+| Simulación              | Sí — solo lógica PLC             | Sí — PLC + motion                |
+| Tipo licencia           | Por paquete completo             | Por usuario / por edición        |
+| Estado comercial        | Mantenimiento (no nuevos lanz.)  | Producto activo y en desarrollo  |
+| ¿Se vende hoy?          | Sí — para clientes con legacy    | Sí — instalaciones nuevas        |
+
+============================================================
+
+COMPONENTES DEL PAQUETE CX-ONE
+--------------------------------------------------------------
+| Componente         | Para qué                                          |
+|--------------------|---------------------------------------------------|
+| CX-Programmer      | Programación PLCs CP1, CJ1, CS1 en Ladder/ST     |
+| CX-Designer        | Diseño pantallas HMI NS, NT, NV                   |
+| CX-Drive           | Configuración variadores y servos legacy          |
+| CX-Thermo          | Configuración reguladores E5□ serie anterior      |
+| CX-Motion NCF      | Control de movimiento para CJ1W-NCF              |
+| Network Configurator| Configuración redes DeviceNet, CompoNet          |
+| Switch Box Utility | Configuración switches de red Omron               |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                               | Por qué la necesitas                                          |
+|----|--------------------------------------------------------|---------------------------------------------------------------|
+| 1  | ¿Qué PLC tiene? (CP1L, CJ1, NJ...)                     | CX-One para CP1/CJ1/CS1 / Sysmac Studio para NJ/NX           |
+| 2  | ¿Tiene CX-One instalado actualmente?                    | Si sí → puede necesitar solo actualización (update)           |
+| 3  | ¿Cuántos PCs necesitan tener el software?               | CX-One se licencia por equipo — 1 licencia = 1 PC             |
+| 4  | ¿Necesita hacer backup del programa del PLC?            | Si hay avería inminente → urgente conseguir CX-One            |
+| 5  | ¿Necesita solo CX-Programmer o todo el paquete CX-One?  | Solo programar → CX-Programmer / Todo → CX-One completo      |
+
+CONSEJO: CX-One sigue siendo muy necesario porque hay miles de máquinas con CP1L
+y CJ1 en funcionamiento. Cuando un cliente dice "tengo un PLC Omron y necesito el
+software para programarlo", preguntar el modelo exacto del PLC antes de recomendar
+CX-One o Sysmac Studio — son incompatibles entre sí. La versión más habitual pedida
+es "CX-One V4 con licencia de actualización" — permite al cliente tener la última
+versión durante 1 año.
+
+============================================================
+Fuentes:
+- Omron CX-One (oficial): https://www.ia.omron.com/products/family/1527/
+- Omron CX-Programmer manual: https://assets.omron.eu/downloads/latest/manual/en/w447_cx-programmer_operation_manual_en.pdf
+============================================================

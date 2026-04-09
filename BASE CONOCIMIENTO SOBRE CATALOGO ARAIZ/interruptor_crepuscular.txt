@@ -1,0 +1,98 @@
+CUADRO RESUMEN — INTERRUPTORES CREPUSCULARES (FOTOCÉLULAS DE CUADRO)
+Familia: Electricidad > Aparellaje eléctrico > Interruptor horario e interruptor crepuscular
+Ejemplo en Araiz: Legrand ref. 412858 (Interruptor crepuscular modular DIN)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"interruptor crepuscular cuadro DIN funcionamiento" o "celula fotoelectrica alumbrado exterior instalacion"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Un interruptor crepuscular (también llamado "relé crepuscular" o "fotocélula")
+es un dispositivo que enciende o apaga una carga según el nivel de luz
+ambiental. Cuando oscurece → enciende. Cuando amanece → apaga.
+
+Es el automatismo más sencillo para el alumbrado exterior:
+- No necesita programar horarios.
+- Se adapta automáticamente a los cambios de estación.
+- Si hay un día nublado, la iluminación se activa aunque sea de día.
+
+**Diferencia entre fotocélula exterior y interruptor crepuscular de cuadro:**
+| Tipo                          | Dónde se instala         | Para qué                       |
+|-------------------------------|--------------------------|--------------------------------|
+| Fotocélula exterior (intemperie)| Fachada, farola, mástil  | Detección directa de luz       |
+| Interruptor crepuscular DIN   | Dentro del cuadro eléctrico| Recibe señal de sonda exterior|
+| Crepuscular en serie          | En la línea del alumbrado| Pequeñas instalaciones         |
+
+**IMPORTANTE:** Los interruptores crepusculares de cuadro DIN NO llevan
+sensor de luz incorporado. Necesitan una sonda fotoeléctrica exterior
+que mande la señal al equipo en el cuadro.
+Las fotocélulas de intemperie (enchufadas directamente en el circuito de
+alumbrado) son otro producto — están en "Detectores proximidad y fotocélulas".
+
+**Tipos en Araiz (24 art. totales):**
+
+**1. Interruptor crepuscular para instalación en serie (12 art.)**
+Se instala directamente en la línea del alumbrado (como un interruptor).
+No necesita cuadro. Muy habitual en pequeñas instalaciones o en sustitución
+de un interruptor existente.
+- Legrand (6 art.): gama crepuscular residencial.
+- ABB (5 art.): versión compacta para instalación modular.
+
+**2. Interruptor crepuscular modular DIN (12 art.)**
+Se instala en carril DIN dentro del cuadro eléctrico.
+Recibe la señal de la sonda exterior (fotocélula) y activa el relé de
+salida que controla el alumbrado.
+- **Schneider (8 art.)**: IC Crep (versión crepuscular de la gama IC Plus).
+  Ajuste de umbral de luz (lux) desde el frontal.
+- **ABB (4 art.)**: CR modular DIN.
+
+**Umbral de luz (lux) — ajuste:**
+Los interruptores crepusculares tienen un potenciómetro o ajuste digital
+para fijar a qué nivel de luz se activan. El valor habitual es 30-100 lux
+(luz de crepúsculo). Si se baja mucho, se activa también con nubes.
+Si se sube, puede no activarse hasta que esté muy oscuro.
+
+**Sistema Orbis BIO (crepuscular + astro)**
+Orbis fabrica equipos que combinan la función crepuscular con la función
+astronómica: la fotocélula actúa como respaldo — si el reloj astro falla,
+la fotocélula toma el control. Es la solución más robusta para alumbrado
+público de municipios.
+
+**Regulador de iluminación LED para cuadro (Schneider CCTDD20016)**
+Dentro de este grupo hay también reguladores LED de carril DIN (dimmers
+en cuadro). Permiten ajustar la intensidad del alumbrado (0-100%) desde
+el cuadro. Diferentes del dimmer de pared (que va en mecanismos):
+el regulador de cuadro controla circuitos enteros, no un punto de luz.
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                    | Por qué                                        |
+|----|-------------------------------------------------------------|------------------------------------------------|
+| 1  | ¿Tiene cuadro eléctrico o es instalación pequeña?         | Con cuadro → DIN; sin cuadro → en serie        |
+| 2  | ¿Lleva sonda exterior o quiere todo en un aparato?        | Si quiere todo en uno → fotocélula de intemperie|
+| 3  | ¿Qué potencia tiene el alumbrado? ¿Cuántos amperios?      | El crepuscular tiene capacidad máxima          |
+| 4  | ¿Quiere ajustar a qué nivel de luz se activa?             | Algunas instalaciones necesitan control preciso|
+| 5  | ¿Combina con horario (ej. apagar a las 23:00)?            | Si sí: necesita crepuscular + horario o equipo combo|
+
+CONSEJO: La aplicación más habitual es alumbrado exterior residencial:
+jardín, garaje, acceso. Para esto, la solución más sencilla es una
+fotocélula de intemperie (en el grupo "Detectores proximidad y fotocélulas")
+— no necesita cuadro.
+Para alumbrado de urbanizaciones, aparcamientos y alumbrado público:
+crepuscular DIN de Schneider o Orbis dentro del cuadro, con sonda exterior
+en el mástil o fachada.
+Si el alumbrado se necesita apagar a medianoche (ahorro energético),
+combinar crepuscular + horario: el crepuscular lo enciende al anochecer
+y el horario lo apaga a las 23:00.
+
+============================================================
+Fuentes:
+- Schneider IC Crep: https://www.se.com/es/es/product-subcategory/twilight-switches/
+- Orbis crepuscular: https://www.orbis.es/es/productos/interruptores-crepusculares/
+- Legrand crepuscular: https://www.legrand.es/catalogo/gestion-energia/
+============================================================

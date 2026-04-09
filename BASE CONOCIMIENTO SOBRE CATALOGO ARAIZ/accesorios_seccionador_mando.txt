@@ -1,0 +1,124 @@
+CUADRO RESUMEN — ACCESORIOS PARA SECCIONADORES + MCCB NSX + CONMUTADORES DIN
+Familia: Electricidad > Aparellaje eléctrico > Seccionador y manipulador manual
+Ejemplo en Araiz: Schneider ref. INS250 (Interruptor en caja moldeada NSX 250A para distribución)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"Schneider NSX INS interruptor distribución cuadro" o "accesorios seccionador maneta motorización"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Este cuadro agrupa tres tipos de productos que el catálogo Araiz clasifica dentro de
+"Seccionador y manipulador manual" pero que tienen naturalezas distintas:
+
+**1. Disyuntores MCCB para distribución — Schneider NSX / INS (450 art.)**
+Son interruptores en caja moldeada (MCCB) de Schneider Electric, clasificados aquí
+por ser de la gama INS (Interrupteur Non-automatique de Sécurité = interruptor
+no automático de seguridad), que actúa como seccionador + interruptor manual, sin
+disparo automático por sobrecarga.
+
+Principales referencias:
+- **INS**: versión de solo seccionamiento (sin disparo automático). Para aislar circuitos.
+- **NSX**: versión con protección automática (disparo por sobrecarga y cortocircuito).
+  Ya cubierto en parte en `disyuntor_guardamotor.txt` (ABB Tmax).
+  Aquí aparecen los NSX clasificados por Araiz bajo "Seccionador y manipulador manual".
+
+Potencias: de 100A a 630A. Marcas: Schneider (402 art.), Legrand (40 art.).
+
+**2. Conmutadores para montaje sobre carril DIN (122 art.)**
+Pequeños conmutadores modulares que van en carril DIN en cuadros de vivienda,
+terciario e industria ligera. Permiten seleccionar entre dos fuentes o circuitos.
+- Gewiss (49 art.): gama modular para cuadros terciarios y domésticos.
+- Siemens (38 art.): gama SENTRON para cuadros de distribución.
+- Eaton (17 art.): gama xEffect modular.
+- ABB (12 art.): gama modular System pro M compact.
+
+**3. Manetas de disyuntor (103 art.)**
+Accionamientos manuales que se instalan en la puerta del cuadro para poder
+abrir/cerrar el disyuntor o seccionador desde el exterior sin abrir el armario.
+- ABB (51 art.): manetas para sus disyuntores Tmax y OS.
+- Schneider (50 art.): manetas para NSX y Vario.
+Tipos: maneta directa, maneta giratoria, interbloqueo puerta.
+
+**4. Accesorios para interruptores de BT (150 art.)**
+Kits de conexión, tapas, separadores de fase, placas de protección, rating plugs
+y elementos de montaje para los seccionadores y disyuntores de distribución.
+- Siemens (58 art.): accesorios para 3KA, 3NP, 3LD.
+- Schneider (44 art.): accesorios para NSX, Vario.
+- ABB (44 art.): accesorios para OT/OS.
+
+**5. Accesorios para pletinas (49+8+10 = 67 art., Siemens dominante)**
+Soportes, adaptadores y accesorios para conexión a pletinas de cobre en
+cuadros de distribución. Siemens domina con 47 art.
+
+**6. Bloques de contactos auxiliares (38 art., Schneider 35)**
+Módulos de señalización para disyuntores NSX y Vario — informan al PLC o sistema
+de supervisión del estado del aparato (abierto/cerrado/disparo).
+
+**7. Bobinas de disparo y mínima tensión (16 art., Schneider)**
+Bobinas MX (disparo a tensión) y MN (disparo por mínima tensión) para
+disyuntores NSX y Vario — permiten disparo remoto o por fallo de tensión.
+
+**8. Sin clase ETIM (80 art.)**
+Principalmente Schneider (19), Socomec (11) y Telergon (9) — seccionadores
+de carga y conmutadores sin clasificación ETIM. Socomec es especialista
+en interruptores de carga y transferencias para grupos electrógenos.
+
+Lo que facilita:
+- Adaptar los disyuntores NSX a la instalación física del armario (manetas, accesorios).
+- Añadir señalización de estado al PLC (bloques aux, bobinas MX/MN).
+- Distribuir la alimentación a múltiples circuitos con conmutadores modulares DIN.
+- Proteger y aislar circuitos de distribución terciaria con NSX/INS Schneider.
+
+============================================================
+
+GAMAS PRINCIPALES EN ARAIZ (~1.010 artículos)
+--------------------------------------------------------------
+**MCCB / Seccionadores Schneider NSX:**
+| Gama              | Función              | Corriente      | Notas                          |
+|-------------------|----------------------|----------------|--------------------------------|
+| INS (seccionador) | Solo aislar          | 100 A a 630 A  | Sin protección automática      |
+| NSX (automático)  | Protección + maniobra| 100 A a 630 A  | Disparo automático calibrable  |
+| NSX+Vigi          | NSX + diferencial    | 100 A a 630 A  | Con bloque diferencial integrado|
+
+**Conmutadores DIN:**
+| Marca    | Gama          | Polos | Corriente | Posiciones    |
+|----------|---------------|-------|-----------|---------------|
+| Gewiss   | GW serie modular| 1-3P | 20-63 A  | 0/I, 0/I/II  |
+| Siemens  | SENTRON 5TE    | 1-3P | 16-63 A  | 0/I, 0/I/II  |
+| Eaton    | xEffect modular| 1-3P | 16-63 A  | 0/I, 0/I/II  |
+
+**Manetas:**
+| Marca     | Para qué aparato       | Tipo más habitual            |
+|-----------|------------------------|------------------------------|
+| ABB       | Tmax XT / OS grande    | Rotary handle IP65           |
+| Schneider | NSX / Vario            | Maneta directa / giratoria   |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                        | Por qué la necesitas                                        |
+|----|-----------------------------------------------------------------|-------------------------------------------------------------|
+| 1  | ¿Es para un NSX/INS existente o para proyecto nuevo?           | Define si es mantenimiento (ref. exacta) o proyecto         |
+| 2  | ¿Cuántos amperios tiene el NSX o INS a sustituir?              | Define el calibre (100, 160, 250, 400, 630A)               |
+| 3  | ¿Necesita disparo automático (NSX) o solo aislar (INS)?        | NSX protege; INS solo aísla — son productos distintos       |
+| 4  | ¿Para qué accesorio? ¿Maneta, contacto aux, bobina?            | Todos son específicos de marca/gama — necesita ref. del aparato|
+| 5  | ¿El conmutador DIN es para vivienda/terciario o industria?     | Define si Gewiss/Hager (terciario) o Siemens/Eaton (indus.) |
+
+CONSEJO: El Schneider NSX es el MCCB más instalado en España en distribución terciaria
+e industrial de media escala. En mantenimiento, los pedidos más frecuentes son:
+- Bloques auxiliares para señalizar al SCADA que ha saltado el NSX.
+- Bobinas MN para que el NSX dispare automáticamente si se va la alimentación de mando.
+- Manetas para poder actuar desde la puerta del cuadro sin abrirlo.
+Siempre pedir la referencia del NSX primero — los accesorios son específicos
+por tamaño de caja (NSX100, NSX160, NSX250...).
+
+============================================================
+Fuentes:
+- Schneider NSX/INS: https://www.se.com/es/es/product-subcategory/compact-ns-nsx-circuit-breakers/
+- ABB manetas Tmax: https://new.abb.com/low-voltage/es/productos/aparamenta/accesorios-disyuntores
+- Socomec interruptores: https://www.socomec.es/productos/interruptores-de-carga/
+============================================================

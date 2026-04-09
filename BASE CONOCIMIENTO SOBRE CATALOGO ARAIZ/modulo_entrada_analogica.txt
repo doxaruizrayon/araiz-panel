@@ -1,0 +1,116 @@
+CUADRO RESUMEN — MÓDULO DE ENTRADA ANALÓGICA
+Familia: Electricidad > Aparellaje eléctrico > Autómatas programables
+Ejemplo en Araiz: Phoenix Contact ref. 2688064 (AXL F AI8 1F — serie Axioline F)
+============================================================
+
+IMAGEN DEL PRODUCTO (ref. 2688064 Phoenix Contact):
+https://www.phoenixcontact.com/en-us/products/io-component-axl-f-ai8-1f-2688064
+
+VÍDEO / REFERENCIA TÉCNICA:
+https://es.rs-online.com/web/p/accesorios-para-controladores-y-automatas/2249848
+
+Búsqueda recomendada en YouTube (español):
+"módulo entrada analógica PLC tutorial" o "señal 4-20mA PT100 termopar PLC conexión"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Un módulo de entrada analógica es el componente que permite al PLC leer valores
+continuos y variables del mundo real: temperatura, presión, caudal, nivel,
+humedad, posición... El sensor de campo genera una señal eléctrica proporcional
+a esa magnitud física (por ejemplo 4mA = 0°C, 20mA = 100°C) y el módulo la
+convierte en un número que el PLC puede procesar y comparar con consignas.
+
+Lo que facilita:
+- Que el PLC monitorice y controle magnitudes físicas en tiempo real
+  (temperatura de un horno, presión de una tubería, nivel de un depósito...).
+- Conectar transmisores y sensores estándar de industria (4-20mA, 0-10V,
+  PT100, termopares) sin necesidad de conversores externos.
+- Detectar automáticamente el fallo de un sensor: si la señal cae por debajo
+  de 4mA en un lazo 4-20mA, el PLC sabe que hay cable roto o sensor averiado.
+
+Lo que evita que ocurra:
+- Que el proceso se descontrole por no tener información real de lo que ocurre
+  (temperatura demasiado alta, presión fuera de rango, depósito vacío o desbordado).
+- Que el operario tenga que estar presente para leer manualmente los parámetros
+  del proceso.
+- Daños en equipos o producto por reaccionar tarde ante una desviación del proceso.
+
+============================================================
+
+DIFERENCIA CLAVE ENTRE TIPOS DE SEÑAL ANALÓGICA DE ENTRADA
+--------------------------------------------------------------
+| Tipo de señal      | Rango          | Ventaja principal                                   | Inconveniente                            | Cuándo usarlo                                     |
+|--------------------|----------------|-----------------------------------------------------|------------------------------------------|---------------------------------------------------|
+| Corriente 4-20mA   | 4 a 20 mA      | Inmune al ruido, detecta cable roto (0mA = fallo)   | Necesita bucle de corriente alimentado   | Distancias largas, entornos industriales ruidosos |
+| Corriente 0-20mA   | 0 a 20 mA      | Rango completo desde cero                           | No detecta cable roto (0mA = normal)     | Aplicaciones donde el cero real es necesario      |
+| Voltaje 0-10V      | 0 a 10 V       | Sencillo de medir y verificar con polímetro         | Sensible al ruido en cables largos       | Distancias cortas, misma sala o armario           |
+| Voltaje ±10V       | -10 a +10 V    | Permite leer valores positivos y negativos          | Igual de sensible al ruido              | Sensores bidireccionales (fuerza, posición)       |
+| PT100 / PT1000     | Resistencia RTD| Muy preciso para temperatura (-200°C a +850°C)      | Necesita módulo específico o termopar   | Control de temperatura en hornos, cámaras, HVAC  |
+| Termopar (J, K, T) | mV variable    | Muy amplio rango de temperatura                     | Menos preciso que PT100, necesita compensación | Temperaturas muy altas (>500°C), fundición, soldadura |
+
+El ref. 2688064 admite todos los rangos de voltaje y corriente estándar:
+se configura por software para cada canal. Para PT100 y termopares se
+necesita un módulo específico de temperatura.
+
+============================================================
+
+CARACTERÍSTICAS TÉCNICAS BÁSICAS A SABER
+--------------------------------------------------------------
+| Parámetro                  | Qué significa                                    | Valor ref. 2688064 (Phoenix Contact)          |
+|----------------------------|--------------------------------------------------|-----------------------------------------------|
+| Número de entradas         | Cuántos sensores puede leer                      | 8 entradas analógicas                         |
+| Rangos de señal            | Tipos de señal que puede recibir                 | 0-5V / ±5V / 0-10V / ±10V / 0-20mA / 4-20mA / ±20mA |
+| Tecnología de conexión     | Número de conductores por canal                  | 2 conductores por canal (Push-in enchufable)  |
+| Velocidad de bus local     | Comunicación con el acoplador                    | 100 Mbps                                      |
+| Tensión de alimentación    | La que necesita el módulo                        | 24V DC (+ 5V DC vía bus base)                 |
+| Resolución                 | Precisión de la conversión analógica-digital     | Alta resolución (16 bits típico en Axioline F)|
+| Grado de protección        | Nivel de estanqueidad                            | IP20 → interior de armario                    |
+| Temperatura de trabajo     | Rango admisible                                  | -25°C a +60°C                                 |
+| Serie / familia            | Sistema al que pertenece                         | Axioline F (solo compatible con acoplador AXL)|
+
+============================================================
+
+TIPOLOGÍAS DE MÓDULOS DE ENTRADA ANALÓGICA
+--------------------------------------------------------------
+| Tipología                        | Descripción                                                   | Cuándo se usa                                          |
+|----------------------------------|---------------------------------------------------------------|--------------------------------------------------------|
+| Tensión / corriente multirrango  | Configurable por software para V o mA                        | Uso general. El ref. 2688064 es de este tipo           |
+| Módulo de temperatura (RTD)      | Específico para PT100, PT500, PT1000                         | Control de temperatura con sondas PT                   |
+| Módulo de termopar               | Específico para termopares tipo J, K, T, E, N...             | Temperaturas muy altas o procesos de alta temperatura  |
+| Con HART                         | Además de la señal analógica, transmite datos digitales      | Instrumentación avanzada con diagnóstico remoto        |
+| Descentralizado IP65             | Se instala fuera del armario, en campo                       | Sensores alejados del cuadro principal                 |
+| De seguridad (SIL)               | Certificado para funciones de seguridad                      | Medición de presión en sistemas de protección SIL      |
+| Alta velocidad                   | Lectura muy rápida de señal (µs)                             | Control de movimiento, vibraciones, análisis de señal  |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                          | Por qué la necesitas                                                          |
+|----|-------------------------------------------------------------------|-------------------------------------------------------------------------------|
+| 1  | ¿Qué PLC o sistema de control tiene?                              | El módulo debe ser de la misma familia (Axioline F, TM3...)                   |
+| 2  | ¿Cuántas entradas analógicas necesita?                            | Para saber cuántos módulos hacen falta (este tiene 8 canales)                 |
+| 3  | ¿Qué tipo de señal generan sus sensores? (4-20mA, 0-10V, PT100)   | Define qué módulo necesita: estándar o de temperatura específico              |
+| 4  | ¿Qué magnitudes físicas quiere medir? (temperatura, presión, nivel)| Ayuda a identificar el tipo de sensor y la señal que genera                  |
+| 5  | ¿A qué distancia están los sensores del cuadro?                   | Distancias largas → siempre 4-20mA. Distancias cortas → 0-10V puede valer    |
+| 6  | ¿Hay mucho ruido eléctrico en la instalación? (motores, variadores)| Con ruido → 4-20mA obligatoriamente, es inmune al ruido eléctrico            |
+| 7  | ¿Necesita detectar automáticamente el fallo de un sensor?         | Sí → usar siempre 4-20mA (si baja de 4mA = cable roto o sensor averiado)     |
+| 8  | ¿Va dentro de un armario o en campo abierto?                      | IP20 para armario / IP65-67 para campo                                        |
+| 9  | ¿Necesita medir temperatura? ¿Con qué tipo de sonda?              | PT100 o termopar → necesita módulo de temperatura específico, no el 2688064  |
+| 10 | ¿Es instalación nueva o ampliación?                               | Si es ampliación debe ser de la misma serie que lo existente                  |
+
+CONSEJO CLAVE: Si el cliente dice "quiero medir temperatura con PT100 o termopar",
+el ref. 2688064 NO es el módulo correcto — necesita un módulo específico de temperatura.
+Si la señal es 4-20mA o 0-10V (transmisores de presión, nivel, caudal...), sí es válido.
+Ante la duda, preguntar siempre la hoja de datos del sensor que va a conectar.
+
+============================================================
+Fuentes:
+- Ficha oficial Phoenix Contact 2688064: https://www.phoenixcontact.com/en-us/products/io-component-axl-f-ai8-1f-2688064
+- RS Online ref. 2688064: https://es.rs-online.com/web/p/accesorios-para-controladores-y-automatas/2249848
+- Señales analógicas 4-20mA en PLC: https://programacionsiemens.com/entradas-analogicas-4-20ma-en-s7/
+- Configuración entradas analógicas TIA Portal: https://www.programacionmultidisciplinar.com/curso-de-tia-portal/entradas-y-salidas-analogicas/
+- Conexión PT100 y termopar a PLC: https://www.infoplc.net/foro/forum/detecci%C3%B3n-instrumentaci%C3%B3n/detecci%C3%B3n-e-instrumentaci%C3%B3n/15353-%C2%BFcomo-conectar-pt100-y-termocupla-a-un-plc
+============================================================

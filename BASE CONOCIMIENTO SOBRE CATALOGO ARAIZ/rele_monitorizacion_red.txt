@@ -1,0 +1,111 @@
+CUADRO RESUMEN — RELÉ DE MONITORIZACIÓN DE RED (fase, tensión, corriente, nivel, alternancia bombas)
+Familia: Electricidad > Aparellaje eléctrico > Reles
+Ejemplo en Araiz: ABB ref. CM-PFE (Relé control secuencia de fase 3-fases 208-480V AC)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"relé de monitorización de red fase tensión corriente qué es" o "relé control secuencia fases asimetría trifásico"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Los relés de monitorización de red son una familia de relés que vigilan
+permanentemente una magnitud eléctrica o de proceso y disparan (abren o cierran
+un contacto de alarma/mando) cuando esa magnitud sale del rango establecido.
+No actúan sobre la carga directamente — su salida es un contacto que se conecta
+al circuito de mando para parar la instalación o activar una alarma.
+
+Las distintas subfamilias por magnitud vigilada:
+
+**1. CONTROL DE FASE (EC001441 — 128 art.)**
+Vigila las 3 fases de la red trifásica:
+- Falta de fase: detecta si una de las tres fases ha desaparecido.
+- Secuencia de fases incorrecta: detecta si las fases están en orden RST incorrecto
+  (el motor gira al revés sin que nadie lo vea).
+- Asimetría de fases: detecta desequilibrio de tensiones entre fases.
+Imprescindible en instalaciones con motores importantes (bombas de presión, elevadores,
+compresores) donde un giro invertido o la pérdida de una fase causaría un desastre.
+Marcas: ABB CM-PFE/PFS, Siemens 3UG4, Carlo Gavazzi DPA, Schneider RM4.
+
+**2. CONTROL DE TENSIÓN (EC001438 — 100 art.)**
+Vigila la tensión de la red (monofásica o trifásica):
+- Sobretensión: activa alarma si la tensión sube del umbral (proteger equipos).
+- Subtensión: activa alarma si la tensión baja del mínimo (motores no arrancan bien).
+- Fuera de ventana: activa si la tensión sale del rango [Vmin, Vmax].
+Marcas: ABB CM-UFS, Siemens 3UG4511, Carlo Gavazzi CGPIB, Disibeint DVIB.
+
+**3. CONTROL DE CORRIENTE (EC001440 — 116 art.)**
+Vigila la corriente de un circuito:
+- Sobrecorriente: activa alarma si la corriente supera el umbral (detección de sobrecarga).
+- Subcorriente: activa alarma si la corriente baja (detección de rotura de correa, bomba sin caudal).
+- Fuera de ventana: activa si la corriente sale del rango normal.
+Marcas: ABB CM-SRS, Siemens 3UG4622, Carlo Gavazzi CGPIB, Schneider RM4.
+
+**4. CONTROL DE TEMPERATURA (EC001446 — 60 art.)**
+Vigila la temperatura de un proceso mediante sonda NTC/PTC o termistor:
+- Dispara cuando la temperatura supera el umbral configurado.
+Marcas: ABB CM-TCS, Carlo Gavazzi, Disibeint, Rockwell 817SPTC.
+
+**5. CONTROL DE NIVEL (EC001447 — 53 art.)**
+Vigila el nivel de líquido en un depósito mediante electrodos de conductividad:
+- Llenado: activa una bomba cuando el nivel baja del mínimo.
+- Vaciado: activa alarma cuando el nivel sube del máximo.
+- Configurable para control de depósitos, pozos, sistemas de aguas residuales.
+Marcas: FINDER serie 72, Disibeint SNSA/PNCA/SNDA, Carlo Gavazzi CLP, Chint.
+
+**6. ALTERNANCIA DE BOMBAS (dentro de control de nivel / proceso)**
+Relé que gestiona 2-3 bombas en alternancia para desgaste uniforme:
+cuando hay que bombear, arranca la bomba 1; en el siguiente ciclo, la bomba 2;
+y así sucesivamente. Evita que una bomba trabaje siempre y la otra nunca.
+Marcas: Toscano TA2R/TA3R, Carlo Gavazzi.
+
+Lo que facilita:
+- Proteger motores y equipos de condiciones anómalas de la red automáticamente.
+- Detectar averías de proceso antes de que causen daños mayores.
+- Gestionar sistemas de bombeo y depósitos sin intervención del operario.
+
+Lo que evita que ocurra:
+- Motor trifásico girando al revés por secuencia de fases incorrecta.
+- Bomba funcionando sin agua (en seco) y quemando el motor.
+- Inundación de un depósito por fallo de control de nivel.
+
+============================================================
+
+SELECCIÓN POR MAGNITUD
+--------------------------------------------------------------
+| Si el cliente necesita vigilar... | Tipo de relé          | Marcas en Araiz              |
+|-----------------------------------|-----------------------|------------------------------|
+| Fases trifásicas (falta/secuencia)| Control de fase       | ABB CM-PFE, Siemens 3UG4, CG |
+| Tensión de red (sobre/sub)        | Control de tensión    | ABB CM-UFS, Siemens 3UG4511  |
+| Corriente de carga                | Control de corriente  | ABB CM-SRS, Carlo Gavazzi    |
+| Temperatura proceso/motor         | Control temperatura   | Carlo Gavazzi, Disibeint     |
+| Nivel de depósito/pozo            | Control de nivel      | FINDER 72, Disibeint, CG     |
+| Alternancia 2-3 bombas            | Relé alternancia      | Toscano TA2R/TA3R            |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                | Por qué la necesitas                                          |
+|----|----------------------------------------------------------|------------------------------------------------------------- |
+| 1  | Que magnitud quiere vigilar? (fase, tensión, corriente..)| Define la subfamilia del relé a seleccionar                  |
+| 2  | Es red monofásica o trifásica?                          | Los de fase son específicos para trifásico                   |
+| 3  | Cual es el rango de tensión de la red? (230V, 400V...)  | Define el modelo específico                                  |
+| 4  | Necesita alarma, corte o ambos?                         | Algunos modelos tienen contacto de alarma + contacto de corte|
+| 5  | (Para nivel) Cuantos electrodos tiene el depósito?      | 1 nivel = relé simple / 2 niveles = llenado+vaciado         |
+
+CONSEJO: Los relés de monitorización se venden en proyectos de protección de motores
+importantes y en sistemas de gestión de depósitos y bombeo. El de control de fases
+es muy habitual en instalaciones industriales con compresores, elevadores y bombas —
+siempre que hay un motor crítico, el cliente debería tener uno. Si el cliente dice
+"se me quemó el motor y no sé por qué", preguntar si tiene relé de control de fases
+instalado — la mayoría de las veces no lo tiene.
+
+============================================================
+Fuentes:
+- ABB CM-series: https://new.abb.com/low-voltage/es/productos/aparamenta/reles-monitorizacion
+- Siemens 3UG4: https://new.siemens.com/es/es/productos/automatizacion/aparamenta/reles-vigilancia.html
+- FINDER Serie 72: https://www.findernet.com/es/es/series/72-series-control-de-nivel
+- Toscano: https://www.toscano.es/productos/rele-alternancia
+============================================================

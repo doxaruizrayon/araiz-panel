@@ -1,0 +1,112 @@
+CUADRO RESUMEN — SELECTORES ROTATIVOS, INTERRUPTORES CON LLAVE Y JOYSTICKS
+Familia: Electricidad > Aparellaje eléctrico > Pulseteria
+Ejemplo en Araiz: Schneider ref. XB4BD21 (Selector 2 posiciones fijas 1NA Harmony XB4)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"selector rotativo industrial 22mm 2 posiciones" o "joystick industrial mando grúa"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Los selectores rotativos son interruptores que se giran (en vez de pulsarse)
+para elegir entre dos o más posiciones: manual/automático, velocidad 1/2/3,
+on/off con llave, etc. Los joysticks son mandos de control de movimiento
+para grúas, máquinas herramienta y equipos de posicionamiento.
+
+Ambos se montan en el mismo taladro de 22mm que los pulsadores y usan los
+mismos bloques de contactos — forman parte del mismo sistema de pulsatería.
+
+**TIPOS DE SELECTORES:**
+
+**1. Selector de 2 posiciones fijas (~600 art.)**
+Se gira 90° entre posición 1 y posición 2. Queda fijo en la posición elegida.
+Uso típico: manual/automático, on/off, local/remoto.
+
+**2. Selector de 3 posiciones (~400 art.)**
+Se gira a izquierda/centro/derecha (45°-0°-45°). Posiciones fijas o con
+retorno al centro.
+Uso típico: adelante/paro/atrás, velocidad 1/2/3.
+
+**3. Selector con llave (~250 art.)**
+Selector que solo se puede girar con una llave específica. Cuando se retira
+la llave, el selector queda bloqueado en la posición elegida.
+Uso típico: arranque de máquina con llave de seguridad, selección de modo
+(solo personal autorizado puede cambiar de automático a manual).
+Tipos de llave: Ronis (la más habitual en Schneider), Ronis 455, llave especial.
+
+**4. Selector luminoso (~150 art.)**
+Selector con LED integrado que indica la posición seleccionada con luz.
+Combina las funciones de selector + piloto indicador.
+
+**5. Joystick / Manipulador (~150 art.)**
+Palanca de mando que se mueve en 2 o 4 direcciones (arriba/abajo/izda/dcha).
+Cada dirección activa un contacto diferente. Con retorno al centro o mantenido.
+Uso típico: mando de puente grúa, posicionamiento de ejes, control de válvulas.
+Marcas: Schneider (XD2), Siemens (3SU1), Eaton (M22-WJ), ABB.
+
+**ESTRUCTURA (igual que pulsadores):**
+- Cabezal selector (define posiciones y tipo de retorno).
+- Bloque de contactos (1NA, 1NC, combinados — los mismos del sistema pulsador).
+- Base de fijación (22mm estándar).
+
+Lo que facilita:
+- Seleccionar modos de funcionamiento de la máquina (manual/auto).
+- Restringir el acceso a funciones con llave de seguridad.
+- Controlar movimientos de forma intuitiva (joystick).
+
+Lo que evita que ocurra:
+- Cambio no autorizado de modo de funcionamiento (selector con llave).
+- Confusión sobre el estado de la máquina (selector luminoso indica la posición).
+- Movimientos bruscos no controlados (joystick con retorno al centro).
+
+============================================================
+
+MODELOS EN ARAIZ (~1.950 artículos)
+--------------------------------------------------------------
+| Tipo                     | Marca           | Serie               | Para qué                      |
+|--------------------------|-----------------|---------------------|-------------------------------|
+| Selector 2 pos fijas     | Schneider       | XB4BD / XB5AD        | Manual/Auto estándar          |
+| Selector 3 pos fijas     | Schneider       | XB4BD33 / XB5AD33    | Adelante/Paro/Atrás           |
+| Selector con llave       | Schneider       | XB4BG / XB5AG        | Arranque con llave Ronis      |
+| Selector luminoso        | Schneider       | XB4BK / XB5AK        | Selector + indicación LED     |
+| Selector 2/3 pos         | Siemens         | 3SU1130 / 3SU1150    | Selectores SIRIUS ACT         |
+| Selector con llave       | Siemens         | 3SU1150-4BF          | Selector con llave Siemens    |
+| Selector 2/3 pos         | Eaton           | M22-WK / M22-WKV     | Selectores Eaton M22          |
+| Selector con llave       | Eaton           | M22-WRS              | Selector con llave Eaton      |
+| Selector                 | ABB             | Modular C2SS          | Selectores ABB                |
+| Joystick 2 direcciones   | Schneider       | XD2PA                | Arriba/abajo o izda/dcha      |
+| Joystick 4 direcciones   | Schneider       | XD2PA24              | 4 direcciones + centro        |
+| Joystick                 | Siemens         | 3SU1 joystick        | Joystick SIRIUS ACT           |
+| Joystick                 | Eaton           | M22-WJ               | Joystick Eaton M22            |
+| Conmutador de carga      | Schneider       | Varias               | Conmutación potencia          |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                | Por qué la necesitas                                          |
+|----|----------------------------------------------------------|------------------------------------------------------------- |
+| 1  | Qué marca tiene instalada?                              | Las piezas NO son intercambiables entre marcas                |
+| 2  | Cuántas posiciones? (2 o 3)                             | Define el cabezal                                             |
+| 3  | Posiciones fijas o con retorno al centro?               | Fijas = queda donde lo dejas; retorno = vuelve solo           |
+| 4  | Con llave? Qué tipo de llave? (Ronis, especial)         | Cada llave es específica                                      |
+| 5  | Qué contactos? (1NA, 1NC, 1NA+1NC por posición)        | Los selectores de 3 posiciones pueden necesitar más bloques   |
+| 6  | Si joystick: cuántas direcciones? (2 o 4)               | Define el modelo                                              |
+
+CONSEJO: Los selectores con llave son un producto de seguridad — si el cliente
+pierde la llave, necesita el código de llave (ej. Ronis 455) para pedir una
+copia o un selector con la misma llave. Schneider usa llaves Ronis en la mayoría
+de sus selectores.
+Los joysticks Schneider XD2 son los más pedidos para puentes grúa en España.
+Error frecuente en selectores de 3 posiciones: el cliente pide "un selector de
+3 posiciones con 1NA" pero necesita un contacto por cada posición activa
+(izquierda = 1NA, derecha = 1NA → mínimo 2 bloques).
+
+============================================================
+Fuentes:
+- Schneider selectores: https://www.se.com/es/es/product-range/832-harmony-xb4/
+- Siemens SIRIUS ACT: https://www.siemens.com/es/es/productos/automatizacion/aparamenta/sirius-act.html
+- Eaton M22: https://www.eaton.com/es/es-es/catalog/industrial-controls/m22.html
+============================================================

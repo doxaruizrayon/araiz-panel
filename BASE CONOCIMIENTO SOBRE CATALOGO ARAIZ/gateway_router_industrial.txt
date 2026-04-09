@@ -1,0 +1,83 @@
+CUADRO RESUMEN — GATEWAY / ROUTER INDUSTRIAL (PASARELA Y ENRUTADOR DE RED)
+Familia: Electricidad > Aparellaje eléctrico > Autómatas programables y robots industriales
+Ejemplo en Araiz: Omron ref. NE1AEDR01 (Router Ethernet/IP — DeviceNet) / Router Industrial 4G LTE
+============================================================
+
+IMAGEN DEL PRODUCTO:
+https://www.ia.omron.com/products/category/networks/
+
+VÍDEO / REFERENCIA TÉCNICA:
+https://industrial.omron.co.uk/en/products/networking
+
+Búsqueda recomendada en YouTube (español):
+"gateway protocolo PLC conversión DeviceNet EtherNet" o "router industrial 4G acceso remoto PLC"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+En automatización industrial hay dos dispositivos de red que se confunden fácilmente:
+
+**Gateway (pasarela de protocolo):** convierte un protocolo de comunicación en otro.
+Por ejemplo: un dispositivo habla DeviceNet pero el PLC solo tiene EtherNet/IP → el
+gateway hace de traductor entre los dos mundos. Es imprescindible cuando se quiere
+integrar equipos con protocolos distintos sin cambiar ninguno de los dos.
+
+**Router industrial:** conecta redes distintas y gestiona el tráfico entre ellas.
+El modelo más demandado actualmente es el router 4G LTE: se instala en el armario
+y crea un túnel de comunicación seguro por red móvil para acceso remoto al PLC —
+el técnico puede conectarse desde su ordenador o móvil y monitorizar/programar la
+máquina sin desplazarse físicamente.
+
+Lo que facilita:
+- **Gateway:** integrar en un sistema nuevo equipos legacy (DeviceNet, Modbus, PROFIBUS)
+  sin cambiarlos: la pasarela los convierte al protocolo actual (EtherNet/IP, EtherCAT).
+- **Router 4G:** acceso remoto al PLC para diagnóstico, mantenimiento y actualización
+  del programa desde cualquier lugar con cobertura móvil.
+- Reducir visitas técnicas a máquinas remotas: el 80% de los fallos se diagnostican
+  y resuelven remotamente con un buen acceso 4G.
+- Telegestión de instalaciones distribuidas (bombas, estaciones depuración, fotovoltaica):
+  un router en cada instalación + VPN = monitorización centralizada.
+
+Lo que evita que ocurra:
+- Tener que cambiar todos los sensores DeviceNet por sensores EtherNet/IP cuando se
+  migra el PLC: el gateway mantiene el hardware antiguo funcionando.
+- Desplazamientos innecesarios para cambiar un parámetro o reiniciar una alarma:
+  el router 4G permite hacerlo remotamente en minutos.
+- Brechas de seguridad: los routers industriales tienen VPN industrial (IPSec, OpenVPN)
+  para comunicaciones cifradas — no se abre el PLC a internet directamente.
+
+============================================================
+
+DIFERENCIA CLAVE: GATEWAY vs ROUTER
+--------------------------------------------------------------
+| Característica          | Gateway (pasarela)               | Router industrial 4G             |
+|-------------------------|----------------------------------|----------------------------------|
+| Función                 | Convierte protocolos             | Conecta redes / acceso remoto    |
+| Para qué                | Integración de dispositivos      | Mantenimiento remoto, telegestión|
+| Protocolos              | DeviceNet↔EtherNet/IP, etc.      | Ethernet ↔ Red móvil 4G/LTE     |
+| Ejemplo Omron           | NE1A-EDR01 (EIP↔DeviceNet)      | Router Industrial 4G LTE         |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                               | Por qué la necesitas                                          |
+|----|--------------------------------------------------------|---------------------------------------------------------------|
+| 1  | ¿Qué problema quiere resolver? (integración o remoto)  | Gateway → integración de protocolos / Router → acceso remoto |
+| 2  | ¿Qué protocolos necesita conectar? (DeviceNet, Modbus..)| Define el modelo de gateway necesario                        |
+| 3  | ¿Tiene cobertura 4G en el lugar donde está la máquina? | Sin cobertura → no funciona el router 4G                     |
+| 4  | ¿Necesita VPN para el acceso remoto?                   | Sí siempre — nunca abrir el PLC directamente a internet      |
+| 5  | ¿Cuántas máquinas/instalaciones necesita conectar?     | Define si necesita 1 router o una solución multi-site        |
+
+CONSEJO: El router industrial 4G es actualmente uno de los productos de mayor
+crecimiento en automatización. Muchos clientes que tienen máquinas antiguas sin
+conectividad lo añaden para poder acceder remotamente y ahorrar visitas técnicas.
+Cuando un cliente dice "quiero acceso remoto a mi PLC", el router 4G es casi
+siempre la respuesta más sencilla y económica.
+
+============================================================
+Fuentes:
+- Omron NE1A (oficial): https://www.ia.omron.com/products/family/2280/
+- Omron networking: https://www.ia.omron.com/products/category/networks/
+============================================================

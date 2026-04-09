@@ -1,0 +1,92 @@
+CUADRO RESUMEN — ACOPLADOR DE BUS AXIOLINE F (PROFINET)
+Familia: Electricidad > Aparellaje eléctrico > Autómatas programables
+Ejemplo en Araiz: Phoenix Contact ref. 2403869 (AXL F BK PN TPS — serie Axioline F)
+============================================================
+
+IMAGEN DEL PRODUCTO:
+https://www.phoenixcontact.com/en-us/products/io-component-axl-f-bk-pn-tps-2403869
+
+VÍDEO / REFERENCIA TÉCNICA:
+https://us.rs-online.com/product/phoenix-contact/2403869/71909846/
+
+Búsqueda recomendada en YouTube (español):
+"acoplador bus PROFINET Axioline Phoenix Contact" o "AXL BK PN bus coupler tutorial"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Este acoplador de bus es específicamente el "jefe" de una estación de I/O
+distribuida de la serie Axioline F de Phoenix Contact. Se conecta a la red
+PROFINET del PLC por un lado (mediante cable Ethernet RJ45) y al conjunto
+de módulos I/O Axioline F por el otro (a través del bus local interno a 100 Mbps).
+Sin este acoplador, los módulos I/O de la serie Axioline F no pueden comunicarse
+con el PLC.
+
+Lo que facilita:
+- Conectar hasta 63 módulos I/O Axioline F (entradas digitales, salidas digitales,
+  analógicas, contadores...) a la red PROFINET del PLC mediante un solo cable Ethernet.
+- Descentralizar los I/O cerca de la máquina, reduciendo el cableado de campo.
+- Diagnosticar el estado de todos los módulos desde el PLC a través de la red PROFINET.
+- Segmentar y aislar eléctricamente grupos de módulos de diferentes partes de la máquina.
+
+Lo que evita que ocurra:
+- Cablear individualmente cada sensor y actuador hasta el armario central
+  (con I/O distribuido se cablea solo hasta el acoplador más cercano).
+- Que un problema en la red afecte a los módulos locales (el bus local y la red
+  PROFINET están eléctricamente separados).
+- Pérdida de diagnóstico: el acoplador informa al PLC del estado de cada módulo.
+
+============================================================
+
+DIFERENCIA CON OTROS ACOPLADORES AXIOLINE F
+--------------------------------------------------------------
+| Tipo                            | Protocolo      | Ref. Araiz  | Cuándo usarlo                                |
+|---------------------------------|----------------|-------------|----------------------------------------------|
+| AXL F BK PN (ref. 2403869 / 2403696)| PROFINET  | 2403869     | PLCs Siemens, Phoenix Contact RFC, Schneider |
+| AXL F BK EC                    | EtherCAT       | —           | Sistemas de alta velocidad, motion control   |
+| IL PN BK (serie Inline)        | PROFINET       | Ver ref. acoplador bus original | Sistema Inline (más antiguo) |
+
+El ref. 2403869 incluye protección contra sobretensiones (TPS = Transient Protection Suppression), lo que le hace más robusto en entornos industriales con ruido eléctrico.
+
+============================================================
+
+CARACTERÍSTICAS TÉCNICAS BÁSICAS A SABER
+--------------------------------------------------------------
+| Parámetro                    | Qué significa                                    | Valor ref. 2403869 (Phoenix Contact)          |
+|------------------------------|--------------------------------------------------|-----------------------------------------------|
+| Protocolo de red             | Con qué red industrial se comunica               | PROFINET                                      |
+| Puertos de red               | Número de conectores RJ45                        | 2x RJ45 (permite daisy-chain en la red)       |
+| Módulos I/O compatibles      | Con qué módulos trabaja                          | Serie Axioline F (AXL F)                      |
+| Máx. módulos conectables     | Capacidad de la estación                         | Hasta 63 módulos Axioline F                   |
+| Velocidad de bus local       | Velocidad interna entre acoplador y módulos      | 100 Mbps                                      |
+| Protección integrada         | Protección contra sobretensiones transitorias    | Sí — TPS integrado                            |
+| Alimentación                 | Tensión de trabajo                               | 24V DC                                        |
+| Grado de protección          | Nivel de estanqueidad                            | IP20 → interior de armario                    |
+| Temperatura de trabajo       | Rango admisible                                  | -25°C a +60°C                                 |
+| Protocolos adicionales       | Funciones de red avanzadas                       | TFTP, PTCP, LLDP, SNMP, MRP, DDI, BootP      |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                          | Por qué la necesitas                                                          |
+|----|-------------------------------------------------------------------|-------------------------------------------------------------------------------|
+| 1  | ¿Qué PLC tiene y qué protocolo de red usa?                        | PROFINET → este acoplador. EtherCAT → otro modelo                            |
+| 2  | ¿Qué módulos I/O va a conectar?                                   | Deben ser de la serie Axioline F — no son compatibles con Inline u otras     |
+| 3  | ¿Cuántos módulos I/O necesita en la estación?                     | Máximo 63 por acoplador — si necesita más, añadir otro acoplador             |
+| 4  | ¿El entorno tiene mucho ruido eléctrico? (motores, soldadura...)  | Si sí → el TPS del ref. 2403869 da protección extra frente a transitorios    |
+| 5  | ¿Necesita redundancia en la red PROFINET?                         | Si sí → usar los 2 puertos RJ45 para crear anillo de red (MRP)               |
+| 6  | ¿Es instalación nueva o ampliación de un sistema Axioline?        | Si es ampliación → verificar versión de firmware compatible con módulos       |
+
+NOTA: Este acoplador (ref. 2403869) es para la serie Axioline F (AXL F).
+El acoplador ref. 2861409 es para la serie Inline (IB IL) — son sistemas distintos
+y no intercambiables. Confirmar siempre qué serie de módulos tiene el cliente.
+
+============================================================
+Fuentes:
+- Ficha oficial Phoenix Contact 2403869: https://www.phoenixcontact.com/en-us/products/io-component-axl-f-bk-pn-tps-2403869
+- RS Online ref. 2403869: https://us.rs-online.com/product/phoenix-contact/2403869/71909846/
+- WI Automation ref. 2403869: https://us.wiautomation.com/phoenix-contact/modules/2403869
+- Kolbi ref. 2403869: https://kolbi.es/automatizacion-industrial/periferia-descentralizada/periferia-ip20/2403869
+============================================================

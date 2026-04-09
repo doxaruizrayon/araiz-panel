@@ -1,0 +1,101 @@
+CUADRO RESUMEN — RELÉ DE ENCLAVAMIENTO / IMPULSO (latching relay — FINDER / Omron / Arteche)
+Familia: Electricidad > Aparellaje eléctrico > Reles
+Ejemplo en Araiz: FINDER ref. 26.01.8.012.0000 (Relé de enclavamiento SERIE 26 1 contacto 12A 12V DC bobina impulso)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"relé de enclavamiento impulso latching relay qué es" o "relé bistable memoria señal intermitente"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Un relé de enclavamiento (también llamado relé de impulso, relé bistable o latching
+relay) es un relé que cambia de estado con un pulso breve y mantiene ese estado sin
+necesidad de corriente continua en la bobina. Al contrario que un relé normal (que
+está cerrado mientras hay tensión en la bobina y abre en cuanto se corta), el relé
+de enclavamiento:
+- Recibe un pulso de SET → sus contactos se cierran y permanecen cerrados aunque
+  desaparezca la tensión de la bobina (el mecanismo queda enclavado magnéticamente).
+- Recibe un pulso de RESET → sus contactos se abren y permanecen abiertos.
+- No consume energía para mantener su estado — solo consume durante los pulsos.
+
+Tipos de relé de enclavamiento:
+- **Monobobina:** una sola bobina, SET con un pulso corto, RESET con un pulso largo
+  o con inversión de polaridad (para DC).
+- **Bibobina:** dos bobinas separadas (SET y RESET), cada una recibe su propio impulso.
+  Más claro y seguro — una bobina para encender, otra para apagar.
+
+**Aplicaciones más habituales:**
+- **Alumbrado residencial y terciario:** el telerruptor (ver cuadro telerruptores)
+  es un tipo de relé de enclavamiento para alumbrado.
+- **Control industrial con señales intermitentes:** si la señal de activación es un
+  pulso corto (sensor de presencia, final de carrera que solo activa 0,1 segundos),
+  el relé de enclavamiento mantiene el estado hasta que llegue otro pulso.
+- **Ahorro de energía:** en cuadros alimentados por batería o solar, el relé de
+  enclavamiento no consume energía de mantenimiento — solo en la conmutación.
+- **Relés de subestación (Arteche BJ/BF):** en sistemas de protección eléctrica de
+  media y alta tensión, los relés basculantes Arteche memorizan señales de disparo
+  para que el operario las lea aunque haya pasado la condición de fallo.
+
+Lo que facilita:
+- Mantener el estado de una carga sin señal continua (ahorro energético y funcional).
+- Memorizar el estado de un proceso o una alarma aunque la señal original sea breve.
+- Controlar iluminación y cargas con pulsadores simples sin retención mecánica.
+
+Lo que evita que ocurra:
+- Pérdida del estado memorizado al cortar la alimentación (el estado se conserva).
+- Consumo continuo de energía en la bobina del relé durante el tiempo que está activo.
+
+============================================================
+
+DIFERENCIA CLAVE: RELÉ DE ENCLAVAMIENTO vs RELÉ CONVENCIONAL
+--------------------------------------------------------------
+| Característica            | Relé enclavamiento (bistable)  | Relé convencional (monoestable)|
+|---------------------------|--------------------------------|-------------------------------|
+| Estado sin tensión bobina | Mantiene el último estado      | Siempre abre (posición normal) |
+| Energía de mantenimiento  | Cero                           | Continua (mientras activo)     |
+| Activación                | Pulso corto SET / RESET        | Tensión continua               |
+| Memoria de estado         | Sí — persiste al cortar alimen.| No — se pierde al cortar       |
+| Para señales breves       | Ideal (pulso de sensor)        | No (el relé abriría enseguida) |
+
+============================================================
+
+MODELOS EN ARAIZ (~72 artículos)
+--------------------------------------------------------------
+| Marca    | Serie/Ref.              | Bobinas   | Contactos | Corriente | Para qué                |
+|----------|-------------------------|-----------|-----------|-----------|-------------------------|
+| FINDER   | 26.01 / 26.03           | Monobobina| 1CO / 3CO | 12A       | Control general         |
+| FINDER   | 27.01 / 27.03           | Bibobina  | 1CO / 3CO | 12A       | Control general         |
+| Omron    | MY2I / MY4I (modo latch)| Según mod.| 2CO / 4CO | 5-10A     | Industria general       |
+| Arteche  | BJ-8 (basculante)       | Bibobina  | Varios    | -         | Protección subestaciones|
+| Arteche  | BF-4 (basculante)       | Bibobina  | 4CO       | -         | Memorización alarmas    |
+
+NOTA: Las referencias FINDER 26/27 tienen zócalo propio (serie 96/97) — pedir
+el zócalo siempre que se pide el relé si no está ya instalado.
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                | Por qué la necesitas                                          |
+|----|----------------------------------------------------------|------------------------------------------------------------- |
+| 1  | Necesita que el estado se mantenga sin tensión en bobina?| Confirmar que es relé de enclavamiento lo que necesita       |
+| 2  | La señal de mando es un pulso o continua?               | Pulso → enclavamiento / Continua → relé convencional         |
+| 3  | Prefiere monobobina (1 bobina, pulso distinto) o bibobina?| Bibobina es más claro — un impulso SET, otro RESET           |
+| 4  | Tensión de las bobinas? (SET / RESET)                   | 12V DC / 24V DC / 230V AC — define el modelo                 |
+| 5  | Cuantos contactos necesita?                             | 1CO (básico), 3CO (para varias señales)                      |
+
+CONSEJO: El relé de enclavamiento se confunde a veces con el relé convencional.
+La pregunta clave es: "¿necesita que el estado se mantenga aunque se vaya la señal
+de mando?". Si la respuesta es sí, es de enclavamiento. Muy habitual en instalaciones
+de alumbrado con pulsadores (sin necesidad de mantener el pulsador pulsado) y en
+aplicaciones industriales donde la señal de activación es un pulso muy corto.
+Los relés Arteche BJ/BF son relés especiales de alta fiabilidad para memorización
+de señales de disparo en protecciones de subestaciones — producto muy especializado.
+
+============================================================
+Fuentes:
+- FINDER Serie 26/27: https://www.findernet.com/es/es/series/26-serie-rele-enclavamiento
+- Arteche relés basculantes: https://www.arteche.com/es/productos/reles/
+============================================================

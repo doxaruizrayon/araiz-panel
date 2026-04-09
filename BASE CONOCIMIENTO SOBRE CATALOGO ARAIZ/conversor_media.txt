@@ -1,0 +1,100 @@
+CUADRO RESUMEN — CONVERSOR DE MEDIA (COBRE A FIBRA ÓPTICA / ADAPTADOR DE RED)
+Familia: Electricidad > Aparellaje eléctrico > Autómatas programables y robots industriales
+Ejemplo en Araiz: Phoenix Contact ref. PSI-MOS-PROFIB/FO 660-E (Conversor PROFIBUS a fibra óptica)
+============================================================
+
+IMAGEN DEL PRODUCTO:
+https://www.phoenixcontact.com/es-es/productos/conversor-de-medios-psi-mos
+
+VÍDEO / REFERENCIA TÉCNICA:
+https://www.phoenixcontact.com/es-es/productos/conversores-de-medios
+
+Búsqueda recomendada en YouTube (español):
+"conversor de media cobre fibra óptica industrial qué es" o "media converter PROFIBUS fibra red industrial"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Un conversor de media (media converter) es un dispositivo que convierte una señal
+de red industrial de un tipo de medio físico a otro — habitualmente de cable de cobre
+(RS485, Ethernet par trenzado) a fibra óptica, o viceversa. En automatización
+industrial, la fibra óptica se usa cuando:
+
+1. **La distancia supera el límite del cable de cobre:** Ethernet por cobre
+   llega hasta 100m; con fibra óptica multimodo hasta 2km, con monomodo hasta 80km.
+2. **Hay interferencias electromagnéticas severas:** cerca de motores grandes,
+   soldadoras o fuentes de RF, el cable de cobre capta ruido; la fibra es inmune.
+3. **Hay diferencia de potencial de tierra entre dos puntos:** la fibra aísla
+   galvánicamente los dos extremos — no hay problemas de tierra entre edificios.
+
+Los modelos Phoenix Contact PSI-MOS del catálogo Araiz convierten PROFIBUS (RS485)
+a fibra óptica para extender redes PROFIBUS entre armarios o edificios distantes.
+Los modelos Omron y Siemens convierten Ethernet industrial.
+
+Lo que facilita:
+- Extender una red PROFIBUS o Ethernet industrial entre dos puntos separados por
+  más de 100m o separados por una zona con mucho ruido electromagnético.
+- Conectar armarios en edificios distintos sin problemas de tierra: la fibra
+  no conduce electricidad — no hay bucles de tierra entre edificios.
+- Proteger la red de datos de interferencias de soldadoras, motores grandes o
+  convertidores de frecuencia cercanos.
+
+Lo que evita que ocurra:
+- Pérdidas de comunicación en redes largas por atenuación del cable de cobre:
+  la fibra tiene pérdidas mínimas en largas distancias.
+- Daños en los equipos de red por descargas eléctricas entre edificios: la fibra
+  aísla completamente los equipos en cada extremo.
+
+============================================================
+
+DIFERENCIA CLAVE: CONVERSOR DE MEDIA vs SWITCH INDUSTRIAL
+--------------------------------------------------------------
+| Característica          | Conversor de media               | Switch industrial                |
+|-------------------------|----------------------------------|----------------------------------|
+| Función                 | Cambia el medio físico           | Conecta y gestiona tráfico       |
+| Transparencia           | Transparente — no toca los datos | Gestiona tramas Ethernet         |
+| Para qué                | Extender distancia / aislar      | Conectar múltiples equipos       |
+| Latencia                | Mínima                           | Baja (switches industriales)     |
+| Precio                  | Bajo-medio                       | Medio-alto                       |
+
+============================================================
+
+MODELOS EN ARAIZ
+--------------------------------------------------------------
+| Referencia                  | Conversión              | Para qué                         |
+|-----------------------------|-------------------------|----------------------------------|
+| PSI-MOS-PROFIB/FO 660-E    | PROFIBUS RS485 → FO 660nm| PROFIBUS entre armarios distantes|
+| PSI-MOS-PROFIB/FO 660-T    | PROFIBUS RS485 → FO 660nm| Igual, conector T (anillo)       |
+| PSI-MOS-PROFIB/FO 850-E    | PROFIBUS RS485 → FO 850nm| Mayor distancia (850nm multimodo)|
+| Omron GX-ECC201            | EtherCAT → FO            | EtherCAT en fibra óptica         |
+
+NOTA: Los modelos -E tienen conector enchufable (topología en estrella); los -T
+tienen conector T para topología en anillo (más robusta — si se corta un segmento,
+la red sigue funcionando por el otro lado).
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                               | Por qué la necesitas                                          |
+|----|--------------------------------------------------------|---------------------------------------------------------------|
+| 1  | ¿Qué protocolo de red necesita convertir?              | PROFIBUS / Ethernet / EtherCAT — define el modelo            |
+| 2  | ¿Qué distancia hay entre los dos puntos?               | Define si necesita fibra multimodo (hasta 2km) o monomodo    |
+| 3  | ¿Hay interferencias electromagnéticas en la ruta?      | Confirma la necesidad de fibra óptica                        |
+| 4  | ¿Los dos puntos están en edificios distintos?          | Sí → fibra obligatoria para evitar problemas de tierra       |
+| 5  | ¿Quiere topología en estrella o en anillo?             | Anillo → más robusta / Estrella → más sencilla               |
+
+CONSEJO: El conversor de media es un producto técnico que se vende en proyectos
+concretos. El síntoma que lleva al cliente a necesitarlo es siempre el mismo:
+"tengo problemas de comunicación con equipos lejanos" o "necesito conectar dos
+edificios con PROFIBUS/Ethernet". Si la distancia supera 80m o hay soldadoras
+o motores grandes en la ruta, la fibra óptica es la solución. Siempre preguntar
+la distancia y si los puntos están en el mismo edificio o en edificios distintos
+(tierra diferente → fibra obligatoria).
+
+============================================================
+Fuentes:
+- Phoenix Contact PSI-MOS: https://www.phoenixcontact.com/es-es/productos/conversor-de-medios-psi-mos
+- Omron media converters: https://www.ia.omron.com/products/category/networks/
+============================================================

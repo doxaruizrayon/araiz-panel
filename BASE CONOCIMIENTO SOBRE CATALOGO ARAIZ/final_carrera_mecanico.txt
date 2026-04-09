@@ -1,0 +1,113 @@
+CUADRO RESUMEN — FINAL DE CARRERA MECÁNICO (XCMD / D4N / 3SE5)
+Familia: Electricidad > Aparellaje eléctrico > Final de carrera (interruptor de posición)
+Ejemplo en Araiz: Telemecanique ref. XCMD2102L1 (Final de carrera cuerpo metálico 2NA+2NC palanca rodillo)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"qué es un final de carrera cómo funciona" o "limit switch interruptor posición industrial"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Un final de carrera (o interruptor de posición) es un sensor mecánico que detecta
+cuándo una parte móvil (carro, puerta, brazo, cinta...) ha llegado a una posición
+determinada, y en ese momento abre o cierra un contacto eléctrico.
+
+Funciona igual que un interruptor convencional, pero en vez de accionarlo una persona
+con el dedo, lo acciona el movimiento mecánico de la máquina. Cuando la pieza
+móvil empuja el actuador del final de carrera (un rodillo, una palanca, un muelle),
+el contacto cambia de estado y envía la señal al PLC o al circuito de mando.
+
+Aplicaciones típicas:
+- Detectar que una puerta de máquina está cerrada antes de arrancar.
+- Detectar el fin de recorrido de un carro o un cilindro neumático.
+- Contar piezas que pasan por un punto en una cinta transportadora.
+- Detectar la posición extrema de un ascensor o una grúa (límite de carrera).
+- Confirmar que un brazo robot ha llegado a la posición de carga/descarga.
+
+Partes de un final de carrera estándar:
+1. **Cuerpo** (housing): la caja que contiene los contactos. Puede ser metálico
+   (más resistente, IP66/67) o plástico (más económico).
+2. **Cabezal/actuador**: la parte que se mueve al contacto con la máquina.
+   Intercambiable en la mayoría de gamas. Tipos: rodillo, rodillo ajustable,
+   palanca, muelle (whisker), palanca corta, patilla.
+3. **Bloque de contactos**: los contactos eléctricos (NA, NC o combinaciones).
+   También intercambiables en muchas gamas.
+
+============================================================
+
+DIFERENCIA CLAVE: FINAL DE CARRERA vs SENSOR INDUCTIVO vs SENSOR ÓPTICO
+--------------------------------------------------------------
+| Característica        | Final de carrera          | Sensor inductivo         | Sensor óptico          |
+|-----------------------|---------------------------|--------------------------|------------------------|
+| Contacto físico       | Sí (mecánico)             | No (sin contacto)        | No (sin contacto)      |
+| Detecta materiales    | Cualquier material sólido | Solo metales             | Cualquier opaco        |
+| Vida útil             | Media (desgaste mecánico) | Muy alta                 | Alta                   |
+| Señal de salida       | Contacto NA/NC (seco)     | PNP/NPN 24V DC           | PNP/NPN 24V DC         |
+| Precio                | Bajo                      | Medio                    | Medio-alto             |
+| Entornos húmedos      | Bien (IP66/67 metálico)   | Bien                     | Variable               |
+| Instalación           | Requiere contacto físico  | Sin contacto, más fácil  | Sin contacto           |
+| Circuitos de seguridad| Sí (contactos guiados)    | No (solo electrónica)    | No                     |
+
+El final de carrera sigue siendo muy utilizado porque:
+- Su señal es un contacto seco (NA/NC) que conecta directamente al PLC sin electrónica.
+- Puede operar con cualquier tensión (24V DC, 230V AC, etc.).
+- En circuitos de seguridad, los contactos guiados garantizan que NA y NC
+  no pueden estar cerrados simultáneamente — fiabilidad que los sensores
+  electrónicos no ofrecen de forma nativa.
+
+============================================================
+
+GAMAS PRINCIPALES EN ARAIZ (~2.452 artículos)
+--------------------------------------------------------------
+| Marca           | Gama                    | Referencias tipo               | IP / Material       |
+|-----------------|-------------------------|--------------------------------|---------------------|
+| Telemecanique   | XCM (metálico)          | XCMD2102, XCMN2102, XCMD4102  | IP66 / metal Zn     |
+| Telemecanique   | XCP (plástico)          | XCPD2102, XCPN2102            | IP65 / plástico     |
+| Telemecanique   | XCK (compacto)          | XCK-J10511, XCK-P102          | IP66 / metal        |
+| Omron           | D4N (universal)         | D4N-1120, D4N-2120, D4N-4120  | IP67 / plástico     |
+| Omron           | D4E (económico)         | D4E-1A20N, D4E-1C20N          | IP67 / plástico     |
+| Omron           | D4B (compacto plástico) | D4B-2112N, D4B-4112N          | IP67 / plástico     |
+| Siemens         | 3SE5 (SIRIUS)           | 3SE5112-0CH01, 3SE5122-0CH01  | IP66/67 / plástico  |
+| Siemens         | 3SE5 metálico           | 3SE5232-0BD01, 3SE5242-0BD01  | IP67 / metal        |
+| ABB             | LS/T, LS/D              | LS32P11B11, LSD11B11          | IP65 / plástico     |
+| Eaton           | LSM, LSS                | LSM-11, LSS-11, LSM-22        | IP65 / plástico     |
+
+CÓDIGO DE CONTACTOS MÁS HABITUALES:
+| Código | Contactos      | Uso habitual                                   |
+|--------|----------------|------------------------------------------------|
+| 1102   | 1 NA           | Señal simple de "llegué aquí"                  |
+| 1NC    | 1 NC           | Circuito de seguridad (corta al llegar)        |
+| 2102   | 1 NA + 1 NC    | El más vendido — señal y seguridad combinadas  |
+| 4102   | 2 NA + 2 NC    | Doble circuito por redundancia                 |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                        | Por qué la necesitas                                         |
+|----|-----------------------------------------------------------------|--------------------------------------------------------------|
+| 1  | ¿Qué va a empujar el final de carrera? (rodillo, palanca...)    | Define el tipo de cabezal/actuador                           |
+| 2  | ¿Cuántos contactos necesita? ¿NA, NC o ambos?                  | Define la combinación de contactos (1NC, 1NA+1NC, etc.)      |
+| 3  | ¿Qué tensión y corriente trabajan los contactos?                | Verificar que el modelo soporta la carga (AC/DC, mA a 10A)  |
+| 4  | ¿Qué IP necesita? ¿Hay agua, polvo, aceite?                    | IP65 para salpicaduras, IP67 para inmersión puntual          |
+| 5  | ¿Cuerpo metálico o plástico?                                    | Metal para entornos agresivos; plástico para uso general     |
+| 6  | ¿Es para seguridad de máquina (resguardo)?                     | Si sí: necesita final de carrera con bloqueo (ver cuadro)   |
+| 7  | ¿Tiene referencia del existente o necesita buscar equivalente?  | Con referencia es directo; sin ella hay que definir todo     |
+
+CONSEJO: Telemecanique (marca de Schneider) es la referencia histórica en finales
+de carrera industriales en España — prácticamente toda instalación antigua tiene
+Telemecanique. La gama XCM (metálica) y XCK son las más solicitadas en mantenimiento.
+La ventaja de estas gamas es la modularidad: el cuerpo, el cabezal y el bloque de
+contactos son intercambiables y se piden por separado o como conjunto.
+Si el cliente solo necesita cambiar el cabezal roto (el rodillo se rompe más que
+el cuerpo), orientar al cabezal suelto en vez de cambiar el conjunto completo.
+Omron D4N es el equivalente moderno más usado en instalaciones nuevas.
+
+============================================================
+Fuentes:
+- Telemecanique XCM/XCK: https://www.se.com/es/es/product-subcategory/limit-switches/
+- Omron D4N: https://industrial.omron.es/es/products/limit-switches
+- Siemens 3SE5: https://new.siemens.com/es/es/productos/automatizacion/aparamenta/interruptores-posicion-3se5.html
+============================================================

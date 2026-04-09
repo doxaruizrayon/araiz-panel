@@ -1,0 +1,103 @@
+CUADRO RESUMEN — FUSIBLES MINIATURA (VIDRIO, CUCHILLA, AUTOMOCIÓN, FOTOVOLTAICA)
+Familia: Electricidad > Aparellaje eléctrico > Portafusibles y fusibles industriales
+Ejemplo en Araiz: Phoenix Contact ref. 0913032 (Fusible tipo cuchilla automoción 15A)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"fusible vidrio 5x20 tipos" o "fusible cuchilla automoción mini maxi"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Este cuadro agrupa los fusibles de pequeño formato que NO pertenecen a las
+familias principales (NH, cilíndrico, Diazed, Neozed). Son fusibles especiales
+para aplicaciones concretas: electrónica, automoción, instrumentación y solar.
+
+**1. FUSIBLES MINIATURA DE VIDRIO Y CERÁMICOS (~200 art.)**
+Los típicos fusibles pequeños transparentes que se ven en equipos electrónicos.
+Formatos principales:
+| Formato | Uso típico |
+|---------|-----------|
+| 5x20mm | El más común — equipos electrónicos, fuentes alimentación, multímetros |
+| 6x32mm | Instrumentación, equipos de medida |
+| 6,3x32mm | Variante americana (1/4" x 1-1/4") |
+
+Tipos de actuación:
+- **F (Fast / Rápido)**: Funde instantáneamente — para proteger semiconductores.
+- **T (Time-delay / Retardado)**: Soporta picos de arranque — para motores pequeños.
+- **FF (Muy rápido)**: Para instrumentos de medida (multímetros Fluke).
+
+Se montan en portafusibles roscados empotrables, portafusibles de panel, o
+directamente en clips sobre la placa de circuito impreso.
+Marcas: Ferraz Shawmut, Eaton, Weidmuller, Fluke (repuestos multímetro).
+
+**2. FUSIBLES TIPO CUCHILLA / AUTOMOCIÓN (~60 art.)**
+Fusibles planos con dos patillas (tipo clavija) usados en vehículos, maquinaria
+móvil y cuadros de distribución de corriente continua.
+Formatos: Mini (10,9mm), Estándar/ATO (19,1mm), Maxi (29,2mm).
+Código de colores universal por amperaje.
+Marcas: Phoenix Contact, Eaton, Weidmuller.
+
+**3. FUSIBLES FOTOVOLTAICOS ESPECIALES (~20 art.)**
+Fusibles cilíndricos especiales para protección de strings solares en corriente
+continua. Formato 10x85mm para 1000V DC o 1500V DC. Curva gPV.
+Se montan en las string boxes (cajas de conexión de paneles solares).
+Marcas: Phoenix Contact (SOL-RPL), Eaton, Gave, Sofamel.
+
+Lo que facilita:
+- Proteger equipos electrónicos delicados con fusibles de precisión.
+- Proteger circuitos DC en vehículos y maquinaria móvil.
+- Proteger strings solares en instalaciones fotovoltaicas.
+
+Lo que evita que ocurra:
+- Destrucción de componentes electrónicos por cortocircuito.
+- Incendio en vehículos o maquinaria por sobrecargas en el cableado DC.
+- Corrientes inversas entre strings solares (fusible gPV).
+
+============================================================
+
+MODELOS EN ARAIZ (~280 artículos)
+--------------------------------------------------------------
+| Tipo                     | Marca           | Formato             | Para qué                      |
+|--------------------------|-----------------|---------------------|-------------------------------|
+| Fusible vidrio 5x20 F   | Ferraz Shawmut  | 5x20mm rápido       | Electrónica, fuentes          |
+| Fusible vidrio 5x20 T   | Ferraz Shawmut  | 5x20mm retardado    | Motores pequeños              |
+| Fusible cerámico 5x20   | Eaton / Jangar  | 5x20mm cerámico     | Mayor capacidad de corte      |
+| Fusible 6x32             | Ferraz Shawmut  | 6x32mm              | Instrumentación               |
+| Fusible multímetro       | Fluke           | Especial Fluke      | Repuesto multímetros Fluke    |
+| Portafusible roscado     | Onda Radio      | Panel 5x20          | Montar fusible en panel       |
+| Fusible cuchilla Mini    | Phoenix Contact | Mini blade           | Automoción / DC compacto      |
+| Fusible cuchilla ATO     | Phoenix Contact | ATO estándar         | Automoción / maquinaria       |
+| Fusible cuchilla Maxi    | Eaton           | Maxi blade           | DC alta corriente             |
+| Fusible gPV 10x85        | Phoenix Contact | SOL-RPL 1500V DC     | String solar 1500V            |
+| Fusible gPV              | Sofamel / Gave  | MC4 inline           | Solar DC con conector MC4     |
+| Portafusible automoción  | Weidmuller      | Blade fuse holder    | Base para fusible cuchilla    |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                | Por qué la necesitas                                          |
+|----|----------------------------------------------------------|------------------------------------------------------------- |
+| 1  | Para qué equipo es? (electrónico, vehículo, solar)     | Define la familia de fusible                                  |
+| 2  | Qué formato? (5x20, 6x32, cuchilla mini/ATO/maxi)     | Define el tamaño físico                                       |
+| 3  | Rápido (F) o retardado (T)?                             | Define la curva de actuación                                  |
+| 4  | Qué amperaje y tensión?                                 | Cada combinación es un modelo diferente                       |
+| 5  | Cuántos necesita?                                       | Se venden en cajas de 10-100 unidades                         |
+
+CONSEJO: Los fusibles de vidrio 5x20 son un repuesto habitual para fuentes de
+alimentación, transformadores de mando y equipos electrónicos. Son baratos (céntimos
+por unidad) pero se piden en cantidad.
+Los fusibles para multímetros Fluke son específicos y caros — solo valen los originales
+porque están certificados para la categoría de medida (CAT III/IV).
+Los fusibles fotovoltaicos gPV son OBLIGATORIOS en instalaciones solares con más de
+2 strings en paralelo — sin ellos, una corriente inversa puede incendiar un cable.
+No confundir fusible automoción (DC baja tensión, 12-32V) con fusible industrial DC.
+
+============================================================
+Fuentes:
+- Phoenix Contact fusibles: https://www.phoenixcontact.com/es-es/productos/fusibles/
+- Eaton miniature fuses: https://www.eaton.com/es/es-es/catalog/fuses/miniature-fuses.html
+- Fluke fusibles: https://www.fluke.com/es-es/accesorio/fusibles
+============================================================

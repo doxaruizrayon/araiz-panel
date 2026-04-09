@@ -1,0 +1,99 @@
+CUADRO RESUMEN — CABEZALES Y ACTUADORES PARA FINAL DE CARRERA
+Familia: Electricidad > Aparellaje eléctrico > Final de carrera (interruptor de posición)
+Ejemplo en Araiz: Telemecanique ref. ZCY21 (Cabezal palanca corta con rodillo ajustable para XCM/XCP)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"cabezal final de carrera tipos rodillo palanca whisker" o "actuador intercambiable limit switch"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+La mayoría de las gamas de finales de carrera industriales tienen una arquitectura
+modular: el cuerpo (con los contactos) y el cabezal/actuador son piezas separadas
+que se pueden intercambiar sin cambiar el conjunto completo.
+
+El **cabezal o actuador** es la parte del final de carrera que entra en contacto
+físico con la máquina. Cuando la parte móvil empuja el cabezal, este transmite
+el movimiento al mecanismo interno que abre o cierra los contactos.
+
+La modularidad tiene dos ventajas prácticas:
+1. **Mantenimiento**: si se rompe solo el cabezal (el más expuesto al desgaste),
+   se cambia solo el cabezal sin tocar el cableado ni el cuerpo.
+2. **Adaptación**: el mismo cuerpo sirve para distintas geometrías de máquina
+   cambiando el cabezal — ahorra stock y tiempo de diseño.
+
+**Tipos de cabezales / actuadores:**
+
+| Tipo                  | Descripción                                    | Aplicación típica                        |
+|-----------------------|------------------------------------------------|------------------------------------------|
+| Rodillo estándar      | Rodillo fijo en extremo de palanca corta       | El más universal — carros, puertas       |
+| Rodillo ajustable     | Rodillo en palanca de longitud ajustable       | Cuando se necesita ajustar la posición   |
+| Palanca corta         | Sin rodillo, palanca rígida                    | Piezas que empujan lateralmente          |
+| Palanca larga         | Palanca de mayor radio de acción               | Detección de recorridos largos           |
+| Muelle / whisker      | Varilla flexible tipo antena                   | Detección suave, objetos frágiles, telas |
+| Patilla de plástico   | Varilla rígida corta                           | Detección de pequeños movimientos        |
+| Rodillo plástico      | Rodillo no metálico para entornos con aceite   | Industria alimentaria, plásticos         |
+| Actuador bidireccional| Se acciona en ambos sentidos                   | Cintas, pasos bidireccionales            |
+
+**Elemento frontal / cabezal selector (98 art., Omron 94):**
+Son los cabezales de los selectores e interruptores de posición de la gama Omron
+(serie A22 y similares) — detectores de posición con accionamiento tipo palanca
+o selector. Están clasificados en este grupo aunque pertenecen a la familia
+de pulsatería — están aquí por la clasificación ETIM del catálogo.
+
+Lo que facilita:
+- Cambiar solo el cabezal roto en lugar de todo el conjunto (ahorro de coste).
+- Adaptar un final de carrera estándar a diferentes geometrías de máquina.
+- Reducir el stock: un cuerpo + varios cabezales distintos cubre muchas aplicaciones.
+
+============================================================
+
+COMPATIBILIDAD POR MARCA Y GAMA
+--------------------------------------------------------------
+| Marca           | Gama cuerpo    | Cabezales compatibles        | Clave de referencia |
+|-----------------|----------------|------------------------------|---------------------|
+| Telemecanique   | XCM / XCP      | ZCY__ (serie ZCY)            | ZCY01, ZCY21, ZCY31 |
+| Telemecanique   | XCK            | ZCK-Y__ (serie ZCKY)         | ZCKY01, ZCKY21      |
+| Omron           | D4N            | D4N-GK__ (cabezales D4N)     | D4N-GK20, D4N-GK50  |
+| Omron           | D4E            | D4E-G__ (cabezales D4E)      | D4E-G0, D4E-G5      |
+| Siemens         | 3SE5 plástico  | 3SE5000-0AV__ (cabezales)    | 3SE5000-0AV01       |
+| Siemens         | 3SE5 metálico  | 3SE5240-0AA__ (cabezales)    | 3SE5240-0AA10       |
+| Eaton           | LSM / LSS      | Cabezales serie LS           | LSM-A21, LSS-A31    |
+
+CODIFICACIÓN TELEMECANIQUE (la más frecuente):
+| Código ZCY | Tipo de cabezal                        |
+|------------|----------------------------------------|
+| ZCY01      | Palanca corta con rodillo estándar     |
+| ZCY21      | Palanca ajustable con rodillo          |
+| ZCY31      | Palanca con rodillo plástico           |
+| ZCY06      | Muelle / whisker                       |
+| ZCY61      | Actuador bidireccional con rodillo     |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                        | Por qué la necesitas                                         |
+|----|-----------------------------------------------------------------|--------------------------------------------------------------|
+| 1  | ¿Cuál es la marca y la gama del cuerpo del final de carrera?   | El cabezal debe ser compatible con el cuerpo (no universal)  |
+| 2  | ¿Qué tipo de cabezal lleva ahora? ¿Rodillo, palanca, muelle?   | Para sustituir por el mismo tipo o elegir uno más adecuado   |
+| 3  | ¿Qué empuja el cabezal? ¿Cómo llega la pieza al final de carrera?| Define si hace falta ajustar longitud o ángulo del cabezal  |
+| 4  | ¿Hay aceite, agua, o la pieza es frágil?                        | Define si necesita rodillo plástico o cabezal especial       |
+| 5  | ¿Quiere el cabezal solo o el conjunto completo (cuerpo+cabezal)?| A veces es más rápido cambiar el conjunto completo           |
+
+CONSEJO: El error más frecuente al pedir un cabezal es no especificar la gama del
+cuerpo. Un cabezal ZCY (para XCM/XCP) NO es compatible con un ZCKY (para XCK),
+aunque ambos son de Telemecanique. Siempre pedir la referencia del cuerpo primero.
+Si el cliente no la tiene, describir el tamaño del cuerpo: compacto (~55mm largo)
+suele ser XCK; más grande (~80mm) suele ser XCM.
+En mantenimiento, el cabezal de rodillo ajustable (ZCY21) es el más versátil:
+permite ajustar la posición sin necesidad de desplazar el final de carrera en la máquina.
+
+============================================================
+Fuentes:
+- Telemecanique cabezales ZCY: https://www.se.com/es/es/product-subcategory/limit-switch-heads/
+- Omron cabezales D4N: https://industrial.omron.es/es/products/limit-switch-accessories
+- Siemens cabezales 3SE5: https://new.siemens.com/es/es/productos/automatizacion/aparamenta/interruptores-posicion-3se5.html
+============================================================

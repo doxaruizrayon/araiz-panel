@@ -1,0 +1,84 @@
+CUADRO RESUMEN — MÓDULO DIGITAL AXL (MIXTO: 16DI + 16DO)
+Familia: Electricidad > Aparellaje eléctrico > Autómatas programables
+Ejemplo en Araiz: Phoenix Contact ref. 2702106 (AXL F DI16/1 DO16/1 2H — serie Axioline F)
+============================================================
+
+IMAGEN DEL PRODUCTO:
+https://www.phoenixcontact.com/en-us/products/io-component-axl-f-di161-do161-2h-2702106
+
+VÍDEO / REFERENCIA TÉCNICA:
+https://es.rs-online.com/web/p/accesorios-para-controladores-y-automatas/2074864
+
+Búsqueda recomendada en YouTube (español):
+"módulo mixto entradas salidas digitales PLC Axioline" o "Phoenix Contact AXL DI DO módulo combinado"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Un módulo digital mixto combina en un mismo componente entradas digitales y salidas
+digitales, ocupando menos espacio en el armario y reduciendo el número de módulos
+necesarios en una estación I/O. El ref. 2702106 tiene 16 entradas digitales
+(para conectar sensores) y 16 salidas digitales (para activar actuadores) en un
+único módulo de la serie Axioline F. Es la solución más compacta y económica cuando
+se necesitan tanto lecturas de sensores como activación de actuadores en la misma zona.
+
+Lo que facilita:
+- Tener entradas y salidas digitales en un solo módulo, reduciendo el espacio
+  ocupado en el carril DIN y el número de componentes a gestionar.
+- Reducir el coste respecto a comprar un módulo de entradas y uno de salidas por separado.
+- Instalar I/O mixto cerca de la máquina con mínimo espacio de armario.
+- Actualización de estado muy rápida: tiempo de respuesta menor de 100 µs.
+
+Lo que evita que ocurra:
+- Que la estación Axioline se llene de módulos individuales cuando se puede
+  resolver con un módulo combinado.
+- Exceso de gasto comprando módulos separados cuando los puntos de I/O están
+  equilibrados entre entradas y salidas.
+
+============================================================
+
+DIFERENCIA CON MÓDULOS DIGITALES INDIVIDUALES
+--------------------------------------------------------------
+| Tipo                              | Entradas | Salidas | Cuándo usarlo                                          |
+|-----------------------------------|----------|---------|--------------------------------------------------------|
+| Módulo solo entradas (ref. 2688022)| 16 DI   | 0       | Cuando se necesitan muchas más entradas que salidas    |
+| Módulo solo salidas (ref. 2688349) | 0       | 16 DO   | Cuando se necesitan muchas más salidas que entradas    |
+| Módulo mixto (ref. 2702106)        | 16 DI   | 16 DO   | Cuando entradas y salidas están equilibradas. Más compacto|
+
+============================================================
+
+CARACTERÍSTICAS TÉCNICAS BÁSICAS A SABER
+--------------------------------------------------------------
+| Parámetro                    | Qué significa                                    | Valor ref. 2702106 (Phoenix Contact)          |
+|------------------------------|--------------------------------------------------|-----------------------------------------------|
+| Entradas digitales           | Canales de entrada para sensores                 | 16 entradas digitales 24V DC                  |
+| Salidas digitales            | Canales de salida para actuadores                | 16 salidas digitales 24V DC / 500mA           |
+| Tecnología de conexión       | Número de hilos por canal                        | 1 conductor por canal (Push-in enchufable)    |
+| Filtro de entradas           | Filtra rebotes y ruido                           | 3 niveles: <100µs / 1000µs / 3000µs          |
+| Frecuencia máx. entrada      | Para función de contador                         | Hasta 5 kHz en canales rápidos                |
+| Tiempo de actualización salidas| Velocidad de respuesta de las salidas           | Menos de 100 µs                               |
+| Velocidad de bus local       | Comunicación con el acoplador                    | 100 Mbps                                      |
+| Grado de protección          | Nivel de estanqueidad                            | IP20 → interior de armario                    |
+| Temperatura de trabajo       | Rango admisible                                  | -25°C a +60°C                                 |
+| Serie / familia              | Sistema al que pertenece                         | Axioline F (solo compatible con acoplador AXL)|
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                          | Por qué la necesitas                                                          |
+|----|-------------------------------------------------------------------|-------------------------------------------------------------------------------|
+| 1  | ¿Qué PLC o sistema de control tiene?                              | El módulo debe ser de la serie Axioline F                                     |
+| 2  | ¿Cuántas entradas y cuántas salidas digitales necesita?           | Si son equilibradas → módulo mixto. Si muy desiguales → módulos separados    |
+| 3  | ¿Los sensores son PNP o NPN?                                      | Determina el cableado del común del módulo                                    |
+| 4  | ¿Necesita contar pulsos de algún sensor?                          | Si sí → este módulo tiene entradas rápidas hasta 5 kHz                       |
+| 5  | ¿Va dentro de un armario o en campo abierto?                      | IP20 para armario / IP65-67 para campo                                        |
+| 6  | ¿Es instalación nueva o ampliación?                               | Si es ampliación debe ser de la misma serie Axioline F                        |
+
+============================================================
+Fuentes:
+- Ficha oficial Phoenix Contact 2702106: https://www.phoenixcontact.com/en-us/products/io-component-axl-f-di161-do161-2h-2702106
+- RS Online ref. 2702106: https://es.rs-online.com/web/p/accesorios-para-controladores-y-automatas/2074864
+- RSP Supply ref. 2702106: https://rspsupply.com/p-71094-phoenix-contact-2702106-digital-module-axl-f-di161-do161-2h.aspx
+============================================================

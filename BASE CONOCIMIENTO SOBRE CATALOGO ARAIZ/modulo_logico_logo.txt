@@ -1,0 +1,109 @@
+CUADRO RESUMEN — MÓDULO LÓGICO (LOGO! / ZELIO / ZEN) — MINI PLC SIN PROGRAMACIÓN COMPLEJA
+Familia: Electricidad > Aparellaje eléctrico > Autómatas programables y robots industriales
+Ejemplo en Araiz: Siemens ref. LOGO! 12/24RC — Módulo básico 12/24V DC 8 entradas 4 salidas relé
+============================================================
+
+IMAGEN DEL PRODUCTO:
+https://www.siemens.com/es/es/productos/automatizacion/producto/logo.html
+
+VÍDEO / REFERENCIA TÉCNICA:
+https://www.siemens.com/logo
+
+Búsqueda recomendada en YouTube (español):
+"Siemens LOGO que es para que sirve diferencia PLC" o "mini PLC módulo lógico LOGO Zelio programación"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Un módulo lógico (también llamado mini PLC o relé programable) es un controlador
+compacto de gama muy baja, diseñado para automatizar tareas simples sin necesidad
+de un PLC industrial completo ni de conocimientos avanzados de programación. Tiene
+entradas digitales (para pulsadores, sensores, finales de carrera), salidas digitales
+o de relé (para pilotos, contactores, válvulas pequeñas) y se programa mediante una
+interfaz visual muy sencilla de bloques lógicos, temporizadores y contadores — sin
+código de programación complejo. El más conocido en el mercado es el **LOGO! de Siemens**
+(dominante en el catálogo Araiz con 14 artículos); también existen el Zelio de
+Schneider Electric (49 artículos) y los sistemas NLC de Phoenix Contact.
+Omron tiene el ZEN, versión equivalente para su gama.
+
+Para qué se usa: automatismos simples de edificios y pequeñas instalaciones:
+control de iluminación con temporizador, control de bombas con horario, apertura
+automática de puertas, sistemas de ventilación, pequeñas líneas de producción sencillas.
+
+Lo que facilita:
+- Sustituir varios temporizadores, contadores y relés por un solo dispositivo
+  compacto programable: el módulo lógico hace todo en uno.
+- Programar lógicas de control simples sin conocer PLC: la programación por
+  bloques funcionales es accesible para electricistas sin formación en automatización.
+- Modificar el comportamiento del automatismo sin recablear: solo se cambia el
+  programa, no el cableado del armario.
+- Añadir pantalla de visualización integrada: algunos modelos tienen display para
+  mostrar horarios, contadores o mensajes al operario.
+- Comunicación básica por Ethernet: los LOGO! actuales tienen puerto Ethernet
+  para acceso remoto y comunicación con el SCADA.
+
+Lo que evita que ocurra:
+- Instalar un PLC industrial completo para controlar una bomba de agua con horario:
+  el módulo lógico es suficiente y mucho más económico.
+- Cableado complejo de relés temporizadores independientes: el módulo lógico
+  agrupa toda la lógica en un solo equipo sin cableado entre relés.
+
+============================================================
+
+DIFERENCIA CLAVE: MÓDULO LÓGICO vs PLC COMPACTO (CP1L)
+--------------------------------------------------------------
+| Característica          | Módulo lógico (LOGO! / Zelio)    | PLC compacto (CP1L, S7-1200)     |
+|-------------------------|----------------------------------|----------------------------------|
+| Complejidad programación| Muy baja — bloques visuales      | Media-alta — Ladder, ST, FBD     |
+| Número de E/S           | Bajo (4-20 E/S típicamente)      | Mayor (20-80 E/S y ampliable)    |
+| Redes industriales      | Ethernet básico (LOGO!)          | EtherNet/IP, PROFINET, etc.      |
+| Para qué                | Automatismos simples edificios   | Máquinas industriales complejas  |
+| Precio                  | Muy bajo (60-200€)               | Medio (200-800€)                 |
+| Quién lo programa       | Electricista sin formación PLC   | Técnico de automatización        |
+
+============================================================
+
+MODELOS EN ARAIZ
+--------------------------------------------------------------
+| Marca             | Serie          | Tensión          | Para qué                          |
+|-------------------|----------------|------------------|-----------------------------------|
+| Siemens           | LOGO! 12/24RC  | 12/24V DC        | El más habitual — universal DC    |
+| Siemens           | LOGO! 230RCE   | 230V AC          | Instalaciones con red 230V AC     |
+| Siemens           | LOGO! módulos  | —                | Ampliaciones de E/S para LOGO!    |
+| Schneider Electric| Zelio Logic    | 12/24V DC o 230V | Alternativa Schneider — más E/S   |
+| Phoenix Contact   | NLC-series     | 24V DC           | Módulo lógico con bus de campo    |
+| Omron             | ZEN series     | 24V DC / 100-240V| Alternativa Omron                 |
+
+NOTA: El LOGO! de Siemens se programa con el software gratuito LOGO! Soft Comfort
+(descarga directa desde web Siemens). El Zelio de Schneider usa Zelio Soft 2 (también
+gratuito). Sin software no se puede modificar el programa, aunque el dispositivo
+funcione con el programa ya cargado.
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                               | Por qué la necesitas                                          |
+|----|--------------------------------------------------------|---------------------------------------------------------------|
+| 1  | ¿Cuántas entradas y salidas necesita?                  | Define el tamaño del módulo (básico o con ampliaciones)      |
+| 2  | ¿La instalación es a 230V AC o 24V DC?                 | Define el modelo (LOGO! 230RC vs 12/24RC)                    |
+| 3  | ¿Necesita pantalla de visualización?                   | Algunos LOGO! tienen display integrado                       |
+| 4  | ¿Tiene conexión a internet o red para acceso remoto?   | LOGO! 8 tiene Ethernet — permite monitorización web          |
+| 5  | ¿Tiene el software de programación?                    | LOGO! Soft Comfort (gratuito) / Zelio Soft 2 (gratuito)     |
+| 6  | ¿Es para un edificio o para una máquina industrial?    | Edificio → módulo lógico / Máquina industrial → mejor CP1L  |
+
+CONSEJO: El módulo lógico es muy popular en instalaciones de edificios, bombeo,
+iluminación exterior con horario y pequeñas automatizaciones que no justifican un
+PLC industrial completo. El cliente habitual es un electricista instalador (no
+automatizador) que quiere controlar una bomba de riego, el alumbrado de un parking
+o la ventilación de un local sin entrar en programación compleja de PLC. Cuando el
+proyecto crece y necesita redes industriales o más E/S, es el momento de proponer
+un CP1L o un S7-1200 en su lugar.
+
+============================================================
+Fuentes:
+- Siemens LOGO! (oficial): https://www.siemens.com/es/es/productos/automatizacion/producto/logo.html
+- Schneider Zelio: https://www.se.com/es/es/product-category/6300-zelio-logic/
+- Omron ZEN: https://www.ia.omron.com/products/family/1393/
+============================================================

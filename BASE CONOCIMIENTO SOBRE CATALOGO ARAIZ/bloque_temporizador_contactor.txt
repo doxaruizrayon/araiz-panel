@@ -1,0 +1,96 @@
+CUADRO RESUMEN — BLOQUE TEMPORIZADOR PARA CONTACTOR (arranque estrella-triángulo / retardo)
+Familia: Electricidad > Aparellaje eléctrico > Contactores
+Ejemplo en Araiz: Siemens ref. 3RT2926-2QD20 (Bloque temporizador 3RT2 retardo a la conexión 0,05-1s)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"bloque temporizador contactor estrella triángulo" o "timer block contactor retardo conexión apertura"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Un bloque temporizador para contactor es un accesorio que se engancha sobre el
+contactor (igual que el bloque de contactos auxiliares) y añade una función de
+temporización: el contactor no actúa instantáneamente al recibir la orden, sino
+que espera el tiempo ajustado en el temporizador. Esto permite realizar esquemas
+de control que necesitan secuencias temporizadas sin necesidad de un relé
+temporizador externo separado.
+
+Las funciones más habituales:
+- **Retardo a la conexión (ON-delay):** el contactor cierra transcurrido el tiempo
+  ajustado desde que llega la orden. Uso principal: arranque estrella-triángulo
+  (el contactor de triángulo cierra X segundos después del de estrella).
+- **Retardo a la apertura (OFF-delay):** el contactor continúa cerrado durante
+  el tiempo ajustado después de que desaparezca la orden. Uso: mantener un ventilador
+  en marcha unos segundos después de parar la máquina para enfriar.
+- **Flasheo / impulso:** el contactor cierra durante un tiempo fijo y luego abre,
+  independientemente de si la orden sigue presente.
+
+El arranque estrella-triángulo es la aplicación más habitual de estos bloques:
+para arrancar motores grandes sin golpe de corriente, primero se conecta en estrella
+(tensión reducida) durante 3-10 segundos, y luego el temporizador conmuta a triángulo
+(plena tensión). El bloque temporizador ajusta exactamente ese intervalo de espera.
+
+Lo que facilita:
+- Realizar arranque estrella-triángulo sin relé temporizador externo: el bloque
+  se monta directamente sobre el contactor y el esquema se simplifica.
+- Secuenciar la entrada en servicio de varios equipos con retardos.
+- Mantener equipos auxiliares en marcha el tiempo necesario tras la parada.
+
+Lo que evita que ocurra:
+- Montaje de un relé temporizador externo en carril DIN cuando el bloque acoplado
+  es más compacto y económico para esta función específica.
+- Arranque a plena tensión de motores grandes que genera picos de corriente y
+  desgaste de la red eléctrica.
+
+============================================================
+
+TIPOS DE TEMPORIZACIÓN
+--------------------------------------------------------------
+| Tipo             | Descripción                                          | Aplicación típica              |
+|------------------|------------------------------------------------------|-------------------------------|
+| ON-delay (TDE)   | Actúa tras un retardo al recibir la orden de ON     | Estrella→triángulo, secuencias|
+| OFF-delay (TDA)  | Sigue actuado durante retardo al quitar la orden    | Ventilación post-parada        |
+| Impulso (TDP)    | Actúa durante tiempo fijo al recibir la orden       | Señales de duración fija       |
+
+============================================================
+
+MODELOS EN ARAIZ (25 artículos)
+--------------------------------------------------------------
+| Referencia            | Marca    | Función    | Rango temporización       | Compatible con   |
+|-----------------------|----------|------------|--------------------------|-----------------|
+| 3RT2926-2QD20         | Siemens  | ON-delay   | 0,05 s – 1 s             | 3RT2 S00-S3     |
+| 3RT2926-2QF20         | Siemens  | ON-delay   | 3 s – 100 s              | 3RT2 S00-S3     |
+| 3RT2926-2QG20         | Siemens  | OFF-delay  | 0,05 s – 1 s             | 3RT2 S00-S3     |
+| LADTD                 | Schneider| ON-delay   | 1 – 30 s                 | TeSys D LC1D    |
+| LADTP2                | Schneider| ON-delay   | 0,1 – 30 s               | TeSys D LC1D    |
+
+NOTA: El rango de temporización se ajusta mediante potenciómetro en el propio bloque.
+La compatibilidad es estricta — solo encajan en su gama de contactor específica.
+En Araiz hay pocos artículos de esta subcategoría (25) — el grueso de las
+temporizaciones en cuadros modernos se hace con el PLC o con relés temporizadores
+independientes en carril DIN.
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                | Por qué la necesitas                                          |
+|----|----------------------------------------------------------|------------------------------------------------------------- |
+| 1  | ¿Para qué esquema lo necesita? ¿Estrella-triángulo?     | Define el tipo de temporización (ON-delay para Y-Δ)          |
+| 2  | ¿Qué referencia tiene el contactor donde se montará?    | Solo encaja en la gama del contactor compatible               |
+| 3  | ¿Qué tiempo de retardo necesita?                        | Define el modelo por rango de temporización                   |
+
+CONSEJO: Los bloques temporizadores de contactor se piden poco — la mayoría de los
+instaladores modernos usan el PLC para las temporizaciones. Se ven más en instalaciones
+antiguas o en esquemas convencionales sin PLC. Si el cliente tiene un cuadro con
+lógica cableada (sin PLC) y hace arranque estrella-triángulo, este bloque es la
+solución más limpia. Para cuadros nuevos con PLC, orientar al cliente hacia hacer la
+temporización en el programa del PLC sin bloque adicional.
+
+============================================================
+Fuentes:
+- Siemens 3RT2926 temporizador: https://new.siemens.com/es/es/productos/automatizacion/aparamenta.html
+- Schneider LADTD: https://www.se.com/es/es/product-subcategory/4700-contactores-tesys-d/
+============================================================

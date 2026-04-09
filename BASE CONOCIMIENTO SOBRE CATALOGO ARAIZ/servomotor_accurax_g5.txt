@@ -1,0 +1,151 @@
+CUADRO RESUMEN — SERVOMOTOR ACCURAX G5 (MOTOR SERVO)
+Familia: Electricidad > Aparellaje eléctrico > Autómatas programables y robots industriales
+Ejemplo en Araiz: Omron ref. R88MK1K530HS2 (Servomotor 1,5kW 200V AC 4,77Nm incremental — serie R88M-K)
+============================================================
+
+IMAGEN DEL PRODUCTO:
+https://www.ia.omron.com/products/family/2644/
+
+VÍDEO / REFERENCIA TÉCNICA:
+https://industrial.omron.co.uk/en/products/accurax-g5-servomotors
+
+Búsqueda recomendada en YouTube (español):
+"servomotor Omron Accurax G5 R88M características" o "servomotor vs motor paso a paso diferencia"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Un servomotor es el motor físico del sistema servo: convierte la energía eléctrica
+en movimiento mecánico rotativo con alta precisión de posición, velocidad y par. Trabaja
+siempre en pareja con el servo drive (el variador electrónico que lo controla): el drive
+le envía la corriente necesaria y lee continuamente la señal del encoder incorporado en
+el propio motor para saber en todo momento dónde está el eje y corregir al instante
+cualquier desviación. El Accurax G5 (serie R88M-K) es el servomotor de Omron diseñado
+específicamente para funcionar con el servo drive Accurax G5 (R88D-KN): no funcionan
+con otros motores ni drives de la competencia.
+
+Lo que facilita:
+- Posicionar el eje con una precisión de ±0,02 mm de forma repetible: ideal para
+  sistemas de ensamblaje, corte, soldadura robotizada o alimentación de material.
+- Mantener el par (la fuerza de giro) constante a cualquier velocidad, incluso parado:
+  el servomotor aguanta una carga estática sin moverse sin consumir en exceso.
+- Incorporar un encoder de 20 bits (1.048.576 posiciones por vuelta) directamente en
+  el cuerpo del motor: no hace falta añadir ningún sensor externo de posición.
+- Elegir entre incremental (más económico) o absoluto multivuelta (no pierde la posición
+  aunque se corte la luz — no necesita hacer referencia al arrancar).
+- Instalar un freno mecánico integrado opcional para ejes verticales (la carga no cae
+  cuando se corta la alimentación del drive).
+
+Lo que evita que ocurra:
+- Pérdida de posición: el encoder cierra el bucle de control — si algo mueve el eje,
+  el drive lo detecta y lo corrige al instante.
+- Sobredimensionamiento por desconocimiento: el autotuning del drive aprende la inercia
+  real del motor más la carga, y ajusta las ganancias al mínimo necesario.
+- Confusión entre modelos: el código de referencia contiene toda la información
+  (potencia, tensión, par, encoder, freno) — no hace falta recordarla aparte.
+- Caída de carga en ejes verticales: el freno mecánico retiene la carga cuando el
+  drive está sin tensión o en fallo.
+
+============================================================
+
+DIFERENCIA CLAVE: SERVOMOTOR vs MOTOR PASO A PASO (STEPPER)
+--------------------------------------------------------------
+| Característica          | Servomotor R88M-K (Accurax G5)   | Motor paso a paso (stepper)      |
+|-------------------------|----------------------------------|----------------------------------|
+| Encoder                 | Integrado — realimentación real  | No tiene (bucle abierto)         |
+| Pérdida de pasos        | Imposible — el drive lo corrige  | Puede perder posición bajo carga |
+| Par a alta velocidad    | Se mantiene                      | Cae mucho                        |
+| Ruido                   | Muy bajo                         | Vibración y ruido notable        |
+| Velocidad               | Alta (hasta 3.000–5.000 rpm)     | Baja–media (hasta ~1.500 rpm)    |
+| Coste                   | Alto (motor + drive + cables)    | Bajo                             |
+| Para qué                | Alta precisión, cargas dinámicas | Posicionamiento simple y lento   |
+
+============================================================
+
+MODELOS SERIE R88M-K (ACCURAX G5) A CONOCER
+--------------------------------------------------------------
+| Potencia | Tensión   | Par nominal | Encoder      | Con freno | Cuándo usarlo                          |
+|----------|-----------|-------------|--------------|-----------|----------------------------------------|
+| 100W     | 200V AC   | 0,32 Nm     | Incremental  | Opcional  | Eje muy ligero, alta cadencia          |
+| 200W     | 200V AC   | 0,64 Nm     | Incremental  | Opcional  | Eje ligero de precisión                |
+| 400W     | 200V AC   | 1,27 Nm     | Incremental  | Opcional  | El más habitual — equilibrio precio/potencia |
+| 750W     | 200V AC   | 2,39 Nm     | Incremental  | Opcional  | Eje con carga media                    |
+| 900W     | 200V AC   | 2,86 Nm     | Incremental  | Opcional  | Eje con carga media-alta               |
+| 1,5kW    | 200V AC   | 4,77 Nm     | Inc./Absoluto| Opcional  | Eje con carga alta                     |
+| 600W     | 400V AC   | Varios      | Incremental  | Opcional  | Aplicaciones industriales 400V         |
+| 1,5kW    | 400V AC   | 4,77 Nm     | Inc./Absoluto| Opcional  | Potencia media en red trifásica        |
+
+============================================================
+
+CARACTERÍSTICAS TÉCNICAS BÁSICAS A SABER
+--------------------------------------------------------------
+| Parámetro                    | Qué significa                                    | Valor serie R88M-K (Omron)                    |
+|------------------------------|--------------------------------------------------|-----------------------------------------------|
+| Rango de potencia            | Potencias disponibles                            | 100W a 1,5kW (Accurax G5) / hasta 15kW con KN75F |
+| Alimentación                 | Tensión del motor                                | 200V AC o 400V AC (según modelo)              |
+| Velocidad nominal            | Velocidad de trabajo continuo                    | 3.000 rpm (la mayoría de modelos)             |
+| Velocidad máxima             | Pico de velocidad permitido                      | 5.000 rpm                                     |
+| Encoder incremental          | Resolución en posicionamiento relativo           | 20 bits = 1.048.576 impulsos/vuelta           |
+| Encoder absoluto multivuelta | Guarda posición sin alimentación                 | Sí — con batería de backup en el drive        |
+| Freno mecánico               | Retiene el eje sin alimentación                  | Opcional — se indica con "con freno" en nombre|
+| Clase de protección          | Resistencia a polvo y agua                       | IP67 — estanco para entornos industriales     |
+| Drive compatible             | Con qué variador funciona                        | Solo R88D-KN (Accurax G5) — exclusivo         |
+
+============================================================
+
+CÓMO LEER LA REFERENCIA R88M-K
+--------------------------------------------------------------
+Ejemplo: R88M-K 1K5 30 H-S2
+           ↓    ↓   ↓  ↓  ↓
+        Motor  1,5kW  3000rpm  Encoder incremental  Eje recto sin freno
+
+| Posición | Qué indica                                   | Valores habituales                     |
+|----------|----------------------------------------------|----------------------------------------|
+| R88M-K   | Servomotor Accurax G5                        | Siempre igual para esta serie          |
+| 1K5      | Potencia (1K5 = 1,5kW / 10030 = 100W)        | 10030, 20030, 40030, 75030, 1K530...   |
+| 30       | Velocidad nominal en centenas de rpm          | 30 = 3.000 rpm                         |
+| H/C/F/T  | Tensión: H=200V / C/F=400V / T=230V          | H para 200V, F para 400V               |
+| B        | Con freno (si aparece B)                     | Sin B = sin freno                      |
+| S2       | Eje recto + conector estándar                | S2 más habitual                        |
+
+============================================================
+
+TIPOLOGÍAS DE SERVOMOTORES OMRON
+--------------------------------------------------------------
+| Tipología                        | Serie     | Para qué                                              |
+|----------------------------------|-----------|-------------------------------------------------------|
+| Accurax G5 (este)                | R88M-K    | Par con PLC NJ/NX + drive G5 EtherCAT — estándar     |
+| Servo 1S (nueva generación)      | R88M-1    | Mayor densidad de potencia, encoder 24 bits           |
+| SmartStep 2 (gama económica)     | R88M-G    | Aplicaciones simples sin bus de campo                 |
+| Sigma-5 / Sigma-7 (Yaskawa)      | SGMJV...  | Drives Yaskawa — no compatibles con R88D-KN           |
+| Lineal Accurax G5                | R88L-E    | Movimiento lineal directo sin tornillo ballscrew      |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                          | Por qué la necesitas                                                          |
+|----|-------------------------------------------------------------------|-------------------------------------------------------------------------------|
+| 1  | ¿Qué servo drive tiene o va a comprar? (R88D-KN...)               | El motor solo funciona con el drive Accurax G5 — hay que verificar pareja     |
+| 2  | ¿Cuánta potencia necesita el eje? (kW o Nm + rpm)                 | Define el modelo: 100W / 200W / 400W / 750W / 900W / 1,5kW                  |
+| 3  | ¿La red de alimentación es 200V o 400V?                           | Los motores KN..H son 200V / KN..F son 400V — el motor debe coincidir        |
+| 4  | ¿El eje puede caer si se va la luz? (eje vertical, carga colgante)| Si sí → motor con freno (opción B en la referencia)                          |
+| 5  | ¿Necesita que recuerde la posición al arrancar sin hacer referencia?| Si sí → encoder absoluto multivuelta (opción A en la referencia)             |
+| 6  | ¿Tiene ya el cable de potencia y el de encoder?                   | Cada motor necesita 2 cables específicos — no sirven genéricos               |
+| 7  | ¿El motor va a estar en movimiento continuo? (rotación, cadena)   | Si el cable se mueve → cables flexibles especiales para ciclos de flexión    |
+| 8  | ¿Es ampliación de sistema existente o instalación nueva?          | Ampliación → mismo modelo que los motores ya instalados para uniformidad     |
+
+CONSEJO: El servomotor R88M-K y el servo drive R88D-KN son una pareja inseparable —
+no funcionan con productos de otras marcas. Si el cliente pide solo el motor sin el
+drive (o al revés), preguntar siempre si tiene la otra mitad. Además: hay que
+confirmar también los dos cables (potencia + encoder) porque sin ellos el sistema
+no arranca. Un sistema servo completo = drive + motor + cable potencia + cable encoder.
+
+============================================================
+Fuentes:
+- Omron Accurax G5 servomotors (oficial): https://www.ia.omron.com/products/family/2644/
+- Manual usuario G5 EtherCAT (PDF): https://files.omron.eu/downloads/latest/manual/en/i576_accurax_g5_servomotors_drives_with_ethercat_control_users_manual_en.pdf
+- Omron Accurax G5 servomotors (UK): https://industrial.omron.co.uk/en/products/accurax-g5-servomotors
+- TME R88M-K especificaciones: https://www.tme.com/us/en-us/details/r88m-k10030h-s2/electric-motors/omron/
+============================================================

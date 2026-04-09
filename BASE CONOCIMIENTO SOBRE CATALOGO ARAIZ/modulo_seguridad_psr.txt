@@ -1,0 +1,106 @@
+CUADRO RESUMEN — MÓDULO DE SEGURIDAD PSR (CONTROLADOR DE SEGURIDAD PROGRAMABLE)
+Familia: Electricidad > Aparellaje eléctrico > Autómatas programables
+Ejemplo en Araiz: Phoenix Contact ref. 1104975 (PSR-M-B2-SDI8-SDO4-DO4-PI)
+============================================================
+
+IMAGEN DEL PRODUCTO:
+https://www.phoenixcontact.com/en-us/products/safety-device-psr-m-b2-sdi8-sdo4-do4-pi-1104975
+
+VÍDEO / REFERENCIA TÉCNICA:
+https://www.electricautomationnetwork.com/en/phoenixcontact/psr-m-b2-sdi8-sdo4-do4-pi-1104975-phoenix-contact-configurable-safety-module-basic-module-8-safe-inputs-
+
+Búsqueda recomendada en YouTube (español):
+"módulo seguridad PSR Phoenix Contact SIL tutorial" o "controlador seguridad programable PL e SIL 3"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Un módulo de seguridad PSR es el componente que garantiza la seguridad de
+personas y máquinas supervisando los dispositivos de seguridad de una instalación:
+setas de emergencia, barreras de luz, puertas de seguridad, alfombras sensitivas,
+mandos a dos manos... Cuando uno de estos dispositivos se activa (alguien pulsa la
+seta de emergencia), el módulo corta de forma segura y certificada la alimentación
+de los actuadores peligrosos (motores, prensas, robots), evitando lesiones.
+
+A diferencia de un relé o PLC convencional, este módulo está certificado para
+funciones de seguridad hasta SIL 3 / PL e — el nivel más alto de seguridad
+funcional reconocido por las normas europeas de maquinaria.
+
+Lo que facilita:
+- Supervisar múltiples dispositivos de seguridad en una sola unidad configurable.
+- Cumplir la normativa de seguridad de maquinaria (Directiva Maquinaria, EN ISO 13849,
+  EN IEC 62061) sin necesidad de diseñar circuitos de seguridad complejos.
+- Ampliar fácilmente el sistema añadiendo módulos de extensión vía TBUS sin cableado adicional.
+- Configurar las funciones de seguridad por software sin modificar el hardware.
+
+Lo que evita que ocurra:
+- Accidentes graves por fallo en la detención de maquinaria peligrosa.
+- Que un único fallo en el sistema de control cause una situación peligrosa
+  (el módulo tiene redundancia interna y autodiagnóstico).
+- Incumplimiento de la normativa CE de maquinaria (multas, retirada del mercado).
+- Reinicio accidental de la máquina tras una parada de emergencia sin rearmado manual.
+
+============================================================
+
+DIFERENCIA CLAVE CON OTROS MÓDULOS DE SEGURIDAD
+--------------------------------------------------------------
+| Tipo                            | Para qué sirve                                   | Nivel seguridad | Cuándo usarlo                                      |
+|---------------------------------|--------------------------------------------------|-----------------|----------------------------------------------------|
+| Relé de seguridad simple        | Una sola función (seta emergencia o puerta)      | SIL 2 / PL d    | Máquinas simples con un solo punto de seguridad    |
+| Módulo PSR configurable (base)  | Múltiples funciones configurables por software   | SIL 3 / PL e    | Máquinas complejas. El ref. 1104975 es este tipo   |
+| Módulo PSR de extensión         | Amplía entradas/salidas del módulo base          | SIL 3 / PL e    | Cuando se necesitan más I/O de seguridad (ref. 1104887) |
+| Interfaz de datos PSR           | Conecta el sistema PSR al PLC / red industrial   | —               | Para diagnóstico remoto desde SCADA (ref. 1105102) |
+| Safety PLC completo             | PLC que integra lógica estándar y de seguridad   | SIL 3 / PL e    | Líneas muy complejas con muchos ejes y funciones   |
+
+============================================================
+
+CARACTERÍSTICAS TÉCNICAS BÁSICAS A SABER
+--------------------------------------------------------------
+| Parámetro                    | Qué significa                                    | Valor ref. 1104975 (Phoenix Contact)          |
+|------------------------------|--------------------------------------------------|-----------------------------------------------|
+| Entradas seguras             | Cuántos dispositivos de seguridad puede recibir  | 8 entradas seguras (SDI)                      |
+| Salidas seguras              | Cuántos actuadores puede cortar de forma segura  | 4 salidas seguras (SDO)                       |
+| Salidas de señal adicionales | Salidas estándar para señalización               | 4 salidas de señal (DO) + 4 salidas reloj     |
+| Nivel de seguridad           | Certificación de seguridad funcional             | Hasta SIL 3 (IEC 62061) / Cat. 4 PL e (ISO 13849) |
+| Expansión                    | Cómo se amplía                                   | Vía TBUS (carril DIN) — hasta 18 módulos extensión |
+| Ancho total del módulo       | Espacio en carril DIN                            | 67,5 mm                                       |
+| Conexión                     | Tecnología de conexión                           | Push-in enchufable                             |
+| Alimentación                 | Tensión de trabajo                               | 24V DC                                        |
+| Configuración                | Cómo se programa                                 | Software PSRwin (sin hardware adicional)      |
+
+============================================================
+
+TIPOLOGÍAS DEL SISTEMA PSR MODULAR
+--------------------------------------------------------------
+| Módulo                           | Función                                                       | Ref. Araiz |
+|----------------------------------|---------------------------------------------------------------|------------|
+| Módulo base PSR (B2)             | Cerebro del sistema: procesa la lógica de seguridad           | 1104975    |
+| Módulo extensión entradas (EF2)  | Añade 16 entradas seguras adicionales                         | 1104887    |
+| Interfaz de datos PROFINET (GW-PN)| Conecta el sistema PSR a red PROFINET para diagnóstico       | 1105102    |
+| Módulo extensión salidas         | Añade salidas seguras adicionales                             | Otras refs |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                          | Por qué la necesitas                                                          |
+|----|-------------------------------------------------------------------|-------------------------------------------------------------------------------|
+| 1  | ¿Qué dispositivos de seguridad tiene la máquina?                  | Seta emergencia / puerta / barrera / alfombra → define entradas necesarias    |
+| 2  | ¿Cuántos dispositivos de seguridad hay en total?                  | Para saber si necesita módulo base solo o también módulos de extensión        |
+| 3  | ¿Qué nivel de seguridad exige la máquina? (SIL / PL)              | Lo determina la evaluación de riesgo. Si no lo sabe → derivar al fabricante  |
+| 4  | ¿Necesita diagnóstico remoto del sistema de seguridad?            | Si sí → añadir la interfaz de datos PROFINET (ref. 1105102)                  |
+| 5  | ¿Qué PLC o red industrial tiene la instalación?                   | Para elegir la interfaz de datos correcta (PROFINET, EtherNet/IP, PROFIBUS)  |
+| 6  | ¿El rearme tras emergencia debe ser manual o automático?          | Norma: siempre manual supervisado. Confirmar con el cliente                  |
+| 7  | ¿Es instalación nueva o sustitución de un relé de seguridad?      | Si es sustitución → verificar que el nivel de seguridad es equivalente       |
+
+CONSEJO: Los módulos de seguridad siempre requieren evaluación de riesgo previa
+(Anexo I Directiva Maquinaria). Si el cliente no tiene esto claro, recomendarle
+que contacte con un integrador de seguridad certificado antes de presupuestar.
+
+============================================================
+Fuentes:
+- Ficha oficial Phoenix Contact 1104975: https://www.phoenixcontact.com/en-us/products/safety-device-psr-m-b2-sdi8-sdo4-do4-pi-1104975
+- RSP Supply ref. 1104975: https://rspsupply.com/p-73037-phoenix-contact-1104975-safety-module-psr-m-b2-sdi8-sdo4-do4-pi.aspx
+- Kolbi ref. 1104975: https://www.kolbi.es/automatizacion-industrial/safety/controlador-de-seguridad-programable/1104975
+============================================================

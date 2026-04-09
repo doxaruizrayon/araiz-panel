@@ -1,0 +1,111 @@
+CUADRO RESUMEN — CONMUTADOR DE CARGA / RED (I-TS / Telergon / COS)
+Familia: Electricidad > Aparellaje eléctrico > Interruptor y conmutador manual
+Ejemplo en Araiz: Eaton ref. I-TS63/EA/SVB (Conmutador de carga 63A 3P leva roja con bloqueo)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"conmutador de red manual generador red comercial" o "interruptor transferencia manual ATS cuadro"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Un conmutador de carga (o conmutador de red) es un dispositivo que permite cambiar
+manualmente la alimentación de una instalación entre DOS fuentes distintas, por ejemplo:
+- Red eléctrica comercial ↔ Grupo electrógeno (generador de emergencia)
+- Red normal ↔ Red de socorro
+- Dos líneas de suministro distintas
+
+La clave es que tiene enclavamiento mecánico incorporado: NUNCA puede estar conectado
+a las dos fuentes al mismo tiempo. Esto evita que la red comercial y el generador
+choquen entre sí, lo que destruiría ambos equipos y sería muy peligroso.
+
+Variantes del grupo:
+1. **Conmutador de carga** (I-TS): switch rotativo para conectar/desconectar cargas,
+   maniobra manual frecuente. También actúa como seccionador.
+2. **Conmutador de red** (COS — Change Over Switch): específico para conmutar entre
+   dos fuentes de alimentación, con enclavamiento 0-I-II.
+3. **Conmutadores sobre carril DIN**: versión compacta modular para cuadros pequeños.
+4. **Conmutadores de tensión/intensidad**: para paneles de medida, seleccionan qué
+   fase o circuito se está midiendo sin interrumpir el servicio.
+
+Lo que facilita:
+- Arrancar el generador y conectar la instalación al generador cuando falla la red.
+- Transferir cargas entre dos líneas de suministro de forma segura.
+- Seleccionar manualmente qué fuente alimenta cada parte de la instalación.
+- Paneles de medida: seleccionar qué circuito se mide sin desconectar nada.
+
+Lo que evita que ocurra:
+- El enclavamiento impide conectar dos fuentes simultáneamente — el mayor riesgo
+  en instalaciones con generador.
+- Errores humanos: la posición física de la leva indica visualmente qué fuente está activa.
+
+============================================================
+
+DIFERENCIA CLAVE: CONMUTADOR DE CARGA vs SECCIONADOR vs CONTACTOR
+--------------------------------------------------------------
+| Característica           | Conmutador de carga    | Seccionador          | Contactor           |
+|--------------------------|------------------------|----------------------|---------------------|
+| Función                  | Alternar entre fuentes | Aislar un circuito   | Maniobrar cargas    |
+| Posiciones               | 0 / I / II (o 0 / I)  | 0 / I                | 0 / I               |
+| Enclavamiento anti-paralelo | Sí (mecánico)       | No                   | Requiere acc. externo|
+| Accionamiento            | Manual (leva)          | Manual (leva)        | Eléctrico (bobina)  |
+| ATS automático           | No (manual)            | No                   | Sí (con relé ATS)   |
+| Uso típico               | Red / generador        | Mantenimiento        | Automatización      |
+
+============================================================
+
+GAMAS PRINCIPALES EN ARAIZ (~1.330 artículos)
+--------------------------------------------------------------
+| Marca            | Gama                         | Referencias tipo           | Corriente típica  |
+|------------------|------------------------------|----------------------------|-------------------|
+| Eaton            | I-TS (conmutador carga)      | I-TS16/EA, I-TS63/EA/SVB   | 16 A a 3.200 A    |
+| Eaton            | COS (conmutador de red)      | COS1-40/EA, COS2-100/EA    | 40 A a 3.200 A    |
+| Telergon         | T0/T1 (sin clase ETIM)       | T0-3-8211, T1-3-8004       | 20 A a 125 A      |
+| Telemecanique    | TeSys (sin clase ETIM)       | VCF3, VCF01               | 25 A a 160 A      |
+| Gewiss           | GW serie                     | GW70401, GW70402           | 25 A a 100 A      |
+| Schneider Elec.  | Vario COS                    | VCX-F / VCX-S             | 16 A a 200 A      |
+| Hager            | SBN / SBS serie              | SBN363, SBS363             | 63 A a 125 A      |
+| Phoenix Contact  | Conmutadores de red          | MK-T3PE100/COS            | 100 A              |
+
+Nota Telergon/Telemecanique (939 artículos sin clase ETIM):
+Son interruptores leva y conmutadores ampliamente usados en industria española,
+sin clasificación ETIM en el catálogo Araiz. Telergon (Barcelona) es marca de
+referencia para conmutadores de leva industriales — muy habitual en instalaciones
+de los años 90-2010 que aún siguen en servicio.
+
+POSICIONES HABITUALES DEL CONMUTADOR DE RED:
+| Posición | Significado                          |
+|----------|--------------------------------------|
+| 0        | Desconectado (ninguna fuente activa) |
+| I        | Red comercial activa                 |
+| II       | Generador / fuente de emergencia     |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                        | Por qué la necesitas                                         |
+|----|-----------------------------------------------------------------|--------------------------------------------------------------|
+| 1  | ¿Para qué sirve? ¿Red/generador, dos líneas, o panel medida?   | Define el tipo exacto (carga, red, tensión, intensidad)      |
+| 2  | ¿Cuántos amperios tiene que soportar?                           | Define la talla                                              |
+| 3  | ¿Cuántos polos? ¿3P trifásico o 4P con neutro?                 | Estándar es 3P; con neutro conmutado pide 4P                 |
+| 4  | ¿La conmutación es manual o quiere que sea automática?          | Si automática necesita ATS (no conmutador manual sino relé)  |
+| 5  | ¿Va en carril DIN o montaje en panel?                           | Modelos compactos DIN para cuadros pequeños                  |
+| 6  | ¿Necesita bloqueo con candado?                                  | Accesorio disponible en la mayoría de gamas                  |
+
+CONSEJO: Muchos clientes piden "un conmutador para el generador" sin saber el tipo exacto.
+La pregunta clave es: ¿la conmutación la hace una persona manualmente o debe hacerse
+automáticamente cuando se va la luz? Si es manual → conmutador de red (este grupo).
+Si es automática → necesita un ATS (Automatic Transfer Switch) con contactores y relé ATS,
+que es un producto completamente diferente y más caro.
+
+El Eaton COS2 y el Telergon T0/T1 son las referencias más solicitadas en mantenimiento
+industrial. Si el cliente tiene un Telergon viejo, pedir la referencia completa del frente
+porque hay muchas variantes de posiciones y ángulos de giro.
+
+============================================================
+Fuentes:
+- Eaton I-TS/COS: https://www.eaton.com/es/es-es/catalog/load-switches.html
+- Telergon: https://www.telergon.com/es/productos/interruptores-de-leva/
+============================================================

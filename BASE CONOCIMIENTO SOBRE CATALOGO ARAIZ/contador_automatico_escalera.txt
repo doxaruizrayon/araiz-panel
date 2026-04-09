@@ -1,0 +1,134 @@
+CUADRO RESUMEN — CONTADORES DE HORAS, AUTOMÁTICOS DE ESCALERA Y REGULADORES
+Familia: Electricidad > Aparellaje eléctrico > Temporizador, contador de horas, totalizador y minutero
+Ejemplo en Araiz: Siemens ref. 7KT5502 (Contador de horas de servicio 230V AC carril DIN)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"contador horas funcionamiento motor industrial" o "automático escalera temporizado interruptor"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Este cuadro agrupa tres familias distintas dentro del grupo de temporizadores:
+
+**1. Medidor / Contador de horas de funcionamiento (56 art.)**
+Dispositivo que cuenta y muestra el tiempo total de funcionamiento de una máquina
+o instalación. Mientras la máquina está en marcha (señal en la entrada), el
+contador suma horas. Cuando para, se detiene. El display muestra las horas acumuladas.
+
+Usos principales:
+- Control de mantenimiento preventivo: cambiar aceite, filtros o rodamientos
+  cada X horas de funcionamiento — el contador avisa cuándo toca.
+- Registro del tiempo de trabajo de un motor, compresor, generador o bomba.
+- Cálculo de costes de producción por hora de máquina.
+- Control de garantías: comprobar las horas reales de uso de un equipo.
+
+Marcas en Araiz:
+- **Siemens 7KT** (24 art.): la referencia más vendida. Formato carril DIN o empotrar panel.
+- **Omron H7ET** (17 art.): contador electrónico de horas con reset y salida de alarma.
+- **Orbis** (6 art.): contador de horas económico para aplicaciones generales.
+- **Schneider** (4 art.): integrados en la gama de medida.
+- **Legrand** (4 art.): contador de horas de servicio para cuadros terciarios.
+
+**2. Medidor de impulsos (38 art., Omron 32, Schneider 6)**
+Contador que suma pulsos eléctricos recibidos por su entrada de conteo.
+Cada pulso equivale a una unidad definida por el usuario: una pieza, un metro,
+un kWh, una vuelta... El display muestra el total acumulado.
+
+Diferencia con el contador de horas:
+- Contador de horas: mide tiempo (horas, minutos).
+- Medidor de impulsos: mide cantidad (unidades, piezas, litros, kWh).
+
+Omron H7EC es el más habitual — contador electrónico en carril DIN con reset manual
+y opción de preselección (alarma cuando llega a un valor determinado).
+
+**3. Automático de escalera / temporizador de alumbrado (25 art.)**
+Dispositivo que enciende la luz cuando alguien pulsa el interruptor y la apaga
+automáticamente después de un tiempo preestablecido (habitualmente 1-10 minutos).
+Es el "apagado automático" de la luz de las escaleras, pasillos y garajes.
+
+Marcas en Araiz:
+- **Orbis (13 art.)**: especialista español en automatismos de alumbrado. Gamas AT-S,
+  Bios (con función astro-crepuscular).
+- **Schneider (4 art.)**: integrados en gama Acti9.
+- **Siemens / ABB**: versiones industriales para cuadros de distribución.
+
+Función adicional "astro-crepuscular": el automático sabe a qué hora amanece y
+anochece cada día del año según la ubicación geográfica, y enciende/apaga la luz
+automáticamente. Dinuy (43 art. sin clase) es el especialista en estos automatismos
+para alumbrado público y grandes instalaciones.
+
+**4. Sin clase ETIM — Dinuy y Varilamp (62 art.)**
+- **Dinuy (43 art.)**: empresa española especializada en automatismos de iluminación
+  y alumbrado. Sus productos incluyen relojes astronómicos para alumbrado público,
+  reguladores de potencia para dimmer de lámparas, y temporizadores avanzados.
+  Muy habitual en instalaciones de alumbrado exterior municipal y en edificios.
+- **Varilamp (19 art.)**: reguladores de iluminación (dimmers) para montaje en
+  cuadro — controlan la intensidad de la luz ajustando la potencia enviada a las
+  luminarias. No confundir con los dimmers de pared (están en mecanismos).
+
+Lo que facilita:
+- Contadores de horas: planificar el mantenimiento antes de que el equipo falle.
+- Automático de escalera: ahorro energético en alumbrado común de edificios.
+- Dinuy: gestión automática del alumbrado público sin intervención manual.
+- Varilamp: regular la intensidad del alumbrado en almacenes, fábricas o parking.
+
+============================================================
+
+TABLA RESUMEN DEL GRUPO
+--------------------------------------------------------------
+| Tipo                          | Art. | Marcas clave             | Función                         |
+|-------------------------------|------|--------------------------|---------------------------------|
+| Contador horas funcionamiento | 56   | Siemens, Omron, Orbis    | Horas de marcha de máquina      |
+| Medidor de impulsos           | 38   | Omron, Schneider         | Contar piezas, kWh, ciclos      |
+| Automático de escalera        | 25   | Orbis, Schneider, Siemens| Apagado automático alumbrado    |
+| Dinuy (sin clase)             | 43   | Dinuy                    | Alumbrado público, astro-reloj  |
+| Varilamp (sin clase)          | 19   | Varilamp                 | Reguladores intensidad luz (DIN)|
+| Horario digital               | 7    | Omron, Gewiss, Theben    | Programación horaria on/off     |
+| Horario analógico             | 3    | Gewiss, Gave             | Programación mecánica 24h       |
+| Contador horas servicio       | 3    | Legrand, Hager           | Versión terciaria/doméstica     |
+| Reloj minutero                | 21   | Siemens                  | Temporización de conmutación    |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+**Para contador de horas:**
+| #  | Pregunta                                                    | Por qué                                     |
+|----|-------------------------------------------------------------|---------------------------------------------|
+| 1  | ¿Qué tensión tiene la señal de "máquina en marcha"?        | 24V DC, 110V AC o 230V AC — define el modelo|
+| 2  | ¿Necesita reset? ¿O que sea no reseteable?                 | Para mantenimiento: reseteable tras cada cambio|
+| 3  | ¿Va en carril DIN o empotrado en panel?                    | Siemens 7KT tiene ambas versiones           |
+
+**Para automático de escalera:**
+| #  | Pregunta                                                    | Por qué                                     |
+|----|-------------------------------------------------------------|---------------------------------------------|
+| 1  | ¿Cuántos vatios tiene la carga de iluminación?             | Define la corriente máxima del automático   |
+| 2  | ¿Cuánto tiempo quiere que dure la luz? ¿Ajustable?         | El tiempo suele ser ajustable en campo      |
+| 3  | ¿Necesita función de prealarma (luz parpadea antes de apagar)?| Algunos modelos tienen esta función        |
+| 4  | ¿Va en carril DIN dentro del cuadro?                       | El automático de escalera siempre va en DIN |
+
+**Para Dinuy (alumbrado público / astro):**
+| #  | Pregunta                                                    | Por qué                                     |
+|----|-------------------------------------------------------------|---------------------------------------------|
+| 1  | ¿Es para alumbrado público exterior?                       | Confirma que necesita función astro         |
+| 2  | ¿Tiene conexión a red (para sincronizar hora)?              | Los modelos con GPS o GSM son más precisos  |
+| 3  | ¿Cuántos circuitos de alumbrado hay que controlar?          | Define el número de salidas necesarias      |
+
+CONSEJO: El contador de horas Siemens 7KT5502 (230V AC, no reseteable) es el
+más pedido en mantenimiento industrial — prácticamente todos los cuadros de
+maquinaria mediana llevan uno para el mantenimiento preventivo.
+Si el cliente dice "quiero saber cuántas horas lleva funcionando el motor",
+la solución es este contador conectado al mismo circuito de mando que el contactor.
+Para automático de escalera en edificios: Orbis AT-S es la referencia española
+más económica y fácil de encontrar. Para edificios con mayor control (zonas
+comunes, parking, emergencia), orientar a los modelos Dinuy con programación.
+
+============================================================
+Fuentes:
+- Siemens 7KT contador horas: https://new.siemens.com/es/es/productos/automatizacion/sistemas-energia/contadores-energia-7kt.html
+- Omron H7ET/H7EC: https://industrial.omron.es/es/products/counters
+- Orbis automático escalera: https://www.orbis.es/es/productos/automaticos-escalera/
+- Dinuy: https://www.dinuy.com/es/productos/
+============================================================

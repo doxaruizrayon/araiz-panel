@@ -1,0 +1,145 @@
+CUADRO RESUMEN — OTROS APARATOS: MISCELÁNEOS DE APARELLAJE ELÉCTRICO
+Familia: Electricidad > Aparellaje eléctrico > Otros aparatos
+Total artículos en este grupo: 3.589 (36 marcas)
+============================================================
+
+NOTA IMPORTANTE SOBRE ESTE GRUPO
+--------------------------------------------------------------
+"Otros aparatos" es el grupo residual del catálogo de Aparellaje eléctrico de Araiz.
+Contiene productos muy diversos que no encajan en los otros grupos, más artículos de
+otras familias que el sistema ha clasificado aquí por error o por ausencia de clase ETIM.
+
+Los dos cuadros específicos de este grupo son:
+- `presostato_interruptor_presion.txt` — 412 artículos (Telemecanique XMP)
+- `medida_energia_contadores.txt` — ~71 artículos (ABB, Schneider, Circutor)
+
+Este cuadro describe el resto (~3.100 artículos) dividido por bloques temáticos.
+
+============================================================
+
+BLOQUE 1 — PRODUCTOS YA CUBIERTOS EN OTROS CUADROS (cruzados)
+--------------------------------------------------------------
+Muchos artículos de este grupo ya tienen cuadro específico en la base de conocimiento:
+
+| Producto                         | Art. | Marca        | Ver cuadro                            |
+|----------------------------------|------|--------------|---------------------------------------|
+| Lectores código QR/DataMatrix    | 524  | Omron        | `lector_codigos_microhawk.txt`        |
+| Sistema visión artificial        | 115  | Omron        | `camara_sistema_vision_fh.txt`        |
+| MCCB disyuntores ABB             | 311  | ABB          | `disyuntor_guardamotor.txt`           |
+| Seccionadores ABB / Hager        | 234  | ABB, Hager   | `seccionador_manual.txt`              |
+| Control temperatura Omron        | 144  | Omron        | `regulador_temperatura_e5cc.txt`      |
+| Conmutadores de carga Schneider  | 82   | Schneider    | `conmutador_carga_red.txt`            |
+| Accesorios sensores Omron        | 66   | Omron        | `accesorios_sensores_detectores.txt`  |
+| Sin clase ETIM                   | 507  | Varios       | Ver bloque 2 abajo                    |
+
+Total artículos cruzados: ~1.983 de 3.589.
+
+============================================================
+
+BLOQUE 2 — PRODUCTOS SIN CLASE ETIM (507 artículos)
+--------------------------------------------------------------
+Son artículos que Araiz no ha podido clasificar en ninguna clase ETIM.
+Principales marcas y qué suelen ser:
+
+| Marca        | Art. | Qué son principalmente                                   |
+|--------------|------|----------------------------------------------------------|
+| Filsa        | 105  | Fabricante español de transformadores de control y señal  |
+| Omron        | 88   | Accesorios y periféricos varios sin clasificar           |
+| Telemecanique| 46   | Productos legacy sin clase ETIM asignada                 |
+| Siemens      | 33   | Accesorios y módulos de automatización sin clasificar    |
+| Varios       | 235  | Productos de marcas pequeñas (IES, Sonder, AKO, Toscano)|
+
+**Filsa (105 art.)**: empresa española con sede en Barcelona, fabricante de
+transformadores de control monofásicos (de 230V/400V a 24V, 48V, 110V) para
+alimentación de circuitos de mando en cuadros. Sus transformadores se usan para
+alimentar bobinas de contactores, pilotos y circuitos de control cuando se quiere
+separar galvánicamente el circuito de mando del de fuerza.
+
+============================================================
+
+BLOQUE 3 — PRODUCTOS NUEVOS NO CUBIERTOS EN OTROS CUADROS
+--------------------------------------------------------------
+Artículos de este grupo que no tienen cuadro específico en otra parte:
+
+**Módulo lógico (16 art., Eaton)**
+Mini PLCs tipo "easy" de Eaton — pequeños controladores programables con
+pantalla integrada y entradas/salidas propias, sin necesidad de hardware adicional.
+Se usan para automatizaciones sencillas: control de alumbrado, gestión de tiempos,
+secuencias simples. El Eaton easy800 y easyE4 son los más habituales.
+Para automatizaciones más complejas → ver cuadros de PLCs Omron en Autómatas.
+
+**Panel gráfico / HMI compacto (42 art., Schneider)**
+Pequeñas pantallas táctiles de la gama Schneider Magelis/HMI para cuadros de
+control sencillos. Son paneles de operador compactos (3,5" a 7") para visualización
+y mando local. Para paneles más avanzados → ver `pantalla_hmi_ns.txt`.
+
+**Dispositivo de monitorización de seguridad (34 art., Schneider 33, Telemecanique 1)**
+Relés de seguridad y módulos de monitorización para circuitos de emergencia y seguridad.
+Verifican continuamente el estado de pulsadores de emergencia, finales de carrera
+de seguridad y otros dispositivos de seguridad. Ver también `rele_seguridad.txt`.
+
+**Control de nivel (23 art., Gave 13, Toscano 8, Orbis 2)**
+Interruptores y controladores de nivel de líquido para depósitos:
+- Gave: interruptores de flotador (mecánicos) — el flotador sube/baja con el nivel.
+- Toscano: controladores electrónicos de nivel con sondas de conductividad.
+Usos: depósitos de agua, bombas de achique, sistemas de llenado automático.
+
+**Base para montaje en carril DIN (76 art., Phoenix Contact)**
+Zócalos y bases para montar relés, fusibles y módulos electrónicos en carril DIN.
+Phoenix Contact es el principal fabricante de accesorios de montaje en carril.
+Ver también cuadros de relés enchufables.
+
+**Armario de acometida CGP (23 art., Phoenix Contact)**
+Cajas de Protección y Medida (CPM/CGP) para acometidas eléctricas en edificios.
+Son las cajas normalizadas donde la compañía eléctrica instala sus fusibles de
+acometida y el contador. Phoenix Contact suministra los componentes interiores
+(fusibles NH, bornes, separadores).
+
+**Potenciómetro para paneles de mando (27 art., Eaton)**
+Potenciómetros rotativos para montaje en puerta de cuadro o panel de operador.
+Se usan para ajuste manual de consignas en reguladores de velocidad (variadores),
+controladores de temperatura o cualquier parámetro analógico. El operario gira
+el potenciómetro para ajustar el valor deseado.
+
+**Protección diferencial RCCB modular (49 art., Gewiss)**
+Interruptores diferenciales puros (sin magnetotérmico) de Gewiss para cuadros
+de distribución terciaria y doméstica. Ver también `magnetotermico_diferencial_modular.txt`.
+
+============================================================
+
+MARCAS PEQUEÑAS DE ESTE GRUPO
+--------------------------------------------------------------
+| Marca    | Especialidad                                      | Art. |
+|----------|---------------------------------------------------|------|
+| IES      | Protecciones y aparellaje                         | 32   |
+| Sonder   | Interruptores y control industrial                | 18   |
+| AKO      | Controladores temperatura/humedad refrigeración   | 14   |
+| Toscano  | Control nivel y temperatura, accesorios           | 14   |
+| Orbis    | Automatismos: temporizadores, detectores presencia| 10   |
+| Onda Radio| Receptores RF para automatismos                  | 10   |
+| VMC      | Aparellaje y control industrial                   | 8    |
+| Disibeint| Material eléctrico industrial                     | 7    |
+| Dinuy    | Automatismos y control de accesos                 | 3    |
+| Koban    | Control temperatura ambiente                      | 3    |
+
+============================================================
+
+CÓMO BUSCAR EN ESTE GRUPO
+--------------------------------------------------------------
+Al buscar en "Otros aparatos", la forma más eficaz es buscar directamente por
+marca o por descripción del producto — la clasificación ETIM es muy heterogénea.
+
+Si el cliente pide algo de este grupo:
+1. Preguntar siempre la referencia exacta del producto a sustituir.
+2. Si no la tiene, preguntar la marca y la función que necesita.
+3. Verificar si el producto tiene su propio cuadro en la base de conocimiento
+   (ver Bloque 1 arriba) antes de buscar aquí.
+4. Para productos sin clase ETIM: buscar directamente por la marca en el catálogo web.
+
+============================================================
+Fuentes:
+- Filsa transformadores: https://www.filsa.es
+- Eaton easy (módulo lógico): https://www.eaton.com/es/es-es/catalog/easy-controls.html
+- Schneider Magelis: https://www.se.com/es/es/product-subcategory/human-machine-interfaces-hmi/
+- Phoenix Contact bases DIN: https://www.phoenixcontact.com/es-es/products/terminal-blocks
+============================================================

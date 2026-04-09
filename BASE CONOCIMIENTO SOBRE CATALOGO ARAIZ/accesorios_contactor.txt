@@ -1,0 +1,109 @@
+CUADRO RESUMEN — ACCESORIOS DE CONTACTOR (tapas, enclavamientos, kits contactos, adaptadores)
+Familia: Electricidad > Aparellaje eléctrico > Contactores
+Ejemplo en Araiz: Schneider ref. LAD9V1 (Kit contactos de repuesto para contactor TeSys D LC1D09-D18)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"accesorios contactor enclavamiento mecánico kit contactos inversión marcha" o "interlock mecánico dos contactores"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Los accesorios de contactor son un conjunto heterogéneo de piezas y módulos que
+complementan o adaptan los contactores para aplicaciones específicas. Los más
+habituales en el catálogo Araiz son:
+
+**1. KIT DE CONTACTOS DE REPUESTO**
+El juego de contactos móviles y fijos del contactor se desgasta con el uso. En vez
+de sustituir el contactor completo, se puede renovar solo el juego de contactos.
+Económico para instalaciones con muchos contactores del mismo modelo.
+
+**2. ENCLAVAMIENTO MECÁNICO (INTERLOCK)**
+Accesorio que une mecánicamente dos contactores para que NUNCA puedan cerrar
+simultáneamente. Imprescindible en esquemas de inversión de marcha (dos contactores:
+uno para adelante, otro para atrás — nunca los dos a la vez o cortocircuito) y en
+conmutación red/generador (no pueden cerrar los dos a la vez). El enclavamiento
+mecánico es una segunda seguridad además del enclavamiento eléctrico por bobinas.
+Se monta sin cables entre los dos contactores, que deben ser de la misma gama y talla.
+
+**3. ADAPTADORES PARA CARRIL DIN**
+Algunos contactores industriales no llevan soporte de carril DIN de serie — necesitan
+un adaptador para montarse en el carril del cuadro eléctrico. El adaptador es una
+pieza de plástico/metal que se engancha al carril y sobre ella se atornilla el contactor.
+
+**4. TAPAS Y CUBIERTAS DE PROTECCIÓN**
+Tapas que cubren los bornes de los terminales del contactor para evitar contactos
+accidentales con partes en tensión (protección IP). Obligatorias en instalaciones
+accesibles o donde se exige un grado de protección elevado.
+
+**5. CONECTORES DE CABLEADO**
+Piezas para unir varios contactores iguales en paralelo (para aumentar la corriente)
+o para conectar directamente dos contactores en estrella-triángulo sin cableado suelto.
+
+Lo que facilita:
+- Reparar un contactor desgastado sustituyendo solo los contactos (más económico
+  que comprar el contactor completo).
+- Garantizar la seguridad en esquemas de inversión de marcha con enclavamiento doble
+  (eléctrico + mecánico).
+- Instalar contactores industriales en cuadros de carril DIN estándar.
+
+Lo que evita que ocurra:
+- Cortocircuito por cierre simultáneo de dos contactores en esquema de inversión:
+  el enclavamiento mecánico lo impide físicamente.
+- Accidentes por partes en tensión accesibles en los terminales del contactor.
+
+============================================================
+
+ACCESORIOS MÁS PEDIDOS
+--------------------------------------------------------------
+| Accesorio                  | Para qué                                        | Cuándo se pide                  |
+|----------------------------|-------------------------------------------------|---------------------------------|
+| Kit contactos de repuesto  | Renovar contactos desgastados                   | Contactor "picado" / desgastado |
+| Enclavamiento mecánico     | Inversión marcha / conmutación red-generador    | Siempre con 2 contactores opuestos|
+| Adaptador carril DIN       | Montar contactor en carril DIN                  | Contactor sin soporte de carril |
+| Tapa terminal              | Protección IP de bornes                         | Zonas accesibles / IP exigido   |
+| Conector estrella-triángulo| Unir 3 contactores Y-Δ sin cableado suelto      | Armarios compactos Y-Δ          |
+
+============================================================
+
+MODELOS EN ARAIZ (420+ artículos)
+--------------------------------------------------------------
+| Referencia     | Marca      | Tipo accesorio          | Compatible con               |
+|----------------|------------|-------------------------|------------------------------|
+| LAD9V1         | Schneider  | Kit contactos repuesto  | TeSys D LC1D09-D18           |
+| LAD9V2         | Schneider  | Kit contactos repuesto  | TeSys D LC1D25-D38           |
+| LAD9R2         | Schneider  | Módulo RC (ver cuadro)  | TeSys D                      |
+| LAD9V5         | Schneider  | Enclavamiento mecánico  | TeSys D (2 contactores iguales)|
+| 3RA1921-1BA00  | Siemens    | Enclavamiento mecánico  | 3RT2 S00-S2                  |
+| 3RV2927-5AA00  | Siemens    | Adaptador carril DIN    | 3RT2 tallas grandes           |
+| DILEM-XW       | Eaton      | Enclavamiento mecánico  | DILM/DILA Eaton              |
+| TA75DU         | ABB        | Kit contactos           | A-series ABB                 |
+
+NOTA: Los accesorios son estrictamente compatibles con la gama/talla del contactor.
+Verificar siempre la referencia completa del contactor antes de pedir el accesorio.
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                | Por qué la necesitas                                          |
+|----|----------------------------------------------------------|------------------------------------------------------------- |
+| 1  | ¿Qué tipo de accesorio necesita?                        | Kit contactos / enclavamiento / adaptador / tapa              |
+| 2  | ¿Qué referencia tiene el contactor?                     | Obligatorio — los accesorios son específicos por gama/talla  |
+| 3  | (Si enclavamiento) ¿Los dos contactores son iguales?    | El enclavamiento mecánico requiere dos contactores idénticos  |
+
+CONSEJO: Los accesorios se piden siempre como complemento de un contactor. Sin la
+referencia del contactor no se puede confirmar la compatibilidad. El accesorio más
+habitual de pedir son los kits de contactos de repuesto (mantenimiento) y los
+enclavamientos mecánicos (proyectos nuevos con inversión de marcha). Recordar a los
+clientes que el enclavamiento mecánico es una segunda barrera de seguridad — el
+eléctrico puede fallar (un PLC buggeado puede activar los dos contactores a la vez);
+el mecánico es físicamente imposible de burlar.
+
+============================================================
+Fuentes:
+- Schneider TeSys accesorios: https://www.se.com/es/es/product-subcategory/4700-contactores-tesys-d/
+- Siemens SIRIUS accesorios: https://new.siemens.com/es/es/productos/automatizacion/aparamenta.html
+- ABB accesorios contactores: https://new.abb.com/low-voltage/es/productos/aparamenta/contactores
+============================================================

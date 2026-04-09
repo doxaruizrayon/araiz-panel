@@ -1,0 +1,114 @@
+CUADRO RESUMEN — ACCESORIOS PARA PULSATERÍA: CARCASAS, ADAPTADORES, TAPAS Y COMPLEMENTOS
+Familia: Electricidad > Aparellaje eléctrico > Pulseteria
+Ejemplo en Araiz: Siemens ref. 3SU1900-0KA10-0AA0 (Adaptador de montaje para 3SU1 en panel)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"accesorios pulsadores industriales 22mm montaje" o "protección pulsador cubierta tapa"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Este cuadro agrupa todos los accesorios complementarios de la pulsatería que no
+son pulsadores, selectores ni pilotos en sí, sino piezas auxiliares para montar,
+proteger, adaptar y complementar los mandos industriales.
+
+**1. ACCESORIOS DE MONTAJE Y ADAPTADORES (~315 art.)**
+Piezas para montar pulsadores en diferentes configuraciones:
+- Adaptadores de panel: para montar pulsadores de 22mm en paneles de diferentes
+  espesores o materiales.
+- Adaptadores de taladro: para montar pulsadores de 22mm en taladros de 30mm
+  (conversión de serie antigua a nueva).
+- Soportes para montaje en perfil/carril.
+- Marcos de montaje para agrupar varios pulsadores en fila.
+Marcas: Siemens (3SU1900), Schneider (ZB4/ZB5), Eaton (M22), ABB, Omron.
+
+**2. CUBIERTAS PROTECTORAS (~44 art.)**
+Tapas transparentes que se colocan sobre un pulsador para evitar accionamientos
+accidentales. El operario tiene que levantar la tapa antes de pulsar.
+Se usan en pulsadores de funciones críticas (arranque de máquina peligrosa,
+activación de proceso irreversible) para evitar que se pulsen por accidente.
+Marcas: Schneider (ZBZ1605), ABB, Eaton (M22-XGPV).
+
+**3. TAPAS CIEGAS (~20 art.)**
+Tapas que cubren taladros de 22mm no utilizados en una caja o panel de pulsadores.
+Mantienen el grado IP de la caja y dan un aspecto limpio al cuadro.
+
+**4. INDICADORES ACÚSTICOS / ZUMBADORES (~33 art.)**
+Zumbadores y sirenas que se montan en el cuadro de mando (en taladro de 22mm
+o en carril DIN) para alarma sonora. Diferentes de los módulos acústicos de
+las torres de señalización — estos van directamente en el panel de mandos.
+Marcas: ABB (CB1), Schneider (XB5KS), Siemens, Eaton.
+
+**5. POTENCIÓMETROS DE MANDO (~30 art.)**
+Potenciómetros que se montan en taladro de 22mm para ajustar parámetros de forma
+continua: velocidad de un variador, temperatura de un horno, posición de un
+servo. Generan una señal analógica (0-10V, 4-20mA o resistencia variable).
+Marcas: Eaton (M22-R), Siemens (3SU1), Schneider (XB5), ABB.
+
+**6. HERRAMIENTAS DE MONTAJE (~6 art.)**
+Llaves y herramientas especiales para montar/desmontar pulsadores en panel:
+llaves para tuercas de fijación, extractores de cabezales, etc.
+Marcas: Eaton, Schneider, Omron.
+
+**7. TRANSFORMADORES Y BASES ESPECIALES (~10 art.)**
+Transformadores de lámpara (para pilotos que necesitan tensión reducida) y
+bases especiales para señalización (LED multicolor, etc.).
+
+Lo que facilita:
+- Montar pulsadores en cualquier tipo de panel o configuración.
+- Proteger pulsadores críticos contra accionamiento accidental.
+- Añadir alarma acústica y ajuste analógico al cuadro de mando.
+
+Lo que evita que ocurra:
+- Accionamiento accidental de funciones peligrosas (cubiertas protectoras).
+- Pérdida de grado IP por taladros sin usar en el panel (tapas ciegas).
+
+============================================================
+
+MODELOS EN ARAIZ (~550 artículos)
+--------------------------------------------------------------
+| Tipo                     | Marca           | Serie               | Para qué                      |
+|--------------------------|-----------------|---------------------|-------------------------------|
+| Adaptador 22mm→panel     | Siemens         | 3SU1900              | Montaje Siemens 3SU1          |
+| Adaptador 30mm→22mm      | Schneider       | ZB4AZ009             | Convertir taladro 30→22mm     |
+| Marco agrupación         | Siemens         | 3SU1900-0BK          | Agrupar pulsadores en fila    |
+| Cubierta protectora      | Schneider       | ZBZ1605              | Proteger pulsador crítico     |
+| Cubierta protectora      | Eaton           | M22-XGPV             | Proteger pulsador Eaton       |
+| Cubierta protectora      | ABB             | MPCG                 | Proteger pulsador ABB         |
+| Tapa ciega 22mm          | Schneider       | ZB5SZ3               | Cubrir taladro vacío          |
+| Tapa ciega 22mm          | Eaton           | M22-B                | Cubrir taladro vacío Eaton    |
+| Zumbador 22mm            | ABB             | CB1-610              | Alarma sonora en panel        |
+| Zumbador 22mm            | Schneider       | XB5KSB               | Alarma sonora Schneider       |
+| Potenciómetro 22mm       | Eaton           | M22-R10K             | Ajuste analógico 10kΩ         |
+| Potenciómetro 22mm       | Siemens         | 3SU1 potenciómetro   | Ajuste analógico Siemens      |
+| Herramienta montaje      | Eaton           | M22-tool              | Llave montaje Eaton           |
+| Accesorios varios        | Omron / Rockwell| Varias               | Complementos otras marcas     |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                | Por qué la necesitas                                          |
+|----|----------------------------------------------------------|------------------------------------------------------------- |
+| 1  | Qué marca de pulsatería tiene?                          | Los accesorios son específicos por marca                      |
+| 2  | Qué necesita exactamente? (adaptador, cubierta, tapa)   | Define el tipo de accesorio                                   |
+| 3  | Si adaptador: de qué taladro a qué taladro?            | 30→22, 22→panel grueso, etc.                                  |
+| 4  | Si potenciómetro: qué rango? (1kΩ, 10kΩ, 100kΩ)       | Depende del equipo que controla                               |
+| 5  | Si zumbador: qué tensión? (24V DC, 230V AC)             | Cada tensión es un modelo diferente                           |
+
+CONSEJO: Las cubiertas protectoras transparentes son un producto de seguridad que
+se olvida frecuentemente al presupuestar. Si el cliente tiene un pulsador de
+arranque de una máquina peligrosa, ofrecerle siempre la cubierta protectora.
+Los adaptadores de 30mm a 22mm se piden mucho en reformas — el cliente tiene un
+cuadro antiguo con taladros de 30mm y quiere montar pulsadores nuevos de 22mm.
+Los potenciómetros de 22mm son una alternativa económica a las pantallas HMI
+para ajustes simples (ej. velocidad de un transportador con variador).
+
+============================================================
+Fuentes:
+- Siemens accesorios SIRIUS ACT: https://www.siemens.com/es/es/productos/automatizacion/aparamenta/sirius-act.html
+- Schneider accesorios Harmony: https://www.se.com/es/es/product-range/832-harmony-xb4/
+- Eaton accesorios M22: https://www.eaton.com/es/es-es/catalog/industrial-controls/m22.html
+============================================================

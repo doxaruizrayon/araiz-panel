@@ -1,0 +1,108 @@
+CUADRO RESUMEN — TRANSFORMADOR DE CORRIENTE (TC / CT) — SENSOR DE CORRIENTE ELÉCTRICA
+Familia: Electricidad > Aparellaje eléctrico > Autómatas programables y robots industriales
+Ejemplo en Araiz: Phoenix Contact ref. PACT MCR-V1-21-44-100-5A-1 (TC 100A/5A carril DIN)
+============================================================
+
+IMAGEN DEL PRODUCTO:
+https://www.phoenixcontact.com/es-es/productos/transformadores-de-corriente-pact
+
+VÍDEO / REFERENCIA TÉCNICA:
+https://www.phoenixcontact.com/es-es/productos/medicion-energia
+
+Búsqueda recomendada en YouTube (español):
+"transformador de corriente qué es cómo funciona TC medida corriente" o "TC toroidal clip carril DIN medición kWh"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Un transformador de corriente (TC, también llamado CT o toroide de corriente) es un
+dispositivo que mide la corriente eléctrica que circula por un cable sin necesidad de
+interrumpir el circuito ni conectarse en serie. Funciona por inducción magnética: el
+cable a medir pasa por dentro del toroide y el TC genera en su salida una corriente
+proporcional pero mucho más pequeña (normalmente 5A o 1A para cualquier corriente de
+entrada) que puede medir un aparato de medición, un relé de protección, un analizador
+de red o el PLC. Los modelos compactos de carril DIN (como los Phoenix Contact PACT)
+tienen forma de pinza o son de apertura (clip-on): se abren, se rodea el cable, se
+cierran — sin cortar el cable ni parar la instalación. Son imprescindibles para
+cualquier sistema de medición de energía (como el KM-N de Omron ya documentado).
+
+Lo que facilita:
+- Medir la corriente de circuitos de alta potencia con instrumentos de baja señal:
+  un circuito de 400A se mide con un TC 400A/5A que entrega 5A al medidor.
+- Instalar medición sin cortar el circuito ni parar la instalación: los TC clip-on
+  se colocan en el cable activo con la instalación en marcha.
+- Proteger motores y circuitos: conectado a un relé de protección, el TC permite
+  detectar sobrecargas y cortocircuitos de forma precisa.
+- Alimentar medidores de energía (KM-N, analizadores de red): el TC es el sensor
+  que necesita el medidor para calcular kWh, potencia activa y factor de potencia.
+- Medir en cuadros donde no cabe un TC convencional: los modelos de carril DIN
+  son muy compactos (21mm de ancho) y caben en los huecos del armario.
+
+Lo que evita que ocurra:
+- Tener que cortar el suministro y el cableado para instalar un sistema de medición:
+  los TC clip-on no requieren interrumpir el circuito.
+- Conectar el medidor directamente al cable de alta corriente: el TC convierte la
+  corriente a un rango seguro para los instrumentos de medición.
+
+============================================================
+
+DIFERENCIA CLAVE: TC TIPO TOROIDE vs TC TIPO CLIP-ON (APERTURA)
+--------------------------------------------------------------
+| Característica          | TC toroide cerrado               | TC clip-on (apertura)            |
+|-------------------------|----------------------------------|----------------------------------|
+| Instalación             | El cable debe pasar por el centro| Se abre, rodea el cable, se cierra|
+| Parada instalación      | Sí — hay que pasar el cable      | No — se instala en caliente      |
+| Precisión               | Mayor (clase 0,5 o 0,2)          | Ligeramente menor                |
+| Para qué                | Instalaciones nuevas / medición  | Retrofit / medición sin parar    |
+| Precio                  | Menor                            | Mayor                            |
+
+============================================================
+
+RELACIÓN TC + MEDIDOR DE ENERGÍA
+--------------------------------------------------------------
+El TC siempre va junto con el medidor de energía o analizador de red:
+
+| Medidor              | TC necesario              | Intensidad máxima TC     |
+|----------------------|---------------------------|--------------------------|
+| Omron KM-N2/N3       | TC clip-on 50/100/200/400A| Según el circuito        |
+| Analizador de red    | TC 100A/5A, 400A/5A...    | Según el circuito        |
+| Relé de protección   | TC 50A/5A o 100A/5A       | Según el motor           |
+
+MODELOS PHOENIX PACT EN ARAIZ
+--------------------------------------------------------------
+| Referencia                  | Relación       | Para qué                          |
+|-----------------------------|----------------|-----------------------------------|
+| PACT MCR-V1-21-44-75-5A-1  | 75A / 5A       | Circuitos hasta 75A               |
+| PACT MCR-V1-21-44-100-5A-1 | 100A / 5A      | El más habitual — circuitos 100A  |
+| PACT MCR-V1-21-44-150-5A-1 | 150A / 5A      | Circuitos hasta 150A              |
+| PACT MCR-V1-21-44-250-5A-1 | 250A / 5A      | Circuitos de media potencia       |
+| PACT MCR-V1-21-44-400-5A-1 | 400A / 5A      | Circuitos de alta potencia        |
+
+NOTA: La salida estándar es 5A (máximo 5A cuando la entrada está al máximo de la
+relación). Algunos medidores usan salida 1A — verificar que el TC y el medidor
+tienen la misma salida (5A o 1A).
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                               | Por qué la necesitas                                          |
+|----|--------------------------------------------------------|---------------------------------------------------------------|
+| 1  | ¿Cuántos amperios circulan por el circuito a medir?    | Define la relación del TC: 75A/5A, 100A/5A, 400A/5A...      |
+| 2  | ¿Puede parar la instalación para instalar el TC?       | No puede parar → TC clip-on / Puede parar → toroide          |
+| 3  | ¿A qué medidor va conectado el TC?                     | Confirmar que la salida del TC (5A o 1A) es compatible       |
+| 4  | ¿Cuántos circuitos va a medir?                         | Un TC por fase y por circuito — calcular el total            |
+| 5  | ¿Cuánto espacio hay en el armario?                     | TC carril DIN 21mm / TC toroide (necesita más espacio)       |
+
+CONSEJO: El TC se vende siempre acompañando a un medidor de energía o a un sistema
+de protección de motor. Cuando el cliente compra el KM-N de Omron para medir energía,
+los TC son imprescindibles y se venden por separado. Preguntar siempre cuántos
+amperios tiene cada circuito — es el dato clave para seleccionar el TC correcto.
+Si el cliente no lo sabe, puede calcularlo: P(kW) × 1,44 = A en trifásico 400V.
+
+============================================================
+Fuentes:
+- Phoenix Contact PACT (oficial): https://www.phoenixcontact.com/es-es/productos/transformadores-de-corriente-pact
+- Omron TC para KM-N: https://www.ia.omron.com/products/family/3940/
+============================================================

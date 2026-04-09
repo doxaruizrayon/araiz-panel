@@ -1,0 +1,126 @@
+CUADRO RESUMEN — PLC COMPACTO CP1 (CP1L / CP1H)
+Familia: Electricidad > Aparellaje eléctrico > Autómatas programables y robots industriales
+Ejemplo en Araiz: Omron ref. CP1LL20DRA (CPU CP1L 12 entradas / 8 salidas AC, salidas relé)
+============================================================
+
+IMAGEN DEL PRODUCTO:
+https://www.ia.omron.com/products/family/1712/
+
+VÍDEO / REFERENCIA TÉCNICA:
+https://industrial.omron.co.uk/en/products/cp1l
+
+Búsqueda recomendada en YouTube (español):
+"PLC Omron CP1L primeros pasos programación" o "diferencia CP1L CP1H cuando usar"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Un PLC (Programmable Logic Controller — Controlador Lógico Programable) es el
+cerebro electrónico de una máquina o instalación industrial. Lee señales de sensores
+y otros dispositivos (entradas), ejecuta un programa que el técnico ha escrito, y
+activa o desactiva salidas (motores, válvulas, señales luminosas...) según la lógica
+programada. El CP1L y el CP1H son los PLCs compactos de Omron: toda la CPU, las
+entradas y las salidas van en un solo bloque, sin bastidor separado. El CP1L es
+el más básico y económico (hasta 60 E/S); el CP1H es más potente (hasta 40 E/S
+integradas + funciones de alta velocidad). Ambos se programan con CX-Programmer
+(parte del CX-One) o con Sysmac Studio Basic.
+
+Lo que facilita:
+- Automatizar máquinas sencillas o medianas: empaquetadoras, bandas transportadoras,
+  prensas, sistemas de llenado, control de acceso, semáforos industriales...
+- Instalar en armarios pequeños: el CP1L-L20 mide solo 90x90x80 mm — cabe en
+  cualquier cuadro estándar sobre carril DIN.
+- Ampliar entradas/salidas sin cambiar la CPU: se añaden módulos de expansión CP1W
+  en el lateral del PLC (hasta 7 módulos extra).
+- Comunicar con variadores, HMI y otros dispositivos: puerto USB de programación
+  y puerto serie RS232C integrado (el CP1L también acepta tarjeta RS485).
+- Funciones de posicionamiento básico integradas: el CP1H tiene salidas de tren
+  de pulsos para control de motores paso a paso y servo sin tarjeta adicional.
+
+Lo que evita que ocurra:
+- Cableado complejo: el PLC centraliza toda la lógica — en lugar de decenas de relés
+  y temporizadores, un solo equipo hace el mismo trabajo.
+- Averías de lógica difíciles de diagnosticar: el programa es visible en pantalla
+  y se puede monitorizar en tiempo real — los relés hardcableados no permiten esto.
+- Sobredimensionamiento: el CP1L cubre perfectamente máquinas con hasta 60 E/S sin
+  necesitar un PLC más caro o más grande.
+
+============================================================
+
+DIFERENCIA CLAVE: CP1L vs CP1H
+--------------------------------------------------------------
+| Característica          | CP1L                             | CP1H                             |
+|-------------------------|----------------------------------|----------------------------------|
+| E/S integradas          | 10–60 E/S (varios tamaños)       | 40 E/S fijas                     |
+| Memoria programa        | 5K / 10K pasos                   | 20K pasos                        |
+| Entradas alta velocidad | Básicas                          | 4 contadores 100 kHz integrados  |
+| Salidas tren de pulsos  | No (solo CP1L-M/E con tarjeta)   | Sí — 4 salidas pulsos 100 kHz    |
+| Puerto Ethernet         | Opcional (tarjeta CP1W-CIF41)    | Opcional (tarjeta CP1W-CIF41)    |
+| Para qué                | Máquinas sencillas, bajo coste   | Máquinas con servo/stepper       |
+
+============================================================
+
+MODELOS CP1L A CONOCER
+--------------------------------------------------------------
+| Modelo          | E/S integradas | Alimentación | Salidas   | Cuándo usarlo                       |
+|-----------------|---------------|--------------|-----------|-------------------------------------|
+| CP1L-L20DRA     | 12 ent / 8 sal| 100-240V AC  | Relé      | El más básico — arranques simples   |
+| CP1L-L20DTD     | 12 ent / 8 sal| 24V DC       | Transistor NPN | 24V DC, señales rápidas       |
+| CP1L-M30DTA     | 18 ent /12 sal| 100-240V AC  | Transistor NPN | Más E/S, salidas pulsos       |
+| CP1L-E20DRA     | 12 ent / 8 sal| 100-240V AC  | Relé      | Con Ethernet integrado              |
+| CP1L-L60DRA     | 36 ent /24 sal| 100-240V AC  | Relé      | Máximo de E/S en CP1L               |
+| CP1H-X40DRA-A   | 24 ent /16 sal| 100-240V AC  | Relé      | Alta velocidad + ampliable a 320 E/S|
+
+NOTA: La letra al final de la ref indica la salida: A=relé / D=transistor NPN / D1=PNP
+
+============================================================
+
+CÓMO LEER LA REFERENCIA CP1L
+--------------------------------------------------------------
+Ejemplo: CP1L - L 20 DR A
+              ↓  ↓   ↓  ↓  ↓
+            CP1L  L=básico  20=E/S  D=DC / A=AC  R=relé / T=transistor
+
+============================================================
+
+CARACTERÍSTICAS TÉCNICAS BÁSICAS
+--------------------------------------------------------------
+| Parámetro                    | CP1L-L20DRA                                   |
+|------------------------------|-----------------------------------------------|
+| Entradas digitales           | 12 entradas 24V DC NPN/PNP                    |
+| Salidas digitales            | 8 salidas relé 250V AC / 2A/punto             |
+| Alimentación CPU             | 100-240V AC (versión A) / 24V DC (versión D)  |
+| Memoria programa             | 5.000 pasos (CP1L-L) / 10.000 (CP1L-M/E)     |
+| Puerto serie                 | 1 x RS232C integrado + 1 x USB programación   |
+| Módulos expansión            | Hasta 7 módulos CP1W laterales                |
+| Temperatura trabajo          | 0-55°C                                        |
+| Programación                 | CX-Programmer (CX-One) o Sysmac Studio Basic  |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                               | Por qué la necesitas                                          |
+|----|--------------------------------------------------------|---------------------------------------------------------------|
+| 1  | ¿Cuántas entradas y salidas necesita?                  | Define el tamaño: L20/L30/L40/L60 o si necesita módulos extra |
+| 2  | ¿La alimentación del armario es 230V AC o 24V DC?      | Define versión A (AC) o D (DC)                                |
+| 3  | ¿Las salidas mueven contactores/relés o señales DC?    | Relé (cargas AC/DC pesadas) vs Transistor (señales rápidas)   |
+| 4  | ¿Necesita controlar motores paso a paso o servo?       | Si sí → CP1H o CP1L-M/E (con salidas de tren de pulsos)       |
+| 5  | ¿Necesita comunicar con HMI, variador o SCADA?         | Define si necesita tarjeta RS485 o Ethernet                   |
+| 6  | ¿Tiene ya el software CX-Programmer (CX-One)?          | Sin software no se puede programar el PLC                     |
+| 7  | ¿Es instalación nueva o ampliación?                    | Ampliación → mismo modelo que el PLC existente                |
+
+CONSEJO: El CP1L es el PLC más vendido de Omron en máquinas pequeñas y medianas.
+Cuando un cliente dice "necesito un PLC para mi máquina" y la máquina tiene menos
+de 60 E/S y no necesita movimiento servo, el CP1L es casi siempre la respuesta.
+El CP1L-L20DRA (12 ent / 8 sal, relé, 230V) es el modelo más pedido. Siempre
+preguntar si necesita el cable de programación USB y el software CX-One.
+
+============================================================
+Fuentes:
+- Omron CP1L (oficial): https://www.ia.omron.com/products/family/1712/
+- Omron CP1H (oficial): https://www.ia.omron.com/products/family/1683/
+- Manual CP1L (PDF): https://assets.omron.eu/downloads/latest/manual/en/w462_cp1l_cpu_unit_operation_manual_en.pdf
+- TME CP1L-L20DRA: https://www.tme.com/us/en-us/details/cp1l-l20dr-a/plc-controllers/omron/
+============================================================

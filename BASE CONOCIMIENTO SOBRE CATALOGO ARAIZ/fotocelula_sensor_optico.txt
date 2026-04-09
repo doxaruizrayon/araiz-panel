@@ -1,0 +1,110 @@
+CUADRO RESUMEN — FOTOCÉLULAS Y SENSORES FOTOELÉCTRICOS
+Familia: Electricidad > Aparellaje eléctrico > Detectores proximidad y fotocelulas
+Ejemplo en Araiz: Omron ref. E3Z-D62 (Fotocélula réflex 1m PNP M8 difusa)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"fotocélula industrial tipos barrera réflex proximidad" o "sensor fotoeléctrico E3Z Omron"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Las fotocélulas (sensores fotoeléctricos) detectan objetos usando un haz de luz
+infrarroja, roja o láser. A diferencia de los inductivos, detectan CUALQUIER
+material (metal, plástico, cartón, vidrio, personas) y a distancias mucho
+mayores (hasta 30 metros).
+
+**TIPOS DE FOTOCÉLULA (por principio de detección):**
+
+**1. Barrera emisor-receptor (~340 art.)**
+Dos piezas separadas: un emisor (emite el haz) y un receptor (recibe el haz).
+Se montan enfrentados. Cuando un objeto pasa entre ellos, corta el haz y el
+sensor se activa. Máxima fiabilidad y distancia (hasta 30m).
+Inconveniente: necesita cablear los dos lados.
+
+**2. Réflex con reflector (~270 art.)**
+Una sola pieza (emisor+receptor juntos) que envía el haz hacia un reflector
+(espejo catadióptrico) montado enfrente. El haz rebota y vuelve al sensor.
+Cuando un objeto corta el haz reflejado, se activa.
+Distancia: hasta 10-15m. Más fácil de instalar que barrera (solo cableas un lado).
+
+**3. Proximidad / Difusa (~210 art.)**
+Una sola pieza que emite luz y detecta la luz que rebota en el propio objeto.
+No necesita reflector ni emisor separado. Distancia corta (10cm a 2m según modelo).
+Uso: detectar piezas a corta distancia, contar objetos en cintas transportadoras.
+
+**4. Horquilla / Tenedor (~200 art.)**
+Sensor en forma de U — el emisor está en un brazo y el receptor en el otro.
+El objeto pasa por dentro de la U. Detecta objetos muy pequeños (etiquetas,
+hilos, bordes de papel). Muy usado en máquinas de packaging y etiquetado.
+
+**5. Fotocélula con salida analógica (~260 art.)**
+Fotocélula que en vez de dar una señal ON/OFF, da una señal proporcional
+(4-20mA o 0-10V) según la distancia al objeto o la cantidad de luz recibida.
+Se usa para medición de distancia o posición.
+
+**6. Sensor de contrastes / color (~16 art.)**
+Detecta marcas de color o diferencias de contraste en superficies. Se usa para
+detectar marcas de registro en máquinas de embalaje e impresión.
+
+Lo que facilita:
+- Detectar objetos de cualquier material a distancias grandes.
+- Contar piezas en líneas de producción a alta velocidad.
+- Detectar presencia/ausencia de etiquetas, tapones, envases.
+- Medir distancias con salida analógica.
+
+Lo que evita que ocurra:
+- Fallos de detección con materiales no metálicos (donde el inductivo no sirve).
+- Colisiones de piezas en transportadores por falta de detección.
+
+============================================================
+
+MODELOS EN ARAIZ (~1.320 artículos)
+--------------------------------------------------------------
+| Tipo                     | Marca           | Serie               | Para qué                      |
+|--------------------------|-----------------|---------------------|-------------------------------|
+| Barrera emisor+receptor  | Omron           | E3Z-T, E3FA          | Detección larga distancia     |
+| Barrera emisor+receptor  | Telemecanique   | XUB-H, XUX            | Barrera Telemecanique         |
+| Réflex con reflector     | Omron           | E3Z-R, E3FA-R         | Detección media distancia     |
+| Réflex polarizada        | Omron           | E3Z-R86              | Detecta objetos brillantes    |
+| Proximidad difusa        | Omron           | E3Z-D, E3FA-D         | Detección corta distancia     |
+| Proximidad BGS           | Omron           | E3Z-LS               | Supresión de fondo            |
+| Horquilla                | Omron           | EE-SX, EE-SPX         | Detección etiquetas/hilos     |
+| Horquilla                | Telemecanique   | XUM, XUFL              | Horquilla Telemecanique       |
+| Analógica distancia      | Omron           | E3Z-L, E3NC           | Medición distancia            |
+| Contrastes               | Omron           | E3MC                  | Marcas de registro            |
+| Sensor óptico marco      | Telemecanique   | XUM                   | Marco detección               |
+| Multihaz                 | Omron           | E3Z-G                 | Detección área                |
+| Fotocélula compacta      | Eaton           | E75                   | Gama Eaton                    |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                | Por qué la necesitas                                          |
+|----|----------------------------------------------------------|------------------------------------------------------------- |
+| 1  | Qué tipo de detección? (barrera, réflex, proximidad)    | Define la familia de fotocélula                               |
+| 2  | Qué material/objeto detecta?                           | Objetos brillantes necesitan réflex polarizada                |
+| 3  | A qué distancia necesita detectar?                     | Define el tipo y modelo                                       |
+| 4  | PNP o NPN? NA o NC?                                    | PNP = estándar Europa                                         |
+| 5  | Cable o conector?                                       | Cable = más barato; conector M8/M12 = repuesto más fácil      |
+| 6  | Necesita reflector? (si réflex)                        | El reflector se compra aparte                                 |
+
+CONSEJO: Omron E3Z es la fotocélula más vendida en España — compacta, económica
+y con gama completa (barrera, réflex, difusa). Para aplicaciones básicas, empezar
+siempre por E3Z.
+Las fotocélulas réflex necesitan un reflector (espejo catadióptrico) montado
+enfrente — se compra aparte y se olvida frecuentemente al presupuestar.
+Para detectar objetos transparentes (botellas de cristal, film plástico) se
+necesita una réflex polarizada — la réflex normal no los detecta bien.
+Las fotocélulas de horquilla son un producto de nicho pero muy demandado en
+máquinas de packaging — si el cliente tiene una etiquetadora o envolvedora,
+probablemente necesita horquillas.
+
+============================================================
+Fuentes:
+- Omron E3Z: https://www.omron.es/es/products/family/3185
+- Omron E3FA: https://www.omron.es/es/products/family/3411
+- Telemecanique XUB: https://www.se.com/es/es/product-range/1008-osisense-xu/
+============================================================

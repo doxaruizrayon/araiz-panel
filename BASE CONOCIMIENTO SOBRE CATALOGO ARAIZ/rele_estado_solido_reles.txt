@@ -1,0 +1,109 @@
+CUADRO RESUMEN — RELÉ DE ESTADO SÓLIDO (SSR — Carlo Gavazzi / Omron G3 / FINDER 34 / Weidmuller TOS)
+Familia: Electricidad > Aparellaje eléctrico > Reles
+Ejemplo en Araiz: Carlo Gavazzi ref. RA4025-D10 (SSR 1 fase 25A 24-480V CA control 4-32V DC)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"relé estado sólido SSR qué es cómo funciona ventajas" o "Carlo Gavazzi SSR control temperatura calefacción"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Un relé de estado sólido (SSR — Solid State Relay) es un interruptor electrónico
+sin partes mecánicas que conecta y desconecta cargas eléctricas. En lugar de
+contactos de cobre que se abren y cierran físicamente, usa semiconductores
+(tiristores, triacs o transistores) para conducir o bloquear la corriente.
+El resultado es el mismo efecto que un relé mecánico — conectar y desconectar —
+pero con características muy diferentes:
+
+**Por qué se usa en lugar de un relé mecánico:**
+- **Sin ruido:** silencioso, ideal en laboratorios, consultorios, salas limpias.
+- **Sin desgaste mecánico:** los semiconductores no se degastan con las maniobras —
+  vida útil ilimitada en número de ciclos si se respetan las temperaturas.
+- **Velocidad:** puede maniobrar miles de veces por segundo (PWM / control por ciclo).
+- **Control directo desde PLC 24V DC:** entrada de muy baja corriente (< 20mA),
+  compatible directamente con salidas de transistor del PLC sin relé intermedio.
+- **Conmutación por cruce por cero:** el SSR AC espera a que la onda de corriente
+  alterna pase por cero para conectar — elimina picos de tensión y ruido.
+
+**Aplicaciones típicas en el catálogo Araiz:**
+- Control de resistencias calefactoras: hornos, termoformadoras, selladores,
+  máquinas de soldadura por calor, cámaras de temperatura.
+- Control de lámparas de infrarrojos o cuarzo.
+- Regulación de temperatura por ciclo de red (ZC = Zero Crossing) o modulación.
+- Cualquier carga resistiva que maniobre frecuentemente (> 100 veces/hora).
+
+**Diferencia con los SSR de Siemens 3RF2 (en grupo Contactores):**
+Los Siemens 3RF2 se instalan en el armario de potencia del motor.
+Los SSR de Carlo Gavazzi, Omron G3, FINDER 34 y Weidmuller TOS son los más
+habituales para calefacción industrial — se encuentran en este grupo "Reles".
+
+Lo que facilita:
+- Regular temperatura con precisión mediante conmutación rápida (control PID).
+- Eliminar ruido mecánico en instalaciones sensibles.
+- Extender la vida útil donde se maniobra muy frecuentemente.
+
+Lo que evita que ocurra:
+- Desgaste prematuro del relé mecánico por maniobras frecuentes.
+- Interferencias electromagnéticas al conectar/desconectar cargas resistivas.
+
+============================================================
+
+TIPOS DE SSR
+--------------------------------------------------------------
+| Tipo     | Descripción                                           | Para qué                    |
+|----------|-------------------------------------------------------|-----------------------------|
+| 1 fase   | Controla 1 fase (carga monofásica o AC entre fases)   | Calefacción monofásica      |
+| 3 fases  | Controla las 3 fases simultáneamente                  | Calefacción trifásica       |
+| DC       | Controla cargas de corriente continua                 | Cargas DC, baterías         |
+| ZC       | Zero Crossing — conecta al paso por cero              | Cargas resistivas (estándar)|
+| IR       | Instant. Random — conecta instantáneamente            | Cargas inductivas, trafo    |
+
+============================================================
+
+MODELOS EN ARAIZ (~450 artículos)
+--------------------------------------------------------------
+| Marca          | Serie/Ref.         | Corriente  | Tensión carga | Control       |
+|----------------|--------------------|------------|---------------|---------------|
+| Carlo Gavazzi  | RA4025 / RA4040    | 25-40 A    | 24-480V AC    | 4-32V DC      |
+| Carlo Gavazzi  | RGC1A / RGC2A      | 40-75 A    | 42-600V AC    | 4-32V DC      |
+| Carlo Gavazzi  | RZ3A (3 fases)     | 40-75 A/f  | 42-600V AC    | 4-32V DC      |
+| Carlo Gavazzi  | RP1A (DIN slim)    | 3 A        | 230V AC       | 3-32V DC      |
+| Omron          | G3PA               | 10-40 A    | 24-480V AC    | 4-32V DC / AC |
+| Omron          | G3NA               | 10-25 A    | 24-240V AC    | 4-32V DC      |
+| FINDER         | Serie 34 (PCB)     | 1-6 A      | 24V DC/AC     | 3-32V DC      |
+| Weidmuller     | TOS / PSSRN        | 20 A       | 24-230V AC/DC | 24V DC        |
+
+DISIPADOR TÉRMICO (obligatorio > 15A):
+Los SSR generan calor en conducción. Para corrientes > 15A es obligatorio
+montar el SSR sobre un disipador térmico (heatsink) o en una base con disipador.
+Carlo Gavazzi y Omron tienen disipadores específicos para cada modelo.
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                | Por qué la necesitas                                          |
+|----|----------------------------------------------------------|------------------------------------------------------------- |
+| 1  | ¿Qué tipo de carga tiene? ¿Resistencias de calefacción? | SSR es para cargas resistivas AC — no para motores           |
+| 2  | ¿Cuántos amperios consume la carga?                     | Define la corriente del SSR + si necesita disipador          |
+| 3  | ¿Monofásico o trifásico?                                | SSR 1 fase o 3 fases                                        |
+| 4  | ¿Con qué frecuencia maniobra? ¿Control PID/PWM?         | Maniobra frecuente → SSR ideal; pocas veces → relé mecánico  |
+| 5  | ¿El control es 24V DC desde PLC?                        | SSR se activa directamente desde PLC sin relé intermedio     |
+| 6  | ¿Tiene espacio para el disipador térmico?               | Obligatorio > 15A — ocupa espacio en el cuadro               |
+
+CONSEJO: El SSR se vende casi exclusivamente para control de temperatura en hornos,
+termoformadoras, maquinaria de sellado o calefacción industrial. Si el cliente
+habla de "controlar temperatura con precisión" o "el relé hace mucho ruido porque
+maniobra constantemente", el SSR es la solución. Para motores, el contactor
+electromecánico es siempre mejor (el SSR soporta mal las corrientes de arranque
+inductivas). Carlo Gavazzi es la marca de referencia para SSR de calefacción
+industrial en el mercado español.
+
+============================================================
+Fuentes:
+- Carlo Gavazzi SSR: https://www.carlogavazzi.com/es/product-group/solid-state-relays
+- Omron G3PA/G3NA: https://www.ia.omron.com/products/category/control/solid-state-relays/
+- FINDER Serie 34: https://www.findernet.com/es/es/series/34-series
+============================================================

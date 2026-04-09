@@ -1,0 +1,98 @@
+CUADRO RESUMEN — RELÉ TEMPORIZADOR ENCHUFABLE (FINDER 80/81 / Omron H3CR / Siemens 3RP)
+Familia: Electricidad > Aparellaje eléctrico > Reles
+Ejemplo en Araiz: FINDER ref. 80.01.8.230.0000 (Relé temporizador SERIE 80 multifunción 230V AC carril DIN)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"relé temporizador qué es tipos ON-delay OFF-delay ciclo" o "FINDER 80 temporizador multifunción cómo programar"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Un relé temporizador es un relé que introduce un retardo temporal entre la señal
+de mando y la acción sobre el circuito. Se usa cuando se necesita una secuencia
+temporal en lógica cableada sin PLC, o cuando se quiere un temporizador hardware
+independiente del programa del PLC.
+
+Funciones de temporización más habituales:
+- Retardo a la conexión (ON-delay / TDE): la carga se activa X segundos después
+  de recibir la orden. Uso: esperar que una bomba haga presión antes de abrir la
+  electroválvula, secuenciar el arranque de varios motores.
+- Retardo a la desconexión (OFF-delay / TDA): la carga sigue activa X segundos
+  después de quitar la orden. Uso: ventilador extractor sigue corriendo 60s después
+  de parar la máquina para enfriarla.
+- Temporizador de intervalo: produce un pulso de duración fija. Uso clásico:
+  arranque estrella-triángulo — cierra el contactor de estrella, espera X segundos
+  y conmuta a triángulo.
+- Multifunción: un solo relé tiene varios modos seleccionables mediante DIP switch.
+
+En instalaciones con PLC, la temporización se hace en el programa del PLC y el
+temporizador hardware es innecesario. Pero en cuadros sin PLC (lógica cableada),
+o cuando se necesita un temporizador independiente del PLC por seguridad, el relé
+temporizador es la solución.
+
+Lo que facilita:
+- Implementar secuencias temporales sin PLC en cuadros convencionales.
+- Arranque estrella-triángulo: controla el tiempo de permanencia en estrella.
+- Ventilación post-parada: mantener extractor en marcha el tiempo necesario.
+- Evitar coincidencia de arranques de varios motores en el mismo momento.
+
+Lo que evita que ocurra:
+- Arranque directo a triángulo de un motor grande (pico de corriente).
+- Necesidad de un PLC para una secuencia sencilla de dos pasos con retardo.
+
+============================================================
+
+TIPOS DE TEMPORIZADORES PRINCIPALES
+--------------------------------------------------------------
+| Función      | Código | Descripción                                         | Aplicación típica              |
+|--------------|--------|-----------------------------------------------------|-------------------------------|
+| ON-delay     | TDE    | Activa tras retardo al recibir orden ON             | Secuencias, presurización      |
+| OFF-delay    | TDA    | Sigue activo tras retardo al quitar orden           | Ventilación post-parada        |
+| Intervalo    | TI     | Activa durante tiempo fijo al recibir orden         | Estrella-triángulo, pulsos     |
+| Flasheo      | TF     | Parpadeo: ON/OFF periódico                          | Señalización intermitente      |
+| Multifunción | MF     | Varios modos seleccionables con DIP switch          | Uso general (el más vendido)   |
+
+============================================================
+
+MODELOS EN ARAIZ (~130 artículos)
+--------------------------------------------------------------
+| Marca    | Serie     | Referencia tipo         | Funciones          | Tensión bobina      |
+|----------|-----------|-------------------------|--------------------|---------------------|
+| FINDER   | 80 (DIN)  | 80.01.8.230 / .024      | Multifunción 10f   | 230V AC / 24V AC/DC |
+| FINDER   | 81 (DIN)  | 81.01.0.240             | Multifunción 10f   | Universal 24-240V   |
+| FINDER   | 88 (DIN)  | 88.02.0.240.0000        | Multifunción 14f   | Universal           |
+| Omron    | H3CR      | H3CR-A8 / H3CR-F        | Multifunción       | 12-48V / 100-240V   |
+| Siemens  | 3RP1      | 3RP1525-1BW30           | Multifunción       | 24-240V AC/DC       |
+| Siemens  | 3RP2      | 3RP2005-1AW30           | Multifunción       | Universal           |
+
+Rango de tiempo: ajustable desde 0,05 s hasta 100 h según el modelo.
+La mayoría tienen un selector de escala (x0,1s / x1s / x10s / x1min / x10min).
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                | Por qué la necesitas                                          |
+|----|----------------------------------------------------------|------------------------------------------------------------- |
+| 1  | Que funcion de temporización necesita? (ON/OFF/intervalo)| Define el tipo / modo del temporizador                      |
+| 2  | Cuanto tiempo necesita? (segundos, minutos, horas)      | Define el rango del modelo                                   |
+| 3  | Que tensión tiene el circuito de mando?                 | 24V DC / 230V AC / universal — define el modelo              |
+| 4  | Tiene PLC? O es lógica cableada sin PLC?                | Con PLC la temporización va en el PLC; sin PLC este relé     |
+| 5  | Cuantos contactos de salida necesita?                   | La mayoría tienen 1CO; algunos tienen 2CO                   |
+
+CONSEJO: Los relés temporizadores se venden en tres contextos: cuadros sin PLC
+(instalaciones antiguas o simples), arranque estrella-triángulo y ventilación
+post-parada. Si el cliente tiene PLC, orientarle a hacer la temporización en el
+programa. Si no tiene PLC, el FINDER 80 o 81 (multifunción, universal de tensión)
+es la elección estándar — un solo modelo cubre la mayoría de casos.
+VMC GENIE-NX es un relé programable avanzado (temporizador + contador + lógica,
+similar al LOGO de Siemens) para instalaciones sin PLC más complejas.
+
+============================================================
+Fuentes:
+- FINDER Serie 80: https://www.findernet.com/es/es/series/80-series-temporizadores
+- Omron H3CR: https://www.ia.omron.com/products/family/232/
+- Siemens 3RP: https://new.siemens.com/es/es/productos/automatizacion/aparamenta/temporizadores.html
+============================================================

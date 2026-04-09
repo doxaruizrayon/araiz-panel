@@ -1,0 +1,112 @@
+CUADRO RESUMEN — INTERRUPTORES DE PEDAL (FOOT SWITCHES)
+Familia: Electricidad > Aparellaje eléctrico > Interruptor de pedal
+Ejemplo en Araiz: Schneider ref. XPEM110 (Interruptor pedal metálico 1 posición 1CC+CA azul)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"interruptor pedal industrial maquina herramienta" o "foot switch control manos libres maquinaria"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Un interruptor de pedal (foot switch en inglés) es un pulsador que se
+acciona con el pie en vez de con la mano. Permite al operario controlar
+una máquina mientras tiene ambas manos ocupadas en el trabajo.
+
+**Casos de uso típicos:**
+- **Prensas manuales y troqueladoras**: el operario coloca la pieza con
+  ambas manos y activa la prensa con el pie.
+- **Máquinas de coser industriales**: control de velocidad y avance.
+- **Soldadura TIG**: el pedal controla la intensidad de la corriente de soldadura.
+- **Sierras y guillotinas**: activación manteniendo las manos alejadas del filo.
+- **Equipos médicos y dentales**: control de sillón, taladro dental, rayos X.
+- **Control de polipastos y grúas pequeñas**: subir/bajar con el pie.
+- **Equipos de envasado**: activar ciclo de sellado/corte manteniendo el envase.
+
+**Diferencia con un pulsador normal:**
+El pedal tiene una carcasa robusta (metálica o plástica) diseñada para
+soportar el peso del pie del operario repetidamente durante años, y suele
+llevar una cubierta protectora que evita activaciones accidentales si cae
+algo encima.
+
+============================================================
+
+SCHNEIDER ELECTRIC — TODA LA GAMA (59 art.)
+--------------------------------------------------------------
+Schneider Electric domina este grupo en Araiz con la gama XPEM/XPEY:
+
+**XPEM — Pedal metálico (más robusto)**
+| Referencia    | Config. contactos | Posiciones | IP  | Características               |
+|---------------|-------------------|------------|-----|-------------------------------|
+| XPEM110       | 1 NA              | 1          | IP66| Pedal sencillo metálico azul   |
+| XPEM6210D     | 2 NA + 3 NC       | 2 (doble)  | IP66| Pedal doble con cubierta metal|
+| XPEM11        | 1 NA + 1 NC       | 1          | IP66| Con contacto NA y NC           |
+
+**XPEY — Pedal plástico (más económico)**
+| Referencia    | Config. contactos | Posiciones | IP  | Características                |
+|---------------|-------------------|------------|-----|--------------------------------|
+| XPEY510       | 1 NC + 1 NA       | 1          | IP55| Pedal sencillo con cubierta    |
+| XPEY511       | 2 NC + 1 NA       | 1          | IP55| Configuración especial         |
+| XPEY611       | 2 NC + 1 NA       | 1          | IP55| Con cubierta amarilla          |
+
+**Parámetros clave para elegir el modelo:**
+
+**1. Material de la carcasa:**
+- Metálico (XPEM): para ambientes agresivos, talleres, prensas, maquinaria pesada.
+  Más caro pero indestructible.
+- Plástico (XPEY): para aplicaciones más ligeras. Más ligero y económico.
+
+**2. Número de posiciones:**
+- 1 posición: un pedal, una acción. El más habitual.
+- 2 posiciones (doble): dos pedales independientes en la misma unidad —
+  por ejemplo, avance y retroceso de un cilindro.
+
+**3. Contactos eléctricos:**
+- 1 NA (normalmente abierto): al pisar cierra el circuito. Lo más básico.
+- 1 NA + 1 NC: al pisar, el NA cierra Y el NC abre. Permite señal y
+  antiseñal simultáneas (confirmación de acción).
+- 2 NA + 3 NC: para circuitos de seguridad donde hay que confirmar el
+  estado del pedal por varias vías.
+
+**4. Protección IP:**
+- IP55: protegido contra polvo y chorros de agua desde cualquier dirección.
+  Suficiente para talleres secos.
+- IP66: protección total contra polvo y potentes chorros de agua.
+  Para ambientes con limpieza a presión.
+
+**Cubierta protectora:**
+Los pedales para maquinaria peligrosa deben llevar cubierta (tapa) para
+evitar activaciones accidentales. Si cae una pieza metálica sobre el
+pedal sin cubierta, puede arrancar la máquina involuntariamente.
+
+**BURGESS (1 art.)**
+Una referencia suelta de pedal Burgess — marca británica histórica de
+microswitches y pedales industriales.
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                    | Por qué                                        |
+|----|-------------------------------------------------------------|------------------------------------------------|
+| 1  | ¿Para qué máquina es? ¿Qué acción hace el pedal?           | Define el número de contactos necesarios       |
+| 2  | ¿Ambiente húmedo, polvoriento o limpieza a presión?        | Define el IP necesario (IP55 vs IP66)          |
+| 3  | ¿Necesita cubierta protectora?                              | Obligatoria en maquinaria con riesgo           |
+| 4  | ¿Metálico o plástico?                                       | Según dureza del ambiente y presupuesto        |
+| 5  | ¿Cuántos circuitos controla el pedal? ¿1 o 2?              | Un pedal (1 posición) o doble (2 posiciones)  |
+| 6  | ¿Tiene la referencia del pedal averiado?                    | En sustitución: siempre pedir referencia       |
+
+CONSEJO: El pedal Schneider XPEM110 (1 NA, metálico, IP66, azul) es
+la referencia más pedida en talleres de mecanizado y maquinaria industrial.
+Si el cliente no sabe qué modelo pedir: preguntar si la máquina es peligrosa
+(en ese caso, cubierta + metálico obligatorio) y si el ambiente es húmedo
+(IP66 si hay agua o limpieza a presión, IP55 si es seco).
+Para pedales con función de seguridad (máquinas que pueden hacer daño):
+verificar que la normativa de la máquina no exige un pedal con categoría
+de seguridad PLd/PLe — en ese caso, es un pedal de seguridad específico.
+
+============================================================
+Fuentes:
+- Schneider pedales XPEM/XPEY: https://www.se.com/es/es/product-subcategory/foot-switches/
+============================================================

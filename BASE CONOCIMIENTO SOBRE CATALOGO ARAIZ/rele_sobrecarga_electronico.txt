@@ -1,0 +1,100 @@
+CUADRO RESUMEN — RELÉ ELECTRÓNICO DE SOBRECARGA (Siemens 3RB / Schneider LR9 / Eaton PKE)
+Familia: Electricidad > Aparellaje eléctrico > Reles
+Ejemplo en Araiz: Siemens ref. 3RB3016-1SB0 (Relé electrónico sobrecarga 3RB3 0,1-0,63A para 3RT2 S00)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"relé electrónico sobrecarga diferencia térmico bimetálico ventajas" o "Siemens 3RB relé electrónico motor clase 10"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+El relé electrónico de sobrecarga cumple la misma función que el térmico (proteger
+el motor de la sobrecarga) pero en lugar de una lámina bimetálica usa electrónica:
+mide la corriente real del motor mediante transformadores de corriente integrados y
+calcula la temperatura del bobinado del motor según un modelo térmico matemático.
+Cuando la temperatura calculada supera el límite ajustado, dispara y abre el circuito.
+
+Ventajas frente al bimetálico:
+- **Más preciso:** no le afectan la temperatura ambiente ni las variaciones de tensión.
+- **Clase de disparo ajustable:** se puede seleccionar Clase 10, 20 o 30 (el tiempo
+  que tarda en disparar con 7 veces la corriente nominal). Clase 10 para motores
+  estándar, Clase 20/30 para motores con arranques largos o difíciles.
+- **Funciones adicionales:** detección de asimetría de fases, bloqueo de rotor,
+  termistor PTC para temperatura directa del motor, comunicación con bus de campo.
+- **Rango más amplio sin cambiar el relé:** un solo relé cubre más rango de corriente.
+- **Memoria térmica:** simula el calor residual del motor tras un disparo — no permite
+  rearranque inmediato hasta que el modelo calcula que el motor se ha enfriado.
+
+Se usa en motores críticos donde una parada imprevista es costosa y la precisión
+de protección importa: bombas de proceso, compresores, ventiladores industriales,
+cintas transportadoras de producción continua.
+
+Lo que facilita:
+- Proteger motores con arranques frecuentes o arranques largos (clase 20/30).
+- Detectar desequilibrio de fases antes de que dañe el motor.
+- Conectar a bus de campo (PROFIBUS, IO-Link) para monitorización en SCADA.
+- Proteger motores con termistor PTC integrado (temperatura directa del bobinado).
+
+Lo que evita que ocurra:
+- Disparos erróneos en motores con arranque largo: el relé bimetálico a veces
+  dispara antes de que el motor arranque; el electrónico con clase 20/30 aguanta.
+- Daños por desequilibrio de fases: el electrónico detecta asimetría que el
+  bimetálico pasa por alto.
+
+============================================================
+
+DIFERENCIA CLAVE: CLASE DE DISPARO (CLASE 10 / 20 / 30)
+--------------------------------------------------------------
+| Clase | Tiempo de disparo a 7×In | Para qué tipo de motor                    |
+|-------|--------------------------|------------------------------------------|
+| 10    | ≤ 10 segundos            | Motores estándar, arranque fácil          |
+| 20    | ≤ 20 segundos            | Motores con arranque largo o difícil     |
+| 30    | ≤ 30 segundos            | Compresores, bombas con inercia elevada  |
+
+============================================================
+
+MODELOS EN ARAIZ (~205 artículos)
+--------------------------------------------------------------
+| Marca      | Gama      | Referencia tipo       | Rango corriente  | Compatible con    |
+|------------|-----------|----------------------|-----------------|-------------------|
+| Siemens    | 3RB3 S00  | 3RB3016-1SB0         | 0,1 – 0,63 A    | 3RT2 S00          |
+| Siemens    | 3RB3 S0   | 3RB3026-1QB0         | 0,3 – 3 A       | 3RT2 S0           |
+| Siemens    | 3RB3 S2   | 3RB3036-2QB0         | 1 – 10 A        | 3RT2 S2           |
+| Siemens    | 3RB3 S3   | 3RB3046-2QB0         | 5 – 50 A        | 3RT2 S3           |
+| Siemens    | 3RB3 ext. | 3RB3056-2QB0         | 22 – 200 A      | 3RT2 grandes      |
+| Schneider  | LR9D      | LR9D02 / LR9D08      | 0,1 – 60 A      | Contactor TeSys D |
+| Eaton      | PKE        | PKE12 / PKE32        | 0,1 – 32 A      | DILM Eaton        |
+
+FUNCIONES EXTRA (según modelo):
+- IO-Link / PROFIBUS: comunicación digital para monitorización en SCADA.
+- Entrada PTC: conexión directa a termistor del motor.
+- Clase ajustable: Clase 10/20/30 mediante DIP switch o software.
+- Display de corriente: algunos modelos muestran la corriente en pantalla LCD.
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                | Por qué la necesitas                                          |
+|----|----------------------------------------------------------|------------------------------------------------------------- |
+| 1  | ¿Cuál es la corriente nominal del motor?                | Define el rango del relé electrónico a seleccionar           |
+| 2  | ¿Qué contactor tiene? ¿Talla?                           | El electrónico se acopla al contactor igual que el térmico   |
+| 3  | ¿El motor tiene arranque largo o difícil?               | Sí → Clase 20 o 30 / Normal → Clase 10                      |
+| 4  | ¿Necesita comunicación con SCADA o bus de campo?        | Confirmar si necesita versión IO-Link / PROFIBUS             |
+| 5  | ¿El motor tiene termistor PTC?                          | Versión con entrada PTC para protección directa temperatura  |
+
+CONSEJO: El relé electrónico de sobrecarga se vende en aplicaciones donde hay
+un historial de averías de motor o donde el proceso es crítico. Si el cliente dice
+"se nos queman los motores" o "el relé térmico nos dispara en el arranque", el
+electrónico es la solución. Su precio es mayor que el bimetálico (3-5 veces más)
+pero la protección es significativamente mejor. Para motores pequeños y estándar
+en aplicaciones no críticas, el térmico bimetálico sigue siendo suficiente.
+
+============================================================
+Fuentes:
+- Siemens 3RB3: https://new.siemens.com/es/es/productos/automatizacion/aparamenta/reles-sobrecarga.html
+- Schneider LR9D: https://www.se.com/es/es/product-subcategory/4700-contactores-tesys-d/
+- Eaton PKE: https://www.eaton.com/es/es-es/catalog/contactors.html
+============================================================

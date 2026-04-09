@@ -1,0 +1,100 @@
+CUADRO RESUMEN — GRUPO "OTROS" (Productos Omron sin clasificación ETIM)
+Familia: Electricidad > Aparellaje eléctrico > OTROS
+Ejemplo en Araiz: Omron ref. ZEN-4ED (Módulo expansión 4 entradas digitales para LOGO! compatible)
+============================================================
+
+¿QUÉ HAY EN ESTE GRUPO?
+--------------------------------------------------------------
+El grupo "OTROS" dentro de Aparellaje eléctrico contiene 293 artículos
+de Omron que no tienen clase ETIM asignada. Esto significa que son
+productos que el catálogo Araiz no ha podido clasificar en una categoría
+técnica estándar.
+
+Al revisar los ejemplos disponibles, este grupo incluye principalmente:
+
+**1. Módulos de expansión para controladores lógicos (ZEN)**
+El **Omron ZEN** es el mini controlador lógico de Omron (equivalente
+al Siemens LOGO! o Eaton Easy). Es un "relé programable" — un pequeño
+automatismo con entradas/salidas programables, mucho más flexible que
+un relé temporizador pero más sencillo y barato que un PLC completo.
+
+Los módulos ZEN-4ED, ZEN-8EA, ZEN-8ER son módulos de expansión que
+se añaden al controlador base ZEN para aumentar el número de entradas
+y salidas cuando la base no es suficiente.
+
+ZEN se usa en automatismos sencillos donde el LOGO!/Easy/ZEN evita
+usar un PLC completo:
+- Control de alumbrado con horarios y condiciones lógicas
+- Automatismo de bombas con niveles
+- Sistemas de alarma sencillos
+- Dosificación y temporización en maquinaria pequeña
+
+**2. Software de programación y licencias**
+El grupo incluye referencias de software Omron (WS02-CXPC1-E, CX-One)
+para programar PLCs, variadores y otros equipos Omron.
+El **CX-One** es el entorno de programación integrado de Omron — permite
+programar PLCs CP/CJ/CS, variadores, drives de servomotor, HMI NS...
+todo desde el mismo software.
+
+**3. Cables de servomotor y encoder (R7A-series)**
+Cables apantallados específicos para conectar servomotores Omron
+(G5/G-series) al driver de servomotor. Incluyen:
+- Cable de encoder: lleva la señal del encoder del motor al driver
+- Cable de potencia: lleva la alimentación del driver al motor
+
+Son cables prefabricados con conectores específicos Omron — no se pueden
+sustituir por cable genérico porque los conectores son propietarios.
+
+**4. Accesorios varios Omron sin ETIM**
+Pueden incluir:
+- Paneles de memoria para copiar programas entre PLCs
+- Adaptadores de comunicación serie RS232/USB para PLCs
+- Tarjetas SD de programas
+- Módulos especiales de comunicación
+- Baterías de respaldo para PLCs y HMIs
+
+============================================================
+
+¿CÓMO MANEJAR ESTE GRUPO EN PRESUPUESTOS?
+--------------------------------------------------------------
+Este grupo NO es para presupuestos de instalaciones eléctricas estándar.
+Su contenido es material específico Omron para:
+
+1. **Integradores Omron**: empresas que programan PLCs y sistemas de
+   automatización con Omron. Son clientes especializados que saben
+   exactamente qué referencia necesitan.
+
+2. **Mantenimiento de instalaciones con Omron**: cuando se avería un cable
+   de servomotor o necesitan una licencia de software.
+
+3. **Ampliaciones de instalaciones existentes**: módulos ZEN adicionales,
+   tarjetas de expansión para PLCs ya instalados.
+
+**En la práctica:** Si un cliente pide algo de este grupo, casi siempre
+sabe la referencia exacta. Tu papel es localizarla en el catálogo y
+comprobar disponibilidad y precio. No hace falta entender el producto
+en profundidad para tramitar el pedido.
+
+**Si el cliente no sabe la referencia:** preguntar qué PLC/equipo Omron
+tiene instalado y qué quiere hacer — con esa información se puede
+consultar con el técnico de Araiz o con el delegado de Omron.
+
+============================================================
+
+COMPARATIVA MINI CONTROLADORES LÓGICOS
+--------------------------------------------------------------
+| Producto    | Marca    | Precio aprox. | Uso habitual                    |
+|-------------|----------|---------------|---------------------------------|
+| LOGO! Basic | Siemens  | 80-130 €      | Automatismos simples residencial|
+| Easy        | Eaton    | 70-120 €      | Alternativa económica al LOGO!  |
+| ZEN         | Omron    | 80-140 €      | Instalaciones con estándar Omron|
+| Zelio       | Schneider| 90-150 €      | Instalaciones con estándar Schne|
+
+Todos hacen lo mismo: relé programable con temporizadores, contadores y
+lógica booleana básica. La elección depende del estándar de la instalación.
+
+============================================================
+Nota: Los artículos de este grupo no tienen ficha técnica ETIM y la
+información en catálogo puede ser limitada. Para pedidos específicos,
+siempre verificar disponibilidad y referencia exacta con el equipo Araiz.
+============================================================

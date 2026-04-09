@@ -1,0 +1,99 @@
+CUADRO RESUMEN — PANTALLA HMI NS (OMRON NS5 / NS8 / NS10 / NS12 / NS15)
+Familia: Electricidad > Aparellaje eléctrico > Autómatas programables y robots industriales
+Ejemplo en Araiz: Omron ref. NS8TV01BV2 (Terminal HMI NS 8,4" TFT 32k colores Ethernet negro)
+============================================================
+
+IMAGEN DEL PRODUCTO:
+https://www.ia.omron.com/products/family/698/
+
+VÍDEO / REFERENCIA TÉCNICA:
+https://industrial.omron.co.uk/en/products/ns-series
+
+Búsqueda recomendada en YouTube (español):
+"HMI Omron NS pantalla táctil programación CX-Designer" o "diferencia NS NB Omron pantalla táctil"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+La serie NS es la gama alta de pantallas HMI táctiles de Omron — pantallas de operador
+que van montadas en la puerta del armario o en el panel de la máquina para que el
+operario visualice el estado del proceso y pueda introducir consignas, seleccionar
+recetas, confirmar operaciones o ver alarmas. La NS trabaja principalmente con PLCs
+CS1/CJ1 (legacy) y NJ/NX (actual), conectada por Ethernet o por RS232C. Se programa
+con CX-Designer (incluido en CX-One). A diferencia de la gama NB (más económica y
+básica, ya documentada), la NS tiene mayor resolución, más memoria, soporte de redes
+industriales (EtherNet/IP, DeviceNet, PROFIBUS) y scripting en Visual Basic para
+lógica más compleja en la propia pantalla.
+
+Lo que facilita:
+- Mostrar al operario el estado completo de la máquina en tiempo real: valores,
+  tendencias, alarmas activas, estado de motores y válvulas en pantalla táctil.
+- Diseñar interfaces de operador profesionales con gráficos, animaciones, tendencias
+  y recetas de producto — sin necesidad de PC industrial separado.
+- Conectar directamente con PLCs Omron CS1/CJ1/NJ/NX y también con PLCs de otras
+  marcas (Siemens, Mitsubishi, Allen-Bradley) mediante drivers de comunicación.
+- Gestionar recetas: el operario selecciona la referencia de producto y la pantalla
+  descarga automáticamente todos los parámetros al PLC.
+- Almacenar histórico de alarmas y registros en tarjeta CompactFlash integrada.
+
+Lo que evita que ocurra:
+- El operario tenga que acceder al software de programación del PLC para cambiar
+  parámetros: la pantalla NS es la interfaz de operario, no la de ingeniería.
+- Pérdida de trazabilidad de alarmas: la NS registra históricamente todas las alarmas
+  con fecha y hora en su memoria interna o en tarjeta CF.
+- Instalaciones con pantallas incompatibles con el PLC: la NS tiene drivers para
+  todos los PLCs Omron legacy y actuales.
+
+============================================================
+
+DIFERENCIA CLAVE: NS (GAMA ALTA) vs NB (GAMA BÁSICA)
+--------------------------------------------------------------
+| Característica          | NS (gama alta)                   | NB (gama básica, doc. por sep.)  |
+|-------------------------|----------------------------------|----------------------------------|
+| Resolución              | 640x480 a 1280x800               | 320x240 a 800x480                |
+| Colores                 | 32.768 colores                   | 256 colores                      |
+| Red industrial          | EtherNet/IP, DeviceNet, PROFIBUS | Solo Ethernet/USB básico         |
+| Scripting               | Sí — Visual Basic en pantalla    | No                               |
+| Software programación   | CX-Designer (CX-One)             | NB-Designer (gratuito)           |
+| PLCs compatibles        | Omron + otras marcas             | Solo Omron                       |
+| Precio                  | Alto                             | Bajo-medio                       |
+| Para qué                | Instalaciones avanzadas / CS1/CJ1| Máquinas simples / CP1L/NX1P2   |
+
+============================================================
+
+MODELOS NS A CONOCER
+--------------------------------------------------------------
+| Modelo      | Pantalla | Resolución  | Ethernet | Para qué                          |
+|-------------|---------|-------------|----------|-----------------------------------|
+| NS5-□□      | 5,7"    | 320x240     | Sí       | Máquinas pequeñas con CS1/CJ1     |
+| NS8-□□      | 8,4"    | 640x480     | Sí       | El más habitual — equilibrio      |
+| NS10-□□     | 10,4"   | 640x480     | Sí       | Paneles de control más grandes    |
+| NS12-□□     | 12,1"   | 800x600     | Sí       | Instalaciones complejas           |
+| NS15-□□     | 15"     | 1024x768    | Sí       | Grandes paneles de supervisión    |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                               | Por qué la necesitas                                          |
+|----|--------------------------------------------------------|---------------------------------------------------------------|
+| 1  | ¿Qué PLC tiene? (CS1, CJ1, NJ, NX...)                  | Define la conexión y los drivers necesarios en la NS         |
+| 2  | ¿Qué tamaño de pantalla necesita?                       | 5,7" / 8,4" / 10,4" / 12,1" / 15" — según el espacio       |
+| 3  | ¿Tiene CX-Designer / CX-One para programarla?           | Sin CX-One no se puede diseñar la pantalla NS                |
+| 4  | ¿Necesita conectar a red Ethernet industrial?           | EtherNet/IP, DeviceNet → NS / Solo Ethernet básico → NB     |
+| 5  | ¿Es sustitución o instalación nueva?                    | Sustitución → mismo modelo para reutilizar el programa       |
+| 6  | ¿Tiene el cable de conexión PLC-pantalla?               | El cable RS232C o Ethernet es específico del modelo          |
+
+CONSEJO: La pantalla NS va casi siempre emparejada con PLCs CS1/CJ1 en instalaciones
+legacy. Para instalaciones nuevas con NJ/NX, la pantalla recomendada es la NA
+(nueva generación, táctil capacitivo, integración nativa Sysmac Studio). Si el cliente
+tiene un CJ1 con NS y necesita recambio, preguntar exactamente el modelo NS (NS5/NS8/...)
+y la versión — los programas no siempre son compatibles entre versiones.
+
+============================================================
+Fuentes:
+- Omron NS series (oficial): https://www.ia.omron.com/products/family/698/
+- Manual NS (PDF): https://assets.omron.eu/downloads/latest/manual/en/v083_ns_series_programmable_terminals_setup_manual_en.pdf
+- TME NS8-TV01B-V2: https://www.tme.com/us/en-us/details/ns8-tv01b-v2/hmi-panels/omron/
+============================================================

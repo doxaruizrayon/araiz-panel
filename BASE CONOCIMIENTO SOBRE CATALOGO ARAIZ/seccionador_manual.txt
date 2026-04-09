@@ -1,0 +1,101 @@
+CUADRO RESUMEN — SECCIONADOR MANUAL (P-series / OT / Vario / 3KD)
+Familia: Electricidad > Aparellaje eléctrico > Interruptor y conmutador manual
+Ejemplo en Araiz: Eaton ref. P3-100/EA/SVB (Seccionador rotativo 100A 3P leva negra con bloqueo)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"qué es un seccionador eléctrico diferencia interruptor" o "seccionador rotativo carril DIN cuadro eléctrico"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Un seccionador es un dispositivo que abre o cierra un circuito eléctrico de forma manual,
+garantizando que queda VISIBLEMENTE abierto (se ve físicamente que no hay corriente).
+Su función principal es aislar una instalación o parte de ella para que los técnicos
+puedan trabajar con seguridad — el famoso "descargo eléctrico".
+
+La diferencia clave con un interruptor automático (magnetotérmico):
+- El magnetotérmico PROTEGE: corta solo cuando hay un fallo (sobrecarga, cortocircuito).
+- El seccionador AÍSLA: el operario lo abre manualmente para trabajar con seguridad.
+  No tiene protección automática, pero garantiza el aislamiento visual.
+
+Dentro del grupo hay dos variantes:
+1. Seccionador puro — solo aísla (no tiene protección integrada)
+2. Seccionador con fusible — aísla Y protege, combinando ambas funciones en un bloque
+
+Lo que facilita:
+- Mantenimiento seguro: bloquear con candado (LOTO) para que nadie conecte accidentalmente.
+- Separar partes del cuadro: aislar un motor, una línea, un subcuadro.
+- Interruptor general del cuadro: el seccionador principal que corta toda la alimentación.
+- Maniobra de carga: algunos seccionadores (interruptor-seccionador) pueden conectar
+  y desconectar bajo carga, no solo en condiciones sin corriente.
+
+Lo que evita que ocurra:
+- Accidentes durante mantenimiento: la posición abierta es visible y bloqueable.
+- Confusión sobre si hay tensión: la palanca en posición 0 garantiza el aislamiento.
+
+============================================================
+
+DIFERENCIA CLAVE: SECCIONADOR vs MAGNETOTÉRMICO vs INTERRUPTOR DE CARGA
+--------------------------------------------------------------
+| Característica         | Seccionador           | Magnetotérmico        | Interruptor de carga  |
+|------------------------|-----------------------|-----------------------|-----------------------|
+| Función                | Aislar para seguridad | Proteger automático   | Conectar/desconectar  |
+| Corta bajo carga       | Algunos (IS)          | Sí (automático)       | Sí                    |
+| Protección sobrecarga  | No                    | Sí                    | No                    |
+| Posición visible       | Sí (palanca física)   | Sí (disparo)          | Sí                    |
+| Bloqueable con candado | Sí (LOTO)             | En algunos modelos    | En algunos modelos    |
+| Uso típico             | Mantenimiento/aislam. | Protección líneas     | Maniobra frecuente    |
+
+============================================================
+
+GAMAS PRINCIPALES EN ARAIZ (~2.255 artículos)
+--------------------------------------------------------------
+| Marca           | Gama                  | Referencias tipo              | Corriente típica  |
+|-----------------|-----------------------|-------------------------------|-------------------|
+| Eaton           | P-series (P1/P3/P5/P7)| P1-25/EA, P3-100/EA/SVB       | 25 A a 3.200 A    |
+| ABB             | OT / OS               | OT16F3, OS16GD3, OT200E03     | 16 A a 3.150 A    |
+| ABB             | Con fusible (OFAFS)   | OS32GD4, OFAFS63D4            | 32 A a 630 A      |
+| Schneider Elec. | Vario                 | VCD00, VCD01, VCD02           | 20 A a 1.600 A    |
+| Siemens         | 3KD / 3LD             | 3KD1832, 3LD2103              | 16 A a 3.150 A    |
+| Gave            | GAZ / rotativo        | GAZ-16, GAZ-32                | 16 A a 100 A      |
+
+Número de polos más habituales: 3P (trifásico) y 4P (trifásico + neutro)
+Tensión: 400V AC estándar para industria; 690V AC para aplicaciones especiales
+
+TALLA POR CORRIENTE (regla práctica):
+| Corriente (A)  | Eaton P-series | ABB OT    | Schneider Vario | Uso típico                        |
+|----------------|----------------|-----------|-----------------|-----------------------------------|
+| ≤ 25 A         | P1             | OT16-25   | VCD00           | Motor pequeño, subcircuito        |
+| 25–63 A        | P3             | OT32-63   | VCD01           | Línea motor mediano, subcuadro    |
+| 63–125 A       | P3/P5          | OT80-125  | VCD01/VCD02     | Cuadro secundario, fuerza         |
+| 125–630 A      | P5/P7          | OT160-630 | VCD02/VCD03     | Cuadro principal, embarrado       |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                        | Por qué la necesitas                                    |
+|----|-----------------------------------------------------------------|---------------------------------------------------------|
+| 1  | ¿Cuántos amperios tiene que soportar?                           | Define la talla del seccionador                         |
+| 2  | ¿Es trifásico (3P) o trifásico con neutro (4P)?                 | Define el número de polos                               |
+| 3  | ¿Se monta en carril DIN o en panel (tornillos)?                 | Algunos modelos solo van en panel para grandes calibres |
+| 4  | ¿Necesita bloqueo con candado (función LOTO)?                   | La mayoría lo admiten pero hay que confirmar el accesorio|
+| 5  | ¿Va a cortar bajo carga o solo en condiciones de reposo?        | Si corta bajo carga necesita interruptor-seccionador    |
+| 6  | ¿Necesita función de protección integrada (con fusible)?        | Si es así, pedir seccionador-fusible (ABB OFAFS/OS)     |
+| 7  | ¿Qué marca tiene el cuadro?                                     | Para mantener compatibilidad de accesorios              |
+
+CONSEJO: El seccionador más vendido en cuadros industriales es el Eaton P3 (25A a 125A)
+con leva giratoria negra — es el "interruptor general" habitual de cuadros de automatización.
+Cuando el cliente dice "quiero poner un interruptor general al cuadro", casi siempre
+necesita un seccionador P3 o equivalente ABB OT.
+Si además quiere protección integrada sin magnetotérmico separado, orientar al
+seccionador-fusible (ABB OS o equivalente).
+
+============================================================
+Fuentes:
+- Eaton P-series: https://www.eaton.com/es/es-es/catalog/switching-disconnectors.html
+- ABB OT/OS: https://new.abb.com/low-voltage/es/productos/aparamenta/interruptores-seccionadores
+- Schneider Vario: https://www.se.com/es/es/product-subcategory/disconnect-switches/
+============================================================

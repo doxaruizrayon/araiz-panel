@@ -1,0 +1,84 @@
+CUADRO RESUMEN — ARMARIO / CARCASA ANTIDEFLAGRANTE (ZONA ATEX / EX)
+Familia: Electricidad > Aparellaje eléctrico > Autómatas programables y robots industriales
+Ejemplo en Araiz: Siemens ref. ET200iSP ATEX (Armario acero inoxidable IP65 zona Ex II 2G)
+============================================================
+
+IMAGEN DEL PRODUCTO:
+https://www.siemens.com/es/es/productos/automatizacion/producto/simatic-et200isp.html
+
+VÍDEO / REFERENCIA TÉCNICA:
+https://www.siemens.com/atex
+
+Búsqueda recomendada en YouTube (español):
+"armario ATEX zona explosiva qué es certificación Ex" o "ATEX equipos zona peligrosa gas inflamable"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Un armario antideflagrante (o carcasa Ex) es un recinto especialmente construido
+para albergar equipos eléctricos en zonas donde puede haber atmósferas explosivas:
+gases inflamables, vapores de disolventes, polvos combustibles. En estas zonas
+(llamadas zonas ATEX — ATmosphères EXplosibles), la directiva ATEX (94/9/CE en
+Europa) exige que todos los equipos eléctricos estén certificados para no ser fuente
+de ignición. El armario antideflagrante protege el equipo de control (PLC, módulos
+E/S) de la atmósfera explosiva exterior de tres formas: sellado hermético (la
+atmósfera exterior no entra), sobrepresión con gas inerte (purga/presurización)
+o encapsulado en compuesto aislante. En el catálogo Araiz los equipos son
+principalmente el sistema Siemens ET200iSP en carcasa ATEX para zona 1/2 (gas)
+y zona 21/22 (polvo).
+
+Lo que facilita:
+- Instalar un sistema de automatización en zonas peligrosas: refinerías, plantas
+  químicas, depósitos de combustible, zonas de pintura, molinos harineros...
+- Cumplir la directiva ATEX: sin equipo certificado no se puede instalar nada
+  eléctrico en zona Ex — es un requisito legal en toda la UE.
+- Tener el PLC y los módulos de E/S cerca del proceso peligroso: sin el armario
+  Ex habría que cablear todos los sensores hasta una zona segura (más coste).
+
+Lo que evita que ocurra:
+- Explosión por arco eléctrico en zona con gas o polvo inflamable: el armario
+  antideflagrante contiene cualquier arco o chispa dentro del recinto.
+- Sanciones e inhabilitación de la instalación: la inspección de trabajo verifica
+  la certificación ATEX de todos los equipos en zonas peligrosas.
+
+============================================================
+
+CLASIFICACIÓN DE ZONAS ATEX
+--------------------------------------------------------------
+| Zona | Tipo      | Definición                                    | Equipos necesarios |
+|------|-----------|-----------------------------------------------|--------------------|
+| 0    | Gas       | Atmósfera explosiva presente continuamente    | Cat. 1G (ATEX)     |
+| 1    | Gas       | Presente en condiciones normales              | Cat. 2G (ATEX)     |
+| 2    | Gas       | Solo en condiciones anormales                 | Cat. 3G (ATEX)     |
+| 20   | Polvo     | Polvo combustible presente continuamente      | Cat. 1D (ATEX)     |
+| 21   | Polvo     | Polvo presente en condiciones normales        | Cat. 2D (ATEX)     |
+| 22   | Polvo     | Polvo solo en condiciones anormales           | Cat. 3D (ATEX)     |
+
+NOTA: Los equipos Siemens ET200iSP en carcasa ATEX del catálogo Araiz son para
+Zona 1/2 (gas) y Zona 21/22 (polvo) — las más habituales en industria.
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                               | Por qué la necesitas                                          |
+|----|--------------------------------------------------------|---------------------------------------------------------------|
+| 1  | ¿La zona está clasificada como ATEX? ¿Qué zona?       | Zona 1/2 (gas) o Zona 21/22 (polvo) → define el equipo       |
+| 2  | ¿Tiene el estudio de clasificación de zonas ATEX?      | Documento legal obligatorio — define las zonas del proceso    |
+| 3  | ¿Qué equipo de control necesita meter en zona Ex?      | PLC, módulos E/S, HMI — define la carcasa y el sistema       |
+| 4  | ¿Qué PLC tiene actualmente? ¿Siemens?                 | ET200iSP ATEX es sistema Siemens — para Omron hay otros       |
+| 5  | ¿Cuántos cables/señales entran en la zona?             | Define el número de módulos de E/S dentro del armario ATEX   |
+
+CONSEJO: El equipamiento ATEX es un mercado muy especializado. El cliente que
+lo pide ya sabe que está en zona peligrosa y tiene los documentos de clasificación.
+Lo más importante es confirmar la zona (1, 2, 21, 22) y el sistema de PLC existente.
+Es un producto de proyecto — siempre poner en contacto con un especialista ATEX
+o con el equipo técnico del fabricante para la selección correcta. Nunca proponer
+un equipo sin confirmar la zona y la certificación adecuada.
+
+============================================================
+Fuentes:
+- Siemens ET200iSP ATEX: https://www.siemens.com/es/es/productos/automatizacion/producto/simatic-et200isp.html
+- Directiva ATEX: https://ec.europa.eu/growth/sectors/mechanical-engineering/atex_en
+============================================================

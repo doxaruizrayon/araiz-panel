@@ -1,0 +1,117 @@
+CUADRO RESUMEN — MÓDULO DE RELÉS
+Familia: Electricidad > Aparellaje eléctrico > Autómatas programables
+Ejemplo en Araiz: Phoenix Contact ref. 2900300 (PLC-RPT- 24UC/21 — serie PLC Interface)
+============================================================
+
+IMAGEN DEL PRODUCTO (ref. 2900300 Phoenix Contact):
+https://www.phoenixcontact.com/en-us/products/relay-module-plc-rpt-24uc21-2900300
+
+VÍDEO / REFERENCIA TÉCNICA:
+https://www.digikey.com/en/products/detail/phoenix-contact/2900300/2742133
+
+Búsqueda recomendada en YouTube (español):
+"módulo de relés PLC tutorial" o "Phoenix Contact PLC interface relay módulo"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Un módulo de relés es el componente que hace de puente entre el PLC (que trabaja
+con señales de 24V DC de baja potencia) y los dispositivos de campo que pueden
+necesitar corriente alterna, tensiones altas o corrientes elevadas que el PLC
+por sí solo no puede manejar directamente. Cuando el PLC activa una salida,
+el módulo cierra un contacto mecánico interno (el relé) que a su vez alimenta
+la carga externa, manteniendo los dos circuitos separados.
+
+Lo que facilita:
+- Que el PLC controle cargas de corriente alterna (AC) como motores 230V,
+  válvulas solenoides o lámparas de señalización.
+- Conectar cargas de tensiones y corrientes más altas que las que soporta
+  directamente una salida transistor del PLC.
+- Aislar eléctricamente el circuito del PLC del circuito de potencia,
+  protegiendo el autómata de picos o perturbaciones del lado de carga.
+- Sustituir el relé enchufable individualmente sin tocar el cableado
+  (el zócalo queda fijo, solo se cambia el relé).
+
+Lo que evita que ocurra:
+- Que una sobretensión o pico en el circuito de potencia dañe el PLC.
+- Que el PLC intente manejar directamente corrientes para las que no está
+  dimensionado (riesgo de quemar la salida del autómata).
+- Paradas largas por avería: el relé es enchufable y se cambia en segundos.
+- Interferencias entre el circuito de control y el de potencia.
+
+============================================================
+
+DIFERENCIA CLAVE CON OTROS MÓDULOS DE RELÉS
+--------------------------------------------------------------
+| Tipo                          | Cómo funciona                                        | Ventaja principal                              | Inconveniente                                | Cuándo usarlo                                      |
+|-------------------------------|------------------------------------------------------|------------------------------------------------|----------------------------------------------|----------------------------------------------------|
+| Relé electromecánico (EMR)    | Bobina que mueve un contacto mecánico                | Funciona con AC y DC, cualquier tensión        | Desgaste mecánico, más lento, hace clic      | Uso general. El más habitual. El ref. 2900300 es este tipo |
+| Relé de estado sólido (SSR)   | Semiconductor (sin partes móviles, tipo optoacoplador) | Muy rápido, silencioso, vida útil muy larga  | Solo AC, genera calor, necesita disipador    | Conmutación muy frecuente o entornos con vibración |
+| Relé miniatura enchufable     | Electromecánico pero en formato muy compacto (6,2mm) | Muy poco espacio en carril DIN               | Corriente más limitada (6A)                  | Armarios con poco espacio. El ref. 2900300 es de este tipo |
+| Relé de potencia              | Electromecánico de mayor tamaño                      | Soporta corrientes altas (16A, 30A...)         | Ocupa más espacio                            | Cargas grandes: motores, resistencias calefactoras |
+| Módulo optoacoplador          | Aislamiento óptico sin contacto mecánico             | Aislamiento galvánico perfecto, muy rápido     | Solo señales digitales, sin potencia         | Separar señales de distintos niveles de tensión    |
+
+El ref. 2900300 es relé electromecánico miniatura enchufable, 1 contacto conmutable (NA+NC), 24V AC/DC bobina, 250V AC/DC contacto, 6A.
+
+============================================================
+
+CARACTERÍSTICAS TÉCNICAS BÁSICAS A SABER
+--------------------------------------------------------------
+| Parámetro                    | Qué significa                                    | Valor ref. 2900300 (Phoenix Contact)          |
+|------------------------------|--------------------------------------------------|-----------------------------------------------|
+| Tensión de bobina (control)  | La tensión con la que el PLC activa el relé      | 24V AC/DC                                     |
+| Rango operativo bobina       | Margen de tensión admisible                      | 19,4 a 33,6V DC / 19,4 a 33,6V AC            |
+| Tensión máx. contacto        | Tensión máxima que puede conmutar                | 250V AC/DC                                    |
+| Corriente máx. contacto      | Corriente máxima que puede manejar               | 6A (pico máximo 10A durante 4s)               |
+| Tipo de contacto             | Configuración del contacto                       | 1 contacto conmutable (1NA + 1NC)             |
+| Ancho del módulo             | Espacio que ocupa en carril DIN                  | 6,2 mm (muy compacto)                         |
+| Tecnología de conexión       | Cómo se conectan los cables                      | Push-in (sin destornillador)                  |
+| Montaje                      | Dónde se instala                                 | Carril DIN NS 35/7,5                          |
+| Indicador de estado          | Si tiene LED para ver si está activado           | Sí — LED integrado en la bobina               |
+| Aislamiento bobina/contacto  | Separación eléctrica entre circuito PLC y carga  | Sí — separación segura según DIN EN 50178     |
+| Relé enchufable              | Si el relé se puede cambiar sin soltar el cableado | Sí — el zócalo queda fijo, solo se cambia el relé |
+
+============================================================
+
+TIPOLOGÍAS DE MÓDULOS DE RELÉS
+--------------------------------------------------------------
+| Tipología                          | Descripción                                                      | Cuándo se usa                                          |
+|------------------------------------|------------------------------------------------------------------|--------------------------------------------------------|
+| Módulo individual enchufable       | Un relé por módulo, muy estrecho (6,2mm). Zócalo + relé separados | Armarios con muchas salidas. El ref. 2900300 es este  |
+| Módulo múltiple (bloque de relés)  | Varios relés en un bloque compacto (4, 8 o más)                  | Cuando se necesitan muchas salidas en poco espacio     |
+| Módulo con relé de potencia        | Relé de mayor tamaño integrado en el módulo                      | Cargas de alta corriente (motores, resistencias)       |
+| Módulo de estado sólido (SSR)      | Sin partes móviles, basado en semiconductor                      | Conmutación frecuente o entornos con vibración         |
+| Módulo con test manual             | Permite activar el relé a mano sin señal del PLC                 | Imprescindible para puesta en marcha y mantenimiento   |
+| Módulo con indicador de diagnóstico| LED o display que informa del estado y posibles fallos           | Instalaciones críticas donde el tiempo de parada es caro |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                          | Por qué la necesitas                                                        |
+|----|-------------------------------------------------------------------|-----------------------------------------------------------------------------|
+| 1  | ¿Qué PLC o sistema de control tiene?                              | El módulo de relés debe ser compatible con la familia del PLC (serie PLC Interface, TM3...) |
+| 2  | ¿Cuántas salidas de relé necesita?                                | Para saber cuántos módulos hacen falta                                      |
+| 3  | ¿Qué tensión tienen las cargas que va a controlar? (24V DC, 230V AC...) | Determina si necesita relé electromecánico o SSR y el calibre del contacto |
+| 4  | ¿Qué corriente consume cada dispositivo que va a conmutar?        | Si supera 6A necesita relé de potencia, no miniatura                        |
+| 5  | ¿Las cargas son de corriente alterna (AC) o continua (DC)?        | SSR solo funciona bien con AC. Para DC el electromecánico es más seguro     |
+| 6  | ¿Con qué frecuencia se van a activar y desactivar los relés?      | Conmutación muy frecuente → SSR (sin desgaste). Poco frecuente → electromecánico |
+| 7  | ¿Hay vibraciones o golpes en el entorno de instalación?           | Con vibraciones fuertes el relé mecánico puede fallar → mejor SSR           |
+| 8  | ¿Va dentro de un armario o en campo abierto?                      | IP20 para armario / IP65-67 para campo                                      |
+| 9  | ¿Necesita poder activar el relé a mano para pruebas?              | Si hace mantenimiento él mismo, mejor módulo con test manual                |
+| 10 | ¿Es instalación nueva o ampliación de una existente?              | Si es ampliación, el módulo debe ser de la misma serie que lo existente     |
+
+CONSEJO: La pregunta más importante es la tensión y la corriente de la carga.
+Si la carga es 230V AC y poca corriente → relé electromecánico miniatura (ref. 2900300).
+Si la carga supera 6A → relé de potencia.
+Si conmuta miles de veces al día → SSR.
+
+============================================================
+Fuentes:
+- Ficha oficial Phoenix Contact 2900300: https://www.phoenixcontact.com/en-us/products/relay-module-plc-rpt-24uc21-2900300
+- DigiKey ref. 2900300: https://www.digikey.com/en/products/detail/phoenix-contact/2900300/2742133
+- Diferencia relé mecánico vs SSR: https://www.taloselectronics.com/blogs/tutoriales/diferencia-entre-rele-mecanico-y-rele-estado-solido-ssr
+- Relé estado sólido vs electromecánico: https://www.tosunlux.eu/es/blog/solid-state-relay-vs-electromechanical-relay/
+- Kolbi ref. 2900300: https://www.kolbi.es/reles-inversores-y-optoacopladores/reles/2900300
+============================================================

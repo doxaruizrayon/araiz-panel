@@ -1,0 +1,124 @@
+CUADRO RESUMEN — RELÉ ENCHUFABLE DE CONMUTACIÓN (FINDER / Omron MY-G2R / Weidmuller CRI / Releco / ABB CR)
+Familia: Electricidad > Aparellaje eléctrico > Reles
+Ejemplo en Araiz: FINDER ref. 40.52.8.024.0000 (Mini-relé SERIE 40 2 contactos 8A 24V DC para carril/PCB)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"relé enchufable qué es zócalo base FINDER Omron" o "relé industrial 24V DC contactos inversores cómo funciona"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+El relé enchufable de conmutación es el relé más universal del mundo de la
+automatización: una bobina electromagnética que, al energizarse, mueve un conjunto
+de contactos de señal (normalmente 1, 2 o 4 contactos inversores de 6-16A).
+Se llama "enchufable" porque el relé es independiente del zócalo (la base donde
+se monta) — el relé se engancha en el zócalo sin herramienta y se puede cambiar
+en segundos sin tocar el cableado. El cableado va al zócalo, no al relé.
+
+Sus usos son infinitos, pero los más habituales:
+- **Interfaz PLC → campo:** la salida del PLC activa la bobina del relé (24V DC,
+  10mA) y los contactos del relé maniobran cargas que el PLC no puede manejar
+  directamente (electroválvulas, pilotos 230V, bobinas de contactor...).
+- **Aislamiento galvánico:** el relé aísla eléctricamente el circuito de control
+  (24V DC PLC) del circuito de campo (230V AC, 48V DC...).
+- **Multiplicación de señales:** 1 señal del PLC → 4 contactos del relé → 4 acciones.
+- **Enclavamiento en lógica cableada:** un contacto NO del relé A en serie con la
+  bobina del relé B impide que B funcione si A está activo.
+- **Memorización de estado:** circuito de autoalimentación con contacto propio del relé.
+
+Diferencia con el relé auxiliar tipo contactor (3RH/CAD):
+el relé enchufable se cambia en segundos sin destornillador (el zócalo queda fijo);
+el auxiliar tipo contactor está integrado en el cuadro de potencia y tiene más
+accesorios disponibles pero no es enchufable.
+
+Lo que facilita:
+- Cambiar un relé defectuoso en campo en menos de 30 segundos sin parar el proceso.
+- Tener un stock de repuestos pequeño y barato (el relé sin zócalo es económico).
+- Maniobrar cargas de diferentes tensiones desde un PLC 24V DC.
+
+Lo que evita que ocurra:
+- Daño en las salidas del PLC por cargas inductivas o de tensión alta.
+- Paro prolongado por avería de un relé: se cambia en segundos sin electricista.
+
+============================================================
+
+DIFERENCIA CLAVE: RELÉ ENCHUFABLE vs RELÉ AUXILIAR TIPO CONTACTOR
+--------------------------------------------------------------
+| Característica       | Relé enchufable                | Relé auxiliar contactor (3RH)  |
+|----------------------|--------------------------------|-------------------------------|
+| Cambio en campo      | Sin herramienta, 5 segundos    | Con destornillador, varios min |
+| Zócalo separado      | Sí — cableado queda en zócalo  | No — cableado en el propio relé|
+| Accesorios           | Limitados (tapas, LED, puentes)| Bloques, temporizadores, etc.  |
+| Precio               | Muy económico (4-20€)          | Mayor (20-80€)                 |
+| Corriente contactos  | 6-16A                          | 6-10A                          |
+| Para qué             | Interfaz PLC, señales de mando | Circuito mando integrado       |
+
+============================================================
+
+GAMAS PRINCIPALES EN ARAIZ (~2.800 artículos)
+--------------------------------------------------------------
+| Marca        | Gama / Serie          | Formato            | Contactos      | Corriente |
+|--------------|-----------------------|--------------------|----------------|-----------|
+| FINDER       | Serie 40 (mini)       | PCB / carril DIN   | 1CO, 2CO       | 6-8 A     |
+| FINDER       | Serie 55 (industrial) | Octal / undecal    | 2CO, 3CO       | 10 A      |
+| FINDER       | Serie 60 (potencia)   | Octal / undecal    | 2CO, 3CO       | 10-16 A   |
+| FINDER       | Serie 46 (mini indus) | PCB / carril DIN   | 1CO, 2CO       | 10-16 A   |
+| Omron        | MY (octal)            | Octal 8 pines      | 2PDT, 4PDT     | 5-10 A    |
+| Omron        | G2R (carril DIN)      | PCB / carril DIN   | 1CO, 2CO       | 5-10 A    |
+| Omron        | G2RV (slim)           | Carril DIN slim    | 1CO            | 6 A       |
+| Omron        | MKS / LY              | Undecal 11 pines   | 3CO, 4CO       | 5-10 A    |
+| Weidmuller   | CRI / CRM             | Carril DIN         | 1CO, 2CO, 4CO  | 6-10 A    |
+| Weidmuller   | CRIKIT / CRMKIT       | Base integrada     | 1CO, 2CO       | 6 A       |
+| Releco       | C2A / C3A / C9A / C12A| Octal / undecal    | 2CO, 3CO, 4CO  | 10 A      |
+| ABB          | CR-P / CR-M           | Carril DIN         | 1CO, 2CO, 4CO  | 6-10 A    |
+| Rockwell     | 700-H / 700-P         | Octal / undecal    | 2CO, 3CO       | 8-16 A    |
+
+**Código de contactos:** CO = contacto inversor (1NA + 1NC combinado).
+2CO = 2 inversores = 2 contactos NA + 2 NC disponibles.
+
+ZÓCALOS ASOCIADOS (EC001456 — 181+ artículos):
+| Marca   | Serie zócalo  | Pines    | Para relé           |
+|---------|---------------|----------|---------------------|
+| FINDER  | Serie 90      | 8 pines  | Relés FINDER 40/60  |
+| FINDER  | Serie 95      | 8 pines  | Relés FINDER 40     |
+| FINDER  | Serie 97      | 8 pines  | Relés FINDER 46     |
+| FINDER  | Serie 93      | 8 pines  | Relés FINDER 34     |
+| Releco  | S2B / S7C / S10 | Varios | Relés RELECO C-series|
+| Omron   | P2R / P3G     | 8/11 pin | Relés MY / MKS / LY |
+
+ACCESORIOS:
+- Módulo LED + diodo: indica visualmente que el relé está energizado y protege la bobina.
+- Módulo RC/varistor: supresión de transitorios (ver cuadro modulo_supresion_transitorios).
+- Conexión transversal: puente que une los bornes de alimentación de varias bases en serie.
+- Tapa de protección: cubre el relé para evitar contactos accidentales.
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                | Por qué la necesitas                                          |
+|----|----------------------------------------------------------|------------------------------------------------------------- |
+| 1  | ¿Qué tensión tiene la bobina? ¿24V DC o 230V AC?        | El dato más importante — define el modelo exacto             |
+| 2  | ¿Cuántos contactos necesita y de qué tipo (CO/NA/NC)?   | 1CO (básico), 2CO (habitual), 4CO (muchas señales)           |
+| 3  | ¿Cuántos amperios tiene la carga a maniobrar?           | 6A suficiente para señales / 10-16A para cargas mayores      |
+| 4  | ¿Necesita zócalo? ¿Qué marca tiene el relé existente?  | El zócalo es específico de cada familia de relé              |
+| 5  | ¿Para carril DIN o para PCB (placa de circuito impreso)?| Formato del relé y del zócalo cambia                         |
+| 6  | ¿Necesita LED indicador o módulo de protección bobina?  | Recomendable siempre con bobinas DC para proteger el PLC     |
+
+CONSEJO: El relé enchufable es el artículo más pedido en sustituciones de emergencia.
+El cliente llega con el relé quemado en la mano y necesita el mismo. Los datos
+imprescindibles están en la etiqueta del propio relé: referencia completa, tensión
+de bobina y número de contactos. Si no tiene el relé, preguntar marca y tensión de
+bobina — con eso se puede orientar. FINDER, Omron y ABB son las marcas más habituales
+en industria española; Releco en cuadros de media tensión y distribución.
+Los zócalos de diferentes marcas NO son intercambiables — verificar siempre.
+
+============================================================
+Fuentes:
+- FINDER relés: https://www.findernet.com/es/es/series/40-series-mini-rele
+- Omron MY/G2R: https://www.ia.omron.com/products/category/control/relays/
+- Weidmuller CRI: https://www.weidmuller.com/es/productos/reles_e_interfaces/
+- ABB CR-P: https://new.abb.com/low-voltage/es/productos/aparamenta/reles-enchufables
+============================================================

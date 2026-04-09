@@ -1,0 +1,99 @@
+CUADRO RESUMEN — CABLE SENSOR-ACTUADOR (CABLE M8 / M12 PARA SENSORES)
+Familia: Electricidad > Aparellaje eléctrico > Autómatas programables y robots industriales
+Ejemplo en Araiz: Omron ref. XS5F-D421-G80-F (Cable M12 4 pines recto PVC 2m para sensor)
+============================================================
+
+IMAGEN DEL PRODUCTO:
+https://www.ia.omron.com/products/family/1832/
+
+VÍDEO / REFERENCIA TÉCNICA:
+https://industrial.omron.co.uk/en/products/sensor-cables
+
+Búsqueda recomendada en YouTube (español):
+"cable M12 sensor industrial conector conecto qué es" o "cable M8 M12 sensor proximidad PLC automatización"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Los cables sensor-actuador son los cables de conexión entre los sensores industriales
+(proximidad, fotoeléctrico, encoder...) y el cuadro de control o el módulo de E/S
+del PLC. A diferencia de un cable de señal genérico, estos cables tienen conectores
+circulares normalizados en un extremo (o en los dos extremos) con rosca de bloqueo
+para evitar desconexiones por vibración. Los formatos más habituales son:
+
+- **M12** (conector de 12mm de diámetro): el estándar industrial más usado. Viene con
+  3, 4, 5 u 8 pines según el sensor. La mayoría de sensores industriales (proximidad,
+  fotoeléctrico, encoder) usan M12.
+- **M8** (conector de 8mm): más pequeño, para sensores compactos con poco espacio.
+- **Conector recto o acodado (90°):** el acodado se usa cuando el sensor está en un
+  espacio reducido y el cable debe salir lateralmente.
+
+Lo que facilita:
+- Conectar sensores al PLC o al módulo de E/S remota de forma rápida y segura:
+  se enchufa y rosca — no hay que pelar cables ni usar terminales.
+- Cambiar un sensor averiado en minutos: se desenchufan los dos extremos y se
+  enchufa el sensor nuevo, sin herramientas adicionales.
+- Protección IP67/IP69K en la conexión: el conector M12 con rosca aguanta lavados
+  a presión, aceite y ambientes húmedos.
+- Longitudes estándar: 2m, 5m, 10m — para la mayoría de instalaciones.
+
+Lo que evita que ocurra:
+- Conexiones mal hechas que generan fallos intermitentes: el conector M12 con rosca
+  no se desconecta por vibración (a diferencia de los cables sin conector con bornas).
+- Tiempo de instalación largo: enchufar un conector M12 es más rápido que cablear
+  un bornero terminal a terminal.
+
+============================================================
+
+DIFERENCIA CLAVE: CABLE M12 vs CABLE PELADO SIN CONECTOR
+--------------------------------------------------------------
+| Característica          | Cable M12 con conector           | Cable sin conector (pelado)      |
+|-------------------------|----------------------------------|----------------------------------|
+| Instalación             | Rápida — enchufar y roscar       | Lenta — pelar + cablear bornas   |
+| Sustitución sensor      | Minutos                          | 15-30 minutos                    |
+| Fiabilidad conexión     | Alta — rosca de bloqueo IP67     | Depende del cableado             |
+| Coste                   | Más alto por metro               | Más bajo                         |
+| Para qué                | Instalaciones con muchos sensores| Prototipos, instalaciones simples|
+
+============================================================
+
+TIPOS DE CABLE M12 MÁS COMUNES
+--------------------------------------------------------------
+| Tipo         | Pines | Para qué sensores                              | Código color estándar         |
+|--------------|-------|------------------------------------------------|-------------------------------|
+| M12 3 pines  | 3     | Sensores NPN/PNP 3 hilos (proximidad simple)  | Marrón (+), Azul (-), Negro (señal)|
+| M12 4 pines  | 4     | Sensores NPN/PNP + blindaje / 2 señales       | Marrón, Azul, Negro, Blanco   |
+| M12 5 pines  | 5     | Sensores analógicos / 2 salidas               | Marrón, Azul, Negro, Blanco, Gris|
+| M12 8 pines  | 8     | Encoders incrementales (A, B, Z + alimentación)| Múltiple                     |
+| M8 3 pines   | 3     | Sensores compactos M8                         | Igual que M12 3 pines         |
+| Fibra óptica | —     | Cable para amplificadores E3X (Omron)         | Conector propietario          |
+
+NOTA: Los cables de Omron para amplificadores de fibra óptica (E3X-DA-N) tienen
+su propio conector patentado — no son M12 estándar. Están incluidos en esta familia
+como "cables de conexión maestro/esclavo" para el sistema de fibra óptica.
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                               | Por qué la necesitas                                          |
+|----|--------------------------------------------------------|---------------------------------------------------------------|
+| 1  | ¿Qué tipo de conector tiene el sensor? (M8 o M12)      | Define el conector del cable a pedir                         |
+| 2  | ¿Cuántos pines tiene el conector del sensor?           | M12 3/4/5/8 pines — según el sensor                         |
+| 3  | ¿Conector recto o acodado (90°)?                       | Define si el cable puede salir recto o necesita ángulo       |
+| 4  | ¿Qué longitud necesita? (2m, 5m, 10m)                  | Medir la distancia sensor – módulo de E/S del PLC            |
+| 5  | ¿Material del cable? ¿Hay aceite o flexión continua?   | PVC estándar / PUR para aceite o cables de arrastre          |
+
+CONSEJO: Los cables M12 son una venta de acompañamiento constante — cada sensor
+nuevo necesita su cable. Cuando un cliente compra sensores de proximidad (E2E),
+fotoeléctricos (E3FA/E3Z) o encoders (E6B2), siempre preguntar si necesita también
+los cables M12. Los sensores Omron de la serie E2E y E3FA tienen conector M12 estándar
+y pueden usar cables de cualquier marca compatible, pero los de Omron están probados
+para garantizar la IP67 en el conjunto sensor+cable.
+
+============================================================
+Fuentes:
+- Omron cables sensor XS5 series: https://www.ia.omron.com/products/family/1832/
+- Phoenix Contact cables M12: https://www.phoenixcontact.com/es-es/productos/cables-para-sensores
+============================================================

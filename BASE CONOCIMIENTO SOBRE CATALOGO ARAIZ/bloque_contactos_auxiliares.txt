@@ -1,0 +1,93 @@
+CUADRO RESUMEN — BLOQUE DE CONTACTOS AUXILIARES (lateral / frontal para contactor)
+Familia: Electricidad > Aparellaje eléctrico > Contactores
+Ejemplo en Araiz: Schneider ref. LADN22 (Bloque contactos auxiliares TeSys D 2NA+2NC frontal)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"bloque contactos auxiliares contactor qué es cómo se monta" o "LADN22 contactos auxiliares TeSys"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Un bloque de contactos auxiliares es un módulo accesorio que se añade físicamente
+al contactor (enganchándose en el lateral o en la parte frontal) para aumentar
+el número de contactos de señalización y mando disponibles. Los contactores de
+potencia llevan de serie muy pocos contactos auxiliares (normalmente 1NA+1NC
+o ninguno), y en instalaciones reales se necesitan más:
+- Un contacto para encender el piloto luminoso verde "marcha".
+- Otro para el piloto rojo "parado".
+- Otro para señalizar al PLC que el contactor está efectivamente cerrado (feedback).
+- Otro para el enclavamiento eléctrico con el segundo contactor.
+El bloque auxiliar se engancha sin herramienta sobre el contactor y sus
+contactos se abren y cierran mecánicamente junto con los de potencia.
+
+Hay dos tipos de montaje:
+- **Lateral:** se engancha a un lado del contactor. Más compacto. Para 1-2 contactos.
+- **Frontal:** se engancha delante del contactor. Más capacidad: hasta 4 contactos.
+
+Combinaciones de contactos: NA (Normalmente Abierto), NC (Normalmente Cerrado).
+Los códigos siguen el mismo sistema que los relés auxiliares:
+"22" = 2NA+2NC, "31" = 3NA+1NC, "04" = 4NC, "20" = 2NA, etc.
+
+Lo que facilita:
+- Añadir señales de mando y señalización a un contactor ya instalado sin cambiarlo.
+- Adaptar un contactor estándar a un esquema que necesita más contactos.
+- Conseguir la confirmación de estado del contactor al PLC (contact mirror).
+
+Lo que evita que ocurra:
+- Tener que comprar un contactor más grande (más caro) solo por necesitar más contactos.
+- Añadir un relé auxiliar extra cuando el espacio en el cuadro es limitado.
+
+============================================================
+
+DIFERENCIA CLAVE: BLOQUE LATERAL vs BLOQUE FRONTAL
+--------------------------------------------------------------
+| Característica       | Bloque lateral                 | Bloque frontal                 |
+|----------------------|--------------------------------|-------------------------------|
+| Posición             | Izquierda o derecha            | Delante del contactor          |
+| Contactos máximos    | 1-2                            | 2-4                            |
+| Compatibilidad       | Solo con tamaños concretos     | Mayor compatibilidad           |
+| Anchura extra        | Añade anchura al conjunto      | No añade anchura               |
+| Instalación          | Sin herramienta (clip)         | Sin herramienta (clip)         |
+
+============================================================
+
+MODELOS EN ARAIZ (509+ artículos)
+--------------------------------------------------------------
+| Referencia     | Marca      | Tipo      | Contactos  | Compatible con              |
+|----------------|------------|-----------|------------|---------------------------  |
+| LADN22         | Schneider  | Frontal   | 2NA+2NC    | TeSys D (LC1D...)           |
+| LADN11         | Schneider  | Frontal   | 1NA+1NC    | TeSys D                     |
+| LADS2          | Schneider  | Lateral   | 2NA        | TeSys D (pequeños)          |
+| 3RH2921-1FA22  | Siemens    | Frontal   | 2NA+2NC    | 3RT2 / 3RH2 (S0-S3)        |
+| 3RH2911-1FA22  | Siemens    | Lateral   | 2NA+2NC    | 3RT2 (S0-S3)               |
+| CAE2DN22       | ABB        | Frontal   | 2NA+2NC    | Contactores A-series        |
+| DILA-XHI22     | Eaton      | Frontal   | 2NA+2NC    | DILM / DILA Eaton           |
+
+IMPORTANTE: Los bloques auxiliares NO son universales — cada marca/gama tiene los suyos.
+Un bloque Schneider no engancha en un Siemens y viceversa. Verificar siempre la marca
+y la talla del contactor antes de pedir el bloque.
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                | Por qué la necesitas                                          |
+|----|----------------------------------------------------------|------------------------------------------------------------- |
+| 1  | ¿Qué referencia tiene el contactor?                     | Define la marca, gama y talla → determina el bloque compatible|
+| 2  | ¿Cuántos contactos auxiliares necesita y de qué tipo?   | NA o NC, cuántos de cada — define el código del bloque       |
+| 3  | ¿Lateral o frontal? ¿Hay espacio en el lateral?         | Si los contactores están apretados en el carril → frontal    |
+
+CONSEJO: El bloque de contactos auxiliares siempre se pide junto a un contactor
+o como accesorio de uno existente. Si el cliente pide contactos auxiliares sueltos
+sin decir para qué contactor, pedir siempre la referencia del contactor para
+verificar compatibilidad. Es un error frecuente pedir bloques de una marca para
+un contactor de otra marca — no encajan físicamente.
+
+============================================================
+Fuentes:
+- Schneider LADN: https://www.se.com/es/es/product/LADN22/bloque-de-contactos-auxiliares/
+- Siemens 3RH29: https://new.siemens.com/es/es/productos/automatizacion/aparamenta.html
+- ABB CAE: https://new.abb.com/low-voltage/es/productos/aparamenta/contactores
+============================================================

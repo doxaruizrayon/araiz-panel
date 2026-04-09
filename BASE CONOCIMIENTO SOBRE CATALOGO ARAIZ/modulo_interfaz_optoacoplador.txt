@@ -1,0 +1,119 @@
+CUADRO RESUMEN — MÓDULO DE INTERFAZ Y OPTOACOPLADOR (Weidmuller / Phoenix Contact / Murrelektronik MIRO)
+Familia: Electricidad > Aparellaje eléctrico > Reles
+Ejemplo en Araiz: Weidmuller ref. 8881610000 (Kit relé RCI 24VDC 2CC LED — módulo interfaz con base integrada)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"módulo de interfaz relé PLC salidas qué es" o "optoacoplador módulo aislamiento galvánico señal"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Los módulos de interfaz y los optoacopladores son dispositivos que adaptan y aíslan
+señales eléctricas entre diferentes circuitos o tecnologías — principalmente entre
+el bus de señales del PLC/sistema de control y los equipos de campo.
+
+**MÓDULO DE INTERFAZ CON RELÉ (EC002780 — 145+ art.)**
+Un módulo de interfaz (también llamado módulo de salida o relay output module) es
+un relé enchufable de tamaño compacto con la base integrada en el módulo — viene
+todo en un bloque que se monta en carril DIN. El PLC activa la bobina del relé
+interno y los contactos del relé pasan la señal a campo. Se diferencia del relé
+enchufable convencional (FINDER, Omron MY) en que es aun más compacto, tiene la
+base inseparable y está optimizado para montar en bloques de muchos canales.
+
+Usos principales:
+- Interfaz entre PLC (24V DC, baja corriente) y cargas de campo (230V AC, solenoides,
+  válvulas, pilotos, señales de otros PLCs).
+- Amplificación de señales de salida del PLC cuando las salidas nativas no dan
+  suficiente corriente.
+- Aislamiento galvánico entre el bus del PLC y los circuitos de campo.
+- En terminales de conexión con relé integrado (Weidmuller CRIKIT / CRMKIT): la
+  base de relé y el relé vienen montados como una unidad de bloque de terminales.
+
+Marcas en Araiz: Weidmuller (CRI, CRM, CRIKIT, CRMKIT, RCLS, MRZ), Murrelektronik
+(MIRO 6.2, MIRO 12.4, RMM, RMMD, RMI), Dicomat (serie 857, JUMPFLEX), Phoenix Contact.
+
+**OPTOACOPLADOR (EC001504 — 131 art.)**
+Un optoacoplador (también llamado opto-triac, foto-MOSFET o módulo opto) es un
+componente que transmite una señal eléctrica entre dos circuitos mediante luz
+(LED + fototransistor) sin ninguna conexión eléctrica física. El aislamiento
+galvánico que proporciona es total — no existe ningún conductor entre la entrada
+y la salida.
+
+Se usa cuando:
+- Hay diferencia de potencial de tierra entre dos equipos (edificios distintos,
+  variadores de frecuencia con tierra diferente, etc.).
+- Se necesita máximo aislamiento contra ruido o interferencias.
+- Se conectan sistemas con voltajes muy diferentes (5V lógica digital + 230V AC).
+- Se interfaza un PLC con un variador de frecuencia, un servo o una CNC.
+
+Los optoacopladores del catálogo Araiz son principalmente módulos de carril DIN
+(Omron G3RV, Weidmuller, Phoenix Contact) — no los componentes discretos de
+electrónica. Son módulos de 1 canal que se instalan en carril DIN y proporcionan
+aislamiento galvánico entre la señal de control y el circuito de potencia.
+
+Lo que facilita:
+- Conectar señales de control de diferentes tensiones o de equipos con tierras
+  distintas sin riesgo de cortocircuito o interferencia.
+- Simplificar el cableado de interfaz PLC-campo con módulos compactos en carril DIN.
+- Proteger el PLC de tensiones inversas, picos o interferencias del campo.
+
+Lo que evita que ocurra:
+- Daño en las entradas del PLC por tensiones de campo que superen los límites.
+- Interferencias entre el bus del PLC y los variadores de frecuencia o servos.
+- Bucles de tierra entre equipos conectados desde distintos puntos de la instalación.
+
+============================================================
+
+DIFERENCIA CLAVE: MÓDULO INTERFAZ vs OPTOACOPLADOR
+--------------------------------------------------------------
+| Característica            | Módulo interfaz (relé)         | Optoacoplador                  |
+|---------------------------|--------------------------------|-------------------------------|
+| Principio de aislamiento  | Electromagnético (relé)        | Óptico (LED + fototransistor) |
+| Velocidad de conmutación  | Baja-media (ms)                | Alta (microsegundos)           |
+| Corriente de fuga OFF     | Cero (contactos abiertos)      | Muy baja pero no cero          |
+| Para señales digitales    | Sí                             | Sí (y analógicas lentas)       |
+| Para señales analógicas   | No                             | Limitado                       |
+| Coste                     | Económico                      | Económico-medio                |
+
+============================================================
+
+MODELOS EN ARAIZ (~330 artículos)
+--------------------------------------------------------------
+| Marca          | Referencia tipo    | Tipo       | Canales | Tensión control | Salida    |
+|----------------|--------------------|------------|---------|-----------------|-----------|
+| Weidmuller     | CRIKIT P 24VDC     | Interfaz   | 1       | 24V DC          | 250V 6A   |
+| Weidmuller     | CRMKIT P 24VDC     | Interfaz   | 1       | 24V DC          | 250V 10A  |
+| Weidmuller     | MIRO 6.2 24VDC     | Interfaz   | 1       | 24V DC          | 250V 6A   |
+| Murrelektronik | MIRO 6.2 24VDC-1U  | Interfaz   | 1       | 24V DC          | 250V 6A   |
+| Murrelektronik | MIRO 12.4 24VDC-2U | Interfaz   | 1       | 24V DC          | 250V 6A   |
+| Omron          | G3RV-SR500-DC24    | Optoacoplador| 1     | 24V DC          | 250V 5A   |
+| Omron          | G2RV-SR501-DC24    | Optoacoplador| 1     | 24V DC          | 250V 6A   |
+| Dicomat        | 857304             | Interfaz   | 1       | 24V DC          | 250V 2,5A |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                | Por qué la necesitas                                          |
+|----|----------------------------------------------------------|------------------------------------------------------------- |
+| 1  | Para qué lo necesita? (interfaz PLC, aislamiento...)    | Define si necesita módulo relé o optoacoplador               |
+| 2  | Que tensión tiene el control (entrada)?                 | 24V DC es lo habitual; algunos admiten 230V AC               |
+| 3  | Que tensión y corriente tiene la carga (salida)?        | Define la capacidad del módulo                               |
+| 4  | Cuantos canales necesita?                               | Módulos de 1 canal: se piden tantos como señales haya        |
+| 5  | Necesita señal LED de estado?                           | Muchos módulos incluyen LED indicador; algunos lo omiten     |
+
+CONSEJO: Los módulos de interfaz se venden en proyectos de integración y en
+instalaciones nuevas con PLC donde hay muchas señales de campo a interfazar.
+Weidmuller y Murrelektronik son las marcas de referencia. Si el cliente tiene un
+PLC Omron o Siemens y quiere módulos de interfaz compactos, orientarle a los de
+la misma marca para compatibilidad de accesorios. Los optoacopladores Omron G3RV
+y G2RV son los más habituales para interfaz PLC-variador.
+
+============================================================
+Fuentes:
+- Weidmuller CRIKIT: https://www.weidmuller.com/es/productos/reles_e_interfaces/
+- Murrelektronik MIRO: https://www.murrelektronik.com/es/productos/reles/miro/
+- Omron G3RV: https://www.ia.omron.com/products/family/2378/
+============================================================

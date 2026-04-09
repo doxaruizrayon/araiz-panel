@@ -1,0 +1,124 @@
+CUADRO RESUMEN — SECCIONADOR-FUSIBLE NH Y PORTAFUSIBLES DE DESCONEXIÓN
+Familia: Electricidad > Aparellaje eléctrico > Seccionador y manipulador manual
+Ejemplo en Araiz: Siemens ref. 3NP5140-1CA10 (Seccionador-fusible NH 160A 3P base 3NP5)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"seccionador fusible NH bases portafusibles cuadro distribución" o "3NP Siemens NH fuse disconnector"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Este grupo recoge los dispositivos que combinan la función de seccionamiento
+(aislar visiblemente) con la protección mediante fusible NH, en un único aparato:
+
+**1. Seccionador-fusible NH (471 art.)**
+Es una base portafusibles + seccionador integrado: permite extraer e insertar los
+fusibles NH (cuchilla) con total seguridad, con el circuito claramente aislado.
+Ventaja clave frente a la base portafusibles simple: el operario abre el seccionador
+primero (posición visible 0) y luego extrae el fusible — nunca hay riesgo de
+tocar partes en tensión. En las bases simples hay que cortar antes desde otro punto.
+
+Marcas principales en Araiz:
+- **Siemens 3NP** (321 art.): la referencia más vendida en España. Serie 3NP1
+  (hasta 160A) y 3NP5 (hasta 630A). Montaje en carril DIN y en embarrado.
+- **Eaton** (68 art.): bases SDFN y SVB-fusible.
+- **ABB** (43 art.): OS (On-load Switch) con portafusible integrado.
+- **Rittal** (32 art.): portafusibles para integración en armarios Rittal.
+
+**2. Fusibles tipo cuchilla/bayoneta NH** (63 art., Eaton 42, Siemens 20):
+Los fusibles NH (Niederspannungs-Hochleistung = baja tensión / alta ruptura)
+son los cartuchos de cerámica con cuchillas metálicas que se insertan en las
+bases. Son los fusibles industriales más usados en distribución BT por su
+altísimo poder de corte (hasta 120 kA).
+Nota: Los fusibles NH como producto independiente tienen más presencia en el
+grupo "Portafusibles y fusibles industriales" — aquí aparecen los que el
+catálogo Araiz ha clasificado bajo "Seccionador y manipulador manual".
+
+**3. Interruptor con fusibles** (58 art., Schneider 58):
+Variante compacta de seccionador-fusible, orientada a cuadros de distribución
+terciaria y doméstica — el interruptor y el fusible forman un bloque compacto
+para montaje en carril DIN.
+
+**4. Portafusibles de desconexión** (37 art., Rittal 37):
+Carcasas y bloques de desconexión para fusibles cilíndricos, integrados
+en los sistemas de armario Rittal. Permiten desconectar el circuito
+extrayendo el cartucho fusible de forma segura.
+
+**5. Soportes para fusible cilíndrico** (46 art., Legrand 25, Gewiss 20):
+Bases portafusibles para fusible cilíndrico (10×38, 14×51, 22×58 mm)
+con función de desconexión — al abrir el soporte, el circuito queda abierto.
+Muy usados en cuadros de control y distribución terciaria (Legrand, Gewiss).
+
+**6. Desconector Neozed** (21 art., Siemens 15, Eaton 6):
+Base seccionadora para fusibles Neozed (D0/D01/D02/D03). Función similar
+al seccionador-fusible NH pero para calibres más pequeños (hasta 63A).
+
+Lo que facilita:
+- Cambiar fusibles NH de forma segura en cuadros de distribución industrial.
+- Aislar circuitos de distribución de forma visible antes de intervenir.
+- Integrar protección y seccionamiento en un único elemento compacto.
+
+============================================================
+
+DIFERENCIA CLAVE: SECCIONADOR-FUSIBLE vs BASE PORTAFUSIBLES SIMPLE
+--------------------------------------------------------------
+| Característica           | Seccionador-fusible         | Base portafusible simple    |
+|--------------------------|-----------------------------|-----------------------------|
+| Aislamiento previo       | Sí (seccionador integrado)  | No (hay que cortar antes)   |
+| Posición visible 0/I     | Sí                          | No                          |
+| Seguridad al cambiar fus.| Alta (circuito abierto)     | Depende del procedimiento   |
+| Precio                   | Mayor                       | Menor                       |
+| Norma IEC 60947-3        | Cumple como seccionador     | Solo como portafusibles     |
+
+============================================================
+
+GAMAS PRINCIPALES EN ARAIZ (~696 artículos)
+--------------------------------------------------------------
+| Marca   | Gama               | Referencias tipo              | Calibre NH / corriente  |
+|---------|--------------------|-------------------------------|-------------------------|
+| Siemens | 3NP1 (hasta 160A)  | 3NP1123-1CA10, 3NP1143-1CA10 | NH00, NH1 / 160 A       |
+| Siemens | 3NP5 (hasta 630A)  | 3NP5140-1CA10, 3NP5460-1CA10 | NH1, NH2, NH3 / 630 A   |
+| Eaton   | SDFN / SVB-fusible | SDFN/3/63, SDFN/3/160        | NH00, NH1 / 160 A       |
+| ABB     | OS-fusible         | OS63D03, OS160D03             | NH00, NH1 / 160 A       |
+| Rittal  | SV portafusibles   | SV 9342.000, SV 9343.000      | Cilíndrico / 63 A       |
+| Legrand | Portafusibles DIN  | 021280, 021281, 021282        | Cilíndrico / 32 A       |
+| Gewiss  | GW portafusibles   | GW60007, GW60008, GW60009     | Cilíndrico / 32 A       |
+
+TAMAÑOS NH (referencia para pedir el cartucho correcto):
+| Tamaño NH | Corriente máxima | Uso típico                            |
+|-----------|------------------|---------------------------------------|
+| NH000     | Hasta 100 A      | Salidas pequeñas de cuadro distribución|
+| NH00      | Hasta 160 A      | El más habitual en distribución BT    |
+| NH1       | Hasta 250 A      | Líneas secundarias medias             |
+| NH2       | Hasta 400 A      | Líneas principales medianas           |
+| NH3       | Hasta 630 A      | Líneas principales grandes            |
+| NH4       | Hasta 1.000 A    | Alimentación de cuadros principales   |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                        | Por qué la necesitas                                        |
+|----|-----------------------------------------------------------------|-------------------------------------------------------------|
+| 1  | ¿Qué tipo de fusible lleva? ¿NH o cilíndrico?                  | Define completamente el tipo de portafusibles               |
+| 2  | ¿Qué tamaño NH? (NH00, NH1, NH2, NH3...)                       | Define la base compatible                                   |
+| 3  | ¿Cuántos polos? 1P, 3P, 4P                                     | La base es distinta según los polos                         |
+| 4  | ¿Necesita seccionamiento (que quede visible el abierto)?        | Si sí: seccionador-fusible; si no: base portafusible simple |
+| 5  | ¿Va en carril DIN o montaje directo en embarrado?              | Define los accesorios de montaje                            |
+| 6  | ¿Tiene referencia del fusible actual? ¿Tensión y amperios?      | Imprescindible para pedir el cartucho de repuesto correcto  |
+
+CONSEJO: El Siemens 3NP es prácticamente el estándar en cuadros de distribución
+industrial en España. La gama 3NP1 (hasta 160A, NH00/NH1) es la más vendida en
+mantenimiento — prácticamente toda la industria española tiene 3NP instalados.
+Al pedir el fusible de repuesto: necesitas el tamaño NH (00, 1, 2...), los amperios
+y la característica (gG para uso general, aM para protección de motores).
+Cuidado: el tamaño del fusible NH es crítico — un NH1 no entra en una base NH00.
+
+============================================================
+Fuentes:
+- Siemens 3NP: https://new.siemens.com/es/es/productos/automatizacion/aparamenta/seccionadores-fusibles-3np.html
+- Eaton SDFN: https://www.eaton.com/es/es-es/catalog/fuse-disconnectors.html
+- ABB OS-fusible: https://new.abb.com/low-voltage/es/productos/aparamenta/fusibles-seccionadores
+============================================================

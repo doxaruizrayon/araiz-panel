@@ -1,0 +1,101 @@
+CUADRO RESUMEN — RELÉ DE PROTECCIÓN DE PROCESO (lazo de corriente 4-20mA / protección por corriente de lazo)
+Familia: Electricidad > Aparellaje eléctrico > Reles
+Ejemplo en Araiz: ABB ref. CM-SRS.11S (Relé monitorización corriente 0,05-10A AC/DC rebase por exceso/defecto)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"lazo de corriente 4-20mA qué es señal industrial" o "relé protección proceso lazo corriente monitorización"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Los relés de protección de proceso son dispositivos que monitorean la señal de un
+transmisor de proceso (temperatura, presión, caudal, nivel, posición) y disparan
+cuando esa variable sale del rango establecido. La señal estándar en la industria
+para transmisores es el **lazo de corriente 4-20mA**:
+- 4mA = 0% del rango del sensor (variable en mínimo).
+- 20mA = 100% del rango del sensor (variable en máximo).
+- < 4mA = fallo del transmisor o cable roto (se detecta automáticamente).
+
+El relé de protección de proceso recibe esta señal 4-20mA, la compara con los
+umbrales ajustados y activa/desactiva su contacto de salida. Es el "guardián"
+de una variable de proceso sin necesidad de PLC:
+- Si la temperatura supera 80°C → el relé de protección corta la calefacción.
+- Si la presión de la bomba cae por debajo del mínimo → el relé activa la alarma.
+- Si el sensor da < 4mA → el relé detecta fallo de sensor y activa alarma de avería.
+
+Diferencia con el relé de monitorización de red (fase, tensión, corriente de red):
+el de red vigila magnitudes eléctricas de la propia red (tensión, fases, corriente
+del motor). El de protección de proceso vigila variables de proceso industrial
+(temperatura, presión, nivel, caudal) a través de su señal normalizada 4-20mA.
+
+Lo que facilita:
+- Proteger procesos industriales de condiciones fuera de rango sin PLC completo.
+- Detectar fallos de sensor (< 4mA) automáticamente.
+- Implementar protecciones de seguridad de proceso de forma económica.
+- Alarma y corte independientes del PLC (capa de protección adicional).
+
+Lo que evita que ocurra:
+- Desbordamiento de un depósito por fallo del transmisor de nivel.
+- Sobrecalentamiento de un proceso por fallo del sensor de temperatura.
+- Operar con datos erróneos por fallo no detectado del transmisor.
+
+============================================================
+
+DIFERENCIA CLAVE: RELÉ PROTECCIÓN PROCESO vs CONTROLADOR DE TEMPERATURA / PID
+--------------------------------------------------------------
+| Característica            | Relé prot. proceso (4-20mA)    | Controlador PID (E5CC/E5AN)    |
+|---------------------------|--------------------------------|-------------------------------|
+| Función                   | Alarma / corte por umbral      | Regular la variable (control)  |
+| Señal de entrada          | 4-20mA universal               | Termopar, RTD, 4-20mA          |
+| Acción de salida          | Contacto ON/OFF                | Salida proporcional / ON-OFF   |
+| Precio                    | Bajo-medio                     | Medio-alto                     |
+| Para qué                  | Protección, no regulación      | Regulación + protección        |
+| Se pueden combinar        | Sí — el controlador regula,    | Sí — el relé da la segunda     |
+|                           | el relé protege como 2a capa   | capa de protección de seguridad|
+
+============================================================
+
+MODELOS EN ARAIZ (~306 artículos)
+--------------------------------------------------------------
+| Marca          | Referencia tipo    | Señal entrada     | Función                        |
+|----------------|--------------------|-------------------|-------------------------------|
+| ABB            | CM-SRS.11S         | 0,05-10A AC/DC    | Monitorización corriente       |
+| ABB            | CM-UFS.1           | 17-275V AC/DC     | Monitorización tensión         |
+| Siemens        | 3UG4622-1AW30      | 0-10A AC          | Monitorización corriente       |
+| Siemens        | 3UG4511-1AQ20      | 160-690V AC       | Monitorización tensión         |
+| Carlo Gavazzi  | CGPIB02CB23150MV   | 4-20mA / CA/CC    | Control intensidad TRMS        |
+| Phoenix Contact| MCR-S-10-90-UI-SW  | 4-20mA / 0-10V    | Módulo umbral señal proceso    |
+| Weidmuller     | 857423             | 4-20mA            | Repetidor señal con salida     |
+
+NOTA: La clasificación ETIM EC001023 "Protección por lazo de corriente" agrupa
+tanto relés de protección de lazo 4-20mA como relés de monitorización de corriente
+de red. En Araiz hay mezcla de ambos — confirmar con el cliente qué tipo necesita.
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                | Por qué la necesitas                                          |
+|----|----------------------------------------------------------|------------------------------------------------------------- |
+| 1  | Que señal tiene el transmisor? (4-20mA, 0-10V, AC...)   | Define la entrada del relé de protección                    |
+| 2  | Que variable vigila? (corriente de motor, presión...)   | Orientar hacia monitorización de red o protección de proceso |
+| 3  | Cual es el umbral de alarma? (valor de disparo)         | Define el rango del relé y los puntos de ajuste              |
+| 4  | Necesita umbral máximo, mínimo o ambos?                 | Modelos con 1 o 2 umbrales ajustables                       |
+| 5  | Necesita alarma o corte? O ambos?                       | Define el número y tipo de contactos de salida              |
+
+CONSEJO: Los relés de protección de proceso se venden en instalaciones industriales
+con transmisores y en sistemas de bombeo / gestión de fluidos. Son más habituales en
+industria química, alimentaria y de agua. El cliente habitual es un integrador o un
+mantenimiento de planta que quiere una protección adicional sobre un proceso crítico.
+Si el cliente solo habla de "monitorizar la corriente del motor", puede ser que
+quiera el relé de control de corriente del grupo Monitorización de Red — preguntar
+siempre si la señal es corriente de motor directo o señal 4-20mA de transmisor.
+
+============================================================
+Fuentes:
+- ABB CM-series: https://new.abb.com/low-voltage/es/productos/aparamenta/reles-monitorizacion
+- Siemens 3UG4: https://new.siemens.com/es/es/productos/automatizacion/aparamenta/reles-vigilancia.html
+- Phoenix Contact MCR: https://www.phoenixcontact.com/es-es/productos/electronica-de-senales/
+============================================================

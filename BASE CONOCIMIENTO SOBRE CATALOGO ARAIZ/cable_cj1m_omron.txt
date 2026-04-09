@@ -1,0 +1,109 @@
+CUADRO RESUMEN — CABLE DE CONEXIÓN PLC A BLOQUE DE TERMINALES
+Familia: Electricidad > Aparellaje eléctrico > Autómatas programables / Accesorios
+Ejemplo en Araiz: Omron ref. 107453 (XW2Z-100J-A26 — cable 1m, CJ1M-CPU22/23 a bloque XW2B)
+============================================================
+
+IMAGEN DEL PRODUCTO:
+https://www.ia.omron.com/products/family/1778/
+
+VÍDEO / REFERENCIA TÉCNICA:
+https://es.rs-online.com/web/p/cables-para-plc/3756527
+
+Búsqueda recomendada en YouTube (español):
+"cable conector PLC Omron bloque terminales SmartStep" o "XW2Z cable Omron CJ1M conexión servodrive"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+El cable XW2Z es el cable de interconexión entre la CPU del PLC Omron CJ1M y el
+bloque de terminales externo XW2B. El bloque XW2B convierte el conector compacto
+de la CPU en bornes de tornillo individuales para facilitar el cableado de campo.
+El ref. 107453 (XW2Z-100J-A26) es el cable de 1 metro de longitud específico
+para conectar la CPU CJ1M-CPU22 o CPU23 (que tienen I/O integradas) al bloque
+de terminales XW2B de Omron, completando el sistema de cableado de las I/O
+incorporadas en la CPU sin necesidad de conector Sub-D manual.
+
+Lo que facilita:
+- Conectar las I/O integradas de la CPU CJ1M-CPU22/23 al bloque de terminales
+  XW2B sin soldaduras ni crimpado manual de conectores.
+- Acceder a las señales de I/O de la CPU con comodidad usando bornes de tornillo
+  en el bloque XW2B, facilitando el cableado de sensores y actuadores.
+- Mantener una instalación ordenada y desmontable: el cable se conecta y desconecta
+  sin herramientas especiales.
+- Longitud estándar de 1 metro que cubre la distancia habitual entre el PLC y el
+  bloque de terminales en el mismo armario.
+
+Lo que evita que ocurra:
+- Errores de cableado al intentar conectar directamente al conector compacto de la CPU.
+- Daños en el conector de la CPU por manipulaciones frecuentes del cableado de campo.
+- Pérdidas de tiempo construyendo el cable manualmente (el XW2Z es un cable
+  prefabricado y testado por Omron — listo para usar).
+- Incompatibilidades de pin: el cable tiene los pines configurados específicamente
+  para el modelo de CPU y el bloque de terminales indicado.
+
+============================================================
+
+DIFERENCIA CON OTROS CABLES XW2Z OMRON
+--------------------------------------------------------------
+| Referencia         | Longitud | CPU compatible          | Bloque terminales | Cuándo usarlo                             |
+|--------------------|----------|-------------------------|-------------------|--------------------------------------------|
+| XW2Z-050J-A26      | 0,5 m    | CJ1M-CPU22/23           | XW2B-20G5         | Distancia corta en el mismo armario        |
+| XW2Z-100J-A26 (este)| 1 m     | CJ1M-CPU22/23           | XW2B-20G5         | Distancia estándar — el más habitual       |
+| XW2Z-200J-A26      | 2 m      | CJ1M-CPU22/23           | XW2B-20G5         | Distancia larga entre PLC y terminales     |
+| XW2Z-xxxJ-B        | Varios   | CS1 series              | XW2B CS1          | Para PLCs de la serie CS1 — diferente conector|
+| XW2Z-xxxJ-G        | Varios   | CJ2 series              | XW2B CJ2          | Para PLCs de la serie CJ2                 |
+
+El sufijo del cable indica la CPU y el bloque compatible — NO son intercambiables entre series.
+
+============================================================
+
+CARACTERÍSTICAS TÉCNICAS BÁSICAS A SABER
+--------------------------------------------------------------
+| Parámetro                    | Qué significa                                    | Valor ref. 107453 / XW2Z-100J-A26 (Omron)    |
+|------------------------------|--------------------------------------------------|-----------------------------------------------|
+| Longitud                     | Largo del cable                                  | 1 metro                                       |
+| CPU de origen compatible     | A qué CPU se conecta en un extremo               | CJ1M-CPU22 / CJ1M-CPU23                       |
+| Bloque destino compatible    | A qué bloque de terminales se conecta            | XW2B-20G5 (bloque 20 bornes para CJ1M)       |
+| Número de conductores        | Hilos internos del cable                         | Según señales de I/O de la CPU (20 señales)   |
+| Tipo de conector             | Conectores en los extremos                       | Conector propietario Omron en ambos extremos  |
+| Instalación                  | Si necesita herramienta                          | Plug & play — sin herramientas especiales     |
+| Compatibilidad serie         | Si sirve para otras series                       | Solo CJ1M-CPU22/23 — no vale para CS1 ni CJ2 |
+
+============================================================
+
+TIPOLOGÍAS DE CABLES DE CONEXIÓN PLC A TERMINALES
+--------------------------------------------------------------
+| Tipología                        | Descripción                                                   | Cuándo se usa                                         |
+|----------------------------------|---------------------------------------------------------------|-------------------------------------------------------|
+| Cable CPU a bloque XW2B (este)   | Cable prefabricado de CPU Omron a bloque de terminales        | Siempre con CJ1M-CPU22/23 + bloque XW2B               |
+| Cable CPU a bloque Sub-D genérico| Cable propietario para otras CPU con conector Sub-D           | PLCs Siemens, Allen-Bradley, otros Omron con Sub-D    |
+| Cable plano FLK (flat ribbon)    | Cable plano de cinta entre tarjeta I/O y módulo adaptador     | Phoenix Contact PLC-V8L/FLK14 y similares             |
+| Cable de bus de expansión        | Cable de interconexión entre racks del PLC                    | Cuando el PLC tiene varios bastidores de expansión    |
+| Cable serie RS-232 / RS-485      | Cable de comunicación serie entre PLC y periférico            | Conexión HMI, variador, lector de código de barras    |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                          | Por qué la necesitas                                                          |
+|----|-------------------------------------------------------------------|-------------------------------------------------------------------------------|
+| 1  | ¿Qué modelo exacto de CPU Omron tiene?                            | El cable es específico por CPU — CJ1M-CPU22/23 solo vale el A26             |
+| 2  | ¿Qué bloque de terminales XW2B tiene o necesita?                  | El cable y el bloque deben ser compatibles entre sí                          |
+| 3  | ¿Cuánta distancia hay entre el PLC y el bloque de terminales?     | Define la longitud: 0,5 m / 1 m / 2 m                                       |
+| 4  | ¿Es para I/O integrada en la CPU o para tarjetas de expansión?    | Las tarjetas de expansión usan cables diferentes al de la CPU                |
+| 5  | ¿El bloque de terminales XW2B está incluido o lo necesita también?| El bloque XW2B es un componente separado del cable                          |
+
+CONSEJO: El cable XW2Z y el bloque XW2B siempre van en pareja — no sirve el cable
+sin el bloque ni al revés. Si el cliente compra el cable, verificar que también tiene
+el bloque de terminales XW2B-20G5 compatible o incluirlo en el pedido.
+La referencia del cable cambia con la longitud pero el sufijo (A26) debe mantenerse
+para mantener la compatibilidad con CJ1M-CPU22/23.
+
+============================================================
+Fuentes:
+- Ficha oficial Omron XW2Z-100J-A26: https://www.ia.omron.com/products/family/1778/
+- RS Online ref. 107453: https://es.rs-online.com/web/p/cables-para-plc/3756527
+- Omron XW2B/XW2Z system: https://www.ia.omron.com/products/family/1778/specification.html
+- Omron CJ1M CPU features: https://automation.omron.com/en/us/products/family/CJ1M
+============================================================

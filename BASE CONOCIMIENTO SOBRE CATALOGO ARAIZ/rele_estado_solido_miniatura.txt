@@ -1,0 +1,103 @@
+CUADRO RESUMEN — RELÉ DE ESTADO SÓLIDO MINIATURA
+Familia: Electricidad > Aparellaje eléctrico > Autómatas programables
+Ejemplo en Araiz: Phoenix Contact ref. 2982139 (OPT- 5DC/230AC/1)
+============================================================
+
+IMAGEN DEL PRODUCTO:
+https://www.phoenixcontact.com/en-us/products/single-solid-state-relay-opt-5dc230ac-1-2982139
+
+VÍDEO / REFERENCIA TÉCNICA:
+https://elestore.elecam.com/reles-y-accesorios/4270-phoenix-contact-rele-de-estado-solido-miniatura-opt-5dc-230ac-1-2982139-4046356418973.html
+
+Búsqueda recomendada en YouTube (español):
+"relé estado sólido miniatura SSR PLC tutorial" o "diferencia relé mecánico estado sólido SSR"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Un relé de estado sólido (SSR) miniatura es un interruptor electrónico sin partes
+móviles que permite controlar una carga de corriente alterna (AC) desde una señal
+de control de baja tensión continua (DC). A diferencia del relé electromecánico,
+no tiene bobina ni contacto físico que se desgaste: usa semiconductores internos
+(optoacoplador + triac o tiristor) para aislar la señal de control de la carga
+y conmutar sin desgaste mecánico. El ref. 2982139 se controla con 5V DC (salida
+de lógica digital directamente) y conmuta cargas de hasta 230V AC / 0,75A.
+
+Lo que facilita:
+- Conmutar cargas AC desde señales lógicas de 5V DC (directamente desde
+  la salida de un microcontrolador, Arduino o tarjeta de control digital).
+- Conmutación silenciosa (sin el "clic" del relé mecánico).
+- Vida útil prácticamente ilimitada: sin partes mecánicas que se desgasten.
+- Instalación muy compacta: formato miniatura enchufable.
+
+Lo que evita que ocurra:
+- Desgaste y fallo por número de conmutaciones (los relés mecánicos tienen
+  vida limitada — el SSR puede hacer millones de ciclos).
+- Ruido acústico en entornos donde el clic del relé es molesto (laboratorios,
+  salas limpias, equipos médicos).
+- Perturbaciones electromagnéticas (EMI) generadas por el arco eléctrico del
+  contacto mecánico al abrir y cerrar.
+- Necesitar circuitos de protección adicionales para la bobina del relé mecánico.
+
+============================================================
+
+DIFERENCIA CLAVE CON OTROS TIPOS DE RELÉ
+--------------------------------------------------------------
+| Tipo                          | Partes móviles | Corriente      | Velocidad  | Vida útil    | Cuándo usarlo                                      |
+|-------------------------------|---------------|----------------|------------|--------------|----------------------------------------------------|
+| Electromecánico miniatura     | Sí (bobina)   | AC y DC        | Lento (ms) | Limitada     | Uso general, bajo coste                            |
+| SSR miniatura (ref. 2982139)  | No            | Solo AC        | Rápido     | Muy larga    | Conmutación frecuente, señal control 5V DC, silencioso |
+| SSR de potencia               | No            | Solo AC        | Rápido     | Muy larga    | Cargas grandes (>1A), necesita disipador de calor  |
+| Optoacoplador                 | No            | Solo señal     | Muy rápido | Muy larga    | Aislamiento de señal, sin potencia                 |
+
+============================================================
+
+CARACTERÍSTICAS TÉCNICAS BÁSICAS A SABER
+--------------------------------------------------------------
+| Parámetro                    | Qué significa                                    | Valor ref. 2982139 (Phoenix Contact)          |
+|------------------------------|--------------------------------------------------|-----------------------------------------------|
+| Tensión de control (entrada) | Tensión que activa el relé                       | 5V DC                                         |
+| Tensión de carga (salida)    | Tensión máxima que puede conmutar                | 24 a 253V AC                                  |
+| Corriente de carga           | Corriente máxima de la carga                     | 0,75 A                                        |
+| Tipo de contacto             | Configuración del contacto                       | 1NA (normalmente abierto)                     |
+| Aislamiento                  | Separación entre control y carga                 | Sí — optoacoplador interno                    |
+| Partes móviles               | Si tiene contacto mecánico                       | No — semiconductor puro                       |
+| Montaje                      | Cómo se instala                                  | Enchufable en zócalo (formato miniatura)      |
+| Generación de calor          | Si necesita disipador                            | A 0,75A no necesita disipador externo         |
+
+============================================================
+
+TIPOLOGÍAS DE RELÉS DE ESTADO SÓLIDO
+--------------------------------------------------------------
+| Tipología                        | Tensión control | Carga        | Cuándo se usa                                        |
+|----------------------------------|-----------------|--------------|------------------------------------------------------|
+| SSR miniatura 5V DC / AC (2982139)| 5V DC          | AC hasta 0,75A| Control desde lógica digital 5V, baja potencia      |
+| SSR miniatura 24V DC / AC        | 24V DC          | AC hasta 2A  | Control desde salida PLC 24V DC                      |
+| SSR de potencia 24V / AC         | 24V DC          | AC 10-90A    | Cargas grandes: hornos, motores, calefacción         |
+| SSR para DC                      | Variable        | DC hasta XA  | Cargas de corriente continua                         |
+| SSR con función de temporización | Variable        | AC o DC      | Cuando se necesita retardo en la conmutación         |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                          | Por qué la necesitas                                                          |
+|----|-------------------------------------------------------------------|-------------------------------------------------------------------------------|
+| 1  | ¿Con qué tensión va a controlar el relé? (5V, 12V, 24V DC)        | Define qué SSR necesita — el ref. 2982139 solo funciona con 5V DC control    |
+| 2  | ¿La carga es AC o DC?                                             | El ref. 2982139 solo conmuta AC — para DC necesita un SSR específico         |
+| 3  | ¿Cuánta corriente consume la carga?                               | Máx. 0,75A para este ref. Si supera → SSR de mayor potencia con disipador    |
+| 4  | ¿Con qué frecuencia va a conmutar? (veces por minuto/hora)        | Conmutación muy frecuente → SSR ideal. Pocas veces → relé mecánico más barato|
+| 5  | ¿Necesita silencio acústico en la instalación?                    | Si sí → siempre SSR (sin clic mecánico)                                      |
+| 6  | ¿Tiene ya zócalo instalado o necesita también el zócalo?          | El SSR miniatura es enchufable — verificar si el zócalo está incluido        |
+
+CONSEJO: El ref. 2982139 se controla con 5V DC, por lo que es ideal para
+conectar directamente a salidas de lógica digital (microcontroladores, tarjetas
+de control). Si el PLC trabaja con salidas de 24V DC → usar un SSR de 24V DC.
+
+============================================================
+Fuentes:
+- Ficha oficial Phoenix Contact 2982139: https://www.phoenixcontact.com/en-us/products/single-solid-state-relay-opt-5dc230ac-1-2982139
+- Elestore ref. 2982139: https://elestore.elecam.com/reles-y-accesorios/4270-phoenix-contact-rele-de-estado-solido-miniatura-opt-5dc-230ac-1-2982139-4046356418973.html
+- Diferencia relé mecánico vs SSR: https://www.taloselectronics.com/blogs/tutoriales/diferencia-entre-rele-mecanico-y-rele-estado-solido-ssr
+============================================================

@@ -1,0 +1,108 @@
+CUADRO RESUMEN — FUSIBLES DIAZED Y NEOZED (SISTEMAS D Y D0)
+Familia: Electricidad > Aparellaje eléctrico > Portafusibles y fusibles industriales
+Ejemplo en Araiz: Siemens ref. 5SE2316 (Fusible Diazed 16A gG tamaño DII 500V)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"fusible Diazed Neozed diferencias tipos" o "fusible D0 D02 base instalación"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Los fusibles Diazed y Neozed son dos sistemas de fusibles roscados de origen
+alemán que se usan principalmente en cuadros de distribución residencial e
+industrial ligero. Se llaman "roscados" porque el fusible se enrosca en una
+base como una bombilla en un portalámparas.
+
+**SISTEMA DIAZED (el antiguo):**
+Fusibles con base roscada tipo Edison (rosca E). Tamaños:
+| Tamaño | Rosca | Corriente máx. |
+|--------|-------|---------------|
+| DI     | E16   | 4A |
+| DII    | E27   | 25A |
+| DIII   | E33   | 63A |
+| DIV    | E33   | 100A |
+
+Cada tamaño tiene una rosca diferente para evitar que se ponga un fusible de
+mayor amperaje en una base de menor capacidad (seguridad antitonto).
+Se usan adaptadores roscados para fijar el calibre máximo.
+
+**SISTEMA NEOZED (el moderno, también llamado D0):**
+Evolución del Diazed con formato más compacto. Tamaños:
+| Tamaño | Corriente máx. |
+|--------|---------------|
+| D01    | 16A |
+| D02    | 63A |
+| D03    | 100A |
+
+Más compacto que el Diazed, permite mayor densidad de fusibles en el cuadro.
+Los tapones de rosca Neozed llevan código de colores por amperaje.
+
+**COMPONENTES DE AMBOS SISTEMAS:**
+
+1. **Fusible (cartucho)** — El elemento que funde. Forma de bellota/cápsula.
+2. **Base / Casquillo** — Se fija al cuadro, tiene la rosca donde va el fusible.
+3. **Tapa roscada (Schraubkappe)** — Cierra la base y fija el fusible.
+4. **Manguito adaptador** — Limita el calibre máximo que se puede poner en la base.
+5. **Cubierta de protección** — Tapa de seguridad que impide tocar partes en tensión.
+6. **Desconector** — Accesorio para extraer el fusible de la base.
+7. **Anillo adaptador** — Para usar un fusible de tamaño menor en una base mayor.
+
+Lo que facilita:
+- Proteger circuitos individuales en cuadros de distribución compactos.
+- Impedir que alguien ponga un fusible de calibre incorrecto (adaptadores).
+- Sistema muy seguro contra contacto accidental con partes en tensión.
+
+Lo que evita que ocurra:
+- Sobredimensionado de fusibles (el adaptador bloquea calibres mayores).
+- Contacto accidental con partes en tensión (diseño inherentemente protegido).
+
+============================================================
+
+MODELOS EN ARAIZ (~350 artículos)
+--------------------------------------------------------------
+| Tipo                     | Marca           | Serie               | Para qué                      |
+|--------------------------|-----------------|---------------------|-------------------------------|
+| Fusible Diazed DII gG   | Siemens         | 5SE2               | Protección general Diazed     |
+| Fusible Diazed DIII gG  | Eaton           | 5SE3               | Protección Diazed 63A         |
+| Base Diazed E27          | Siemens         | 5SG1               | Casquillo base Diazed         |
+| Tapa roscada Diazed      | Siemens / Eaton | 5SH                | Cierre base Diazed            |
+| Adaptador roscado Diazed | Siemens         | 5SH                | Limitar calibre Diazed        |
+| Cubierta Diazed          | Siemens / Eaton | 5SH                | Protección contacto           |
+| Fusible Neozed D02 gG   | Siemens         | 5SE2               | Protección general Neozed     |
+| Fusible D0 gG           | Eaton / Gewiss  | D0, D02             | Protección Neozed             |
+| Base Neozed              | Siemens         | 5SG5               | Casquillo base Neozed         |
+| Tapón rosca Neozed       | Siemens / Eaton | 5SH                | Cierre base Neozed            |
+| Manguito adaptador       | Siemens / Eaton | 5SH                | Adaptador tamaño Neozed       |
+| Cubierta Neozed          | Siemens / Gave  | 5SH                | Protección contacto Neozed    |
+| Desconector Neozed       | Siemens         | 5SH                | Extraer fusible               |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                | Por qué la necesitas                                          |
+|----|----------------------------------------------------------|------------------------------------------------------------- |
+| 1  | Sistema Diazed o Neozed?                                | Son incompatibles entre sí                                    |
+| 2  | Qué tamaño? (DII, DIII, D01, D02, D03)                 | Define las dimensiones y corriente máxima                     |
+| 3  | Qué amperaje necesita?                                  | El cartucho se fabrica por amperaje concreto                  |
+| 4  | Necesita fusible, base, tapa, adaptador?                | Cada componente se vende por separado                         |
+| 5  | Cuántas unidades?                                       | Se piden en cantidad (cajas de 3-25 uds)                      |
+
+CONSEJO: Los fusibles Diazed son un sistema antiguo que se sigue usando mucho en
+instalaciones existentes como repuesto. Las instalaciones nuevas suelen usar
+Neozed (más compacto) o directamente magnetotérmicos.
+Siemens domina ambos sistemas porque son de origen alemán (Siemens inventó el Diazed).
+Eaton tiene gama completa como alternativa.
+Error frecuente: confundir Diazed con Neozed. Son sistemas DIFERENTES con roscas
+y dimensiones incompatibles. Preguntar siempre cuál de los dos tiene instalado.
+Los colores del tapón Neozed indican el amperaje: rosa=2A, marrón=4A, verde=6A,
+rojo=10A, gris=16A, azul=20A, amarillo=25A, negro=35A, blanco=50A, cobre=63A.
+
+============================================================
+Fuentes:
+- Siemens fusibles Diazed/Neozed: https://www.siemens.com/es/es/productos/automatizacion/aparamenta.html
+- Eaton fusibles D-type: https://www.eaton.com/es/es-es/catalog/fuses.html
+- Norma IEC 60269-3 (fusibles tipo D)
+============================================================

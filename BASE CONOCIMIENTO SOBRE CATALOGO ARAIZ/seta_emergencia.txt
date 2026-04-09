@@ -1,0 +1,113 @@
+CUADRO RESUMEN — PULSADOR TIPO SETA Y PARADA DE EMERGENCIA
+Familia: Electricidad > Aparellaje eléctrico > Pulseteria
+Ejemplo en Araiz: Schneider ref. XB5AS8442 (Seta emergencia roja 40mm girar para liberar 1NC+1NA)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"pulsador seta emergencia industrial tipos" o "parada de emergencia normativa instalación"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+El pulsador tipo seta es un botón grande y prominente (diámetro 30-60mm) con
+forma de hongo que se usa principalmente como parada de emergencia. Su diseño
+permite golpearlo rápidamente con la palma de la mano en situación de peligro.
+
+**TIPOS DE SETA:**
+
+**1. Seta de emergencia con enclavamiento (~250 art.)**
+El botón se queda enclavado (hundido) cuando se pulsa. Para liberarlo hay que
+girar (girar para liberar), tirar, o usar una llave. Esto garantiza que la
+máquina NO puede rearrancar accidentalmente — alguien tiene que ir físicamente
+al pulsador y liberarlo deliberadamente.
+- **Girar para liberar**: El operario gira la seta 45° y salta. El más común.
+- **Tirar para liberar**: Se tira del botón hacia fuera.
+- **Llave para liberar**: Solo personal autorizado con llave puede rearrancar.
+Color: SIEMPRE rojo sobre fondo amarillo (norma ISO 13850).
+
+**2. Seta con retorno automático (~100 art.)**
+Se pulsa y vuelve sola. NO es parada de emergencia — se usa como pulsador de
+paro normal cuando se quiere un botón grande y visible, pero sin enclavamiento.
+También para funciones de reset, confirmación o parada no crítica.
+
+**3. Seta iluminada (~50 art.)**
+Seta con LED integrado que se ilumina cuando está activa (enclavada). Permite
+ver desde lejos si la emergencia está activada.
+
+**4. Parada de emergencia completa (~170 art.)**
+Pulsador de emergencia completo con carcasa, ya montado y listo para instalar.
+Incluye: seta roja + fondo amarillo + bloque de contactos + caja. Algunos
+modelos incluyen contactos de seguridad certificados para circuitos SIL/PLe.
+Marcas: Omron (A22E), Schneider (XALK), Eaton (M22-PVT), ABB.
+
+**5. Pupitre de seguridad dos manos (~5 art.)**
+Sistema donde el operario debe pulsar DOS botones simultáneamente con ambas
+manos para activar una función peligrosa (prensa, cizalla). Garantiza que las
+dos manos están fuera de la zona de peligro.
+Marca: Siemens (3SU1).
+
+**NORMATIVA:**
+La parada de emergencia es OBLIGATORIA en toda máquina industrial (Directiva
+de Máquinas 2006/42/CE, norma ISO 13850). Requisitos:
+- Color rojo sobre fondo amarillo.
+- Enclavamiento mecánico (no puede volver sola).
+- Contacto NC (normalmente cerrado) — al pulsar, ABRE el circuito de seguridad.
+- Accesible desde cualquier puesto de trabajo del operario.
+
+Lo que facilita:
+- Parar la máquina instantáneamente en situación de peligro.
+- Impedir el rearranque accidental tras una emergencia.
+- Cumplir la normativa de seguridad de máquinas.
+
+Lo que evita que ocurra:
+- Accidentes graves por no poder parar la máquina a tiempo.
+- Rearranque accidental de máquina parada por emergencia.
+- Sanciones por incumplimiento de la Directiva de Máquinas.
+
+============================================================
+
+MODELOS EN ARAIZ (~530 artículos)
+--------------------------------------------------------------
+| Tipo                     | Marca           | Serie               | Para qué                      |
+|--------------------------|-----------------|---------------------|-------------------------------|
+| Seta girar liberar       | Schneider       | XB4BS / XB5AS        | Emergencia estándar           |
+| Seta girar liberar       | Siemens         | 3SU1150-1HB          | Emergencia Siemens            |
+| Seta girar liberar       | Eaton           | M22-PVT              | Emergencia Eaton              |
+| Seta girar liberar       | ABB             | Modular CE           | Emergencia ABB                |
+| Seta llave liberar       | Schneider       | XB4BS9442            | Emergencia con llave          |
+| Seta iluminada           | Siemens         | 3SU1152-1HB          | Emergencia con LED            |
+| Seta retorno             | Schneider       | XB4BC21              | Paro normal (no emergencia)   |
+| Emergencia completa caja | Omron           | A22E                 | Emergencia montada en caja    |
+| Emergencia completa caja | Schneider       | XALK178              | Emergencia colgante caja      |
+| Emergencia completa caja | Eaton           | M22-PVT + caja       | Emergencia caja Eaton         |
+| Pupitre dos manos        | Siemens         | 3SU1 bimanual        | Seguridad prensas             |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                | Por qué la necesitas                                          |
+|----|----------------------------------------------------------|------------------------------------------------------------- |
+| 1  | Es parada de emergencia o pulsador de paro normal?      | Emergencia = enclavamiento obligatorio; paro = con retorno    |
+| 2  | Girar, tirar o llave para liberar?                      | Define el mecanismo de desenclavamiento                       |
+| 3  | Qué marca tiene el resto de la pulsatería?              | Los cabezales de seta son específicos por marca               |
+| 4  | Necesita completo con caja o solo el cabezal?           | Completo = para instalar nuevo; cabezal = repuesto            |
+| 5  | Contactos: solo NC o NC+NA?                             | NC para circuito seguridad + NA para señalización al PLC      |
+
+CONSEJO: Toda máquina industrial NECESITA al menos una parada de emergencia.
+Si el cliente pide una máquina nueva o una reforma, verificar que tiene prevista
+la seta de emergencia. El contacto SIEMPRE es NC (normalmente cerrado) porque
+si se rompe el cable, el circuito se abre = la máquina se para (principio de
+seguridad positiva).
+Los pulsadores Omron A22E son muy populares como emergencia en caja porque vienen
+completos y certificados para circuitos de seguridad (categoría 4 / PLe).
+No confundir "seta de emergencia" con "seta de paro" — la emergencia tiene fondo
+amarillo y enclavamiento; la seta de paro puede ser negra y con retorno.
+
+============================================================
+Fuentes:
+- Schneider emergencia: https://www.se.com/es/es/product-range/832-harmony-xb4/
+- Omron A22E: https://www.omron.es/es/products/family/3443
+- ISO 13850: Seguridad de las máquinas — Parada de emergencia
+============================================================

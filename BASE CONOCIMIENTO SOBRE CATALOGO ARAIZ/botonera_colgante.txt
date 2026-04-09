@@ -1,0 +1,101 @@
+CUADRO RESUMEN — BOTONERAS COLGANTES Y CAJAS DE PULSADORES
+Familia: Electricidad > Aparellaje eléctrico > Pulseteria
+Ejemplo en Araiz: Schneider ref. XACA04 (Botonera colgante vacía 4 taladros Harmony XAC)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"botonera colgante puente grúa" o "botonera industrial caja pulsadores montaje"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Las botoneras colgantes son cajas portátiles con pulsadores que el operario
+sostiene en la mano o cuelga de un gancho para controlar una máquina a distancia.
+El ejemplo más típico es la botonera de un puente grúa — el gruista la lleva
+colgada y con ella sube, baja, mueve izquierda/derecha la grúa.
+
+**TIPOS:**
+
+**1. Botonera colgante completa (~100 art.)**
+Caja con pulsadores ya montados, cable y conector. Lista para conectar a la
+máquina. Se clasifican por número de pulsadores: 2, 4, 6, 8, 10, 12 botones.
+Las de grúa llevan típicamente: subir, bajar, izquierda, derecha, adelante,
+atrás, más una seta de emergencia.
+Marcas: Schneider (XAC, XACA), ABB.
+
+**2. Botonera colgante vacía (~34 art.)**
+Caja vacía con taladros preparados para montar los pulsadores que el cliente
+elija. Se usa cuando se necesita una combinación no estándar de pulsadores
+o cuando se quiere elegir la marca de pulsadores independientemente de la caja.
+Marcas: Schneider (XACA vacía).
+
+**3. Caja de pulsadores montada (~210 art.)**
+Caja fija (no colgante) con combinación de pulsadores, selectores y pilotos
+ya montados. Se atornilla a la máquina o a una pared. Típico: caja con
+marcha+paro+seta, o caja con selector auto/manual + piloto.
+Marcas: Schneider (XALD, XALK), Siemens, Eaton, ABB.
+
+**4. Caja vacía para pulsadores (~40 art.)**
+Caja de plástico o aluminio con taladros de 22mm preparados para montar
+pulsadores. Se compra vacía y el instalador monta las piezas que necesite.
+Disponible en: 1, 2, 3, 4, 5, 6 taladros. Material: plástico (IP65) o
+aluminio fundido (IP66, más robusto).
+Marcas: Schneider (XALD vacía), Eaton, ABB, Gewiss.
+
+Lo que facilita:
+- Controlar grúas y máquinas a distancia de forma portátil (botonera colgante).
+- Montar un puesto de mando compacto sin armario eléctrico (caja de pulsadores).
+- Personalizar la combinación de pulsadores según la máquina (cajas vacías).
+
+Lo que evita que ocurra:
+- Que el gruista tenga que estar junto al cuadro eléctrico para operar la grúa.
+- Que los pulsadores de una máquina exterior estén sin protección IP.
+
+============================================================
+
+MODELOS EN ARAIZ (~350 artículos)
+--------------------------------------------------------------
+| Tipo                     | Marca           | Serie               | Para qué                      |
+|--------------------------|-----------------|---------------------|-------------------------------|
+| Botonera colgante 2 bot  | Schneider       | XAC-A02              | Grúa simple sube/baja         |
+| Botonera colgante 4 bot  | Schneider       | XAC-A04              | Grúa 2 movimientos            |
+| Botonera colgante 6 bot  | Schneider       | XAC-A06              | Grúa 3 movimientos            |
+| Botonera colgante 8+ bot | Schneider       | XAC-A08/10/12        | Grúa completa + velocidades   |
+| Botonera vacía           | Schneider       | XAC-A vacía          | Para personalizar             |
+| Caja marcha+paro+seta    | Schneider       | XALK178              | Puesto mando básico           |
+| Caja 1 pulsador          | Schneider       | XALD01               | Mando simple                  |
+| Caja 2 pulsadores        | Schneider       | XALD02               | Marcha + paro                 |
+| Caja pulsadores          | Siemens         | 3SU1801              | Cajas Siemens SIRIUS ACT      |
+| Caja pulsadores          | Eaton           | M22-I + M22          | Cajas Eaton M22               |
+| Caja pulsadores          | ABB             | Modular + caja       | Cajas ABB                     |
+| Combinación montada      | Schneider       | XALD + XB4           | Caja con pulsadores montados  |
+| Combinación montada      | Siemens / Eaton | Varias               | Cajas montadas                |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                | Por qué la necesitas                                          |
+|----|----------------------------------------------------------|------------------------------------------------------------- |
+| 1  | Es para grúa/puente grúa o para máquina fija?          | Grúa = colgante; máquina fija = caja atornillada              |
+| 2  | Cuántos pulsadores necesita?                            | Define el tamaño de la botonera (2, 4, 6, 8, 10, 12)         |
+| 3  | Con seta de emergencia incluida?                        | La mayoría de botoneras de grúa la incluyen                   |
+| 4  | Velocidad simple o doble (lento/rápido)?                | Botoneras de grúa con doble velocidad llevan más botones      |
+| 5  | Vacía o montada?                                        | Vacía = cliente monta; montada = lista para instalar          |
+| 6  | Interior o exterior? Grado IP?                          | Exterior = IP65/66 mínimo                                     |
+
+CONSEJO: Las botoneras colgantes Schneider XAC son el estándar de facto para
+puentes grúa en España. Se piden mucho como repuesto porque el cable sufre
+desgaste por el uso diario.
+Para una grúa típica de nave (puente grúa con carro + gancho): se necesita una
+botonera de 6 botones mínimo (arriba/abajo + izda/dcha + adelante/atrás) + seta
+de emergencia = modelo de 8 taladros (6 pulsadores + 1 seta + 1 libre/piloto).
+Las cajas XALD/XALK de Schneider son las más pedidas como puesto de mando
+compacto en máquinas: la típica caja gris con botón verde + rojo + seta.
+
+============================================================
+Fuentes:
+- Schneider XAC botoneras: https://www.se.com/es/es/product-range/835-harmony-xac/
+- Schneider XALD cajas: https://www.se.com/es/es/product-range/63397-harmony-xald-xalk/
+============================================================

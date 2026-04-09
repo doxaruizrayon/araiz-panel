@@ -1,0 +1,107 @@
+CUADRO RESUMEN — RELÉ DE ESTADO SÓLIDO (SSR / Solid State Relay)
+Familia: Electricidad > Aparellaje eléctrico > Contactores
+Ejemplo en Araiz: Siemens ref. 3RF2320-1AA02 (Relé estado sólido 3RF2 20A 24V DC control 24-230V AC carga)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"relé estado sólido qué es diferencia contactor electromecánico" o "SSR solid state relay funcionamiento ventajas"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Un relé de estado sólido (SSR — Solid State Relay) es un interruptor electrónico
+sin partes mecánicas móviles que conecta y desconecta cargas eléctricas. En vez
+de contactos de cobre que se abren y cierran físicamente (como en el contactor
+electromecánico), el SSR usa componentes semiconductores (tiristores o triacs)
+para conducir o bloquear la corriente. El resultado es el mismo efecto — conectar
+y desconectar — pero con ventajas muy distintas:
+
+**Ventajas frente al contactor electromecánico:**
+- Sin ruido mecánico: ideal en entornos donde el clic-clic del contactor molesta
+  (laboratorios, equipos médicos, oficinas técnicas).
+- Sin desgaste mecánico: los semiconductores no tienen piezas que se desgasten —
+  vida útil ilimitada en número de maniobras si se respetan las temperaturas.
+- Maniobras ultrarrápidas: puede abrir y cerrar miles de veces por segundo (PWM).
+- Control directo desde PLC 24V DC sin relé intermedio: la entrada de control es
+  de muy baja corriente, directamente compatible con salidas de PLC.
+- Sin arco eléctrico al abrir/cerrar: no genera perturbaciones electromagnéticas.
+
+**Desventajas frente al contactor:**
+- Genera calor en conducción: el semiconductor tiene una caída de tensión → calor.
+  Necesita disipador térmico para corrientes > 10-15A.
+- No aísla galvánicamente en estado OFF (pequeña corriente de fuga).
+- Más caro para la misma corriente que un contactor electromecánico.
+- Puede destruirse por pico de corriente o sobrecalentamiento sin protección.
+
+**Aplicaciones típicas:**
+- Control de resistencias de calefacción: el SSR hace control por modulación
+  (encender/apagar muchas veces por segundo para regular temperatura con precisión).
+- Hornos industriales, maquinaria de sellado, prensas de calor.
+- Cualquier aplicación donde el ruido del contactor sea inaceptable.
+- Máquinas que necesitan maniobrar muy frecuentemente (> 100 maniobras/hora).
+
+Lo que facilita:
+- Regular temperatura con precisión mediante conmutación rápida (control PID).
+- Eliminar ruido mecánico en instalaciones sensibles.
+- Extender la vida útil en aplicaciones con maniobras muy frecuentes.
+
+Lo que evita que ocurra:
+- Desgaste prematuro por maniobras frecuentes (el contactor electromecánico se
+  desgasta con las maniobras; el SSR no tiene partes mecánicas).
+- Interferencias electromagnéticas al abrir/cerrar un contactor electromecánico.
+
+============================================================
+
+DIFERENCIA CLAVE: RELÉ ESTADO SÓLIDO vs CONTACTOR ELECTROMECÁNICO
+--------------------------------------------------------------
+| Característica            | Relé estado sólido (SSR)       | Contactor electromecánico      |
+|---------------------------|--------------------------------|-------------------------------|
+| Partes móviles            | No — semiconductor             | Sí — contactos de cobre        |
+| Ruido                     | Silencioso                     | Clic mecánico                  |
+| Vida en maniobras         | Ilimitada (si T° respetada)    | Millones (limitada)            |
+| Maniobras por hora        | Miles (PWM posible)            | Cientos (máx.)                 |
+| Calor generado            | Sí — necesita disipador >15A   | No significativo               |
+| Corriente de fuga OFF     | Sí (pequeña)                   | No (aislamiento total)         |
+| Precio (misma corriente)  | Mayor                          | Menor                          |
+| Para qué                  | Calefacción, regulación, silencio| Motores, uso general           |
+
+============================================================
+
+MODELOS EN ARAIZ (95 artículos)
+--------------------------------------------------------------
+| Marca    | Referencia tipo         | Corriente | Control      | Para qué                      |
+|----------|-------------------------|-----------|--------------|------------------------------|
+| Siemens  | 3RF2310-1AA02           | 10 A      | 24V DC       | Cargas resistivas AC < 10A   |
+| Siemens  | 3RF2320-1AA02           | 20 A      | 24V DC       | Con disipador hasta 20A      |
+| Siemens  | 3RF2340-1AA02           | 40 A      | 24V DC       | Resistencias calefacción     |
+| Siemens  | 3RF2470-1AA26           | 70 A      | 24V DC       | Alta potencia con disipador  |
+
+NOTA: Los SSR del catálogo Araiz son mayoritariamente Siemens 3RF2. El número en
+la referencia indica la corriente (3RF2310 = 10A, 3RF2320 = 20A, 3RF2340 = 40A).
+Para corrientes > 15A siempre incluir el disipador térmico correspondiente.
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                | Por qué la necesitas                                          |
+|----|----------------------------------------------------------|------------------------------------------------------------- |
+| 1  | ¿Qué tipo de carga tiene? ¿Resistencias de calefacción? | SSR es para cargas resistivas CA — no para motores           |
+| 2  | ¿Cuántos amperios consume la carga?                     | Define la corriente del SSR + si necesita disipador          |
+| 3  | ¿Con qué frecuencia maniobra? ¿Hace control PID/PWM?    | Si maniobra mucho → SSR ideal; si pocas veces → contactor    |
+| 4  | ¿El control es 24V DC desde PLC?                        | SSR se activa directamente desde PLC sin relé intermedio     |
+| 5  | ¿Tiene espacio para el disipador térmico?               | Para > 15A el disipador es obligatorio — ocupa espacio       |
+
+CONSEJO: El SSR se vende casi exclusivamente para control de temperatura en hornos,
+termoformadoras, maquinaria de sellado o calefacción industrial. Si el cliente habla
+de "controlar temperatura con precisión" o "la calefacción hace mucho ruido con el
+contactor", el SSR es la solución. Para motores, el contactor electromecánico es
+siempre mejor opción (el SSR soporta mal las corrientes de arranque inductivas).
+Recordar siempre incluir el disipador si la corriente supera 15A — sin disipador
+el SSR se destruye por sobrecalentamiento.
+
+============================================================
+Fuentes:
+- Siemens 3RF2: https://new.siemens.com/es/es/productos/automatizacion/aparamenta/reles-estado-solido-3rf.html
+============================================================

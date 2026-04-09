@@ -1,0 +1,95 @@
+CUADRO RESUMEN — CONTACTOR DE CORRIENTE CONTINUA (DC / solar / baterías)
+Familia: Electricidad > Aparellaje eléctrico > Contactores
+Ejemplo en Araiz: ABB ref. GAF16-10-00DC48 (Contactor DC 16A 48V para corriente continua)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"contactor corriente continua DC diferencia AC solar baterías" o "contactor DC fotovoltaica baterías vehículo eléctrico"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Un contactor de corriente continua (DC) es un contactor específicamente diseñado
+para maniobrar circuitos de corriente continua: instalaciones solares fotovoltaicas,
+sistemas de almacenamiento en baterías, cargadores de vehículos eléctricos,
+telecomunicaciones (48V DC), y maquinaria industrial con motores DC.
+
+La diferencia fundamental con un contactor de CA: cuando un contactor estándar
+abre un circuito de corriente alterna, el arco eléctrico que se forma se extingue
+naturalmente cuando la corriente pasa por cero (50 veces por segundo). En corriente
+continua NO HAY paso por cero — el arco es continuo y mucho más difícil de extinguir.
+Si intentas usar un contactor de CA para DC, el arco puede durar indefinidamente,
+destruir los contactos y provocar un incendio. Por eso los contactores DC tienen:
+- Cámaras de extinción de arco especiales (con imanes permanentes o soplo magnético).
+- Contactos más anchos para disipar más energía.
+- Distancias de apertura mayores.
+- Clasificación en número de polos en serie (2 o 4 polos en serie para mayor
+  tensión DC sin arco sostenido).
+
+Aplicaciones:
+- **Solar fotovoltaica:** seccionamiento DC del array de paneles o del bus DC del inversor.
+- **Baterías y acumuladores:** conexión/desconexión del banco de baterías.
+- **Cargadores EV:** maniobra del circuito DC de carga del vehículo eléctrico.
+- **Industria:** motores de corriente continua (menos frecuente hoy, pero sigue habiendo).
+- **Telecomunicaciones:** sistemas de alimentación 48V DC de centros de datos.
+
+Lo que facilita:
+- Maniobrar circuitos DC de alta tensión o corriente con seguridad.
+- Integrar el corte automático de la parte DC de una instalación solar.
+- Gestionar la conexión/desconexión de baterías de forma remota o automática.
+
+Lo que evita que ocurra:
+- Arco eléctrico sostenido al abrir un circuito DC: puede provocar incendio si se
+  usa un contactor de CA en vez del DC correcto.
+- Daño en los contactos por arco continuo: el contactor de CA se destruiría rápidamente.
+
+============================================================
+
+DIFERENCIA CLAVE: CONTACTOR DC vs CONTACTOR CA ESTÁNDAR
+--------------------------------------------------------------
+| Característica            | Contactor DC                   | Contactor CA estándar          |
+|---------------------------|--------------------------------|-------------------------------|
+| Extinción de arco         | Cámaras magnéticas / soplo     | Paso natural por cero (50Hz)  |
+| Uso en circuitos DC       | Sí — diseñado para ello        | NO — peligroso, destruye contactos|
+| Tensiones típicas         | 24V, 48V, 110V, 250V, 750V DC | 230V, 400V CA                 |
+| Aplicación                | Solar, baterías, EV, telco     | Motores, cargas AC industriales|
+| Polos                     | 2P a 4P en serie               | 3P (trifásico) / 2P (monofásico)|
+
+============================================================
+
+MODELOS EN ARAIZ (34 artículos)
+--------------------------------------------------------------
+| Marca      | Referencia tipo          | Corriente | Tensión DC | Para qué                    |
+|------------|--------------------------|-----------|------------|---------------------------  |
+| ABB        | GAF9-10-00DC24V          | 9 A       | 24V DC     | Control DC baja tensión     |
+| ABB        | GAF16-10-00DC48          | 16 A      | 48V DC     | Sistemas 48V telco/batería  |
+| Schneider  | LC1D09BD (DC coil)       | 9 A       | Bobina DC  | Uso DC con bobina 24V DC    |
+
+NOTA: En Araiz el stock de contactores DC es reducido (34 artículos). Para proyectos
+de potencia DC elevada (solar, EV, industrial), consultar con el proveedor específico.
+La gama ABB GAF es la más habitual para aplicaciones de baja y media tensión DC.
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                | Por qué la necesitas                                          |
+|----|----------------------------------------------------------|------------------------------------------------------------- |
+| 1  | ¿Es para un circuito de corriente continua (DC)?        | Confirmar que necesita contactor DC específico               |
+| 2  | ¿Cuál es la tensión del circuito DC?                    | 24V / 48V / 110V / 750V DC → define el modelo                |
+| 3  | ¿Cuántos amperios tiene la carga DC?                    | Define la corriente nominal del contactor                    |
+| 4  | ¿Es para solar, baterías, EV u otro?                    | Ayuda a entender la aplicación y orientar mejor              |
+| 5  | ¿Necesita bobina AC o DC para accionarlo?               | La bobina de mando puede ser AC o DC independientemente      |
+
+CONSEJO: El contactor DC es menos frecuente que el de CA pero crítico cuando se
+necesita — un error de usar CA donde debe ir DC puede provocar un incendio. Si el
+cliente habla de "solar", "baterías" o "corriente continua", preguntar siempre si
+el circuito a maniobrar es DC. El número de artículos en Araiz es limitado (34);
+para proyectos de potencia, puede ser necesario gestionar el pedido con el fabricante.
+
+============================================================
+Fuentes:
+- ABB GAF series: https://new.abb.com/low-voltage/es/productos/aparamenta/contactores
+- Schneider contactores DC: https://www.se.com/es/es/product-subcategory/4700-contactores-tesys-d/
+============================================================

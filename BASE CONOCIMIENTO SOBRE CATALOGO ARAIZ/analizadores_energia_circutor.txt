@@ -1,0 +1,136 @@
+CUADRO RESUMEN — ANALIZADORES DE RED Y CALIDAD DE ENERGÍA (Circutor / Weidmuller / Phoenix Contact)
+Familia: Electricidad > Aparellaje eléctrico > Equipos de medida (panel o carril DIN)
+Ejemplo en Araiz: Circutor ref. CVM-C10-ITF-RS485-ICT2 (Analizador de redes trifásico con RS485)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"analizador de redes calidad energía armónicas factor potencia" o "Circutor CVM analizador cuadro eléctrico"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Un analizador de redes (o analizador de calidad de energía) es un equipo de medida
+avanzado que mide simultáneamente TODOS los parámetros eléctricos de una instalación
+y los presenta en un display, los guarda en memoria o los envía por bus de comunicación.
+
+A diferencia de un amperímetro o un voltímetro (que miden un solo parámetro),
+el analizador mide en tiempo real:
+- Tensión en cada fase (V)
+- Corriente en cada fase (A)
+- Potencia activa (kW) — la que "trabaja"
+- Potencia reactiva (kVAR) — la que "circula pero no trabaja" (genera penalizaciones)
+- Potencia aparente (kVA)
+- Factor de potencia (cos φ) — relación entre potencia activa y aparente
+- Frecuencia (Hz)
+- Energía acumulada (kWh, kVARh)
+- Armónicos de tensión y corriente (THD%) — deformaciones de la onda sinusoidal
+- Desequilibrio entre fases
+
+**Por qué es importante el factor de potencia:**
+Las compañías eléctricas penalizan en la factura cuando el factor de potencia
+es bajo (< 0,95). Esto ocurre cuando hay muchos motores, variadores o cargas
+inductivas que consumen energía reactiva. El analizador detecta el problema
+y permite instalar baterías de condensadores para corregirlo.
+
+**Por qué importan los armónicos:**
+Los variadores de frecuencia, ordenadores y electrónica de potencia deforman
+la onda eléctrica — generan "armónicos" que calienta cables y transformadores,
+hacen vibrar los condensadores y pueden interferir con otros equipos.
+El analizador cuantifica el problema para tomar medidas (filtros armónicos).
+
+**Circutor — protagonista del grupo (380 art. totales)**
+Empresa española fundada en 1976, especializada en calidad de energía y eficiencia
+energética. Sus productos abarcan desde simples contadores hasta sistemas completos
+de gestión energética. En Araiz es la marca dominante en este grupo.
+
+**Instrumento de medición multiusos (131 art.)**
+Equipos compactos que miden múltiples parámetros en carril DIN. Marcas:
+- Legrand (42): gama Emdx, PowerTag — medida integrada en cuadros residenciales y terciarios.
+- Phoenix Contact (33): gama EEM-MA600, medidores compactos para industria.
+- Omron (26): gama K8AB, K6CM — medida de parámetros específicos de motores.
+- Siemens (17): SENTRON PAC — analizadores para cuadros industriales.
+- Weidmuller (17 sin clase): medidores de energía para carril DIN.
+
+Lo que facilita:
+- Auditorías energéticas: saber exactamente qué consume cada parte de la fábrica.
+- Optimización de la factura eléctrica: detectar bajo factor de potencia y corregirlo.
+- Diagnóstico de problemas de calidad de red: armónicos, desequilibrios, microcortes.
+- Cumplir ISO 50001 (Sistema de Gestión de la Energía) con datos reales.
+- Telegestión: los datos van al SCADA o al ERP para análisis y facturación.
+
+============================================================
+
+DIFERENCIA CLAVE: CONTADOR kWh vs ANALIZADOR DE REDES
+--------------------------------------------------------------
+| Característica          | Contador kWh           | Analizador de redes      |
+|-------------------------|------------------------|--------------------------|
+| Parámetros que mide     | Solo energía (kWh)     | Todos (V, A, W, VAR, cos)|
+| Armónicos               | No                     | Sí (THD%)                |
+| Factor de potencia      | No                     | Sí                       |
+| Comunicación            | Pulsos / M-Bus básico  | Modbus, Ethernet, PROFIBUS|
+| Precio                  | Bajo (20-200 €)        | Medio-alto (200-2.000 €) |
+| Para qué sirve          | Subcontaje, facturación| Diagnóstico, optimización|
+| Obligatorio para        | Grandes consumidores   | Auditorías ISO 50001     |
+
+============================================================
+
+GAMAS PRINCIPALES EN ARAIZ (~456 artículos)
+--------------------------------------------------------------
+**Circutor — analizadores y medida:**
+| Gama            | Función                          | Comunicación        | Montaje     |
+|-----------------|----------------------------------|---------------------|-------------|
+| CVM-C10         | Analizador trifásico completo    | RS485 Modbus        | Panel 96×96 |
+| CVM-B100        | Analizador con pantalla táctil   | RS485 / Ethernet    | Panel       |
+| AR6             | Analizador compacto carril DIN   | RS485 Modbus        | Carril DIN  |
+| CMD             | Medidor multiusos DIN            | Modbus / pulsos     | Carril DIN  |
+| PowerStudio     | Software gestión energética      | —                   | PC          |
+| Convertidores   | Transductores 4-20mA / 0-10V    | Señal analógica     | Carril DIN  |
+
+**Legrand — PowerTag y Emdx:**
+| Gama            | Función                          | Comunicación        |
+|-----------------|----------------------------------|---------------------|
+| PowerTag        | Medida en cuadros residenciales  | Wireless (radio)    |
+| Emdx            | Contador DIN para terciario      | Modbus / pulsos     |
+
+**Phoenix Contact — EEM:**
+| Gama            | Función                          | Comunicación        |
+|-----------------|----------------------------------|---------------------|
+| EEM-MA600       | Medidor energía trifásico        | Modbus / M-Bus      |
+
+**Omron — K-series:**
+| Gama            | Función                                    |
+|-----------------|--------------------------------------------|
+| K8AB-AS         | Vigilancia de corriente (alarma si baja/sube)|
+| K6CM-CIMP2      | Monitor de motores (corriente + vibración) |
+| K8DS-series     | Monitor de parámetros de red               |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                        | Por qué la necesitas                                        |
+|----|-----------------------------------------------------------------|-------------------------------------------------------------|
+| 1  | ¿Qué quiere hacer: solo medir kWh o analizar la calidad?       | kWh → contador básico; calidad → analizador de redes        |
+| 2  | ¿Necesita conectarlo a un sistema de gestión o SCADA?          | Si sí: necesita comunicación Modbus/Ethernet                |
+| 3  | ¿Es trifásico o monofásico?                                     | Los analizadores trifásicos son más caros                   |
+| 4  | ¿Tiene penalizaciones en la factura por reactiva?              | Si sí: necesita analizador + posiblemente batería cond.     |
+| 5  | ¿Ha detectado calentamiento en cables o transformador?         | Posible problema de armónicos → necesita análisis THD       |
+| 6  | ¿Para qué normativa? ¿ISO 50001, auditoría energética?         | Define el nivel de detalle y las homologaciones necesarias  |
+
+CONSEJO: Circutor es la marca de referencia en España para calidad de energía —
+si un cliente industrial habla de "poner un analizador", lo más probable es que
+se refiera a un CVM-C10 o similar de Circutor.
+La batería de condensadores (para corregir bajo factor de potencia) NO está en
+este grupo — está en el catálogo de Circutor pero en otra familia.
+Para instalaciones residenciales y pequeño terciario, el PowerTag de Legrand
+(comunicación inalámbrica) es la solución más moderna: se instala en el cuadro
+sin cablear y envía datos al gateway por radio — ideal para retrofit en cuadros existentes.
+
+============================================================
+Fuentes:
+- Circutor: https://circutor.es/es/productos/medicion-y-analizadores
+- Legrand PowerTag: https://www.legrand.es/catalogo/energy-management/powertag/
+- Phoenix Contact EEM: https://www.phoenixcontact.com/es-es/products/energy-measurement
+- Omron K-series: https://industrial.omron.es/es/products/measurement-monitoring
+============================================================

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Informe Tecnico de Instalacion — Araiz Suministros Electricos</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#fff;color:#1e293b;line-height:1.6;padding:2cm;max-width:21cm;margin:0 auto}
+.header{display:flex;justify-content:space-between;align-items:center;padding-bottom:8px;border-bottom:3px solid #f59e0b;margin-bottom:16px}
+.logo{font-size:22px;font-weight:bold;color:#f59e0b}
+.empresa-info{text-align:right;font-size:11px;color:#64748b}
+h1{font-size:18px;color:#1e293b;margin-bottom:4px}
+.subtitulo{font-size:11px;color:#64748b;margin-bottom:16px}
+h2{font-size:13px;color:#1e293b;border-bottom:2px solid #e2e8f0;padding-bottom:4px;margin:18px 0 10px}
+h3{font-size:11px;color:#f59e0b;margin:12px 0 6px}
+table{width:100%;border-collapse:collapse;margin:8px 0;font-size:12px}
+th{text-align:left;padding:6px 8px;background:#f1f5f9;font-size:11px;text-transform:uppercase;color:#64748b;border-bottom:2px solid #e2e8f0}
+td{padding:6px 8px;border-bottom:1px solid #f0f0f0}
+.campo{color:#64748b;font-size:11px}
+.editable{border-bottom:1px dashed #e2e8f0;min-width:200px;display:inline-block;padding:2px 4px;min-height:1.2em}
+.total-row{background:#fef3c7;font-weight:bold}
+.total-row td{border-bottom:2px solid #f59e0b}
+.condiciones{font-size:11px;color:#64748b;margin-top:16px;line-height:1.5}
+.firma-row{display:flex;justify-content:space-between;margin-top:40px;text-align:center}
+.firma-box{width:45%}
+.firma-linea{border-top:1px solid #1e293b;margin-top:60px;padding-top:4px;font-size:11px}
+.pie{text-align:center;font-size:10px;color:#64748b;margin-top:30px;padding-top:8px;border-top:1px solid #f59e0b}
+.nota{background:#f0fdf4;border:1px solid #bbf7d0;border-radius:6px;padding:8px;margin:8px 0;font-size:11px}
+@media print{
+  body{padding:1.5cm;font-size:11pt}
+  .editable{border-bottom:1px solid #ccc}
+  @page{margin:1.5cm;size:A4}
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="logo">ARAIZ</div>
+  <div class="empresa-info">
+    Araiz Suministros Electricos<br>
+    www.araiz.com<br>
+    CIF: B-XXXXXXXX
+  </div>
+</div>
+
+<h1>Informe Tecnico de Instalacion</h1>
+<div class="subtitulo">Ref: TEC-____-____</div>
+
+
+<h2>DATOS DEL PROYECTO</h2>
+<table>
+<tr><td class="campo">Proyecto:</td><td colspan="3"><span class="editable" contenteditable="true"></span></td></tr>
+<tr><td class="campo">Ubicacion:</td><td colspan="3"><span class="editable" contenteditable="true"></span></td></tr>
+<tr><td class="campo">Cliente:</td><td colspan="3"><span class="editable" contenteditable="true"></span></td></tr>
+<tr><td class="campo">Fecha:</td><td><span class="editable" contenteditable="true"></span></td>
+    <td class="campo">Responsable:</td><td>Aurora Rayon</td></tr>
+</table>
+
+<h2>DESCRIPCION DE LA INSTALACION</h2>
+<p><span class="campo">Tipo de instalacion:</span> <span class="editable" contenteditable="true"></span></p>
+<p><span class="campo">Descripcion general:</span></p>
+<p><span class="editable" contenteditable="true" style="display:block;min-height:80px;border:1px dashed #e2e8f0;padding:8px;border-radius:4px"></span></p>
+
+<h2>CALCULOS TECNICOS</h2>
+<table>
+<tr><th>Parametro</th><th>Valor</th><th>Unidad</th><th>Observaciones</th></tr>
+<tr><td>Potencia total instalada</td><td><span class="editable" contenteditable="true"></span></td><td>kW</td><td></td></tr>
+<tr><td>Intensidad nominal</td><td><span class="editable" contenteditable="true"></span></td><td>A</td><td></td></tr>
+<tr><td>Tension nominal</td><td><span class="editable" contenteditable="true"></span></td><td>V</td><td>230V mono / 400V tri</td></tr>
+<tr><td>Factor de potencia</td><td><span class="editable" contenteditable="true"></span></td><td>cos phi</td><td></td></tr>
+<tr><td>Seccion cable principal</td><td><span class="editable" contenteditable="true"></span></td><td>mm2</td><td></td></tr>
+<tr><td>Seccion cable secundario</td><td><span class="editable" contenteditable="true"></span></td><td>mm2</td><td></td></tr>
+<tr><td>Proteccion general</td><td><span class="editable" contenteditable="true"></span></td><td>A</td><td>Magnetotermico / Diferencial</td></tr>
+<tr><td>Caida de tension</td><td><span class="editable" contenteditable="true"></span></td><td>%</td><td>Max: 3% (alumbrado) / 5% (fuerza)</td></tr>
+<tr><td>Longitud tirada principal</td><td><span class="editable" contenteditable="true"></span></td><td>m</td><td></td></tr>
+</table>
+
+<h2>MATERIAL NECESARIO</h2>
+<table>
+<tr><th>Concepto</th><th>Especificacion</th><th>Cantidad</th><th>Referencia</th></tr>
+<tr><td><span class="editable" contenteditable="true"></span></td><td><span class="editable" contenteditable="true"></span></td><td><span class="editable" contenteditable="true"></span></td><td><span class="editable" contenteditable="true"></span></td></tr>
+<tr><td><span class="editable" contenteditable="true"></span></td><td><span class="editable" contenteditable="true"></span></td><td><span class="editable" contenteditable="true"></span></td><td><span class="editable" contenteditable="true"></span></td></tr>
+<tr><td><span class="editable" contenteditable="true"></span></td><td><span class="editable" contenteditable="true"></span></td><td><span class="editable" contenteditable="true"></span></td><td><span class="editable" contenteditable="true"></span></td></tr>
+<tr><td><span class="editable" contenteditable="true"></span></td><td><span class="editable" contenteditable="true"></span></td><td><span class="editable" contenteditable="true"></span></td><td><span class="editable" contenteditable="true"></span></td></tr>
+<tr><td><span class="editable" contenteditable="true"></span></td><td><span class="editable" contenteditable="true"></span></td><td><span class="editable" contenteditable="true"></span></td><td><span class="editable" contenteditable="true"></span></td></tr>
+<tr><td><span class="editable" contenteditable="true"></span></td><td><span class="editable" contenteditable="true"></span></td><td><span class="editable" contenteditable="true"></span></td><td><span class="editable" contenteditable="true"></span></td></tr>
+</table>
+
+<h2>OBSERVACIONES Y RECOMENDACIONES</h2>
+<p><span class="editable" contenteditable="true" style="display:block;min-height:100px;border:1px dashed #e2e8f0;padding:8px;border-radius:4px"></span></p>
+
+<div class="firma-row">
+  <div class="firma-box"><div class="firma-linea">Elaborado por: Aurora Rayon<br>Araiz Suministros</div></div>
+  <div class="firma-box"><div class="firma-linea">Revisado por:<br><span class="editable" contenteditable="true"></span></div></div>
+</div>
+
+
+<div class="pie">
+  Araiz Suministros Electricos — www.araiz.com — Pagina 1
+</div>
+
+</body>
+</html>

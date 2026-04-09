@@ -1,0 +1,94 @@
+CUADRO RESUMEN — LECTOR DE CÓDIGOS MICROHAWK (LECTOR FIJO INDUSTRIAL 1D/2D)
+Familia: Electricidad > Aparellaje eléctrico > Autómatas programables y robots industriales
+Ejemplo en Araiz: Omron (Lector código MicroHAWK VHV5 autofoco lente estrecha 2,3MPx luz blanca)
+============================================================
+
+IMAGEN DEL PRODUCTO:
+https://www.ia.omron.com/products/family/4053/
+
+VÍDEO / REFERENCIA TÉCNICA:
+https://www.microscan.com/products/microhawk-id-45/
+
+Búsqueda recomendada en YouTube (español):
+"lector código barras fijo industrial MicroHAWK Omron" o "lector código fijo línea producción QR DataMatrix"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+El MicroHAWK es un lector de códigos fijo industrial de Omron: se instala de forma
+permanente en la línea de producción y lee códigos de barras (1D), QR y DataMatrix (2D)
+de forma automática a medida que los productos pasan por debajo o por delante. A diferencia
+de un escáner de mano (que usa un operario), el lector fijo funciona de forma autónoma,
+24/7, sincronizado con el PLC o con un sistema SCADA. Combina cámara de alta resolución,
+enfoque automático e iluminación integrada en un cuerpo muy compacto. Los modelos con
+autofoco ajustan la distancia automáticamente — sin ajuste manual al cambiar de producto.
+Comunica el código leído por Ethernet, RS232 o señales digitales directamente al PLC.
+
+Lo que facilita:
+- Trazabilidad de cada pieza o caja en la línea: el lector captura el código en
+  milisegundos y lo envía al sistema de gestión (MES, ERP, SCADA).
+- Verificar que el producto correcto está en el lugar correcto: código leído vs
+  código esperado → OK/NOK al PLC en tiempo real.
+- Leer códigos de baja calidad o impresos con error: el autofoco y la alta resolución
+  (2,3 MPx o 5 MPx) recuperan códigos que un lector láser no leería.
+- Instalación sin ajuste mecánico de foco: el autofoco adapta la distancia de trabajo
+  automáticamente dentro del rango del objetivo.
+- Lectura en movimiento: diseñado para objetos en cinta a velocidades de producción.
+
+Lo que evita que ocurra:
+- Errores de trazabilidad por lectura manual: el lector fijo lee todos los productos
+  sin fatiga ni errores humanos.
+- Paradas de línea para enfocar el lector al cambiar de formato: el autofoco ajusta solo.
+- Mezcla de productos en el embalaje final: el lector verifica cada unidad antes
+  del envasado o del cierre de la caja.
+
+============================================================
+
+DIFERENCIA CLAVE: LECTOR FIJO vs VERIFICADOR DE CALIDAD
+--------------------------------------------------------------
+| Característica          | Lector fijo MicroHAWK            | Verificador en línea             |
+|-------------------------|----------------------------------|----------------------------------|
+| Función                 | Lee el código (contenido)        | Evalúa la CALIDAD del código     |
+| Resultado               | Código leído / No leído          | Nota A-F calidad impresión       |
+| Precio                  | Medio                            | Alto                             |
+| Para qué                | Trazabilidad, verificación prod. | Control calidad impresión GS1    |
+| Necesita GS1            | No                               | Sí                               |
+
+============================================================
+
+VARIANTES MICROHAWK A CONOCER
+--------------------------------------------------------------
+| Variante           | Resolución | Lente     | Luz    | Para qué                           |
+|-------------------|-----------|-----------|--------|------------------------------------|
+| VHV5 estrecha 2,3MP| 2,3 MPx  | Estrecha  | Blanca | Códigos pequeños o alta densidad   |
+| VHV5 estrecha 5MP  | 5,0 MPx  | Estrecha  | Blanca | Máxima resolución, código muy fino |
+| VHV5 mediana 2,3MP | 2,3 MPx  | Mediana   | Blanca | El más habitual — etiquetas estándar|
+| VHV5 mediana 5MP   | 5,0 MPx  | Mediana   | Blanca | Alta resolución en etiquetas grandes|
+
+NOTA: "Autofoco" en todos los modelos — sin ajuste manual de distancia.
+La elección de lente depende del tamaño del código y de la distancia de instalación.
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                               | Por qué la necesitas                                          |
+|----|--------------------------------------------------------|---------------------------------------------------------------|
+| 1  | ¿Qué tipo de código necesita leer? (barras, QR, DM)    | MicroHAWK lee todos — confirmar si hay alguno problemático    |
+| 2  | ¿A qué distancia va a estar el lector del código?       | Define la lente: estrecha (cerca) / mediana (distancia media) |
+| 3  | ¿Cuánto mide el código? (mm x mm)                      | Define la resolución necesaria: 2,3 MPx o 5 MPx              |
+| 4  | ¿A qué velocidad pasan los productos? (m/min)           | Verificar que el lector tiene tiempo de leer a esa velocidad  |
+| 5  | ¿Cómo va a enviar el código leído al sistema?           | Ethernet, RS232, señal digital → define el modelo y la config.|
+| 6  | ¿Necesita leer varios códigos en la misma imagen?        | Algunos modelos leen múltiples códigos simultáneamente        |
+
+CONSEJO: El MicroHAWK es el lector fijo de Omron para trazabilidad en línea. Se vende
+principalmente en proyectos de mejora de trazabilidad (farmacia, alimentación, logística)
+donde la normativa exige registrar el código de cada unidad. Normalmente va junto con
+un software de gestión (MES) o conectado directamente al PLC vía Ethernet.
+
+============================================================
+Fuentes:
+- Omron MicroHAWK (oficial): https://www.ia.omron.com/products/family/4053/
+- Microscan/Omron MicroHAWK ID-45: https://www.microscan.com/products/microhawk-id-45/
+============================================================

@@ -1,0 +1,111 @@
+CUADRO RESUMEN — ARRANCADOR DIRECTO Y COMBINADO DE MOTOR (3RA / xStart / TeSys)
+Familia: Electricidad > Aparellaje eléctrico > Arrancadores e inversores
+Ejemplo en Araiz: Siemens ref. 3RA2110-0HE15-1BB4 (Arrancador combinado 3RA2 0,45-0,63A 24V DC)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"arrancador directo motor trifásico qué es" o "arrancador combinado guardamotor contactor integrado"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Un arrancador de motor es un conjunto que combina en un solo bloque compacto todo
+lo necesario para arrancar y proteger un motor eléctrico:
+- **Protección** contra sobrecarga y cortocircuito (guardamotor o magnetotérmico)
+- **Maniobra** para conectar y desconectar el motor (contactor)
+- **Cableado interno** ya hecho de fábrica
+
+La alternativa sería comprar guardamotor + contactor por separado y cablearlos
+en el cuadro — el arrancador combinado ahorra espacio, tiempo de montaje y reduce
+el riesgo de errores de cableado.
+
+Tipos principales:
+1. **Arrancador directo (DOL — Direct On Line)**: conecta el motor directamente a la red
+   a plena tensión. El motor arranca con toda la corriente de una vez. Simple y económico,
+   pero la corriente de arranque es 5-8 veces la corriente nominal, lo que provoca
+   un golpe mecánico al eje y picos de tensión en la red.
+   Válido para motores pequeños (hasta ~15-22 kW según la red).
+
+2. **Arrancador combinado en caja (MCS — Motor Control Station)**: versión del arrancador
+   directo integrada en una caja completa lista para montar, con bornes, protecciones
+   y a veces display. Para máquinas individuales o instalaciones descentralizadas.
+
+Dentro de este grupo están los arrancadores básicos: guardamotor + contactor en un bloque.
+Los arrancadores suaves y los estrella-triángulo tienen su propio cuadro.
+
+Lo que facilita:
+- Montar el control completo de un motor en un único módulo en carril DIN.
+- Ahorro de tiempo en cuadros con muchos motores pequeños o medianos.
+- Coordinación garantizada de fábrica entre protección y contactor (sin cálculos).
+- Integración directa en sistemas de bus (IO-Link, PROFINET, AS-Interface).
+
+Lo que evita que ocurra:
+- Errores de cableado entre guardamotor y contactor (ya vienen conectados).
+- Descoordinación entre la protección y el contactor (el fabricante garantiza la pareja).
+- Ocupar más espacio del necesario en el cuadro.
+
+============================================================
+
+DIFERENCIA CLAVE: ARRANCADOR COMBINADO vs COMPONENTES SEPARADOS
+--------------------------------------------------------------
+| Característica           | Arrancador combinado          | Guardamotor + Contactor separados  |
+|--------------------------|-------------------------------|-------------------------------------|
+| Espacio en cuadro        | Menor (1 bloque compacto)     | Mayor (2 elementos + cableado)      |
+| Tiempo de montaje        | Muy rápido (plug & play)      | Más tiempo (cablear y coordinar)    |
+| Flexibilidad             | Menor (pareja fija)           | Mayor (cualquier combinación)       |
+| Precio unitario          | Mayor                         | Menor (pero hay que sumar mano obra)|
+| Sustitución en avería    | Sustituir bloque completo     | Sustituir solo el elemento dañado   |
+| Comunicación bus         | Disponible en gamas avanzadas | Requiere accesorios específicos     |
+
+============================================================
+
+GAMAS PRINCIPALES EN ARAIZ (~1.672 artículos)
+--------------------------------------------------------------
+| Marca           | Gama                      | Referencias tipo               | Corriente motor    |
+|-----------------|---------------------------|--------------------------------|--------------------|
+| Siemens         | 3RA2 (SIRIUS)             | 3RA2110, 3RA2120, 3RA2130     | 0,1 A a 32 A       |
+| Siemens         | 3RA6 (compacto con bus)   | 3RA6120, 3RA6130              | 0,3 A a 32 A       |
+| Eaton           | xStart / PKZM+DILM        | XSTART-S, PKM0+DILM7          | 0,1 A a 50 A       |
+| Schneider Elec. | TeSys U / TeSys Deca      | LUCA1XB, LUCB12BL             | 0,1 A a 15 A       |
+| Phoenix Contact | Contactron (bus integrado)| EMM-3-24DC, ELR W3            | 1 A a 12 A         |
+
+TALLA POR POTENCIA DE MOTOR (referencia rápida):
+| Potencia motor  | Corriente aprox. (400V 3F) | Gama Siemens  | Gama Eaton         |
+|-----------------|---------------------------|---------------|--------------------|
+| 0,37 kW         | 1,0 A                     | 3RA2110       | XSTART-S mín       |
+| 1,1 kW          | 2,7 A                     | 3RA2110       | XSTART-S           |
+| 3 kW            | 6,8 A                     | 3RA2120       | XSTART-S           |
+| 7,5 kW          | 15,6 A                    | 3RA2130       | XSTART-M           |
+| 15 kW           | 29 A                      | 3RA2140       | XSTART-L           |
+| 22 kW           | 44 A                      | 3RA2140+      | Separados mejor    |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                        | Por qué la necesitas                                         |
+|----|-----------------------------------------------------------------|--------------------------------------------------------------|
+| 1  | ¿Cuántos kW tiene el motor? (o los amperios de placa)           | Define la talla del arrancador                               |
+| 2  | ¿Es trifásico 400V o monofásico 230V?                           | Define el tipo de arrancador compatible                      |
+| 3  | ¿Qué tensión tiene la bobina de mando? (24V DC, 230V AC)        | Define el código de referencia exacto                        |
+| 4  | ¿Necesita comunicación por bus? (PROFINET, AS-i, IO-Link)       | Si sí: gamas 3RA6 Siemens o Contactron Phoenix               |
+| 5  | ¿El motor arranca directamente o necesita arranque suave?        | Si suave: ver cuadro arrancador_suave_progresivo.txt         |
+| 6  | ¿Va en cuadro centralizado o en máquina (descentralizado)?      | Descentralizado → caja estanca IP65 con arrancador dentro    |
+
+CONSEJO: El Siemens 3RA2 es el arrancador combinado más vendido en automatización
+industrial en España. Viene en bloques compactos para carril DIN y es la elección
+habitual cuando el integrador quiere montar muchos arrancadores en un cuadro de
+distribución de motores.
+Para cuadros con bus de campo (PROFINET, IO-Link), el Siemens 3RA6 o el Contactron
+de Phoenix Contact permiten controlar el motor desde el PLC sin cableado de señales
+adicional — solo bus y alimentación.
+Si el motor es grande (>22 kW) o el arranque directo es problemático para la red
+o la máquina, orientar al arrancador suave (ver cuadro específico).
+
+============================================================
+Fuentes:
+- Siemens 3RA2/3RA6: https://new.siemens.com/es/es/productos/automatizacion/aparamenta/arrancadores-motores-3ra.html
+- Eaton xStart: https://www.eaton.com/es/es-es/catalog/motor-starters.html
+- Schneider TeSys U: https://www.se.com/es/es/product-subcategory/motor-starters/
+============================================================

@@ -1,0 +1,108 @@
+CUADRO RESUMEN — MÓDULO DE SALIDA DIGITAL
+Familia: Electricidad > Aparellaje eléctrico > Autómatas programables
+Ejemplo en Araiz: Phoenix Contact ref. 2688349 (AXL F DO16/1 1H — serie Axioline F)
+============================================================
+
+IMAGEN DEL PRODUCTO (ref. 2688349 Phoenix Contact):
+https://www.phoenixcontact.com/en-us/products/io-component-axl-f-do161-1h-2688349
+
+VÍDEO / REFERENCIA TÉCNICA:
+https://es.rs-online.com/web/p/accesorios-para-controladores-y-automatas/1902092
+
+Búsqueda recomendada en YouTube (español):
+"módulo salida digital PLC tutorial" o "Axioline F Phoenix Contact salida digital"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Un módulo de salida digital es el componente que conecta el PLC (el cerebro
+de la instalación) con los dispositivos que hay que activar o desactivar:
+motores, válvulas, lámparas, relés, sirenas... El PLC toma una decisión
+("enciende el motor") y se la comunica al módulo, que es quien da físicamente
+la orden a ese dispositivo de campo.
+
+Lo que facilita:
+- Que el PLC controle muchos dispositivos a la vez desde un único punto.
+- Ampliar el número de salidas disponibles añadiendo módulos extra sin cambiar
+  el PLC principal.
+- Concentrar y organizar el cableado de salida en un sistema modular y ordenado.
+
+Lo que evita que ocurra:
+- Que el PLC quede sin capacidad de control cuando la instalación crece.
+- Cortocircuitos y sobrecargas en la instalación (los módulos llevan protección
+  integrada por salida).
+- Confusión en el cableado: cada salida va etiquetada y tiene su conector propio.
+
+============================================================
+
+DIFERENCIA CLAVE CON OTROS MÓDULOS DE SALIDA DIGITAL
+--------------------------------------------------------------
+| Tipo de salida     | Cómo funciona                          | Ventaja principal                        | Inconveniente                       | Cuándo usarlo                              |
+|--------------------|----------------------------------------|------------------------------------------|-------------------------------------|--------------------------------------------|
+| Transistor PNP     | Activa enviando +24V DC a la carga     | Rápido, vida útil muy larga, sin desgaste| Solo corriente continua (DC)        | Estándar europeo. Uso general en industria |
+| Transistor NPN     | Activa conectando la carga a 0V DC     | Conmutación algo más rápida que PNP     | Solo DC. Más común en Asia          | Maquinaria asiática (Mitsubishi, Omron)    |
+| Relé               | Cierra un contacto mecánico            | Sirve para AC y DC, cualquier tensión   | Desgaste mecánico, más lento        | Cuando la carga es AC o tensiones altas    |
+| Salida analógica   | Envía señal variable (0-10V o 4-20mA)  | Control proporcional (velocidad, posición)| Más cara y compleja                | Variadores de velocidad, válvulas proporcionales |
+
+El ref. 2688349 es de tipo TRANSISTOR PNP → solo para cargas DC 24V.
+
+En Araiz también disponible: módulos Schneider Electric serie TM3, Omron serie CJ/CP.
+
+============================================================
+
+CARACTERÍSTICAS TÉCNICAS BÁSICAS A SABER
+--------------------------------------------------------------
+| Parámetro                  | Qué significa                                | Valor ref. 2688349 (Phoenix Contact)     |
+|----------------------------|----------------------------------------------|------------------------------------------|
+| Número de salidas          | Cuántos dispositivos puede activar           | 16 salidas digitales                     |
+| Tensión de salida          | La tensión que entrega a cada dispositivo    | 24V DC                                   |
+| Corriente por salida       | Intensidad máxima por canal                  | 500 mA por salida                        |
+| Tensión de alimentación    | La que necesita el propio módulo             | 19,2 a 30V DC (típico 24V DC)            |
+| Tecnología de conexión     | Cómo se conectan los cables                  | Push-in (resorte enchufable — sin destornillador) |
+| Velocidad de bus local     | Velocidad de comunicación con el acoplador   | 100 Mbps                                 |
+| Grado de protección        | Nivel de estanqueidad                        | IP20 → para interior de armario          |
+| Protección integrada       | Qué protege el propio módulo                 | Cortocircuito y sobrecarga por canal     |
+| Temperatura de trabajo     | Rango de temperatura ambiente admisible      | -25°C a +60°C                            |
+| Ancho del módulo           | Espacio que ocupa en carril DIN              | 35 mm                                    |
+| Serie / familia            | Sistema al que pertenece                     | Axioline F (compatible con acoplador AXL)|
+
+============================================================
+
+TIPOLOGÍAS DE MÓDULOS DE SALIDA DIGITAL
+--------------------------------------------------------------
+| Tipología                    | Descripción                                                  | Cuándo se usa                                    |
+|------------------------------|--------------------------------------------------------------|--------------------------------------------------|
+| Módulo compacto (en PLC)     | Las salidas están integradas en el propio PLC                | Instalaciones pequeñas, pocas salidas            |
+| Módulo de expansión carril DIN | Se añade al PLC en el armario eléctrico (IP20)             | Lo más habitual. El ref. 2688349 es de este tipo |
+| Módulo descentralizado IP65  | Se instala fuera del armario, en campo                       | Máquinas donde las cargas están muy repartidas   |
+| Módulo de seguridad (SIL)    | Salidas certificadas para funciones de seguridad             | Paradas de emergencia, zonas con riesgo personal |
+| Módulo con diagnóstico       | Detecta y reporta fallos por canal (cable roto, cortocircuito)| Instalaciones críticas donde el tiempo de parada es caro |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                       | Por qué la necesitas                                                   |
+|----|----------------------------------------------------------------|------------------------------------------------------------------------|
+| 1  | ¿Qué PLC o sistema de automatización tiene?                    | El módulo debe ser de la misma familia o compatible (Axioline, TM3...) |
+| 2  | ¿Cuántas salidas digitales necesita?                           | Para saber cuántos módulos hacen falta (este tiene 16 por módulo)      |
+| 3  | ¿Las cargas son de corriente continua (DC) o alterna (AC)?     | DC → transistor / AC → relé. Si no lo sabe, preguntar qué dispositivos activa |
+| 4  | ¿Qué tensión tienen las cargas? (24V DC, 230V AC...)           | Determina el tipo de módulo y si necesita relés intermedios            |
+| 5  | ¿Qué corriente consume cada dispositivo que va a activar?      | Para no superar los 500 mA por salida. Motores grandes necesitan relé  |
+| 6  | ¿Va dentro de un armario o en campo abierto?                   | IP20 para armario / IP65-67 para campo                                 |
+| 7  | ¿Es instalación nueva o ampliación?                            | Si es ampliación, el módulo debe ser de la misma serie que lo existente|
+| 8  | ¿Necesita diagnóstico de fallos por canal?                     | Si es instalación crítica, conviene módulo con diagnóstico integrado   |
+
+CONSEJO: La pregunta clave es siempre el PLC que tiene el cliente.
+Un módulo Axioline F solo funciona con acoplador Axioline F de Phoenix Contact.
+Un módulo TM3 solo funciona con PLC Schneider M221/M241/M262.
+No son intercambiables entre marcas.
+
+============================================================
+Fuentes:
+- Ficha producto Phoenix Contact 2688349: https://www.phoenixcontact.com/en-us/products/io-component-axl-f-do161-1h-2688349
+- RS Online ref. 2688349: https://es.rs-online.com/web/p/accesorios-para-controladores-y-automatas/1902092
+- Diferencias salida transistor vs relé: https://www.infoplc.net/foro/forum/discusiones-generales/discusiones-generales-sobre-automatizaci%C3%B3n/7097-salida-a-transistor-o-a-rel%C3%A9
+- PNP vs NPN explicado: https://www.qbprofe.com/automatizacion-instrumentacion-industrial/diferencias-entre-pnp-y-npn-en-cableado-de-automatismos-industriales/
+============================================================

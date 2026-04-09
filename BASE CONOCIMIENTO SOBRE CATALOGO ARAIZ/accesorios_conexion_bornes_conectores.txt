@@ -1,0 +1,104 @@
+CUADRO RESUMEN — BORNES, CONECTORES INDUSTRIALES Y ACCESORIOS DE CONEXIÓN
+Familia: Electricidad > Aparellaje eléctrico > Accesorios
+Ejemplo en Araiz: Phoenix Contact ref. 3211760 (Borne de guía UTKN 2,5mm² conexión tornillo carril DIN)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"borne de conexión carril DIN qué es tipos" o "conector industrial multipin cómo funciona"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Este cuadro agrupa todos los componentes de conexión eléctrica que se usan dentro
+del armario de control y en las máquinas para unir cables entre sí o con los equipos:
+
+**1. BORNES DE CONEXIÓN PARA CARRIL DIN (EC000897 — 141 art.)**
+Bloques que se montan en el carril DIN y sirven para conectar dos cables entre sí
+mediante tornillo, resorte (push-in) o cuchilla de desconexión. Son el punto de
+unión estándar entre el cableado del armario y el cableado de campo. Se instalan
+en filas (regletas) en el carril DIN del armario.
+Tipos: borne de paso (une 2 cables), borne de tierra (verde-amarillo), borne de
+fusible (con portafusible integrado), borne de desconexión (con cuchilla de test).
+Marcas: Phoenix Contact (UTK, UK, PT), Weidmuller (WDU, WSI), ABB (SNK), Legrand.
+
+**2. CONECTORES INDUSTRIALES MULTIPOLARES (EC002635 + EC000437 + EC003557 — 128 art.)**
+Conectores robustos tipo rectangular o circular para conexión rápida de máquinas
+y equipos. Se usan para desconectar una máquina del armario de forma rápida y
+segura sin desmontar cables. El conector tiene: carcasa (metálica o plástica),
+inserto de contactos (con pines macho/hembra) y prensaestopas.
+Marcas: Phoenix Contact (HC-B, HC-D), Weidmuller (HDC), Harting (equivalentes).
+
+**3. PLETINAS DE CONEXIÓN Y EMPALME (EC002019 — 141 art.)**
+Placas metálicas (cobre o aluminio) preperforadas que se usan para conectar varios
+circuitos en paralelo o para distribuir la corriente desde un punto a varios destinos.
+Se usan en cuadros de distribución, en barras de neutro y tierra, y en empalmes
+de cables de sección grande.
+
+**4. CONECTORES Y REGLETAS PARA CIRCUITOS IMPRESOS (EC002637 — 145 art.)**
+Conectores especiales para montar en placas de circuito impreso (PCB) que permiten
+conectar cables externos a equipos electrónicos. Se usan en módulos de PLC, fuentes
+de alimentación, y equipos de control que tienen conexión por PCB.
+
+**5. PLACAS FINALES Y SEPARADORES PARA BORNES (EC000886 — 55 art.)**
+Piezas de plástico que se ponen al final de una fila de bornes para cerrar la regleta
+y separar grupos de bornes visualmente o eléctricamente. Imprescindibles para una
+instalación limpia y ordenada del cableado.
+
+**6. PUNTERAS DE CABLE (EC000005 — 11 art.)**
+Terminales que se engastan en el extremo del cable flexible para darle rigidez y
+garantizar un buen contacto en el borne. Obligatorias en cables flexibles por
+normativa (un cable flexible suelto sin puntera puede hacer mal contacto y calentar).
+
+Lo que facilita:
+- Conectar y desconectar cables de forma ordenada y segura dentro del armario.
+- Desconectar máquinas completas con un solo conector multipolar.
+- Distribuir corriente desde un punto a múltiples circuitos.
+- Identificar y organizar el cableado con placas finales y separadores.
+
+Lo que evita que ocurra:
+- Conexiones sueltas que generan calentamiento y posibles incendios.
+- Cableado desordenado que dificulta el mantenimiento y la localización de averías.
+- Desmontaje de cables individuales al mover una máquina (conector multipolar).
+
+============================================================
+
+MODELOS EN ARAIZ (~780 artículos)
+--------------------------------------------------------------
+| Tipo                     | Marca           | Gama / Serie        | Para qué                      |
+|--------------------------|-----------------|---------------------|-------------------------------|
+| Borne tornillo           | Phoenix Contact | UTK, UK             | Conexión estándar             |
+| Borne push-in            | Phoenix Contact | PT, PTV             | Conexión rápida sin herramienta|
+| Borne fusible            | Phoenix Contact | UTFK                | Con fusible integrado          |
+| Borne desconexión        | Weidmuller      | WSI, WTR            | Test sin desconectar cable     |
+| Conector rectangular     | Phoenix Contact | HC-B, HC-D          | Conexión máquina multipin      |
+| Conector circular        | Phoenix Contact | M12, M23            | Sensores y actuadores          |
+| Pletina empalme          | Legrand / ABB   | Varias              | Distribución en cuadro         |
+| Conector PCB             | Phoenix Contact | MC, MCV, MSTB       | Conexión a placa electrónica   |
+| Placa final borne        | Phoenix Contact | D-UTK, D-UK         | Cierre de regleta de bornes    |
+| Puntera de cable         | Phoenix Contact | AI                  | Terminal para cable flexible    |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                | Por qué la necesitas                                          |
+|----|----------------------------------------------------------|------------------------------------------------------------- |
+| 1  | Qué tipo de conexión necesita? (borne, conector, pletina)| Define la subfamilia                                        |
+| 2  | Qué sección de cable? (0,5mm² a 35mm²)                 | Define el tamaño del borne o conector                        |
+| 3  | Tornillo o push-in (resorte)?                           | Push-in es más rápido pero más caro; tornillo es el estándar |
+| 4  | Cuántos polos tiene el conector multipolar?             | 4, 6, 10, 16, 24 pines — define el inserto                  |
+| 5  | Para qué marca/equipo es el conector PCB?               | Los PCB son específicos del equipo                           |
+
+CONSEJO: Los bornes de conexión son un consumible que se pide en cantidad — siempre
+pedir cuántos necesita. Las punteras de cable son obligatorias por normativa para
+cables flexibles y se venden por cientos (cajas de 100-500 uds). Los conectores
+industriales multipolares se venden en proyectos de máquinas nuevas o reformas —
+siempre necesitan carcasa + inserto + prensaestopas (tres referencias separadas).
+
+============================================================
+Fuentes:
+- Phoenix Contact bornes: https://www.phoenixcontact.com/es-es/productos/bornes-de-conexion/
+- Weidmuller bornes: https://www.weidmuller.com/es/productos/bornes/
+- Phoenix Contact conectores: https://www.phoenixcontact.com/es-es/productos/conectores-industriales/
+============================================================

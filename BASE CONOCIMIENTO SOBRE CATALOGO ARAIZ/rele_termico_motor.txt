@@ -1,0 +1,103 @@
+CUADRO RESUMEN — RELÉ TÉRMICO DE MOTOR (sobrecarga bimetálica / guardamotor)
+Familia: Electricidad > Aparellaje eléctrico > Reles
+Ejemplo en Araiz: Schneider ref. LRD14 (Relé térmico TeSys D 7-10A para contactor LC1D)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"relé térmico de motor qué es cómo funciona protección sobrecarga" o "LRD14 TeSys relé térmico ajuste disparo"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+El relé térmico de motor es el dispositivo que protege al motor eléctrico de la
+sobrecarga: si el motor consume más corriente de la nominal durante un tiempo
+prolongado (por sobrecarga mecánica, atasco, fallo de una fase...) el relé térmico
+detecta el exceso de calor y abre el circuito de mando, desconectando el contactor
+que alimenta el motor antes de que el bobinado del motor se queme.
+
+Funciona por el principio bimetálico: la corriente de la carga pasa por una lámina
+bimetálica (dos metales con diferente dilatación térmica). Cuando la corriente supera
+el valor ajustado, la lámina se calienta y se dobla, accionando un mecanismo que abre
+el contacto NC del circuito de mando (bobina del contactor). El relé tiene un dial de
+ajuste de corriente que se regula al valor nominal del motor.
+
+Normalmente se instala acoplado mecánicamente bajo el contactor (mismo carril,
+misma marca, tamaño compatible) — la corriente de potencia pasa por el relé térmico
+antes de llegar al motor.
+
+Diferencia con el guardamotor: el guardamotor (PKE/PKZ de Eaton, MS de ABB)
+combina protección térmica + protección magnética (cortocircuito) en un solo aparato
+y es un interruptor manual. El relé térmico solo protege de sobrecarga y necesita
+contactor para maniobrar.
+
+Lo que facilita:
+- Proteger el motor de calentamiento por sobrecarga sin intervención del operario.
+- Reinicio manual tras un disparo: el operario pulsa el botón de reset y el motor
+  arranca de nuevo (después de que el motor se enfríe y se identifique la causa).
+- Señalizar al PLC que hubo disparo por sobrecarga: contacto auxiliar de alarma.
+- Protección de desequilibrio de fases: la mayoría de modelos detectan la ausencia
+  de una fase (el motor solo consume en dos fases → mayor corriente → disparo).
+
+Lo que evita que ocurra:
+- Quemado del bobinado del motor: la reparación de un motor es cara; el relé térmico
+  es barato y evita esa avería.
+- Incendio por sobrecalentamiento del motor sin protección.
+
+============================================================
+
+DIFERENCIA CLAVE: RELÉ TÉRMICO vs GUARDAMOTOR vs RELÉ ELECTRÓNICO SOBRECARGA
+--------------------------------------------------------------
+| Característica            | Relé térmico (LRD/3RU)        | Guardamotor (PKZ/MS)          | Relé electrónico (3RB/LR9)    |
+|---------------------------|-------------------------------|-------------------------------|-------------------------------|
+| Principio                 | Bimetálico (calor real)        | Bimetálico + magnético        | Electrónico (corriente real)  |
+| Protección cortocircuito  | No                            | Sí                            | No (solo sobrecarga)          |
+| Contactor necesario       | Sí                            | No (es interruptor)           | Sí                            |
+| Precisión ajuste          | ±10%                          | ±10%                          | ±3% (más preciso)             |
+| Precio                    | Muy económico                 | Medio                         | Mayor                         |
+| Para qué                  | Protección estándar motores   | Maniobra + protección         | Motores críticos, mayor exactitud|
+
+============================================================
+
+MODELOS EN ARAIZ (~700 artículos)
+--------------------------------------------------------------
+| Marca      | Gama       | Referencia tipo  | Rango corriente | Compatible con          |
+|------------|------------|-----------------|-----------------|------------------------|
+| Schneider  | TeSys D    | LRD08 a LRD35   | 2,5 A a 25 A    | Contactor LC1D09-D40   |
+| Schneider  | TeSys E    | LRE07 a LRE35   | 1,6 A a 25 A    | Contactor LC1E / serie E|
+| Siemens    | 3RU2 S00   | 3RU2116-... a   | 0,11 A a 12,5 A | Contactor 3RT2 S00     |
+|            |            | 3RU2126-...     | 5,5 A a 40 A    | Contactor 3RT2 S0-S2   |
+| ABB        | TA25DU     | TA25DU-0,63 a   | 0,63 A a 25 A   | Contactor A9-A30       |
+|            | TA75DU     | TA75DU-25 a 80  | 25 A a 80 A     | Contactor A40-A75      |
+| Eaton      | ZB12 / ZB65| ZB12-1,6 a      | 1 A a 65 A      | Contactor DILM         |
+| Chint      | NR2        | NR2251,6 etc.   | 1 A a 25 A      | Contactor NC1-series   |
+
+CÓDIGO DE CORRIENTE en Schneider: LRD**14** → 7-10A (14 = código de rango).
+Los más vendidos: LRD08 (2,5-4A), LRD10 (4-6A), LRD12 (5-8A), LRD14 (7-10A),
+LRD16 (9-13A), LRD21 (12-18A), LRD22 (16-24A), LRD32 (23-32A).
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                | Por qué la necesitas                                          |
+|----|----------------------------------------------------------|------------------------------------------------------------- |
+| 1  | ¿Cuántos amperios tiene el motor en placa?              | Define el rango de regulación del relé térmico               |
+| 2  | ¿Qué contactor tiene? ¿Qué marca y referencia?          | El relé térmico debe ser compatible con el contactor (acoplado)|
+| 3  | ¿Es para acoplado al contactor o separado en carril?    | Existen modelos de carril independiente (menos habitual)     |
+| 4  | ¿Necesita señal de alarma al PLC por disparo?           | Todos llevan contacto auxiliar; confirmar cómo conectarlo    |
+| 5  | ¿Reset manual o automático?                             | Habitual manual; automático solo en aplicaciones muy concretas|
+
+CONSEJO: El relé térmico siempre va con el mismo contactor — pedir primero la
+referencia del contactor para confirmar compatibilidad. El dato del motor es la
+corriente nominal en placa (In). El relé térmico se ajusta al 100-105% de esa
+corriente con el dial. Si el cliente solo tiene el motor (potencia en kW), usar
+la calculadora: 230V monofásico = kW × 4,35 A / 400V trifásico = kW × 1,44 A.
+Luego elegir el relé cuyo rango incluya ese valor.
+
+============================================================
+Fuentes:
+- Schneider LRD TeSys D: https://www.se.com/es/es/product-subcategory/4700-contactores-tesys-d/
+- Siemens 3RU2: https://new.siemens.com/es/es/productos/automatizacion/aparamenta/guardamotores.html
+- ABB TA-series: https://new.abb.com/low-voltage/es/productos/aparamenta/reles-sobrecarga
+============================================================

@@ -1,0 +1,101 @@
+CUADRO RESUMEN — CÁMARA INTELIGENTE STANDALONE (F320 / F330 / F420 — OMRON)
+Familia: Electricidad > Aparellaje eléctrico > Autómatas programables y robots industriales
+Ejemplo en Araiz: Omron ref. F330-F004W (Cámara inteligente F330 0,3MPx monocromo angular enfoque fijo 50mm)
+============================================================
+
+IMAGEN DEL PRODUCTO:
+https://www.ia.omron.com/products/family/3706/
+
+VÍDEO / REFERENCIA TÉCNICA:
+https://industrial.omron.co.uk/en/products/f330
+
+Búsqueda recomendada en YouTube (español):
+"cámara inteligente standalone visión Omron F330 inspección sin controlador" o "smart camera vs sistema visión FH diferencia"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+La cámara inteligente standalone (serie F320/F330/F420 de Omron) es una cámara de
+visión artificial con el procesador de imagen integrado dentro de la propia cámara —
+sin necesidad de controlador externo separado (como el FH). Todo en un solo equipo:
+cámara + iluminación + procesamiento + salidas digitales. Se programa con el software
+Omron FQ Vision System Tool (gratuito) desde un PC, y una vez programada se desconecta
+el PC y la cámara funciona de forma autónoma: inspecciona piezas, detecta presencia,
+lee códigos, verifica medidas y envía el resultado (OK/NOK) directamente al PLC.
+La diferencia clave con el sistema FH (ya documentado): el FH es un sistema modular
+de alta gama (controlador + cámaras separadas) para aplicaciones complejas con
+múltiples cámaras; la F330/F420 es una cámara compacta todo-en-uno para una sola
+estación de inspección de complejidad media.
+
+Lo que facilita:
+- Inspección visual automática en una estación sin necesidad de controlador externo:
+  la cámara F330 es el controlador — solo se conecta al PLC y a la alimentación.
+- Verificar presencia/ausencia de componentes en un ensamblaje: la cámara comprueba
+  que todas las piezas están presentes antes de avanzar la línea.
+- Leer códigos QR o DataMatrix grabados en piezas: la F420 tiene función de lectura
+  de códigos integrada.
+- Medir dimensiones de piezas: detección de bordes y medición en píxeles calibrados.
+- Detectar defectos superficiales: arañazos, manchas, deformaciones visibles.
+
+Lo que evita que ocurra:
+- Invertir en un sistema FH completo (controlador + cámara + software) para una
+  sola estación de inspección simple: la F330 es 3-5 veces más económica y suficiente.
+- Inspección manual por operario que genera errores y variabilidad: la cámara
+  inspecciona el 100% de las piezas con criterios objetivos y repetibles.
+
+============================================================
+
+DIFERENCIA CLAVE: CÁMARA STANDALONE (F330) vs SISTEMA FH
+--------------------------------------------------------------
+| Característica          | F330/F420 standalone             | Sistema FH (ya documentado)      |
+|-------------------------|----------------------------------|----------------------------------|
+| Controlador externo     | No — integrado en la cámara      | Sí — controlador FH separado     |
+| Número de cámaras       | 1 por equipo                     | Hasta 8-16 cámaras en un FH     |
+| Complejidad inspección  | Media — patrones, presencia, OCR | Alta — 3D, multiángulo, IA       |
+| Instalación             | Muy sencilla — enchufar y listo  | Proyecto de integración          |
+| Precio                  | Bajo-medio (500-2000€)           | Alto (5000-30000€)               |
+| Para qué                | 1 estación inspección simple     | Líneas complejas, multi-cámara   |
+
+============================================================
+
+GAMA F320 / F330 / F420 EN ARAIZ
+--------------------------------------------------------------
+| Serie  | Resolución | Para qué                                              |
+|--------|-----------|-------------------------------------------------------|
+| F320   | 0,3 MPx   | Detección presencia/ausencia, inspección básica       |
+| F330   | 0,3-5 MPx | El más habitual — inspección general, lectura códigos |
+| F420   | 0,3-5 MPx | Inspección avanzada + Deep Learning integrado         |
+
+Distancias de trabajo (lentes): 50mm / 64mm / 81mm / 102mm / 133mm / 190mm / 300mm
+La distancia define el campo de visión — a mayor distancia, mayor área inspeccionada.
+
+Iluminación: blanca (inspección general) / roja (contraste superficies) / infrarroja
+(transparencias, plásticos). Se pide como accesorio al pedir la cámara.
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                               | Por qué la necesitas                                          |
+|----|--------------------------------------------------------|---------------------------------------------------------------|
+| 1  | ¿Cuántas cámaras necesita?                             | 1 cámara → F330 standalone / Varias → sistema FH             |
+| 2  | ¿Qué quiere inspeccionar? (presencia, medida, código)  | Define la serie (F320/F330/F420) y las funciones a programar |
+| 3  | ¿Qué tamaño tiene la pieza / el área a inspeccionar?   | Define la distancia de trabajo y el objetivo (lente)         |
+| 4  | ¿Qué tipo de iluminación necesita?                     | Blanca (general) / roja (contraste) / IR (transparencias)    |
+| 5  | ¿Necesita leer códigos QR o DataMatrix?                | F420 tiene lectura de códigos integrada; F330 también        |
+| 6  | ¿Cómo va a conectar al PLC? (Ethernet, E/S digital)    | La F330 tiene salidas digitales + Ethernet para resultado     |
+
+CONSEJO: La cámara inteligente standalone es la entrada al mundo de la visión
+artificial para clientes que nunca han tenido inspección automática. Es sencilla
+de instalar y programar, y el coste es asequible. Se vende en proyectos de mejora
+de calidad donde el cliente tiene una estación de inspección manual que quiere
+automatizar. Para proyectos más complejos (varias cámaras, IA, 3D), escalar
+al sistema FH. Siempre preguntar por la iluminación — sin la iluminación correcta
+la cámara no da buenos resultados, y se vende como accesorio separado.
+
+============================================================
+Fuentes:
+- Omron F330 (oficial): https://www.ia.omron.com/products/family/3706/
+- Omron F420: https://www.ia.omron.com/products/family/3977/
+============================================================

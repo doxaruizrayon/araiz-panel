@@ -1,0 +1,116 @@
+CUADRO RESUMEN — ACCESORIOS PARA ARMARIOS ELÉCTRICOS Y ENVOLVENTES (racks, carcasas, puertas, perfiles)
+Familia: Electricidad > Aparellaje eléctrico > Accesorios
+Ejemplo en Araiz: ABB ref. 1SL0510A00 (Armario Gemini IP66 300x400x200mm puerta ciega)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"armario eléctrico industrial accesorios montaje" o "rack datacenter accesorios ventilación gestión cables"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Los accesorios para armarios eléctricos son todas las piezas que complementan
+el armario vacío para convertirlo en un cuadro eléctrico funcional o un rack de
+telecomunicaciones operativo. Un armario vacío es solo una caja metálica — los
+accesorios le dan estructura interna, ventilación, cierre, protección IP y
+organización del cableado.
+
+Categorías principales:
+
+**1. CARCASAS Y CAJAS (EC001031 — 168 art.)**
+Cajas y carcasas pequeñas para alojar electrónica de campo: módulos de PLC,
+convertidores de señal, equipos de comunicación. Se usan cuando no hay armario
+eléctrico cerca y el equipo necesita una protección mecánica y un grado IP.
+Marcas: Phoenix Contact (ME-MAX), Weidmuller, ABB (Gemini).
+
+**2. TAPAS, PUERTAS Y PANELES (EC000456 + EC000747 — 83 art.)**
+Puertas de repuesto, tapas de acceso, paneles frontales y tapas ciegas para
+armarios. Se piden como repuesto o como ampliación cuando se añade un módulo
+al armario existente.
+
+**3. COMPONENTES DE INSTALACIÓN INTERIOR (EC002620 + EC002625 — 125 art.)**
+Todo lo que va dentro del armario para organizar los equipos: placas de montaje
+(chapas donde se atornillan los aparatos), perfiles de montaje (para carril DIN),
+soportes, separadores, guías de cable, bandejas interiores.
+
+**4. ACCESORIOS PARA CAJAS DE DISTRIBUCIÓN (EC002287 — 89 art.)**
+Accesorios específicos para cuadros de distribución residencial y terciario:
+tapas de módulos vacíos, marcos, puertas transparentes, elementos de fijación
+para cuadros empotrados o de superficie.
+
+**5. PERFILES EXTRUIDOS PARA CAJAS MODULARES (EC002779 — 56 art.)**
+Perfiles de aluminio que forman la estructura de cajas modulares — se cortan a
+medida y se ensamblan para crear envolventes a medida para electrónica.
+
+**6. SISTEMAS DE CIERRE Y CERRADURAS (EC000327 — 11 art.)**
+Cerraduras, cierres de cuarto de vuelta, manillas con llave para puertas de
+armarios eléctricos. Garantizan que solo personal autorizado acceda al interior.
+
+**7. CARRILES DIN / OMEGA (EC001285 — 46 art.)**
+Perfiles metálicos normalizados (35mm ancho) donde se montan todos los equipos
+modulares: interruptores, bornes, relés, fuentes de alimentación. Se cortan a
+la longitud del armario y se atornillan a la placa de montaje.
+
+**8. VENTILACIÓN, ILUMINACIÓN Y CALEFACCIÓN**
+Ventiladores con filtro para refrigerar armarios con variadores o equipos que
+generan calor. Iluminación LED interior que se enciende al abrir la puerta.
+Resistencias calefactoras para evitar condensación en armarios exteriores.
+
+**9. ACCESORIOS PARA RACKS DE DATOS / DATACENTER (~170 art. sin clase)**
+Entrepaños, paneles ciegos, kits de ventilación, faldones, estabilizadores
+antivuelco, gestión de cables vertical/horizontal para racks de 19 pulgadas
+de Eaton y APC. Se usan en salas de servidores y centros de datos.
+
+Lo que facilita:
+- Montar un cuadro eléctrico completo partiendo de un armario vacío.
+- Organizar el interior del armario para facilitar el mantenimiento.
+- Proteger los equipos de polvo, agua y acceso no autorizado (grado IP).
+- Gestionar la temperatura dentro del armario (ventilación/calefacción).
+
+Lo que evita que ocurra:
+- Sobrecalentamiento de equipos en armarios sin ventilación adecuada.
+- Acceso no autorizado a partes en tensión (cerraduras, cubrebornes).
+- Condensación y corrosión en armarios exteriores (calefacción anticondensación).
+
+============================================================
+
+MODELOS EN ARAIZ (~700 artículos)
+--------------------------------------------------------------
+| Tipo                    | Marca           | Ejemplo              | Para qué                      |
+|-------------------------|-----------------|----------------------|-------------------------------|
+| Carcasa campo IP65      | Phoenix Contact | ME-MAX               | Alojar electrónica de campo   |
+| Armario mural IP66      | ABB             | Gemini               | Cuadros pequeños exterior     |
+| Placa montaje           | Schneider / ABB | NSYMP/AM             | Chapa interior para aparatos  |
+| Carril DIN 35mm         | Phoenix Contact | NS 35/7.5            | Soporte para todos los módulos|
+| Ventilador con filtro   | Eaton           | Fan top mount         | Refrigeración armario         |
+| Panel ciego 19"         | Eaton / APC     | Blank panel 1U       | Cerrar huecos en rack         |
+| Puerta transparente     | Hager / ABB     | Varias               | Visualizar interior cuadro    |
+| Cerradura cuarto vuelta | Varios          | Varias               | Cierre autorizado             |
+| Iluminación LED         | Varios          | Varias               | Luz interior armario          |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                | Por qué la necesitas                                          |
+|----|----------------------------------------------------------|------------------------------------------------------------- |
+| 1  | Qué marca y modelo de armario tiene?                    | Los accesorios son específicos por fabricante y modelo        |
+| 2  | Qué necesita? (placa montaje, puerta, carril, ventilador)| Define el tipo de accesorio                                 |
+| 3  | Interior o exterior? Grado IP necesario?                | Exterior → IP65/66 + calefacción anticondensación            |
+| 4  | Rack de 19" o armario eléctrico industrial?             | Los accesorios de rack son completamente distintos            |
+| 5  | Medidas del armario (alto x ancho x fondo)?             | Placas de montaje, puertas y perfiles van a medida           |
+
+CONSEJO: Los accesorios de armario se venden normalmente junto con el armario vacío
+en proyectos nuevos. Si el cliente pide un armario, preguntarle siempre si necesita
+placa de montaje, carriles DIN, puerta interior transparente y ventilación — son los
+accesorios que más se olvidan y que luego generan un segundo pedido urgente.
+Los accesorios de rack (Eaton/APC) son para datacenter/telecomunicaciones — producto
+completamente diferente al armario eléctrico industrial.
+
+============================================================
+Fuentes:
+- ABB Gemini: https://new.abb.com/low-voltage/es/productos/envolventes
+- Phoenix Contact cajas: https://www.phoenixcontact.com/es-es/productos/cajas/
+- Eaton rack: https://www.eaton.com/es/es-es/catalog/enclosures-racks.html
+============================================================

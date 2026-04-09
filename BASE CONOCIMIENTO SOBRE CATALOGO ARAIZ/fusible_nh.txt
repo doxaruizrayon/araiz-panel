@@ -1,0 +1,111 @@
+CUADRO RESUMEN — FUSIBLE NH (BAJA TENSIÓN) Y ACCESORIOS
+Familia: Electricidad > Aparellaje eléctrico > Portafusibles y fusibles industriales
+Ejemplo en Araiz: Eaton ref. 170M3818 (Fusible NH tamaño 1 200A 500V gG)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"fusible NH qué es tamaños cómo funciona" o "fusible NH industrial instalación cuadro"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+El fusible NH (Niederspannungs-Hochleistung = baja tensión alta capacidad) es el
+fusible industrial más utilizado en Europa para proteger circuitos de potencia en
+baja tensión (hasta 690V AC / 1000V DC). Tiene forma de cuchilla rectangular con
+dos contactos planos en los extremos y un cuerpo cerámico relleno de arena de
+cuarzo que extingue el arco cuando funde.
+
+"NH" es el estándar — cuando un electricista industrial dice "fusible", normalmente
+se refiere a un NH. Se instala en bases portafusibles (también llamadas "cajas de
+fusibles NH") dentro de cuadros de distribución y armarios eléctricos.
+
+**TAMAÑOS NORMALIZADOS:**
+
+| Tamaño | Corriente máx. | Dimensiones aprox. | Uso típico |
+|--------|---------------|-------------------|------------|
+| NH-000 | 160A | 120mm | Derivaciones pequeñas |
+| NH-00 | 160A | 120mm | Cuadros secundarios |
+| NH-0 | 160A | 135mm | Distribución general |
+| NH-1 | 250A | 135mm | Alimentación cuadros |
+| NH-2 | 400A | 150mm | Acometidas generales |
+| NH-3 | 630A | 150mm | Cabecera de instalación |
+| NH-4 | 1250A/1600A | 210mm | Grandes acometidas |
+
+**CURVAS DE FUSIÓN:**
+- **gG** (general, uso general): Protege contra sobrecargas Y cortocircuitos. El
+  más habitual — se usa para proteger cables y líneas de distribución.
+- **aM** (acompañamiento motor): Solo protege contra cortocircuitos, NO contra
+  sobrecargas. Se usa combinado con un relé térmico que protege la sobrecarga.
+  Típico en arrancadores de motor.
+- **gPV** (fotovoltaica): Versión especial para corriente continua en instalaciones
+  solares. Tensiones de 1000V DC o 1500V DC.
+
+**COMPONENTES DEL SISTEMA NH:**
+
+1. **Fusible NH (cartucho)** — El elemento que funde. Se reemplaza cuando actúa.
+2. **Base portafusible NH** — Soporte fijo donde se insertan los cartuchos. Tiene
+   los contactos y el mecanismo de fijación. Se monta en el cuadro.
+3. **Cuchilla seccionadora NH** — Base con palanca que permite desconectar el fusible
+   bajo carga de forma segura (función de seccionador + fusible).
+4. **Manopla de extracción** — Herramienta aislante para sacar el fusible de la base
+   sin riesgo de contacto con partes en tensión. Obligatoria por seguridad.
+5. **Accesorios** — Tapas de protección, indicadores de fusión, contactos auxiliares
+   de señalización (avisan al PLC cuando el fusible ha fundido).
+
+Lo que facilita:
+- Proteger líneas de distribución de gran potencia (hasta 1600A).
+- Cortar cortocircuitos de altísima capacidad (hasta 120kA) de forma instantánea.
+- Reemplazar rápidamente un fusible fundido sin herramientas especiales.
+
+Lo que evita que ocurra:
+- Incendios por cortocircuito en líneas de alimentación.
+- Daños en cables y equipos por sobrecargas sostenidas (curva gG).
+- Destrucción de motores por cortocircuito (curva aM + relé térmico).
+
+============================================================
+
+MODELOS EN ARAIZ (~4.200 artículos)
+--------------------------------------------------------------
+| Tipo                     | Marca           | Serie / Gama        | Para qué                      |
+|--------------------------|-----------------|---------------------|-------------------------------|
+| Fusible NH gG            | Eaton (Bussmann)| 170M, FWH, NH       | Protección general            |
+| Fusible NH gG            | Siemens         | 3NA3/3NA6            | Protección general Siemens    |
+| Fusible NH gG            | Ferraz Shawmut  | NH, TF               | Protección general Ferraz     |
+| Fusible NH aM            | Eaton / Siemens | 170M, 3ND            | Protección motor              |
+| Fusible NH gPV           | Eaton / Gave    | PV series            | Solar fotovoltaica DC         |
+| Base portafusible NH     | Eaton / DF      | CH, NH-base          | Soporte para fusibles         |
+| Cuchilla seccionadora NH | Eaton / Siemens | 3NP, NH-switch       | Seccionador + fusible         |
+| Manopla extracción       | Eaton           | NH-handle            | Extraer fusible con seguridad |
+| Accesorios NH            | Siemens / Eaton | 3NX, tapas           | Tapas, indicadores, contactos |
+| Fusible NH               | Gave / Crady    | NH, FC               | Fabricantes nacionales        |
+| Fusible NH               | DF              | NH                   | Fabricante nacional           |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                | Por qué la necesitas                                          |
+|----|----------------------------------------------------------|------------------------------------------------------------- |
+| 1  | Qué tamaño de NH? (00, 0, 1, 2, 3, 4)                 | Cada tamaño tiene dimensiones y corriente máxima diferente    |
+| 2  | Qué amperaje? (ej. 63A, 100A, 160A, 250A, 400A)       | El cartucho se fabrica para una corriente nominal concreta    |
+| 3  | Curva gG o aM?                                          | gG = general, aM = solo cortocircuito (para motores)         |
+| 4  | Tensión? (400V, 500V, 690V AC / 1000V DC)              | Cada tensión es un modelo diferente                           |
+| 5  | Necesita la base portafusible o solo el cartucho?       | El cartucho se sustituye, la base es fija                     |
+| 6  | Cuántas unidades?                                       | Los fusibles se piden en cantidad (cajas de 3)                |
+
+CONSEJO: Los fusibles NH son un consumible — se funden y hay que reemplazarlos.
+Eaton (Bussmann) domina el catálogo con más de 3.000 referencias, pero Siemens y
+Ferraz Shawmut también tienen gama completa. El precio puede variar mucho entre
+marcas para el mismo tamaño y amperaje.
+Dato importante: un fusible NH gG de 100A tamaño 0 NO es intercambiable con uno
+de 100A tamaño 1 — el tamaño define las dimensiones físicas, no la corriente.
+Para instalaciones solares, pedir siempre fusible gPV con tensión DC adecuada
+(1000V o 1500V DC) — un fusible AC normal NO vale para corriente continua.
+
+============================================================
+Fuentes:
+- Eaton/Bussmann fusibles NH: https://www.eaton.com/es/es-es/catalog/fuses.html
+- Siemens fusibles: https://www.siemens.com/es/es/productos/automatizacion/aparamenta.html
+- Norma IEC 60269 (fusibles BT)
+============================================================

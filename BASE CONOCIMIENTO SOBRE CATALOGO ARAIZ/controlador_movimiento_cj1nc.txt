@@ -1,0 +1,94 @@
+CUADRO RESUMEN — MÓDULO DE CONTROL DE MOVIMIENTO CJ1W-NC (EJE POR EJE DESDE PLC CJ1)
+Familia: Electricidad > Aparellaje eléctrico > Autómatas programables y robots industriales
+Ejemplo en Araiz: Omron ref. CJ1WNC471 (Módulo control posición 4 ejes MECHATROLINK-II para CJ1)
+============================================================
+
+IMAGEN DEL PRODUCTO:
+https://www.ia.omron.com/products/family/1537/
+
+VÍDEO / REFERENCIA TÉCNICA:
+https://industrial.omron.co.uk/en/products/cj1w-nc
+
+Búsqueda recomendada en YouTube (español):
+"módulo control movimiento PLC CJ1 ejes servo" o "CJ1W-NC posicionamiento multi-eje MECHATROLINK"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+El módulo CJ1W-NC es una tarjeta de control de movimiento que se inserta en el bastidor
+del PLC CJ1 (legacy de Omron). Su función es controlar servomotores y ejes de movimiento
+directamente desde el PLC, sin necesidad de un controlador de movimiento externo. El módulo
+se comunica con los servo drives (G5, G5 EtherCAT...) por MECHATROLINK-II o EtherCAT según
+el modelo, y permite al PLC ordenar movimientos precisos: ir a una posición, moverse a
+una velocidad, sincronizar varios ejes, lanzar una leva electrónica... Cuando el cliente
+tiene un CJ1 con servos y necesita control de posición multi-eje desde el programa del
+PLC, este es el módulo que lo hace posible. Para instalaciones nuevas con NJ/NX, el
+control de movimiento ya está integrado en el propio PLC sin necesidad de módulo adicional.
+
+Lo que facilita:
+- Controlar hasta 8 ejes de servomotores desde un solo módulo CJ1W-NC882: una sola
+  tarjeta en el bastidor del CJ1 gestiona todos los ejes de la máquina.
+- Programar movimientos de posicionamiento desde el programa del PLC: instrucciones
+  simples como "mueve el eje X a 150 mm" directamente en el programa Ladder.
+- Sincronizar ejes: movimientos coordinados entre varios servos (por ejemplo, un
+  sistema de corte al vuelo o una leva electrónica).
+- Lanzar secuencias de movimiento complejas con tablas de leva programadas en el módulo.
+- Integrar el control de movimiento en el mismo programa del PLC sin software separado.
+
+Lo que evita que ocurra:
+- Necesitar un controlador de movimiento externo independiente del PLC: el módulo
+  CJ1W-NC integra el control de movimiento dentro del bastidor del CJ1.
+- Complejidad de sincronización: el módulo gestiona la comunicación MECHATROLINK con
+  los drives de forma transparente para el programa del PLC.
+
+============================================================
+
+DIFERENCIA CLAVE: CJ1W-NC (módulo CJ1) vs NJ/NX (integrado)
+--------------------------------------------------------------
+| Característica          | CJ1W-NC (módulo para CJ1)        | NJ/NX (control movimiento nativo)|
+|-------------------------|----------------------------------|----------------------------------|
+| Plataforma PLC          | CJ1 (legacy)                     | NJ/NX (actual Sysmac)            |
+| Control de movimiento   | Módulo adicional al bastidor     | Integrado en el propio PLC       |
+| Red de movimiento       | MECHATROLINK-II o EtherCAT       | EtherCAT nativo                  |
+| Programación            | CX-Programmer (Ladder)           | Sysmac Studio (ST + Motion)      |
+| Para qué                | Ampliar CJ1 existente con ejes   | Instalaciones nuevas de movimiento|
+
+============================================================
+
+MODELOS CJ1W-NC A CONOCER
+--------------------------------------------------------------
+| Modelo        | Ejes | Red              | Para qué                              |
+|---------------|------|------------------|---------------------------------------|
+| CJ1W-NC271   | 2    | MECHATROLINK-II  | Máquinas con 2 servos (CJ1 existente) |
+| CJ1W-NC471   | 4    | MECHATROLINK-II  | El más habitual — 4 ejes desde CJ1    |
+| CJ1W-NC882   | 8    | EtherCAT         | Líneas con muchos ejes, EtherCAT      |
+| CJ1W-NC281   | 2    | EtherCAT         | 2 ejes por EtherCAT desde CJ1         |
+
+NOTA: MECHATROLINK-II es la red de movimiento propietaria de Omron (buses de 30Mbps
+dedicados a movimiento). EtherCAT es el estándar industrial abierto de alta velocidad.
+Los drives G5 series son compatibles con ambos protocolos según el modelo.
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                               | Por qué la necesitas                                          |
+|----|--------------------------------------------------------|---------------------------------------------------------------|
+| 1  | ¿Qué PLC tiene? ¿CJ1 o NJ/NX?                         | CJ1 → módulo CJ1W-NC / NJ/NX → no necesita módulo extra     |
+| 2  | ¿Cuántos ejes de servo necesita controlar?             | Define el modelo: NC271 (2), NC471 (4), NC882 (8)            |
+| 3  | ¿Qué drives de servo tiene? ¿Modelo?                   | Confirmar compatibilidad MECHATROLINK-II o EtherCAT          |
+| 4  | ¿Necesita sincronización entre ejes o solo posición?   | Sincronización → verificar modelo con leva electrónica       |
+| 5  | ¿Tiene CX-Programmer para programar el módulo?         | El módulo se programa desde CX-Programmer (CX-One)          |
+
+CONSEJO: El CJ1W-NC se vende como ampliación de sistemas CJ1 existentes cuando el
+cliente añade servos a una máquina o necesita más ejes de los que controla actualmente.
+Para instalaciones nuevas, siempre recomendar NJ/NX donde el control de movimiento
+está integrado sin módulos adicionales. Si el cliente tiene un CJ1 con servos G5 y
+menciona "MECHATROLINK" — ese es exactamente el entorno para este módulo.
+
+============================================================
+Fuentes:
+- Omron CJ1W-NC (oficial): https://www.ia.omron.com/products/family/1537/
+- Manual CJ1W-NC (PDF): https://assets.omron.eu/downloads/latest/manual/en/w436_cj1w-nc_operation_manual_en.pdf
+============================================================

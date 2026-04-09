@@ -1,0 +1,101 @@
+CUADRO RESUMEN — FUSIBLE CILÍNDRICO Y PORTAFUSIBLES CILÍNDRICOS
+Familia: Electricidad > Aparellaje eléctrico > Portafusibles y fusibles industriales
+Ejemplo en Araiz: Legrand ref. 012316 (Fusible cilíndrico 10x38mm 16A gG 500V)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"fusible cilíndrico 10x38 14x51 22x58 diferencias" o "portafusible cilíndrico carril DIN"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Los fusibles cilíndricos son cartuchos de protección con forma de tubo cerámico
+que se usan para proteger circuitos de pequeña y mediana potencia en cuadros de
+distribución. Son más pequeños y manejables que los NH — se usan en derivaciones
+individuales, protección de circuitos de mando, transformadores pequeños y
+equipos específicos.
+
+**TAMAÑOS NORMALIZADOS (sistema europeo):**
+
+| Tamaño | Corriente máx. | Uso típico |
+|--------|---------------|------------|
+| 8,5x31,5mm | 16A | Circuitos de mando, señalización |
+| 10x38mm | 32A | El más usado — derivaciones monofásicas, cuadros secundarios |
+| 14x51mm | 50A | Derivaciones trifásicas medianas |
+| 22x58mm | 125A | Alimentación de cuadros secundarios, motores |
+
+**CURVAS:**
+- **gG**: Uso general — protege contra sobrecargas y cortocircuitos.
+- **aM**: Acompañamiento motor — solo cortocircuito.
+- **gPV**: Fotovoltaica — para string boxes solares (formato 10x85mm 1500V DC).
+- **aR**: Ultrarrápido — protección de semiconductores (pequeños variadores).
+
+**EL PORTAFUSIBLE CILÍNDRICO:**
+Es la base donde se inserta el fusible. Se monta en carril DIN dentro del cuadro.
+Tipos:
+- 1 polo (monofásico) — protege 1 fase.
+- 1P+N — protege fase + neutro (con fusible o neutro rígido).
+- 3 polos — protege las 3 fases de un circuito trifásico.
+- 3P+N — trifásico + neutro.
+Algunos portafusibles llevan indicador LED de fusión (se enciende cuando el
+fusible ha fundido) o microinterruptor auxiliar para señalización al PLC.
+
+Lo que facilita:
+- Proteger circuitos individuales de forma compacta dentro del cuadro.
+- Reemplazar un fusible fundido rápidamente (se extrae a mano o con destornillador).
+- Identificar visualmente qué fusible ha fundido (indicador LED).
+
+Lo que evita que ocurra:
+- Sobrecargas y cortocircuitos en derivaciones de cuadros de distribución.
+- Daños en equipos de mando y control por cortocircuito.
+
+============================================================
+
+MODELOS EN ARAIZ (~1.600 artículos)
+--------------------------------------------------------------
+| Tipo                     | Marca           | Serie / Gama        | Para qué                      |
+|--------------------------|-----------------|---------------------|-------------------------------|
+| Fusible 10x38 gG         | Eaton           | C10G                | Protección general 10x38     |
+| Fusible 10x38 gG         | Legrand         | 0123xx              | Protección general 10x38     |
+| Fusible 14x51 gG         | Siemens         | 3NW6               | Protección general 14x51     |
+| Fusible 14x51 gG         | Ferraz Shawmut  | Cartucho UTE        | Protección general 14x51     |
+| Fusible 22x58 gG         | Eaton / Siemens | C22G, 3NW8          | Protección general 22x58     |
+| Fusible 22x58 aM         | Schneider       | DF2xx               | Protección motor 22x58       |
+| Fusible gPV 10x85        | Phoenix Contact | SOL-RPL             | Solar fotovoltaica 1500V DC  |
+| Portafusible 10x38 1P    | Siemens         | 3NW7               | Base 1 polo carril DIN       |
+| Portafusible 10x38 3P+N  | Schneider       | DF1xx               | Base trifásica+N carril DIN  |
+| Portafusible 14x51       | Hager           | LS5xx               | Base carril DIN Hager        |
+| Portafusible 22x58       | ABB / Eaton     | E90, CH             | Base carril DIN 22x58        |
+| Portafusible con LED     | Siemens         | 3NW7 con LED        | Con indicador de fusión      |
+| Portafusible con micro   | Wohner          | CAPUS               | Con señalización al PLC      |
+| Portafusible             | Gave / Crady    | Varias              | Fabricantes nacionales       |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                | Por qué la necesitas                                          |
+|----|----------------------------------------------------------|------------------------------------------------------------- |
+| 1  | Qué tamaño? (10x38, 14x51, 22x58)                     | Cada tamaño es físicamente diferente                          |
+| 2  | Qué amperaje? (1A a 125A según tamaño)                 | Define el cartucho exacto                                     |
+| 3  | Solo fusibles o también portafusibles?                  | El fusible se sustituye, el portafusible es fijo              |
+| 4  | Cuántos polos? (1P, 1P+N, 3P, 3P+N)                   | Define la base portafusible                                   |
+| 5  | Necesita indicador de fusión?                           | Portafusible con LED o microinterruptor                       |
+| 6  | Cuántas unidades?                                       | Los fusibles se piden en cantidad (cajas de 10-100)           |
+
+CONSEJO: El fusible cilíndrico 10x38mm es el más pedido en instalaciones
+terciarias y residenciales avanzadas. Los portafusibles cilíndricos compiten con
+los magnetotérmicos en cuadros de distribución — la ventaja del fusible es su
+capacidad de corte mucho mayor (hasta 100kA vs 6-25kA del magneto) y su precio
+más bajo en reposición. La desventaja es que hay que tener repuestos a mano.
+No confundir el tamaño 10x38 (europeo) con el tamaño 10x85 (fotovoltaica DC) —
+son cartuchos completamente diferentes que NO son intercambiables.
+Ferraz Shawmut es ahora Mersen — mismo fabricante, marca antigua.
+
+============================================================
+Fuentes:
+- Legrand fusibles cilíndricos: https://www.legrand.es/catalogo/distribucion-de-energia/fusibles/
+- Siemens portafusibles: https://www.siemens.com/es/es/productos/automatizacion/aparamenta.html
+- Norma IEC 60269-2 (fusibles cilíndricos)
+============================================================

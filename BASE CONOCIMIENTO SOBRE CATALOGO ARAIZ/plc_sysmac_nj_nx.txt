@@ -1,0 +1,101 @@
+CUADRO RESUMEN — PLC SYSMAC NJ / NX (MACHINE CONTROLLER ACTUAL DE OMRON)
+Familia: Electricidad > Aparellaje eléctrico > Autómatas programables y robots industriales
+Ejemplo en Araiz: Omron ref. NX1029020 (CPU modular Sysmac NX1 — 0 servoejes, 64 nodos EtherCAT)
+============================================================
+
+IMAGEN DEL PRODUCTO:
+https://www.ia.omron.com/products/family/3280/
+
+VÍDEO / REFERENCIA TÉCNICA:
+https://industrial.omron.co.uk/en/products/nj-series
+
+Búsqueda recomendada en YouTube (español):
+"PLC Omron NJ NX Sysmac Studio programación" o "diferencia NJ NX NX1P Omron machine controller"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+El NJ y el NX son la generación actual de PLCs de Omron, llamados "Machine Controllers"
+porque combinan en una sola CPU el control de lógica (PLC tradicional) con el control
+de movimiento de hasta 64 ejes servo (motion controller), todo programado desde Sysmac
+Studio. Se comunican con los drives servo Accurax G5 y los módulos de E/S NX a través
+de EtherCAT — la red industrial más rápida, con ciclos de 125 microsegundos. El NJ es
+el más potente (hasta 256 ejes en configuraciones avanzadas); el NX1P2 es el compacto
+(reemplaza al CP1H para máquinas medianas con servo); el NX102 es el modular de
+gama media. Todos se programan con Sysmac Studio y usan las mismas librerías.
+
+Lo que facilita:
+- Controlar lógica PLC y ejes servo desde un único entorno de programación (Sysmac
+  Studio) sin hardware adicional de control de movimiento.
+- Sincronizar múltiples ejes con microsegundos de precisión: leva electrónica,
+  interpolación, corte en marcha, alimentadores sincronizados...
+- Integrar visión artificial, robots, HMI y seguridad en la misma red EtherCAT del
+  controlador: un solo cable Ethernet conecta todo.
+- Reducir tiempo de puesta en marcha: Sysmac Studio configura el drive servo
+  directamente desde la CPU sin software separado.
+- Escalar sin cambiar la arquitectura: añadir ejes o E/S NX sin modificar la CPU.
+
+Lo que evita que ocurra:
+- Sistemas complejos con múltiples controladores distintos: el NJ/NX unifica PLC +
+  motion + HMI en un solo entorno, eliminando interfaces entre sistemas.
+- Retrasos de sincronización entre ejes: EtherCAT a 125µs garantiza que todos los
+  ejes reciben su consigna simultáneamente.
+- Problemas de compatibilidad entre gamas: Sysmac Studio, los drives G5, los
+  módulos NX y las pantallas HMI NA son de la misma familia — garantía de integración.
+
+============================================================
+
+FAMILIA NJ/NX A CONOCER
+--------------------------------------------------------------
+| Modelo        | Ejes servo | E/S NX | EtherCAT | Para qué                               |
+|---------------|-----------|--------|----------|----------------------------------------|
+| NX1P2-9024DT  | 2 ejes    | Bus NX | Sí       | Compacto — reemplaza CP1H en máquinas con servo|
+| NX102-9020    | 4 ejes    | Bus NX | Sí       | Mediano — máquinas con hasta 4 ejes    |
+| NX1-ZZ902     | 0 ejes    | Bus NX | Sí       | Solo lógica PLC con bus NX (sin servo) |
+| NJ1-□□□       | 2-16 ejes | CJ I/O | Sí       | NJ1 — gama media motion controller     |
+| NJ5-□□□       | 32-256 ej | CJ I/O | Sí       | NJ5 — alta gama, líneas completas      |
+
+DIFERENCIA NJ vs NX:
+- NJ: usa módulos de E/S CJ1 (gama anterior) + EtherCAT para servo
+- NX: usa módulos de E/S NX (bus NX propio) — más rápido y compacto
+- NX1P2: compacto, E/S integradas + bus NX — el más habitual en máquinas nuevas
+
+============================================================
+
+DIFERENCIA CLAVE: NJ/NX vs CP1L
+--------------------------------------------------------------
+| Característica          | NJ/NX (actual)                   | CP1L (básico)                    |
+|-------------------------|----------------------------------|----------------------------------|
+| Control servo           | Integrado — hasta 256 ejes       | No (solo pulsos básicos en CP1H) |
+| Red de campo            | EtherCAT integrado               | No                               |
+| Programación            | Sysmac Studio                    | CX-Programmer (CX-One)          |
+| Precio                  | Alto                             | Bajo                             |
+| Para qué                | Máquinas con servo, movimiento   | Máquinas sencillas sin servo     |
+| Tamaño sistema típico   | 2-64 ejes, 100-1000 E/S          | 10-60 E/S, sin ejes              |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                               | Por qué la necesitas                                          |
+|----|--------------------------------------------------------|---------------------------------------------------------------|
+| 1  | ¿Cuántos ejes servo necesita controlar?                | Define el modelo NX1P2 (2 ej) / NX102 (4 ej) / NJ5 (32+ ej) |
+| 2  | ¿Necesita sincronización entre ejes? (leva, interpolac.)| Si sí → NJ/NX imprescindible, no sirve CP1H                  |
+| 3  | ¿Tiene ya los drives servo Accurax G5 (R88D-KN)?        | Los drives son la pareja natural del NJ/NX                   |
+| 4  | ¿Cuántas E/S digitales/analógicas necesita?             | Define cuántos módulos NX o CJ añadir al sistema             |
+| 5  | ¿Tiene licencia Sysmac Studio Standard?                 | Sin Sysmac Studio no se puede programar el NJ/NX             |
+| 6  | ¿Necesita pantalla HMI? ¿Qué tamaño?                   | Las pantallas NA de Omron son la pareja natural del NJ/NX    |
+
+CONSEJO: El NX1P2 es el más vendido de la gama — es el "CP1L con servo integrado".
+Para máquinas nuevas con 1-2 ejes servo, casi siempre es la respuesta. El paquete
+típico de presupuesto NX1P2 incluye: CPU NX1P2 + módulos NX de E/S + drives G5 +
+servomotores R88M + cables servo + Sysmac Studio + pantalla HMI NA.
+
+============================================================
+Fuentes:
+- Omron NX series (oficial): https://www.ia.omron.com/products/family/3280/
+- Omron NJ series (oficial): https://www.ia.omron.com/products/family/2415/
+- Omron NX1P2 (oficial): https://www.ia.omron.com/products/family/3633/
+- Manual NX1P2: https://assets.omron.eu/downloads/latest/manual/en/w579_nx1p2_cpu_unit_hardware_users_manual_en.pdf
+============================================================

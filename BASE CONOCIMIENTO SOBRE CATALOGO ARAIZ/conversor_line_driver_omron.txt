@@ -1,0 +1,117 @@
+CUADRO RESUMEN — CONVERSOR DE SEÑAL ENCODER (LINE-DRIVER / OPEN COLLECTOR)
+Familia: Electricidad > Aparellaje eléctrico > Autómatas programables / Accesorios
+Ejemplo en Araiz: Omron ref. 186677 (SYS-ENC 01 — conversor Line-Driver a Open Collector para encoders)
+============================================================
+
+IMAGEN DEL PRODUCTO:
+https://www.ia.omron.com/products/family/1832/
+
+VÍDEO / REFERENCIA TÉCNICA:
+https://es.rs-online.com/web/p/encoders/1874459
+
+Búsqueda recomendada en YouTube (español):
+"encoder line driver open collector diferencia PLC" o "conversor señal encoder adaptador PLC Omron"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Un conversor de señal para encoder es el componente que adapta la señal eléctrica
+de salida de un encoder rotativo cuando el tipo de señal del encoder no es compatible
+con la entrada del PLC o del contador. Existen dos tipos principales de señal encoder:
+Line-Driver (también llamado diferencial o RS-422): señal robusta en par diferencial,
+resistente a interferencias, ideal para largas distancias y velocidades altas. Y Open
+Collector (también llamado NPN o OC): señal sencilla de colector abierto, la más común
+en encoders económicos. El ref. 186677 (SYS-ENC 01) convierte la señal de un encoder
+de Line-Driver a Open Collector, permitiendo conectar encoders de alta gama a módulos
+contadores de PLC que solo aceptan señal Open Collector.
+
+Lo que facilita:
+- Conectar encoders con salida Line-Driver (diferencial RS-422) a módulos de PLC
+  o contadores que solo admiten señal Open Collector — sin cambiar el encoder.
+- Adaptar sistemas heredados donde el encoder es de un tipo y el módulo receptor
+  es de otro, evitando sustituir componentes de mayor coste.
+- Mantener la inmunidad a ruido de la señal Line-Driver en el tramo largo del
+  cableado (encoder → conversor) y convertirla solo en el punto de entrada al PLC.
+- Instalación sencilla: el conversor se monta en carril DIN cerca del módulo contador.
+
+Lo que evita que ocurra:
+- Que una señal Line-Driver dañe la entrada Open Collector del módulo PLC
+  (tensiones y niveles lógicos diferentes pueden dañar el módulo receptor).
+- Sustituir un encoder caro de Line-Driver por uno más económico de Open Collector
+  cuando el problema es solo la incompatibilidad en el tipo de señal.
+- Pérdidas de señal o errores de conteo por incompatibilidad eléctrica entre
+  el encoder y el módulo contador.
+- Interferencias en el conteo de pulsos por no usar el tipo de señal adecuado
+  para la distancia o velocidad de la aplicación.
+
+============================================================
+
+DIFERENCIA CLAVE: LINE-DRIVER vs OPEN COLLECTOR
+--------------------------------------------------------------
+| Característica           | Line-Driver (RS-422)         | Open Collector (NPN/OC)       |
+|--------------------------|------------------------------|-------------------------------|
+| Tipo de señal            | Diferencial (par de hilos)   | Simple (un hilo + común)       |
+| Inmunidad a ruido        | Muy alta                     | Media-baja                    |
+| Distancia máxima         | Hasta 100m o más             | Hasta 20-30m recomendado      |
+| Velocidad máxima         | Hasta 1 MHz y más            | Hasta 100 kHz típico          |
+| Coste del encoder        | Mayor (gama media-alta)      | Menor (gama económica)        |
+| Cables necesarios        | A, /A, B, /B, Z, /Z (6 hilos)| A, B, Z + común (4 hilos)    |
+| Cuándo usarlo            | Alta velocidad, larga distancia, entorno con ruido | Aplicaciones simples, corta distancia|
+
+El SYS-ENC 01 convierte Line-Driver → Open Collector (dirección única).
+
+============================================================
+
+CARACTERÍSTICAS TÉCNICAS BÁSICAS A SABER
+--------------------------------------------------------------
+| Parámetro                    | Qué significa                                    | Valor ref. 186677 / SYS-ENC 01 (Omron)       |
+|------------------------------|--------------------------------------------------|-----------------------------------------------|
+| Señal de entrada             | Tipo de señal que acepta en la entrada           | Line-Driver (RS-422 diferencial)              |
+| Señal de salida              | Tipo de señal que entrega en la salida           | Open Collector (NPN)                          |
+| Dirección de conversión      | Si es bidireccional o de un solo sentido         | Unidireccional: Line-Driver → Open Collector  |
+| Canales convertidos          | Cuántas señales del encoder convierte            | A, /A, B, /B, Z, /Z → A, B, Z (6 → 3)        |
+| Alimentación                 | Tensión necesaria para el conversor              | 5V DC o 12V DC (verificar especificación)     |
+| Frecuencia máxima            | Velocidad máxima de pulsos que convierte         | Hasta 500 kHz                                 |
+| Montaje                      | Cómo se instala                                  | Carril DIN — dentro del armario               |
+| Compatible con encoders      | Encoders Omron o genéricos                       | Cualquier encoder con salida Line-Driver RS-422|
+
+============================================================
+
+TIPOLOGÍAS DE CONVERSORES DE SEÑAL ENCODER
+--------------------------------------------------------------
+| Tipología                        | Conversión                        | Cuándo se usa                                        |
+|----------------------------------|-----------------------------------|------------------------------------------------------|
+| Line-Driver → Open Collector (este)| RS-422 diferencial → NPN OC      | Encoder LD con módulo contador OC                   |
+| Open Collector → Line-Driver     | NPN OC → RS-422 diferencial       | Encoder OC con módulo contador LD                   |
+| TTL → Open Collector             | Señal TTL 5V → NPN OC             | Encoders antiguos TTL con módulos modernos           |
+| Open Collector → Push-Pull       | NPN OC → salida activa            | Compatibilidad con entradas PNP o Push-Pull del PLC  |
+| Amplificador de señal encoder    | Mismo tipo, amplifica             | Señal debilitada por distancia larga                 |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                          | Por qué la necesitas                                                          |
+|----|-------------------------------------------------------------------|-------------------------------------------------------------------------------|
+| 1  | ¿Qué tipo de salida tiene el encoder? (Line-Driver, OC, TTL, PP)  | Define en qué dirección va la conversión y qué conversor necesita            |
+| 2  | ¿Qué tipo de entrada tiene el módulo contador del PLC?            | Define el tipo de señal que necesita en la salida del conversor              |
+| 3  | ¿A qué velocidad gira el encoder? (pulsos por segundo máximos)    | Define si el conversor puede seguir la frecuencia máxima del encoder         |
+| 4  | ¿Qué distancia hay entre el encoder y el módulo PLC?              | Distancias largas → mantener LD el mayor tramo posible y convertir al final  |
+| 5  | ¿Hay mucho ruido eléctrico en la instalación? (motores, soldadura)| Ruido alto → mantener señal diferencial LD lo más cerca posible del PLC     |
+| 6  | ¿El encoder tiene señal Z (marca de vuelta)?                      | La señal Z también hay que convertir — verificar que el conversor la incluye |
+| 7  | ¿Es instalación nueva o sustitución por incompatibilidad?         | Si es sustitución → confirmar cuál es el encoder y cuál es el módulo         |
+
+CONSEJO: Antes de pedir el conversor, identificar claramente cuál es la señal de
+entrada (encoder) y cuál es la señal de salida necesaria (módulo PLC). Un error
+de dirección (pedir LD→OC cuando se necesita OC→LD) hace el componente inservible.
+Si hay duda, solicitar las hojas de datos del encoder y del módulo contador para
+confirmar tipos de señal antes de hacer el pedido.
+
+============================================================
+Fuentes:
+- Omron SYS-ENC 01: https://www.ia.omron.com/products/family/1832/
+- RS Online ref. 186677: https://es.rs-online.com/web/p/encoders/1874459
+- Omron encoder signal conversion: https://www.ia.omron.com/products/family/1832/specification.html
+- Diferencia Line-Driver vs Open Collector: https://www.dynapar.com/technology/encoder_basics/encoder_output_types/
+============================================================

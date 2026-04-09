@@ -1,0 +1,120 @@
+CUADRO RESUMEN — ENCODERS Y SENSORES INDUSTRIALES (Omron / Sick / Telemecanique)
+Familia: Electricidad > Aparellaje eléctrico > Encoders - sensores
+Ejemplo en Araiz: Omron ref. E6B2-CWZ6C (Encoder incremental 600ppr 5-24V DC)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"encoder incremental funcionamiento PLC" o "sensor bus IO-Link Sick SmartSens"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Este cuadro cubre los encoders rotatorios y los sensores industriales
+avanzados que no encajan en los grupos de Detectores de proximidad ni
+Finales de carrera.
+
+**1. Encoder rotatorio — ¿qué es?**
+Un encoder es un sensor que convierte el movimiento (giro o desplazamiento)
+en pulsos eléctricos que el PLC puede contar. Con el número de pulsos y el
+diámetro de la rueda o husillo, el PLC calcula:
+- La posición exacta (eje, carro, brazo robot)
+- La velocidad de giro (RPM de un motor)
+- La distancia recorrida (cinta transportadora)
+
+**Tipos de encoder:**
+| Tipo              | Cómo funciona                               | Uso típico                          |
+|-------------------|---------------------------------------------|-------------------------------------|
+| Incremental       | Genera pulsos al girar — cuenta desde cero  | Control velocidad, longitud tela    |
+| Absoluto          | Da la posición exacta siempre (sin reset)   | Robots, ejes CNC, ascensores        |
+| Magnético         | Sin disco óptico — más robusto al polvo     | Aplicaciones sucias, alimentarias   |
+
+**Omron — encoders (gama E6B2 / E6C2 / E6D)**
+Omron es el proveedor principal de encoders en Araiz. Sus encoders más
+habituales:
+- **E6B2-CWZ6C**: encoder incremental más vendido en España. Brida 40mm,
+  salida NPN colector abierto o PNP, 5-24V DC. Resoluciones de 100 a
+  2000 pulsos por vuelta (ppr).
+- **E6C2-CWZ6C**: versión con brida 50mm para ejes más gruesos.
+- **E6CP-AG5C**: encoder absoluto 256 posiciones/vuelta, salida paralela.
+  Para aplicaciones donde no se puede perder la referencia al cortar luz.
+
+**2. Sensor para sistema de bus (IO-Link / AS-i)**
+Sensores con comunicación digital integrada. En vez de una salida de
+tensión (0/24V) o analógica (4-20mA), el sensor habla por un protocolo
+de bus que permite:
+- Enviar el valor medido en digital (sin pérdida de señal por ruido).
+- Leer el diagnóstico del sensor (¿está sucio? ¿desalineado?).
+- Cambiar parámetros del sensor desde el PLC (umbral de detección, etc.).
+
+Marcas en Araiz:
+- **Sick**: especialista mundial en sensores industriales. Gama SmartSens,
+  detectores láser, medidores de distancia. Sus sensores con IO-Link son
+  muy habituales en líneas de producción modernas.
+- **Phoenix Contact**: módulos de acoplamiento IO-Link master para conectar
+  sensores IO-Link a redes Profinet/EtherNet/IP.
+
+**3. Sensores de bus AS-Interface (AS-i)**
+AS-i (Actuator Sensor Interface) es un bus de campo de bajo coste para
+conectar hasta 62 sensores/actuadores con un solo cable de 2 hilos.
+Muy habitual en sistemas de transporte y líneas de montaje con muchos
+detectores repartidos por la máquina.
+
+**4. Convertidores de señal / módulos de temperatura**
+Aparatos que adaptan la señal de un sensor para conectarla a un PLC:
+- Convertidor de temperatura: recibe señal PT100/termopar y saca 4-20mA
+  o señal Modbus para el PLC.
+- Amplificador de aislamiento: aísla galvánicamente la señal de medida
+  del circuito de potencia — protege el PLC de ruido eléctrico.
+- Módulo de control de temperatura: acondicionador de señal para cuadros
+  con regulación térmica (Carlo Gavazzi, Phoenix Contact).
+
+**5. Relés de vigilancia de corriente**
+Dispositivos que monitorizan la corriente de un circuito y activan una
+alarma o un relé si la corriente sube o baja de un umbral.
+Usos: detectar motor bloqueado, cable cortado, sobrecarga progresiva.
+Omron K8AB-AS es el más habitual en Araiz (ya descrito en "Equipos de medida").
+
+============================================================
+
+DIFERENCIA ENCODER vs FINAL DE CARRERA
+--------------------------------------------------------------
+| Característica    | Final de carrera          | Encoder                        |
+|-------------------|---------------------------|--------------------------------|
+| Qué detecta       | Posición fija (ON/OFF)    | Posición continua (número)     |
+| Salida            | Contacto abre/cierra      | Pulsos digitales (tren de señal)|
+| Precisión         | ±1mm (mecánica)           | ±0,01mm (depende de resolución)|
+| Para qué          | Límite de recorrido       | Control de posición/velocidad  |
+| Precio            | 20-50 €                   | 50-300 €                       |
+| Requiere PLC      | No (funciona con relé)    | Sí (para contar pulsos)        |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                    | Por qué                                        |
+|----|-------------------------------------------------------------|------------------------------------------------|
+| 1  | ¿Qué quiere medir? ¿Posición, velocidad, temperatura?      | Define si es encoder, sensor bus o convertidor |
+| 2  | ¿Necesita encoder incremental o absoluto?                   | Incremental más barato; absoluto para posición|
+| 3  | ¿Cuántos pulsos por vuelta (ppr) necesita?                 | Define la resolución del encoder               |
+| 4  | ¿El eje del motor tiene qué diámetro?                      | El encoder se acopla al eje — debe coincidir   |
+| 5  | ¿El PLC es Omron? ¿Tiene entrada de contador rápido (HSC)?| El E6B2 funciona directo en entradas Omron     |
+| 6  | ¿Usa bus IO-Link o AS-Interface en la máquina?             | Si sí: buscar sensores con salida de bus       |
+
+CONSEJO: El encoder Omron E6B2-CWZ6C (incremental, salida NPN, 600ppr, 24V)
+es el más vendido en España para aplicaciones de control de longitud en
+extrusoras, imprentas y cintas transportadoras. Si el cliente dice "quiero
+saber cuánto ha avanzado la cinta", la solución es este encoder + contador
+rápido en el PLC.
+Para presupuestos que incluyen encoder: preguntar siempre el diámetro
+del eje (4, 5, 6, 8, 10 mm son los estándar) y si necesita brida de fijación
+o acoplamiento flexible (se vende aparte).
+Los sensores Sick son más caros que Omron pero con mejor precisión en
+aplicaciones de detección láser de larga distancia y ambientes difíciles.
+
+============================================================
+Fuentes:
+- Omron encoders E6B2: https://industrial.omron.es/es/products/e6b2-cwz6c
+- Sick sensores industriales: https://www.sick.com/es/es/
+- Phoenix Contact IO-Link: https://www.phoenixcontact.com/es-es/products/io-link
+============================================================

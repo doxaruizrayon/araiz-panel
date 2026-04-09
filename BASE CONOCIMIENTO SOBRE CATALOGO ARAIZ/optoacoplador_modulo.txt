@@ -1,0 +1,102 @@
+CUADRO RESUMEN — MÓDULO OPTOACOPLADOR (AISLAMIENTO GALVÁNICO DE SEÑALES)
+Familia: Electricidad > Aparellaje eléctrico > Autómatas programables y robots industriales
+Ejemplo en Araiz: ABB ref. 1SNA645058R1300 — Módulo optoacoplador OBOC 1000 24V CC
+============================================================
+
+IMAGEN DEL PRODUCTO:
+https://new.abb.com/products/1SNA645058R1300
+
+VÍDEO / REFERENCIA TÉCNICA:
+https://new.abb.com/low-voltage/products/modular-din-rail-products/signal-converters
+
+Búsqueda recomendada en YouTube (español):
+"optoacoplador qué es para qué sirve aislamiento galvánico" o "módulo opto señal PLC aislamiento"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Un optoacoplador (también llamado acoplador óptico o relé opto) es un componente
+electrónico que transmite una señal eléctrica de un circuito a otro usando luz —
+un LED emisor y un fototransistor receptor — sin que los dos circuitos estén
+eléctricamente conectados entre sí. Este aislamiento galvánico (separación eléctrica
+completa) es fundamental cuando se conectan equipos con tensiones o masas distintas:
+evita que diferencias de potencial, picos de tensión o ruidos eléctricos del lado
+de potencia lleguen al lado del PLC o del circuito de control. El módulo optoacoplador
+de panel (como los ABB OBIC/OBOC/OBROC) se instala en carril DIN dentro del armario
+eléctrico y aísla las señales entre la máquina (campo) y el PLC (control).
+
+Lo que facilita:
+- Conectar sensores o actuadores de campo que trabajan a tensiones distintas a las
+  del PLC (por ejemplo: señal de 230V AC del campo → entrada 24V DC del PLC).
+- Proteger las entradas del PLC de picos de tensión, ruido y sobretensiones del
+  lado de potencia: el optoacoplador absorbe los transitorios sin que lleguen al PLC.
+- Aislar eléctricamente dos redes con masas distintas: evita bucles de tierra
+  que generan ruido o corrientes parásitas en el cableado de señal.
+- Adaptar señales NAMUR (sensores intrínsecamente seguros en zona ATEX) al PLC.
+- Amplificar o invertir señales: algunos modelos tienen salida inversora (OBROA).
+
+Lo que evita que ocurra:
+- Daños en el PLC por tensiones altas en las entradas: el optoacoplador actúa
+  como barrera — el lado del PLC nunca ve la tensión del lado de campo.
+- Fallos intermitentes por bucles de tierra: el aislamiento galvánico elimina
+  las corrientes de tierra que generan lecturas erróneas en entradas digitales.
+- Incompatibilidades de tensión entre campo y control: el módulo opto convierte
+  la tensión de entrada (24V, 48V, 115V, 230V) a una salida estándar para el PLC.
+
+============================================================
+
+DIFERENCIA CLAVE: OPTOACOPLADOR vs RELÉ DE SEÑAL (RELÉ DE INTERFAZ)
+--------------------------------------------------------------
+| Característica          | Optoacoplador (este)             | Relé de interfaz/señal           |
+|-------------------------|----------------------------------|----------------------------------|
+| Aislamiento             | Galvánico total (por luz)        | Galvánico (por bobina/contacto)  |
+| Velocidad de conmutación| Muy rápida (µs)                  | Lenta (ms)                       |
+| Vida útil               | Ilimitada (no hay contactos)     | Limitada (contactos mecánicos)   |
+| Salida                  | Transistor / Triac (semiconductor)| Contacto seco (NA/NC)           |
+| Ruido de conmutación    | Ninguno (sin chispa)             | Leve (arco eléctrico)            |
+| Para qué                | Señales rápidas, alta frecuencia | Señales lentas, salida universal |
+
+============================================================
+
+FAMILIAS ABB MÁS COMUNES EN ARAIZ
+--------------------------------------------------------------
+| Serie  | Tensión entrada     | Tensión salida | Tipo salida | Ejemplo                    |
+|--------|---------------------|----------------|-------------|----------------------------|
+| OBIC   | 5-12V / 24V / 48-230V| 24-300V DC    | Transistor  | OBIC 0100-24V CC           |
+| OBOC   | 5-12V / 24V / 48-230V| 24-300V DC    | Transistor  | OBOC 1000-24V CC (el más habitual)|
+| OBROC  | 24V / 115-230V      | 24-300V DC     | Transistor  | OBROC 1000-24V CC          |
+| OBOA   | 24V / 115-230V      | 24-230V DC/AC  | Triac       | OBOA 1000-24V CC           |
+| OBROA  | 24V                 | 24V DC         | Transistor  | OBROA 1000-24V CC          |
+
+NOTA REFERENCIA: 1SNA645058R1300 corresponde al modelo **OBOC 1000-24V CC**
+(entrada 24V DC, salida transistor 24-300V DC, 1A). El "1000" indica la corriente
+de salida máxima en mA (1000 mA = 1 A).
+
+NOTA Phoenix Contact: La serie PLC-OSC / PLC-OPT también son optoacopladores
+de carril DIN con múltiples tensiones de entrada (91 artículos en catálogo Araiz).
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                               | Por qué la necesitas                                          |
+|----|--------------------------------------------------------|---------------------------------------------------------------|
+| 1  | ¿Qué tensión tiene la señal de entrada? (24V, 48V, 230V)| Define el modelo de optoacoplador (OBIC/OBOC según tensión) |
+| 2  | ¿Qué tensión necesita en la salida (para el PLC)?       | La salida del opto debe ser compatible con la entrada del PLC|
+| 3  | ¿Cuántos canales necesita aislar?                       | 1 módulo = 1 canal — calcular cuántos módulos necesita       |
+| 4  | ¿La señal es rápida (pulsos, encoder) o lenta (ON/OFF)? | Señales rápidas → optoacoplador / Señales lentas → relé también vale|
+| 5  | ¿Necesita salida de transistor o salida de triac?       | Triac (OBOA) → cargas AC / Transistor (OBOC) → cargas DC    |
+
+CONSEJO: El optoacoplador se vende habitualmente como solución a problemas concretos:
+"mis entradas del PLC se dañan", "tengo ruido en las señales", "necesito conectar
+una señal de 230V a la entrada del PLC". Cuando el cliente menciona aislamiento
+galvánico o protección de señales, el optoacoplador es la respuesta. Para señales
+lentas (contactos ON/OFF) y si el cliente quiere salida de contacto seco, el relé
+de interfaz (como los Finder 40.31 o los Omron G2R) es más sencillo y económico.
+
+============================================================
+Fuentes:
+- ABB OBOC series: https://new.abb.com/products/1SNA645058R1300
+- Phoenix Contact PLC-OSC: https://www.phoenixcontact.com/es-es/productos/modulo-de-relés-plc-osc
+============================================================

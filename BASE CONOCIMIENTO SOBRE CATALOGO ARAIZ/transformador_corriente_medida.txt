@@ -1,0 +1,102 @@
+CUADRO RESUMEN — TRANSFORMADORES DE CORRIENTE PARA MEDIDA (TI / CT)
+Familia: Electricidad > Aparellaje eléctrico > Accesorios
+Ejemplo en Araiz: Schneider ref. METSECT5CC020 (Transformador corriente 200/5A clase 1)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"transformador de corriente para medida qué es cómo funciona" o "TI toroidal medición energía"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Un transformador de corriente (TI, o CT en inglés — Current Transformer) es un
+dispositivo que reduce proporcionalmente una corriente grande a una corriente
+pequeña y medible. Permite que un amperímetro o un analizador de red pueda
+medir corrientes de cientos de amperios sin conectarse directamente al circuito
+de potencia.
+
+Cómo funciona: el cable de potencia pasa por dentro de un anillo (toroidal) o
+por la ventana de un transformador. El TI genera en su secundario una corriente
+proporcional — típicamente 5A o 1A — que se conecta al equipo de medida.
+
+Ejemplo: un TI de 200/5A convierte 200A reales en 5A de medida. El analizador
+de red lee 5A y sabe que en realidad hay 200A.
+
+**TIPOS:**
+
+**1. TI PASANTE / TOROIDAL (~20 art.)**
+Anillo cerrado por el que pasa el cable. El más común. El cable de potencia se
+pasa por el centro durante la instalación. Problema: hay que desconectar el
+cable para instalarlo.
+Marcas: Schneider (METSECT), ABB, Circutor.
+
+**2. TI DE NÚCLEO PARTIDO / ABIERTO (~10 art.)**
+Se abre por la mitad para colocarlo alrededor del cable SIN desconectar nada.
+Más caro pero imprescindible en instalaciones existentes donde no se puede
+cortar la corriente para pasar el cable por el TI.
+Marcas: Schneider, Circutor.
+
+**3. TI DE BARRA (~13 art.)**
+La barra de cobre del cuadro pasa directamente por la ventana del TI. Para
+corrientes altas (>400A) donde el cable no cabe por un toroidal.
+Marcas: Schneider, ABB.
+
+**Parámetros clave:**
+- **Relación de transformación**: 100/5, 200/5, 400/5, 600/5, 800/5, 1000/5, etc.
+  El primer número es la corriente máxima real, el segundo es la corriente de salida.
+- **Clase de precisión**: Clase 1 (uso general), Clase 0,5 (facturación).
+  Para facturación eléctrica se exige Clase 0,5 o mejor.
+- **Potencia (VA)**: La carga que puede alimentar el TI (cables + equipo de medida).
+
+Lo que facilita:
+- Medir corrientes de cientos o miles de amperios con equipos pequeños.
+- Instalar medición de energía sin tocar el circuito de potencia (núcleo partido).
+- Monitorizar consumos parciales por circuito en cuadros de distribución.
+
+Lo que evita que ocurra:
+- Conectar equipos de medida directamente a corrientes peligrosas.
+- Instalaciones sin medición por no poder cortar la corriente (TI partido).
+
+============================================================
+
+MODELOS EN ARAIZ (~43 artículos)
+--------------------------------------------------------------
+| Tipo                     | Marca           | Serie               | Relaciones típicas            |
+|--------------------------|-----------------|---------------------|-------------------------------|
+| TI pasante clase 1       | Schneider       | METSECT5CC           | 100/5 a 800/5A              |
+| TI pasante clase 0.5     | Schneider       | METSECT5CP           | 200/5 a 1000/5A             |
+| TI núcleo partido        | Schneider       | METSECT5DO           | 100/5 a 600/5A              |
+| TI barra                 | Schneider       | METSECT5HG           | 400/5 a 3000/5A             |
+| TI toroidal              | ABB             | CT series            | 100/5 a 600/5A              |
+| TI toroidal              | Circutor        | TC series            | 100/5 a 1000/5A             |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                | Por qué la necesitas                                          |
+|----|----------------------------------------------------------|------------------------------------------------------------- |
+| 1  | Qué corriente máxima circula por el circuito?           | Define la relación: 200/5, 400/5, etc.                       |
+| 2  | Es instalación nueva o existente?                       | Existente → TI de núcleo partido (no hay que desconectar)     |
+| 3  | Para facturación o para monitorización interna?         | Facturación → clase 0,5; monitorización → clase 1             |
+| 4  | Qué equipo de medida va a conectar?                     | Puede requerir salida 5A o 1A según el analizador             |
+| 5  | Cable o barra? Qué diámetro / sección?                 | Define si pasante, toroidal o de barra, y el diámetro ventana |
+
+CONSEJO: Los TI se venden siempre junto con analizadores de red o contadores de
+energía. Si el cliente pide un analizador de red (Schneider PM5xxx, Circutor CVM),
+preguntarle siempre si necesita los TI — el analizador sin TI no puede medir.
+Se necesitan normalmente 3 TI (uno por fase) para medición trifásica.
+El error más común es pedir un TI demasiado grande (ej. 600/5 para un circuito de
+80A) — el TI mide peor cuanto más lejos está de su corriente nominal. Recomendar
+un TI cuya corriente nominal sea 1,2 a 1,5 veces la corriente real esperada.
+NUNCA dejar el secundario de un TI en circuito abierto — puede generar tensiones
+peligrosas de miles de voltios. Siempre cortocircuitar el secundario si se
+desconecta el equipo de medida.
+
+============================================================
+Fuentes:
+- Schneider TI: https://www.se.com/es/es/product-range/62099-transformadores-de-corriente/
+- Circutor: https://circutor.com/productos/medida-y-control/transformadores/
+- ABB: https://new.abb.com/low-voltage/es/productos/medida-y-monitorizacion
+============================================================

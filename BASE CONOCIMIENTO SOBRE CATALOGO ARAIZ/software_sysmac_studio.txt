@@ -1,0 +1,123 @@
+CUADRO RESUMEN — SOFTWARE SYSMAC STUDIO (ENTORNO PROGRAMACIÓN OMRON NJ/NX)
+Familia: Electricidad > Aparellaje eléctrico > Autómatas programables y robots industriales
+Ejemplo en Araiz: Omron ref. SYSMACTA401L (Sysmac Studio Team Edition — 1 usuario)
+============================================================
+
+IMAGEN DEL PRODUCTO:
+https://www.ia.omron.com/products/family/3852/
+
+VÍDEO / REFERENCIA TÉCNICA:
+https://automation.omron.com/en/us/products/family/SysmacStudio
+
+Búsqueda recomendada en YouTube (español):
+"Sysmac Studio tutorial Omron NJ NX programación" o "Sysmac Studio primeros pasos PLC Omron"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Sysmac Studio es el software de programación de Omron para toda la gama actual de PLCs
+NJ/NX y sus periféricos: desde el PLC hasta los drives servo, pantallas HMI, módulos
+de seguridad, sistemas de visión y robots — todo se programa, configura y monitoriza
+desde una sola herramienta en el PC. Funciona con Windows y se instala con un DVD de
+instalación + una licencia (clave de activación). Sin licencia válida, el software
+entra en modo demostración con funcionalidad limitada. La licencia puede ser para 1, 3,
+10, 30 o ilimitados usuarios según la edición elegida.
+
+Lo que facilita:
+- Programar el PLC (NJ/NX) en los lenguajes estándar IEC 61131-3: escalera (Ladder),
+  texto estructurado (ST), diagrama de funciones (FBD) y diagrama de bloques (SFC).
+- Configurar los ejes de movimiento del servo drive Accurax G5 directamente desde el
+  mismo entorno, sin software adicional — esto es una ventaja clave de Omron frente a
+  otras marcas que necesitan herramientas separadas.
+- Depurar el programa en tiempo real: ver el estado de variables, forzar entradas,
+  monitorizar el seguimiento de movimiento del servo.
+- Simular el programa en el PC sin conectar el PLC físico: ideal para comprobar la
+  lógica antes de instalar en la máquina.
+- Diseñar pantallas HMI (con edición HMI) o configurar visión artificial (con edición
+  Vision) sin cambiar de herramienta.
+
+Lo que evita que ocurra:
+- Incompatibilidades entre software y hardware: Sysmac Studio garantiza compatibilidad
+  directa con toda la gama NJ/NX — no hay que buscar versiones de drivers.
+- Pérdida de tiempo cambiando entre herramientas: drive, PLC, HMI y seguridad en
+  un único entorno reduce errores y simplifica el proyecto.
+- Programar a ciegas: el simulador integrado permite probar la lógica completa en
+  el ordenador antes de conectar la máquina real.
+
+============================================================
+
+DIFERENCIA CLAVE: SYSMAC STUDIO vs CX-ONE (SOFTWARE ANTERIOR DE OMRON)
+--------------------------------------------------------------
+| Característica          | Sysmac Studio (actual)           | CX-One (generación anterior)     |
+|-------------------------|----------------------------------|----------------------------------|
+| PLCs compatibles        | NJ, NX, NX1P (gama actual)       | CS1, CJ1, CP1 (gama legacy)      |
+| Integración servo       | Sí — drive y PLC en 1 entorno    | No — software separado CX-Drive  |
+| Integración HMI         | Sí — con edición HMI             | Parcial — con CX-Designer        |
+| Simulación              | Sí — completa con movimiento     | Sí — solo lógica PLC             |
+| Lenguajes               | IEC 61131-3 completo + PLCopen   | Ladder + ST básico               |
+| Tipo de licencia        | Por usuario / por equipo         | Por paquete (1 clave todo)       |
+| ¿Se vende hoy?          | Sí — es la opción actual         | Solo actualizaciones legacy      |
+
+NOTA: Si el cliente tiene un PLC CS1/CJ1 (gama antigua), necesita CX-One, no Sysmac Studio.
+Si tiene NJ/NX: siempre Sysmac Studio.
+
+============================================================
+
+EDICIONES DE SYSMAC STUDIO
+--------------------------------------------------------------
+| Edición                  | Ref. ejemplo    | Para qué                                           | Cuándo usarla                             |
+|--------------------------|-----------------|-----------------------------------------------------|-------------------------------------------|
+| Standard Edition         | (sin sufijo)    | PLC NJ/NX completo: movimiento, lógica, red          | La más habitual — instalaciones completas  |
+| Lite Edition             | (sufijo Lite)   | Versión básica sin Motion (sin ejes servo)           | Aplicaciones solo lógica, sin movimiento  |
+| Drive Edition            | SYSMACDE001L    | Solo configuración de servo drives (sin PLC)         | Puesta a punto de drives sin programar PLC|
+| HMI Edition              | SYSMACHE001L    | Solo diseño de pantallas HMI                        | Ingenieros de HMI sin acceso al PLC       |
+| NX-IO Edition            | SYSMACNE001L    | Solo configuración módulos E/S NX                   | Ampliaciones de E/S en sistemas existentes|
+| Vision Edition           | (sufijo Vision) | Configuración sistemas de visión FH/FQ2             | Cuando se incluye visión artificial       |
+| Safety Edition           | (sufijo Safety) | Configuración bloques de seguridad NX-SL             | Máquinas con requisitos SIL/PLd           |
+| Team Edition             | SYSMACTA401L    | Trabajo en equipo: gestión de versiones y proyectos  | Departamentos de ingeniería (varios devs) |
+
+============================================================
+
+MODELOS DE LICENCIAS A CONOCER
+--------------------------------------------------------------
+| Licencias | Ref. ejemplo    | Cuándo usarla                                          |
+|-----------|-----------------|-------------------------------------------------------|
+| 1 usuario | SYSMACTA401L    | Un solo ingeniero o técnico en la empresa             |
+| 3 usuarios| SYSMACTA403L    | Equipo pequeño de 3 personas                          |
+| 10 usuarios|                | Departamento de automatización mediano                |
+| 30 usuarios|                | Departamento grande o empresa integradora             |
+| Site license|               | Sin límite de usuarios en la empresa — más económico  |
+| Actualización Lite→Standard | SYSMACLU501L | Si ya tienen Lite y necesitan servo/movimiento|
+
+NOTA: La licencia es para el número de PCs activos simultáneamente, no para el número
+de instalaciones. Con 1 licencia puedes instalar en varios PCs pero solo 1 puede
+estar conectado al PLC al mismo tiempo.
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                          | Por qué la necesitas                                                          |
+|----|-------------------------------------------------------------------|-------------------------------------------------------------------------------|
+| 1  | ¿Qué PLC tiene? ¿NJ/NX o CS1/CJ1/CP1?                            | NJ/NX → Sysmac Studio / CS1/CJ1/CP1 → CX-One (generación anterior)          |
+| 2  | ¿Cuántos ingenieros/técnicos van a programar?                     | Define si necesita 1, 3, 10 o más licencias                                  |
+| 3  | ¿Necesita programar ejes servo (movimiento)?                      | Si sí → Standard o superior (Lite no incluye Motion)                         |
+| 4  | ¿Tiene visión artificial, pantallas HMI o módulos de seguridad?   | Si sí → confirmar si necesita edición específica o la Standard cubre todo    |
+| 5  | ¿Ya tiene Sysmac Studio y quiere actualizar?                      | Actualización Lite→Standard es más barata que licencia nueva                 |
+| 6  | ¿Es para un proyecto puntual o uso continuo?                      | Define si merece la pena licencia Site o licencia individual                 |
+| 7  | ¿Tiene ya el DVD de instalación o solo necesita licencia?         | Hay refs que incluyen DVD + licencia y refs que son solo clave de activación  |
+
+CONSEJO: Sysmac Studio es la puerta de entrada a toda la gama Omron NJ/NX. Cada cliente
+que compra un PLC NJ/NX, un drive Accurax G5 EtherCAT o una pantalla HMI NA va a
+necesitar Sysmac Studio para ponerlo en marcha. Si el cliente ya tiene una versión
+antigua, suele necesitar actualización — preguntar siempre qué versión tiene.
+La edición Standard cubre el 80% de los casos: PLC + servo + red + HMI básico.
+
+============================================================
+Fuentes:
+- Omron Sysmac Studio (oficial): https://www.ia.omron.com/products/family/3852/
+- Automation Omron Sysmac Studio: https://automation.omron.com/en/us/products/family/SysmacStudio
+- Manual Sysmac Studio (PDF): https://assets.omron.eu/downloads/latest/manual/en/w504_sysmac_studio_version1_operation_manual_en.pdf
+- TME SYSMACDE001L: https://www.tme.com/us/en-us/details/sysmacde001l/software/omron/
+============================================================

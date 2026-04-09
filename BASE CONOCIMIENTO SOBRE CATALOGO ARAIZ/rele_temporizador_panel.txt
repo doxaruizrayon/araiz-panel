@@ -1,0 +1,136 @@
+CUADRO RESUMEN — RELÉ TEMPORIZADOR DE PANEL / CARRIL DIN (H3CR / RE7 / Finder 80)
+Familia: Electricidad > Aparellaje eléctrico > Temporizador, contador de horas, totalizador y minutero
+Ejemplo en Araiz: Omron ref. H3CR-A8 (Temporizador multifunción 100-240V AC 8 pines carril DIN)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"relé temporizador cómo funciona on delay off delay" o "temporizador H3CR Omron programación industrial"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Un relé temporizador es un dispositivo que cierra o abre un contacto eléctrico
+después de un tiempo predefinido — es el "reloj" del automatismo clásico.
+
+Antes de los PLCs, los esquemas de automatización industrial se construían con
+contactores, relés y temporizadores. Hoy siguen siendo imprescindibles cuando:
+- El automatismo es sencillo y no justifica un PLC.
+- Se necesita un temporizador como respaldo hardware de una función del PLC.
+- Mantenimiento de instalaciones antiguas con esquemas de relés.
+- Funciones de tiempo simples: retardo de arranque, retardo de parada, intermitencia.
+
+Tipos de temporización (los más habituales):
+| Tipo           | Sigla  | Comportamiento                                               | Uso típico                         |
+|----------------|--------|--------------------------------------------------------------|------------------------------------|
+| Retardo ON     | ON DLY | El contacto cierra DESPUÉS del tiempo, al activar la bobina  | Retardo de arranque                |
+| Retardo OFF    | OFF DLY| El contacto abre DESPUÉS del tiempo, al desactivar la bobina | Retardo de parada / ventilación    |
+| Intermitente   | FLK    | El contacto abre y cierra periódicamente (parpadeo)          | Señalización, pilotos intermitentes|
+| Estrella-Triáng| YD     | Temporiza la conmutación estrella-triángulo                  | Arranque estrella-triángulo        |
+| Un disparo     | ONE    | Activa el contacto durante un tiempo fijo al recibir señal  | Temporizador de acción             |
+| Multifunción   | MULTI  | Programable en varios modos desde el frontal                 | Uso general (el más vendido)       |
+
+**Omron H3CR (203 art.) — el más vendido**
+La gama H3CR es el temporizador de panel de referencia en automatización industrial
+española. Multifunción (7-11 modos seleccionables), montaje en carril DIN o en panel,
+rangos de tiempo de 0,05s a 300h. Compatible con la gama de relés Omron.
+- H3CR-A: 8 pines, el más habitual
+- H3CR-F: 11 pines, más contactos
+- H3CR-H: alta tensión
+
+**Schneider RE7 (66 art.)**
+La gama RE7 de Schneider (TeSys) es el equivalente del H3CR en instalaciones con
+estándar Schneider. Mismas funciones, mismo aspecto, referencias RE7TB, RE7TL...
+
+**Reloj minutero / reloj semanal (21 art., Siemens)**
+Aparatos que controlan el tiempo del día (no solo un retardo): programan
+conexión y desconexión de cargas a horas determinadas del día o de la semana.
+Siemens domina con la gama 7LF (minuteros mecánicos) y 7PR (digitales).
+Usos: encendido/apagado de alumbrado exterior, calefacción, equipos industriales.
+
+**Medidor de impulsos (38 art., Omron 32, Schneider 6)**
+Contadores que suman impulsos eléctricos recibidos por una entrada.
+Cada pulso puede representar una unidad de producción, una vuelta de encoder,
+un kWh, un litro de fluido... El contador acumula y muestra el total.
+Omron H7EC / H7ET son las referencias habituales.
+
+**Sin clase ETIM — marcas con temporizadores industriales (~200 art.):**
+- **Carlo Gavazzi (32)**: temporizadores de panel multifunción de alta calidad.
+  Serie IX y EI, muy habituales en automatización italiana y española.
+- **Finder (29)**: marca suizo-italiana especializada en relés y temporizadores.
+  Gama 80 (temporizadores), 85 (analógicos). Muy habitual en instalaciones clásicas.
+- **Crouzet (25)**: fabricante francés de temporizadores y automatismos.
+  Gama Millenium 3 (mini PLC) y temporizadores de panel.
+- **Rockwell (13)**: temporizadores Allen-Bradley para instalaciones con estándar Rockwell.
+- **Releco (7)**: marca española de relés y temporizadores industriales.
+
+Lo que facilita:
+- Automatizar retardos sin necesidad de PLC: retardo de arranque de ventilador,
+  retardo de parada de bomba, intermitencia de señal luminosa.
+- Sustituir temporizadores averiados en instalaciones antiguas.
+- Temporizar el cambio estrella-triángulo en arranques de motor (H3CR en modo YD).
+- Contar piezas producidas o ciclos de máquina con medidores de impulsos.
+
+============================================================
+
+DIFERENCIA CLAVE: TEMPORIZADOR HARDWARE vs TIMER DEL PLC
+--------------------------------------------------------------
+| Característica           | Temporizador hardware     | Timer en PLC               |
+|--------------------------|---------------------------|----------------------------|
+| Necesita PLC             | No (funciona solo)        | Sí                         |
+| Coste                    | Bajo (20-80 €)            | Incluido en el PLC         |
+| Modificar el tiempo      | Girar potenciómetro       | Cambiar parámetro en SW    |
+| Fiabilidad               | Alta (hardware dedicado)  | Depende del programa PLC   |
+| Flexibilidad             | Limitada (modos fijos)    | Total                      |
+| Uso actual               | Instalaciones simples     | Instalaciones con PLC      |
+
+============================================================
+
+GAMAS PRINCIPALES EN ARAIZ (~490 artículos)
+--------------------------------------------------------------
+| Marca          | Gama             | Modos           | Rangos de tiempo    | Tensión          |
+|----------------|------------------|-----------------|---------------------|------------------|
+| Omron          | H3CR-A/F/H       | 7-11 modos      | 0,05s a 300h        | 100-240V AC      |
+| Omron          | H3Y              | ON delay básico | 1s-180s / 1m-30m    | 24V DC / 100-240V|
+| Schneider      | RE7TB / RE7TL    | ON/OFF delay    | 0,05s a 100h        | 24-240V AC/DC    |
+| Siemens        | 3RP (minutero)   | ON delay / multi| 0,05s a 100h        | 24-240V AC/DC    |
+| Carlo Gavazzi  | EI30 / IX        | Multifunción    | 0,1s a 100h         | 12-240V AC/DC    |
+| Finder         | 80.01 / 80.11   | ON delay / multi| 0,1s a 100h         | Universal        |
+| ABB            | CT-series        | Multifunción    | 0,05s a 100h        | 24-240V AC/DC    |
+| Crouzet        | 88.827 / Multi3  | Multifunción    | 0,1s a 999h         | 24-240V AC/DC    |
+
+NÚMERO DE PINES — IMPORTANTE PARA SUSTITUCIÓN:
+| Pines | Zócalo    | Contactos              | Marcas habituales      |
+|-------|-----------|------------------------|------------------------|
+| 8     | 8 pines   | 1 SPDT (1NA+1NC)       | H3CR-A, RE7, Finder    |
+| 11    | 11 pines  | 2 SPDT (2NA+2NC)       | H3CR-F, algunos Carlo  |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                        | Por qué la necesitas                                        |
+|----|-----------------------------------------------------------------|-------------------------------------------------------------|
+| 1  | ¿Qué función de tiempo necesita? ¿Retardo ON, OFF, intermitente?| Define el modo de operación del temporizador                |
+| 2  | ¿Cuánto tiempo necesita temporizar? ¿Segundos, minutos, horas?  | Define el rango (no todos los modelos cubren todos los rangos)|
+| 3  | ¿Qué tensión de alimentación tiene el circuito de mando?        | 24V DC, 110V AC, 230V AC — define el modelo exacto         |
+| 4  | ¿Cuántos contactos necesita? 1 o 2 grupos NA/NC                 | Define si necesita 8 pines (1 grupo) u 11 pines (2 grupos) |
+| 5  | ¿Va en zócalo o en carril DIN?                                  | Los H3CR van en DIN; los H3Y van en zócalo enchufable       |
+| 6  | ¿Tiene el temporizador averiado? ¿Qué referencia lleva?         | Lo más frecuente es sustitución directa                     |
+
+CONSEJO: El Omron H3CR-A8 (8 pines, multifunción, 100-240V AC) es el temporizador
+más vendido en España para automatización industrial. Si el cliente viene con "se me
+ha roto el temporizador" sin más datos, preguntar la referencia del aparato y si
+es de 8 u 11 pines — con eso se identifica el modelo. El tiempo se ajusta girando
+el potenciómetro del frontal, igual que en el original.
+Para sustitución de Finder o Carlo Gavazzi: son muy equivalentes entre sí —
+si no hay stock de la marca exacta, se puede ofrecer un H3CR-A equivalente
+verificando que la tensión de alimentación y el número de pines coincidan.
+
+============================================================
+Fuentes:
+- Omron H3CR: https://industrial.omron.es/es/products/h3cr
+- Schneider RE7: https://www.se.com/es/es/product-subcategory/time-relays/
+- Finder temporizadores: https://www.findernet.com/es/producto/serie-80/
+- Carlo Gavazzi: https://www.gavazziautomation.com/es/products/time-relays.html
+============================================================

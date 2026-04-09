@@ -1,0 +1,91 @@
+CUADRO RESUMEN — MÓDULO DE AMPLIACIÓN PSR
+Familia: Electricidad > Aparellaje eléctrico > Autómatas programables
+Ejemplo en Araiz: Phoenix Contact ref. 1104887 (PSR-M-EF2-SDI16-PI)
+============================================================
+
+IMAGEN DEL PRODUCTO:
+https://www.phoenixcontact.com/en-us/products/safety-device-psr-m-ef2-sdi16-pi-1104887
+
+VÍDEO / REFERENCIA TÉCNICA:
+https://int.rsdelivers.com/product/phoenix-contact/1104887/phoenix-contact-psr-series-input/output-module-16-inputs-4-outputs-24-v/2205720
+
+Búsqueda recomendada en YouTube (español):
+"módulo ampliación seguridad PSR Phoenix Contact" o "extensión entradas seguras SIL TBUS"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Un módulo de ampliación PSR es el componente que se añade al módulo base de
+seguridad (ref. 1104975) cuando la instalación tiene más dispositivos de seguridad
+de los que el módulo base puede gestionar por sí solo. Se conecta directamente
+sobre el carril DIN junto al módulo base mediante el conector TBUS interno,
+sin necesidad de cableado adicional entre módulos. Cada módulo de extensión
+añade 16 entradas seguras adicionales al sistema.
+
+Lo que facilita:
+- Escalar el sistema de seguridad a medida que crece la instalación, añadiendo
+  módulos uno a uno sin rediseñar el sistema.
+- Conectar hasta 18 módulos de extensión a un único módulo base, cubriendo
+  instalaciones con muchos puntos de seguridad.
+- Reducir el cableado entre módulos: la conexión es mecánica vía TBUS en el carril.
+- Mantener el mismo nivel de certificación SIL 3 / PL e en todas las entradas ampliadas.
+
+Lo que evita que ocurra:
+- Tener que cambiar el módulo base por uno más grande cuando la instalación crece.
+- Cableado de señales de seguridad entre módulos (con el TBUS es todo interno).
+- Pérdida del nivel de seguridad al ampliar (la extensión mantiene la misma certificación).
+- Instalar un segundo sistema de seguridad independiente por falta de entradas.
+
+============================================================
+
+DIFERENCIA CLAVE CON OTROS MÓDULOS DE EXTENSIÓN PSR
+--------------------------------------------------------------
+| Tipo                              | Qué añade                          | Conector TBUS incluido | Cuándo usarlo                                  |
+|-----------------------------------|------------------------------------|------------------------|------------------------------------------------|
+| PSR-M-EF2-SDI16-PI (ref. 1104887) | 16 entradas seguras adicionales    | Incluido               | Ampliar entradas cuando el base se queda corto |
+| Módulo extensión salidas seguras  | Salidas seguras adicionales        | Incluido               | Cuando se necesitan más cortes de potencia     |
+| Módulo extensión mixto I/O        | Entradas + salidas adicionales     | Incluido               | Instalaciones mixtas con muchos I/O de seguridad|
+| Módulo TBUS pasivo                | Solo transmite datos entre módulos | —                      | Separar físicamente módulos en el carril       |
+
+============================================================
+
+CARACTERÍSTICAS TÉCNICAS BÁSICAS A SABER
+--------------------------------------------------------------
+| Parámetro                    | Qué significa                                    | Valor ref. 1104887 (Phoenix Contact)          |
+|------------------------------|--------------------------------------------------|-----------------------------------------------|
+| Entradas seguras añadidas    | Cuántas entradas de seguridad incorpora          | 16 entradas seguras (SDI)                     |
+| Nivel de seguridad           | Certificación de seguridad funcional             | Hasta SIL 3 / Cat. 4 PL e                    |
+| Conexión al módulo base      | Cómo se conecta al sistema                       | TBUS (conector de carril DIN incluido)        |
+| Alimentación                 | Tensión de trabajo                               | 24V DC                                        |
+| Módulos de extensión máx.    | Cuántos se pueden conectar al módulo base        | Hasta 18 módulos de extensión                 |
+| Conexión de campo            | Cómo se conectan los sensores de seguridad       | Push-in enchufable                            |
+
+============================================================
+
+TIPOLOGÍAS — VER CUADRO MÓDULO DE SEGURIDAD PSR (ref. 1104975)
+Este módulo siempre va acompañado del módulo base PSR. Sin el módulo base,
+el módulo de extensión no funciona de forma independiente.
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                          | Por qué la necesitas                                                          |
+|----|-------------------------------------------------------------------|-------------------------------------------------------------------------------|
+| 1  | ¿Ya tiene instalado el módulo base PSR? (ref. 1104975)            | Sin el módulo base este módulo no funciona — siempre van juntos               |
+| 2  | ¿Cuántos dispositivos de seguridad adicionales necesita conectar?  | 16 entradas por módulo de extensión — calcular cuántos hacen falta            |
+| 3  | ¿Tiene suficiente espacio en el carril DIN?                        | Cada módulo ocupa espacio en el armario — verificar antes de presupuestar     |
+| 4  | ¿El conector TBUS del módulo base está disponible?                 | Si el TBUS está ocupado o no es compatible → verificar con Phoenix Contact    |
+| 5  | ¿Es instalación nueva o ampliación de un sistema PSR existente?   | Si es ampliación → verificar versión del firmware del módulo base             |
+
+CONSEJO: Siempre presupuestar el módulo base (1104975) y los módulos de extensión
+(1104887) juntos. Un cliente que pide solo el módulo de extensión sin el base
+no podrá usarlo — preguntar siempre si ya tiene el sistema PSR instalado.
+
+============================================================
+Fuentes:
+- Ficha oficial Phoenix Contact 1104887: https://www.phoenixcontact.com/en-us/products/safety-device-psr-m-ef2-sdi16-pi-1104887
+- RS Delivers ref. 1104887: https://int.rsdelivers.com/product/phoenix-contact/1104887/phoenix-contact-psr-series-input/output-module-16-inputs-4-outputs-24-v/2205720
+- RSP Supply ref. 1104887: https://rspsupply.com/p-73031-phoenix-contact-1104887-extension-module-psr-m-ef2-sdi16-pi.aspx
+============================================================

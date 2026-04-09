@@ -1,0 +1,98 @@
+CUADRO RESUMEN — RELÉ DE CONMUTACIÓN / BORNA-RELÉ (MÓDULO RELÉ DE INTERFAZ)
+Familia: Electricidad > Aparellaje eléctrico > Autómatas programables y robots industriales
+Ejemplo en Araiz: Phoenix Contact ref. PLC-RSC-24DC/21 (Borna-relé 24V DC 1 contacto conmutado)
+============================================================
+
+IMAGEN DEL PRODUCTO:
+https://www.phoenixcontact.com/es-es/productos/borna-rele-plc-rsc-24dc-21
+
+VÍDEO / REFERENCIA TÉCNICA:
+https://www.phoenixcontact.com/es-es/productos/reles-de-interfaz
+
+Búsqueda recomendada en YouTube (español):
+"relé de interfaz borna relé PLC qué es para qué sirve" o "relé de señal módulo relé carril DIN PLC"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+El relé de conmutación (también llamado relé de interfaz, borna-relé o módulo relé)
+es un pequeño relé electromecánico montado en un zócalo de carril DIN que hace de
+intermediario entre la salida del PLC y el actuador de campo. La salida digital de
+un PLC normalmente es una señal de 24V DC con poca corriente (máximo 0,5A) — insuficiente
+para activar directamente contactores, motores pequeños, electroválvulas de gran tamaño
+u otros equipos de potencia. El relé de interfaz recibe esa señal débil del PLC en su
+bobina y cierra un contacto mecánico independiente que puede soportar 230V AC / 6-10A,
+permitiendo así controlar cargas de potencia desde la salida del PLC sin dañarlo.
+El modelo más habitual en Araiz es el Phoenix Contact PLC-RSC, que se monta directamente
+en el carril DIN como una borna y tiene el relé integrado.
+
+Lo que facilita:
+- Amplificar la señal de salida del PLC para activar cargas de más potencia:
+  la salida del PLC activa la bobina del relé; el contacto del relé activa la carga.
+- Proporcionar aislamiento galvánico entre el circuito de control (24V DC del PLC)
+  y el circuito de potencia (230V AC del actuador).
+- Cambiar la tensión de la señal: salida 24V DC del PLC → contacto que cierra 230V AC.
+- Invertir la lógica de una señal: el contacto NC (normalmente cerrado) del relé
+  da la señal contraria a la salida del PLC.
+- Proteger las salidas del PLC de posibles cortocircuitos o sobrecargas en el campo:
+  si se daña el relé, el PLC está protegido.
+
+Lo que evita que ocurra:
+- Daños en las salidas del PLC por conectar cargas de alta potencia directamente:
+  las salidas transistor del PLC no aguantan más de 0,5A — el relé soporta hasta 10A.
+- Mezcla de tensiones en el mismo circuito: el relé separa galvánicamente 24V DC
+  (control) de 230V AC (potencia).
+
+============================================================
+
+DIFERENCIA CLAVE: BORNA-RELÉ vs RELÉ DE SEÑAL CLÁSICO (FINDER, OMRON G2R)
+--------------------------------------------------------------
+| Característica          | Borna-relé (Phoenix PLC-RSC)     | Relé enchufable (Finder, G2R)    |
+|-------------------------|----------------------------------|----------------------------------|
+| Montaje                 | Carril DIN — se integra en cableado| Zócalo separado en carril DIN  |
+| Cableado                | Bornero integrado (push-in)      | Cables a bornero del zócalo      |
+| Espacio                 | Muy compacto (6-9 mm de ancho)   | Más espacio (17-22 mm)           |
+| Cambio de relé          | Extrae el módulo entero          | Solo extrae el relé del zócalo   |
+| Para qué                | Instalaciones densas en armario  | Instalaciones con muchos cambios |
+| Marcas en Araiz         | Phoenix Contact (260 uds)        | ABB (40 uds), varios            |
+
+============================================================
+
+MODELOS MÁS COMUNES EN ARAIZ
+--------------------------------------------------------------
+| Referencia              | Bobina    | Contactos | Para qué                           |
+|-------------------------|-----------|-----------|-------------------------------------|
+| PLC-RSC-24DC/21         | 24V DC    | 1 CO      | El más habitual — salida PLC 24V DC |
+| PLC-RSC-120UC/21        | 120V UC   | 1 CO      | Cuando la señal de control es 120V  |
+| PLC-RSC-230UC/21        | 230V AC   | 1 CO      | Bobina directa a 230V AC            |
+| PLC-RSC-24DC/21-21      | 24V DC    | 2 CO      | Doble contacto — 2 circuitos        |
+| ABB CR-P024DC2L         | 24V DC    | 2 CO      | Alternativa ABB con LED indicador   |
+
+NOTA: "CO" = contacto conmutado (tiene NA + NC). "21" = 1 contacto CO. "21-21" = 2 contactos CO.
+"UC" = Universal Current — funciona con CA o CC en el rango indicado.
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                               | Por qué la necesitas                                          |
+|----|--------------------------------------------------------|---------------------------------------------------------------|
+| 1  | ¿Qué tensión tiene la señal de control (bobina)?       | Define el modelo: 24V DC (lo más habitual), 12V DC, 230V AC  |
+| 2  | ¿Cuántos contactos necesita por relé?                  | 1 contacto (21) o 2 contactos (21-21)                        |
+| 3  | ¿Cuánta corriente necesita conmutar?                   | Estándar hasta 6A — si más, relé de potencia                 |
+| 4  | ¿La carga es CA o CC? ¿A qué tensión?                  | Confirmar que el contacto aguanta la tensión de la carga     |
+| 5  | ¿Cuántos relés necesita?                               | Un relé por canal de salida a aislar/amplificar              |
+
+CONSEJO: Los bornas-relé se venden por decenas o incluso por cientos en armarios
+de automatización grandes. Cada salida del PLC que controla una carga de potencia
+o que necesita aislamiento galvánico lleva su relé de interfaz. Si el cliente
+menciona "relés de interfaz" o "bornas-relé" ya sabe exactamente lo que necesita.
+Si solo habla de "relés en el armario", preguntar si son para señal (borna-relé)
+o para potencia (contactor) — son familias distintas.
+
+============================================================
+Fuentes:
+- Phoenix Contact PLC-RSC (oficial): https://www.phoenixcontact.com/es-es/productos/borna-rele-plc-rsc-24dc-21
+- ABB relés de señal: https://new.abb.com/low-voltage/products/modular-din-rail-products/signal-relays
+============================================================

@@ -1,0 +1,109 @@
+CUADRO RESUMEN — MÓDULO DE SALIDA ANALÓGICA
+Familia: Electricidad > Aparellaje eléctrico > Autómatas programables
+Ejemplo en Araiz: Phoenix Contact ref. 2688080 (AXL F AO8 1F — serie Axioline F)
+============================================================
+
+IMAGEN DEL PRODUCTO (ref. 2688080 Phoenix Contact):
+https://www.phoenixcontact.com/en-us/products/io-component-axl-f-ao8-1f-2688080
+
+VÍDEO / REFERENCIA TÉCNICA:
+https://es.rs-online.com/web/p/accesorios-para-controladores-y-automatas/2249848
+
+Búsqueda recomendada en YouTube (español):
+"módulo salida analógica PLC tutorial" o "señal analógica 4-20mA 0-10V PLC explicación"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Un módulo de salida analógica es el componente que permite al PLC enviar una
+señal variable y continua (no solo encendido/apagado) a un dispositivo de campo.
+En lugar de decir "enciéndete o apágate", le dice "ábrете un 60%" o
+"gira al 75% de velocidad". La señal se transmite en forma de voltaje (0-10V)
+o de corriente (4-20mA) que el dispositivo receptor interpreta como un valor
+proporcional a lo que debe hacer.
+
+Lo que facilita:
+- Controlar de forma precisa y proporcional actuadores como variadores de
+  velocidad, válvulas proporcionales, servomotores o sistemas de calefacción.
+- Regular gradualmente procesos industriales: temperatura, presión, caudal,
+  posición... en lugar de hacer control todo/nada.
+- Comunicar al PLC con dispositivos que trabajan con señal estándar industrial
+  (4-20mA o 0-10V), que son la mayoría de instrumentos de proceso.
+
+Lo que evita que ocurra:
+- Que el proceso solo pueda estar "al 100% o al 0%", sin control intermedio
+  (lo que causa golpes de ariete, desgaste prematuro o producto fuera de spec).
+- Pérdida de precisión en el control: la señal 4-20mA es inmune al ruido y
+  permite detectar cable roto (si llega 0mA en vez de 4mA = fallo de sensor).
+- Que el PLC quede sin capacidad de salidas analógicas cuando la instalación
+  crece (se añade un módulo extra sin cambiar el PLC).
+
+============================================================
+
+DIFERENCIA CLAVE ENTRE TIPOS DE SEÑAL ANALÓGICA DE SALIDA
+--------------------------------------------------------------
+| Tipo de señal    | Rango         | Ventaja principal                              | Inconveniente                          | Cuándo usarlo                                    |
+|------------------|---------------|------------------------------------------------|----------------------------------------|--------------------------------------------------|
+| Corriente 4-20mA | 4 a 20 mA     | Inmune al ruido eléctrico, detecta cable roto  | Necesita bucle de corriente alimentado | Distancias largas, entornos industriales ruidosos|
+| Corriente 0-20mA | 0 a 20 mA     | Rango completo desde cero                      | No detecta cable roto (0mA = normal)   | Aplicaciones donde el cero real es necesario     |
+| Voltaje 0-10V    | 0 a 10 V      | Sencillo de medir y verificar con polímetro    | Sensible al ruido en cables largos     | Distancias cortas, dentro del mismo armario      |
+| Voltaje -10/+10V | -10 a +10 V   | Control bidireccional (avance y retroceso)     | Igual de sensible al ruido             | Servomotores y ejes con dos sentidos de giro     |
+| Voltaje 0-5V     | 0 a 5 V       | Compatible con algunos dispositivos específicos| Menor margen de señal                  | Dispositivos que solo admiten 5V                 |
+
+El ref. 2688080 admite todos los rangos anteriores: se configura por software para cada canal.
+
+============================================================
+
+CARACTERÍSTICAS TÉCNICAS BÁSICAS A SABER
+--------------------------------------------------------------
+| Parámetro                  | Qué significa                                    | Valor ref. 2688080 (Phoenix Contact)          |
+|----------------------------|--------------------------------------------------|-----------------------------------------------|
+| Número de salidas          | Cuántos canales analógicos de salida             | 8 salidas analógicas                          |
+| Rangos de señal            | Tipos de señal que puede generar                 | 0-5V / ±5V / 0-10V / ±10V / 0-20mA / 4-20mA / ±20mA |
+| Tecnología de conexión     | Cómo se conectan los cables                      | 2 conductores por canal                       |
+| Velocidad de bus local     | Comunicación con el acoplador                    | 100 Mbps                                      |
+| Tensión de alimentación    | La que necesita el módulo                        | 24V DC (+ 5V DC vía bus base)                 |
+| Grado de protección        | Nivel de estanqueidad                            | IP20 → interior de armario                    |
+| Temperatura de trabajo     | Rango admisible                                  | -25°C a +60°C                                 |
+| Serie / familia            | Sistema al que pertenece                         | Axioline F (solo compatible con acoplador AXL)|
+
+============================================================
+
+TIPOLOGÍAS DE MÓDULOS DE SALIDA ANALÓGICA
+--------------------------------------------------------------
+| Tipología                       | Descripción                                                  | Cuándo se usa                                        |
+|---------------------------------|--------------------------------------------------------------|------------------------------------------------------|
+| Salida en tensión (0-10V)       | Genera un voltaje variable                                   | Distancias cortas, dentro del armario                |
+| Salida en corriente (4-20mA)    | Genera una corriente variable en bucle                       | Distancias largas, entornos con ruido eléctrico      |
+| Multirrango configurable        | Se configura por software para voltaje o corriente           | El más flexible. El ref. 2688080 es de este tipo     |
+| Con HART                        | Además de la señal analógica, transmite datos digitales      | Instrumentación avanzada (diagnóstico remoto)        |
+| Descentralizado IP65            | Se instala fuera del armario, en campo                       | Actuadores alejados del cuadro principal             |
+| De seguridad (SIL)              | Certificado para funciones de parada de emergencia           | Válvulas de seguridad, sistemas con riesgo personal  |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                          | Por qué la necesitas                                                          |
+|----|-------------------------------------------------------------------|-------------------------------------------------------------------------------|
+| 1  | ¿Qué PLC o sistema de control tiene?                              | El módulo debe ser de la misma familia (Axioline F, TM3...)                   |
+| 2  | ¿Cuántas salidas analógicas necesita?                             | Para saber cuántos módulos hacen falta (este tiene 8 canales)                 |
+| 3  | ¿Qué tipo de señal admite el dispositivo que va a controlar?      | 4-20mA o 0-10V: el módulo debe generar lo que el actuador espera recibir     |
+| 4  | ¿Qué dispositivos va a controlar? (variador, válvula, servomotor) | Define el rango de señal necesario y si hace falta señal bipolar (±10V)       |
+| 5  | ¿A qué distancia están los actuadores del cuadro?                 | Distancias largas → corriente 4-20mA. Distancias cortas → voltaje 0-10V      |
+| 6  | ¿Hay mucho ruido eléctrico en la instalación? (motores, variadores)| Con ruido → siempre 4-20mA, es inmune al ruido                               |
+| 7  | ¿Va dentro de un armario o en campo abierto?                      | IP20 para armario / IP65-67 para campo                                        |
+| 8  | ¿Es instalación nueva o ampliación?                               | Si es ampliación debe ser de la misma serie que lo existente                  |
+
+CONSEJO: La señal 4-20mA es la estándar en industria para distancias medias-largas.
+La 0-10V es más habitual en aplicaciones dentro del armario o en domótica/climatización.
+Si el cliente no sabe qué señal necesita, pregunta directamente al fabricante del actuador.
+
+============================================================
+Fuentes:
+- Ficha oficial Phoenix Contact 2688080: https://www.phoenixcontact.com/en-us/products/io-component-axl-f-ao8-1f-2688080
+- Señales analógicas 4-20mA vs 0-10V: https://www.programacionmultidisciplinar.com/curso-de-tia-portal/entradas-y-salidas-analogicas/
+- Conversión señal analógica: https://www.industrialshields.com/blog/arduino-industrial-1/how-to-convert-a-4-20ma-to-0-10v-signal-in-an-arduino-plc-80
+- Entradas analógicas en S7: https://programacionsiemens.com/entradas-analogicas-4-20ma-en-s7/
+============================================================

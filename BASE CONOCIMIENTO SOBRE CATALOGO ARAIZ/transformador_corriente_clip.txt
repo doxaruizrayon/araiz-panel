@@ -1,0 +1,91 @@
+CUADRO RESUMEN — TRANSFORMADOR DE CORRIENTE (TC / CLIP-ON CT)
+Familia: Electricidad > Aparellaje eléctrico > Autómatas programables y robots industriales
+Ejemplo en Araiz: Omron ref. K8ACCT200L (Transformador de corriente para K8AB-AS3)
+============================================================
+
+IMAGEN DEL PRODUCTO:
+https://www.ia.omron.com/products/family/1847/
+
+VÍDEO / REFERENCIA TÉCNICA:
+https://industrial.omron.co.uk/en/products/k8ab
+
+Búsqueda recomendada en YouTube (español):
+"transformador corriente clip-on amperímetro cuadro eléctrico" o "TC toroidal medida corriente panel"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Un transformador de corriente (TC) es un componente que permite medir corrientes
+eléctricas grandes (decenas o cientos de amperios) con instrumentos de medida pequeños
+(que trabajan con señales de mA o de 5A máximo). Funciona por inducción magnética:
+el cable de potencia pasa por el interior del toroide del TC, y este genera en su
+salida una corriente proporcional pero mucho más pequeña y segura para conectar al
+medidor. Los modelos "tipo clip" (clip-on) se instalan sin cortar el cable — se
+abre el clip, se rodea el cable y se cierra. Esto los hace ideales para instalar en
+instalaciones ya existentes sin parar la línea.
+
+Lo que facilita:
+- Medir corrientes de 5A, 50A o 400A sin conectar el instrumento directamente al
+  cable de potencia — el instrumento solo ve mA o 5A, no los amperios reales.
+- Instalar la medida en cables ya tendidos sin cortar ni empalmar: los modelos
+  clip-on se abren y rodean el cable existente.
+- Conectar a cualquier amperímetro, relé de monitorización (K8AB de Omron),
+  analizador de red o entradas analógicas de PLC estándar.
+- Controlar el consumo de motores, líneas o cuadros para detectar sobrecargas,
+  desequilibrios de fases o averías tempranas.
+
+Lo que evita que ocurra:
+- Riesgo eléctrico al medir: el TC aísla galvánicamente el instrumento del cable
+  de potencia — el técnico nunca toca la tensión de línea.
+- Paradas de producción para instalar medida: el clip-on no requiere interrumpir
+  el suministro.
+- Sobredimensionamiento de instrumentos: un relé K8AB de 24V DC mide cualquier
+  línea de cientos de amperios gracias al TC.
+
+============================================================
+
+DIFERENCIA CLAVE: TC TOROIDAL vs TC CLIP-ON
+--------------------------------------------------------------
+| Característica      | TC toroidal (fijo)               | TC clip-on (abre)                |
+|---------------------|----------------------------------|----------------------------------|
+| Instalación         | El cable debe pasar por el hueco | Se abre, rodea el cable, cierra  |
+| Cuándo instalar     | En instalación nueva             | En instalación existente         |
+| Precio              | Más económico                    | Algo más caro                    |
+| Uso típico          | Cuadros nuevos, obra nueva       | Retrofitting, medición temporal  |
+
+============================================================
+
+MODELOS A CONOCER
+--------------------------------------------------------------
+| Modelo           | Corriente nominal | Tipo de cable | Cuándo usarlo                         |
+|------------------|-------------------|---------------|---------------------------------------|
+| CT 5A (7,9mm)    | 5A                | Cable fino    | Líneas de poca potencia               |
+| CT 50A (9,5mm)   | 50A               | Cable ≤9,5mm  | Motores pequeños-medios               |
+| CT 400A (35,5mm) | 400A              | Cable ≤35,5mm | Líneas de alta corriente              |
+| K8ACCT200L       | 200A              | Para K8AB     | Específico para relé monitor K8AB-AS3 |
+
+NOTA: El diámetro del cable del CT debe ser mayor que el cable de potencia. Verificar
+siempre que el cable de la instalación cabe por el hueco del CT.
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                          | Por qué la necesitas                                                          |
+|----|-------------------------------------------------------------------|-------------------------------------------------------------------------------|
+| 1  | ¿Cuántos amperios circulan por el cable que quiere medir?         | Define el modelo: 5A / 50A / 200A / 400A — no sirve uno demasiado pequeño    |
+| 2  | ¿Cuántos mm de diámetro tiene el cable o la barra?                | El cable debe pasar por el interior del CT — verificar que cabe              |
+| 3  | ¿A qué instrumento conecta la salida del TC?                      | El TC da señal de 5A o mA — el instrumento destino debe aceptar esa señal    |
+| 4  | ¿Es instalación nueva o ya tiene el cable tendido?                | Nueva → TC toroidal / Existente → TC clip-on sin parar la línea              |
+| 5  | ¿Necesita el TC junto con el relé monitor K8AB?                   | Si sí → confirmar modelo K8ACCT200L específico para K8AB-AS3                 |
+
+CONSEJO: Los TCs de Omron son accesorios que casi siempre se venden junto con el
+relé monitor de corriente K8AB — es el caso más habitual. Si el cliente pide solo
+el TC, preguntar si ya tiene el instrumento de medida al que lo va a conectar.
+
+============================================================
+Fuentes:
+- Omron transformadores de corriente (oficial): https://www.ia.omron.com/products/family/1847/
+- TME K8ACCT200L: https://www.tme.com/us/en-us/details/k8ac-ct200l/current-transformers/omron/
+============================================================

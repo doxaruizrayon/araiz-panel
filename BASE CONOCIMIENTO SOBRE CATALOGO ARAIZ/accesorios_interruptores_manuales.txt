@@ -1,0 +1,111 @@
+CUADRO RESUMEN — ACCESORIOS PARA INTERRUPTORES MANUALES Y DISYUNTORES
+Familia: Electricidad > Aparellaje eléctrico > Interruptor y conmutador manual
+Ejemplo en Araiz: ABB ref. MS165-AT (Maneta giratoria para disyuntor T max XT2/XT3)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"accesorios disyuntor maneta motorización auxiliares" o "bloqueo candado LOTO interruptor industrial"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Este grupo recoge todos los complementos y accesorios que se añaden a los seccionadores,
+interruptores de leva, conmutadores y disyuntores. Son piezas que no funcionan solas
+pero que amplían, adaptan o aseguran el funcionamiento del aparato principal.
+
+**Principales tipos de accesorios:**
+
+1. **Manetas y accionamientos** (82 art.): Las manetas o mangos que van en la puerta
+   del cuadro y trasmiten el movimiento al disyuntor interior. Pueden ser:
+   - Maneta directa (la palanca queda en la puerta)
+   - Maneta giratoria (tipo "rotary handle" — más ergonómica)
+   - Eje de extensión (para disyuntores profundos en el armario)
+   ABB (39), Schneider (23), Eaton (12), Gave (7).
+
+2. **Accionamientos eléctricos / motorizaciones** (40 art.): Motores que permiten
+   abrir/cerrar el disyuntor de forma remota o automática, sin intervención manual.
+   Hager domina (40 art.). Se usan para automatización de cuadros generales, telegestión,
+   o para poder disparar el disyuntor desde un SCADA o PLC.
+
+3. **Bloques de contactos auxiliares** (42 art.): Contactos eléctricos adicionales
+   que indican el estado del interruptor (abierto/cerrado) o señalan un disparo.
+   Se conectan a PLC, alarmas o pilotos para monitorizar el estado del aparato.
+   ABB (18), Eaton (6), Gewiss (6), Hager (6), Schneider (5).
+
+4. **Ejes y adaptadores de conmutador** (41 art.): Ejes de extensión para
+   interruptores de leva (22 art., ABB/Gave) e interruptores normales (19 art., Hager/Schneider).
+   Sirven para montar el actuador en la puerta del armario cuando el aparato
+   está montado en profundidad.
+
+5. **Accesorios generales para interruptores BT** (224 art.): Rating plugs, tapas,
+   etiquetas, kits de bornes, separadores de fase, accesorios de montaje.
+   ABB (116), Schneider (54), Hager (33), Gewiss (20).
+
+6. **Accesorios de bloqueo LOTO** (incluidos en varios): Dispositivos para bloquear
+   el interruptor en posición abierta con candado, impidiendo que nadie lo conecte
+   mientras alguien trabaja en el circuito. Obligatorio en muchos procedimientos
+   de seguridad industrial.
+
+Lo que facilita:
+- Adaptar el aparato a la instalación física del armario.
+- Monitorizar el estado de la protección desde el PLC o SCADA.
+- Automatizar la apertura/cierre remota de circuitos principales.
+- Cumplir procedimientos de seguridad (LOTO) sin comprar otro aparato.
+
+Lo que evita que ocurra:
+- Tener que sustituir el disyuntor completo cuando solo falta un accesorio.
+- Accidentes por reconexión accidental durante mantenimiento (bloqueos LOTO).
+
+============================================================
+
+TABLA DE ACCESORIOS POR TIPO
+--------------------------------------------------------------
+| Tipo de accesorio               | Art. | Marcas principales              | Para qué aparato           |
+|---------------------------------|------|---------------------------------|----------------------------|
+| Accesorios generales BT         | 224  | ABB(116), Schneider(54), Hager  | MCCB, MCB, seccionadores   |
+| Manetas y accionamientos manual | 82   | ABB(39), Schneider(23), Eaton   | MCCB y disyuntores         |
+| Bloques contactos auxiliares    | 42   | ABB(18), Gewiss(6), Hager(6)    | Seccionadores y disyuntores|
+| Accionamientos eléctricos       | 40   | Hager(40)                       | MCB modulares              |
+| Ejes conmutador (leva)          | 22   | ABB(19), Gave(3)                | Interruptores de leva      |
+| Ejes interruptor general        | 19   | Hager(12), Schneider(7)         | Interruptores modulares    |
+| Elementos frontales selectores  | 17   | Schneider(17)                   | Selectores modulares       |
+| Accionamiento manual disp.      | 16   | Schneider(8), Hager(8)          | Disyuntores modulares      |
+
+TIPOS DE ACCIONAMIENTO (maneta) — los más pedidos:
+| Tipo                    | Descripción                              | Uso                              |
+|-------------------------|------------------------------------------|----------------------------------|
+| Maneta directa          | Palanca simple en la puerta del cuadro  | Cuadros de pared accesibles      |
+| Maneta giratoria        | Accionamiento tipo "rotary" 90°         | Cuadros industriales estándar    |
+| Accionamiento motorizado| Motor eléctrico + control remoto        | Telegestión, SCADA               |
+| Interbloqueo puerta     | Impide abrir la puerta con aparato ON   | Seguridad (cuadros accesibles)   |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                          | Por qué la necesitas                                         |
+|----|-------------------------------------------------------------------|--------------------------------------------------------------|
+| 1  | ¿Para qué aparato principal es el accesorio?                      | Los accesorios son específicos por marca, gama y talla       |
+| 2  | ¿Qué referencia exacta tiene el disyuntor o seccionador?          | Imprescindible — sin eso es imposible acertar el accesorio   |
+| 3  | ¿Qué función necesita? ¿Maneta, contacto auxiliar, bloqueo...?    | Define el tipo de accesorio                                  |
+| 4  | ¿El armario tiene qué profundidad? ¿La puerta está a qué distancia?| Define la longitud del eje o la maneta necesaria            |
+| 5  | ¿Necesita que se pueda bloquear con candado?                       | Accesorios LOTO específicos por modelo                      |
+| 6  | ¿Necesita contacto de indicación de estado para el PLC?            | Si sí: bloque auxiliar NC para "disparo" o NA para "cerrado" |
+
+CONSEJO: Los accesorios para disyuntores son los productos más "peligrosos" de pedir
+sin la referencia exacta del aparato principal. Una maneta de ABB Tmax XT2 NO encaja
+en una Tmax XT3. Un eje de Schneider NSX NO vale para NSX100.
+Regla de oro: el cliente debe darte la referencia completa del disyuntor (que está
+grabada en la carcasa del aparato) antes de buscar el accesorio.
+Si solo saben "es un ABB de 160A", hay que ir a la instalación a leer la ref. directamente.
+
+Para accionamientos motorizados: preguntar siempre la tensión de alimentación del motor
+(24V DC, 110V AC o 230V AC) porque hay versiones distintas.
+
+============================================================
+Fuentes:
+- ABB accesorios Tmax: https://new.abb.com/low-voltage/es/productos/aparamenta/accesorios-disyuntores
+- Schneider accesorios NSX: https://www.se.com/es/es/product-subcategory/circuit-breakers-accessories/
+- Eaton accesorios NZM: https://www.eaton.com/es/es-es/catalog/accessories-for-circuit-breakers.html
+============================================================

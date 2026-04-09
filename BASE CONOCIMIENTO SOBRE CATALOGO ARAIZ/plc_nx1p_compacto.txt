@@ -1,0 +1,93 @@
+CUADRO RESUMEN — PLC NX1P2 COMPACTO (SYSMAC NX COMPACT — CON SERVO INTEGRADO)
+Familia: Electricidad > Aparellaje eléctrico > Autómatas programables y robots industriales
+Ejemplo en Araiz: Omron ref. NX1P29B24DT (CPU Sysmac NX1P2 24 E/S NPN 1MB EtherCAT 2 ejes servo)
+============================================================
+
+IMAGEN DEL PRODUCTO:
+https://www.ia.omron.com/products/family/3633/
+
+VÍDEO / REFERENCIA TÉCNICA:
+https://industrial.omron.co.uk/en/products/nx1p2
+
+Búsqueda recomendada en YouTube (español):
+"Omron NX1P2 configuración Sysmac Studio servo" o "NX1P2 diferencia CP1H machine controller"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+El NX1P2 es el PLC compacto de gama actual de Omron: tiene el formato de un CP1H
+(pequeño, todo en uno) pero con la potencia de un Machine Controller NJ/NX —
+incluyendo control de hasta 4 ejes servo EtherCAT, bus NX para módulos de E/S
+y programación con Sysmac Studio. Es el equipo ideal para máquinas nuevas de
+tamaño medio que necesitan entre 1 y 4 ejes servo y hasta ~200 E/S: inyectoras
+pequeñas, alimentadores, máquinas de etiquetado, dosificadoras, pick & place...
+Todo configurado desde Sysmac Studio — PLC + servo + E/S en un solo entorno.
+
+Lo que facilita:
+- Controlar lógica PLC + ejes servo desde una CPU compacta: sin necesidad de
+  controlador de movimiento separado.
+- Ampliar E/S con módulos NX en el lateral: hasta 63 módulos NX (digital,
+  analógico, seguridad, comunicación) sin cambiar la CPU.
+- Conectar directamente los drives servo Accurax G5 (R88D-KN-ECT) por EtherCAT:
+  la misma red Ethernet conecta drive1 → drive2 → drive3 → drive4.
+- Programar con Sysmac Studio igual que un NJ: mismo lenguaje, mismas librerías,
+  mismas instrucciones de movimiento PLCopen.
+- Instalar en armario compacto: el NX1P2 mide 130x100x90mm — cabe junto a los
+  drives en un armario pequeño.
+
+Lo que evita que ocurra:
+- Necesitar una CPU NJ grande y cara para una máquina con solo 2-4 ejes: el NX1P2
+  hace lo mismo a un coste significativamente menor.
+- Gestionar software separado para PLC y motion: Sysmac Studio lo unifica todo.
+- Perder E/S al pasar del CP1H al NX1P2: el bus NX cubre la misma funcionalidad
+  con mejores prestaciones.
+
+============================================================
+
+VARIANTES NX1P2 A CONOCER
+--------------------------------------------------------------
+| Modelo             | E/S integradas | Ejes EtherCAT | Salidas   | Cuándo usarlo               |
+|--------------------|---------------|---------------|-----------|-----------------------------|
+| NX1P2-9B24DT       | 14 ent/10 sal | 2 ejes servo  | NPN       | Máquinas con hasta 2 servos |
+| NX1P2-9B40DT       | 24 ent/16 sal | 2 ejes servo  | NPN       | Más E/S integradas          |
+| NX1P2-1202DT       | 24 ent/16 sal | 4 ejes servo  | NPN       | Hasta 4 servos              |
+
+NOTA: Las E/S del NX1P2 son el punto de partida. Con módulos NX en el bus lateral
+se pueden ampliar hasta ~512 E/S digitales adicionales.
+
+============================================================
+
+DIFERENCIA CLAVE: NX1P2 vs CP1H vs NJ
+--------------------------------------------------------------
+| Característica      | NX1P2 (compacto actual)  | CP1H (compacto legacy)   | NJ5 (alta gama)     |
+|---------------------|--------------------------|--------------------------|---------------------|
+| Ejes servo          | Hasta 4 (EtherCAT)       | Pulsos (no servo real)   | Hasta 256 (EtherCAT)|
+| Bus E/S             | Bus NX lateral           | Módulos CP1W             | CJ I/O o NX         |
+| Programación        | Sysmac Studio            | CX-Programmer (CX-One)   | Sysmac Studio       |
+| Precio              | Medio                    | Bajo                     | Alto                |
+| Para qué            | Máquinas medianas nuevas | Máquinas simples legacy  | Líneas completas    |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                               | Por qué la necesitas                                          |
+|----|--------------------------------------------------------|---------------------------------------------------------------|
+| 1  | ¿Cuántos ejes servo necesita controlar?                | 1-2 ejes → NX1P2-9B / 3-4 ejes → NX1P2-1202               |
+| 2  | ¿Cuántas E/S digitales/analógicas necesita?             | Define si con las integradas basta o necesita módulos NX extra|
+| 3  | ¿Tiene ya los drives G5 (R88D-KN-ECT)?                  | EtherCAT → los drives van en cadena con el NX1P2             |
+| 4  | ¿Tiene licencia Sysmac Studio Standard?                 | Sin Sysmac Studio no se programa el NX1P2                    |
+| 5  | ¿Es una máquina nueva o migración desde CP1H?           | Migración → preguntar si el programa existe en CX-Programmer |
+
+CONSEJO: El paquete más habitual para máquina mediana nueva: NX1P2 + 1-2 drives G5
+(R88D-KN-ECT) + 2 servomotores R88M-K + cables servo + módulos NX de E/S +
+Sysmac Studio. Si el cliente ya tiene CP1H y quiere añadir servo, el NX1P2 es el
+salto natural — mismo tamaño, más potencia, con servo de verdad.
+
+============================================================
+Fuentes:
+- Omron NX1P2 (oficial): https://www.ia.omron.com/products/family/3633/
+- Manual NX1P2 Hardware: https://assets.omron.eu/downloads/latest/manual/en/w579_nx1p2_cpu_unit_hardware_users_manual_en.pdf
+- TME NX1P2: https://www.tme.com/us/en-us/details/nx1p2-9b24dt/plc-controllers/omron/
+============================================================

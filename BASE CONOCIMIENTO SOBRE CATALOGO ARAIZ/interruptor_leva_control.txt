@@ -1,0 +1,101 @@
+CUADRO RESUMEN — INTERRUPTOR DE LEVA / CONTROL (P-series control / Telergon / TeSys)
+Familia: Electricidad > Aparellaje eléctrico > Interruptor y conmutador manual
+Ejemplo en Araiz: Eaton ref. P1-25/EA/SVB-SW (Interruptor de leva 25A 3P para panel de control)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"interruptor de leva panel de control industrial" o "cam switch control panel eaton P-series"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Un interruptor de leva o interruptor de control es un dispositivo rotativo de maniobra
+manual con múltiples posiciones y combinaciones de contactos configurables.
+A diferencia del seccionador (que solo abre/cierra un circuito), el interruptor de leva
+puede tener 3, 4, 6 o más posiciones y actuar sobre varios circuitos simultáneamente
+según la posición de la leva, siguiendo un "diagrama de conmutación" o tabla de contactos.
+
+Aplicaciones típicas:
+- **Selector de modo**: Manual / 0 / Automático en paneles de control de motores.
+- **Inversión de marcha manual**: Adelante / 0 / Atrás con contactos configurados.
+- **Selección de velocidad**: Baja / 0 / Alta en motores de dos velocidades.
+- **Arranque estrella-triángulo manual**: secuencia de conmutación con posiciones.
+- **Interruptor principal de máquina**: el gran interruptor de leva rojo en la puerta
+  del cuadro que corta toda la máquina.
+- **Control manual de circuitos**: iluminación de zonas, ventiladores, resistencias.
+
+La diferencia con un seccionador simple:
+- Seccionador: solo 2 posiciones (0/I). Un circuito. Para aislar.
+- Interruptor de leva: múltiples posiciones, múltiples contactos. Para controlar.
+
+Lo que facilita:
+- Modos de operación complejos sin necesidad de PLC o automatización adicional.
+- Esquemas clásicos de arranque de motores en paneles sin PLC.
+- Selección manual de fuentes o circuitos en instalaciones industriales.
+- Reemplazar pulsadores múltiples por un único selector rotativo.
+
+============================================================
+
+DIFERENCIA CLAVE: INTERRUPTOR DE LEVA vs SECCIONADOR vs SELECTOR (PULSATERÍA)
+--------------------------------------------------------------
+| Característica         | Interruptor de leva       | Seccionador          | Selector pulsatería    |
+|------------------------|---------------------------|----------------------|------------------------|
+| Posiciones             | 2, 3, 4, 6... (configur.)| 0/I                  | 2 o 3 posiciones       |
+| Corriente              | Alta (hasta 125A)         | Alta (hasta 3200A)   | Baja (mando, ≤10A)    |
+| Contactos simultáneos  | Múltiples (diagrama)      | Un circuito          | 1 o 2 (NA/NC)          |
+| Montaje                | Panel puerta / carril DIN | Carril DIN / panel   | Panel puerta (22mm)    |
+| Función                | Control y maniobra        | Aislamiento seguro   | Señal de mando al PLC  |
+| Uso                    | Cuadros industriales clás.| Mantenimiento        | Automatización moderna |
+
+============================================================
+
+GAMAS PRINCIPALES EN ARAIZ (~1.877 artículos)
+--------------------------------------------------------------
+| Marca            | Gama                          | Referencias tipo            | Corriente típica  |
+|------------------|-------------------------------|-----------------------------|--------------------|
+| Eaton            | P-series control (P1/P3)      | P1-25/EA/SVB, P3-63/HI3/SVB| 16 A a 100 A       |
+| Telergon         | T0/T1/T2 series               | T0-3-8011, T1-3-8211        | 20 A a 125 A       |
+| Telemecanique    | TeSys control                 | VCF3, VCF4                  | 25 A a 100 A       |
+| Rockwell         | 194E / 194L                   | 194E-A25-1753               | 20 A a 100 A       |
+| ABB EPIS         | OHB / ONA                     | OHB65J12E                   | 25 A a 65 A        |
+| Gave             | GAZ-K / rotativo control      | GAZ-16/K3, GAZ-32/K3        | 16 A a 32 A        |
+
+Nota: Los 939 artículos "sin clase ETIM" en este grupo son principalmente Telergon (369)
+y Telemecanique (224) — marcas clásicas en instalaciones industriales españolas con
+interruptores de leva que el catálogo Araiz no ha clasificado ETIM aún.
+
+POSICIONES MÁS HABITUALES:
+| Código posición | Descripción                              | Uso típico                     |
+|-----------------|------------------------------------------|--------------------------------|
+| 2 posiciones    | 0 / I                                    | Encendido/apagado simple       |
+| 3 posiciones    | I / 0 / II (o Man / 0 / Auto)            | Selector modo operación        |
+| 4 posiciones    | I / II / 0 / III                         | Selección velocidades/fases    |
+| Con bloqueo     | SVB (schwarze Verriegelung Bügelschloss) | Bloqueo con candado            |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                        | Por qué la necesitas                                       |
+|----|-----------------------------------------------------------------|------------------------------------------------------------|
+| 1  | ¿Cuántas posiciones necesita? (2, 3, 4...)                      | Define el código de referencia y el diagrama de contactos  |
+| 2  | ¿Cuántos amperios tiene que soportar?                           | Define la talla (P1=25A, P3=63A)                           |
+| 3  | ¿Cuántos circuitos independientes controla simultáneamente?     | Define el número de contactos / módulos                    |
+| 4  | ¿Va en puerta del cuadro o en carril DIN?                       | Define el tipo de montaje y accesorios de fijación         |
+| 5  | ¿Tiene un esquema o diagrama de contactos?                      | Imprescindible para referencias con múltiples contactos    |
+| 6  | ¿Es para sustituir uno existente? ¿Qué marca y referencia?      | Los diagramas de contactos varían entre marcas             |
+
+CONSEJO: El interruptor de leva es un producto "difícil" para sustituciones porque
+el diagrama de contactos (qué contacto cierra en qué posición) es crítico y varía
+entre fabricantes y modelos. Si el cliente quiere sustituir un Telergon viejo,
+pedir siempre la referencia completa o el esquema — no se puede sustituir "a ojo".
+El Eaton P1-25 y el Telergon T0 son los más frecuentes en mantenimiento industrial.
+Para cuadros nuevos, Eaton P-series es la elección más común en la región.
+
+============================================================
+Fuentes:
+- Eaton P-series control: https://www.eaton.com/es/es-es/catalog/cam-switches.html
+- Telergon interruptores leva: https://www.telergon.com/es/productos/interruptores-de-leva/
+- Rockwell 194: https://www.rockwellautomation.com/es-es/products/hardware/allen-bradley/safety-disconnects.html
+============================================================

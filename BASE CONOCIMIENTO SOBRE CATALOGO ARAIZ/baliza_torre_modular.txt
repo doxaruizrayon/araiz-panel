@@ -1,0 +1,112 @@
+CUADRO RESUMEN — TORRES DE SEÑALIZACIÓN MODULARES (BALIZAS INDUSTRIALES)
+Familia: Electricidad > Aparellaje eléctrico > Pulseteria
+Ejemplo en Araiz: Siemens ref. 8WD4420-5AB (Módulo LED rojo continuo para torre 8WD4)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"torre señalización industrial modular montaje" o "baliza LED Siemens 8WD4 Eaton SL"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Las torres de señalización (también llamadas balizas o columnas luminosas) son
+dispositivos modulares que se montan encima de las máquinas para indicar su
+estado a distancia. Se ven desde toda la nave industrial sin necesidad de
+acercarse a la máquina.
+
+Son MODULARES: se compran las piezas por separado y se apilan como bloques
+de construcción para formar la torre personalizada que necesita cada máquina.
+
+**COMPONENTES DE UNA TORRE (cada uno se compra aparte):**
+
+1. **Base de fijación** — Se atornilla encima de la máquina o en un soporte.
+   Tipos: base directa (sin tubo), base con tubo (eleva la torre para que se
+   vea mejor), base con escuadra (montaje lateral en pared o estructura).
+
+2. **Tubo soporte** — Tubo metálico o plástico que eleva los módulos.
+   Longitudes: 100mm, 250mm, 400mm. Se elige según la altura necesaria.
+
+3. **Módulo luminoso** — Un módulo = un color. Se apilan de abajo a arriba.
+   Colores: rojo, ámbar, verde, azul, blanco (transparente).
+   Modos de luz: continua (fija), intermitente (parpadeo), giratoria (efecto
+   rotación), flash (destello estroboscópico).
+   Tecnología: LED (estándar actual) o incandescente (obsoleto).
+
+4. **Módulo acústico** — Zumbador o sirena que se apila con los módulos luminosos.
+   Produce un tono audible para alarmas. Algunos tienen tonos programables.
+
+5. **Módulo de conexión** — Base eléctrica que conecta toda la torre al cuadro.
+   Distribuye la alimentación a cada módulo.
+
+**CÓDIGO DE COLORES ESTÁNDAR (IEC 60073):**
+| Posición | Color | Significado |
+|----------|-------|-------------|
+| Arriba   | Rojo  | Alarma / fallo / parada de emergencia activa |
+| 2º       | Ámbar | Precaución / atención / ciclo en espera |
+| 3º       | Verde | Marcha normal / todo OK |
+| 4º       | Azul  | Petición de intervención / condición especial |
+| Abajo    | Blanco| Información general / referencia |
+
+**Nota:** Este cuadro cubre las torres de Eaton (SL/SL4/SL7), Siemens (8WD4) y
+Gave. Las torres Schneider (Harmony XVB/XVC) están en el cuadro
+`accesorios_senalizacion_balizas.txt` porque Araiz las clasifica en el grupo
+Accesorios.
+
+Lo que facilita:
+- Ver el estado de cada máquina desde cualquier punto de la nave.
+- Detectar alarmas visualmente sin ir máquina por máquina.
+- Personalizar la señalización de cada máquina según sus necesidades.
+
+Lo que evita que ocurra:
+- Que una alarma de máquina pase desapercibida durante horas.
+- Que el operario no sepa si la máquina está en marcha, parada o en fallo.
+
+============================================================
+
+MODELOS EN ARAIZ (~360 artículos)
+--------------------------------------------------------------
+| Tipo                     | Marca           | Serie               | Para qué                      |
+|--------------------------|-----------------|---------------------|-------------------------------|
+| Módulo LED continuo      | Siemens         | 8WD4420              | Luz fija (rojo/ámbar/verde)   |
+| Módulo LED intermitente  | Siemens         | 8WD4420 blink        | Luz parpadeante               |
+| Módulo LED flash         | Siemens         | 8WD4450              | Destello estroboscópico       |
+| Módulo acústico          | Siemens         | 8WD4420-0E           | Zumbador torre Siemens        |
+| Base directa             | Siemens         | 8WD4408              | Base sin tubo Siemens         |
+| Tubo soporte             | Siemens         | 8WD4308              | Elevar torre Siemens          |
+| Módulo LED continuo      | Eaton           | SL4/SL7              | Luz fija Eaton                |
+| Módulo LED intermitente  | Eaton           | SL4/SL7 blink        | Luz parpadeante Eaton         |
+| Módulo acústico          | Eaton           | SL4/SL7 buzzer       | Zumbador torre Eaton          |
+| Base + tubo              | Eaton           | SL4/SL7 base         | Soporte torre Eaton           |
+| Módulo LED               | Gave            | Varias               | Torres Gave                   |
+| Luminaria señalización   | Siemens         | 8WD53                | Balizas compactas             |
+| Escuadra fijación        | Siemens         | 8WD4308-0E           | Montaje lateral               |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                | Por qué la necesitas                                          |
+|----|----------------------------------------------------------|------------------------------------------------------------- |
+| 1  | Qué marca tiene instalada? (Siemens, Eaton, Schneider)  | Los módulos NO son intercambiables entre marcas               |
+| 2  | Qué colores necesita? (rojo, ámbar, verde, azul, blanco)| Cada color es un módulo separado                              |
+| 3  | Luz fija, intermitente o flash?                         | Cada modo es un modelo diferente                              |
+| 4  | Necesita módulo acústico (zumbador)?                    | Es un módulo adicional que se apila                           |
+| 5  | Necesita base, tubo, escuadra?                          | Define cómo se fija la torre a la máquina                     |
+| 6  | Tensión? (24V DC, 230V AC)                              | Cada tensión es un modelo diferente                           |
+
+CONSEJO: Una torre típica rojo-ámbar-verde necesita como MÍNIMO 5 referencias:
+base + tubo + módulo rojo + módulo ámbar + módulo verde. Si lleva zumbador, son 6.
+Siempre desglosar todas las piezas al presupuestar.
+Siemens 8WD4 y Eaton SL son las torres más instaladas en industria en España
+después de Schneider XVB. Son sistemas completamente diferentes — no se mezclan.
+Las torres LED tienen vida prácticamente ilimitada (50.000h+). Si un cliente pide
+repuesto de "bombilla de torre", seguramente tiene un modelo antiguo incandescente
+y conviene ofrecerle migrar a LED.
+
+============================================================
+Fuentes:
+- Siemens 8WD4: https://www.siemens.com/es/es/productos/automatizacion/aparamenta.html
+- Eaton SL: https://www.eaton.com/es/es-es/catalog/industrial-controls/sl-signal-towers.html
+- IEC 60073: Código de colores señalización
+============================================================

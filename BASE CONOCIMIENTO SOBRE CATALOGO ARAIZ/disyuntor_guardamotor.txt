@@ -1,0 +1,123 @@
+CUADRO RESUMEN — DISYUNTOR INDUSTRIAL Y GUARDAMOTOR (MCCB / Tmax / NZM / PKM)
+Familia: Electricidad > Aparellaje eléctrico > Interruptor y conmutador manual
+Ejemplo en Araiz: Eaton ref. PKZM0-10 (Guardamotor 6,3-10A con protección Ir ajustable)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"qué es un guardamotor cómo se regula" o "interruptor automático en caja moldeada MCCB industrial"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Este grupo agrupa dos tipos de aparatos de protección para instalaciones y motores:
+
+**1. Disyuntor en caja moldeada — MCCB (Molded Case Circuit Breaker)**
+Es el "magnetotérmico grande" de la industria. Mismo principio que un magnetotérmico
+modular, pero para corrientes mucho más altas (100A a 3.200A) y con mayor poder de
+corte (25kA a 100kA). Protege líneas principales, transformadores, generadores e
+instalaciones industriales completas. No cabe en carril DIN — se atornilla en
+el armario o se enchufa en bastidores de distribución.
+
+ABB domina con la gama Tmax (XT1, XT2, XT3, XT4...) y Eaton con la gama NZM.
+El poder de corte es clave: en industria cerca de transformadores puede haber
+corrientes de cortocircuito de 50-80kA que destruirían un MCB doméstico.
+
+**2. Guardamotor (Motor Circuit Breaker / MCB para motores)**
+Es un magnetotérmico especializado para proteger motores eléctricos. La diferencia
+con un MCB normal: tiene la corriente de disparo AJUSTABLE (mediante una rueda o
+potenciómetro) para adaptarse exactamente a la corriente nominal del motor.
+Protege contra sobrecarga térmica y cortocircuito. Algunos modelos integran también
+función de seccionador (se puede usar para aislar el motor).
+
+El más conocido: Eaton PKM/PKZM (carril DIN para motores hasta ~50A) y los grandes
+(Eaton NZM / ABB MS) para motores más potentes.
+
+**3. Protección por lazo de corriente (ABB, 91 art.)**
+Relés de protección que monitorizan la corriente de un circuito para detectar fallos.
+Funcionan midiendo la corriente en tiempo real y disparando un contactor si hay
+anomalía. Son la protección "inteligente" de instalaciones críticas.
+
+Lo que facilita:
+- Proteger motores industriales con la corriente exacta del motor (guardamotor ajustable).
+- Proteger líneas principales de cuadros con alta corriente de cortocircuito.
+- Sustituir la combinación fusible + contactor en instalaciones sencillas.
+- Coordinar la protección de toda la instalación (selectividad entre niveles).
+
+============================================================
+
+DIFERENCIA CLAVE: GUARDAMOTOR vs MAGNETOTÉRMICO vs CONTACTOR
+--------------------------------------------------------------
+| Característica           | Guardamotor (PKM)      | Magnetotérmico MCB    | Contactor              |
+|--------------------------|------------------------|-----------------------|------------------------|
+| Corriente ajustable      | Sí (rueda o dial)      | No (fija)             | No aplica              |
+| Protege motor            | Sí (específico)        | Parcial (no óptimo)   | No (solo maniobra)     |
+| Protege cortocircuito    | Sí                     | Sí                    | No                     |
+| Puede seccionarse        | Sí (algunos modelos)   | Sí                    | Sí (al abrir)          |
+| Maniobras frecuentes     | No (para proteger)     | No                    | Sí (millones ciclos)   |
+| Uso junto a contactor    | Sí (protección)        | A veces               | Siempre (maniobra)     |
+
+DIFERENCIA CLAVE: MCCB vs MCB (Magnetotérmico modular)
+--------------------------------------------------------------
+| Característica     | MCCB (caja moldeada)    | MCB (modular DIN)      |
+|--------------------|-------------------------|------------------------|
+| Corriente nominal  | 100 A a 3.200 A         | 6 A a 125 A            |
+| Poder de corte     | 25 kA a 150 kA          | 6 kA a 25 kA           |
+| Montaje            | Tornillos / bastidor    | Carril DIN             |
+| Precio             | Alto (200€ a miles €)   | Bajo (5€ a 50€)        |
+| Regulación In      | Sí (en muchos modelos)  | No                      |
+| Uso típico         | Cuadros principales     | Cuadros secundarios    |
+
+============================================================
+
+GAMAS PRINCIPALES EN ARAIZ (~685 artículos)
+--------------------------------------------------------------
+**Disyuntor MCCB:**
+| Marca   | Gama               | Referencias tipo              | Corriente (A)      | Poder corte   |
+|---------|--------------------|-------------------------------|-------------------|---------------|
+| ABB     | Tmax XT1/XT2/XT3/XT4| XT1B160, XT2N160, XT4N250    | 16 A a 1.000 A    | 18 kA a 200kA |
+| ABB     | Tmax T6/T7         | T6H630, T7H800                | 630 A a 1.600 A   | 70 kA a 150kA |
+| Eaton   | NZM1/NZM2/NZM3/NZM4| NZM1-A100, NZM2-A250         | 63 A a 1.600 A    | 25 kA a 150kA |
+| Schneider| NSX / NS          | NSX100F, NS250N               | 100 A a 1.600 A   | 25 kA a 150kA |
+
+**Guardamotor:**
+| Marca   | Gama          | Referencias tipo       | Corriente (A)   | Notas                      |
+|---------|---------------|------------------------|-----------------|----------------------------|
+| Eaton   | PKZM0 / PKZM4 | PKZM0-10, PKZM4-50     | 0,1 A a 50 A    | Carril DIN, muy popular     |
+| Eaton   | PKE           | PKE12 / PKE32          | 3 A a 32 A      | Electrónico, comunicación   |
+| Siemens | 3RV2          | 3RV2011-1CA10          | 0,11 A a 40 A   | Compatible con contactores  |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+**Para guardamotor:**
+| #  | Pregunta                                                        | Por qué la necesitas                                       |
+|----|-----------------------------------------------------------------|------------------------------------------------------------|
+| 1  | ¿Cuántos amperios tiene el motor? (la placa de características) | Para ajustar el guardamotor al valor nominal del motor     |
+| 2  | ¿Es trifásico? ¿Cuántos polos?                                  | Los guardamotores estándar son 3P                          |
+| 3  | ¿Va con contactor o es solo protección?                         | Si va con contactor: pedir también el contactor compatible  |
+| 4  | ¿Qué marca tiene el cuadro o el contactor?                      | Eaton PKM + DILM son la combinación más habitual           |
+
+**Para MCCB:**
+| #  | Pregunta                                                        | Por qué la necesitas                                       |
+|----|-----------------------------------------------------------------|------------------------------------------------------------|
+| 1  | ¿Cuántos amperios necesita soportar?                            | Define el calibre del MCCB                                 |
+| 2  | ¿Cuál es la corriente de cortocircuito en ese punto?            | Define el poder de corte necesario (kA)                    |
+| 3  | ¿Va con accesorios? ¿Bobina de disparo, auxiliares, motor?      | Los MCCB tienen muchos accesorios opcionales               |
+| 4  | ¿Es fijo o extraíble?                                           | Los extraíbles necesitan bastidor y son mucho más caros    |
+
+CONSEJO: El guardamotor PKZM0 de Eaton es el más vendido en automatización industrial
+pequeña. El truco para elegirlo: buscar en la placa del motor la corriente nominal (In)
+y elegir el PKZM0 cuyo rango de ajuste incluya ese valor.
+Ejemplo: motor de 7,5A → PKZM0-10 (rango 6,3-10A). Motor de 12A → PKZM0-16 (10-16A).
+Si el cliente viene con el motor quemado y no sabe la corriente, se puede calcular:
+Potencia (kW) × 1,44 = Amperios aproximados (trifásico 400V).
+Ejemplo: motor 5,5 kW → 5,5 × 1,44 = ~7,9A → PKZM0-10.
+
+============================================================
+Fuentes:
+- Eaton PKZM guardamotor: https://www.eaton.com/es/es-es/catalog/motor-protection.html
+- ABB Tmax: https://new.abb.com/low-voltage/es/productos/aparamenta/disyuntores/tmax
+- Siemens 3RV2: https://new.siemens.com/es/es/productos/automatizacion/aparamenta/guardamotor-3rv.html
+============================================================

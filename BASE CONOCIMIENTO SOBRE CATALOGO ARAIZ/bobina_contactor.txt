@@ -1,0 +1,93 @@
+CUADRO RESUMEN — BOBINA DE CONTACTOR (repuesto / spare coil)
+Familia: Electricidad > Aparellaje eléctrico > Contactores
+Ejemplo en Araiz: Siemens ref. 3RT2926-5AP00 (Bobina repuesto 3RT contactor 230V AC 50/60Hz)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"bobina contactor qué es cómo se cambia" o "cambiar bobina contactor averiado"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+La bobina de un contactor es el electroimán que lo activa: cuando llega tensión a
+la bobina, genera un campo magnético que atrae el núcleo y cierra los contactos de
+potencia. La bobina es la parte del contactor que más se avería:
+- Se quema si recibe una tensión incorrecta (230V donde debería ir 24V).
+- Se degrada por vibraciones mecánicas repetidas a lo largo de años de servicio.
+- Se deteriora en ambientes con temperatura elevada o humedad.
+
+Las bobinas de repuesto permiten reparar un contactor sin comprar uno nuevo completo.
+En instalaciones industriales con muchos contactores de la misma referencia (como
+cuadros de distribución con decenas de 3RT o LC1D), el almacén mantiene bobinas de
+repuesto para reparar rápidamente en caso de avería sin parar la producción.
+
+La bobina se identifica siempre por:
+1. La marca y gama del contactor al que pertenece.
+2. La tensión de bobina (24V DC, 48V AC, 110V AC, 230V AC, 400V AC).
+3. La frecuencia (50/60 Hz para bobinas AC; no aplica para DC).
+
+Lo que facilita:
+- Reparar un contactor averiado en minutos cambiando solo la bobina (sin desmontar
+  el cableado ni los cables de potencia).
+- Reducir el stock de repuestos: en vez de tener contactores completos de repuesto,
+  basta con tener bobinas (más baratas y pequeñas).
+- Cambiar la tensión de bobina de un contactor existente: se quita la bobina de 230V
+  y se pone una de 24V DC para integrar con PLC.
+
+Lo que evita que ocurra:
+- Tener que comprar un contactor completo nuevo cuando solo la bobina está dañada.
+- Parar la producción más tiempo del necesario esperando el contactor completo.
+
+============================================================
+
+TENSIONES DE BOBINA MÁS HABITUALES EN ARAIZ
+--------------------------------------------------------------
+| Tensión     | Tipo | Uso habitual                                           |
+|-------------|------|-------------------------------------------------------|
+| 24V DC      | DC   | Salida directa PLC — el más habitual en automatización |
+| 24V AC      | AC   | Poco habitual — circuitos mando antiguos               |
+| 48V AC      | AC   | Circuitos de mando en industria                        |
+| 110V AC     | AC   | Industria (USA, instalaciones antiguas, ferroviario)   |
+| 230V AC     | AC   | El más habitual en instalaciones convencionales        |
+| 400V AC     | AC   | Mando tomado directamente de la línea trifásica        |
+
+============================================================
+
+MODELOS EN ARAIZ (373+ artículos de repuesto)
+--------------------------------------------------------------
+| Referencia tipo     | Marca      | Contactor compatible          | Tensión tipo     |
+|---------------------|------------|-------------------------------|-----------------|
+| 3RT2926-5AP00       | Siemens    | 3RT2 S00 (7-12A)              | 230V AC         |
+| 3RT2926-5BB40       | Siemens    | 3RT2 S00                      | 24V DC          |
+| LX1D6U7             | Schneider  | TeSys D LC1D40-D95            | Varios           |
+| LX9D6V7             | Schneider  | TeSys D (D09-D38)             | 400V AC         |
+| TA75DU-52           | ABB        | A-series contactores          | Varios           |
+| DIL-24VDC           | Eaton      | DILM / DILA                   | 24V DC          |
+
+NOTA: Las referencias de bobina incluyen el código de tensión al final — "5AP00"
+en Siemens significa 230V AC 50Hz. "5BB40" significa 24V DC. En Schneider, la
+penúltima letra del código indica la tensión (U=240V, P=230V, V=400V...).
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                | Por qué la necesitas                                          |
+|----|----------------------------------------------------------|------------------------------------------------------------- |
+| 1  | ¿Cuál es la referencia completa del contactor?          | La bobina es específica de cada gama y talla                 |
+| 2  | ¿Qué tensión tiene la bobina a sustituir?               | Imprescindible — 24V DC / 230V AC / 110V AC...               |
+| 3  | ¿Quiere cambiar la tensión de bobina?                   | A veces quieren pasar de 230V AC a 24V DC para PLC           |
+
+CONSEJO: Las bobinas de contactor son repuestos de servicio — el cliente que las pide
+ya sabe lo que tiene. El dato crítico es la referencia del contactor (de la placa)
+y la tensión de la bobina. Una bobina equivocada en voltaje destruye el contactor
+o no funciona. Si el cliente no tiene la referencia, pedir la marca, el modelo
+visible en la placa del contactor y la tensión de mando del circuito. Verificar
+siempre la tensión antes de confirmar la venta.
+
+============================================================
+Fuentes:
+- Siemens 3RT bobinas: https://new.siemens.com/es/es/productos/automatizacion/aparamenta.html
+- Schneider LX1D bobinas: https://www.se.com/es/es/product-subcategory/4700-contactores-tesys-d/
+============================================================

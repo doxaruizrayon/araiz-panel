@@ -1,0 +1,104 @@
+CUADRO RESUMEN — TERMINAL HMI OMRON SERIE NB
+Familia: Electricidad > Aparellaje eléctrico > Autómatas programables
+Ejemplo en Araiz: Omron ref. 726130 (NB7W-TW01B — pantalla táctil 7")
+============================================================
+
+IMAGEN DEL PRODUCTO:
+https://automation.omron.com/en/us/products/family/NB/NB7W-TW01B
+
+VÍDEO / REFERENCIA TÉCNICA:
+https://es.rs-online.com/web/p/pantallas-hmi/8211807
+
+Búsqueda recomendada en YouTube (español):
+"Omron NB7W HMI tutorial programación" o "terminal táctil Omron NB serie configuración"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+El terminal NB es el panel táctil HMI (Human Machine Interface) de la gama económica
+de Omron. Permite al operario visualizar y controlar el estado de la máquina o proceso
+a través de una pantalla táctil. Se conecta directamente a los PLCs de Omron (CJ, CP,
+CS, NJ) y también a PLCs de otras marcas mediante protocolos estándar serie o Ethernet.
+La serie NB es la opción de Omron para aplicaciones donde se necesita un HMI fiable
+y fácil de programar sin un presupuesto elevado.
+
+Lo que facilita:
+- Visualizar el estado del proceso y dar órdenes al PLC desde una pantalla táctil
+  intuitiva sin necesidad de entrar al armario.
+- Programación sencilla con el software NB-Designer (gratuito de Omron).
+- Conexión directa y sencilla a PLCs Omron sin configuraciones complejas.
+- Almacenar recetas de producción y cambiarlas desde la propia pantalla.
+
+Lo que evita que ocurra:
+- Que el operario tenga que interpretar señales de LEDs o consultar al técnico
+  para saber el estado de la máquina.
+- Paradas largas por no identificar a tiempo una alarma.
+- Errores de operación: la pantalla guía al operario paso a paso.
+
+============================================================
+
+DIFERENCIA CON OTROS TERMINALES HMI OMRON
+--------------------------------------------------------------
+| Serie         | Tamaño disponible | Nivel      | Cuándo usarlo                                         |
+|---------------|-------------------|------------|-------------------------------------------------------|
+| NB (ref. 726130)| 3,5" a 10"     | Económico  | Aplicaciones estándar con PLC Omron o compatible      |
+| NA            | 7" a 15"          | Gama media | Aplicaciones más complejas, mejor resolución          |
+| NS            | 5" a 15"          | Gama alta  | Instalaciones complejas, alto rendimiento gráfico     |
+| NX-HMI        | Integrado en NX   | Premium    | Sistemas con PLC NX/NJ Sysmac                         |
+
+============================================================
+
+CARACTERÍSTICAS TÉCNICAS BÁSICAS A SABER
+--------------------------------------------------------------
+| Parámetro                  | Qué significa                                    | Valor ref. 726130 / NB7W-TW01B (Omron)       |
+|----------------------------|--------------------------------------------------|-----------------------------------------------|
+| Tamaño de pantalla         | Diagonal                                         | 7 pulgadas WVGA                               |
+| Resolución                 | Nitidez de la imagen                             | 800 x 480 píxeles                             |
+| Tipo de pantalla           | Tecnología del panel                             | TFT color — 65.536 colores                    |
+| Tipo de táctil             | Cómo detecta el toque                            | Resistivo analógico (1 punto de toque)        |
+| Conectividad serie         | Puertos de comunicación serie                    | 2x RS-232 + 1x RS-422/485                     |
+| Conectividad Ethernet      | Puerto de red                                    | 1x RJ45 Ethernet                              |
+| Puerto USB                 | Conexiones USB                                   | 1x USB host (para memoria USB)                |
+| Memoria interna            | Capacidad de almacenamiento                      | 128 MB                                        |
+| Alimentación               | Tensión de trabajo                               | 24V DC                                        |
+| Grado de protección (frente)| Nivel de estanqueidad del frontal               | IP65 → válido para polvo y agua               |
+| Retroiluminación           | Tipo y durabilidad                               | LED de larga duración                         |
+| Software de programación   | Con qué se programa                              | NB-Designer (gratuito, descarga Omron)        |
+
+============================================================
+
+TIPOLOGÍAS DE TERMINALES HMI (ver también cuadro Panel Táctil HMI Phoenix Contact)
+--------------------------------------------------------------
+| Tipología                        | Descripción                                                   | Cuándo se usa                                          |
+|----------------------------------|---------------------------------------------------------------|--------------------------------------------------------|
+| HMI resistivo (NB7W-TW01B)      | Táctil por presión, 1 punto de toque                          | Uso con guantes, entornos industriales estándar        |
+| HMI capacitivo (PCAP)           | Táctil por proximidad, multitouch                             | Interfaces modernas tipo smartphone                    |
+| HMI con IP65 frontal            | Frente protegido contra polvo y agua                          | Alimentación, química, zonas con limpieza frecuente   |
+| Panel PC industrial             | PC completo con pantalla táctil                               | SCADA, gestión de datos complejos                      |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                          | Por qué la necesitas                                                          |
+|----|-------------------------------------------------------------------|-------------------------------------------------------------------------------|
+| 1  | ¿Qué PLC tiene?                                                   | Si es Omron → conexión directa sencilla. Si es otra marca → verificar driver |
+| 2  | ¿Qué tamaño de pantalla necesita?                                 | Depende del espacio en el armario y la cantidad de información a mostrar     |
+| 3  | ¿El operario va a usar guantes?                                   | Si sí → táctil resistivo (este modelo). Con guantes el capacitivo no funciona|
+| 4  | ¿Hay agua, polvo o productos de limpieza?                         | IP65 frontal → este modelo está protegido                                    |
+| 5  | ¿Necesita almacenar recetas o exportar datos a USB?               | Si sí → el puerto USB host y 128MB de memoria de este modelo lo permiten     |
+| 6  | ¿Necesita acceso remoto?                                          | El puerto Ethernet permite supervisión remota con software adicional          |
+| 7  | ¿Es instalación nueva o sustitución de HMI existente?             | Si es sustitución → verificar tamaño del hueco en la puerta del armario      |
+
+CONSEJO: El software NB-Designer de Omron es gratuito y relativamente sencillo.
+Si el cliente tiene ya PLCs Omron CJ o CP, la integración es directa y sin coste
+adicional de licencias. Para otras marcas verificar disponibilidad del driver.
+
+============================================================
+Fuentes:
+- Omron NB7W-TW01B: https://automation.omron.com/en/us/products/family/NB/NB7W-TW01B
+- RS Online NB7W-TW01B: https://es.rs-online.com/web/p/pantallas-hmi/8211807
+- WI Automation NB7W-TW01B: https://us.wiautomation.com/omron/hmis-industrial-pcs/NB7WTW01B
+- Serie NB especificaciones: https://www.ia.omron.com/products/family/3894/specification.html
+============================================================

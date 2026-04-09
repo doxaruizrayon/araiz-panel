@@ -1,0 +1,136 @@
+CUADRO RESUMEN — TELERRUPTORES Y RELÉS DE ENCLAVAMIENTO
+Familia: Electricidad > Aparellaje eléctrico > Telerruptores
+Ejemplo en Araiz: Schneider ref. A9C30812 (Telerruptor iTL 2P 16A 230V CA)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"telerruptor funcionamiento instalación" o "relé enclavamiento impulso escalera alumbrado"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Un telerruptor (también llamado relé de enclavamiento, relé de impulso
+o relé bistable) es un interruptor que cambia de posición con cada
+impulso de corriente: un pulso lo pone ON, el siguiente pulso lo pone OFF.
+
+Es diferente de un relé convencional:
+- **Relé normal**: mientras hay corriente en la bobina → contacto cerrado.
+  Al quitar corriente → contacto abre. Como un interruptor que necesita
+  que lo mantengan pulsado.
+- **Telerruptor**: un pulso corto → queda ON. Otro pulso → queda OFF.
+  Funciona con memoria: recuerda su estado aunque no haya corriente.
+
+**¿Para qué se usa el telerruptor?**
+El telerruptor es el corazón del sistema de alumbrado con pulsadores
+"desde varios puntos" (conmutado):
+
+**Ejemplo típico:**
+- Escalera de un edificio con pulsadores en cada planta (5 plantas = 5 pulsadores)
+- Todos los pulsadores conectados en paralelo al mismo telerruptor
+- 1er pulso: enciende la luz de toda la escalera
+- 2º pulso (desde cualquier planta): apaga la luz
+
+Con un sistema de interruptores conmutados clásico (cruces + conmutadores)
+necesitarías mucho cableado. Con un telerruptor, todos los pulsadores van
+a un solo cable que llega al cuadro, y el telerruptor controla la luz.
+
+**Ventajas sobre el sistema conmutado clásico:**
+| Característica        | Conmutadores + cruces    | Telerruptor              |
+|-----------------------|--------------------------|--------------------------|
+| Cableado              | Muchos conductores       | Un solo cable de pulsadores|
+| Coste instalación     | Alto (>3 puntos)         | Económico                |
+| Modificaciones futuras| Difícil                  | Añadir pulsadores fácil  |
+| Dónde va              | En la caja del pulsador  | En el cuadro eléctrico   |
+| Detecta quién apagó   | No                       | No                       |
+
+============================================================
+
+MARCAS EN ARAIZ (279 art. totales)
+--------------------------------------------------------------
+**Eaton (66 art.) — la más vendida**
+Gama PL/ESL de telerruptores:
+- **PL4**: 1 NA 16A, tensión bobina 230V AC. El más habitual en instalaciones
+  de viviendas y escaleras.
+- **PL4-25**: versión 25A para cargas mayores.
+- **ESL4**: versión compacta 1 módulo DIN.
+- **PLIE1**: telerruptor electrónico (sin partes móviles mecánicas).
+
+**Siemens (45 art.)**
+Gama 5TT:
+- **5TT4**: telerruptor estándar 1NA 16A 230V. Equivalente al PL4 de Eaton.
+- Versiones 2NA para controlar dos circuitos simultáneamente.
+
+**Schneider Electric (44 art.)**
+Gama Acti9:
+- **iTL 2P**: telerruptor bipolar 16A — para instalaciones donde hay que
+  cortar fase y neutro.
+- **A9C30812**: telerruptor 2P 16A 230V. Muy habitual en instalaciones
+  con estándar Schneider.
+- **IATLS**: señalizador de estado (indica si el telerruptor está ON u OFF).
+
+**Finder (42 art.)**
+Gama serie 20 y 26:
+- Finder fabrica telerruptores de alta calidad con vida mecánica muy larga.
+- Muy habituales en instalaciones hoteleras y de hospitales.
+- Versiones con varios contactos NA/NC para usos más complejos.
+
+**Gewiss (23 art.)**
+Telerruptores de cuadro modular, muy utilizados en el mercado italiano
+y español terciario.
+
+**Hager (20 art.)**
+Gama EPN, versiones compactas 1 módulo DIN.
+
+**Rockwell (13 art.)**
+Telerruptores Allen-Bradley para instalaciones con estándar industrial Rockwell.
+
+============================================================
+
+TIPOS DE TELERRUPTOR
+--------------------------------------------------------------
+| Tipo              | Características                                  | Cuándo usarlo                    |
+|-------------------|--------------------------------------------------|----------------------------------|
+| 1 NA electromec.  | 1 contacto NA, bobina mecánica. El más común     | Instalaciones estándar           |
+| 2 NA              | 2 contactos NA — controla 2 circuitos a la vez   | Instalaciones con 2 zonas        |
+| Bipolar (2P)      | Corta fase Y neutro — para normativa             | Instalaciones IT o zonas húmedas |
+| Electrónico       | Sin piezas móviles — vida ilimitada              | Instalaciones exigentes          |
+| Con señalizador   | Incorpora LED que indica estado ON/OFF           | Para que el usuario sepa el estado|
+
+**Capacidad de carga habitual:** 16A 230V AC = 3.680W en monofásico.
+Para cargas mayores (motores, calefacción industrial) existen versiones
+de 25A o 40A.
+
+**Tensión de bobina:** casi siempre 230V AC en instalaciones residenciales
+y terciarias. Para instalaciones industriales con PLC: 24V DC.
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                    | Por qué                                        |
+|----|-------------------------------------------------------------|------------------------------------------------|
+| 1  | ¿Cuántos circuitos quiere controlar? ¿1 o 2?               | 1 circuito → 1NA; 2 circuitos → 2NA            |
+| 2  | ¿Cuántos amperios tiene la carga?                          | 16A suficiente para alumbrado estándar         |
+| 3  | ¿Cuántos pulsadores quiere conectar?                        | Todos van en paralelo — el número no importa   |
+| 4  | ¿Qué tensión tiene el pulsador? ¿230V o viene de PLC (24V)?| Define la tensión de bobina del telerruptor    |
+| 5  | ¿La instalación es nueva o sustitución?                    | Sustitución: traer referencia del aparato roto |
+| 6  | ¿Qué marca tiene el cuadro? ¿Schneider, Eaton, Siemens?   | Para recomendar la marca compatible            |
+
+CONSEJO: El telerruptor más pedido en España para viviendas y escaleras
+es el Eaton PL4 (1NA, 16A, 230V AC) o el equivalente Siemens 5TT4136-0.
+Son intercambiables entre sí en función aunque no en referencia.
+El Schneider A9C30812 es el equivalente en instalaciones con cuadro Schneider.
+Para presupuestos de edificios: calcular 1 telerruptor por zona de alumbrado
+a controlar. Una escalera de 5 plantas → 1 telerruptor para la escalera,
+1 para el portal, 1 para el garaje = 3 telerruptores.
+Para sistemas más avanzados (control desde app, temporizador automático),
+los telerruptores se complementan con interruptores horarios o módulos KNX.
+
+============================================================
+Fuentes:
+- Eaton PL4/ESL: https://www.eaton.com/es/es-es/catalog/installation-devices/impulse-switches.html
+- Siemens 5TT4: https://new.siemens.com/es/es/productos/energía/baja-tensión/building-technologies/installation-equipment/staircase-lighting-time-switches.html
+- Schneider iTL: https://www.se.com/es/es/product-range/7502-iTL-impulse-relays/
+- Finder serie 20: https://www.findernet.com/es/producto/serie-20/
+============================================================

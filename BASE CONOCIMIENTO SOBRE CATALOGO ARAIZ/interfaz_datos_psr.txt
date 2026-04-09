@@ -1,0 +1,88 @@
+CUADRO RESUMEN — INTERFAZ DE DATOS PSR (GATEWAY PROFINET)
+Familia: Electricidad > Aparellaje eléctrico > Autómatas programables
+Ejemplo en Araiz: Phoenix Contact ref. 1105102 (PSR-M-GW-PN-PI)
+============================================================
+
+IMAGEN DEL PRODUCTO:
+https://www.phoenixcontact.com/en-us/products/gatewaysproxies-psr-m-gw-pn-pi-1105102
+
+VÍDEO / REFERENCIA TÉCNICA:
+https://www.digikey.com/en/products/detail/phoenix-contact/1105102/12552500
+
+Búsqueda recomendada en YouTube (español):
+"gateway PSR PROFINET Phoenix Contact diagnóstico seguridad" o "PSR modular interfaz datos red"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+La interfaz de datos PSR es el módulo que conecta el sistema de seguridad PSR
+(módulo base + extensiones) con la red industrial del PLC, permitiendo que el
+controlador principal o el SCADA puedan leer en tiempo real el estado de todos
+los dispositivos de seguridad: qué seta está pulsada, qué puerta está abierta,
+qué canal tiene un fallo... Sin esta interfaz, el sistema PSR funciona de forma
+autónoma pero el PLC no tiene visibilidad de lo que ocurre en la parte de seguridad.
+
+Lo que facilita:
+- Que el PLC o el SCADA reciban información detallada del estado del sistema
+  de seguridad en tiempo real (diagnóstico remoto).
+- Integrar el sistema de seguridad en la red industrial existente (PROFINET)
+  sin cableado adicional de señales.
+- Reducir el tiempo de diagnóstico de averías: desde el SCADA se ve exactamente
+  qué dispositivo ha causado la parada.
+- Registrar históricos de eventos de seguridad para análisis y auditorías.
+
+Lo que evita que ocurra:
+- Que el operario tenga que ir físicamente al armario para saber por qué
+  se ha parado la máquina por seguridad.
+- Pérdida de tiempo de producción por diagnóstico lento de la causa de parada.
+- Falta de trazabilidad de eventos de seguridad (quién paró, cuándo, por qué).
+- Que el PLC no pueda coordinar su lógica con el estado del sistema de seguridad.
+
+============================================================
+
+DIFERENCIA CLAVE CON OTRAS INTERFACES DE DATOS PSR
+--------------------------------------------------------------
+| Tipo                         | Protocolo de red    | Cuándo usarlo                                            |
+|------------------------------|---------------------|----------------------------------------------------------|
+| PSR-M-GW-PN-PI (ref. 1105102)| PROFINET            | PLCs Siemens S7, Phoenix Contact RFC, Schneider con PROFINET |
+| PSR-M-GW-ETH-PI              | EtherNet/IP         | PLCs Allen-Bradley, Omron con EtherNet/IP                |
+| PSR-M-GW-PB-PI               | PROFIBUS DP         | Instalaciones antiguas con PROFIBUS                      |
+| PSR-M-GW-DNET-PI             | DeviceNet           | PLCs Allen-Bradley con DeviceNet                         |
+
+============================================================
+
+CARACTERÍSTICAS TÉCNICAS BÁSICAS A SABER
+--------------------------------------------------------------
+| Parámetro                    | Qué significa                                    | Valor ref. 1105102 (Phoenix Contact)          |
+|------------------------------|--------------------------------------------------|-----------------------------------------------|
+| Protocolo de red             | Con qué red industrial se comunica               | PROFINET                                      |
+| Conexión de red              | Tipo de conector hacia la red                    | RJ45 (cable Ethernet estándar)                |
+| Conexión al sistema PSR      | Cómo se conecta al módulo base                   | TBUS (conector de carril DIN incluido)        |
+| Función principal            | Qué datos transmite                              | Estado de I/O de seguridad + diagnóstico      |
+| Alimentación                 | Tensión de trabajo                               | 24V DC (vía TBUS del módulo base)             |
+| Posición en el sistema       | Dónde se coloca                                  | Al lado del módulo base PSR en el carril DIN  |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                          | Por qué la necesitas                                                          |
+|----|-------------------------------------------------------------------|-------------------------------------------------------------------------------|
+| 1  | ¿Ya tiene instalado el módulo base PSR? (ref. 1104975)            | Sin el módulo base esta interfaz no funciona — siempre van juntos             |
+| 2  | ¿Qué red industrial tiene el PLC? (PROFINET, EtherNet/IP, PROFIBUS)| Determina qué versión de la interfaz de datos necesita                       |
+| 3  | ¿Necesita que el PLC vea el estado del sistema de seguridad?       | Si solo necesita la parada de seguridad → no hace falta esta interfaz        |
+| 4  | ¿Necesita diagnóstico remoto o histórico de eventos de seguridad?  | Si sí → esta interfaz es necesaria                                           |
+| 5  | ¿Tiene un SCADA o sistema de supervisión?                          | Si sí → esta interfaz permite integrarlo con el sistema de seguridad         |
+
+CONSEJO: Esta interfaz no es imprescindible para que el sistema de seguridad
+funcione — el módulo base PSR corta la máquina de forma segura sin ella.
+Solo se necesita si el cliente quiere diagnóstico desde el PLC o el SCADA.
+
+============================================================
+Fuentes:
+- Ficha oficial Phoenix Contact 1105102: https://www.phoenixcontact.com/en-us/products/gatewaysproxies-psr-m-gw-pn-pi-1105102
+- DigiKey ref. 1105102: https://www.digikey.com/en/products/detail/phoenix-contact/1105102/12552500
+- RSP Supply ref. 1105102: https://rspsupply.com/p-73121-phoenix-contact-1105102-data-interface-psr-m-gw-pn-pi.aspx
+- Interfaz Ethernet/IP (referencia): https://www.phoenixcontact.com/en-us/products/gatewaysproxies-psr-m-gw-eth-pi-1105107
+============================================================

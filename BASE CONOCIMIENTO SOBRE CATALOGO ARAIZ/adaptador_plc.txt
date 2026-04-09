@@ -1,0 +1,114 @@
+CUADRO RESUMEN — ADAPTADOR PLC (ADAPTADOR DE SISTEMA V8)
+Familia: Electricidad > Aparellaje eléctrico > Autómatas programables
+Ejemplo en Araiz: Phoenix Contact ref. 2299660 (PLC-V8L/FLK14/OUT — serie PLC Interface)
+============================================================
+
+IMAGEN DEL PRODUCTO (ref. 2299660 Phoenix Contact):
+https://www.phoenixcontact.com/en-us/products/controller-board-plc-v8lflk14out-2299660
+
+VÍDEO / REFERENCIA TÉCNICA:
+https://us.rs-online.com/product/phoenix-contact/2299660/70252695/
+
+Búsqueda recomendada en YouTube (español):
+"adaptador PLC interface cableado sistema FLK" o "Phoenix Contact PLC V8 FLK14 adaptador salidas"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Un adaptador PLC es el componente que simplifica y ordena el cableado entre
+la tarjeta de salidas del PLC y los módulos de interfaz (relés, optoacopladores)
+instalados en el armario. En lugar de cablear uno a uno los 8 canales de salida
+del PLC a 8 módulos de relé independientes (8 cables individuales), el adaptador
+permite conectar los 8 canales de una sola vez mediante un único cable plano
+(cable cinta FLK de 14 hilos) que va de la tarjeta del PLC al adaptador, y el
+adaptador ya reparte cada canal al módulo de relé o interfaz correspondiente.
+
+Lo que facilita:
+- Cablear de forma rápida, ordenada y sin errores 8 canales de salida del PLC
+  de una sola vez (un cable en lugar de 8).
+- Reducir drásticamente el tiempo de montaje y la posibilidad de error en el
+  cableado (un cable mal conectado puede causar un fallo de canal).
+- Mantener el armario ordenado y limpio: el cable plano FLK es compacto y
+  se identifica fácilmente.
+- Sustituir o ampliar módulos de interfaz sin tocar el cableado del PLC.
+
+Lo que evita que ocurra:
+- Errores de cableado al conectar manualmente canal a canal (un cable cruzado
+  puede activar una salida incorrecta y dañar equipos o provocar accidentes).
+- Armarios desordenados con madejas de cables individuales difíciles de trazar
+  en caso de avería.
+- Tiempos de montaje largos en instalaciones con muchas salidas de PLC.
+- Que una intervención de mantenimiento en un canal afecte al resto del cableado.
+
+============================================================
+
+DIFERENCIA CLAVE CON OTROS ADAPTADORES DE SISTEMA PLC
+--------------------------------------------------------------
+| Tipo                         | Para qué canales         | Dirección         | Diferencia principal                                      |
+|------------------------------|--------------------------|-------------------|-----------------------------------------------------------|
+| PLC-V8/FLK14/OUT             | 8 canales de SALIDA      | PLC → campo       | Para tarjetas de salidas del PLC. El más habitual         |
+| PLC-V8L/FLK14/OUT (ref. 2299660)| 8 canales SALIDA (largo)| PLC → campo      | Versión "L" = módulos PLC-INTERFACE de 14mm (más anchos)  |
+| PLC-V8/FLK14/IN              | 8 canales de ENTRADA     | Campo → PLC       | Para tarjetas de entradas del PLC                         |
+| PLC-V8/FLK14/IN/M            | 8 canales ENTRADA        | Campo → PLC       | Con marcador de circuito integrado                        |
+| PLC-V8/FLK14/OUT/M           | 8 canales SALIDA         | PLC → campo       | Con marcador de circuito integrado                        |
+| Adaptador 16 canales         | 16 canales               | Entrada o salida  | Para tarjetas de PLC con más canales por conector         |
+
+El ref. 2299660 es el PLC-V8L/FLK14/OUT → adaptador de SALIDA para 8 módulos
+PLC-INTERFACE de 14mm, conectado al PLC mediante cable plano de 14 polos (FLK14).
+
+============================================================
+
+CARACTERÍSTICAS TÉCNICAS BÁSICAS A SABER
+--------------------------------------------------------------
+| Parámetro                    | Qué significa                                    | Valor ref. 2299660 (Phoenix Contact)          |
+|------------------------------|--------------------------------------------------|-----------------------------------------------|
+| Número de canales            | A cuántos módulos de interfaz conecta            | 8 canales (8 módulos PLC-INTERFACE)           |
+| Dirección                    | Entrada o salida                                 | SALIDA (OUT) — del PLC hacia el campo         |
+| Tipo de módulo compatible    | Con qué módulos de relé/interfaz encaja          | PLC-INTERFACE de 14 mm (serie PLC-RPT, PLC-RSC) |
+| Conexión hacia el PLC        | Cómo se conecta a la tarjeta del PLC             | Cable plano IDC/FLK de 14 polos (un solo conector)|
+| Conexión hacia los módulos   | Cómo encaja con los módulos de interfaz          | Encaje directo enchufable (snap-on) sobre 8 módulos|
+| Conexión de alimentación     | Cómo se alimenta el conjunto                     | Tornillo 2 posiciones para alimentación 24V  |
+| Lógica de control            | Tipo de conmutación                              | Positiva (sourcing / PNP)                     |
+| Serie / familia              | Sistema al que pertenece                         | PLC-INTERFACE — Phoenix Contact               |
+
+============================================================
+
+TIPOLOGÍAS DE ADAPTADORES PLC
+--------------------------------------------------------------
+| Tipología                         | Descripción                                                    | Cuándo se usa                                             |
+|-----------------------------------|----------------------------------------------------------------|-----------------------------------------------------------|
+| Adaptador salida 8 ch (V8/OUT)    | Conecta tarjeta de salidas PLC a 8 módulos de relé            | El más habitual. Para salidas digitales del PLC           |
+| Adaptador salida 8 ch largo (V8L) | Igual pero para módulos PLC-INTERFACE de 14mm (más anchos)    | Cuando los módulos de relé son de 14mm. Ref. 2299660      |
+| Adaptador entrada 8 ch (V8/IN)    | Conecta 8 módulos de interfaz a tarjeta de entradas PLC       | Para entradas digitales del PLC                           |
+| Adaptador con marcador (M)        | Igual que los anteriores pero con campo de etiquetado          | Cuando se necesita identificar cada canal en el armario   |
+| Adaptador 16 canales              | Para tarjetas de PLC con conector de 16 canales               | PLC con mayor densidad de I/O por conector                |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                          | Por qué la necesitas                                                          |
+|----|-------------------------------------------------------------------|-------------------------------------------------------------------------------|
+| 1  | ¿Qué PLC tiene y qué tarjeta de I/O usa?                          | El tipo de conector FLK (14, 20, 26 polos) depende de la tarjeta del PLC     |
+| 2  | ¿Es para entradas o para salidas del PLC?                         | Adaptador /IN para entradas, /OUT para salidas. Son distintos                 |
+| 3  | ¿Qué módulos de interfaz tiene o va a instalar? (14mm o 6,2mm)    | El V8L es para módulos de 14mm; el V8 estándar para módulos de 6,2mm        |
+| 4  | ¿Cuántos canales tiene la tarjeta de PLC por conector?            | 8 canales → V8 / 16 canales → necesita adaptador de 16 canales              |
+| 5  | ¿Tiene el cable plano FLK o necesita también el cable?            | El adaptador no incluye el cable cinta FLK — hay que pedirlo aparte          |
+| 6  | ¿Necesita identificar cada canal con etiqueta?                    | Si sí → adaptador versión /M (con marcador integrado)                        |
+| 7  | ¿Es instalación nueva o ampliación?                               | Si es ampliación debe ser compatible con los módulos de relé existentes       |
+
+CONSEJO: El adaptador PLC siempre va en conjunto con:
+1. Los módulos de relé/interfaz (PLC-RPT, PLC-RSC...) — uno por canal
+2. El cable plano FLK de conexión — se pide por separado según longitud necesaria
+Si el cliente pide solo el adaptador sin los demás componentes, preguntar si ya
+los tiene o si hay que presupuestar el conjunto completo.
+
+============================================================
+Fuentes:
+- Ficha oficial Phoenix Contact 2299660: https://www.phoenixcontact.com/en-us/products/controller-board-plc-v8lflk14out-2299660
+- RS Online ref. 2299660: https://us.rs-online.com/product/phoenix-contact/2299660/70252695/
+- WI Automation ref. 2299660: https://us.wiautomation.com/phoenix-contact/general-automation/2299660
+- Amazon referencia V8/FLK14/OUT: https://www.amazon.com/PLC-V8-FLK14-OUT-PLC-Interface-Connection/dp/B07MLT9SXS
+- Adaptador de entrada (referencia): https://www.phoenixcontact.com/en-us/products/controller-board-plc-v8flk14in-2296553
+============================================================

@@ -1,0 +1,97 @@
+CUADRO RESUMEN — SISTEMA ANYFEEDER (ALIMENTADOR VIBRATORIO FLEXIBLE)
+Familia: Electricidad > Aparellaje eléctrico > Autómatas programables y robots industriales
+Ejemplo en Araiz: Omron ref. ANYFEEDER-SX-240 (Alimentador vibratorio 240mm + controlador AnyFeeder)
+============================================================
+
+IMAGEN DEL PRODUCTO:
+https://www.ia.omron.com/products/family/3785/
+
+VÍDEO / REFERENCIA TÉCNICA:
+https://www.anyfeeder.com/
+
+Búsqueda recomendada en YouTube (español):
+"AnyFeeder Omron alimentador vibratorio flexible robot picking" o "flexible parts feeder vision robot"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+AnyFeeder es un sistema de alimentación de piezas flexible de Omron: una bandeja
+vibratoria inteligente que presenta piezas al robot de forma orientada para que el
+robot las pueda coger. A diferencia del clásico bowl feeder (alimentador de cuenco
+fijo para una sola pieza), el AnyFeeder puede alimentar muchos tipos de piezas distintos
+sin cambiar mecánicamente la máquina — solo cambiando el programa de visión. La bandeja
+vibra y mueve las piezas; una cámara de visión (como el sistema FH de Omron) localiza
+las piezas en la bandeja y calcula las coordenadas y orientación; el robot hace el picking.
+Ideal para líneas de ensamblaje con cambios frecuentes de referencia de producto.
+
+Lo que facilita:
+- Alimentar piezas variadas al robot sin cambiar ningún elemento mecánico:
+  el cambio de producto es solo un cambio de receta en el sistema de visión.
+- Presentar piezas en la orientación correcta para el robot: la visión detecta la
+  posición real de cada pieza y el robot la coge en la orientación que necesita.
+- Reducir tiempos de cambio de referencia en líneas de ensamblaje flexible:
+  de horas (cambio de bowl feeder) a minutos (cambio de receta de visión).
+- Alimentar piezas delicadas: la vibración suave del AnyFeeder es menos agresiva
+  que los alimentadores clásicos de cuenco vibratorio.
+
+Lo que evita que ocurra:
+- Tener un alimentador físico diferente para cada tipo de pieza: el AnyFeeder
+  es un alimentador flexible para múltiples referencias de producto.
+- Paradas largas por cambio de referencia en líneas con muchas referencias.
+- Piezas mal orientadas que el robot no puede coger: la visión garantiza que
+  solo se cogen piezas en la orientación correcta.
+
+============================================================
+
+DIFERENCIA CLAVE: ANYFEEDER (flexible) vs BOWL FEEDER (clásico)
+--------------------------------------------------------------
+| Característica          | AnyFeeder (flexible)             | Bowl feeder (clásico)            |
+|-------------------------|----------------------------------|----------------------------------|
+| Piezas que alimenta     | Múltiples referencias con visión | 1 referencia fija                |
+| Cambio de referencia    | Solo cambio de receta (minutos)  | Cambio mecánico (horas)          |
+| Inversión inicial       | Alta                             | Baja                             |
+| Flexibilidad            | Muy alta                         | Ninguna                          |
+| Integración con robot   | Nativa con Omron (FH + robot)    | Requiere adaptación              |
+| Para qué                | Líneas flexibles, muchos modelos | Líneas de gran volumen, 1 pieza  |
+
+============================================================
+
+COMPONENTES DEL SISTEMA ANYFEEDER
+--------------------------------------------------------------
+| Componente              | Función                                           | Ejemplo ref.         |
+|------------------------|---------------------------------------------------|----------------------|
+| AnyFeeder SX-240       | Bandeja vibratoria 240mm de diámetro              | ANYFEEDER-SX-240     |
+| AnyFeeder SXM-100      | Módulo controlador del movimiento de la bandeja   | ANYFEEDER-SXM100     |
+| Cable de conexión       | Conecta el módulo SXM con la bandeja SX           | Cable AnyFeeder      |
+| Cámara FH (exterior)   | Sistema de visión que localiza las piezas         | FH-series (por sep.) |
+| PLC NJ/NX (exterior)   | Coordina visión + alimentador + robot             | NJ-series (por sep.) |
+
+NOTA: El AnyFeeder por sí solo (bandeja + controlador) necesita un sistema de visión
+externo (cámara FH) y un robot (Omron o cualquier marca) para ser funcional. Es un
+sistema que se vende como proyecto de integración, no como producto standalone.
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                               | Por qué la necesitas                                          |
+|----|--------------------------------------------------------|---------------------------------------------------------------|
+| 1  | ¿Cuántas referencias de pieza diferentes va a alimentar?| Define si vale un bowl feeder o necesita la flexibilidad AnyFeeder|
+| 2  | ¿Tiene robot de picking? ¿Qué modelo?                  | El AnyFeeder trabaja con robot + visión — sin robot no sirve |
+| 3  | ¿Tiene sistema de visión? ¿Cámara FH o similar?        | La cámara detecta posición y orientación de piezas           |
+| 4  | ¿Qué tamaño de piezas va a alimentar?                  | Define el tamaño de bandeja: SX-240 (240mm) u otro           |
+| 5  | ¿Con qué PLC trabaja el sistema?                       | El AnyFeeder se integra por EtherNet/IP con NJ/NX            |
+
+CONSEJO: El AnyFeeder es una solución de proyecto completo — siempre va acompañado de
+robot + visión + PLC. Se vende a clientes con líneas de ensamblaje flexibles que ya
+tienen robot y quieren eliminar los cambios mecánicos de alimentadores. Cuando un cliente
+menciona "picking con robot", "ensamblaje flexible" o "cambio rápido de referencia",
+el AnyFeeder es parte del ecosistema Omron para ese tipo de célula. Poner en contacto
+con el equipo técnico para el dimensionamiento y la integración del sistema completo.
+
+============================================================
+Fuentes:
+- Omron AnyFeeder (oficial): https://www.ia.omron.com/products/family/3785/
+- AnyFeeder web: https://www.anyfeeder.com/
+============================================================

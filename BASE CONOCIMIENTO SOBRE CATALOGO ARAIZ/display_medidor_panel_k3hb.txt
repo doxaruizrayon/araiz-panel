@@ -1,0 +1,90 @@
+CUADRO RESUMEN — DISPLAY / MEDIDOR DE PANEL K3HB (INDICADOR DIGITAL 48x96mm)
+Familia: Electricidad > Aparellaje eléctrico > Autómatas programables y robots industriales
+Ejemplo en Araiz: Omron ref. K3HBXVD24V (Visualización analógico entrada tensión CC 48x96mm)
+============================================================
+
+IMAGEN DEL PRODUCTO:
+https://www.ia.omron.com/products/family/1040/
+
+VÍDEO / REFERENCIA TÉCNICA:
+https://industrial.omron.co.uk/en/products/k3hb
+
+Búsqueda recomendada en YouTube (español):
+"indicador digital panel K3HB Omron señal analógica" o "medidor display industrial 4-20mA tensión"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+El K3HB es un indicador/medidor digital de panel de Omron en formato 48x96 mm (1/8 DIN):
+se instala en la puerta del armario eléctrico o en un panel de control para mostrar de
+forma visible el valor de una señal analógica o de un contador. Acepta señales de entrada
+como 4-20 mA, 0-10V DC, tensión, pulsos o señal de termopar, y las muestra en un display
+de 7 segmentos de alta luminosidad. También puede tener salidas de alarma o de control
+cuando el valor supera un límite. Es más sencillo que el regulador de temperatura (E5CC)
+— no tiene PID, solo muestra el valor y activa alarmas si se configura. Útil cuando se
+necesita visualizar cualquier señal analógica en la puerta del armario sin usar una
+pantalla HMI completa.
+
+Lo que facilita:
+- Mostrar en la puerta del cuadro el valor de cualquier señal: velocidad de una cinta
+  (en m/min desde un encoder), presión de un compresor, nivel de un depósito...
+- Configurar alarmas de límite: cuando el valor sube de un umbral, la salida de relé
+  activa una señal luminosa o para la máquina.
+- Escalar la señal analógica a la unidad que el operario entiende: la señal 4-20mA
+  se convierte en kg, bar, m/min, litros... directamente en el display.
+- Instalar comunicación RS232C para que el PLC lea el valor medido de forma digital.
+- Formato estándar 48x96 mm: el hueco de panel más común — compatible con otros
+  instrumentos del mismo formato.
+
+Lo que evita que ocurra:
+- El operario no puede ver el valor de un proceso sin abrir el armario o acceder
+  al software del PLC: el K3HB pone la información donde la necesita.
+- Necesitar una pantalla HMI completa para mostrar solo un valor: el K3HB es mucho
+  más económico para visualizaciones simples.
+
+============================================================
+
+DIFERENCIA CLAVE: K3HB vs REGULADOR E5CC
+--------------------------------------------------------------
+| Característica          | K3HB (indicador/medidor)         | E5CC (regulador temperatura)     |
+|-------------------------|----------------------------------|----------------------------------|
+| Control PID             | No — solo muestra y alarma       | Sí — controla la salida          |
+| Señal de entrada        | Tensión, corriente, pulsos       | Termopar, PT100, 4-20mA          |
+| Para qué                | Visualizar y alertar             | Regular y controlar temperatura  |
+| Precio                  | Menor                            | Mayor                            |
+
+============================================================
+
+MODELOS K3HB A CONOCER
+--------------------------------------------------------------
+| Modelo          | Entrada           | Para qué                                |
+|-----------------|-------------------|-----------------------------------------|
+| K3HB-XVD-24V   | Tensión CC        | Medir y mostrar tensión en 24V DC       |
+| K3HB-XVD-100/240| Tensión CC       | Igual, con alimentación 100-240V AC     |
+| K3HB-PNB       | Pulsos NPN        | Contador de pulsos / velocidad          |
+| Con tarjeta K33FLK1 | + RS232C    | Añade comunicación RS232C con PC/PLC    |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                               | Por qué la necesitas                                          |
+|----|--------------------------------------------------------|---------------------------------------------------------------|
+| 1  | ¿Qué señal quiere mostrar? (4-20mA, 0-10V, pulsos...)  | Define el modelo de entrada del K3HB                         |
+| 2  | ¿La alimentación del cuadro es 24V DC o 230V AC?        | Define la versión de alimentación                            |
+| 3  | ¿Necesita alarmas cuando el valor supera un límite?     | El K3HB tiene salidas de relé para alarma configurable       |
+| 4  | ¿Necesita que el PLC lea el valor medido?               | Si sí → tarjeta de comunicación RS232C (K33FLK)             |
+| 5  | ¿Qué unidad quiere mostrar? (m/min, bar, kg...)         | El K3HB escala y muestra la unidad configurada               |
+
+CONSEJO: El K3HB se vende normalmente para añadir visibilidad a una señal que ya
+existe en el sistema. Si el cliente dice "quiero ver en el armario la velocidad de
+la cinta" o "quiero un indicador de presión en el panel", el K3HB es la respuesta
+rápida y económica. Las tarjetas de expansión (comunicación, alimentación sensor)
+se venden por separado.
+
+============================================================
+Fuentes:
+- Omron K3HB (oficial): https://www.ia.omron.com/products/family/1040/
+- TME K3HB-XVD-24V: https://www.tme.com/us/en-us/details/k3hb-xvd-24vdc/panel-meters/omron/
+============================================================

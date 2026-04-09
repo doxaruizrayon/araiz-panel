@@ -1,0 +1,102 @@
+CUADRO RESUMEN — INTERFAZ RS-SD (CONECTOR SUB-D A BORNES)
+Familia: Electricidad > Aparellaje eléctrico > Autómatas programables / Material de conexión
+Ejemplo en Araiz: Weidmuller ref. 8155660000 (RS SD37S UNC LPK2)
+============================================================
+
+IMAGEN DEL PRODUCTO:
+https://www.zwodltd.com/en-us/product/weidmuller-8155660000-644997
+
+VÍDEO / REFERENCIA TÉCNICA:
+https://plc-trade.com/mpn/rs-sd37s-unc-lpk2/
+
+Búsqueda recomendada en YouTube (español):
+"interfaz Sub-D bornes Weidmuller RS-SD tutorial" o "conector D-sub 37 polos PLC interface bornes"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Una interfaz RS-SD es el componente que convierte un conector Sub-D (el conector
+trapecial de múltiples pines que usan las tarjetas I/O de los PLCs y otros equipos
+industriales) en bornes de conexión individuales con tornillo o resorte, facilitando
+el cableado de campo. En lugar de soldar o crimpar cables directamente al conector
+Sub-D (difícil y propenso a errores), la interfaz RS-SD permite conectar los cables
+de campo con la comodidad de un borne estándar de armario.
+
+Lo que facilita:
+- Cablear las señales de una tarjeta I/O de PLC con conector Sub-D de forma rápida,
+  ordenada y sin errores, usando bornes individuales con etiqueta por canal.
+- Identificar cada señal de forma visual y clara en el armario.
+- Sustituir o modificar el cableado de campo sin necesidad de manipular el conector
+  Sub-D directamente.
+- El ref. 8155660000 tiene conector Sub-D de 37 polos macho → para tarjetas con
+  conector hembra de 37 pines (común en PLCs con tarjetas de 32 I/O).
+
+Lo que evita que ocurra:
+- Errores de cableado al identificar y soldar pins individuales en un conector Sub-D.
+- Averías por malos contactos en el conector Sub-D al moverlo repetidamente.
+- Pérdidas de tiempo en el cableado de tarjetas con muchos pines (37 pines = 37 cables
+  a identificar y cablear sin la interfaz).
+- Dificultad para encontrar una avería en un canal concreto del cableado.
+
+============================================================
+
+DIFERENCIA CON OTRAS INTERFACES RS-SD WEIDMULLER
+--------------------------------------------------------------
+| Tipo                    | Polos conector | Conexión bornes | Cuándo usarlo                                     |
+|-------------------------|----------------|-----------------|---------------------------------------------------|
+| RS SD9S (9 polos)       | Sub-D 9 hembra | Tornillo        | Tarjetas con conector Sub-D de 9 pines (RS-232)   |
+| RS SD25H (25 polos)     | Sub-D 25 macho | Tornillo        | Tarjetas I/O con conector Sub-D de 25 pines       |
+| RS SD37S (ref.8155660000)| Sub-D 37 macho| Tornillo        | Tarjetas I/O con conector Sub-D de 37 pines       |
+| RS HD (alta densidad)   | HD-Sub-D       | Tornillo/resorte| Tarjetas con conector Sub-D de alta densidad      |
+
+El ref. 8155660000 es para conector Sub-D de 37 polos macho (el equipo tiene conector hembra).
+
+============================================================
+
+CARACTERÍSTICAS TÉCNICAS BÁSICAS A SABER
+--------------------------------------------------------------
+| Parámetro                    | Qué significa                                    | Valor ref. 8155660000 (Weidmuller)            |
+|------------------------------|--------------------------------------------------|-----------------------------------------------|
+| Tipo de conector Sub-D       | Configuración del conector hacia el equipo       | Sub-D 37 polos macho                          |
+| Norma del conector           | Estándar eléctrico que cumple                    | IEC 60807 / DIN 41652                         |
+| Tipo de conexión de bornes   | Cómo se conectan los cables de campo             | Tornillo (screw connection)                   |
+| Función principal            | Qué hace                                         | Convierte Sub-D 37 pins en 37 bornes individuales|
+| Montaje                      | Cómo se instala                                  | Carril DIN estándar                           |
+
+============================================================
+
+TIPOLOGÍAS DE INTERFACES SUB-D A BORNES
+--------------------------------------------------------------
+| Tipología                        | Descripción                                                   | Cuándo se usa                                         |
+|----------------------------------|---------------------------------------------------------------|-------------------------------------------------------|
+| Interfaz Sub-D → bornes tornillo | Conexión por apriete de tornillo                              | Uso estándar, fácil de mantener                       |
+| Interfaz Sub-D → bornes resorte  | Conexión rápida sin tornillo (push-in)                        | Montaje rápido, menor espacio                         |
+| Interfaz Sub-D → bornes con fusible| Bornes con portafusible integrado por canal                 | Protección individual de cada señal de campo          |
+| Interfaz Sub-D → relés           | Cada pin del Sub-D activa un relé miniatura                   | Cuando la tarjeta I/O no puede manejar la carga directamente |
+| Adaptador PLC Phoenix Contact    | Variante de Phoenix Contact para módulos PLC-INTERFACE        | Ver cuadro resumen adaptador PLC (ref. 2299660)       |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                          | Por qué la necesitas                                                          |
+|----|-------------------------------------------------------------------|-------------------------------------------------------------------------------|
+| 1  | ¿Qué equipo o tarjeta tiene el conector Sub-D?                    | Define el número de pines (9, 15, 25, 37) y si es macho o hembra             |
+| 2  | ¿El conector del equipo es macho o hembra?                        | La interfaz debe ser la opuesta (si el equipo es hembra → interfaz macho)    |
+| 3  | ¿Cuántos pines tiene el conector Sub-D?                           | 9 / 15 / 25 / 37 pines → cada uno tiene su interfaz específica               |
+| 4  | ¿Prefiere conexión por tornillo o por resorte (push-in)?          | Tornillo = más seguro pero más lento / Resorte = más rápido                  |
+| 5  | ¿Necesita protección individual por canal (fusible)?              | Si las señales son críticas → interfaz con fusible por canal                 |
+| 6  | ¿La tarjeta es de entrada, de salida o mixta?                     | Si es de salida → considerar si necesita interfaz con relés por canal        |
+
+CONSEJO: Antes de pedir la interfaz, verificar siempre el número de pines
+y si el conector del equipo es macho o hembra. Un error en esto hace que
+la interfaz sea completamente inutilizable.
+
+============================================================
+Fuentes:
+- Zwodltd ref. 8155660000: https://www.zwodltd.com/en-us/product/weidmuller-8155660000-644997
+- PLC Trade ref. 8155660000: https://plc-trade.com/mpn/rs-sd37s-unc-lpk2/
+- Amazon ref. 8155660000: https://www.amazon.es/Legrand-8155660000-Weidmuller-Interface-rs-sd/dp/B0020N43UI
+- Weidmuller RS-SD general: https://www.weidmueller.com/int/products/electronics-and-automation/plc-interface-units/news/rs-sd-hd-interfaces
+============================================================

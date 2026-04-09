@@ -1,0 +1,110 @@
+CUADRO RESUMEN — MÓDULO DE ENTRADA DIGITAL
+Familia: Electricidad > Aparellaje eléctrico > Autómatas programables
+Ejemplo en Araiz: Phoenix Contact ref. 2688022 (AXL F DI16/4 2F — serie Axioline F)
+============================================================
+
+IMAGEN DEL PRODUCTO (ref. 2688022 Phoenix Contact):
+https://www.phoenixcontact.com/en-us/products/io-component-axl-f-di164-2f-2688022
+
+VÍDEO / REFERENCIA TÉCNICA:
+https://es.rs-online.com/web/p/accesorios-para-controladores-y-automatas/2249843
+
+Búsqueda recomendada en YouTube (español):
+"módulo entrada digital PLC tutorial" o "sensores PNP NPN conexión PLC explicación"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Un módulo de entrada digital es el componente que permite al PLC "ver" lo que
+ocurre en la instalación. Recibe señales de todo tipo de sensores y dispositivos
+que solo pueden estar en dos estados: activo o inactivo, presencia o ausencia,
+abierto o cerrado. El PLC lee esas señales y toma decisiones en función de ellas.
+
+Lo que facilita:
+- Que el PLC sepa en tiempo real el estado de pulsadores, finales de carrera,
+  detectores de presencia, fotocélulas, sensores inductivos, contactos de relé,
+  interruptores de nivel y cualquier dispositivo de tipo on/off.
+- Conectar sensores de 2, 3 o 4 hilos (PNP y NPN) en el mismo módulo.
+- Aumentar el número de entradas disponibles añadiendo módulos extra sin
+  cambiar el PLC.
+
+Lo que evita que ocurra:
+- Que el PLC actúe "a ciegas" sin información del estado real de la máquina.
+- Errores de proceso por no detectar si una puerta está abierta, si una pieza
+  está en posición o si un depósito está lleno.
+- Que el PLC quede sin entradas cuando la instalación crece.
+
+============================================================
+
+DIFERENCIA CLAVE ENTRE TIPOS DE ENTRADA DIGITAL
+--------------------------------------------------------------
+| Tipo                     | Cómo funciona                                      | Ventaja principal                          | Inconveniente                       | Cuándo usarlo                                        |
+|--------------------------|----------------------------------------------------|--------------------------------------------|-------------------------------------|------------------------------------------------------|
+| Entrada PNP (sourcing)   | El sensor envía +24V cuando detecta               | Estándar europeo, muy inmune al ruido      | No compatible con sensores NPN      | La mayoría de sensores industriales en Europa        |
+| Entrada NPN (sinking)    | El sensor conecta a 0V cuando detecta             | Algo más rápido, menor caída de tensión    | Más habitual en Asia                | Maquinaria asiática (Mitsubishi, Omron, Keyence)     |
+| Entrada universal PNP/NPN| Acepta ambos tipos según cómo se cablee el común  | Máxima flexibilidad                        | Hay que configurar bien el común    | Instalaciones mixtas con distintos sensores          |
+| Entrada rápida (contador)| Acepta frecuencias altas (kHz)                    | Puede contar pulsos de encoder o caudalímetro | Solo en canales específicos       | Encoders, caudalímetros, control de velocidad        |
+| Entrada con diagnóstico  | Detecta cable roto o cortocircuito por canal      | Localiza fallos sin desmontar nada         | Más cara                            | Instalaciones críticas, difícil acceso               |
+
+El ref. 2688022 acepta PNP y NPN (según cableado del común), con 16 entradas y
+tecnología de 2, 3 y 4 hilos. Los canales rápidos permiten contador hasta 5 kHz.
+
+============================================================
+
+CARACTERÍSTICAS TÉCNICAS BÁSICAS A SABER
+--------------------------------------------------------------
+| Parámetro                    | Qué significa                                    | Valor ref. 2688022 (Phoenix Contact)          |
+|------------------------------|--------------------------------------------------|-----------------------------------------------|
+| Número de entradas           | Cuántos sensores puede recibir                   | 16 entradas digitales                         |
+| Tensión de entrada           | Tensión con la que trabajan los sensores         | 24V DC                                        |
+| Tecnología de conexión       | Número de hilos por sensor                       | 2, 3 y 4 conductores (Push-in enchufable)     |
+| Velocidad de bus local       | Comunicación con el acoplador                    | 100 Mbps                                      |
+| Filtro de entradas           | Filtra rebotes y ruido eléctrico                 | Configurable (tiempo de filtro ajustable)     |
+| Función de contador          | Frecuencia máxima de entrada para conteo         | Hasta 5 kHz en canales rápidos                |
+| Norma de entrada             | Estándar eléctrico que cumple                    | EN 61131-2 tipo 1 y tipo 3                    |
+| Grado de protección          | Nivel de estanqueidad                            | IP20 → interior de armario                    |
+| Temperatura de trabajo       | Rango admisible                                  | -25°C a +60°C                                 |
+| Serie / familia              | Sistema al que pertenece                         | Axioline F (solo compatible con acoplador AXL)|
+
+============================================================
+
+TIPOLOGÍAS DE MÓDULOS DE ENTRADA DIGITAL
+--------------------------------------------------------------
+| Tipología                       | Descripción                                                   | Cuándo se usa                                        |
+|---------------------------------|---------------------------------------------------------------|------------------------------------------------------|
+| Entrada estándar 24V DC         | La más habitual. Recibe señales de sensores industriales      | Uso general: detectores, pulsadores, finales de carrera |
+| Entrada rápida / contador       | Acepta frecuencias altas (kHz) para contar pulsos             | Encoders, caudalímetros, control de posición         |
+| Entrada AC (110/230V)           | Para señales de corriente alterna directamente                | Instalaciones antiguas sin transformar la señal       |
+| Entrada con diagnóstico         | Detecta cortocircuito o cable roto por canal                  | Instalaciones críticas o de difícil acceso            |
+| Entrada de seguridad (SIL)      | Certificada para funciones de seguridad (parada de emergencia)| Setas de emergencia, enclavamientos de seguridad     |
+| Descentralizado IP65            | Se instala fuera del armario, en campo                        | Sensores alejados del cuadro principal               |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                          | Por qué la necesitas                                                          |
+|----|-------------------------------------------------------------------|-------------------------------------------------------------------------------|
+| 1  | ¿Qué PLC o sistema de control tiene?                              | El módulo debe ser de la misma familia (Axioline F, TM3...)                   |
+| 2  | ¿Cuántas entradas digitales necesita?                             | Para saber cuántos módulos hacen falta (este tiene 16 entradas)               |
+| 3  | ¿Qué tipo de sensores va a conectar? (PNP, NPN, contacto seco)    | Determina el tipo de módulo y cómo hay que cablear el común                   |
+| 4  | ¿Los sensores son de 2, 3 o 4 hilos?                              | Para seleccionar la tecnología de conexión correcta                           |
+| 5  | ¿Necesita contar pulsos o medir frecuencia? (encoder, caudalímetro)| Si hay encoders → necesita entradas rápidas con función de contador           |
+| 6  | ¿Hay mucho ruido eléctrico en la instalación?                     | Si hay interferencias → ajustar el filtro de entrada o usar cable apantallado |
+| 7  | ¿Va dentro de un armario o en campo abierto?                      | IP20 para armario / IP65-67 para campo                                        |
+| 8  | ¿Alguna entrada es para función de seguridad? (seta emergencia...) | Si es seguridad → necesita módulo certificado SIL, no uno estándar           |
+| 9  | ¿Es instalación nueva o ampliación?                               | Si es ampliación debe ser de la misma serie que lo existente                  |
+
+CONSEJO: Preguntar siempre el tipo de sensor (PNP o NPN) antes de ofrecer el módulo.
+En Europa casi todos los sensores son PNP. Si el cliente trae maquinaria asiática,
+sospechar que los sensores son NPN. Un módulo universal PNP/NPN cubre ambos casos.
+
+============================================================
+Fuentes:
+- Ficha oficial Phoenix Contact 2688022: https://www.phoenixcontact.com/en-us/products/io-component-axl-f-di164-2f-2688022
+- RS Online ref. 2688022: https://es.rs-online.com/web/p/accesorios-para-controladores-y-automatas/2249843
+- Datasheet 2688022: https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/2688022_Ds.pdf
+- Diferencias PNP y NPN en automatización: https://www.qbprofe.com/automatizacion-instrumentacion-industrial/diferencias-entre-pnp-y-npn-en-cableado-de-automatismos-industriales/
+- Conexión sensores al PLC: https://electrotec.pe/blog/CONEXIONSENSORPLC
+============================================================

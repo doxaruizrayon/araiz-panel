@@ -1,0 +1,112 @@
+CUADRO RESUMEN — BARRERAS FOTOELÉCTRICAS Y CORTINAS DE SEGURIDAD
+Familia: Electricidad > Aparellaje eléctrico > Detectores proximidad y fotocelulas
+Ejemplo en Araiz: Omron ref. F3SG-4RE0870P30 (Cortina seguridad F3SG 870mm 30mm resolución)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"cortina de seguridad industrial cómo funciona" o "barrera fotoeléctrica seguridad máquina prensa"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Las barreras fotoeléctricas son sistemas de múltiples haces de luz dispuestos
+en una cortina vertical que detectan cuando algo (una mano, un brazo, un cuerpo)
+atraviesa la zona protegida. Se dividen en dos categorías:
+
+**1. CORTINAS DE SEGURIDAD (Safety Light Curtains) (~400 art.)**
+Dispositivos de seguridad certificados (SIL, PLe, Tipo 2/4) que protegen al
+operario impidiendo el acceso a zonas peligrosas de máquinas: prensas, robots,
+cizallas, plegadoras, centros de mecanizado.
+
+Cuando el operario mete la mano o el cuerpo en la cortina de luz, la máquina
+se para INMEDIATAMENTE. Es una alternativa a las barreras físicas (vallas)
+que permite acceso rápido a la zona de trabajo.
+
+**Tipos por resolución (distancia entre haces):**
+| Resolución | Detecta | Uso típico |
+|-----------|---------|-----------|
+| 14mm | Dedos | Prensas, máquinas con acceso de manos |
+| 30mm | Manos | Acceso general a zona de trabajo |
+| 50-90mm | Brazos/cuerpo | Perímetro de robots y células |
+
+**Tipos por categoría de seguridad:**
+- **Tipo 4 (PLe / SIL3)**: Máximo nivel — para máquinas con riesgo grave.
+  Redundancia interna, autodiagnóstico. Obligatorio en prensas.
+- **Tipo 2 (PLc / SIL1)**: Nivel medio — para máquinas con riesgo moderado.
+  Sin redundancia. Más económico.
+
+Marcas: Omron (F3SG, F3SJ), ABB (EDEN), Telemecanique (XUSB).
+
+**2. BARRERAS DE DETECCIÓN (no de seguridad) (~325 art.)**
+Barreras multihaz que detectan objetos en una zona, pero NO están certificadas
+para seguridad de personas. Se usan para:
+- Detección de cajas/paquetes en transportadores (altura, presencia).
+- Conteo de objetos que pasan por una zona.
+- Detección de nivel de material en tolvas.
+No tienen certificación de seguridad — NO se pueden usar para proteger personas.
+Marcas: Omron (E3Z-G, F3W), Telemecanique (XUSL).
+
+**COMPONENTES DE UNA CORTINA DE SEGURIDAD:**
+1. **Emisor** — Barra con LEDs infrarrojos que emiten los haces.
+2. **Receptor** — Barra con fotodiodos que reciben los haces.
+3. **Soportes de montaje** — Escuadras para fijar emisor y receptor.
+4. **Cables de conexión** — Cables especiales con conector M12 (8 pines).
+5. **Relé/módulo de seguridad** — Procesa la señal de la cortina y para la
+   máquina. Puede estar integrado en la cortina o ser externo.
+
+Lo que facilita:
+- Proteger a los operarios de zonas peligrosas sin barreras físicas.
+- Permitir acceso rápido a la zona de trabajo (no hay que abrir una puerta).
+- Detectar presencia de objetos en áreas amplias (barreras de detección).
+
+Lo que evita que ocurra:
+- Amputaciones y aplastamientos en prensas y máquinas peligrosas.
+- Que un operario entre en la zona de un robot en movimiento.
+- Sanciones por incumplimiento de la Directiva de Máquinas.
+
+============================================================
+
+MODELOS EN ARAIZ (~725 artículos)
+--------------------------------------------------------------
+| Tipo                     | Marca           | Serie               | Para qué                      |
+|--------------------------|-----------------|---------------------|-------------------------------|
+| Cortina seguridad Tipo 4 | Omron           | F3SG-RE              | Protección prensas/robots     |
+| Cortina seguridad Tipo 4 | Omron           | F3SJ                 | Gama económica seguridad      |
+| Cortina seguridad Tipo 2 | Omron           | F3SG-SR              | Seguridad nivel medio         |
+| Cortina seguridad        | ABB             | EDEN                 | Seguridad ABB                 |
+| Cortina seguridad        | Telemecanique   | XUSB, XUSL            | Seguridad Schneider           |
+| Barrera detección        | Omron           | F3W                  | Detección objetos (no safety) |
+| Barrera multihaz         | Omron           | E3Z-G                | Detección zona                |
+| Barrera multihaz         | Telemecanique   | XUSL                 | Detección zona Schneider      |
+| Accesorios cortina       | Omron           | F39-xx               | Soportes, espejos, cables     |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                | Por qué la necesitas                                          |
+|----|----------------------------------------------------------|------------------------------------------------------------- |
+| 1  | Es para seguridad de personas o para detección?         | Seguridad = certificada SIL/PLe; detección = más barata       |
+| 2  | Qué resolución? (dedos 14mm, manos 30mm, cuerpo 50mm)  | Define la distancia entre haces                               |
+| 3  | Qué altura protegida necesita? (300mm a 1800mm)         | Define la longitud de la barra                                |
+| 4  | Tipo 2 o Tipo 4?                                        | Tipo 4 obligatorio en máquinas de alto riesgo (prensas)       |
+| 5  | Tiene relé de seguridad o necesita uno?                 | Algunas cortinas lo integran, otras necesitan externo          |
+| 6  | Qué distancia entre emisor y receptor?                  | Define el alcance necesario (hasta 15m en Tipo 4)             |
+
+CONSEJO: Las cortinas de seguridad Omron F3SG son el producto premium de Araiz
+en este segmento. Son obligatorias por normativa en prensas hidráulicas y
+mecánicas que no tienen protección perimetral.
+El error más grave es instalar una barrera de detección (no certificada) para
+proteger personas — NO es legal y en caso de accidente hay responsabilidad penal.
+Siempre verificar que la cortina tiene certificación Tipo 2 o Tipo 4 si se usa
+para seguridad de personas.
+Las cortinas se venden normalmente como par (emisor + receptor) con una sola
+referencia, pero los cables de conexión suelen ser aparte.
+
+============================================================
+Fuentes:
+- Omron F3SG: https://www.omron.es/es/products/family/3441
+- ABB EDEN: https://new.abb.com/low-voltage/es/productos/seguridad-de-maquinas
+- Norma IEC 61496 (equipos de protección electrosensible)
+============================================================

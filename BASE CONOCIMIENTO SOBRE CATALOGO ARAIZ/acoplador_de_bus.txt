@@ -1,0 +1,122 @@
+CUADRO RESUMEN — ACOPLADOR DE BUS
+Familia: Electricidad > Aparellaje eléctrico > Autómatas programables
+Ejemplo en Araiz: Phoenix Contact ref. 2703994 (IL PN BK DI8 DO4 2TX-PAC)
+============================================================
+
+IMAGEN DEL PRODUCTO (ref. 2703994 Phoenix Contact):
+https://www.phoenixcontact.com/en-us/products/io-component-il-pn-bk-di8-do4-2tx-pac-2703994
+
+VÍDEO EXPLICATIVO (Phoenix Contact, inglés):
+https://www.phoenixcontact.com/en-us/solutions-for-ether-net-ip/us-lp-eip-videos
+
+Búsqueda recomendada en YouTube (español):
+"acoplador bus PROFINET tutorial" o "Phoenix Contact Inline bus coupler"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Un acoplador de bus es el "traductor" entre una red de comunicación industrial
+(el bus de campo) y los módulos de entradas/salidas (I/O) que conectan sensores
+y actuadores. Sin él, el PLC no puede hablar con los dispositivos de campo
+distribuidos por la instalación.
+
+Además de traducir, conecta, estructura y segmenta líneas de datos: divide la
+red en tramos separados para que el tráfico de un segmento no sature al resto.
+También aísla eléctricamente los fallos, de modo que si un dispositivo falla o
+hay un cortocircuito en un tramo, el problema no se propaga al resto de la red.
+
+Lo que facilita:
+- Que muchos dispositivos compartan una misma red de forma ordenada y sin
+  interferencias entre ellos.
+- El mantenimiento: puedes aislar un segmento con fallo sin parar toda la línea.
+
+Lo que evita que ocurra:
+- Saturación del bus por exceso de tráfico (efecto "atasco en la autopista").
+- Que un fallo eléctrico en un punto tumbe toda la instalación.
+- Comunicaciones erróneas entre el PLC y los dispositivos de campo.
+
+Analogía sencilla: el bus es la autopista, los módulos I/O son los pueblos,
+el acoplador es la salida de autopista que conecta los dos, y además actúa
+como barrera de peaje que regula el tráfico y corta el paso si hay un accidente.
+
+============================================================
+
+DIFERENCIA CLAVE CON OTROS ACOPLADORES DE BUS
+--------------------------------------------------------------
+| Tipo                    | Protocolo      | Dónde se usa                  | Lo que lo diferencia                                        |
+|-------------------------|----------------|-------------------------------|-------------------------------------------------------------|
+| Acoplador PROFIBUS-DP   | PROFIBUS       | Industria clásica (1990-2010) | El más extendido en maquinaria antigua. RS-485, par trenzado |
+| Acoplador CANopen       | CANopen        | Maquinaria, automoción        | Muy robusto con ruido eléctrico. Velocidad media             |
+| Acoplador DeviceNet     | DeviceNet      | Industria americana           | Alimenta los dispositivos por el propio cable de bus         |
+| Acoplador EtherCAT      | EtherCAT       | Industria moderna, alta vel.  | El más rápido. Cable Ethernet estándar. En crecimiento       |
+| Acoplador PROFINET      | PROFINET       | Industria moderna Siemens     | Ethernet industrial. Sustituye a PROFIBUS en obra nueva      |
+| Acoplador Modbus TCP    | Modbus TCP     | Automatización general        | Sencillo y barato. Cable Ethernet. Muy usado en cuadros      |
+| Acoplador IO-Link       | IO-Link        | Sensores inteligentes         | No es bus, es conexión directa punto a punto sensor-maestro  |
+
+Ejemplo Araiz:
+- Cabecera comunicación TM3 ETHERNET [SCHNEIDER · TM3BCEIP] → acoplador/cabecera Ethernet
+- Módulo STBCOM ETH MB TCP/IP [SCHNEIDER · STBNIP2212] → acoplador Modbus TCP
+- IL PN BK DI8 DO4 2TX-PAC [PHOENIX CONTACT · 2703994] → acoplador PROFINET
+
+============================================================
+
+CARACTERÍSTICAS TÉCNICAS BÁSICAS A SABER
+--------------------------------------------------------------
+| Parámetro                    | Qué significa                            | Valores habituales                        |
+|------------------------------|------------------------------------------|-------------------------------------------|
+| Protocolo                    | El idioma de red que habla               | PROFIBUS / CANopen / PROFINET / Modbus TCP |
+| Número máximo de módulos I/O | Cuántos módulos puede gestionar          | 4 / 8 / 16 / 32 / 63...                  |
+| Número máximo de I/O         | Cuántas entradas/salidas en total        | 64 / 128 / 512...                         |
+| Tensión de alimentación      | La que necesita el propio acoplador      | 24V DC (la más habitual)                  |
+| Velocidad de bus             | Qué tan rápido transmite datos           | 9,6 kbps (lento) hasta 100 Mbps (Ethernet)|
+| Dirección de nodo            | Su número en la red (lo asignas tú)     | 1-126 en PROFIBUS / por IP en Ethernet    |
+| Grado de protección IP       | Si va en armario o en campo abierto      | IP20 (armario) / IP65-67 (campo)          |
+| Diagnóstico                  | LEDs o pantalla para ver errores         | Importante para mantenimiento             |
+
+Datos concretos del ref. 2703994 (Phoenix Contact IL PN BK DI8 DO4 2TX-PAC):
+- Protocolo: PROFINET
+- 8 entradas digitales 24V DC integradas
+- 4 salidas digitales 24V DC / 500 mA integradas
+- Conexión: RJ45 (cable Ethernet estándar)
+- Velocidad local bus: 500 kbps a 2 Mbps
+- Protección: IP20 → para montar dentro de armario
+- Hasta 63 módulos I/O adicionales conectables
+
+============================================================
+
+TIPOLOGÍAS DE ACOPLADORES DE BUS
+--------------------------------------------------------------
+| Tipología                  | Cómo se monta                          | Cuándo se usa                                      |
+|----------------------------|----------------------------------------|----------------------------------------------------|
+| En carril DIN (armario)    | Dentro del cuadro eléctrico            | Lo más habitual. Protegido, fácil de cablear        |
+| Descentralizado IP65/67    | Directamente en campo, sin armario     | Máquinas con I/O repartidas. Ahorra cable           |
+| Integrado en PLC           | El propio PLC ya lleva el puerto de bus| PLCs compactos. Menos flexible pero más barato       |
+| Gateway / pasarela         | Traduce entre dos protocolos distintos | Cuando PLC y dispositivo no hablan el mismo idioma  |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                  | Por qué la necesitas                                              |
+|----|-----------------------------------------------------------|-------------------------------------------------------------------|
+| 1  | ¿Qué PLC tiene o va a instalar? (marca y modelo)          | El PLC determina el protocolo. Siemens S7 → PROFINET; Schneider M221 → Modbus |
+| 2  | ¿Qué protocolo de bus usa la instalación?                 | Si ya hay red montada, el acoplador debe hablar ese mismo idioma  |
+| 3  | ¿Cuántos módulos I/O va a conectar?                       | Determina la capacidad del acoplador                              |
+| 4  | ¿Cuántas entradas y cuántas salidas en total?             | Para dimensionar correctamente                                    |
+| 5  | ¿Va dentro de un armario o en campo abierto?              | IP20 para armario / IP65-67 para campo                            |
+| 6  | ¿Es instalación nueva o ampliación de una existente?      | Si es ampliación, debe ser compatible con lo que ya hay           |
+| 7  | ¿Qué alimentación tiene disponible?                       | Casi siempre 24V DC, pero hay que confirmarlo                     |
+| 8  | ¿Necesita diagnóstico remoto?                             | Si quiere monitorizar el estado del bus desde SCADA o exterior    |
+
+CONSEJO: Si el cliente no sabe el protocolo, pídele la referencia del PLC
+y consulta en Telematel o con Schneider/OMRON/Phoenix Contact directamente.
+Vender el acoplador equivocado es vender algo que no va a funcionar.
+
+============================================================
+Fuentes:
+- Ficha producto Phoenix Contact 2703994: https://www.phoenixcontact.com/en-us/products/io-component-il-pn-bk-di8-do4-2tx-pac-2703994
+- Vídeos Phoenix Contact: https://www.phoenixcontact.com/en-us/solutions-for-ether-net-ip/us-lp-eip-videos
+- PROFINET explicado: https://www.cursosaula21.com/profinet-que-es-y-como-funciona/
+- Acopladores Phoenix Contact: https://www.phoenixcontact.com/en-pc/products/industrial-communication/fieldbus-distributors-and-segment-couplers
+============================================================

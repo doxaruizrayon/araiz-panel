@@ -1,0 +1,99 @@
+CUADRO RESUMEN — MÓDULO E/S REMOTA ETHERCAT SERIE GX (ENTRADAS/SALIDAS DISTRIBUIDAS)
+Familia: Electricidad > Aparellaje eléctrico > Autómatas programables y robots industriales
+Ejemplo en Araiz: Omron ref. GX-JC06H (Módulo junction EtherCAT 6 puertos IP67)
+============================================================
+
+IMAGEN DEL PRODUCTO:
+https://www.ia.omron.com/products/family/3109/
+
+VÍDEO / REFERENCIA TÉCNICA:
+https://industrial.omron.co.uk/en/products/gx-series
+
+Búsqueda recomendada en YouTube (español):
+"módulo E/S remota EtherCAT GX Omron distribución señales" o "E/S distribuida EtherCAT armario campo"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Los módulos E/S remota de la serie GX son bloques de entradas y salidas digitales/
+analógicas que se colocan cerca de los sensores y actuadores en la máquina — no en
+el armario central — y se conectan al PLC NJ/NX por EtherCAT (un solo cable de red).
+El concepto es "E/S distribuida": en lugar de llevar cientos de metros de cables
+desde cada sensor hasta el armario central, se instala un módulo GX cerca del sensor,
+se conectan los sensores localmente, y solo va un cable EtherCAT hasta el PLC. Ahorra
+enormemente en cableado y permite distribuir la electrónica a lo largo de la máquina.
+El módulo GX-JC06H es un nodo de unión (junction) que conecta hasta 6 ramas EtherCAT
+desde un único punto — útil en máquinas con múltiples zonas de actuación distribuidas.
+
+Lo que facilita:
+- Reducir el cableado de señales en máquinas grandes o líneas largas: un solo cable
+  EtherCAT por zona en lugar de un cable por cada sensor hasta el armario.
+- Instalar los módulos GX directamente en la máquina (IP67 — protección total
+  contra polvo y agua): no necesitan armario, van en el campo directamente.
+- Añadir entradas y salidas fácilmente: se añaden más módulos GX al bus EtherCAT
+  sin recablear el armario central.
+- Diagnóstico por red: el PLC conoce en tiempo real el estado de comunicación
+  de cada nodo GX — si hay un cable roto, se localiza exactamente dónde.
+- Topología flexible: el GX-JC06H como junction permite ramas en árbol para zonas
+  alejadas sin necesidad de cableado en cadena.
+
+Lo que evita que ocurra:
+- Cableado masivo de señales en máquinas grandes: sin E/S distribuida, cada sensor
+  necesita su propio cable hasta el armario central (coste y tiempo de instalación enorme).
+- Armarios sobredimensionados: los módulos GX en campo reducen las tarjetas de E/S
+  necesarias en el armario del PLC.
+- Interferencias en cables de señal largos: las señales analógicas en cables largos
+  captan ruido — la conversión local en el módulo GX evita este problema.
+
+============================================================
+
+DIFERENCIA CLAVE: E/S REMOTA (GX) vs E/S LOCAL (módulos bastidor NJ/NX)
+--------------------------------------------------------------
+| Característica          | E/S remota GX (EtherCAT)         | E/S local bastidor NJ/NX         |
+|-------------------------|----------------------------------|----------------------------------|
+| Ubicación               | En el campo, junto a sensores    | En el armario, bastidor del PLC  |
+| Conexión al PLC         | Cable EtherCAT (1 cable por zona)| Bus interno del bastidor         |
+| Protección IP           | IP67 (sin armario necesario)     | IP20 (dentro de armario)         |
+| Para máquinas           | Grandes / distribuidas           | Compactas / todo en armario      |
+| Cableado                | Mínimo — señales locales         | Mucho — señales al armario       |
+
+============================================================
+
+MÓDULOS GX A CONOCER
+--------------------------------------------------------------
+| Modelo       | Tipo                   | Para qué                                  |
+|--------------|------------------------|-------------------------------------------|
+| GX-ID32ML3  | 32 entradas digitales  | Zona con muchos sensores digitales        |
+| GX-OD32ML3  | 32 salidas digitales   | Zona con muchos actuadores digitales      |
+| GX-AD4      | 4 entradas analógicas  | Señales analógicas en campo (4-20mA, V)   |
+| GX-JC06H    | Junction 6 puertos     | Nodo de unión para topología en árbol     |
+| GX-EC0□1    | Nodo bus EtherCAT      | Acoplador de bus para módulos en bastidor |
+
+NOTA: Los módulos GX se montan en carril DIN dentro de carcasa IP67 o directamente
+en bastidor compacto. El conexionado es con conectores M8/M12 estándar industriales.
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                               | Por qué la necesitas                                          |
+|----|--------------------------------------------------------|---------------------------------------------------------------|
+| 1  | ¿Qué PLC tiene? ¿NJ/NX?                                | La serie GX es EtherCAT — solo con NJ/NX (o CJ1W-NC882)     |
+| 2  | ¿Cuántos sensores/actuadores hay en cada zona?         | Define cuántos módulos GX y de qué tipo (entradas/salidas)   |
+| 3  | ¿Las señales son digitales o analógicas?               | GX-ID/OD (digital) vs GX-AD (analógico)                     |
+| 4  | ¿Los módulos van en el campo (exterior) o en armario?  | Campo → IP67 con conectores M12 / Armario → bastidor estándar|
+| 5  | ¿Qué distancias hay entre zonas y el armario central?  | Define la longitud de cable EtherCAT necesaria               |
+
+CONSEJO: Los módulos GX se recomiendan siempre en instalaciones con NJ/NX donde la
+máquina o línea tiene sensores/actuadores distribuidos a cierta distancia del armario
+central. Si un cliente dice "tengo muchos metros de cableado" o "la máquina es muy
+larga", la E/S distribuida GX es la solución para ahorrar cableado y tiempo de instalación.
+Para instalaciones compactas donde todo está cerca del armario, los módulos de bastidor
+del NJ/NX son más sencillos y económicos.
+
+============================================================
+Fuentes:
+- Omron GX series (oficial): https://www.ia.omron.com/products/family/3109/
+- EtherCAT E/S distribuida: https://industrial.omron.co.uk/en/products/gx-series
+============================================================

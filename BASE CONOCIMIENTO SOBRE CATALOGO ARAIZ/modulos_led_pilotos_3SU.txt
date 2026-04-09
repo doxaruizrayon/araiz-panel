@@ -1,0 +1,107 @@
+CUADRO RESUMEN — MÓDULOS LED Y PILOTOS LUMINOSOS (Siemens 3SU / Eaton / ABB)
+Familia: Electricidad > Aparellaje eléctrico > Otros aparatos manuales
+Ejemplo en Araiz: Siemens ref. 3SU1401-2BH40-1AA0 (Módulo LED 24-240V verde, borne tornillo)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"piloto luminoso cuadro eléctrico señalización industrial" o "modulo led siemens 3SU pulsador"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Los módulos LED y pilotos luminosos son los elementos de señalización
+visual en cuadros de mando y armarios eléctricos. Indican el estado de
+una máquina, circuito o alarma mediante luz de color.
+
+Son la parte visual de los pulsadores y pilotos que ya están en el cuadro
+"Pulsetería". Aquí están los módulos intercambiables que se montan dentro
+del cuerpo del pulsador.
+
+**¿Por qué módulos intercambiables?**
+Los pulsadores y pilotos modernos (Siemens 3SU, Eaton M22, ABB MP)
+se construyen por bloques:
+1. **Cuerpo/cabeza**: la parte visible desde el frontal (botón, piloto, selector)
+2. **Módulo de contactos**: la parte eléctrica que abre/cierra el circuito
+3. **Módulo de iluminación (LED)**: el elemento luminoso intercambiable
+
+Si se funde el LED o se quiere cambiar el color, se sustituye solo el
+módulo luminoso — sin desmontar todo el pulsador.
+
+**Siemens 3SU — la gama más vendida en Araiz (253 art.)**
+La gama 3SU de Siemens es el estándar de facto en cuadros de mando
+industrial en España. El sistema es modular:
+
+| Referencia | Función                                   | Tensión habitual |
+|------------|-------------------------------------------|------------------|
+| 3SU1401    | Módulo LED para base de tornillo          | 24V / 230V AC    |
+| 3SU1402    | Módulo LED para base de resorte (push-in) | 24V / 230V AC    |
+| 3SU1201    | Porta LED (soporte para el módulo)        | —                |
+| 3SU1400    | Módulo LED bajo consumo                   | 24V DC           |
+
+**Colores estándar:**
+| Color    | Código | Significado en automatización               |
+|----------|--------|---------------------------------------------|
+| Verde    | -BF40  | Marcha / OK / Tensión presente              |
+| Rojo     | -BF20  | Paro / Fallo / Alarma                       |
+| Amarillo | -BE40  | Atención / Aviso / Modo manual              |
+| Blanco   | -BA40  | Información general                         |
+| Azul     | -BH40  | Obligatorio / Señal específica              |
+| Ámbar    | -BF40  | Advertencia (similar a amarillo, más oscuro)|
+
+**Eaton M22 — equivalente (122 art.)**
+La gama M22 de Eaton funciona igual que el 3SU de Siemens — sistema
+modular con cabezas, cuerpos y módulos de contactos/LED intercambiables.
+Muy habitual en cuadros de control de la marca Eaton (xStart, PKE).
+
+**ABB MP / MPM (29 art.)**
+Sistema modular ABB para pulsadores y pilotos. Menos habitual que Siemens
+y Eaton, pero compatible con cuadros con estándar ABB.
+
+**Telergon (68 art.)**
+Empresa española especializada en seccionadores y aparatos manuales.
+Sus referencias en este grupo son accesorios mecánicos para interruptores
+rotativos: ejes, manetas y cierres de puerta. No son módulos LED.
+
+============================================================
+
+TIPOS DE MONTAJE Y HUECO DE PANEL
+--------------------------------------------------------------
+| Hueco en panel | Sistema         | Marcas compatibles         |
+|----------------|-----------------|----------------------------|
+| Ø 22 mm        | 3SU (Siemens)   | Siemens 3SU, Eaton M22     |
+| Ø 22 mm        | M22 (Eaton)     | Eaton M22                  |
+| Ø 30 mm        | MP (ABB)        | ABB MP                     |
+| Ø 16 mm        | 3SB (Siemens)   | Siemens 3SB                |
+
+IMPORTANTE: el hueco estándar en cuadros modernos es Ø 22 mm. Al reponer
+un módulo o piloto averiado, verificar siempre el diámetro del agujero.
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                    | Por qué                                        |
+|----|-------------------------------------------------------------|------------------------------------------------|
+| 1  | ¿Qué marca es el pulsador/piloto que hay instalado?        | Los módulos no son intercambiables entre marcas|
+| 2  | ¿Cuál es la referencia del cuerpo actual?                  | Para saber si es 3SU1401 o 3SU1402 (tornillo/resorte)|
+| 3  | ¿Qué color necesita?                                        | Verde, rojo, amarillo, azul, blanco...         |
+| 4  | ¿Qué tensión tiene el circuito de señalización?            | 24V DC (PLC) o 230V AC (directo de red)        |
+| 5  | ¿Es sustitución por avería o montaje nuevo?                | Si es avería: traer la referencia del actual   |
+
+CONSEJO: El módulo más pedido en Araiz es el 3SU1401-2BH40-1AA0
+(LED azul 24-240V, borne tornillo). El azul es el color de "mando obligatorio"
+pero también se usa como señal de información en muchos cuadros.
+Para sustitución de módulo LED fundido: pedir la referencia completa del
+módulo, ya que Siemens tiene variantes por tensión, color y tipo de borne.
+El LED en los módulos 3SU tiene vida media de 100.000 horas — si se funde
+rápido, puede haber sobretensión en el circuito de señalización.
+Los módulos Siemens 3SU no son compatibles con los Eaton M22 ni con
+los ABB, aunque la apertura de panel (Ø 22mm) sea la misma.
+
+============================================================
+Fuentes:
+- Siemens 3SU módulos: https://new.siemens.com/es/es/productos/automatizacion/aparellaje-industrial/dispositivos-control-maniobra/3SU.html
+- Eaton M22: https://www.eaton.com/es/es-es/catalog/pushbutton-selector-switches/m22-series.html
+- ABB MP: https://new.abb.com/products/es/2TLA020049R1200
+============================================================

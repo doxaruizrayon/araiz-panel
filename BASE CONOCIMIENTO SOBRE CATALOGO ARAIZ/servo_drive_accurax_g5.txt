@@ -1,0 +1,138 @@
+CUADRO RESUMEN — SERVO DRIVE ACCURAX G5 (VARIADOR SERVO)
+Familia: Electricidad > Aparellaje eléctrico > Autómatas programables y robots industriales
+Ejemplo en Araiz: Omron ref. R88DKN15FECT (Servo drive Accurax G5 EtherCAT 1,5kW — serie R88D-KN)
+============================================================
+
+IMAGEN DEL PRODUCTO:
+https://www.ia.omron.com/products/family/2644/
+
+VÍDEO / REFERENCIA TÉCNICA:
+https://industrial.omron.co.uk/en/products/accurax-g5-drives
+
+Búsqueda recomendada en YouTube (español):
+"servo drive Omron Accurax G5 EtherCAT configuración" o "variador servo drive diferencia variador frecuencia"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Un servo drive (también llamado amplificador servo o variador servo) es el componente
+electrónico que controla con precisión la posición, velocidad y par de un servomotor.
+A diferencia de un variador de frecuencia (que solo controla velocidad de forma
+aproximada), el servo drive utiliza la señal del encoder del motor para saber en todo
+momento la posición exacta del eje y corregirla al instante — es posicionamiento de
+alta precisión en tiempo real. El Accurax G5 (R88D-KN) es la gama de servo drives
+de Omron con EtherCAT integrado: se conecta directamente a la red EtherCAT del PLC
+(NJ/NX de Omron o cualquier PLC con EtherCAT) y ejecuta perfiles de movimiento con
+precisión de ±0,02 mm.
+
+Lo que facilita:
+- Controlar la posición, velocidad y par de un servomotor con precisión de décimas
+  de milímetro: posicionamiento repetible para ensamblaje, corte, soldadura, etc.
+- Conectar el drive directamente a la red EtherCAT del PLC sin tarjetas de ejes
+  adicionales — reduce cableado y simplifica la arquitectura del sistema.
+- Autoajuste automático (autotuning) de los parámetros del servo: el drive aprende
+  las características mecánicas de la carga sin intervención manual.
+- Montar varios drives en el armario uno al lado del otro sin espacio entre ellos
+  (montaje side-by-side): ahorra hasta un 50% de espacio respecto a generaciones anteriores.
+- Safe Torque Off (STO) integrado certificado: para la energía al motor de forma
+  segura sin necesidad de contactor adicional en muchas aplicaciones.
+
+Lo que evita que ocurra:
+- Posicionamiento impreciso: el servo corrige errores de posición en microsegundos
+  — no hay deriva ni pérdida de pasos como con motores paso a paso.
+- Vibraciones mecánicas en la carga: el filtro adaptativo y el control de amortiguación
+  del Accurax G5 eliminan resonancias automáticamente.
+- Sobredimensionamiento: el autotuning ajusta la ganancia al mínimo necesario,
+  alargando la vida mecánica de la máquina.
+- Cableado complejo de la red de movimiento: EtherCAT en cadena (daisy-chain)
+  conecta todos los drives con un solo cable de red estándar.
+
+============================================================
+
+DIFERENCIA CLAVE: SERVO DRIVE vs VARIADOR DE FRECUENCIA
+--------------------------------------------------------------
+| Característica          | Servo Drive Accurax G5           | Variador de frecuencia           |
+|-------------------------|----------------------------------|----------------------------------|
+| Control de posición     | Sí — precisión ±0,02 mm          | No (solo velocidad aproximada)   |
+| Encoder                 | Obligatorio (cerrado en posición)| Opcional (sin realimentación)    |
+| Respuesta               | Muy rápida (microsegundos)       | Lenta (milisegundos)             |
+| Motor                   | Solo servomotor compatible       | Motor asíncrono estándar         |
+| Autotuning              | Sí — aprende la inercia de carga | No                               |
+| Precio                  | Alto                             | Medio                            |
+| Para qué                | Posicionamiento preciso, robots  | Variación de velocidad           |
+
+============================================================
+
+MODELOS SERIE ACCURAX G5 (R88D-KN) A CONOCER
+--------------------------------------------------------------
+| Modelo             | Potencia | Alimentación  | Comunicación    | Cuándo usarlo                             |
+|--------------------|----------|---------------|-----------------|-------------------------------------------|
+| R88D-KN01H-ECT     | 100W     | 230V mono     | EtherCAT        | Ejes pequeños de precisión                |
+| R88D-KN02H-ECT     | 200W     | 230V mono     | EtherCAT        | Eje ligero, alta precisión                |
+| R88D-KN04H-ECT     | 400W     | 230V mono     | EtherCAT        | Eje medio — el más habitual               |
+| R88D-KN08H-ECT     | 750W     | 230V mono     | EtherCAT        | Eje con carga media                       |
+| R88D-KN15H-ECT     | 1,5kW    | 230V mono     | EtherCAT        | Eje con carga alta                        |
+| R88D-KN06F-ECT     | 600W     | 400V tri      | EtherCAT        | Aplicaciones industriales 400V            |
+| R88D-KN15F-ECT     | 1,5kW    | 400V tri      | EtherCAT        | Potencia media 400V                       |
+| R88D-KN75F-ECT     | 7,5kW    | 400V tri      | EtherCAT        | Ejes de alta potencia                     |
+| R88D-KT (analógico)| Varios   | 230/400V      | Pulsos/analógica| Sistemas sin EtherCAT (más económico)     |
+
+============================================================
+
+CARACTERÍSTICAS TÉCNICAS BÁSICAS A SABER
+--------------------------------------------------------------
+| Parámetro                    | Qué significa                                    | Valor serie Accurax G5 / R88D-KN-ECT (Omron)  |
+|------------------------------|--------------------------------------------------|-----------------------------------------------|
+| Rango de potencia            | Potencias disponibles                            | 100W a 15kW                                   |
+| Alimentación                 | Tensión de entrada                               | 230V AC monofásico / 400V AC trifásico        |
+| Comunicación                 | Protocolo de red con el PLC                      | EtherCAT 100 Mbps (daisy-chain)               |
+| Resolución encoder           | Pasos por vuelta del encoder                     | 20 bits = 1.048.576 impulsos/vuelta           |
+| Precisión posicionamiento    | Error máximo de posición                         | ±0,02 mm en condiciones estándar              |
+| Autotuning                   | Ajuste automático de ganancias                   | Sí — tiempo real adaptativo                   |
+| Safe Torque Off (STO)        | Función de seguridad integrada                   | Sí — SIL2 / PLd integrado                    |
+| Filtro anti-vibración        | Supresión de resonancias mecánicas               | Sí — filtro adaptativo + muesca (notch)       |
+| Montaje side-by-side         | Si necesita espacio entre drives                 | No — montaje sin espacio lateral              |
+| Motor compatible             | Con qué motor funciona                           | Solo servomotores Accurax G5 (R88M-K)         |
+
+============================================================
+
+TIPOLOGÍAS DE SERVO DRIVES OMRON
+--------------------------------------------------------------
+| Tipología                        | Comunicación     | Para qué                                             |
+|----------------------------------|------------------|------------------------------------------------------|
+| Accurax G5 EtherCAT (este)       | EtherCAT         | PLCs NJ/NX Omron o cualquier maestro EtherCAT        |
+| Accurax G5 MECHATROLINK-II       | MECHATROLINK-II  | PLCs Omron CS1/CJ1 con tarjeta de ejes ML2           |
+| Accurax G5 analógico/pulsos (KT) | Analógica/pulsos | Sistemas legacy sin bus de campo de movimiento       |
+| Servo 1S EtherCAT (nueva gen.)   | EtherCAT         | Nueva generación — mayor precisión y menor tamaño    |
+| SmartStep 2 (gama económica)     | Pulsos           | Aplicaciones simples sin necesidad de bus de campo   |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                          | Por qué la necesitas                                                          |
+|----|-------------------------------------------------------------------|-------------------------------------------------------------------------------|
+| 1  | ¿Qué PLC tiene y qué protocolo de movimiento usa?                 | EtherCAT → Accurax G5 ECT / MECHATROLINK → G5 ML2 / Pulsos → G5 KT          |
+| 2  | ¿Cuánta potencia necesita el eje? (kW o Nm + rpm)                 | Define el modelo: 100W / 200W / 400W / 750W / 1,5kW / 3kW / 7,5kW / 15kW   |
+| 3  | ¿La red de alimentación es monofásica (230V) o trifásica (400V)?  | Los drives KNxxH son 230V / KNxxF son 400V — ¡no son intercambiables!        |
+| 4  | ¿Cuántos ejes necesita controlar?                                 | 1 drive = 1 eje — para varios ejes necesita 1 drive por eje                  |
+| 5  | ¿Tiene ya el servomotor (R88M-K) o necesita también el motor?    | El drive solo funciona con el servomotor compatible — verificar pareja        |
+| 6  | ¿Necesita freno en el motor? (eje vertical, carga que cae)        | Si sí → motor con freno + cable con freno (BRE)                              |
+| 7  | ¿Necesita función de seguridad STO certificada?                   | El G5 incluye STO de serie — si necesita SIL3 ver servo 1S o PSR             |
+| 8  | ¿Es ampliación de sistema existente o instalación nueva?          | Ampliación → mismo protocolo que los drives ya instalados                    |
+
+CONSEJO: El servo drive Accurax G5 y el servomotor Accurax G5 (R88M-K) son una pareja
+inseparable — no funcionan con otros motores ni drives de la competencia. Si el cliente
+pide solo el drive sin el motor (o viceversa), preguntar siempre si tiene la contraparte.
+Para instalaciones nuevas con PLC NJ/NX de Omron, el Accurax G5 EtherCAT es la opción
+natural — integración directa con Sysmac Studio sin configuración adicional de red.
+
+============================================================
+Fuentes:
+- Omron Accurax G5 EtherCAT (oficial): https://www.ia.omron.com/products/family/2644/
+- Manual usuario G5 EtherCAT (PDF): https://files.omron.eu/downloads/latest/manual/en/i576_accurax_g5_servomotors_drives_with_ethercat_control_users_manual_en.pdf
+- Omron Accurax G5 drives (UK): https://industrial.omron.co.uk/en/products/accurax-g5-drives
+- TME R88D-KN15H-ECT especificaciones: https://www.tme.com/us/en-us/details/r88d-kn15h-ect/electric-motors/omron/
+- Lakewood Automation G5: https://www.lakewoodautomation.com/lw-products/omron-ethercat-g5-servo-drive/
+============================================================

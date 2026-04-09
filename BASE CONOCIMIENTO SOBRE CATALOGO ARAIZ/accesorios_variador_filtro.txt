@@ -1,0 +1,104 @@
+CUADRO RESUMEN — ACCESORIOS PARA VARIADORES DE FRECUENCIA: FILTROS EMC, RESISTENCIAS DE FRENADO Y COMPLEMENTOS
+Familia: Electricidad > Aparellaje eléctrico > Accesorios
+Ejemplo en Araiz: Siemens ref. 6SE6400-2FL02-6BB0 (Filtro EMC clase B para MICROMASTER 420)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"filtro EMC variador frecuencia para qué sirve" o "resistencia frenado variador frecuencia"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Los variadores de frecuencia (drives) necesitan accesorios específicos para
+funcionar correctamente en una instalación industrial sin causar problemas
+eléctricos. Este cuadro agrupa esos accesorios complementarios:
+
+**1. FILTROS EMC / RFI (~50 art.)**
+Filtros que se instalan a la entrada del variador para reducir las interferencias
+electromagnéticas (EMI/EMC) que el variador genera al conmutar a alta frecuencia.
+Sin filtro, el variador puede interferir con radios, equipos de medida, PLCs y
+otros aparatos cercanos. Obligatorios por normativa CE en muchas instalaciones.
+Clases: Clase A (industrial — menos restrictivo), Clase B (residencial/terciario
+— más restrictivo, reduce más las interferencias).
+Marcas: Siemens (para SINAMICS/MICROMASTER), ABB (para ACS), Schneider (para
+Altivar), Eaton.
+
+**2. RESISTENCIAS DE FRENADO (~30 art.)**
+Resistencias que disipan en forma de calor la energía que el motor devuelve al
+variador cuando frena. Sin resistencia de frenado, la tensión del bus DC del
+variador sube y el variador se dispara por sobretensión. Necesarias en:
+máquinas que frenan bruscamente, ascensores, centrifugadoras, sierras.
+La potencia y el valor óhmico dependen del variador y la inercia de la carga.
+Marcas: Siemens, ABB, Schneider, Eaton.
+
+**3. REACTANCIAS DE LÍNEA / CHOKES (~25 art.)**
+Bobinas que se instalan a la entrada del variador para limitar la distorsión
+armónica que el variador inyecta en la red eléctrica. También protegen al
+variador contra picos de tensión de la red. Recomendadas cuando hay varios
+variadores en la misma instalación o cuando la red es débil.
+Marcas: Siemens, ABB, Schneider.
+
+**4. MÓDULOS DE COMUNICACIÓN Y TARJETAS OPCIONALES (~20 art.)**
+Tarjetas que se insertan en el variador para añadir protocolos de comunicación
+(PROFIBUS, PROFINET, Modbus TCP, EtherNet/IP) o entradas/salidas adicionales.
+Permiten que el PLC controle el variador por bus de campo.
+Marcas: Siemens, ABB, Schneider.
+
+**5. OTROS ACCESORIOS (~15 art.)**
+Paneles de operador (teclados/display para programar el variador desde el
+frente del armario), kits de montaje en cuadro, ventiladores de repuesto,
+software de configuración.
+
+Lo que facilita:
+- Cumplir la normativa EMC sin problemas de interferencias (filtros).
+- Frenar motores con cargas de alta inercia sin disparar el variador (resistencias).
+- Controlar variadores desde PLC por bus de campo (módulos comunicación).
+
+Lo que evita que ocurra:
+- Interferencias electromagnéticas en otros equipos (filtros EMC).
+- Disparo del variador por sobretensión en frenado (resistencia de frenado).
+- Distorsión armónica excesiva en la red eléctrica (reactancias).
+
+============================================================
+
+MODELOS EN ARAIZ (~140 artículos)
+--------------------------------------------------------------
+| Tipo                     | Marca           | Para variador        | Para qué                      |
+|--------------------------|-----------------|----------------------|-------------------------------|
+| Filtro EMC clase A       | Siemens         | MICROMASTER/SINAMICS | Cumplir EMC en industria      |
+| Filtro EMC clase B       | Siemens         | MICROMASTER/SINAMICS | Cumplir EMC en terciario      |
+| Filtro EMC               | ABB             | ACS355/ACS580        | Cumplir EMC para ABB          |
+| Filtro EMC               | Schneider       | Altivar 312/320/600  | Cumplir EMC para Schneider    |
+| Resistencia frenado      | Siemens         | SINAMICS              | Disipar energía de frenado    |
+| Resistencia frenado      | ABB / Schneider | ACS / Altivar        | Disipar energía de frenado    |
+| Reactancia línea         | Siemens / ABB   | Varios               | Limitar armónicos             |
+| Tarjeta PROFINET         | Siemens         | SINAMICS G120        | Comunicación bus de campo     |
+| Panel operador           | Siemens / ABB   | Varios               | Programar variador en frente  |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                | Por qué la necesitas                                          |
+|----|----------------------------------------------------------|------------------------------------------------------------- |
+| 1  | Marca y modelo exacto del variador?                     | Todos los accesorios son específicos por variador             |
+| 2  | Qué accesorio necesita? (filtro, resistencia, tarjeta)  | Define la subfamilia                                          |
+| 3  | Si filtro EMC: clase A o clase B?                       | Clase B es más restrictiva y más cara                         |
+| 4  | Si resistencia: potencia del motor y tipo de carga?     | Define la potencia y ohmios de la resistencia                 |
+| 5  | Si tarjeta comunicación: qué protocolo? (PROFINET, etc.)| Cada protocolo es una tarjeta diferente                       |
+
+CONSEJO: Los filtros EMC son el accesorio que más se olvida al presupuestar un
+variador. Si el cliente pide un variador, preguntarle siempre si necesita filtro EMC
+— en edificios terciarios (oficinas, hospitales, centros comerciales) es obligatorio
+clase B. Las resistencias de frenado solo se necesitan si la aplicación frena
+bruscamente o con frecuencia — aplicaciones como bombas o ventiladores normalmente
+NO necesitan resistencia. Los accesorios de variador son 100% específicos por marca
+y modelo — no hay compatibilidad entre marcas.
+
+============================================================
+Fuentes:
+- Siemens filtros SINAMICS: https://www.siemens.com/es/es/productos/accionamientos.html
+- ABB accesorios drives: https://new.abb.com/drives/es/accesorios
+- Schneider Altivar: https://www.se.com/es/es/product-range/62138-altivar-machine/
+============================================================

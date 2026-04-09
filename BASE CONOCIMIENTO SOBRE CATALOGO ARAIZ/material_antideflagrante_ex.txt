@@ -1,0 +1,130 @@
+CUADRO RESUMEN — MATERIAL ANTIDEFLAGRANTE Y ATEX (CEAG / GAESTOPAS)
+Familia: Electricidad > Aparellaje eléctrico > Material antideflagrante
+Ejemplo en Araiz: GAESTOPAS ref. 363.2015.0 EX (Prensaestopas GADI-EX poliamida M20 6-12mm)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"prensaestopas ATEX zonas explosivas instalación" o "material antideflagrante EX zonas peligrosas"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+El material antideflagrante (marcado "EX" o "ATEX") es material eléctrico
+especialmente diseñado para usarse en zonas donde puede haber atmósferas
+explosivas: mezclas de gas/vapor/polvo con el aire que pueden inflamarse
+con una chispa eléctrica.
+
+**¿Qué es una zona ATEX?**
+ATEX = ATmósferes EXplosibles (Directiva europea 2014/34/UE).
+Clasifica las zonas en función del riesgo:
+
+| Zona | Tipo          | Descripción                                         | Ejemplo                  |
+|------|---------------|-----------------------------------------------------|--------------------------|
+| 0    | Gas continuo  | Atmósfera explosiva de gas presente de forma continua| Interior depósito        |
+| 1    | Gas probable  | Gas presente con cierta probabilidad                 | Alrededor de depósitos   |
+| 2    | Gas eventual  | Gas presente solo en condiciones anómalas           | Sala de bombas ATEX      |
+| 20   | Polvo continuo| Polvo combustible presente de forma continua        | Silos de harina/azúcar   |
+| 21   | Polvo probable| Polvo presente con cierta probabilidad              | Alrededor de silos       |
+| 22   | Polvo eventual| Polvo solo en condiciones anómalas                  | Cámaras de pintura       |
+
+**¿Por qué el material eléctrico normal no vale en estas zonas?**
+Porque en los interruptores, contactores y motores normales se producen
+pequeñas chispas al abrir/cerrar el circuito. En una atmósfera normal
+eso no es peligroso. En una zona con gas o polvo explosivo, esa chispa
+puede provocar una explosión.
+
+El material ATEX tiene envolventes herméticas, dobles sellos, y circuitos
+diseñados para que ninguna chispa pueda salir al exterior.
+
+============================================================
+
+PRODUCTO PRINCIPAL: PRENSAESTOPAS ATEX (124 art.)
+--------------------------------------------------------------
+Los prensaestopas (cable glands en inglés) son los accesorios que sellan
+la entrada de cables en cajas, cuadros y aparatos eléctricos.
+En zonas ATEX, los prensaestopas tienen que cumplir dos funciones:
+1. Sellar el cable mecánicamente (como los normales)
+2. Evitar que gases o llamas pasen por la entrada del cable hacia el interior
+   del equipo (función antideflagrante)
+
+**GAESTOPAS — marca principal (32 art.)**
+Empresa española especializada en prensaestopas. Su gama GADI-EX son
+prensaestopas certificados ATEX para zonas 1, 2, 21, 22.
+
+Características del prensaestopas ATEX:
+- Material: poliamida (PA) o latón o acero inoxidable
+- Rosca de entrada: métrica (M16, M20, M25, M32...) o PG (PG9, PG13,5...)
+- Diámetro de cable admitido: se especifica en mm (ej. 6-12mm)
+- Certificación: II 2 GD (zona 1/2 gas + zona 21/22 polvo) o similar
+- IP de protección: normalmente IP68
+
+**Referencia GAESTOPAS GADI-EX:**
+El número de referencia incluye la rosca y el rango de cable:
+- **363.2001.0 EX**: M20, cable 6-12mm, negro, poliamida
+- **363.2000.0 EX**: M20, cable 10-14mm, negro, poliamida
+- **363.2015.0 EX**: M20, cable 6-12mm, largo, negro, poliamida
+
+**Tapón sustitutivo (4 art.):**
+Tapón ciegos para cerrar roscas de entrada en cajas ATEX cuando no pasa
+ningún cable. Son obligatorios — si una entrada queda abierta, la caja
+pierde su certificación ATEX.
+
+**CEAG NORTEM — material ATEX completo (89 art.)**
+CEAG (marca del grupo Cooper Crouse-Hinds) es uno de los fabricantes
+de referencia mundial en material eléctrico ATEX. Sus productos incluyen:
+- Luminarias antideflagrantes para zonas 1 y 2
+- Cajas de conexión ATEX
+- Interruptores y pulsadores ATEX
+- Enchufes y conectores ATEX
+
+En Araiz, CEAG Nortem representa el material completo para instalaciones
+en refinerías, plantas químicas, plataformas petrolíferas y fábricas
+de productos inflamables.
+
+============================================================
+
+¿CUÁNDO APARECE ESTE MATERIAL EN UN PRESUPUESTO?
+--------------------------------------------------------------
+El cliente que necesita material ATEX lo sabe perfectamente — trabaja
+en una instalación clasificada como zona explosiva y tiene la obligación
+legal de usar material certificado.
+
+**Instalaciones habituales en España:**
+- Refinerías y plantas petroquímicas (Repsol, Cepsa)
+- Bodegas de vino con depósitos de alcohol
+- Fábricas de pintura y disolventes
+- Plantas de gas natural (GNL)
+- Silos de cereales, azúcar o harina
+- Plantas de tratamiento de aguas con gases
+
+**Tu papel en estos presupuestos:**
+Si un cliente pide material ATEX, siempre pide la referencia exacta y
+la zona de clasificación (zona 1, zona 2, zona 21...). El material ATEX
+no se puede sustituir por equivalentes sin verificar que tienen la misma
+certificación — es materia de seguridad industrial con consecuencias legales.
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                    | Por qué                                        |
+|----|-------------------------------------------------------------|------------------------------------------------|
+| 1  | ¿En qué zona ATEX va instalado? (zona 1, 2, 21, 22...)     | Define la categoría del equipo necesario       |
+| 2  | ¿Cuál es el grupo de gas/polvo? (IIA, IIB, IIC)            | Define el subgrupo de certificación            |
+| 3  | ¿Cuál es el diámetro del cable?                             | Para el prensaestopas: define el modelo        |
+| 4  | ¿Qué rosca tiene la caja? ¿Métrica M20? ¿PG13?             | El prensaestopas debe coincidir con la rosca   |
+| 5  | ¿Tiene referencia exacta del material actual?              | El material ATEX no admite equivalentes sin cert.|
+
+CONSEJO: Para instalaciones ATEX complejas, consultar siempre con el
+técnico de Araiz o directamente con CEAG/GAESTOPAS. El incumplimiento
+de la normativa ATEX tiene consecuencias legales muy graves en caso de
+accidente. No sustituir nunca material ATEX por material estándar aunque
+"parezca igual" — la diferencia está en la certificación, no en el aspecto.
+
+============================================================
+Fuentes:
+- GAESTOPAS ATEX: https://www.gaestopas.com/es/categorias/atex/
+- CEAG ATEX: https://www.crouse-hinds.com/es-es/atex
+- Directiva ATEX 2014/34/UE: https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32014L0034
+============================================================

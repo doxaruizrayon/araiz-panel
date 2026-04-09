@@ -1,0 +1,145 @@
+CUADRO RESUMEN — DISYUNTORES Y GUARDAMOTORES: MAPA DEL GRUPO
+Familia: Electricidad > Aparellaje eléctrico > Disyuntores y guardamotores
+Total artículos en este grupo: 2.483 (18 marcas)
+============================================================
+
+NOTA SOBRE ESTE GRUPO
+--------------------------------------------------------------
+"Disyuntores y guardamotores" es el segundo grupo de este tipo en Aparellaje eléctrico
+(el primero es "Interruptor y conmutador manual" donde ya están los MCCB ABB Tmax,
+Eaton NZM y guardamotores PKZM/3RV2). Este grupo contiene principalmente Schneider
+y Eaton en sus versiones para distribución modular y protección de motor.
+
+El cuadro específico de Schneider GV es: `schneider_gv_proteccion_motor.txt`
+
+Este cuadro mapea el resto del grupo (~1.796 art.) y referencia los cuadros previos.
+
+============================================================
+
+BLOQUE 1 — DISYUNTORES EATON (MCB + MCCB) — 443 artículos
+--------------------------------------------------------------
+**Magnetotérmico modular Eaton (224 art., curvas B/C/D)**
+MCBs de la gama xEffect y PXK de Eaton para cuadros de distribución industrial
+y terciaria. Mismo producto que ya está en `magnetotermico_diferencial_modular.txt`
+pero clasificado aquí bajo "Disyuntores y guardamotores".
+Referencias tipo: PKN6-10C (10A curva C), PKN6-16C (16A), PKN6-32C (32A).
+
+**MCCB Eaton (219 art.)**
+Disyuntores en caja moldeada de la gama NZM y PKE para distribución:
+- NZM1/NZM2: ya cubiertos en `disyuntor_guardamotor.txt`
+- PKE: guardamotor electrónico con comunicación IO-Link — versión avanzada del PKZM.
+  Permite ajuste de disparo remoto y diagnóstico desde PLC.
+
+**Diferencial Eaton (76 art.)**
+RCCBs (diferenciales puros) de Eaton para cabecera de cuadro y protección de personas.
+Gamas: PFIM, PFGM. Valores habituales: 25A-63A / 30mA-300mA.
+Ya descritos en `magnetotermico_diferencial_modular.txt`.
+
+============================================================
+
+BLOQUE 2 — SCHNEIDER iC60 / ACTI9 — MAGNETOTÉRMICOS DOMÉSTICOS (parte del sin clase)
+--------------------------------------------------------------
+Los 353 artículos Schneider "sin clase ETIM" son principalmente de la gama iC60/Acti9:
+magnetotérmicos modulares para instalaciones domésticas y terciarias.
+
+**Schneider Acti9 iC60N** es el magnetotérmico de referencia de Schneider para España:
+- Curvas B (doméstico, cables largos), C (general), D (motores).
+- Calibres: 1A a 63A. 1P / 1P+N / 2P / 3P / 4P.
+- Poder de corte: 6kA (iC60N) o 10kA (iC60H).
+- Compatible con accesorios Acti9: bloques aux, bobinas MN/MX, motorizaciones.
+
+**RCBO Schneider (64 art.)**
+Combinados diferencial + magnetotérmico de Schneider para instalaciones domésticas.
+Gama iDPN o DPN Vigi: 1P+N, sensibilidades 30mA, curvas B/C.
+Ya descritos en `magnetotermico_diferencial_modular.txt`.
+
+**RCCB Schneider (29 art.)**
+Diferenciales puros Schneider iID: 2P y 4P, 25A-63A, 30mA-300mA.
+
+============================================================
+
+BLOQUE 3 — SIEMENS INTERRUPTOR GENERAL SELECTIVO (IGS) — 35 artículos
+--------------------------------------------------------------
+Los 35 artículos Siemens de clase "Interruptor general selectivo" son una novedad
+no cubierta en cuadros anteriores:
+
+**Interruptor General Selectivo (IGS / SCPD)**
+Es un interruptor diferencial de cabecera de alta sensibilidad diseñado para ser
+SELECTIVO respecto a los diferenciales de los circuitos secundarios.
+El problema habitual: cuando salta un diferencial secundario (30mA), a veces también
+salta el diferencial de cabecera (sensibilidad más alta) — corta toda la instalación.
+El IGS/SCPD tiene retardo de tiempo ajustable: espera unos milisegundos antes de
+disparar, dando tiempo al diferencial secundario de actuar primero. Solo si el
+secundario no actúa, dispara el IGS. Resultado: solo cae el circuito afectado.
+
+Marcas en Araiz: Siemens (35 art.) — gama 5SV.
+Usos: cabecera de cuadros generales de viviendas, edificios comerciales, industria
+donde la selectividad entre niveles de protección diferencial es obligatoria (ITC-BT-22).
+
+============================================================
+
+BLOQUE 4 — ACCESORIOS (295 artículos)
+--------------------------------------------------------------
+| Tipo                              | Art. | Marcas                 | Ver cuadro anterior              |
+|-----------------------------------|------|------------------------|----------------------------------|
+| Bloques de disparo MN/MX          | 202  | Schneider (202)        | `accesorios_arrancadores.txt`    |
+| Accesorios interruptores BT       | 126  | ABB(72), Schneider(29) | `accesorios_interruptores_manuales.txt` |
+| Bloques contactos auxiliares      | 56   | Schneider(29), ABB(17) | Ya descritos                     |
+| Peines de distribución            | 33   | ABB (33)               | Barras puente para MCBs en DIN   |
+| Cables para disyuntor             | 31   | Schneider(25), Legrand | Juegos de cables prefabricados   |
+| Bobinas de mínima tensión MN      | 21   | ABB(10), Schneider(5)  | `accesorios_arrancadores.txt`    |
+| Manetas de disyuntor              | 16   | Eaton(7), ABB(5)       | `accesorios_interruptores_manuales.txt` |
+| Cajas vacías (envolventes)        | 45   | Eaton (39)             | Para arrancadores descentraliz.  |
+
+**Peines de distribución ABB (33 art.) — nota útil:**
+Son barras de alimentación que conectan varios MCBs en carril DIN en paralelo
+sin necesidad de cablear cada fase individualmente. Existen de 2, 4, 8 y 12 circuitos.
+El peine va por la parte superior de los MCBs y los alimenta simultáneamente.
+Muy usado en cuadros con muchos circuitos (cuadros de pisos, cuadros industriales
+con múltiples salidas).
+Para pedirlo: necesitas saber el número de polos del MCB (1P, 2P, 3P) y cuántos
+circuitos quieres conectar en paralelo.
+
+**Bloques de disparo MN/MX Schneider (202 art.):**
+Ya cubiertos conceptualmente en `accesorios_arrancadores.txt`.
+Aquí los 202 artículos son para la gama iC60/NSX de Schneider:
+- MN (mínima tensión): dispara el disyuntor si falla la tensión de mando.
+- MX (a tensión): dispara cuando recibe señal de tensión — para disparar desde PLC.
+- OF (contacto de señalización): indica estado abierto/cerrado al PLC.
+Referencia tipo: A9A26924 (MN 24V DC para iC60).
+
+============================================================
+
+MARCAS PEQUEÑAS DEL GRUPO
+--------------------------------------------------------------
+| Marca    | Art. | Qué son                                               |
+|----------|------|-------------------------------------------------------|
+| Legrand  | 41   | MCBs DX3 / diferenciales DX3 para distribución       |
+| ABB EPIS | 27   | Accesorios y productos ABB sin clasificar correctamente|
+| Hager    | 25   | MCBs MFN/MFC y diferenciales CDN para doméstico       |
+| Gewiss   | 14   | Diferenciales y accesorios para cuadros de vivienda   |
+| COMA     | 13   | Material eléctrico doméstico español                  |
+| Chint    | 4    | Fabricante chino: MCBs económicos                     |
+| Cahors   | 3    | Cajas y acometidas de distribución                    |
+| Solera   | 2    | Material eléctrico doméstico español                  |
+
+============================================================
+
+CÓMO NAVEGAR ESTE GRUPO
+--------------------------------------------------------------
+Si buscas un producto de este grupo:
+1. **Guardamotor Schneider GV** → `schneider_gv_proteccion_motor.txt`
+2. **Guardamotor Eaton PKZM / Siemens 3RV2 / ABB MS** → `disyuntor_guardamotor.txt`
+3. **MCB doméstico (iC60, PKZM modular, Hager, Legrand)** → `magnetotermico_diferencial_modular.txt`
+4. **MCCB grande (ABB Tmax, Eaton NZM, Schneider NSX)** → `disyuntor_guardamotor.txt`
+5. **IGS Siemens 5SV** → Este cuadro (bloque 3)
+6. **Accesorios (bloques, bobinas, manetas)** → `accesorios_arrancadores.txt` o `accesorios_interruptores_manuales.txt`
+7. **Peines de distribución** → Este cuadro (bloque 4)
+
+============================================================
+Fuentes:
+- Schneider Acti9 iC60: https://www.se.com/es/es/product-subcategory/miniature-circuit-breakers-acti9/
+- Siemens IGS 5SV: https://new.siemens.com/es/es/productos/automatizacion/aparamenta/interruptores-diferenciales-5sv.html
+- Legrand DX3: https://www.legrand.es/catalogo/interruptores-automaticos-dx3/
+- Hager MCBs: https://www.hager.es/proteccion-de-instalaciones/
+============================================================

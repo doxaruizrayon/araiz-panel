@@ -1,0 +1,107 @@
+CUADRO RESUMEN — CONTACTOR DE POTENCIA CA (TeSys / DILM / 3RT / A-series)
+Familia: Electricidad > Aparellaje eléctrico > Contactores
+Ejemplo en Araiz: Siemens ref. 3RT2017-1AP01 (Contactor 3RT 3 polos 12A 230V AC bobina)
+============================================================
+
+IMAGEN DEL PRODUCTO:
+https://new.siemens.com/es/es/productos/automatizacion/producto/simatic-et200pro.html
+
+Búsqueda recomendada en YouTube (español):
+"qué es un contactor eléctrico cómo funciona" o "contactor de potencia trifásico motor arranque"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Un contactor de potencia es un interruptor electromagnético que conecta y desconecta
+circuitos eléctricos de alta corriente de forma remota y automática. Cuando llega
+tensión a su bobina, un electroimán atrae el núcleo y cierra los contactos de potencia
+(3 polos para trifásico, 2 para monofásico) permitiendo el paso de corriente al motor
+u otra carga. Al cortar la tensión de la bobina, un muelle devuelve los contactos a
+posición abierta. Es el elemento fundamental del arranque y maniobra de motores:
+sin el contactor no hay automatización de motores.
+
+La diferencia con un interruptor manual es que el contactor se activa
+eléctricamente (desde un PLC, pulsador o relé) y puede hacer millones de maniobras
+sin desgasto visible. Trabaja en paralelo con el guardamotor o el magnetotérmico,
+que son las protecciones — el contactor solo maniobra, no protege.
+
+Lo que facilita:
+- Arrancar y parar motores trifásicos de forma automática o remota.
+- Hacer esquemas de inversión de marcha (dos contactores en antiparalelo).
+- Hacer arranque estrella-triángulo con tres contactores coordinados.
+- Conmutar cualquier carga industrial: resistencias de calefacción, transformadores,
+  condensadores (con contactor especial), iluminación industrial.
+- Integrarse con PLC: la bobina recibe la señal de salida del PLC directamente.
+
+Lo que evita que ocurra:
+- Tener que ir físicamente a conectar/desconectar un motor: el contactor lo hace
+  desde el armario de control o desde el PLC.
+- Usar un interruptor manual para maniobras frecuentes: los contactores están
+  diseñados para millones de ciclos; un interruptor se desgastaría en días.
+
+============================================================
+
+DIFERENCIA CLAVE: CONTACTOR vs GUARDAMOTOR vs MAGNETOTÉRMICO
+--------------------------------------------------------------
+| Característica       | Contactor                      | Guardamotor / Magnetotérmico   |
+|----------------------|--------------------------------|-------------------------------|
+| Función              | Maniobrar (conectar/desconectar)| Proteger (cortar en fallo)    |
+| Accionamiento        | Eléctrico (bobina)             | Térmico/magnético (automático)|
+| Ciclos de trabajo    | Millones                       | Miles (no para maniobra)      |
+| Mando remoto         | Sí — bobina activable por PLC  | No                            |
+| Protección térmica   | No                             | Sí                            |
+| Uso                  | Siempre junto a protección     | Siempre junto a contactor     |
+
+============================================================
+
+GAMAS PRINCIPALES EN ARAIZ (5.300+ artículos)
+--------------------------------------------------------------
+| Marca            | Gama              | Referencias tipo            | Corriente típica |
+|------------------|-------------------|-----------------------------|-----------------|
+| Siemens          | 3RT2 (SIRIUS)     | 3RT2015 a 3RT2075           | 7 A a 400 A     |
+| Schneider Elec.  | TeSys D (LC1D)    | LC1D06 a LC1D800            | 6 A a 800 A     |
+| Schneider Elec.  | TeSys Snap-in     | LC1C063 / LC1C0901          | 63 A a 115 A    |
+| ABB              | A-series / AF     | A9 a A300 / AF09 a AF370    | 9 A a 370 A     |
+| Eaton            | DILM (xStart)     | DILM7 a DILM820             | 7 A a 820 A     |
+
+Voltaje de bobina más habitual: 24V DC (PLC), 230V AC (red), 110V AC (industria)
+Categorías de utilización: AC-3 (arranque directo), AC-1 (cargas resistivas), AC-4 (frenado)
+
+TALLA POR CORRIENTE (regla práctica):
+| Corriente motor (A) | Talla Schneider | Talla Siemens | Talla ABB | Talla Eaton |
+|---------------------|-----------------|---------------|-----------|-------------|
+| ≤ 16 A              | LC1D09-D18      | 3RT2016-17    | A9-A16    | DILM9-17    |
+| 16-40 A             | LC1D25-D40      | 3RT2025-35    | A26-A40   | DILM25-40   |
+| 40-95 A             | LC1D50-D80      | 3RT2044-54    | A50-A75   | DILM50-80   |
+| > 95 A              | LC1D115+        | 3RT2065+      | A95+      | DILM95+     |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                | Por qué la necesitas                                          |
+|----|----------------------------------------------------------|------------------------------------------------------------- |
+| 1  | ¿Cuántos amperios tiene el motor o la carga?            | Define la talla del contactor (corriente nominal)            |
+| 2  | ¿Es trifásico o monofásico? ¿Cuántos polos necesita?   | 3P para trifásico / 2P para monofásico                       |
+| 3  | ¿Qué tensión tiene la bobina? (24V DC, 230V AC...)      | Define el código de referencia exacto (último dígito)        |
+| 4  | ¿Qué marca tiene el cuadro o el guardamotor?            | Lo ideal es mantener la misma marca para compatibilidad       |
+| 5  | ¿Necesita contactos auxiliares integrados?              | Algunos modelos llevan 1 NA+1 NC de serie; otros no          |
+| 6  | ¿Es para arranque directo, estrella-triángulo o inversor?| Define si se necesita kit de enclavamiento mecánico          |
+
+CONSEJO: El contactor es el producto más vendido en aparellaje. La mayoría de los
+pedidos son sustituciones: el cliente tiene el contactor quemado y quiere el mismo.
+Pedir siempre la referencia completa del contactor a sustituir — incluye la tensión
+de bobina. Un error en la tensión de bobina hace que el contactor no funcione o se
+queme al conectar. Si el cliente no tiene la referencia, pedir: amperios del motor,
+voltios de bobina y número de polos. Con esos tres datos se puede buscar.
+Los TeSys Snap-in (LC1C) son compatibles dimensionalmente con los LC1D del mismo
+calibre pero NO intercambiables con los accesorios (bloques auxiliares distintos).
+
+============================================================
+Fuentes:
+- Siemens SIRIUS 3RT: https://new.siemens.com/es/es/productos/automatizacion/aparamenta/contactores-y-reles-3RT-3RH.html
+- Schneider TeSys D: https://www.se.com/es/es/product-subcategory/4700-contactores-tesys-d/
+- ABB Contactores A: https://new.abb.com/low-voltage/es/productos/aparamenta/contactores
+- Eaton DILM: https://www.eaton.com/es/es-es/catalog/contactors.html
+============================================================

@@ -1,0 +1,126 @@
+CUADRO RESUMEN — TEMPORIZADOR INDUSTRIAL H3CR (RELÉ TEMPORIZADOR)
+Familia: Electricidad > Aparellaje eléctrico > Autómatas programables y robots industriales
+Ejemplo en Araiz: Omron ref. H3CRA301 (Temporizador H3CR-A-301 100-240V AC / 100-125V DC)
+============================================================
+
+IMAGEN DEL PRODUCTO:
+https://www.ia.omron.com/products/family/526/
+
+VÍDEO / REFERENCIA TÉCNICA:
+https://industrial.omron.co.uk/en/products/h3cr
+
+Búsqueda recomendada en YouTube (español):
+"temporizador Omron H3CR conexión funcionamiento" o "relé temporizador retardo arranque cuadro eléctrico"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Un temporizador industrial (también llamado relé temporizador) es un componente
+del cuadro eléctrico que activa o desactiva una salida después de un tiempo
+programable. Su función es muy simple: recibe una señal (tensión), espera el tiempo
+ajustado en su dial o selector, y entonces cierra o abre un contacto (salida) que
+activa el siguiente elemento del circuito. No necesita PLC ni programación — funciona
+con un selector rotativo y un potenciómetro de tiempo. El H3CR de Omron es el
+temporizador más habitual en cuadros de automatización industrial: encaja en un
+hueco de carril DIN de 45x45 mm y acepta tensiones de 24V DC a 240V AC.
+
+Lo que facilita:
+- Crear retardos de arranque sin necesidad de PLC: por ejemplo, esperar 5 segundos
+  antes de arrancar un motor para que se estabilice la tensión de la red.
+- Apagar automáticamente una carga después de un tiempo fijo: una bomba que debe
+  funcionar 30 minutos y luego parar sola.
+- Controlar ciclos repetitivos simples (temporizador de intervalo): encender/apagar
+  una señal luminosa de forma intermitente.
+- Instalar en cualquier cuadro estándar: el H3CR ocupa un hueco 45x45 mm en puerta
+  o bastidor — el más habitual en automatización industrial.
+
+Lo que evita que ocurra:
+- Arranques bruscos o simultáneos: el retardo de arranque escalonado evita que varios
+  motores arranquen a la vez y causen picos de corriente en la red.
+- Necesitar un PLC para una función tan simple como "espera X segundos": el
+  temporizador hardware es más barato y fiable para esta función puntual.
+- Daños por arranques en vacío: en compresores y bombas, el retardo asegura que
+  el fluido está presente antes de arrancar el motor.
+
+============================================================
+
+DIFERENCIA CLAVE: TEMPORIZADOR H3CR vs FUNCIÓN DE TIEMPO EN PLC
+--------------------------------------------------------------
+| Característica          | Temporizador H3CR (hardware)     | Temporizador en PLC (software)   |
+|-------------------------|----------------------------------|----------------------------------|
+| Necesita PLC            | No — funciona solo               | Sí — necesita PLC y programa     |
+| Programación            | Selector rotativo / potenciómetro| Software (Sysmac Studio, CX-Prog)|
+| Coste                   | Bajo (20-50 euros)               | Alto (PLC completo)              |
+| Flexibilidad            | Limitada — tiempo fijo           | Total — lógica compleja          |
+| Fiabilidad              | Muy alta — sin software          | Alta — depende del programa      |
+| Para qué                | Retardo simple puntual           | Temporizaciones complejas, múlt. |
+
+REGLA PRÁCTICA: Si solo necesitas "espera X tiempo y activa esto" → usa temporizador
+hardware H3CR. Si necesitas lógica compleja con condiciones → usa el PLC.
+
+============================================================
+
+MODOS DE FUNCIONAMIENTO DEL H3CR
+--------------------------------------------------------------
+| Modo                | Qué hace                                                  | Uso típico                              |
+|---------------------|-----------------------------------------------------------|-----------------------------------------|
+| Retardo a la conex. | Activa la salida X tiempo DESPUÉS de recibir la señal    | Retardo arranque motor, ventilador      |
+| Retardo a la descon.| Desactiva la salida X tiempo DESPUÉS de quitar la señal  | Bomba que sigue corriendo X segundos    |
+| Intervalo (flash)   | Activa la salida durante X tiempo, luego desactiva       | Señal luminosa intermitente             |
+| Multifunción (A8S)  | Varios modos seleccionables con el mismo dispositivo     | Cuando no se sabe qué modo se necesita  |
+| Semanal (H5F)       | Programación horaria por días de la semana               | Control iluminación, climatización      |
+
+============================================================
+
+MODELOS H3CR A CONOCER
+--------------------------------------------------------------
+| Modelo          | Alimentación             | Modos      | Contactos  | Cuándo usarlo                        |
+|-----------------|--------------------------|------------|------------|--------------------------------------|
+| H3CR-A-301      | 100-240V AC / 100-125V DC| Varios     | 1 SPDT     | El más habitual — tensión universal   |
+| H3CR-A8-301     | 24-48V AC / 12-48V DC    | Varios     | 1 SPDT     | Cuadros a 24V DC                     |
+| H3CR-AP         | 100-240V AC / 100-125V DC| Multifunc. | 1 SPDT     | Cuando se necesita más de un modo     |
+| H3CR-A8S        | 24-48V AC / 12-48V DC    | Multifunc. | 1 SPDT     | Multifunción a 24V DC                |
+| H3FA-A          | 12V / 24V DC             | Retardo    | SPST NA+NC | Versión compacta económica           |
+| H5F-B           | 100-240V AC              | Semanal    | SPST NA    | Temporizador por horario semanal     |
+
+============================================================
+
+CARACTERÍSTICAS TÉCNICAS BÁSICAS A SABER
+--------------------------------------------------------------
+| Parámetro                    | Qué significa                                    | Valor H3CR-A-301 (Omron)                      |
+|------------------------------|--------------------------------------------------|-----------------------------------------------|
+| Alimentación                 | Tensión de trabajo                               | 100-240V AC / 100-125V DC (universal)         |
+| Montaje                      | Cómo se instala                                  | Hueco panel 45x45 mm o carril DIN con base    |
+| Rango de tiempo              | Tiempo mínimo y máximo ajustable                 | 0,05 s a 300 h (según escala del selector)    |
+| Precisión                    | Error del tiempo programado                      | ±10% máximo                                  |
+| Contactos de salida          | Cuántos y de qué tipo                            | 1 contacto SPDT (1 NA + 1 NC)                |
+| Corriente de salida          | Cuánta corriente puede conmutar                  | 5A / 250V AC (carga resistiva)               |
+| Indicador LED                | Si tiene indicación visual                       | Sí — LED naranja cuando la salida está activa |
+| Temperatura de trabajo       | Rango de temperatura                             | -10 a +55°C                                  |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                          | Por qué la necesitas                                                          |
+|----|-------------------------------------------------------------------|-------------------------------------------------------------------------------|
+| 1  | ¿Qué tensión tiene el cuadro? (24V DC, 230V AC...)                | Define el modelo: H3CR-A-301 (alta tensión) / H3CR-A8 (24V DC)              |
+| 2  | ¿Qué necesita que haga el temporizador?                           | Retardo arranque, retardo paro, ciclo intermitente → define el modo          |
+| 3  | ¿Cuánto tiempo necesita temporizar?                               | El rango de tiempo está en el modelo — comprobar que el selector llega       |
+| 4  | ¿Se monta en puerta de armario o en carril DIN?                   | En puerta → hueco 45x45 / En carril → necesita base de carril DIN           |
+| 5  | ¿Cuánta corriente necesita conmutar la salida?                    | El H3CR aguanta 5A — si necesita más, añadir un contactor o relé auxiliar   |
+| 6  | ¿Necesita más de un modo de temporización?                        | Si sí → modelo multifunción H3CR-AP o H3CR-A8S (selector de modo)           |
+
+CONSEJO: El H3CR-A-301 (universal 100-240V AC) es el más pedido porque cubre casi
+todos los cuadros sin preocuparse de la tensión exacta. Si el cliente tiene dudas
+sobre qué modelo, recomendar el -301 (universal) y el modelo multifunción (-AP)
+como segunda opción. Para cuadros a 24V DC, siempre el H3CR-A8.
+La base de carril DIN (P3G, P3GA...) se vende por separado — no viene incluida.
+
+============================================================
+Fuentes:
+- Omron H3CR (oficial): https://www.ia.omron.com/products/family/526/
+- TME H3CR-A-301: https://www.tme.com/us/en-us/details/h3cr-a-301/time-relays/omron/
+- Omron H3CR datasheet (PDF): https://assets.omron.eu/downloads/latest/datasheet/en/y011_h3cr_datasheet_en.pdf
+============================================================

@@ -1,0 +1,116 @@
+CUADRO RESUMEN — ACCESORIOS PARA INTERRUPTORES Y DISYUNTORES DE BAJA TENSIÓN
+Familia: Electricidad > Aparellaje eléctrico > Accesorios
+Ejemplo en Araiz: Schneider ref. LV429387 (Maneta rotativa frontal para NS100-250 amarillo/rojo IP40)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"accesorios disyuntor maneta bobina mínima tensión" o "rating plug disyuntor industrial accesorios"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Los accesorios para interruptores y disyuntores de baja tensión son todas las piezas
+complementarias que se instalan sobre, dentro o junto a un disyuntor (interruptor
+automático, seccionador, guardamotor) para ampliar sus funciones, adaptarlo a la
+instalación o facilitar su operación. Un disyuntor de fábrica es un aparato básico
+de protección — los accesorios lo convierten en un equipo completo con mando remoto,
+señalización, bloqueo de seguridad y adaptación al cuadro eléctrico.
+
+Tipos principales de accesorios:
+
+**1. MANETA / MANDO ROTATIVO (EC000229 — 136 art.)**
+Mando exterior que se instala en la puerta del armario para accionar el disyuntor
+sin abrir la puerta. Se gira la maneta y el disyuntor cierra o abre. Imprescindible
+cuando el disyuntor está dentro de un armario cerrado con llave. Colores habituales:
+amarillo/rojo (corte de seguridad), negro (uso general), gris (uso doméstico).
+
+**2. BOBINA DE MÍNIMA TENSIÓN / BOBINA DE APERTURA (EC001022 — 30 art.)**
+Accesorio que dispara (abre) automáticamente el disyuntor cuando la tensión de red
+cae por debajo de un umbral. Protege las cargas que no deben funcionar con tensión
+baja (motores que se calentarían, equipos sensibles). También sirve para disparo
+remoto: al cortar la tensión de la bobina desde un pulsador o PLC, el disyuntor abre.
+
+**3. CONTACTO AUXILIAR DE SEÑALIZACIÓN (EC000041 — 100 art.)**
+Contactos que se añaden al disyuntor para señalizar su estado al PLC o al cuadro
+de mando: OF (contacto auxiliar — indica abierto/cerrado), SD (señal de disparo —
+indica que disparó por fallo), SDE (señal de disparo eléctrico). Imprescindibles
+en cualquier cuadro con supervisión automática.
+
+**4. RATING PLUG / MÓDULO DE CALIBRE (accesorios para disyuntores ABB TMAX)**
+Módulo intercambiable que define la corriente de regulación del relé electrónico
+del disyuntor. Permite usar el mismo disyuntor con diferentes calibres cambiando
+solo el plug. Específico de ABB TMAX E1/E2/E3/E6 y Emax.
+
+**5. KIT DE CONTACTOS / KIT DE CONEXIÓN (EC002050 — 65 art.)**
+Juego de terminales de conexión para adaptar el disyuntor al tipo de cable del
+cuadro: terminales delanteros, traseros, orientables, para cable Cu o Al, para
+diferentes secciones. Cada tamaño de disyuntor tiene su kit.
+
+**6. ACOPLAMIENTO PUERTA-DISYUNTOR (EC000230 — 62 art.)**
+Mecanismo que une la maneta exterior (en la puerta del armario) con el eje del
+disyuntor (dentro del armario). Si la puerta está lejos del disyuntor, se usa un
+eje prolongador para que la maneta exterior alcance el disyuntor.
+
+**7. ENCLAVAMIENTO MECÁNICO (EC001044 — 23 art.)**
+Pieza que bloquea el disyuntor en posición OFF (abierto) impidiendo que nadie lo
+cierre accidentalmente. Se usa con candado durante trabajos de mantenimiento en
+el circuito protegido (procedimiento LOTO — Lockout/Tagout).
+
+**8. CUBREBORNES / TAPAS AISLANTES (28+ art.)**
+Tapas de plástico que cubren los bornes del disyuntor para evitar contactos
+accidentales con partes en tensión. Obligatorias en cuadros accesibles.
+
+Lo que facilita:
+- Operar el disyuntor desde fuera del armario (maneta rotativa).
+- Disparar remotamente el disyuntor desde PLC o pulsador (bobina mínima tensión).
+- Señalizar al SCADA/PLC el estado y los disparos del disyuntor (contactos auxiliares).
+- Bloquear el disyuntor en OFF para trabajos de mantenimiento (enclavamiento LOTO).
+
+Lo que evita que ocurra:
+- Contacto accidental con partes en tensión (cubrebornes).
+- Reconexión no autorizada durante mantenimiento (enclavamiento con candado).
+- Funcionamiento de cargas con tensión baja (bobina de mínima tensión).
+
+============================================================
+
+MODELOS EN ARAIZ (~2.400 artículos) — principales
+--------------------------------------------------------------
+| Marca      | Tipo accesorio               | Para disyuntor                |
+|------------|------------------------------|-------------------------------|
+| Schneider  | Maneta LV/GV tipo LV429387   | NS100-250, NSX, Compact       |
+| Schneider  | Bobina MN/MX                 | NS, NSX, MasterPact NW/NT     |
+| Schneider  | Contacto OF/SD/SDE           | NS, NSX, Compact              |
+| ABB        | Rating Plug 400A-3200A       | TMAX T1-T7, Emax E1-E6       |
+| ABB        | Maneta, cubrebornes LTC      | TMAX T1-T7                    |
+| ABB        | Bobina UVR-C mínima tensión  | TMAX T1-T7                    |
+| Siemens    | Accesorios 3KD/3VA/3VL       | 3VA, 3VL, 3KD seccionadores   |
+| Eaton      | Accesorios NZM/PKZ           | NZM1-4, PKZ                   |
+| Legrand    | Accesorios DPX/DRX           | DPX³, DRX                     |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                | Por qué la necesitas                                          |
+|----|----------------------------------------------------------|------------------------------------------------------------- |
+| 1  | Referencia completa del disyuntor                       | Los accesorios son estrictamente específicos por modelo       |
+| 2  | Qué accesorio necesita? (maneta, bobina, contacto...)   | Define la familia de accesorio                                |
+| 3  | Si bobina: qué tensión? (24V DC, 230V AC, 110V AC)     | Cada tensión es un modelo diferente                           |
+| 4  | Si contacto auxiliar: OF, SD o SDE?                     | OF = estado, SD = disparo, SDE = disparo eléctrico            |
+| 5  | Si maneta: con eje prolongador? Distancia puerta-disyuntor?| Define si necesita eje y de qué longitud                   |
+
+CONSEJO: Los accesorios de disyuntor son el artículo de acompañamiento más habitual.
+Siempre que un cliente pida un disyuntor industrial, preguntarle si necesita maneta,
+bobina de mínima tensión y contactos de señalización — en la mayoría de instalaciones
+industriales los tres van juntos. El dato imprescindible es la referencia del
+disyuntor — sin ella no se puede confirmar ningún accesorio. Los rating plugs de ABB
+son específicos de cada corriente nominal: si el cliente quiere cambiar el calibre
+de un TMAX, solo necesita cambiar el plug.
+
+============================================================
+Fuentes:
+- Schneider accesorios NSX: https://www.se.com/es/es/product-subcategory/3100-accesorios-nsx/
+- ABB accesorios TMAX: https://new.abb.com/low-voltage/es/productos/disyuntores/accesorios
+- Siemens accesorios 3VA: https://new.siemens.com/es/es/productos/automatizacion/aparamenta.html
+============================================================

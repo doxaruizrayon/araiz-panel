@@ -1,0 +1,650 @@
+/**
+ * PANEL DE CONOCIMIENTO ARAIZ
+ * Servidor local — Puerto 5192
+ * Acceso: http://localhost:5192
+ */
+
+const http = require('http');
+const fs   = require('fs');
+const path = require('path');
+const url  = require('url');
+
+const PORT         = 5192;
+const BASE_DIR     = path.join(__dirname, 'BASE CONOCIMIENTO SOBRE CATALOGO ARAIZ');
+const CATALOGO_PATH = path.join(__dirname, 'catalogo_completo.json');
+
+// ─── Datos en memoria ─────────────────────────────────────────────────────────
+
+let articulosBase  = [];
+let catalogoAraiz  = [];
+
+function normText(str) {
+  return (str || '')
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '');
+}
+
+function loadKnowledgeBase() {
+  const files = fs.readdirSync(BASE_DIR).filter(f => f.endsWith('.txt'));
+  articulosBase = files.map(filename => {
+    const content  = fs.readFileSync(path.join(BASE_DIR, filename), 'utf8');
+    const lines    = content.split('\n');
+    const titleMatch = lines[0].match(/CUADRO RESUMEN[^—]*—\s*(.+)/);
+    const title    = titleMatch ? titleMatch[1].trim() : filename.replace('.txt', '').replace(/_/g, ' ').toUpperCase();
+    const familyLine = lines.find(l => l.startsWith('Familia:'));
+    const family   = familyLine ? familyLine.replace('Familia:', '').trim() : '';
+    const refLine  = lines.find(l => l.startsWith('Ejemplo en Araiz:'));
+    const ref      = refLine ? refLine.replace('Ejemplo en Araiz:', '').trim() : '';
+    return { filename, title, family, ref, content, normContent: normText(content) };
+  });
+  console.log(`Base de conocimiento: ${articulosBase.length} artículos cargados.`);
+}
+
+function loadCatalogo() {
+  try {
+    const data    = fs.readFileSync(CATALOGO_PATH, 'utf8');
+    catalogoAraiz = JSON.parse(data);
+    console.log(`Catálogo Araiz: ${catalogoAraiz.length} artículos cargados.`);
+  } catch (e) {
+    console.error('Error cargando catálogo:', e.message);
+    catalogoAraiz = [];
+  }
+}
+
+// ─── Lógica de búsqueda ───────────────────────────────────────────────────────
+
+function searchBase(query) {
+  const q = normText(query);
+  if (!q || q.length < 2) return articulosBase.map(a => ({
+    filename: a.filename, title: a.title, family: a.family, ref: a.ref,
+    score: 0, excerpt: ''
+  })).slice(0, 25);
+
+  return articulosBase
+    .map(a => {
+      const titleNorm = normText(a.title);
+      const inTitle   = titleNorm.includes(q) ? 10 : 0;
+      const count     = (a.normContent.match(new RegExp(q.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'g')) || []).length;
+      const score     = inTitle + count;
+      // Extracto: encontrar primera aparición en el contenido
+      let excerpt = '';
+      if (score > 0) {
+        const idx = a.normContent.indexOf(q);
+        if (idx !== -1) {
+          const start = Math.max(0, idx - 60);
+          const end   = Math.min(a.content.length, idx + q.length + 120);
+          excerpt = '…' + a.content.slice(start, end).replace(/\n/g, ' ').trim() + '…';
+        }
+      }
+      return { filename: a.filename, title: a.title, family: a.family, ref: a.ref, score, excerpt };
+    })
+    .filter(a => a.score > 0)
+    .sort((a, b) => b.score - a.score)
+    .slice(0, 20);
+}
+
+function searchCatalogo(query) {
+  const q = normText(query);
+  if (!q || q.length < 2) return [];
+  const terms = q.split(/\s+/).filter(Boolean);
+
+  const scored = catalogoAraiz
+    .map(item => {
+      const haystack = normText(
+        [item.nombre, item.marca, item.familia, item.subfamilia, item.grupo, item.codigoFabricante].join(' ')
+      );
+      let score = 0;
+      for (const t of terms) {
+        if (normText(item.nombre).includes(t)) score += 5;
+        if (normText(item.codigoFabricante).includes(t)) score += 4;
+        if (normText(item.marca).includes(t)) score += 2;
+        if (haystack.includes(t)) score += 1;
+      }
+      return { ...item, score };
+    })
+    .filter(i => i.score > 0)
+    .sort((a, b) => b.score - a.score)
+    .slice(0, 50);
+
+  return scored;
+}
+
+function getAlfabetico(letra) {
+  const l = normText(letra).charAt(0);
+  return articulosBase
+    .filter(a => normText(a.title).charAt(0) === l)
+    .map(a => ({ filename: a.filename, title: a.title, family: a.family, ref: a.ref }))
+    .sort((a, b) => a.title.localeCompare(b.title, 'es'));
+}
+
+function getAllTitles() {
+  return articulosBase.map(a => ({
+    filename: a.filename, title: a.title, family: a.family, ref: a.ref
+  })).sort((a, b) => a.title.localeCompare(b.title, 'es'));
+}
+
+// ─── HTML del panel ───────────────────────────────────────────────────────────
+
+const HTML = `<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Panel de Conocimiento — Araiz</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --azul:    #1a3a5c;
+    --azul2:   #2563a8;
+    --azul3:   #dbeafe;
+    --gris1:   #f1f5f9;
+    --gris2:   #e2e8f0;
+    --gris3:   #94a3b8;
+    --texto:   #1e293b;
+    --verde:   #16a34a;
+    --naranja: #ea580c;
+    --fondo:   #f8fafc;
+  }
+  body { font-family: 'Segoe UI', system-ui, sans-serif; background: var(--fondo); color: var(--texto); }
+
+  /* HEADER */
+  .header {
+    background: var(--azul);
+    color: #fff;
+    padding: 14px 24px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border-bottom: 3px solid var(--azul2);
+  }
+  .header h1 { font-size: 1.15rem; font-weight: 600; letter-spacing: .3px; }
+  .header span { font-size: .85rem; opacity: .7; margin-left: auto; }
+
+  /* TABS */
+  .tabs {
+    background: var(--azul);
+    display: flex;
+    padding: 0 24px;
+    gap: 2px;
+  }
+  .tab-btn {
+    padding: 10px 20px;
+    border: none;
+    background: transparent;
+    color: rgba(255,255,255,.6);
+    cursor: pointer;
+    font-size: .9rem;
+    font-weight: 500;
+    border-bottom: 3px solid transparent;
+    transition: all .2s;
+  }
+  .tab-btn:hover { color: #fff; }
+  .tab-btn.active { color: #fff; border-bottom-color: #60a5fa; }
+
+  /* PANELS */
+  .tab-panel { display: none; padding: 20px 24px; }
+  .tab-panel.active { display: block; }
+
+  /* SEARCH BAR */
+  .search-wrap {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 16px;
+  }
+  .search-wrap input {
+    flex: 1;
+    padding: 10px 14px;
+    border: 2px solid var(--gris2);
+    border-radius: 8px;
+    font-size: .95rem;
+    outline: none;
+    transition: border-color .2s;
+  }
+  .search-wrap input:focus { border-color: var(--azul2); }
+  .search-wrap button {
+    padding: 10px 20px;
+    background: var(--azul2);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: .9rem;
+    transition: background .2s;
+  }
+  .search-wrap button:hover { background: var(--azul); }
+
+  /* TAB 1: Base conocimiento — layout 2 columnas */
+  .layout-two {
+    display: grid;
+    grid-template-columns: 320px 1fr;
+    gap: 16px;
+    height: calc(100vh - 150px);
+  }
+  .resultados-lista {
+    background: #fff;
+    border: 1px solid var(--gris2);
+    border-radius: 10px;
+    overflow-y: auto;
+  }
+  .resultado-item {
+    padding: 12px 14px;
+    border-bottom: 1px solid var(--gris1);
+    cursor: pointer;
+    transition: background .15s;
+  }
+  .resultado-item:hover { background: var(--azul3); }
+  .resultado-item.activo { background: var(--azul3); border-left: 3px solid var(--azul2); }
+  .resultado-item .r-titulo { font-weight: 600; font-size: .88rem; color: var(--azul); }
+  .resultado-item .r-ref { font-size: .78rem; color: var(--gris3); margin-top: 2px; }
+  .resultado-item .r-excerpt { font-size: .78rem; color: #64748b; margin-top: 4px; line-height: 1.4; }
+  .resultado-vacio { padding: 20px; color: var(--gris3); text-align: center; font-size: .88rem; }
+
+  /* Visor de artículo */
+  .visor {
+    background: #fff;
+    border: 1px solid var(--gris2);
+    border-radius: 10px;
+    overflow-y: auto;
+    padding: 20px 24px;
+  }
+  .visor-placeholder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: var(--gris3);
+    gap: 8px;
+  }
+  .visor-placeholder svg { width: 48px; height: 48px; opacity: .3; }
+  .visor pre {
+    white-space: pre-wrap;
+    font-family: 'Consolas', 'Courier New', monospace;
+    font-size: .82rem;
+    line-height: 1.6;
+    color: var(--texto);
+  }
+
+  /* TAB 2: Catálogo Araiz */
+  .catalogo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 10px;
+    max-height: calc(100vh - 200px);
+    overflow-y: auto;
+  }
+  .catalogo-card {
+    background: #fff;
+    border: 1px solid var(--gris2);
+    border-radius: 8px;
+    padding: 12px 14px;
+  }
+  .catalogo-card .c-nombre { font-weight: 600; font-size: .88rem; color: var(--texto); line-height: 1.3; }
+  .catalogo-card .c-ref {
+    display: inline-block;
+    background: var(--azul3);
+    color: var(--azul2);
+    font-size: .75rem;
+    font-weight: 600;
+    padding: 1px 7px;
+    border-radius: 4px;
+    margin: 5px 0 2px;
+  }
+  .catalogo-card .c-marca { font-size: .78rem; color: var(--naranja); font-weight: 600; }
+  .catalogo-card .c-familia { font-size: .75rem; color: var(--gris3); margin-top: 3px; }
+  .catalogo-info { color: var(--gris3); font-size: .85rem; margin-bottom: 10px; }
+  .catalogo-vacio { color: var(--gris3); text-align: center; padding: 40px; font-size: .9rem; }
+
+  /* TAB 3: Alfabético */
+  .alfa-letras {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 18px;
+  }
+  .alfa-btn {
+    width: 38px;
+    height: 38px;
+    border: 2px solid var(--gris2);
+    background: #fff;
+    border-radius: 8px;
+    font-size: .9rem;
+    font-weight: 700;
+    cursor: pointer;
+    color: var(--azul);
+    transition: all .15s;
+  }
+  .alfa-btn:hover { background: var(--azul3); border-color: var(--azul2); }
+  .alfa-btn.activo { background: var(--azul2); color: #fff; border-color: var(--azul2); }
+  .alfa-btn.sin-items { color: var(--gris2); border-color: var(--gris1); cursor: default; }
+  .alfa-lista {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 8px;
+    max-height: calc(100vh - 260px);
+    overflow-y: auto;
+  }
+  .alfa-item {
+    background: #fff;
+    border: 1px solid var(--gris2);
+    border-radius: 8px;
+    padding: 11px 14px;
+    cursor: pointer;
+    transition: all .15s;
+  }
+  .alfa-item:hover { background: var(--azul3); border-color: var(--azul2); }
+  .alfa-item .a-titulo { font-weight: 600; font-size: .88rem; color: var(--azul); }
+  .alfa-item .a-ref { font-size: .75rem; color: var(--gris3); margin-top: 3px; }
+
+  /* BADGE conteo */
+  .badge { display:inline-block; background:var(--gris2); color:var(--gris3);
+    font-size:.72rem; padding:1px 7px; border-radius:10px; margin-left:6px; }
+
+  /* Scrollbar */
+  ::-webkit-scrollbar { width: 6px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { background: var(--gris2); border-radius: 4px; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#60a5fa" stroke-width="2">
+    <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+    <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+    <line x1="8" y1="7" x2="16" y2="7"/><line x1="8" y1="11" x2="16" y2="11"/>
+  </svg>
+  <h1>Panel de Conocimiento — Araiz Suministros Eléctricos</h1>
+  <span id="stats-header">Cargando…</span>
+</div>
+
+<div class="tabs">
+  <button class="tab-btn active" onclick="showTab('base')">📚 Base de Conocimiento</button>
+  <button class="tab-btn" onclick="showTab('catalogo')">🔍 Catálogo Araiz</button>
+  <button class="tab-btn" onclick="showTab('alfabetico')">🔤 Por Letra</button>
+</div>
+
+<!-- ─── TAB 1: BASE DE CONOCIMIENTO ─── -->
+<div id="tab-base" class="tab-panel active">
+  <div class="search-wrap">
+    <input type="text" id="base-input" placeholder="Busca por nombre, función, característica técnica…" autocomplete="off">
+    <button onclick="buscarBase()">Buscar</button>
+  </div>
+  <div class="layout-two">
+    <div class="resultados-lista" id="base-lista">
+      <div class="resultado-vacio">Escribe algo para buscar o carga todos los artículos</div>
+    </div>
+    <div class="visor" id="base-visor">
+      <div class="visor-placeholder">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+        </svg>
+        <p>Selecciona un artículo para ver su cuadro resumen</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ─── TAB 2: CATÁLOGO ARAIZ ─── -->
+<div id="tab-catalogo" class="tab-panel">
+  <div class="search-wrap">
+    <input type="text" id="cat-input" placeholder="Busca por nombre, marca, referencia, familia…" autocomplete="off">
+    <button onclick="buscarCatalogo()">Buscar</button>
+  </div>
+  <p class="catalogo-info" id="cat-info">Escribe al menos 2 caracteres para buscar en el catálogo.</p>
+  <div class="catalogo-grid" id="cat-grid">
+    <div class="catalogo-vacio">El catálogo tiene miles de artículos — usa el buscador de arriba</div>
+  </div>
+</div>
+
+<!-- ─── TAB 3: ALFABÉTICO ─── -->
+<div id="tab-alfabetico" class="tab-panel">
+  <div class="alfa-letras" id="alfa-letras"></div>
+  <div class="alfa-lista" id="alfa-lista">
+    <div style="color:var(--gris3); padding:20px; font-size:.88rem;">Selecciona una letra para ver los artículos</div>
+  </div>
+</div>
+
+<script>
+// ─── Navegación de pestañas ───────────────────────────────────────────────
+function showTab(name) {
+  document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  document.getElementById('tab-' + name).classList.add('active');
+  event.target.classList.add('active');
+}
+
+// ─── Tab 1: Base de conocimiento ─────────────────────────────────────────
+let todosLosArticulos = [];
+
+async function iniciarBase() {
+  const res  = await fetch('/api/base/todos');
+  todosLosArticulos = await res.json();
+  renderLista(todosLosArticulos, '');
+  document.getElementById('stats-header').textContent =
+    todosLosArticulos.length + ' artículos en base · ' +
+    'Catálogo Araiz cargado';
+}
+
+function renderLista(items, query) {
+  const lista = document.getElementById('base-lista');
+  if (!items.length) {
+    lista.innerHTML = '<div class="resultado-vacio">Sin resultados para "' + escapeHtml(query) + '"</div>';
+    return;
+  }
+  lista.innerHTML = items.map(a =>
+    '<div class="resultado-item" onclick="verArticulo(\\'' + escapeHtml(a.filename) + '\\', this)">' +
+      '<div class="r-titulo">' + escapeHtml(a.title) + '</div>' +
+      '<div class="r-ref">' + escapeHtml(a.ref) + '</div>' +
+      (a.excerpt ? '<div class="r-excerpt">' + escapeHtml(a.excerpt) + '</div>' : '') +
+    '</div>'
+  ).join('');
+}
+
+async function buscarBase() {
+  const q = document.getElementById('base-input').value.trim();
+  if (!q) { renderLista(todosLosArticulos, ''); return; }
+  const res  = await fetch('/api/base/search?q=' + encodeURIComponent(q));
+  const data = await res.json();
+  renderLista(data, q);
+}
+
+async function verArticulo(filename, el) {
+  document.querySelectorAll('.resultado-item').forEach(e => e.classList.remove('activo'));
+  el.classList.add('activo');
+  const res    = await fetch('/api/base/articulo/' + encodeURIComponent(filename));
+  const data   = await res.json();
+  const visor  = document.getElementById('base-visor');
+  visor.innerHTML = '<pre>' + escapeHtml(data.content) + '</pre>';
+  visor.scrollTop = 0;
+}
+
+document.getElementById('base-input').addEventListener('keydown', e => {
+  if (e.key === 'Enter') buscarBase();
+});
+
+// ─── Tab 2: Catálogo Araiz ────────────────────────────────────────────────
+async function buscarCatalogo() {
+  const q = document.getElementById('cat-input').value.trim();
+  if (q.length < 2) {
+    document.getElementById('cat-info').textContent = 'Escribe al menos 2 caracteres.';
+    document.getElementById('cat-grid').innerHTML = '<div class="catalogo-vacio">El catálogo tiene miles de artículos — usa el buscador</div>';
+    return;
+  }
+  document.getElementById('cat-info').textContent = 'Buscando…';
+  const res  = await fetch('/api/catalogo/search?q=' + encodeURIComponent(q));
+  const data = await res.json();
+  document.getElementById('cat-info').textContent =
+    data.length ? data.length + ' resultado' + (data.length > 1 ? 's' : '') + (data.length === 50 ? ' (máx. 50 mostrados)' : '') : 'Sin resultados.';
+  if (!data.length) {
+    document.getElementById('cat-grid').innerHTML = '<div class="catalogo-vacio">No se encontró nada para "' + escapeHtml(q) + '"</div>';
+    return;
+  }
+  document.getElementById('cat-grid').innerHTML = data.map(item =>
+    '<div class="catalogo-card">' +
+      '<div class="c-nombre">' + escapeHtml(item.nombre) + '</div>' +
+      '<span class="c-ref">' + escapeHtml(item.codigoFabricante || '—') + '</span>' +
+      '<div class="c-marca">' + escapeHtml(item.marca || '') + '</div>' +
+      '<div class="c-familia">' + escapeHtml([item.familia, item.subfamilia, item.grupo].filter(Boolean).join(' › ')) + '</div>' +
+    '</div>'
+  ).join('');
+}
+
+document.getElementById('cat-input').addEventListener('keydown', e => {
+  if (e.key === 'Enter') buscarCatalogo();
+});
+
+// ─── Tab 3: Alfabético ────────────────────────────────────────────────────
+const LETRAS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
+let letraActiva = null;
+
+function iniciarAlfabetico() {
+  const ctr = document.getElementById('alfa-letras');
+  // Ver qué letras tienen artículos
+  const letrasConItems = new Set(
+    todosLosArticulos.map(a => a.title.charAt(0).toUpperCase())
+  );
+  ctr.innerHTML = LETRAS.map(l =>
+    '<button class="alfa-btn' + (letrasConItems.has(l) ? '' : ' sin-items') + '" ' +
+    'id="alfa-' + l + '" ' +
+    (letrasConItems.has(l) ? 'onclick="filtrarLetra(\\'' + l + '\\')"' : 'disabled') +
+    '>' + l + '</button>'
+  ).join('');
+}
+
+async function filtrarLetra(letra) {
+  // Marcar botón activo
+  if (letraActiva) {
+    const prev = document.getElementById('alfa-' + letraActiva);
+    if (prev) prev.classList.remove('activo');
+  }
+  letraActiva = letra;
+  const btn = document.getElementById('alfa-' + letra);
+  if (btn) btn.classList.add('activo');
+
+  const res  = await fetch('/api/base/alfabetico/' + encodeURIComponent(letra));
+  const data = await res.json();
+  const lista = document.getElementById('alfa-lista');
+  if (!data.length) {
+    lista.innerHTML = '<div style="color:var(--gris3);padding:20px;">Sin artículos para la letra ' + letra + '</div>';
+    return;
+  }
+  lista.innerHTML = data.map(a =>
+    '<div class="alfa-item" onclick="irAArticulo(\\'' + escapeHtml(a.filename) + '\\')">' +
+      '<div class="a-titulo">' + escapeHtml(a.title) + '</div>' +
+      '<div class="a-ref">' + escapeHtml(a.ref) + '</div>' +
+    '</div>'
+  ).join('');
+}
+
+function irAArticulo(filename) {
+  // Ir a la pestaña Base y mostrar el artículo
+  document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  document.getElementById('tab-base').classList.add('active');
+  document.querySelectorAll('.tab-btn')[0].classList.add('active');
+  // Buscar en lista y simular clic
+  setTimeout(async () => {
+    const res    = await fetch('/api/base/articulo/' + encodeURIComponent(filename));
+    const data   = await res.json();
+    const visor  = document.getElementById('base-visor');
+    visor.innerHTML = '<pre>' + escapeHtml(data.content) + '</pre>';
+    visor.scrollTop = 0;
+    // Marcar activo en la lista si está visible
+    document.querySelectorAll('.resultado-item').forEach(el => {
+      if (el.querySelector('.r-titulo') &&
+          el.dataset && el.onclick) el.classList.remove('activo');
+    });
+  }, 50);
+}
+
+// ─── Helpers ──────────────────────────────────────────────────────────────
+function escapeHtml(str) {
+  return (str || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
+    .replace(/"/g,'&quot;').replace(/'/g,'&#39;');
+}
+
+// ─── Init ─────────────────────────────────────────────────────────────────
+(async function init() {
+  await iniciarBase();
+  iniciarAlfabetico();
+})();
+</script>
+</body>
+</html>`;
+
+// ─── Servidor HTTP ────────────────────────────────────────────────────────────
+
+function sendJSON(res, data) {
+  const body = JSON.stringify(data);
+  res.writeHead(200, { 'Content-Type': 'application/json; charset=utf-8' });
+  res.end(body);
+}
+
+function send404(res) {
+  res.writeHead(404);
+  res.end('Not found');
+}
+
+const server = http.createServer((req, res) => {
+  const parsed   = url.parse(req.url, true);
+  const pathname = parsed.pathname;
+  const query    = parsed.query;
+
+  // CORS para uso local
+  res.setHeader('Access-Control-Allow-Origin', '*');
+
+  // ── HTML del panel
+  if (pathname === '/' || pathname === '/index.html') {
+    res.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8' });
+    res.end(HTML);
+    return;
+  }
+
+  // ── API: todos los artículos de la base
+  if (pathname === '/api/base/todos') {
+    return sendJSON(res, getAllTitles());
+  }
+
+  // ── API: búsqueda en base
+  if (pathname === '/api/base/search') {
+    return sendJSON(res, searchBase(query.q || ''));
+  }
+
+  // ── API: artículo completo
+  if (pathname.startsWith('/api/base/articulo/')) {
+    const filename = decodeURIComponent(pathname.replace('/api/base/articulo/', ''));
+    const art = articulosBase.find(a => a.filename === filename);
+    if (!art) return send404(res);
+    return sendJSON(res, { title: art.title, content: art.content, ref: art.ref });
+  }
+
+  // ── API: alfabético
+  if (pathname.startsWith('/api/base/alfabetico/')) {
+    const letra = decodeURIComponent(pathname.replace('/api/base/alfabetico/', ''));
+    return sendJSON(res, getAlfabetico(letra));
+  }
+
+  // ── API: búsqueda en catálogo Araiz
+  if (pathname === '/api/catalogo/search') {
+    return sendJSON(res, searchCatalogo(query.q || ''));
+  }
+
+  send404(res);
+});
+
+// ─── Arranque ─────────────────────────────────────────────────────────────────
+loadKnowledgeBase();
+loadCatalogo();
+
+server.listen(PORT, '127.0.0.1', () => {
+  console.log('');
+  console.log('╔══════════════════════════════════════════════════════╗');
+  console.log('║     PANEL DE CONOCIMIENTO ARAIZ — listo              ║');
+  console.log('║     http://localhost:' + PORT + '                        ║');
+  console.log('╚══════════════════════════════════════════════════════╝');
+  console.log('');
+  console.log('Ctrl + C para parar el servidor.');
+});

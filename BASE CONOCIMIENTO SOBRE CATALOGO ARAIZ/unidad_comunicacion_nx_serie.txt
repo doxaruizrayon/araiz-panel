@@ -1,0 +1,101 @@
+CUADRO RESUMEN — UNIDAD COMUNICACIÓN NX SERIE (PUERTO SERIE RS232/RS485 EN BUS NX)
+Familia: Electricidad > Aparellaje eléctrico > Autómatas programables y robots industriales
+Ejemplo en Araiz: Omron ref. NXCIF105 (Unidad comunicación NX serie — 1x RS422A/485)
+============================================================
+
+IMAGEN DEL PRODUCTO:
+https://www.ia.omron.com/products/family/3743/
+
+VÍDEO / REFERENCIA TÉCNICA:
+https://industrial.omron.co.uk/en/products/nx-cif
+
+Búsqueda recomendada en YouTube (español):
+"Omron NX-CIF RS485 Modbus configuración NX1P NX102" o "Omron NX serie comunicación serie Modbus RTU"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+La Unidad de Comunicación NX Serie es un módulo que se conecta en el bus NX del
+PLC Omron NJ/NX para añadir uno o dos puertos de comunicación serie (RS232C o
+RS422/485). Los PLCs NJ/NX tienen Ethernet integrado pero no siempre incluyen
+puertos serie RS485. Cuando necesitan hablar Modbus RTU con un variador de
+frecuencia, un medidor de energía o cualquier dispositivo que use RS485, se añade
+este módulo al bus NX — sin tarjetas internas, sin bastidor adicional. La diferencia
+con la tarjeta CP1W-CIF12 es que esta va en el bus NX externo del NJ/NX, no dentro
+del PLC.
+
+Lo que facilita:
+- Añadir Modbus RTU (RS485) a un PLC NJ/NX que solo tiene Ethernet: conexión directa
+  con variadores de frecuencia, medidores, sensores con Modbus.
+- Instalar el módulo en el bus NX lateral sin abrir el PLC ni cambiar la CPU:
+  se conecta en cadena junto con los módulos de E/S NX.
+- Usar hasta 32 esclavos Modbus en un solo cable RS485 en cadena (daisy-chain).
+- Distancias hasta 1.200 m con RS485 — mucho más que los 15 m del RS232C.
+
+Lo que evita que ocurra:
+- Tener que cambiar el PLC por uno más grande o más caro solo por necesitar RS485.
+- Mezclar diferentes generaciones de hardware: el NX-CIF es nativo del bus NX,
+  funciona sin configuración adicional de red.
+- Confusión con la tarjeta CP1W-CIF12: esa es para PLCs CP1 (bus interior), esta
+  es para PLCs NJ/NX (bus NX exterior).
+
+============================================================
+
+DIFERENCIA CLAVE: NX-CIF vs CP1W-CIF12
+--------------------------------------------------------------
+| Característica          | NX-CIF (este)                    | CP1W-CIF12                       |
+|-------------------------|----------------------------------|----------------------------------|
+| PLC compatible          | NJ, NX, NX1P (gama actual)       | CP1L, CP1H (gama anterior)       |
+| Dónde se instala        | Bus NX lateral (externo)         | Ranura opcional interna del CP1  |
+| Protocolos              | Modbus RTU, CompoWay/F           | Modbus RTU, CompoWay/F           |
+| Modelos disponibles     | RS232C (NX-CIF101/210) RS485 (NX-CIF105) | Solo RS422/485         |
+| Precio                  | Algo más caro (bus NX)           | Más económico                    |
+
+============================================================
+
+MODELOS NX-CIF A CONOCER
+--------------------------------------------------------------
+| Modelo    | Puertos               | Protocolo habitual    | Cuándo usarlo                          |
+|-----------|----------------------|------------------------|----------------------------------------|
+| NX-CIF101 | 1 x RS232C           | Host Link, Modbus ASCII| Dispositivos punto a punto RS232C      |
+| NX-CIF105 | 1 x RS422A/485       | Modbus RTU             | Red de variadores/medidores RS485      |
+| NX-CIF210 | 2 x RS232C           | Host Link, Modbus ASCII| Dos dispositivos RS232C independientes |
+
+============================================================
+
+CARACTERÍSTICAS TÉCNICAS BÁSICAS A SABER
+--------------------------------------------------------------
+| Parámetro                    | Qué significa                                    | Valor NX-CIF105                               |
+|------------------------------|--------------------------------------------------|-----------------------------------------------|
+| PLC compatible               | En qué PLCs se instala                           | NJ, NX102, NX1P2, NX701 (bus NX)             |
+| Puerto                       | Tipo de conexión                                 | 1 x RS422A/485 — conector D-Sub 9 pines       |
+| Distancia                    | Longitud máxima del cable                        | 1.200 m (RS485 a baja velocidad)              |
+| Esclavos                     | Máximo de dispositivos en el bus                 | 32 esclavos Modbus                            |
+| Velocidad                    | Baudrate                                         | 1.200 a 115.200 bps                           |
+| Alimentación                 | De dónde toma la tensión                         | Del propio bus NX — sin alimentación externa  |
+| Montaje                      | Cómo se instala                                  | Se conecta directamente al rail NX del PLC    |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                          | Por qué la necesitas                                                          |
+|----|-------------------------------------------------------------------|-------------------------------------------------------------------------------|
+| 1  | ¿Qué PLC tiene? ¿NJ/NX o CP1?                                     | NJ/NX → NX-CIF / CP1 → CP1W-CIF12 — NO son intercambiables                  |
+| 2  | ¿Con qué dispositivo quiere comunicar? (variador, medidor...)     | Define el protocolo: Modbus RTU (RS485) → NX-CIF105                          |
+| 3  | ¿Necesita 1 o 2 puertos serie?                                    | 2 dispositivos distintos → NX-CIF210 (2 x RS232C) o dos NX-CIF105           |
+| 4  | ¿Cuántos metros hay entre el PLC y el dispositivo más lejano?     | > 15m → RS485 obligatorio / < 15m → RS232C puede servir                     |
+| 5  | ¿Ya tiene el cable RS485 apantallado?                             | RS485 necesita cable de par trenzado apantallado — no sirve cable de red     |
+
+CONSEJO: El caso más habitual es un NJ/NX que necesita hablar Modbus RTU con uno o
+varios variadores de frecuencia Omron (3G3MX2, A1000). La respuesta es NX-CIF105 +
+cable RS485 + configurar Modbus en Sysmac Studio. Es una ampliación pequeña y muy
+común en proyectos de automatización con control de motores.
+
+============================================================
+Fuentes:
+- Omron NX-CIF (oficial): https://www.ia.omron.com/products/family/3743/
+- TME NX-CIF105: https://www.tme.com/us/en-us/details/nx-cif105/plc-accessories/omron/
+- Omron NX-CIF datasheet: https://assets.omron.eu/downloads/latest/datasheet/en/p112_nx-cif_datasheet_en.pdf
+============================================================

@@ -1,0 +1,109 @@
+CUADRO RESUMEN — CABLE SERVO ACCURAX (CABLE POTENCIA / ENCODER PARA SERVO)
+Familia: Electricidad > Aparellaje eléctrico > Autómatas programables y robots industriales
+Ejemplo en Araiz: Omron ref. R88ACAGB005SRE (Servo Accurax 200V cable potencia 5m sin freno — serie Accurax G5)
+============================================================
+
+IMAGEN DEL PRODUCTO:
+https://www.ia.omron.com/products/family/2644/
+
+VÍDEO / REFERENCIA TÉCNICA:
+https://www.electricautomationnetwork.com/en/omron/g5-series-servo-encoder-cable-5m-1kw-to-15kw-omron-r88a-crkc005nr-e-298269
+
+Búsqueda recomendada en YouTube (español):
+"cable servo Omron Accurax G5 potencia encoder conexión" o "servo drive cable conexión armario motor"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Los cables de servo son los cables especiales que conectan el servo drive (el variador,
+instalado en el armario) con el servomotor (el motor, en la máquina). Son cables
+prefabricados con conectores específicos en ambos extremos diseñados exclusivamente
+para el sistema servo Accurax G5 de Omron. Hay dos tipos fundamentales: el cable
+de potencia (lleva la energía del drive al motor para que gire) y el cable de encoder
+(lleva la señal del encoder del motor al drive para saber exactamente la posición y
+velocidad del eje). Sin estos cables, el sistema servo no funciona.
+
+Lo que facilita:
+- Conectar el armario de control (drive) con el motor (servomotor) de forma rápida,
+  segura y sin errores: los conectores son específicos por tipo y no admiten confusión.
+- Reducir tiempo de instalación: cables prefabricados y testados por Omron — plug & play.
+- Garantizar la señal de encoder sin interferencias: los cables de encoder son apantallados
+  (STP) para evitar ruido eléctrico de los variadores y motores cercanos.
+- Elegir la longitud exacta: Omron ofrece longitudes estándar de 1,5 / 3 / 5 / 10 / 15 /
+  20 / 30 / 40 / 50 metros para ajustarse a cada instalación.
+- El modelo sin freno (SRE) y con freno (BRE) cubren ambas configuraciones de motor.
+
+Lo que evita que ocurra:
+- Errores de cableado: los conectores del cable de potencia y el de encoder son
+  físicamente distintos — no se puede conectar uno donde va el otro.
+- Interferencias en la señal de posición por usar cable genérico no apantallado
+  (causaría errores de posicionamiento o alarmas del drive).
+- Daños en el encoder o en el drive por usar cables no certificados para el sistema.
+- Pérdidas de tiempo fabricando cables a medida: Omron los entrega listos.
+
+============================================================
+
+TIPOS DE CABLES DEL SISTEMA SERVO ACCURAX G5
+--------------------------------------------------------------
+| Tipo                          | Función                                   | Cuándo se usa                                         |
+|-------------------------------|-------------------------------------------|-------------------------------------------------------|
+| Cable potencia sin freno (SRE)| Lleva potencia del drive al motor        | Motor sin freno mecánico (el más común)               |
+| Cable potencia con freno (BRE)| Lleva potencia + alimentación del freno  | Motor con freno integrado (para ejes verticales)      |
+| Cable encoder estándar        | Señal de posición motor → drive          | Siempre necesario — 1 por cada motor                  |
+| Cable encoder absoluto        | Señal encoder absoluto + batería         | Motor con encoder absoluto multivuelta               |
+| Cable encoder flexible        | Como el estándar pero para movimiento    | Cuando el cable se mueve con el eje (cadena portacables)|
+
+============================================================
+
+CARACTERÍSTICAS TÉCNICAS BÁSICAS A SABER
+--------------------------------------------------------------
+| Parámetro                    | Qué significa                                    | Valor serie Accurax G5 (Omron)                |
+|------------------------------|--------------------------------------------------|-----------------------------------------------|
+| Sistema compatible            | Con qué servo funciona                           | Solo Accurax G5 (R88M-K / R88D-KN)           |
+| Longitudes disponibles        | Opciones de largo                                | 1,5 / 3 / 5 / 10 / 15 / 20 / 30 / 40 / 50 m |
+| Cable potencia — apantallado  | Si protege frente a ruido EMI                    | Sí — apantallado (obligatorio en servo)       |
+| Cable encoder — apantallado   | Si protege la señal de posición                  | Sí — apantallado (STP)                        |
+| Protección conectores         | IP del conector                                  | IP67 — estanco en campo                       |
+| Variantes                     | Con o sin freno del motor                        | SRE = sin freno / BRE = con freno             |
+| Tipo de uso                   | Si el cable puede moverse                        | Estático (estándar) o flexible (con movimiento)|
+
+============================================================
+
+TIPOLOGÍAS DE CABLES PARA SISTEMAS SERVO
+--------------------------------------------------------------
+| Tipología                        | Descripción                                                   | Cuándo se usa                                         |
+|----------------------------------|---------------------------------------------------------------|-------------------------------------------------------|
+| Cable potencia servo (este)      | Energía del drive al motor, con conector específico           | Siempre — 1 por motor                                 |
+| Cable encoder servo (este)       | Señal de posición del motor al drive                          | Siempre — 1 por motor                                 |
+| Cable bus EtherCAT (entre drives)| Red EtherCAT entre el PLC y los drives                        | En topología de red de drives                         |
+| Cable genérico apantallado       | Cable de señal genérico, sin conector específico              | NO recomendado para encoder — usar el específico      |
+| Cable cadena portacables         | Cable flexible para ejes en movimiento continuo               | Aplicaciones con movimiento repetitivo del cable      |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                          | Por qué la necesitas                                                          |
+|----|-------------------------------------------------------------------|-------------------------------------------------------------------------------|
+| 1  | ¿Qué modelo de servomotor Accurax G5 tiene? (R88M-K...)            | El cable debe ser compatible con el motor específico (potencia del motor)     |
+| 2  | ¿El motor tiene freno mecánico?                                   | Sin freno → cable SRE / Con freno → cable BRE (diferente conector)           |
+| 3  | ¿Cuántos metros hay entre el armario y el motor?                  | Define la longitud del cable — pedir siempre algo más de margen               |
+| 4  | ¿El cable va a estar en movimiento? (eje, cadena portacables)     | Si se mueve → cable flexible especial para ciclos de flexión                 |
+| 5  | ¿Necesita cable de potencia, de encoder o ambos?                  | Normalmente se necesitan los 2 — confirmar si falta alguno                   |
+| 6  | ¿El encoder es incremental o absoluto multivuelta?                | Absoluto → cable encoder diferente (lleva alimentación de batería)           |
+| 7  | ¿Es instalación nueva o sustitución de cable dañado?              | Si es sustitución → confirmar exactamente el modelo para no errar            |
+
+CONSEJO: Cada instalación con servomotor Accurax G5 necesita SIEMPRE 2 cables por motor:
+el cable de potencia (energía) y el cable de encoder (posición). Si el cliente pide uno
+solo, preguntar si ya tiene el otro. Además: la longitud del cable afecta al rendimiento
+del servo — Omron recomienda no superar los 50 metros para la señal de encoder sin
+amplificadores adicionales.
+
+============================================================
+Fuentes:
+- Omron Accurax G5 cables (catálogo PDF): https://files.valinonline.com/userfiles/documents/omron-r88a-model-catalog.pdf
+- TME cables servo Accurax G5: https://www.tme.com/us/en-us/details/r88a-cawl001-5s-de/servo-cables/omron/
+- Electric Automation Network cable encoder G5: https://www.electricautomationnetwork.com/en/omron/g5-series-servo-encoder-cable-5m-1kw-to-15kw-omron-r88a-crkc005nr-e-298269
+- Omron G5 familia completa: https://www.ia.omron.com/products/family/2644/specification.html
+============================================================

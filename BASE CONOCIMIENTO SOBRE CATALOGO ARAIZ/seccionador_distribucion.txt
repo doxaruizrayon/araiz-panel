@@ -1,0 +1,115 @@
+CUADRO RESUMEN — SECCIONADOR DE DISTRIBUCIÓN BT (3KA / 3NP / OT grande / Vario grande)
+Familia: Electricidad > Aparellaje eléctrico > Seccionador y manipulador manual
+Ejemplo en Araiz: Siemens ref. 3KA5530-1GE01 (Seccionador 3KA5 400A 3P montaje en embarrado)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"seccionador distribución baja tensión cuadro principal embarrado" o "disconnector busbar LV distribution panel"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Este grupo recoge los seccionadores de mayor envergadura, diseñados para cuadros
+de distribución de baja tensión (BT): cuadros generales de fuerza, cuadros de
+distribución secundaria, embarrados de fábrica y subestaciones BT.
+
+A diferencia de los seccionadores rotativos compactos (Eaton P3, ABB OT pequeño)
+que van en carril DIN para cuadros de automatización, los de este grupo son
+aparatos más grandes, diseñados para:
+- Corrientes elevadas: desde 160A hasta 3.150A (y más en algunas gamas)
+- Montaje directo sobre embarrado de cobre (sin carril DIN)
+- Cuadros de distribución tipo armario (Rittal, Schneider Prisma, Siemens SIVACON)
+- Instalaciones de distribución industrial: fábricas, hospitales, centros comerciales
+
+La función sigue siendo la misma que cualquier seccionador: aislar visiblemente
+un circuito para que los técnicos puedan trabajar con seguridad. La diferencia
+es la escala — estos seccionadores protegen líneas principales, no motores individuales.
+
+**Siemens domina este grupo (913 art.):**
+La gama 3KA (seccionadores de distribución) y 3NP (seccionadores NH con fusible)
+son la referencia en cuadros de distribución industriales en España.
+- **3KA** (sin fusible): seccionador puro para embarrado. Tamaños 63A a 3.200A.
+- **3NP** (con fusible NH): seccionador + fusible integrado. Ver cuadro sec-fusible.
+
+**ABB (612 art.):**
+Gama OT (Open Type) en versiones de mayor calibre y OS (On-load Switch) para
+maniobra bajo carga. Amplia gama de accesorios y variantes de montaje.
+
+**Eaton (561 art.):**
+Gama P-series en calibres superiores + gama SVB para cuadros de distribución.
+También incluye los conmutadores de carga I-TS de gran calibre.
+
+**Schneider Electric (116 art.):**
+Gama Vario en calibres superiores para cuadros Prisma y Okken.
+
+Lo que facilita:
+- Aislar ramas completas de distribución para mantenimiento sin cortar todo el suministro.
+- Segregar zonas de la fábrica: si hay un problema en producción, se corta solo esa rama.
+- Cumplir con las normativas de seguridad en instalaciones con múltiples técnicos.
+- Sustituir fusibles NH de forma segura (seccionadores-fusible: ver cuadro específico).
+
+============================================================
+
+DIFERENCIA CLAVE: SECCIONADOR DIN vs SECCIONADOR DISTRIBUCIÓN
+--------------------------------------------------------------
+| Característica         | Seccionador DIN (compacto)    | Seccionador distribución      |
+|------------------------|-------------------------------|-------------------------------|
+| Corriente típica       | 16 A a 125 A                  | 160 A a 3.200 A               |
+| Montaje                | Carril DIN 35mm               | Embarrado / tornillos directos|
+| Ubicación habitual     | Cuadro automatización/control | Cuadro distribución BT        |
+| Tamaño físico          | Compacto (módulos DIN)        | Grande (>200mm alto)          |
+| Gama Siemens           | 3LD, 3KD                      | 3KA, 3NP                      |
+| Gama ABB               | OT16-63                       | OT160-3150                    |
+| Precio                 | Bajo-medio                    | Alto                          |
+
+TAMAÑOS POR CORRIENTE (referencia rápida):
+| Corriente (A) | Siemens 3KA   | ABB OT        | Eaton          | Uso típico                    |
+|---------------|---------------|---------------|----------------|-------------------------------|
+| 160-250 A     | 3KA5520-3KA5530| OT160-OT250  | P-series 250   | Línea secundaria, subcuadro   |
+| 400 A         | 3KA5540       | OT400         | P-series 400   | Cuadro secundario mediano     |
+| 630 A         | 3KA5560       | OT630         | P-series 630   | Alimentación zona fábrica     |
+| 1.000 A       | 3KA5610       | OT1000        | —              | Cuadro general pequeña planta |
+| 1.600-3.200 A | 3KA5620+      | OT1600-OT3150 | —              | Cuadro general gran planta    |
+
+============================================================
+
+GAMAS PRINCIPALES EN ARAIZ (~2.298 artículos)
+--------------------------------------------------------------
+| Marca           | Gama                    | Referencias tipo               | Corriente           |
+|-----------------|-------------------------|--------------------------------|---------------------|
+| Siemens         | 3KA5 (distribución)     | 3KA5530-1GE01, 3KA5540-1FE01  | 160 A a 1.600 A     |
+| Siemens         | 3KD (compacto-mediano)  | 3KD3432, 3KD4432, 3KD5432     | 160 A a 1.600 A     |
+| Siemens         | 3LD5 (fuerza)           | 3LD5530, 3LD5730              | 125 A a 315 A       |
+| ABB             | OT (serie grande)       | OT200E03, OT400E03, OT800E03  | 200 A a 3.150 A     |
+| ABB             | OS (con carga)          | OS250D03, OS400D03            | 250 A a 1.250 A     |
+| Eaton           | P-series (calibres altos)| P-series 250A a 1.600A       | 250 A a 1.600A      |
+| Schneider Elec. | Vario (VCD02-VCD03)     | VCD02, VCD03, INS250          | 160 A a 1.600 A     |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                        | Por qué la necesitas                                        |
+|----|-----------------------------------------------------------------|-------------------------------------------------------------|
+| 1  | ¿Cuántos amperios tiene la línea que hay que seccionar?         | Define el calibre del seccionador                           |
+| 2  | ¿Es trifásico (3P) o trifásico + neutro (4P)?                  | El neutro conmutado requiere 4 polos                        |
+| 3  | ¿Va sobre embarrado de cobre o necesita montaje en carril?      | Define el tipo de montaje y los accesorios necesarios       |
+| 4  | ¿Qué tipo de cuadro es? ¿Rittal, Schneider Prisma, Siemens...? | Algunos seccionadores son específicos para cada armario     |
+| 5  | ¿Necesita accesorios? ¿Mando motorizado, contactos aux, maneta?| Consultar cuadro de accesorios específico                   |
+| 6  | ¿Necesita bloqueo con candado (LOTO)?                           | Disponible como accesorio en todas las gamas                |
+
+CONSEJO: En cuadros de distribución de fábrica, el Siemens 3KA es prácticamente
+la única referencia en mantenimiento porque dominó el mercado durante décadas.
+Si el cliente trae una referencia de seccionador roto, casi siempre es 3KA o 3LD.
+Para proyectos nuevos, ABB OT y Eaton P-series son opciones equivalentes y
+a veces más económicas.
+Los seccionadores de gran calibre (>400A) se piden habitualmente con proyecto
+técnico o junto con el cuadro completo — no son venta de mostrador habitual.
+
+============================================================
+Fuentes:
+- Siemens 3KA: https://new.siemens.com/es/es/productos/automatizacion/aparamenta/interruptores-seccionadores-3ka.html
+- ABB OT/OS grande: https://new.abb.com/low-voltage/es/productos/aparamenta/interruptores-seccionadores
+- Schneider Vario: https://www.se.com/es/es/product-subcategory/disconnect-switches/
+============================================================

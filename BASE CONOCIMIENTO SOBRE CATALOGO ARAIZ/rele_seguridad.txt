@@ -1,0 +1,99 @@
+CUADRO RESUMEN — RELÉ DE SEGURIDAD (Siemens 3SK / Omron G9SX / Murrelektronik MIRO SAFE / Rockwell 440R)
+Familia: Electricidad > Aparellaje eléctrico > Reles
+Ejemplo en Araiz: Siemens ref. 3SK1111-1AB30 (Relé de seguridad 3SK1 24V DC 1 canal parada emergencia)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"relé de seguridad qué es categoría SIL PLd parada emergencia" o "safety relay funcionamiento seta emergencia dos canales"
+
+============================================================
+
+QUE ES Y PARA QUE SIRVE?
+--------------------------------------------------------------
+Un relé de seguridad es un módulo especializado que supervisa los dispositivos de
+seguridad de una máquina (setas de emergencia, interbloqueos de puertas, barreras
+de luz, alfombras de seguridad) y garantiza que, si cualquiera se activa, la máquina
+se para de forma segura cumpliendo la directiva de Maquinaria (EN ISO 13849).
+
+La diferencia critica con un relé convencional:
+- Supervisa la integridad del cableado del dispositivo (detecta cable cortado).
+- Tiene dos canales redundantes de entrada: si uno falla, el otro sigue protegiendo.
+- Sus salidas son contactos guiados (forzados): si un contacto se suelda cerrado,
+  los demás no pueden cerrarse — el fallo es detectable.
+- Requiere rearme manual: después de un disparo, la máquina no puede arrancar sola;
+  el operario debe pulsar reset después de verificar que el peligro ha desaparecido.
+
+Categorias de seguridad (norma EN ISO 13849-1):
+- Cat. B / Cat. 1: relé simple, monitorización básica.
+- Cat. 3 / PLd: redundancia parcial, para la mayoría de aplicaciones.
+- Cat. 4 / PLe / SIL 3: maxima seguridad — redundancia total, autodiagnóstico.
+  Para prensas, robots, líneas de estampado.
+
+Lo que facilita:
+- Cumplir la directiva de Maquinaria y obtener marcado CE de la máquina.
+- Conectar múltiples dispositivos (varias setas, varias puertas) con un módulo.
+- Garantizar que la parada de emergencia es efectiva aunque haya fallos de cableado.
+
+Lo que evita que ocurra:
+- Accidentes por fallo del circuito de seguridad no detectado.
+- Que la máquina arranque sola tras emergencia sin verificación del operario.
+
+============================================================
+
+DIFERENCIA CLAVE: RELÉ SEGURIDAD vs RELÉ CONVENCIONAL
+--------------------------------------------------------------
+| Característica            | Relé de seguridad              | Relé convencional              |
+|---------------------------|--------------------------------|-------------------------------|
+| Detección fallo cable     | Si — monitoriza continuamente  | No                             |
+| Contactos guiados         | Si — fallo detectable          | No                             |
+| Redundancia interna       | Si (2 canales)                 | No                             |
+| Rearme manual             | Si — obligatorio               | No (puede autoreiniciar)       |
+| Cumple ISO 13849 / SIL    | Si — según modelo              | No                             |
+| Para emergencias CE       | Obligatorio en Maquinaria      | No válido para cumplimiento    |
+
+============================================================
+
+MODELOS EN ARAIZ (~170 articulos)
+--------------------------------------------------------------
+| Marca          | Gama          | Referencia tipo     | Función             | Cat. seguridad |
+|----------------|---------------|---------------------|---------------------|----------------|
+| Siemens        | 3SK1 basico   | 3SK1111-1AB30       | Emergencia 1 canal  | Cat. 3 / PLd   |
+| Siemens        | 3SK1 avanzado | 3SK1121-1AB30       | Emergencia 2 canales| Cat. 4 / PLe   |
+| Siemens        | 3TK28 modular | 3TK2820-1CB30       | Habilitación mano   | Cat. 3 / PLd   |
+| Omron          | G9SX          | G9SX-AD322-T15      | Emergencia/puerta   | Cat. 4 / PLe   |
+| Omron          | G9SP          | G9SP-N20S           | Controlador segur.  | PLe / SIL3     |
+| Murrelektronik | MIRO SAFE+    | 331133020000        | Emergencia/puerta   | Cat. 3 / PLd   |
+| Rockwell       | 440R          | 440RB23211          | Parada emergencia   | Cat. 3 / PLd   |
+
+ENTRADAS TIPICAS que supervisa un relé de seguridad:
+- Seta de emergencia (pulsador NC de doble contacto).
+- Interruptor de enclavamiento de puerta o protector.
+- Barrera de luz de seguridad (OSSD outputs).
+- Alfombra sensible a la presión.
+- Cable de tracción (rope pull switch).
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                               | Por qué la necesitas                                         |
+|----|--------------------------------------------------------|--------------------------------------------------------------|
+| 1  | Que dispositivo supervisa? (seta, puerta, barrera...)  | Define la función y el numero de canales                    |
+| 2  | Que categoria de seguridad necesita? (PLc, PLd, PLe?)  | Define el modelo (basico Cat3/PLd; avanzado Cat4/PLe)       |
+| 3  | Supervisa varios dispositivos a la vez?                | Un relé puede supervisar varios si tiene entradas suficientes|
+| 4  | Que tensión tiene el circuito de mando?                | 24V DC es lo mas habitual en seguridad moderna              |
+| 5  | Cuantas salidas de seguridad necesita?                 | Define el numero de contactos del módulo                    |
+
+CONSEJO: El relé de seguridad es un producto de proyecto — siempre va ligado a la
+evaluación de riesgos de la máquina (PLr requerido). Si el cliente no sabe que
+categoría necesita, preguntarle si tiene la evaluación de riesgos o si el fabricante
+ha especificado el PLr. Nunca recomendar categoría inferior a la requerida — es
+responsabilidad legal del integrador. Para instalaciones sencillas (una seta,
+Cat. 3/PLd), el Siemens 3SK1111 o el MIRO SAFE+ son la solución estándar.
+
+============================================================
+Fuentes:
+- Siemens 3SK1: https://new.siemens.com/es/es/productos/automatizacion/aparamenta/reles-seguridad.html
+- Omron G9SX: https://www.ia.omron.com/products/family/1490/
+- Murrelektronik MIRO SAFE+: https://www.murrelektronik.com/es/productos/reles/
+============================================================

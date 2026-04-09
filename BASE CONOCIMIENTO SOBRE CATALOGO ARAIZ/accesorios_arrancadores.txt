@@ -1,0 +1,109 @@
+CUADRO RESUMEN — ACCESORIOS PARA ARRANCADORES E INVERSORES
+Familia: Electricidad > Aparellaje eléctrico > Arrancadores e inversores
+Ejemplo en Araiz: Siemens ref. 3RV1901-1D (Bloque de contactos auxiliares 3RV para guardamotor)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"accesorios arrancador motor bloque contactos disparo" o "accesorio disyuntor auxiliar señalización PLC"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Este grupo agrupa todos los complementos que se añaden a arrancadores, guardamotores
+y disyuntores de motor para ampliar sus funciones o adaptarlos a la instalación.
+
+**Principales tipos de accesorios:**
+
+1. **Accesorios para interruptores de BT** (244 art., Siemens 200):
+   Kits de bornes, tapas de protección, separadores de fase, rating plugs,
+   pegatinas y elementos de montaje para guardamotores y disyuntores de motor.
+   Siemens domina (200 art.) con accesorios para su gama 3RV2/3RT2.
+
+2. **Bloques de disparo para disyuntor** (105 art., Schneider 105):
+   Son módulos que se añaden al disyuntor para dispararlo eléctricamente desde
+   un mando externo (PLC, botón de emergencia, relé). Hay dos tipos:
+   - **Bobina de mínima tensión (MN)**: dispara el disyuntor cuando falla la tensión
+     de mando → protección automática ante corte de alimentación.
+   - **Bobina de disparo a tensión (MX/AT)**: dispara el disyuntor cuando recibe
+     tensión → permite disparar desde PLC o botón de emergencia remoto.
+   Schneider los usa para sus gamas NSX y TeSys (105 art. en este grupo).
+
+3. **Bloques de contactos auxiliares** (55 art., ABB 48):
+   Módulos que se añaden al guardamotor o contactor para obtener contactos
+   de señalización del estado (abierto/cerrado/disparo). Se conectan al PLC
+   para que este sepa si el motor está en marcha, parado o ha saltado.
+   ABB domina (48 art.) con bloques para sus contactores y guardamotores.
+
+4. **Accesorios para protección electrónica de motores** (23 art.):
+   Módulos de comunicación, sensores de temperatura, módulos de expansión
+   para los guardamotores electrónicos (Eaton PKE, Siemens 3RB3).
+
+5. **Peines de distribución** (19 art., Eaton 19):
+   Barras de alimentación que conectan varios arrancadores en carril DIN
+   sin necesidad de cablear cada uno individualmente.
+
+6. **Software de configuración** (19 art., Siemens 19):
+   Licencias y paquetes de software para configurar y diagnosticar arrancadores
+   suaves (3RW44) y variadores desde PC (STARTER, SINAMICS).
+
+7. **Cajas vacías para arrancadores** (17 art.):
+   Envolventes y cajas para montar arrancadores en entornos descentralizados
+   (IP65/IP67 para instalación en máquina, no en cuadro).
+
+Lo que facilita:
+- Monitorizar el estado del motor desde el PLC sin cableado adicional complejo.
+- Disparar remotamente un disyuntor ante una emergencia o fallo de tensión.
+- Conectar múltiples arrancadores al mismo bus de alimentación sin cableado individual.
+- Adaptar guardamotores estándar para comunicar por PROFIBUS, IO-Link o AS-Interface.
+
+Lo que evita que ocurra:
+- La bobina MN (mínima tensión) garantiza que el motor no arranca solo tras un corte
+  de luz — evita accidentes por rearranque inesperado.
+- Los contactos auxiliares evitan que el PLC pierda el estado del motor: si el
+  diferencial salta, el PLC lo sabe inmediatamente y puede reaccionar.
+
+============================================================
+
+TABLA DE ACCESORIOS POR TIPO
+--------------------------------------------------------------
+| Tipo de accesorio                        | Art. | Marcas principales               | Para qué                           |
+|------------------------------------------|------|----------------------------------|------------------------------------|
+| Accesorios interruptores BT              | 244  | Siemens(200), Schneider(18), ABB | Guardamotores 3RV2 y equivalentes  |
+| Bloques de disparo (MN/MX/AT)            | 105  | Schneider(105)                  | Disyuntores NSX, TeSys             |
+| Bloques contactos auxiliares             | 55   | ABB(48), Schneider(6), Eaton(1) | Guardamotores y contactores        |
+| Accesorios protección electrónica motor  | 23   | Eaton(19), Siemens(4)           | PKE, 3RB3 electrónicos             |
+| Peines de distribución                   | 19   | Eaton(19)                       | Alimentación múltiples arrancadores|
+| Software configuración                   | 19   | Siemens(19)                     | 3RW44, variadores SINAMICS         |
+| Cajas vacías (descentralizado)           | 17   | Schneider(16), Eaton(1)         | Instalación en máquina IP65        |
+| Kit contactos conexión disyuntores       | 10   | Eaton(8), Siemens(2)            | Conexión rápida sin cablear        |
+| Adaptadores y pletinas                   | 12   | Eaton(6+6)                      | Montaje y conexión                 |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                        | Por qué la necesitas                                         |
+|----|-----------------------------------------------------------------|--------------------------------------------------------------|
+| 1  | ¿Para qué aparato es el accesorio?                              | Los accesorios son específicos por gama y marca              |
+| 2  | ¿Qué referencia tiene el guardamotor o disyuntor?               | Imprescindible para encontrar el accesorio compatible        |
+| 3  | ¿Necesita que el PLC sepa el estado del motor?                  | Si sí: bloque de contactos auxiliares (NA/NC según necesidad)|
+| 4  | ¿Necesita disparar el disyuntor desde fuera?                    | Si sí: bobina MX (disparo activo) o MN (disparo por fallo)  |
+| 5  | ¿El arrancador va en cuadro o en la máquina (exterior)?         | En máquina: necesita caja estanca IP65 + accesorios          |
+| 6  | ¿Tiene varios arrancadores seguidos en el cuadro?               | Si sí: peine de distribución en vez de cablear uno a uno     |
+
+CONSEJO: Los bloques de contactos auxiliares son los accesorios más vendidos de este
+grupo — prácticamente todo cuadro moderno con PLC necesita saber el estado de cada
+motor. El contacto más pedido es el NC de "disparo" (indica que el guardamotor ha
+saltado) para que el PLC genere una alarma.
+Las bobinas MN son casi obligatorias en instalaciones donde la seguridad es crítica:
+si se va la luz y vuelve, el motor NO arranca solo — hay que rearmarlo manualmente.
+Para pedir el accesorio correcto, la referencia del aparato principal es imprescindible:
+un bloque auxiliar de Siemens 3RV2 no encaja en un Eaton PKZM ni en un ABB MS.
+
+============================================================
+Fuentes:
+- Siemens accesorios 3RV: https://new.siemens.com/es/es/productos/automatizacion/aparamenta/guardamotor-3rv.html
+- Schneider accesorios NSX: https://www.se.com/es/es/product-subcategory/motor-circuit-breakers-accessories/
+- ABB bloques auxiliares: https://new.abb.com/low-voltage/es/productos/aparamenta/accesorios-contactores
+============================================================

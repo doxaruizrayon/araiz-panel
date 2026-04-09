@@ -1,0 +1,102 @@
+CUADRO RESUMEN — PLC MODULAR CS1 / CJ1 (GAMA LEGACY OMRON)
+Familia: Electricidad > Aparellaje eléctrico > Autómatas programables y robots industriales
+Ejemplo en Araiz: Omron ref. CS1WBC103 (Bastidor CPU CS1 10 huecos)
+============================================================
+
+IMAGEN DEL PRODUCTO:
+https://www.ia.omron.com/products/family/153/
+
+VÍDEO / REFERENCIA TÉCNICA:
+https://industrial.omron.co.uk/en/products/cs1
+
+Búsqueda recomendada en YouTube (español):
+"PLC Omron CJ1 CS1 arquitectura modular bastidor" o "diferencia CS1 CJ1 Omron"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+El CS1 y el CJ1 son los PLCs modulares de gama media-alta de Omron de la generación
+anterior (legacy). A diferencia del CP1 (todo en uno), estos PLCs se construyen por
+módulos: se elige por separado la CPU, la fuente de alimentación, los módulos de E/S,
+los módulos de comunicación y el bastidor (rack) que los une. Esta arquitectura modular
+permite construir sistemas desde 16 hasta 5.120 E/S digitales, con redundancia,
+comunicaciones avanzadas y control de movimiento. El CS1 es el más grande y robusto;
+el CJ1 es más compacto (sin bastidor, los módulos se enganchan entre sí en carril DIN).
+Ambos se programan con CX-Programmer (incluido en CX-One). Aunque son gama legacy
+(Omron ya no los lanza como nuevos), siguen vendiendo en ampliaciones de instalaciones
+existentes — muchas fábricas los tienen todavía.
+
+Lo que facilita:
+- Construir sistemas de automatización grandes y complejos con cientos de E/S:
+  mezclado, líneas de producción completas, sistemas de transporte...
+- Ampliación modular sin cambiar la CPU: se añaden bastidores adicionales (hasta
+  7 bastidores remotos) conectados por cable de expansión.
+- Comunicaciones avanzadas: tarjetas de red Controller Link, DeviceNet, PROFIBUS,
+  EtherNet/IP se instalan directamente en el bastidor.
+- Control de movimiento: tarjetas de control de ejes (CJ1W-NCF, CJ1W-NCE) permiten
+  controlar hasta 8 ejes servo con MECHATROLINK-II.
+- Redundancia de CPU y E/S: el CS1 permite CPU dual para aplicaciones críticas.
+
+Lo que evita que ocurra:
+- Límite de E/S: con el bastidor modular no hay límite práctico — si se necesitan
+  más entradas, se añade otro módulo.
+- Paradas por fallo de un módulo: los módulos de E/S se pueden sustituir en caliente
+  (hot-swap) en algunos modelos CS1.
+- Migración total de instalaciones existentes: aunque sea legacy, sigue siendo la
+  forma más económica de ampliar una planta que ya tiene CS1/CJ1.
+
+============================================================
+
+DIFERENCIA CLAVE: CS1 vs CJ1
+--------------------------------------------------------------
+| Característica          | CS1 (grande)                     | CJ1 (compacto)                   |
+|-------------------------|----------------------------------|----------------------------------|
+| Bastidor                | Sí — rack fijo de 3/5/8/10 huec  | No — módulos en carril DIN       |
+| Tamaño                  | Grande — para armarios grandes   | Compacto — similar al CP1H       |
+| E/S máximas             | Hasta 5.120 digitales            | Hasta 2.560 digitales            |
+| Módulos disponibles     | Más variedad (PROFIBUS, CAN...)   | Más limitado pero suficiente     |
+| Redundancia CPU         | Sí — CPU dual disponible         | No                               |
+| Para qué                | Plantas grandes, procesos cont.  | Máquinas medianas-grandes        |
+| Programación            | CX-Programmer (CX-One)           | CX-Programmer (CX-One)           |
+
+============================================================
+
+MÓDULOS CS1/CJ1 A CONOCER
+--------------------------------------------------------------
+| Módulo              | Función                                    | Ejemplo                    |
+|---------------------|-------------------------------------------|----------------------------|
+| CPU CS1W/CJ1W       | El cerebro del sistema                     | CS1W-CPU43H, CJ1M-CPU11    |
+| Fuente CS1W-PA      | Alimenta el bastidor CS1                  | CS1W-PA204                 |
+| Fuente CJ1W-PD      | Alimenta los módulos CJ1                  | CJ1W-PD022                 |
+| Módulo E/S digital  | Entradas/salidas digitales 24V DC         | CS1W-ID211, CJ1W-OD201     |
+| Módulo E/S analógico| Señales 4-20mA / 0-10V                    | CS1W-AD161, CJ1W-DA021V    |
+| Tarjeta serie SCB   | Puertos RS232C/RS422 adicionales          | CS1W-SCB21, CS1W-SCB41     |
+| Tarjeta EtherNet/IP | Red Ethernet industrial                   | CS1W-EIP21                 |
+| Bastidor CS1W-BC    | Rack que aloja los módulos CS1            | CS1W-BC103 (10 huecos)     |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                               | Por qué la necesitas                                          |
+|----|--------------------------------------------------------|---------------------------------------------------------------|
+| 1  | ¿Es ampliación de un sistema CS1/CJ1 existente?        | Si sí → mismo protocolo y mismos módulos que los instalados   |
+| 2  | ¿Cuántas E/S necesita en total? (digitales + analógicas)| Define cuántos módulos y bastidores hacen falta               |
+| 3  | ¿Qué CPU tiene actualmente? (modelo exacto)             | Los módulos de expansión deben ser compatibles con esa CPU    |
+| 4  | ¿Tiene ya el software CX-One con licencia activa?       | Sin CX-One no se puede programar ni hacer backup del programa |
+| 5  | ¿Es una avería o una ampliación planificada?            | Avería → urge el modelo exacto / Ampliación → hay más tiempo  |
+| 6  | ¿Considera migrar a la gama NJ/NX nueva?               | A veces sale más económico migrar que ampliar legacy          |
+
+CONSEJO: El CS1/CJ1 es gama legacy pero sigue muy presente en fábricas. Cuando un
+cliente pide piezas para CS1/CJ1, lo más importante es identificar el modelo exacto
+del módulo que necesita (avería o ampliación) porque los módulos no son intercambiables
+entre gamas. Verificar siempre el número de versión de la CPU antes de recomendar
+una tarjeta de expansión — la compatibilidad es crítica en sistemas legacy.
+
+============================================================
+Fuentes:
+- Omron CS1 (oficial): https://www.ia.omron.com/products/family/153/
+- Omron CJ1 (oficial): https://www.ia.omron.com/products/family/1291/
+- Manual CJ1M (PDF): https://assets.omron.eu/downloads/latest/manual/en/w393_cj-series_cj1m_cpu_unit_hardware_users_manual_en.pdf
+============================================================

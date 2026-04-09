@@ -1,0 +1,86 @@
+CUADRO RESUMEN — MÓDULO INLINE (SALIDA ANALÓGICA 4-20mA ECO)
+Familia: Electricidad > Aparellaje eléctrico > Autómatas programables
+Ejemplo en Araiz: Phoenix Contact ref. 2702497 (IB IL AO 4/I/4-20-ECO — serie Inline)
+============================================================
+
+IMAGEN DEL PRODUCTO:
+https://www.phoenixcontact.com/en-pc/products/inline-terminal-ib-il-ao-4-i-4-20-eco-2702497
+
+VÍDEO / REFERENCIA TÉCNICA:
+https://us.rs-online.com/product/phoenix-contact/2702497/71201196/
+
+Búsqueda recomendada en YouTube (español):
+"módulo salida analógica 4-20mA inline PLC" o "Phoenix Contact IB IL AO 4-20mA tutorial"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Este módulo inline de salida analógica es el componente que permite al sistema
+I/O Inline de Phoenix Contact enviar señales de corriente 4-20 mA a actuadores
+de campo como válvulas proporcionales, variadores de velocidad o posicionadores.
+La versión ECO es la variante económica y compacta del sistema Inline, optimizada
+para aplicaciones donde se necesita control analógico de corriente sin funciones
+avanzadas adicionales. Tiene 4 canales de salida de corriente.
+
+Lo que facilita:
+- Controlar de forma proporcional hasta 4 actuadores de campo con señal 4-20mA
+  desde el sistema Inline del PLC.
+- Integrar el control analógico en una estación Inline junto con módulos digitales,
+  sin necesidad de un sistema separado.
+- Detectar cable roto en cada canal (si la carga presenta circuito abierto).
+
+Lo que evita que ocurra:
+- Que el sistema Inline quede sin capacidad de salida analógica (se añade este
+  módulo al conjunto de I/O existente).
+- Control todo/nada de actuadores que necesitan regulación proporcional.
+- Perturbaciones por ruido eléctrico: la señal 4-20mA es inmune al ruido.
+
+============================================================
+
+DIFERENCIA CON OTROS MÓDULOS INLINE ANALÓGICOS
+--------------------------------------------------------------
+| Tipo                              | Señal de salida      | Canales | Cuándo usarlo                                    |
+|-----------------------------------|----------------------|---------|--------------------------------------------------|
+| IB IL AO 4/I/4-20-ECO (2702497)   | 4-20 mA corriente    | 4       | Actuadores estándar con señal de corriente (ECO) |
+| IB IL AO 4/U (voltaje)            | 0-10V voltaje        | 4       | Actuadores que admiten señal de voltaje          |
+| IB IL AO 4/I/4-20 (versión full)  | 4-20 mA + diagnóstico| 4       | Con diagnóstico de canal avanzado                |
+| AXL F AO8 (serie Axioline F)      | V o mA multirrango   | 8       | Sistema Axioline F — más moderno y rápido        |
+
+============================================================
+
+CARACTERÍSTICAS TÉCNICAS BÁSICAS A SABER
+--------------------------------------------------------------
+| Parámetro                    | Qué significa                                    | Valor ref. 2702497 (Phoenix Contact)          |
+|------------------------------|--------------------------------------------------|-----------------------------------------------|
+| Canales de salida            | Cuántos actuadores puede controlar               | 4 salidas analógicas de corriente             |
+| Señal de salida              | Tipo de señal                                    | 4-20 mA (corriente en bucle)                  |
+| Resolución                   | Precisión de la señal                            | 12 bits                                       |
+| Tensión de alimentación      | La que necesita el módulo                        | 24V DC (rango 19,2 a 30V DC)                  |
+| Velocidad de bus local       | Comunicación con el acoplador Inline             | 500 kbps                                      |
+| Conexión de campo            | Cómo se conectan los actuadores                  | Conexión de resorte (spring cage)             |
+| Ancho del módulo             | Espacio en carril DIN                            | 12,2 mm (muy compacto)                        |
+| Grado de protección          | Nivel de estanqueidad                            | IP20 → interior de armario                    |
+| Temperatura de trabajo       | Rango admisible                                  | 0°C a +55°C                                   |
+| Serie / familia              | Sistema al que pertenece                         | Inline (IB IL) — Phoenix Contact              |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                          | Por qué la necesitas                                                          |
+|----|-------------------------------------------------------------------|-------------------------------------------------------------------------------|
+| 1  | ¿Qué sistema I/O tiene? (Inline IB IL, Axioline AXL...)           | El módulo debe ser de la misma serie que el acoplador instalado               |
+| 2  | ¿Cuántas salidas analógicas de corriente necesita?                | 4 canales por módulo — calcular cuántos módulos hacen falta                   |
+| 3  | ¿Los actuadores admiten señal 4-20mA?                             | Si admiten 0-10V → necesita el módulo de voltaje, no este                    |
+| 4  | ¿A qué distancia están los actuadores del cuadro?                 | 4-20mA es buena para distancias largas — confirmar si hay ruido eléctrico     |
+| 5  | ¿Necesita diagnóstico de canal (detección de cable roto)?         | Si sí → versión full en vez de ECO                                           |
+| 6  | ¿Es instalación nueva o ampliación de un sistema Inline?          | Si es ampliación → misma serie y versión de protocolo                        |
+
+============================================================
+Fuentes:
+- Ficha oficial Phoenix Contact 2702497: https://www.phoenixcontact.com/en-pc/products/inline-terminal-ib-il-ao-4-i-4-20-eco-2702497
+- RS Online ref. 2702497: https://us.rs-online.com/product/phoenix-contact/2702497/71201196/
+- WI Automation ref. 2702497: https://us.wiautomation.com/phoenix-contact/modules/2702497
+- DigiKey datasheet 2702497: https://www.digikey.com/htmldatasheets/production/2414650/0/0/1/2702497-datasheet.html
+============================================================

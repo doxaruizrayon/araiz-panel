@@ -1,0 +1,110 @@
+CUADRO RESUMEN — SENSOR FOTOELÉCTRICO E3FA / E3Z (DETECTOR ÓPTICO)
+Familia: Electricidad > Aparellaje eléctrico > Autómatas programables y robots industriales
+Ejemplo en Araiz: Omron ref. E3ZT81M1J103MOMS (Sensor barrera 15m PNP 3h cable M12)
+============================================================
+
+IMAGEN DEL PRODUCTO:
+https://www.ia.omron.com/products/family/1393/
+
+VÍDEO / REFERENCIA TÉCNICA:
+https://industrial.omron.co.uk/en/products/e3fa
+
+Búsqueda recomendada en YouTube (español):
+"sensor fotoeléctrico tipos barrera reflectivo difuso" o "Omron E3FA E3Z conexión PLC NPN"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Un sensor fotoeléctrico detecta objetos usando luz (generalmente LED infrarrojo o
+visible) y un receptor: emite un haz de luz y detecta si ese haz llega al receptor
+o si un objeto lo interrumpe o lo refleja. A diferencia del sensor inductivo (que
+solo detecta metales), el fotoeléctrico detecta cualquier objeto: cajas, plásticos,
+botellas, piezas de madera, personas... También puede usarse para distancias largas
+(hasta 15 m en barrera) donde un inductivo no llega. Hay tres modos principales:
+barrera (emisor y receptor separados, máxima distancia), retroreflectivo (emisor y
+receptor en un cuerpo, usa reflector) y difuso (sin reflector, detecta el objeto
+directamente). El E3Z es el más compacto; el E3FA es el cilíndrico M18.
+
+Lo que facilita:
+- Detectar cualquier objeto opaco sin importar el material: cajas en cinta, botellas,
+  piezas de plástico, presencia de persona en zona de trabajo...
+- Distancias largas sin cables intermedios: la barrera E3Z detecta hasta 15 metros
+  con un emisor y un receptor en los extremos.
+- Detección precisa de objetos pequeños: los modelos de haz puntual detectan
+  objetos de menos de 1 mm de diámetro.
+- Detección de nivel en tolvas y silos: el difuso o la barrera confirman si hay
+  material presente sin contacto con el producto.
+- Conteo de piezas a alta velocidad: los fotoeléctricos responden en microsegundos —
+  cuentan piezas a más de 1.000 por minuto.
+
+Lo que evita que ocurra:
+- Falsas detecciones por objetos transparentes: el E3Z con laser visible o el modo
+  barrera detecta incluso plásticos transparentes y vidrio.
+- Necesidad de contacto físico con el objeto: el fotoeléctrico trabaja sin tocar —
+  no daña superficies delicadas ni se desgasta.
+- Paradas por suciedad en lens: los modelos con limpieza automática (air purge)
+  o con protección IP69K aguantan lavados de alta presión.
+
+============================================================
+
+DIFERENCIA CLAVE: BARRERA vs RETROREFLECTIVO vs DIFUSO
+--------------------------------------------------------------
+| Modo             | Cómo funciona                         | Distancia  | Para qué                      |
+|-----------------|---------------------------------------|------------|-------------------------------|
+| Barrera          | Emisor y receptor separados           | Hasta 15m  | Máxima fiabilidad, larga dist |
+| Retroreflectivo  | 1 cuerpo + reflector                  | Hasta 4m   | Fácil instalación (1 cable)   |
+| Difuso           | 1 cuerpo, sin reflector               | Hasta 1m   | Detección directa del objeto  |
+| BGS (fondo suprim)| Difuso con zona ajustable            | 10-500mm   | Ignora el fondo, solo lo próx |
+
+REGLA: Si hay espacio para poner emisor y receptor en lados opuestos → barrera.
+Si solo hay acceso por un lado → retroreflectivo (con reflector) o difuso.
+
+============================================================
+
+TIPOS DE SALIDA NPN vs PNP (igual que inductivo)
+--------------------------------------------------------------
+| Tipo | Con qué PLC usa                       |
+|------|---------------------------------------|
+| NPN  | Omron CP1L/CJ1/NJ (entradas NPN)     |
+| PNP  | Siemens S7, la mayoría de PLCs europeos|
+
+============================================================
+
+MODELOS E3FA / E3Z A CONOCER
+--------------------------------------------------------------
+| Modelo           | Modo          | Distancia  | Salida | Cuándo usarlo                    |
+|-----------------|---------------|------------|--------|----------------------------------|
+| E3FA-TN12       | Difuso        | 10-200mm   | NPN    | Presencia objetos corta distancia|
+| E3FA-DN12       | Difuso        | 200mm      | NPN    | Detección objetos medianos       |
+| E3FA-RP21       | Retroreflec.  | 4m         | NPN    | Larga distancia, 1 cable         |
+| E3Z-T61         | Barrera recep | 15m        | NPN    | Máxima fiabilidad / alta velocidad|
+| E3Z-T81         | Barrera recep | 15m        | PNP    | Barrera para PLCs PNP            |
+| E3Z-LS63        | BGS difuso    | 20-300mm   | NPN    | Detección sin importar el fondo  |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                               | Por qué la necesitas                                          |
+|----|--------------------------------------------------------|---------------------------------------------------------------|
+| 1  | ¿El objeto es metálico, plástico, de vidrio, madera?   | Cualquier material → fotoeléctrico / Solo metal → inductivo   |
+| 2  | ¿A qué distancia máxima necesita detectar?             | < 200mm → difuso / 200mm-4m → retroreflectivo / > 4m → barrera|
+| 3  | ¿Puede colocar el sensor en ambos lados del paso?      | Sí en ambos lados → barrera / Solo un lado → retroreflec./difuso|
+| 4  | ¿El entorno tiene polvo, niebla, vapor o luz solar?    | Ajustar sensibilidad o elegir modelo IP69K / con rayo laser   |
+| 5  | ¿Las entradas del PLC son NPN o PNP?                   | Define la versión del sensor                                  |
+| 6  | ¿Necesita NA o NC?                                     | NA = activa cuando detecta / NC = activa cuando NO detecta    |
+
+CONSEJO: Los sensores fotoeléctricos son los más versátiles de la automatización —
+detectan cualquier objeto a cualquier distancia. En dudas entre inductivo y
+fotoeléctrico, el fotoeléctrico funciona en más situaciones. El modelo difuso E3FA
+es el más pedido para presencia de objetos en cintas y mesas. Si el cliente ya tiene
+sensores y pide recambio, verificar exactamente el modelo (especialmente NA/NC y
+NPN/PNP — un error puede quemar la entrada del PLC o invertir la lógica).
+
+============================================================
+Fuentes:
+- Omron E3FA (oficial): https://www.ia.omron.com/products/family/1393/
+- Omron E3Z (oficial): https://www.ia.omron.com/products/family/844/
+- TME E3FA-TN12: https://www.tme.com/us/en-us/details/e3fa-tn12/photoelectric-sensors/omron/
+============================================================

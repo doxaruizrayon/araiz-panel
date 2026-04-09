@@ -1,0 +1,94 @@
+CUADRO RESUMEN — MEDIDOR DE ENERGÍA MULTICIRCUITO KM-N (ANALIZADOR DE RED)
+Familia: Electricidad > Aparellaje eléctrico > Autómatas programables y robots industriales
+Ejemplo en Araiz: Omron ref. KMN2FLK (Medidor de energía multicircuito display Push-in+)
+============================================================
+
+IMAGEN DEL PRODUCTO:
+https://www.ia.omron.com/products/family/3940/
+
+VÍDEO / REFERENCIA TÉCNICA:
+https://industrial.omron.co.uk/en/products/km-n
+
+Búsqueda recomendada en YouTube (español):
+"medidor energía multicircuito armario kWh Omron" o "analizador de red eléctrica cuadro industrial"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Un medidor de energía multicircuito (también llamado analizador de red o contador kWh
+inteligente) es un dispositivo que se instala en el armario eléctrico y mide el consumo
+eléctrico de múltiples circuitos simultáneamente: kWh consumidos, potencia activa (kW),
+factor de potencia, tensión e intensidad. El KM-N de Omron es el modelo actual para
+armarios industriales: se instala en carril DIN, se conecta a transformadores de corriente
+tipo clip en cada circuito a medir, y envía todos los datos al PLC o al SCADA por
+Ethernet/IP, Modbus TCP o CompoWay/F. El modelo KM-N2 mide hasta 2 circuitos; el
+KM-N3 hasta 9 circuitos — sin necesidad de un medidor separado por cada circuito.
+
+Lo que facilita:
+- Conocer el consumo eléctrico real de cada máquina, línea o área de la fábrica:
+  detectar consumos anómalos (una máquina que gasta el doble de lo normal = avería).
+- Cumplir requisitos de certificación energética ISO 50001: la norma exige medición
+  y registro del consumo energético por procesos.
+- Detectar picos de potencia que generan penalizaciones en la factura eléctrica:
+  el medidor avisa al PLC para que gestione el arranque escalonado de cargas.
+- Enviar datos de consumo al PLC NJ/NX o al SCADA en tiempo real: integración
+  directa con la arquitectura Sysmac de Omron vía Ethernet/IP o Modbus TCP.
+- Medir múltiples circuitos con un solo equipo: hasta 9 circuitos con KM-N3,
+  usando transformadores de corriente clip-on que no cortan el cableado.
+
+Lo que evita que ocurra:
+- Facturación eléctrica alta por desconocer qué consume qué: sin medición no hay
+  control — el medidor es la base del ahorro energético.
+- Instalaciones manuales costosas: los TC tipo clip-on no requieren cortar los cables
+  ni parar la instalación.
+- Datos de consumo solo en el display: la comunicación Ethernet/IP envía todos los
+  parámetros al sistema de gestión para históricos y análisis.
+
+============================================================
+
+DIFERENCIA CLAVE: KM-N vs CONTADOR kWh SIMPLE
+--------------------------------------------------------------
+| Característica          | KM-N multicircuito               | Contador kWh simple             |
+|-------------------------|----------------------------------|----------------------------------|
+| Circuitos medidos       | Hasta 9 en un equipo             | 1 circuito                       |
+| Parámetros medidos      | kWh, kW, V, A, FP, kVAr...       | Solo kWh                         |
+| Comunicación PLC/SCADA  | Ethernet/IP, Modbus TCP          | No (solo display)                |
+| Instalación             | TC clip-on sin cortar cable      | En serie en el cable             |
+| Para qué                | Gestión energética industrial    | Contaje básico                   |
+
+============================================================
+
+MODELOS KM-N A CONOCER
+--------------------------------------------------------------
+| Modelo    | Circuitos | Comunicación        | Cuándo usarlo                            |
+|-----------|-----------|---------------------|------------------------------------------|
+| KM-N2-FLK | 2         | Ethernet, Modbus TCP| Armarios pequeños o 2 máquinas           |
+| KM-N3-FLK | 9         | Ethernet, Modbus TCP| El más habitual — armario central fábrica|
+
+NOTA: Los TC clip-on (transformadores de corriente) se piden por separado según
+la intensidad de cada circuito a medir (50A, 200A, 400A...).
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                               | Por qué la necesitas                                          |
+|----|--------------------------------------------------------|---------------------------------------------------------------|
+| 1  | ¿Cuántos circuitos quiere medir?                       | KM-N2 (2 circuitos) vs KM-N3 (hasta 9 circuitos)            |
+| 2  | ¿Cuántos amperios circulan por cada circuito?          | Define el TC a pedir para cada circuito                      |
+| 3  | ¿Cómo va a enviar los datos? (Ethernet, Modbus, display)| Define el modelo con comunicación adecuada                   |
+| 4  | ¿Tiene sistema SCADA o PLC para recibir los datos?      | Si no tiene sistema → los datos solo se ven en el display    |
+| 5  | ¿Es para certificación ISO 50001 o para ahorro?        | Define qué parámetros y períodos de registro son necesarios  |
+
+CONSEJO: El medidor de energía está ganando mucho peso en presupuestos industriales
+gracias a la directiva de eficiencia energética y a la subida del precio de la
+electricidad. Muchos clientes lo añaden como parte de proyectos de mejora energética.
+Siempre va junto con los TC (transformadores de corriente) que se piden por separado
+según la intensidad de cada línea.
+
+============================================================
+Fuentes:
+- Omron KM-N (oficial): https://www.ia.omron.com/products/family/3940/
+- TME KM-N2-FLK: https://www.tme.com/us/en-us/details/km-n2-flk/energy-meters/omron/
+============================================================

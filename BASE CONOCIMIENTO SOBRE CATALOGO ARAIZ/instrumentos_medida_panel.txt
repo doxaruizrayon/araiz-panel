@@ -1,0 +1,136 @@
+CUADRO RESUMEN — INSTRUMENTOS DE MEDIDA DE PANEL (Amperímetros, Voltímetros, Contadores kWh)
+Familia: Electricidad > Aparellaje eléctrico > Equipos de medida (panel o carril DIN)
+Ejemplo en Araiz: Legrand ref. 004200 (Amperímetro analógico 72×72mm 0-100A empotrar panel)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"amperímetro voltímetro panel cuadro eléctrico" o "contador kwh carril DIN industrial subcontaje"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Los instrumentos de medida de panel son equipos que se montan visiblemente en la
+puerta o frontis de un cuadro eléctrico para mostrar en tiempo real los valores
+eléctricos del circuito: corriente (amperios), tensión (voltios), frecuencia (Hz)
+o energía acumulada (kWh).
+
+Son la "instrumentación básica" del cuadro — permiten al técnico o al operario
+de la instalación ver de un vistazo el estado eléctrico sin necesidad de abrir
+el cuadro ni usar un multímetro externo.
+
+**1. Amperímetro de panel (144 art.)**
+Mide la corriente eléctrica que circula por un circuito. Se instala empotrado en
+la puerta del cuadro con un transformador de corriente (TC) en serie con el cable.
+- **Analógico** (SACI, Legrand): aguja sobre escala. Robusto, sin alimentación auxiliar,
+  lectura directa. SACI (empresa española) domina los analógicos.
+- **Digital** (Circutor, Schneider): display numérico, mayor precisión.
+Legrand domina con 100 artículos en amperímetros de empotrar — la gama de instrumentos
+analógicos 72×72mm y 96×96mm es la referencia en cuadros industriales clásicos.
+
+**2. Voltímetro de panel (51 art.)**
+Mide la tensión eléctrica. Va conectado directamente en paralelo con el circuito
+a medir (no necesita TC). En sistemas trifásicos se instala con un conmutador
+de tensiones (selector de fases) para ver L1-L2, L2-L3, L3-L1 y L-N.
+Circutor domina con 43 artículos.
+
+**3. Escala de medición (79 art.)**
+Son las carátulas o escalas de graduación que se usan con los instrumentos
+analógicos de panel (amperímetros, voltímetros) — permiten reescalar el instrumento
+para diferentes rangos de medida. Circutor (66 art.) es el principal fabricante.
+
+**4. Contador de electricidad kWh — básico (134 art.)**
+Contadores de energía para subcontaje: miden la energía consumida (kWh) por un
+circuito o zona. Dos tipos principales en este grupo:
+- **Con display directo**: lectura mecánica o digital del contador. Para facturas internas.
+- **Con salida de pulsos**: cada pulso = 1 kWh (o fracción). Se conecta a un PLC
+  o sistema de gestión para acumulación y alarmas.
+Marcas: Siemens (34), Circutor (30), Schneider (30), Orbis (13).
+
+**5. Contador de electricidad simple (104 art.)**
+Contadores más básicos para cuadros domésticos y terciarios, sin salida de comunicación.
+Schneider (42), Legrand (38), Hager (24).
+Diferencia con el kWh avanzado: sin comunicación Modbus, solo lectura visual.
+
+Lo que facilita:
+- Ver en tiempo real si un motor está consumiendo la corriente esperada.
+- Detectar desequilibrios de carga entre fases (voltímetro).
+- Medir el consumo de una máquina o zona para facturación interna.
+- Cumplir requisitos de visualización en cuadros de distribución normalizados.
+
+Lo que evita que ocurra:
+- Abrir el cuadro para medir con multímetro en instalaciones donde hay muchas
+  mediciones rutinarias — el instrumento de panel da el dato de forma permanente.
+- No detectar una sobrecarga antes de que dispare el protector.
+
+============================================================
+
+DIFERENCIA CLAVE: INSTRUMENTO ANALÓGICO vs DIGITAL
+--------------------------------------------------------------
+| Característica         | Analógico (aguja)       | Digital (display)        |
+|------------------------|-------------------------|--------------------------|
+| Lectura                | Visual (posición aguja) | Numérica directa         |
+| Precisión              | ±2-3%                   | ±0,5-1%                  |
+| Alimentación auxiliar  | No necesita             | Sí (24V DC o AC red)     |
+| Vida útil              | Muy alta (sin electrón.)| Alta                     |
+| Precio                 | Bajo                    | Medio                    |
+| Tendencia visual       | Sí (sube/baja aguja)    | Solo número puntual      |
+| Uso habitual           | Cuadros clásicos/indust.| Cuadros modernos/precise |
+
+============================================================
+
+GAMAS PRINCIPALES EN ARAIZ (~785 artículos)
+--------------------------------------------------------------
+**Amperímetros y voltímetros:**
+| Marca    | Tipo         | Formato habitual | Referencias tipo          |
+|----------|--------------|------------------|---------------------------|
+| Legrand  | Analógico    | 72×72 / 96×96 mm | 004200, 004201, 004210    |
+| SACI     | Analógico    | 72×72 / 96×96 mm | AM-96, VM-96, FM-96       |
+| Circutor | Digital      | 72×72 / 96×96 mm | CVM-C10, MK-series        |
+| Schneider| Digital      | 72×72 mm         | METSEPM1000, iEM3155      |
+
+**Contadores kWh:**
+| Marca     | Comunicación   | Referencias tipo       | Montaje          |
+|-----------|----------------|------------------------|------------------|
+| Siemens   | Pulsos / MBus  | 7KT PAA/PAB series     | Carril DIN       |
+| Circutor  | Modbus RS485   | CVM-1D, CMD-C10        | Carril DIN       |
+| Schneider | Pulsos / MBus  | iEM3135, iEM3155       | Carril DIN       |
+| Orbis     | Pulsos         | OWA-series             | Carril DIN       |
+| Legrand   | Sin comunic.   | 004671, 004672         | Carril DIN       |
+| Hager     | Sin comunic.   | ECS380E, ECS363        | Carril DIN       |
+
+FORMATOS DE PANEL HABITUALES:
+| Formato    | Dimensiones frontis  | Hueco panel   | Uso habitual                |
+|------------|----------------------|---------------|-----------------------------|
+| 72×72 mm   | 72×72 mm             | 68×68 mm      | Cuadros pequeños            |
+| 96×96 mm   | 96×96 mm             | 92×92 mm      | Cuadros industriales (estándar)|
+| 144×144 mm | 144×144 mm           | 138×138 mm    | Cuadros grandes / sinópticos|
+| Carril DIN | Módulo 1-4 DIN       | Carril 35mm   | Cuadros domésticos/terciario|
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                        | Por qué la necesitas                                        |
+|----|-----------------------------------------------------------------|-------------------------------------------------------------|
+| 1  | ¿Qué quiere medir? ¿Amperios, voltios, kWh?                    | Define el tipo de instrumento                               |
+| 2  | ¿Es monofásico o trifásico?                                     | Los instrumentos trifásicos son distintos y más caros       |
+| 3  | ¿Qué formato necesita? ¿72×72, 96×96, carril DIN?              | Define el tamaño del instrumento y el hueco en el panel     |
+| 4  | ¿Quiere analógico (aguja) o digital (display)?                  | Estética + presupuesto + precisión requerida                |
+| 5  | Para contador kWh: ¿necesita comunicación? ¿Modbus, pulsos?     | Si va a un SCADA/PLC necesita salida; si es visual solo no  |
+| 6  | ¿Cuántos amperios tiene el circuito a medir?                    | Define el rango del instrumento o el TC necesario           |
+
+NOTA SOBRE TRANSFORMADORES DE CORRIENTE (TC):
+Los amperímetros de panel NO miden directamente en el cable de fuerza — usan un
+transformador de corriente (TC) que rodea el cable y convierte la corriente alta
+(100A, 200A...) en una señal de 0-5A que el instrumento puede leer de forma segura.
+Si el cliente pide un amperímetro, preguntar también si tiene TC o necesita uno.
+Los TC están en el grupo "Transformador de corriente medida" de la base de conocimiento.
+
+============================================================
+Fuentes:
+- Legrand instrumentos: https://www.legrand.es/catalogo/instrumentos-de-medida/
+- SACI instrumentos: https://www.saci.es/productos/instrumentacion/
+- Circutor medida: https://circutor.es/es/productos/medicion-y-analizadores
+- Siemens 7KT: https://new.siemens.com/es/es/productos/automatizacion/sistemas-energia/contadores-energia-7kt.html
+============================================================

@@ -1,0 +1,101 @@
+CUADRO RESUMEN — CONTACTOR DE POTENCIA (APARELLAJE DE MANIOBRA)
+Familia: Electricidad > Aparellaje eléctrico > Autómatas programables y robots industriales
+Ejemplo en Araiz: Omron ref. J7KN-14D-01-110 (Contactor 5,5kW 14A AC3 bobina 110V AC)
+============================================================
+
+IMAGEN DEL PRODUCTO:
+https://www.ia.omron.com/products/family/2278/
+
+VÍDEO / REFERENCIA TÉCNICA:
+https://industrial.omron.co.uk/en/products/j7kn
+
+Búsqueda recomendada en YouTube (español):
+"contactor eléctrico qué es cómo funciona arranque motor" o "diferencia contactor relé térmico guardamotor"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Un contactor es un interruptor electromagnético de potencia que permite arrancar y parar
+motores eléctricos y otras cargas de alta potencia desde una señal de control de baja
+potencia. Funciona igual que un relé pero diseñado para corrientes altas (desde 9A hasta
+cientos de amperios): cuando la bobina recibe tensión (24V DC, 110V AC, 230V AC según
+el modelo), cierra los contactos principales que alimentan el motor. El contactor es
+el componente fundamental del arranque directo de motores en toda instalación industrial.
+Se complementa siempre con un relé térmico o un guardamotor para proteger el motor
+de sobrecargas — el contactor por sí solo no tiene protección contra sobrecargas.
+Los contactores Omron J7KN del catálogo Araiz son compactos, de carril DIN, para
+corrientes de 9A a 95A (motores de 4kW a 45kW en 400V trifásico).
+
+Lo que facilita:
+- Arrancar y parar motores eléctricos de potencia desde la salida del PLC (24V DC):
+  el PLC activa la bobina del contactor, el contactor conecta el motor a la red.
+- Inversión de giro de motores: dos contactores enclavados mecánica y eléctricamente
+  permiten invertir el giro del motor cambiando dos fases.
+- Maniobra de cargas de potencia de forma segura: el contactor separa el circuito
+  de control (24V DC) del circuito de potencia (400V AC del motor).
+- Arranque estrella-triángulo: dos o tres contactores coordinados reducen la corriente
+  de arranque de motores grandes.
+
+Lo que evita que ocurra:
+- Conectar cargas de potencia directamente a la salida del PLC: la salida transistor
+  del PLC aguanta máximo 0,5A — un motor de 1kW consume 2,5A en arranque.
+- Daños en el circuito de control por cortocircuito en el motor: el contactor aísla
+  eléctricamente el circuito de control del de potencia.
+
+============================================================
+
+DIFERENCIA CLAVE: CONTACTOR vs RELÉ DE INTERFAZ vs GUARDAMOTOR
+--------------------------------------------------------------
+| Característica          | Contactor (este)                 | Relé interfaz (PLC-RSC)  | Guardamotor       |
+|-------------------------|----------------------------------|--------------------------|-------------------|
+| Corriente máxima        | 9A – 95A (motores de potencia)   | Hasta 6A (señal)         | 0,1A – 32A        |
+| Protección sobrecarga   | No — solo maniobra               | No                       | Sí — integrada    |
+| Para qué                | Arrancar/parar motores           | Señal PLC→carga          | Proteger motor    |
+| Con quién va            | Siempre con relé térmico         | Solo                     | Solo              |
+
+============================================================
+
+MODELOS OMRON J7KN EN ARAIZ
+--------------------------------------------------------------
+| Referencia        | Corriente | Potencia (400V) | Bobina habitual |
+|-------------------|-----------|-----------------|-----------------|
+| J7KN-09D-01-□□□  | 9A        | 4 kW            | 24V DC / 230V AC|
+| J7KN-14D-01-□□□  | 14A       | 5,5 kW          | El más habitual |
+| J7KN-18D-01-□□□  | 18A       | 7,5 kW          | 110V / 230V AC  |
+| J7KN-25D-01-□□□  | 25A       | 11 kW           |                 |
+| J7KN-40D-01-□□□  | 40A       | 18,5 kW         |                 |
+
+NOTA: El sufijo □□□ indica la tensión de bobina: 024 = 24V DC, 110 = 110V AC,
+230 = 230V AC, 400 = 400V AC. Siempre verificar la tensión del circuito de mando.
+
+CÁLCULO RÁPIDO — qué contactor para cada motor:
+- 1 kW trifásico 400V → 2,5A → J7KN-09 (mínimo)
+- 5,5 kW → 12,5A → J7KN-14
+- 11 kW → 25A → J7KN-25
+- Regla: P(kW) × 1,44 = A nominales → elegir el contactor inmediatamente superior
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                               | Por qué la necesitas                                          |
+|----|--------------------------------------------------------|---------------------------------------------------------------|
+| 1  | ¿Cuántos kW tiene el motor?                            | Define la corriente nominal → tamaño del contactor           |
+| 2  | ¿La tensión de la red es 230V o 400V (trifásico)?      | Afecta al cálculo de corriente y al contactor a elegir       |
+| 3  | ¿Qué tensión tiene el circuito de mando? (bobina)      | 24V DC (desde PLC) / 110V AC / 230V AC                       |
+| 4  | ¿Necesita protección contra sobrecargas?               | Sí siempre → pedir también relé térmico o guardamotor        |
+| 5  | ¿Es arranque directo, estrella-triángulo o inversión?  | Estrella-triángulo e inversión → necesita 2-3 contactores    |
+
+CONSEJO: El contactor casi siempre va acompañado de un relé térmico o guardamotor —
+son los dos elementos inseparables del arranque de motor. Si el cliente pide un
+contactor, preguntar siempre por la protección. Si pide un "guardamotor" puede
+referirse al conjunto contactor + relé térmico como unidad. Para motores pequeños
+(hasta 7,5kW) el guardamotor electrónico es una solución más compacta que reemplaza
+ambos elementos en uno.
+
+============================================================
+Fuentes:
+- Omron J7KN (oficial): https://www.ia.omron.com/products/family/2278/
+- ABB contactores: https://new.abb.com/low-voltage/products/contactors-and-relays
+============================================================

@@ -1,0 +1,97 @@
+CUADRO RESUMEN — CONTACTOR PARA CONDENSADORES (compensación reactiva / cos φ)
+Familia: Electricidad > Aparellaje eléctrico > Contactores
+Ejemplo en Araiz: Siemens ref. 3RT1217-1AP01 (Contactor condensadores 3RT12 12,5kVAr 230V AC)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"contactor condensadores compensación reactiva qué es" o "banco condensadores cos phi contactor especial"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Un contactor para condensadores es un contactor especial diseñado para conectar
+y desconectar bancos de condensadores en instalaciones de compensación del factor
+de potencia (cos φ / reactiva). No puede usarse un contactor estándar para
+condensadores porque en el momento de la conexión, los condensadores vacíos
+producen una corriente de pico (corriente de inrush) que puede ser 50-100 veces
+la corriente nominal — un contactor estándar se destruiría en pocas maniobras.
+
+El contactor para condensadores incorpora resistencias de damping (amortiguamiento)
+integradas o una inductancia de limitación en serie que reduce ese pico de corriente
+al conectar. Al desconectar, evita que la tensión residual en el condensador produzca
+un arco que destruya los contactos.
+
+Se usa en:
+- **Bancos de condensadores automáticos** (reguladores de reactiva): compensan la
+  energía reactiva consumida por motores e inductancias, mejorando el cos φ y
+  evitando penalizaciones en la factura eléctrica.
+- **Instalaciones industriales** con gran cantidad de motores y cargas inductivas.
+- **Redes de distribución** en las que la compañía eléctrica exige cos φ > 0,95.
+
+Sin compensación de reactiva, las empresas pagan una penalización mensual por
+energía reactiva en su factura eléctrica. El banco de condensadores la compensa y
+el contactor especial lo conecta y desconecta sin averiarse.
+
+Lo que facilita:
+- Conectar y desconectar condensadores con seguridad: el contactor estándar se
+  destruiría en semanas con esta aplicación.
+- Mejorar el factor de potencia de la instalación: reduce la penalización en
+  factura eléctrica y mejora la calidad de la red.
+
+Lo que evita que ocurra:
+- Destrucción de contactores estándar por picos de corriente de inrush al conectar
+  condensadores: la corriente de pico puede superar 1000A en instalaciones grandes.
+- Penalizaciones económicas por bajo factor de potencia en la factura eléctrica.
+
+============================================================
+
+DIFERENCIA CLAVE: CONTACTOR CONDENSADORES vs CONTACTOR ESTÁNDAR
+--------------------------------------------------------------
+| Característica            | Contactor condensadores        | Contactor estándar (LC1D/3RT)  |
+|---------------------------|--------------------------------|-------------------------------|
+| Resistencias de damping   | Sí — integradas o externas     | No                             |
+| Corriente de pico soportada| Muy alta (50-100× nominal)    | Baja (no diseñado para picos) |
+| Categoría de utilización  | AC-6b (condensadores)          | AC-3 (motores) / AC-1 (resist)|
+| Vida útil en condensadores| Alta                           | Muy baja (se destruye rápido) |
+| Precio                    | 30-50% más caro que estándar  | Económico                      |
+
+============================================================
+
+MODELOS EN ARAIZ (365 artículos)
+--------------------------------------------------------------
+| Marca      | Referencia tipo        | Potencia    | Para qué                           |
+|------------|------------------------|-------------|-----------------------------------|
+| Siemens    | 3RT1216 / 3RT1217      | 12,5-25 kVAr| Bancos condensadores industriales |
+| Schneider  | LC1DGK / LC1DGKM7C     | 6-50 kVAr   | TeSys D gama condensadores        |
+| ABB        | UA16-30-10 / UA26-30-10| 6,25-12,5 kVAr| A-series condensadores           |
+| Eaton      | DILM9-D / DILM12       | Con damping | xStart serie condensadores        |
+
+Los valores en kVAr indican la potencia reactiva del banco de condensadores que
+puede maniobrar el contactor (a la tensión de red especificada, normalmente 400V).
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                | Por qué la necesitas                                          |
+|----|----------------------------------------------------------|------------------------------------------------------------- |
+| 1  | ¿Para condensadores de compensación reactiva?           | Confirmar que necesita contactor especial, no estándar       |
+| 2  | ¿Cuántos kVAr tiene el banco de condensadores?          | Define la potencia del contactor (corriente en operación)    |
+| 3  | ¿A qué tensión trabaja el banco? (400V trifásico)       | Confirmar tensión para el cálculo de corriente               |
+| 4  | ¿Tiene resistencias de damping integradas o externas?   | Algunos modelos las llevan integradas; otros necesitan módulo|
+| 5  | ¿Qué marca tiene el regulador de reactiva?              | Compatibilidad con el regulador del banco automático         |
+
+CONSEJO: Los contactores para condensadores se venden siempre dentro de un proyecto
+de compensación de reactiva. El cliente habitual es una industria con motores grandes
+que tiene penalización en factura o quiere mejorar el cos φ. Pedir siempre la
+potencia del banco en kVAr y la tensión de red (400V trifásico en España). Nunca
+recomendar un contactor estándar para condensadores — se destruirá rápidamente y
+devolverá el cliente con queja. Si hay duda, escalar a técnico.
+
+============================================================
+Fuentes:
+- Siemens 3RT12: https://new.siemens.com/es/es/productos/automatizacion/aparamenta/contactores-condensadores.html
+- Schneider LC1DG: https://www.se.com/es/es/product-subcategory/4700-contactores-tesys-d/
+- ABB UA series: https://new.abb.com/low-voltage/es/productos/aparamenta/contactores
+============================================================

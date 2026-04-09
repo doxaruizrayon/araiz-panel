@@ -1,0 +1,99 @@
+CUADRO RESUMEN — ROBOT INDUSTRIAL OMRON (VIPER / COBRA / DELTA / SCARA)
+Familia: Electricidad > Aparellaje eléctrico > Autómatas programables y robots industriales
+Ejemplo en Araiz: Omron (Robot articulado Viper 650 — robot de 6 ejes SCARA)
+============================================================
+
+IMAGEN DEL PRODUCTO:
+https://www.ia.omron.com/products/category/robotics/
+
+VÍDEO / REFERENCIA TÉCNICA:
+https://industrial.omron.co.uk/en/products/robots
+
+Búsqueda recomendada en YouTube (español):
+"robot industrial Omron Viper Delta pick place" o "diferencia robot SCARA articulado Delta"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Un robot industrial es un manipulador programable de múltiples ejes que realiza tareas
+repetitivas de manejo de materiales: pick & place (coger y depositar piezas), ensamblaje,
+empaquetado, paletizado, soldadura, aplicación de adhesivo... A diferencia del cobot
+(robot colaborativo, ya documentado por separado), el robot industrial está diseñado
+para la máxima velocidad y precisión en entornos protegidos con vallado de seguridad —
+no para trabajar junto a personas. Omron ofrece varias familias según la aplicación:
+
+- **Viper** (articulado 6 ejes): el más versátil — alcanza cualquier posición en el espacio
+- **Cobra** (SCARA 4 ejes): movimientos horizontales muy rápidos — ideal para ensamblaje
+- **Delta** (3-4 ejes, estructura paralela): el más rápido — hasta 300 ciclos/minuto
+- **SCARA** (selectivo): posicionamiento en plano horizontal con velocidad alta
+
+Lo que facilita:
+- Automatizar tareas repetitivas de manipulación a velocidades imposibles para un operario:
+  el Delta llega a 300 picks por minuto — ningún humano puede igualar ese ritmo.
+- Posicionar con precisión de ±0,02 mm de forma repetible durante millones de ciclos:
+  ideal para ensamblaje de piezas pequeñas o electrónica.
+- Integrar con visión artificial (FH o FQ2): la cámara detecta la posición exacta de
+  cada pieza desordenada y el robot la coge en la posición correcta (bin picking).
+- Controlar desde el mismo PLC NJ/NX Omron: los robots Omron usan EtherCAT — la
+  misma red que los drives servo, sin controlador adicional separado en algunos modelos.
+
+Lo que evita que ocurra:
+- Lesiones por trabajo repetitivo: el robot asume tareas monótonas que generan bajas
+  (síndrome del túnel carpiano, lesiones de espalda por carga repetitiva).
+- Variabilidad de calidad por fatiga humana: el robot ejecuta siempre el mismo movimiento
+  con la misma precisión, independientemente de la hora del turno.
+- Cuellos de botella en líneas de alta cadencia: el robot no descansa ni se cansa.
+
+============================================================
+
+FAMILIAS DE ROBOT OMRON
+--------------------------------------------------------------
+| Familia       | Ejes | Velocidad     | Carga máx. | Para qué                              |
+|---------------|------|---------------|------------|---------------------------------------|
+| Delta-3       | 3    | Muy alta      | 1-6 kg     | Pick & place alimentación, farmacia   |
+| Delta Quattro | 4    | Muy alta      | 2 kg       | Pick & place + giro de pieza          |
+| Cobra SCARA   | 4    | Alta          | 1-8 kg     | Ensamblaje, dispensado, test          |
+| Viper 650     | 6    | Media-alta    | 5 kg       | Manipulación general, soldadura       |
+| Viper 850     | 6    | Media-alta    | 5 kg       | Alcance mayor — celdas más grandes    |
+| SCARA RS serie| 4    | Alta          | 3-20 kg    | Ensamblaje, empaquetado               |
+
+============================================================
+
+DIFERENCIA CLAVE: ROBOT INDUSTRIAL vs COBOT
+--------------------------------------------------------------
+| Característica          | Robot industrial (este)          | Cobot TM (documentado por sep.) |
+|-------------------------|----------------------------------|----------------------------------|
+| Velocidad               | Muy alta                         | Media — limitada por seguridad   |
+| Carga máxima            | Hasta 20 kg                      | 4-14 kg                         |
+| Trabajo con personas    | No — necesita vallado            | Sí — detección de colisión       |
+| Instalación             | Celda protegida con vallado      | Sin vallado (en muchas aplicac.) |
+| Programación            | eV+, ACE (lenguaje Omron)        | TMflow (visual/intuitivo)        |
+| Para qué                | Máxima velocidad y precisión     | Flexibilidad + colaboración      |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                               | Por qué la necesitas                                          |
+|----|--------------------------------------------------------|---------------------------------------------------------------|
+| 1  | ¿Qué tarea tiene que hacer el robot?                   | Pick&place → Delta o Cobra / Ensamblaje → SCARA / General → Viper|
+| 2  | ¿Cuánto pesa la pieza que va a manejar? (kg)           | Define la capacidad de carga del robot                        |
+| 3  | ¿A qué velocidad necesita trabajar? (ciclos/min)       | Delta para velocidad máxima / Viper para versatilidad         |
+| 4  | ¿Va a trabajar con visión artificial?                  | Si sí → integración FH + robot en un solo proyecto           |
+| 5  | ¿Necesita que trabaje cerca de personas?               | Sí → cobot TM / No → robot industrial con vallado             |
+| 6  | ¿Tiene ya controlador de robot o necesita todo?        | El robot necesita su controlador (eV+) + software ACE        |
+
+CONSEJO: La venta de robots industriales es siempre un proyecto, no solo un producto.
+Implica integración, programación y puesta en marcha por parte de un integrador
+especializado. Cuando un cliente pregunte, facilitar el contacto con el departamento
+técnico de Omron o con un integrador certificado. La venta directa sin instalación
+es poco habitual en robots industriales.
+
+============================================================
+Fuentes:
+- Omron robots (oficial): https://www.ia.omron.com/products/category/robotics/
+- Omron Viper: https://industrial.omron.co.uk/en/products/viper-robots
+- Omron Delta: https://industrial.omron.co.uk/en/products/delta-robots
+- Omron Cobra SCARA: https://industrial.omron.co.uk/en/products/cobra-scara-robots
+============================================================

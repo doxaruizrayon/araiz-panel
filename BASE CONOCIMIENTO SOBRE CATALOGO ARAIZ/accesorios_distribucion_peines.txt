@@ -1,0 +1,105 @@
+CUADRO RESUMEN — PEINES DE DISTRIBUCIÓN, BARRAS Y ACCESORIOS DE CUADRO MODULAR
+Familia: Electricidad > Aparellaje eléctrico > Accesorios
+Ejemplo en Araiz: Schneider ref. A9XPH512 (Peine distribución trifásico 12 módulos)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"peine distribución cuadro eléctrico instalación" o "barra puente interconexión magnetotérmicos"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Los peines de distribución (también llamados "barras de distribución" o "peines
+de interconexión") son barras metálicas aisladas que conectan en paralelo varios
+interruptores automáticos modulares dentro de un cuadro de distribución,
+evitando tener que hacer puentes con cables entre aparato y aparato.
+
+Sin peines, hay que cablear un puente de cable desde cada magnetotérmico al
+siguiente — lento, desordenado y propenso a errores. Con peines, la distribución
+queda limpia, segura y rápida de montar.
+
+**1. PEINES DE DISTRIBUCIÓN TIPO TENEDOR/PUNTA (~120 art.)**
+Barras aisladas con dientes que se insertan en los bornes de los interruptores.
+Tipos principales:
+- Monofásico (1P): una sola barra — conecta la fase L a todos los interruptores.
+- Bifásico (1P+N): dos barras — conecta fase L y neutro N alternados.
+- Trifásico (3P): tres barras — conecta L1, L2, L3 secuenciales.
+- Trifásico+N (4P): cuatro barras — L1, L2, L3 y N.
+Longitudes: 12 módulos, 24 módulos, 57 módulos. Cortables a medida.
+Marcas: Schneider (A9X), Hager (KDN), ABB (PS), Legrand (04049x).
+
+**2. BARRAS PUENTE Y CONECTORES DE INTERCONEXIÓN (~60 art.)**
+Piezas cortas para conectar dos o tres aparatos entre sí: puentes de fase,
+conectores bipolares para diferenciales+magnetotérmicos, barras de neutro.
+Se usan para conectar un diferencial a los magnetotérmicos que protege.
+Marcas: Schneider, Hager, ABB.
+
+**3. ADAPTADORES Y SEPARADORES DE FASE (~40 art.)**
+Piezas que adaptan el peine a diferentes tamaños de borne o que separan las
+fases cuando hay mezcla de aparatos de diferentes anchos (1 módulo, 1,5 módulos,
+2 módulos). También tapas aislantes para cubrir los dientes del peine no usados.
+
+**4. PLETINAS Y REPARTIDORES (~50 art.)**
+Bloques repartidores que reciben un cable grueso de entrada (desde el IGA o
+diferencial general) y distribuyen a varias salidas más finas. Se montan en
+carril DIN dentro del cuadro. Típico: repartidor 125A entrada → 6 salidas.
+Marcas: Legrand, Hager, Schneider.
+
+**5. BARRAS DE NEUTRO Y TIERRA (~40 art.)**
+Regletas atornilladas al fondo del cuadro donde se conectan todos los neutros
+(barra azul) o todas las tierras (barra verde-amarilla) del circuito.
+Imprescindibles en cualquier cuadro de distribución.
+
+Lo que facilita:
+- Distribuir la alimentación a todos los interruptores del cuadro de forma limpia.
+- Montar un cuadro de distribución rápido y sin errores de cableado.
+- Conectar diferenciales con sus magnetotérmicos aguas abajo (barras puente).
+
+Lo que evita que ocurra:
+- Puentes de cable desordenados que dificultan el mantenimiento.
+- Conexiones flojas por cables mal apretados entre aparatos.
+- Errores de fase al cablear manualmente un cuadro trifásico.
+
+============================================================
+
+MODELOS EN ARAIZ (~310 artículos)
+--------------------------------------------------------------
+| Tipo                     | Marca           | Serie / Ref         | Para qué                      |
+|--------------------------|-----------------|---------------------|-------------------------------|
+| Peine 1P 12 mod          | Schneider       | A9XPH112            | Distribución monofásica       |
+| Peine 1P+N 12 mod        | Schneider       | A9XPH212            | Monofásico con neutro         |
+| Peine 3P 12 mod          | Schneider       | A9XPH312            | Distribución trifásica        |
+| Peine 3P+N 57 mod        | Hager           | KDN463B             | Cuadro trifásico grande       |
+| Barra puente 2P          | ABB             | PS2/xx              | Diferencial a magneto         |
+| Repartidor 125A          | Legrand         | 04888               | Entrada gruesa → salidas finas|
+| Barra neutro             | Hager / ABB     | KN, ZK              | Neutros del cuadro            |
+| Barra tierra             | Legrand / Hager | 04840, KN           | Tierras del cuadro            |
+| Separador fase           | Schneider       | A9XPP               | Adaptar peine a mezcla aparatos|
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                | Por qué la necesitas                                          |
+|----|----------------------------------------------------------|------------------------------------------------------------- |
+| 1  | Qué marca de interruptores tiene en el cuadro?          | Los peines son específicos por marca (paso de bornes)         |
+| 2  | Monofásico o trifásico?                                 | Define si 1P, 1P+N, 3P o 3P+N                                |
+| 3  | Cuántos módulos tiene el cuadro? (12, 24, 36, 54...)    | Define la longitud del peine                                  |
+| 4  | Tiene diferenciales+magnetotérmicos combinados?         | Necesitará barras puente de conexión                          |
+| 5  | Necesita repartidor? De cuántos amperios la entrada?    | Define el tamaño del repartidor (63A, 100A, 125A, 250A)      |
+
+CONSEJO: Los peines de distribución son ESPECÍFICOS POR MARCA — un peine Schneider
+NO vale para interruptores Hager o ABB porque el paso entre bornes es diferente.
+Siempre confirmar la marca de los interruptores antes de ofrecer el peine.
+Si el cliente pide un cuadro completo, el peine es imprescindible — no se debe montar
+un cuadro de distribución sin peines, aunque técnicamente se pueda cablear con puentes.
+Los repartidores se usan cuando la entrada del cuadro viene de un cable grueso (>25mm²)
+que no cabe en el borne del primer interruptor.
+
+============================================================
+Fuentes:
+- Schneider peines: https://www.se.com/es/es/product-subcategory/3090-barras-y-peines/
+- Hager distribución: https://www.hager.com/es/catalogo/distribucion-de-energia/
+- Legrand repartidores: https://www.legrand.es/catalogo/distribucion-de-energia/
+============================================================

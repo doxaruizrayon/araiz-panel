@@ -1,0 +1,88 @@
+CUADRO RESUMEN — CONTROLADOR DE SEGURIDAD NX-SL (SAFETY CONTROLLER)
+Familia: Electricidad > Aparellaje eléctrico > Autómatas programables y robots industriales
+Ejemplo en Araiz: Omron ref. NXSL5500 (Controlador seguridad NX Safety 128 conexiones CIP Safety + EtherCAT)
+============================================================
+
+IMAGEN DEL PRODUCTO:
+https://www.ia.omron.com/products/family/3618/
+
+VÍDEO / REFERENCIA TÉCNICA:
+https://industrial.omron.co.uk/en/products/nx-sl
+
+Búsqueda recomendada en YouTube (español):
+"controlador seguridad funcional PLC safety SIL PLe" o "Omron NX safety controller parada emergencia"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Un controlador de seguridad (safety controller) es un PLC especial diseñado y certificado
+para funciones de seguridad funcional: paradas de emergencia, resguardos de protección,
+control de dos manos, cortinas ópticas de seguridad y cualquier función que deba
+garantizar la seguridad de las personas ante un fallo del sistema. A diferencia de un
+PLC estándar, el safety controller está diseñado con arquitectura redundante y certificado
+según normas IEC 61508 (SIL 2/3) y EN ISO 13849 (PLe) — los estándares de seguridad
+funcional que exige la Directiva de Maquinaria europea. El NX-SL5500 de Omron es un
+módulo safety que se integra en el bastidor NX y trabaja de forma sincronizada con el
+PLC NJ/NX estándar mediante EtherCAT, permitiendo que las funciones de seguridad y las
+funciones de control estándar estén en el mismo chasis sin comprometer la seguridad.
+
+Lo que facilita:
+- Gestionar todas las funciones de seguridad de una máquina en un solo módulo:
+  paradas de emergencia, puertas de seguridad, cortinas ópticas, robots colaborativos.
+- Cumplir la Directiva de Maquinaria y obtener el marcado CE de la máquina:
+  el NX-SL está certificado TÜV para SIL 2/3 y PLe.
+- Integrar seguridad + control estándar en el mismo chasis NX: el técnico programa
+  ambas partes en Sysmac Studio con lenguajes de programación safety específicos.
+- Diagnóstico avanzado: el controlador detecta fallos en sensores de seguridad
+  (cable cortado, cortocircuito) y los reporta al PLC estándar.
+- CIP Safety sobre EtherCAT: comunicación de seguridad certificada con robots Omron
+  y otros dispositivos safety en red.
+
+Lo que evita que ocurra:
+- Máquinas sin certificación de seguridad que no pasan la inspección: la Directiva
+  de Maquinaria obliga a funciones de seguridad certificadas en maquinaria nueva.
+- Uso de relés de seguridad simples para funciones complejas: el NX-SL permite
+  lógica de seguridad compleja (secuencias, temporizadores, contadores safety).
+- Mezcla peligrosa de señales de seguridad en el PLC estándar: las funciones safety
+  deben estar en hardware certificado separado del control estándar.
+
+============================================================
+
+DIFERENCIA CLAVE: SAFETY CONTROLLER vs RELÉ DE SEGURIDAD SIMPLE
+--------------------------------------------------------------
+| Característica          | NX-SL Safety Controller          | Relé de seguridad simple         |
+|-------------------------|----------------------------------|----------------------------------|
+| Lógica                  | Programable (FBD/ST safety)      | Cableada — fija                  |
+| Funciones simultáneas   | Muchas — hasta 128 conexiones    | 1-2 funciones por relé           |
+| Certificación           | SIL 3 / PLe (TÜV)               | SIL 2-3 / PLd-PLe según modelo   |
+| Diagnóstico             | Completo por red EtherCAT        | Solo indicador LED local         |
+| Integración con PLC     | Nativa Sysmac (mismo bastidor)   | Señal digital al PLC             |
+| Para qué                | Máquinas complejas / robots      | Funciones simples (parada emerg.)|
+| Precio                  | Alto                             | Bajo-medio                       |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                               | Por qué la necesitas                                          |
+|----|--------------------------------------------------------|---------------------------------------------------------------|
+| 1  | ¿La máquina necesita marcado CE / cumplir Dir. Maquinaria?| Si sí → necesita funciones de seguridad certificadas       |
+| 2  | ¿Cuántas funciones de seguridad tiene la máquina?       | Pocas y simples → relé safety / Muchas/complejas → NX-SL    |
+| 3  | ¿Tiene PLC NJ/NX (plataforma Sysmac)?                  | El NX-SL se integra en bastidor NX — ideal con NJ/NX        |
+| 4  | ¿Necesita comunicación safety con robots u otros equipos?| CIP Safety EtherCAT → NX-SL                                 |
+| 5  | ¿Qué nivel de seguridad exige la evaluación de riesgos? | SIL 2 / PLd o SIL 3 / PLe — define el modelo               |
+
+CONSEJO: El controlador de seguridad se vende siempre en el contexto de un proyecto
+de certificación de maquinaria o una instalación con robots. Cuando el cliente menciona
+"directiva de maquinaria", "evaluación de riesgos", "PLe" o "SIL", está hablando
+de seguridad funcional — el NX-SL es la solución Omron. Para funciones muy simples
+(solo un paro de emergencia en una máquina pequeña), un relé de seguridad es suficiente
+y más económico. Siempre preguntar si hay un integrador o empresa de seguridad
+funcional involucrada — estas decisiones requieren ingeniería de seguridad especializada.
+
+============================================================
+Fuentes:
+- Omron NX-SL (oficial): https://www.ia.omron.com/products/family/3618/
+- Safety controllers Omron: https://industrial.omron.co.uk/en/products/nx-sl
+============================================================

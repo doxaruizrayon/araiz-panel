@@ -1,0 +1,115 @@
+CUADRO RESUMEN — UPS / SAI CARRIL DIN S8BA (ALIMENTACIÓN ININTERRUMPIDA 24V DC)
+Familia: Electricidad > Aparellaje eléctrico > Autómatas programables y robots industriales
+Ejemplo en Araiz: Omron ref. S8BA24D24D240L (UPS DC/DC para armario control con batería 10A / 240W)
+============================================================
+
+IMAGEN DEL PRODUCTO:
+https://www.ia.omron.com/products/family/2059/
+
+VÍDEO / REFERENCIA TÉCNICA:
+https://industrial.omron.co.uk/en/products/s8ba
+
+Búsqueda recomendada en YouTube (español):
+"UPS carril DIN 24V DC armario PLC backup batería" o "SAI industrial 24V instalación cuadro"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Un UPS de carril DIN (también llamado SAI industrial o backup de bus DC) es un
+dispositivo que se instala en el armario de control junto a la fuente de alimentación
+de 24V DC y garantiza que el PLC, los sensores y los actuadores sigan recibiendo
+tensión durante un corte de luz o una caída de tensión de la red. A diferencia de los
+UPS de oficina (que trabajan en 230V AC), estos trabajan directamente en 24V DC —
+el mismo bus de control del armario. Internamente tienen una batería de respaldo
+(generalmente de litio o de plomo-ácido sellado) que entra en servicio al instante
+cuando detecta que la alimentación principal falla.
+
+Lo que facilita:
+- Proteger el PLC y el programa en ejecución durante un corte de luz: el PLC sigue
+  funcionando y puede ejecutar una parada segura ordenada antes de apagarse.
+- Guardar datos de producción o posición del servo ante un corte inesperado: evita
+  perder datos de contadores, recetas o posición de ejes.
+- Mantener la comunicación en red (switches, routers industriales) durante el corte
+  para no perder la conexión con el SCADA o el sistema de supervisión.
+- Instalar en carril DIN estándar directamente junto a la fuente de alimentación
+  sin necesidad de armario separado ni obra.
+
+Lo que evita que ocurra:
+- Pérdida de datos del PLC en un corte de luz: el backup permite hacer un shutdown
+  controlado en lugar de un apagado abrupto.
+- Arranques bruscos con pérdida de posición en ejes servo: el encoder absoluto
+  mantiene la posición, pero el PLC necesita tensión para leerlo.
+- Alertas falsas y reinicios no deseados por micro-cortes de red (flicker): el UPS
+  filtra las caídas cortas de tensión sin que el PLC lo note.
+- Daños en la batería por carga/descarga inadecuada: el S8BA gestiona la carga
+  automáticamente y avisa cuando la batería necesita reemplazo.
+
+============================================================
+
+DIFERENCIA CLAVE: UPS INDUSTRIAL 24V DC vs UPS DE OFICINA 230V AC
+--------------------------------------------------------------
+| Característica          | UPS industrial 24V DC (S8BA)     | UPS de oficina 230V AC           |
+|-------------------------|----------------------------------|----------------------------------|
+| Tensión de trabajo      | 24V DC (bus de control directo)  | 230V AC (enchufar ordenador)     |
+| Formato                 | Carril DIN — dentro del armario  | Caja independiente externa       |
+| Conmutación             | Instantánea (0 ms) — sin corte   | Algunos ms de corte              |
+| Tamaño                  | Compacto — cabe en el armario    | Voluminoso — ocupa espacio aparte|
+| Para qué                | PLC, sensores, drives, HMI       | Ordenadores, periféricos         |
+| Gestión de batería      | Sí — aviso de estado y fallo     | Básica                           |
+
+============================================================
+
+MODELOS S8BA A CONOCER
+--------------------------------------------------------------
+| Modelo              | Corriente | Potencia | Tipo batería | Cuándo usarlo                         |
+|---------------------|-----------|----------|--------------|---------------------------------------|
+| S8BA24D24D120L      | 5A        | 120W     | Individual   | PLCs y sensores pequeños              |
+| S8BA24D24D240L      | 10A       | 240W     | Individual   | El más habitual — PLC + sensores      |
+| S8BA24D24D480SBF    | 20A       | 480W     | Individual   | Armarios con más carga en 24V DC      |
+| S8BA24D24D960W      | 40A       | 960W     | Individual   | Grandes armarios de control           |
+| S8BAS480L           | Batería   | 3,9Ah    | Recambio     | Batería de repuesto para S8BA 480W    |
+
+NOTA: El S8BA se alimenta de la fuente de 24V DC existente — no sustituye la fuente,
+la complementa. La batería es el elemento que necesita mantenimiento periódico
+(vida útil típica 3-5 años).
+
+============================================================
+
+CARACTERÍSTICAS TÉCNICAS BÁSICAS A SABER
+--------------------------------------------------------------
+| Parámetro                    | Qué significa                                    | Valor S8BA24D24D240L                          |
+|------------------------------|--------------------------------------------------|-----------------------------------------------|
+| Tensión entrada/salida       | Trabaja en 24V DC                                | 24V DC entrada y salida                       |
+| Corriente máxima             | Lo que puede suministrar en backup               | 10A (240W)                                    |
+| Tiempo de respaldo           | Cuánto aguanta con batería                       | Depende de la carga — con 5A unos 20 min      |
+| Tiempo de conmutación        | Cuánto tarda en pasar a batería                  | 0 ms — instantáneo, el PLC no lo nota         |
+| Temperatura de trabajo       | Rango de temperatura                             | -10 a +50°C                                   |
+| Montaje                      | Cómo se instala                                  | Carril DIN 35mm                               |
+| Señales de estado            | Si avisa de fallos                               | Sí — señal de alarma (batería baja, fallo)    |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                          | Por qué la necesitas                                                          |
+|----|-------------------------------------------------------------------|-------------------------------------------------------------------------------|
+| 1  | ¿Cuántos amperios consume el bus de 24V DC del armario?           | Define el modelo: 5A / 10A / 20A / 40A según la carga total del armario      |
+| 2  | ¿Cuánto tiempo necesita de backup?                                | Más tiempo → batería más grande o más carga de la misma                      |
+| 3  | ¿Qué necesita proteger? (PLC solo, o también HMI, switches...)    | Ayuda a dimensionar la corriente necesaria                                   |
+| 4  | ¿Tiene ya la fuente de alimentación de 24V DC?                    | El S8BA va en paralelo con la fuente — confirmar que la fuente ya existe      |
+| 5  | ¿Tiene acceso al armario para cambiar la batería cuando haga falta?| La batería hay que reponerla — confirmar que el modelo de batería está disponible|
+
+CONSEJO: En cualquier instalación con PLC Omron NJ/NX y ejes servo, el UPS S8BA
+es una inversión pequeña frente al coste de una parada no planificada por un corte
+de luz. Casi siempre vale la pena incluirlo en el presupuesto como opción. Si el
+cliente tiene encoder absoluto (guarda posición sin referencias al arrancar),
+el UPS lo complementa perfectamente: el encoder recuerda la posición y el UPS le
+da tiempo al PLC para hacer un shutdown limpio.
+
+============================================================
+Fuentes:
+- Omron S8BA (oficial): https://www.ia.omron.com/products/family/2059/
+- TME S8BA24D24D240L: https://www.tme.com/us/en-us/details/s8ba-24d24d240l/ups-systems/omron/
+- Omron S8BA datasheet: https://assets.omron.eu/downloads/latest/datasheet/en/p054_s8ba_datasheet_en.pdf
+============================================================

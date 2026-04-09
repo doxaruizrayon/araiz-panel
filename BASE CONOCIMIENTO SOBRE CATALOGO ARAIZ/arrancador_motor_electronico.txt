@@ -1,0 +1,103 @@
+CUADRO RESUMEN — ARRANCADOR ELECTRÓNICO DE MOTOR (ARRANCADOR HÍBRIDO / SOFT STARTER)
+Familia: Electricidad > Aparellaje eléctrico > Autómatas programables y robots industriales
+Ejemplo en Araiz: Phoenix Contact ref. ELR H3-I-PT-24DC/500AC-3-P (Arrancador híbrido 3A 500V AC)
+============================================================
+
+IMAGEN DEL PRODUCTO:
+https://www.phoenixcontact.com/es-es/productos/arrancadores-electronicos-de-motor
+
+VÍDEO / REFERENCIA TÉCNICA:
+https://www.phoenixcontact.com/es-es/productos/modulo-de-motor-elr-h3
+
+Búsqueda recomendada en YouTube (español):
+"arrancador electrónico motor qué es diferencia contactor variador" o "ELR H3 Phoenix Contact motor starter"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Un arrancador electrónico de motor (también llamado arrancador híbrido o soft starter
+compacto) es un dispositivo que arranca y para motores de corriente alterna de forma
+controlada, sin los golpes de corriente y par que genera el arranque directo con
+contactor. A diferencia del variador de frecuencia (que también varía la velocidad),
+el arrancador electrónico solo controla el arranque y la parada — una vez el motor
+está en marcha, lo entrega a plena velocidad. El modelo Phoenix Contact ELR H3 es un
+arrancador híbrido: usa semiconductores (tiristores) durante el arranque y para
+(sin arco eléctrico, sin desgaste) y cierra un contactor bypass mecánico durante
+el funcionamiento normal para no generar calor continuamente.
+
+Se diferencia del variador de frecuencia (VFD) en que el arrancador NO modifica
+la velocidad durante el funcionamiento — solo suaviza el arranque y la parada.
+Es más económico que un VFD cuando solo se necesita arranque suave, no control de velocidad.
+
+Lo que facilita:
+- Arrancar motores de bombas y compresores sin golpe de corriente: el pico de
+  corriente de arranque directo puede ser 5-8 veces la corriente nominal — el
+  arrancador lo limita a 2-3 veces.
+- Proteger mecánicamente las transmisiones y correas: el arranque progresivo
+  evita el golpe de par que desgasta correas, acoplamientos y reductoras.
+- Parada suave de bombas: evita el golpe de ariete en las tuberías al cerrar
+  gradualmente el caudal al parar.
+- Controlar el motor directamente desde el PLC: el ELR H3 tiene entrada de
+  control 24V DC, compatible directo con salidas del PLC.
+- Montaje en carril DIN dentro del armario: más compacto que un contactor + relé
+  térmico tradicional.
+
+Lo que evita que ocurra:
+- Disparos del magnetotérmico por picos de corriente en el arranque: el arrancador
+  limita la corriente de arranque — no hay disparos intempestivos.
+- Desgaste prematuro de correas y transmisiones: el arranque suave elimina el golpe
+  de par inicial.
+- Golpe de ariete en tuberías: la parada progresiva cierra el caudal suavemente.
+
+============================================================
+
+DIFERENCIA CLAVE: ARRANCADOR ELECTRÓNICO vs CONTACTOR vs VARIADOR (VFD)
+--------------------------------------------------------------
+| Característica          | Arrancador electrónico           | Contactor directo        | Variador frecuencia (VFD) |
+|-------------------------|----------------------------------|--------------------------|---------------------------|
+| Arranque                | Progresivo (suave)               | Directo (golpe)          | Progresivo (rampa)        |
+| Control velocidad       | No — solo arranque/parada        | No                       | Sí — velocidad variable   |
+| Pico corriente arranque | Limitado (2-3 In)               | Alto (5-8 In)            | Limitado (configurable)   |
+| Precio                  | Medio                            | Bajo                     | Alto                      |
+| Para qué                | Bombas, compresores, arrancadores| Cargas simples           | Velocidad variable        |
+
+============================================================
+
+MODELOS ELR H3 EN ARAIZ
+--------------------------------------------------------------
+| Referencia                      | Corriente | Tensión | Para qué                        |
+|---------------------------------|-----------|---------|----------------------------------|
+| ELR H3-I-PT-24DC/500AC-3-P     | 3A        | 500V AC | Motores pequeños hasta ~1,5 kW   |
+| ELR H3-I-PT-24DC/500AC-9-P     | 9A        | 500V AC | Motores hasta ~4 kW              |
+| ELR H3-IES-PT-24DC/500AC-3-P   | 3A        | 500V AC | Con detección de fallo de fase   |
+| ELR H3-IS-PT-24DC/500AC-9-P    | 9A        | 500V AC | Con parada de seguridad integrada|
+
+NOTA: "IES" = con monitorización de corriente y detección de fallo. "IS" = con función
+de parada segura (STO — Safe Torque Off). "-P" = Push-in (bornas de conexión rápida).
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                               | Por qué la necesitas                                          |
+|----|--------------------------------------------------------|---------------------------------------------------------------|
+| 1  | ¿Necesita solo arranque suave o también control de velocidad?| Solo arranque → arrancador / Velocidad variable → VFD   |
+| 2  | ¿Cuál es la potencia del motor? (kW o A nominales)     | Define el modelo de arrancador por corriente (3A, 9A...)     |
+| 3  | ¿La tensión de la red es 230V o 400V (trifásico)?      | Define el modelo de tensión de potencia                      |
+| 4  | ¿Cómo se controla? ¿Desde PLC (24V DC) o manual?       | El ELR H3 acepta control 24V DC directo desde salida de PLC  |
+| 5  | ¿Necesita protección de motor integrada?               | Modelos IES incluyen detección de sobrecarga y fallo de fase  |
+
+CONSEJO: El arrancador electrónico se usa principalmente en bombas de agua (riego,
+depuradoras, edificios) y compresores de aire donde el arranque directo genera
+problemas mecánicos o eléctricos. Cuando el cliente tiene disparos de magnetotérmicos
+en el arranque o problemas de golpe de ariete en tuberías, el arrancador suave
+es la primera solución a proponer. Si además necesita controlar la velocidad del
+motor (p.ej. variación de caudal), entonces el variador de frecuencia (serie 3G3
+de Omron o similares) es la respuesta adecuada.
+
+============================================================
+Fuentes:
+- Phoenix Contact ELR H3 (oficial): https://www.phoenixcontact.com/es-es/productos/arrancadores-electronicos
+- Siemens soft starters: https://www.siemens.com/es/es/productos/automatizacion/producto/sirius.html
+============================================================

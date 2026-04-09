@@ -1,0 +1,108 @@
+CUADRO RESUMEN — SENSORES ULTRASÓNICOS Y TELÉMETROS ÓPTICOS (MEDICIÓN DE DISTANCIA)
+Familia: Electricidad > Aparellaje eléctrico > Detectores proximidad y fotocelulas
+Ejemplo en Araiz: Telemecanique ref. XX918A1A1M12 (Sensor ultrasónico M18 200-2000mm analógico)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"sensor ultrasónico industrial cómo funciona" o "telémetro láser industrial medición distancia"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Los sensores ultrasónicos y los telémetros ópticos miden la DISTANCIA al objeto
+de forma continua (no solo presencia/ausencia como un inductivo o fotocélula).
+Son los sensores de "medición" por excelencia en automatización.
+
+**1. SENSOR ULTRASÓNICO (~110 art.)**
+Emite pulsos de ultrasonido (como un murciélago) y mide el tiempo que tarda
+el eco en volver. Con ese tiempo calcula la distancia al objeto.
+
+Ventajas:
+- Detecta CUALQUIER material (metal, plástico, líquido, polvo, vidrio).
+- No le afecta el color ni la transparencia del objeto.
+- Funciona bien con líquidos (nivel de depósitos).
+
+Inconvenientes:
+- Zona ciega: no detecta en los primeros centímetros (zona muerta).
+- Le afectan las corrientes de aire y las espumas.
+- Velocidad de respuesta más lenta que los ópticos.
+
+Rangos típicos: 200mm-2m, 200mm-6m según modelo.
+Salidas: analógica (4-20mA, 0-10V) para medición, o digital (PNP) con umbrales.
+Marcas: Telemecanique (XX9, XX6), Omron (E4C).
+
+**2. TELÉMETRO ÓPTICO / SENSOR LÁSER DE DISTANCIA (~120 art.)**
+Mide la distancia mediante un haz láser visible (rojo) o infrarrojo. Más
+preciso y más rápido que el ultrasónico, pero más sensible al color y
+material del objeto.
+
+Tipos:
+- **Triangulación**: Para distancias cortas (20mm-1m). Alta precisión (0,1mm).
+  Se usa para control de calidad, posicionamiento de precisión.
+- **Tiempo de vuelo (TOF)**: Para distancias largas (0,3m-30m). Precisión media.
+  Se usa para medición de nivel, posicionamiento de grúas, almacenes automáticos.
+
+Marcas: Omron (E3NC-L, ZX-L), Telemecanique (XX6).
+
+**APLICACIONES TÍPICAS:**
+| Aplicación | Sensor recomendado |
+|-----------|--------------------|
+| Nivel de líquido en depósito | Ultrasónico (no le afecta el color) |
+| Nivel de sólidos (grano, polvo) | Ultrasónico (detecta superficies irregulares) |
+| Posicionamiento de precisión | Telémetro láser triangulación |
+| Medición de distancia larga | Telémetro láser TOF |
+| Detección de personas (puertas) | Ultrasónico (detecta cualquier objeto) |
+| Control de grosor/altura | Telémetro láser triangulación |
+
+Lo que facilita:
+- Medir nivel de depósitos sin contacto con el líquido.
+- Posicionar piezas y actuadores con precisión milimétrica.
+- Detectar objetos independientemente de su material y color (ultrasónico).
+
+Lo que evita que ocurra:
+- Desbordamiento de depósitos por falta de medición de nivel.
+- Errores de posicionamiento en máquinas automáticas.
+
+============================================================
+
+MODELOS EN ARAIZ (~230 artículos)
+--------------------------------------------------------------
+| Tipo                     | Marca           | Serie               | Para qué                      |
+|--------------------------|-----------------|---------------------|-------------------------------|
+| Ultrasónico M18 analógico| Telemecanique   | XX918                | Medición distancia 200-2000mm |
+| Ultrasónico M18 digital  | Telemecanique   | XX618                | Detección con umbral          |
+| Ultrasónico M30          | Telemecanique   | XX930                | Larga distancia hasta 6m      |
+| Ultrasónico compacto     | Omron           | E4C                  | Gama Omron ultrasónico        |
+| Ultrasónico barrera      | Omron           | E4C-DS               | Barrera ultrasónica           |
+| Telémetro láser corto    | Omron           | ZX-L, E3NC-L         | Triangulación 20-1000mm       |
+| Telémetro láser largo    | Omron           | E3NC-LH              | TOF hasta 30m                 |
+| Sensor distancia         | Telemecanique   | XX6                  | Medición distancia Schneider  |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                | Por qué la necesitas                                          |
+|----|----------------------------------------------------------|------------------------------------------------------------- |
+| 1  | Qué necesita medir? (nivel, distancia, posición)       | Define la aplicación                                          |
+| 2  | Qué material es el objeto? (líquido, metal, plástico)  | Líquido/irregular → ultrasónico; sólido plano → láser         |
+| 3  | A qué distancia? (rango mínimo y máximo)               | Define el modelo                                              |
+| 4  | Qué precisión necesita?                                | Precisión fina → láser; precisión gruesa → ultrasónico        |
+| 5  | Salida analógica (4-20mA) o digital (PNP)?             | Analógica para medición; digital para umbral                  |
+
+CONSEJO: Para medición de nivel de depósitos, el ultrasónico es la opción más
+económica y fiable. Es el "sensor de nivel" por defecto en industria.
+Si el cliente dice "necesito medir el nivel de un tanque", pensar en ultrasónico.
+Si dice "necesito medir con precisión de décimas de mm", pensar en telémetro láser.
+Telemecanique (Schneider antiguo) domina los ultrasónicos en Araiz con la serie
+XX9. Omron domina los telémetros láser con E3NC-L y ZX-L.
+Los ultrasónicos tienen una ZONA MUERTA de 15-30cm desde la cara del sensor
+donde no pueden medir — tenerlo en cuenta al instalar.
+
+============================================================
+Fuentes:
+- Telemecanique ultrasónicos: https://www.se.com/es/es/product-range/1006-osisense-xx/
+- Omron telémetros: https://www.omron.es/es/products/family/3324
+- Principio ultrasonido: IEC 60947-5-2
+============================================================

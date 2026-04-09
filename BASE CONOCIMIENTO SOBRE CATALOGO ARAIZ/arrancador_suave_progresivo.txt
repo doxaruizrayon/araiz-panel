@@ -1,0 +1,119 @@
+CUADRO RESUMEN — ARRANCADOR SUAVE Y PROGRESIVO (3RW / PSR-PSE / DS7 / ATS)
+Familia: Electricidad > Aparellaje eléctrico > Arrancadores e inversores
+Ejemplo en Araiz: Siemens ref. 3RW4026-1BB14 (Arrancador suave 3RW40 12A 5,5kW 24V DC)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"qué es un arrancador suave soft starter" o "arrancador progresivo motor bomba ventilador"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Un arrancador suave (soft starter) controla la tensión que llega al motor durante
+el arranque, aumentándola progresivamente desde cero hasta la tensión nominal.
+El resultado: el motor arranca despacio, sin golpe brusco, sin pico de corriente elevado.
+
+La diferencia con el arranque directo (DOL):
+- **Arranque directo**: tensión plena desde el primer momento → corriente 5-8× nominal
+  → golpe mecánico en correas, engranajes, rodamientos → estrés en la red eléctrica.
+- **Arrancador suave**: tensión sube gradualmente → corriente 2-4× nominal → arranque
+  progresivo sin golpe → menor desgaste mecánico → menor impacto en la red.
+
+La diferencia con el variador de frecuencia:
+- **Arrancador suave**: solo controla el arranque (y a veces la parada). En marcha normal
+  el motor va a velocidad fija de red (50 Hz). Más barato que el variador.
+- **Variador de frecuencia**: controla la velocidad en todo momento, de 0 a máxima.
+  Permite velocidad variable durante el trabajo. Más caro pero mucho más versátil.
+
+Cuándo usar arrancador suave vs variador:
+- ¿Solo necesitas arrancar suave sin golpe y luego velocidad fija? → Arrancador suave
+- ¿Necesitas regular la velocidad en marcha (bomba variable, ventilador regulado)? → Variador
+
+Tipos en este grupo:
+1. **Arrancador suave electrónico** (soft starter): controla la rampa de tensión con
+   tiristores. Gamas: Siemens 3RW40/3RW44, ABB PSR/PSE, Eaton DS7, Schneider ATS22/ATS48.
+2. **Arrancador progresivo**: similar al suave pero más sencillo, sin tiristores —
+   usa resistencias o inductancias para limitar la corriente inicial. Más económico
+   pero menos preciso. Gama principal en Araiz: Schneider ATS01 (133 art.).
+
+Aplicaciones típicas:
+- Bombas de agua (evita golpe de ariete en la tubería)
+- Ventiladores y extractores (arranque progresivo de masas de aire)
+- Compresores (evitar pico de corriente que haría saltar el diferencial)
+- Cintas transportadoras (arranque sin sacudida de la carga)
+- Cualquier motor donde el arranque brusco cause problemas mecánicos o eléctricos
+
+============================================================
+
+DIFERENCIA CLAVE: SOFT STARTER vs VARIADOR vs ARRANQUE DIRECTO
+--------------------------------------------------------------
+| Característica           | Arranque directo (DOL)  | Arrancador suave      | Variador frecuencia   |
+|--------------------------|-------------------------|-----------------------|-----------------------|
+| Corriente de arranque    | 5-8× In (pico alto)     | 2-4× In (reducida)    | 1-1,5× In (mínima)   |
+| Golpe mecánico           | Alto                    | Bajo                  | Nulo                  |
+| Velocidad variable       | No                      | No (solo rampa)       | Sí (siempre)          |
+| Ahorro energético        | No                      | Solo en arranque      | Sí (en marcha)        |
+| Precio relativo          | Muy bajo                | Medio                 | Alto                  |
+| Complejidad              | Baja                    | Media                 | Alta                  |
+| Mantenimiento            | Mínimo                  | Bajo                  | Medio                 |
+
+============================================================
+
+GAMAS PRINCIPALES EN ARAIZ (~1.214 artículos)
+--------------------------------------------------------------
+**Arrancadores suaves (soft starter):**
+| Marca           | Gama              | Referencias tipo         | Potencia típica     |
+|-----------------|-------------------|--------------------------|---------------------|
+| Siemens         | 3RW40 (estándar)  | 3RW4026, 3RW4036, 3RW4046| 5,5 kW a 75 kW      |
+| Siemens         | 3RW44 (avanzado)  | 3RW4428, 3RW4437, 3RW4455| 11 kW a 315 kW      |
+| ABB             | PSR (básico)      | PSR3, PSR6, PSR12, PSR25 | 1,5 kW a 15 kW      |
+| ABB             | PSE (avanzado)    | PSE18, PSE37, PSE72      | 7,5 kW a 37 kW      |
+| Eaton           | DS7 / S811        | DS7-342SX012N0-N, S811+  | 4 kW a 800 kW       |
+| Schneider Elec. | ATS22 / ATS48     | ATS22D17S6, ATS48C11Q    | 4 kW a 900 kW       |
+
+**Arrancadores progresivos (más simples):**
+| Marca           | Gama    | Referencias tipo   | Potencia típica   |
+|-----------------|---------|--------------------|-------------------|
+| Schneider Elec. | ATS01   | ATS01N109FT, ATS01N125LU | 2,2 kW a 45 kW |
+
+SELECCIÓN POR POTENCIA DE MOTOR (referencia rápida):
+| Potencia motor | Corriente aprox. | Siemens 3RW40  | ABB PSR/PSE    | Eaton DS7      |
+|----------------|------------------|----------------|----------------|----------------|
+| 2,2 kW         | 5 A              | 3RW4022        | PSR6           | DS7-S6         |
+| 5,5 kW         | 12 A             | 3RW4026        | PSR12          | DS7-012        |
+| 11 kW          | 22 A             | 3RW4036        | PSE18          | DS7-022        |
+| 22 kW          | 44 A             | 3RW4044        | PSE37          | DS7-044        |
+| 45 kW          | 90 A             | 3RW4455        | PSE72          | DS7-090        |
+| 75 kW          | 145 A            | 3RW4475        | —              | DS7-145        |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                        | Por qué la necesitas                                         |
+|----|-----------------------------------------------------------------|--------------------------------------------------------------|
+| 1  | ¿Cuántos kW tiene el motor? (o los amperios de placa)           | Define la talla del arrancador suave                         |
+| 2  | ¿La tensión de red es 400V trifásico?                           | Los soft starters estándar son para 400V 3F                  |
+| 3  | ¿Necesita solo arranque suave o también parada suave?           | La parada suave evita golpe de ariete en bombas              |
+| 4  | ¿Qué tensión de mando? (24V DC, 110V AC, 230V AC)              | Define el código exacto (último dígito de la referencia)     |
+| 5  | ¿La aplicación es bomba, ventilador, compresor, cinta...?       | Ayuda a recomendar el ajuste de rampa y protecciones         |
+| 6  | ¿Necesita comunicación con PLC (PROFIBUS, PROFINET, Modbus)?    | Las gamas avanzadas (3RW44, ATS48) tienen comunicación       |
+| 7  | ¿Tiene espacio para el bypass? (para cuando está en marcha)     | Algunos arrancadores llevan bypass interno; otros lo necesitan externo |
+
+CONSEJO: El Siemens 3RW40 es el arrancador suave más vendido en España para industria
+general — es sencillo, fiable y la mayoría de instaladores lo conocen.
+Para potencias medianas (hasta 45 kW) y aplicaciones sin comunicación, es la
+primera opción a ofrecer.
+Para aplicaciones de bombeo, mencionar siempre la función de parada suave:
+evita el golpe de ariete (el bang que destroza las tuberías al parar bruscamente una bomba).
+El ATS01 de Schneider es el más económico para aplicaciones sencillas y
+monofásicas (hasta 7,5 kW monofásico) — habitual en pequeña industria y talleres.
+
+============================================================
+Fuentes:
+- Siemens 3RW: https://new.siemens.com/es/es/productos/automatizacion/aparamenta/arrancadores-suaves-3rw.html
+- ABB PSR/PSE: https://new.abb.com/low-voltage/es/productos/arrancadores-y-variadores/soft-starters
+- Eaton DS7: https://www.eaton.com/es/es-es/catalog/soft-starters.html
+- Schneider ATS: https://www.se.com/es/es/product-subcategory/soft-starters/
+============================================================

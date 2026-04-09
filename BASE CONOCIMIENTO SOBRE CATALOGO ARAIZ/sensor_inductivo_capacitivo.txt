@@ -1,0 +1,112 @@
+CUADRO RESUMEN — SENSORES INDUCTIVOS Y CAPACITIVOS DE PROXIMIDAD
+Familia: Electricidad > Aparellaje eléctrico > Detectores proximidad y fotocelulas
+Ejemplo en Araiz: Omron ref. E2E-X5ME1 (Sensor inductivo M18 rasante 5mm PNP NA cable)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"sensor inductivo proximidad cómo funciona tipos" o "sensor capacitivo vs inductivo diferencias"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Los sensores inductivos de proximidad detectan la presencia de objetos metálicos
+SIN contacto físico. Son el sensor más utilizado en automatización industrial —
+hay millones instalados en máquinas de todo el mundo.
+
+¿Cómo funciona? El sensor genera un campo electromagnético en su cara activa.
+Cuando un objeto metálico entra en ese campo, la energía se absorbe y el sensor
+cambia de estado (se activa). No necesita tocar el objeto — detecta a distancia.
+
+**SENSOR INDUCTIVO (~3.550 art.):**
+Detecta SOLO metales (acero, aluminio, cobre, latón). Es el más robusto y
+fiable porque no tiene partes móviles y no le afecta el polvo ni la suciedad.
+
+Parámetros clave:
+- **Distancia de detección**: de 1mm a 40mm según el tamaño del sensor.
+  A mayor diámetro del sensor, mayor distancia de detección.
+- **Diámetro**: M8 (8mm), M12 (12mm), M18 (18mm), M30 (30mm) — los más comunes.
+  También existen formatos rectangulares y planos.
+- **Montaje**: Rasante (enrasado con el metal — detecta menos distancia) o
+  no rasante (sobresale — detecta más distancia).
+- **Salida**: PNP (positivo común — estándar en Europa), NPN (negativo común —
+  estándar en Asia/América). NA (normalmente abierto) o NC (normalmente cerrado).
+- **Conexión**: Cable (2m de cable integrado) o conector M8/M12 (cable aparte).
+
+**SENSOR CAPACITIVO (~62 art.):**
+Detecta CUALQUIER material: metal, plástico, madera, líquidos, polvos, vidrio.
+Funciona por cambio de capacitancia — cuando un objeto (de cualquier material)
+se acerca, cambia la capacidad del condensador interno del sensor.
+Se usa cuando el objeto a detectar NO es metálico: nivel de líquido en depósito
+a través de la pared, presencia de cajas de cartón, detección de grano/polvo.
+Menos preciso que el inductivo y más sensible a la suciedad.
+
+**MARCAS PRINCIPALES EN ARAIZ:**
+| Marca | Serie | Artículos | Nota |
+|-------|-------|-----------|------|
+| Omron | E2E, E2A, E2B | ~2.500 | Líder en Araiz — gama completa |
+| Telemecanique | XS1, XS2, XS6 | ~870 | Marca antigua de Schneider |
+| Eaton | E57 | ~200 | Gama industrial |
+| Carlo Gavazzi | IA, CA | ~60 | Especialista en sensores |
+| ABB | — | ~20 | Gama limitada |
+
+Lo que facilita:
+- Detectar presencia de piezas en máquinas automáticas sin contacto.
+- Contar piezas en líneas de producción.
+- Detectar posición de cilindros neumáticos y actuadores.
+- Detectar nivel de materiales a través de paredes (capacitivo).
+
+Lo que evita que ocurra:
+- Desgaste mecánico (no hay contacto físico, a diferencia de un final de carrera).
+- Fallos por suciedad (el inductivo funciona con polvo, aceite, agua).
+- Paradas de máquina por sensor roto (vida útil prácticamente ilimitada).
+
+============================================================
+
+MODELOS EN ARAIZ (~3.620 artículos)
+--------------------------------------------------------------
+| Tipo                     | Marca           | Serie               | Para qué                      |
+|--------------------------|-----------------|---------------------|-------------------------------|
+| Inductivo M8 rasante     | Omron           | E2E-X1               | Detección corta M8            |
+| Inductivo M12 rasante    | Omron           | E2E-X3/X4            | Estándar industrial M12       |
+| Inductivo M18 rasante    | Omron           | E2E-X5/X7            | Estándar industrial M18       |
+| Inductivo M30 rasante    | Omron           | E2E-X10/X14          | Larga distancia M30           |
+| Inductivo rectangular    | Omron           | E2A, TL-W             | Formato plano/rectangular     |
+| Inductivo M12            | Telemecanique   | XS1, XS612           | Inductivo Telemecanique       |
+| Inductivo M18            | Telemecanique   | XS618                | Inductivo Telemecanique M18   |
+| Inductivo M30            | Telemecanique   | XS630                | Inductivo Telemecanique M30   |
+| Inductivo M18            | Eaton           | E57FAL18             | Inductivo Eaton               |
+| Inductivo                | Carlo Gavazzi   | IA18, IA30            | Inductivo Carlo Gavazzi       |
+| Capacitivo M18           | Omron           | E2K-C                | Detección no metálicos        |
+| Capacitivo M30           | Telemecanique   | XT1, XT2              | Nivel líquidos, cajas         |
+| Capacitivo               | Eaton           | E57C                  | Capacitivo Eaton              |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                | Por qué la necesitas                                          |
+|----|----------------------------------------------------------|------------------------------------------------------------- |
+| 1  | Qué material detecta? (metal, plástico, líquido)       | Metal = inductivo; otros = capacitivo                         |
+| 2  | Qué diámetro? (M8, M12, M18, M30)                     | Define el tamaño y la distancia de detección                  |
+| 3  | Rasante o no rasante?                                   | Rasante = enrasado en metal, menos distancia                  |
+| 4  | PNP o NPN? NA o NC?                                    | PNP = estándar Europa; NPN = Asia. Depende del PLC            |
+| 5  | Cable o conector M12?                                   | Cable = más barato; conector = más fácil de reemplazar        |
+| 6  | A qué distancia necesita detectar?                     | Define el diámetro mínimo del sensor                          |
+
+CONSEJO: El sensor inductivo es un consumible industrial — se rompen por golpes
+mecánicos y se piden como repuesto constantemente. El dato más rápido para
+identificar el sensor es la referencia del que tiene instalado.
+Si no tiene la referencia: diámetro + distancia + PNP/NPN + cable/conector.
+Omron domina el catálogo de Araiz con 2.500+ referencias. Telemecanique (XS)
+es la marca que tienen muchas instalaciones antiguas de Schneider.
+PNP vs NPN: en España el 90% de las instalaciones usan PNP. Si el cliente no
+sabe, casi seguro es PNP.
+Truco rápido de distancia: M8→1-2mm, M12→2-4mm, M18→5-8mm, M30→10-15mm.
+
+============================================================
+Fuentes:
+- Omron inductivos E2E: https://www.omron.es/es/products/family/3155
+- Telemecanique XS: https://www.se.com/es/es/product-range/1004-osisense-xs/
+- Norma IEC 60947-5-2 (sensores de proximidad)
+============================================================

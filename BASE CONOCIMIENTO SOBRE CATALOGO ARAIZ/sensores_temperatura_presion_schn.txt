@@ -1,0 +1,116 @@
+CUADRO RESUMEN — SENSORES DE TEMPERATURA, PRESIÓN Y HVAC
+Familia: Electricidad > Aparellaje eléctrico > Encoders - sensores
+Ejemplo en Araiz: Schneider ref. STD100 (Sensor temperatura conducto -25/100°C 400mm)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"sensor temperatura conducto HVAC sonda instalación" o "transmisor presión diferencial conducto aire"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Este grupo agrupa sensores de medida para instalaciones de climatización
+(HVAC), edificios y automatización. Son dispositivos que transforman una
+magnitud física (temperatura, presión, humedad) en una señal eléctrica
+que lee el regulador o el PLC.
+
+HVAC = Heating, Ventilation and Air Conditioning (calefacción, ventilación
+y aire acondicionado). Los sensores son los "ojos" del sistema de control
+de clima: sin ellos, el regulador no sabe si hace calor o frío.
+
+**1. Sensores de temperatura (sondas)**
+Miden la temperatura del aire en un conducto, de un local, del agua en
+una tubería, o de una superficie. La señal de salida típica es:
+- NTC/PT100/PT1000: resistencia que varía con la temperatura (salida pasiva)
+- 4-20 mA o 0-10 V: señal activa normalizada para conectar directamente
+  al regulador de clima o al PLC.
+
+Marcas en Araiz:
+- **Schneider Electric** (campo de sonda conducto, ambiente, inmersión):
+  Gama STD (conducto), STE (exterior), STI (inmersión en tubería).
+  Temperatura -25°C a +100°C según modelo.
+- **Omron** (serie E52): sondas industriales de temperatura PT100/termopares.
+  Para maquinaria y hornos, no para HVAC.
+
+Usos principales:
+- Sonda conducto (STD): mide el aire en el interior de un conducto de
+  climatización. El regulador ajusta la válvula o el variador del ventilador.
+- Sonda ambiente (STE): mide la temperatura del local. Montaje en pared.
+- Sonda inmersión (STI): mide el agua caliente o fría en una tubería.
+  Para instalaciones de fancoil, suelo radiante, ACS.
+
+**2. Transmisores de presión diferencial**
+Miden la diferencia de presión entre dos puntos: antes y después de un
+filtro de aire, entre conductos de impulsión y retorno, etc.
+
+La señal de salida es 4-20 mA o 0-10 V — se conecta al autómata o al
+sistema de gestión del edificio (BMS).
+
+Casos de uso:
+- Control de filtros de climatización: si la presión diferencial sube,
+  el filtro está sucio y hay que cambiarlo.
+- Control de caudal de aire en conductos.
+- Detección de obstrucciones en sistemas de ventilación.
+
+Marca principal en Araiz: Schneider Electric (Telemecanique XMLA/XMLB
+reconfigurados para HVAC, y gama específica de presión diferencial).
+
+**3. Detector de condensación**
+Detecta si hay condensación de agua en un conducto o superficie fría.
+Cuando detecta condensación, activa una alarma o para el sistema de frío
+para evitar daños. Ejemplo: Schneider "Sensor de condensación por contacto".
+
+**4. PowerTag — medidores de energía inalámbricos**
+Los Schneider PowerTag (A9MEM serie) son medidores de energía que se
+instalan directamente sobre el interruptor magnetotérmico o diferencial
+y envían los datos de consumo por radio (Zigbee) al gateway.
+→ Para medida de energía en cuadros existentes sin cablear.
+→ El cuadro principal de PowerTag está en "Equipos de medida".
+
+**5. Sensor de condensación y humedad**
+Mide la humedad relativa del aire (%). Salida 4-20 mA o 0-10 V.
+Usos: control de ventilación en aparcamientos (CO + humedad), salas
+de datos, almacenes con productos sensibles a la humedad.
+
+============================================================
+
+TABLA RESUMEN DEL GRUPO
+--------------------------------------------------------------
+| Tipo                        | Salida         | Uso típico                          |
+|-----------------------------|----------------|-------------------------------------|
+| Sonda temperatura conducto  | NTC / 4-20mA   | Climatización conductos             |
+| Sonda temperatura ambiente  | NTC / 0-10V    | Regulación local/oficina            |
+| Sonda temperatura inmersión | PT100 / 4-20mA | Agua caliente/fría, ACS             |
+| Transmisor presión diferenc.| 4-20mA / 0-10V | Estado filtros, caudal aire         |
+| Detector condensación       | Contacto ON/OFF| Alarma humedad en frío              |
+| Sensor humedad relativa     | 4-20mA / 0-10V | Ventilación garajes, almacenes      |
+| PowerTag (medidor energía)  | Wireless       | Subcontaje cuadros existentes       |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                    | Por qué                                       |
+|----|-------------------------------------------------------------|-----------------------------------------------|
+| 1  | ¿Qué mide? ¿Temperatura, presión, humedad?                 | Define el tipo de sensor                      |
+| 2  | ¿Dónde va montado? ¿Conducto, tubería, exterior, local?    | Define el formato (conducto, inmersión, pared)|
+| 3  | ¿Qué señal de salida necesita? ¿NTC, PT100, 4-20mA, 0-10V?| El regulador/PLC tiene que ser compatible     |
+| 4  | ¿Cuál es el rango de temperatura? ¿Frío, ambiental, calor?| Define el modelo exacto (STD100/STD200)       |
+| 5  | ¿A qué sistema va conectado? ¿BMS, PLC, regulador Schneider?| Algunos sensores son exclusivos del fabricante|
+
+CONSEJO: Las sondas de temperatura Schneider para HVAC son las más habituales
+en instalaciones de climatización de edificios terciarios (oficinas, hoteles,
+hospitales). Si el cliente instala fancoils o climatizadoras, probablemente
+necesita sondas STD (conducto) o STI (inmersión en tubería de agua).
+La señal más habitual hoy es 4-20 mA (analógica) o 0-10 V — preguntar siempre
+qué entrada tiene el regulador al que se conecta la sonda.
+Para Omron E52 (sondas industriales): son para maquinaria y reguladores de
+temperatura E5CC/E5CN — no para HVAC de edificios.
+
+============================================================
+Fuentes:
+- Schneider sondas HVAC: https://www.se.com/es/es/product-range/59756-sondas-de-temperatura/
+- Schneider transmisores presión: https://www.se.com/es/es/product-category/sensors-and-switches/
+- Omron E52 sondas: https://industrial.omron.es/es/products/e52
+============================================================

@@ -1,0 +1,122 @@
+CUADRO RESUMEN — ACCESORIOS DE MANDO Y APARATOS MANUALES VARIOS
+Familia: Electricidad > Aparellaje eléctrico > Otros aparatos manuales
+Ejemplo en Araiz: Siemens ref. 3SU1900-0BC20-0AA0 (Placa rotulación pulsador 3SU)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"bloques contactos auxiliares pulsador cuadro industrial" o "placa etiquetado pulsadores panel"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Este cuadro recoge los accesorios mecánicos y eléctricos que completan
+los sistemas de mando en cuadros de control: bloques de contactos
+auxiliares, placas de rotulación, ejes de extensión, y otros elementos
+que no encajan en las familias principales.
+
+**1. Bloques de contactos auxiliares (47 art.)**
+Un bloque de contactos auxiliares se añade al cuerpo de un pulsador,
+selector o interruptor para conseguir más contactos eléctricos que los
+que incorpora el aparato original.
+
+Ejemplo práctico: un pulsador de marcha normalmente lleva un solo contacto NA
+(normalmente abierto). Si el cuadro necesita:
+- Un contacto para arrancar el motor
+- Otro contacto para encender el piloto de "marcha"
+- Otro contacto para señal al PLC
+
+Se añade un bloque auxiliar que duplica o triplica los contactos eléctricos
+del mismo pulsador, sin necesidad de pulsador adicional.
+
+Marcas en Araiz:
+- **Siemens 3SU14xx**: bloques para la gama 3SU. Contacto NA, NC o combinados.
+- **Eaton M22-CK**: bloques de contactos para gama M22.
+- **ABB MP**: bloques auxiliares para la gama MP.
+
+**2. Placas de rotulación y etiquetado (10 art.)**
+Placas pequeñas que se colocan debajo o alrededor del pulsador para
+indicar su función. Mejoran la seguridad y el mantenimiento del cuadro:
+el operario sabe qué hace cada botón sin mirar el plano.
+
+Tipos:
+- Placas en blanco (para imprimir o escribir a mano)
+- Placas pre-impresas: "MARCHA", "PARO", "RESET", "EMERGENCIA"...
+- Marcos protectores con espacio para tarjeta identificativa
+
+Marca habitual: Siemens 3SU1900 (accesorios de marcaje).
+
+**3. Componentes para armarios eléctricos (14 art.)**
+Pequeños accesorios de montaje dentro del armario:
+- Clips de sujeción para placas de circuito
+- Separadores y distanciadores
+- Tapas ciegas para huecos de panel no utilizados
+- Sujeciones de cable dentro del armario
+
+**4. Manetas y ejes de extensión para disyuntores (8 art.)**
+Extensiones de eje para operar un disyuntor o seccionador desde la
+puerta del armario. El interruptor está dentro del armario, pero la
+maneta (mango) sobresale por la puerta para accionarlo sin abrir.
+
+Marcas: ABB, Schneider (ya descritos en "Accesorios interruptores manuales").
+En este grupo aparecen algunas manetas Eaton/ABB que comparten ETIM con
+otros aparatos manuales.
+
+**5. Conmutadores para carril DIN (4 art.)**
+Pequeños conmutadores o selectores que se montan directamente en carril
+DIN (sin necesidad de agujero en panel). Usados para configuración de
+equipos o selección de rango en medidores y reguladores.
+
+Marca habitual: Gave, Siemens.
+
+**6. Módulo de control de fallo de aislamiento (5 art.)**
+Dispositivo que vigila si hay algún fallo de aislamiento entre conductores
+activos y tierra en redes IT (redes médicas, flotas, etc.). Activa una
+alarma antes de que el fallo de aislamiento se convierta en un cortocircuito.
+
+Habitual en hospitales (redes IT médicas donde el corte de luz es crítico)
+y en sistemas de alimentación ininterrumpida (SAI/UPS).
+
+**7. Botón para instalación modular (10 art.)**
+Pulsadores de pequeño formato para montaje en carril DIN (no en panel
+con agujero). Se usan en cuadros donde se necesita un control manual
+pero sin perforar la puerta del armario.
+
+Marca habitual: Siemens (gama 3KD / accesorios modulares).
+
+============================================================
+
+RESUMEN DE REFERENCIAS HABITUALES
+--------------------------------------------------------------
+| Necesidad                              | Referencia típica             | Marca    |
+|----------------------------------------|-------------------------------|----------|
+| Añadir contactos a pulsador 3SU        | 3SU1400-1AA10-1CA0 (bloque NA)| Siemens  |
+| Placa rotulación "MARCHA / PARO"       | 3SU1900-0BH81-0AA0            | Siemens  |
+| Tapa ciega Ø22mm para panel            | 3SU1900-0FH80-0AA0            | Siemens  |
+| Bloque contactos para M22              | M22-CK01 (1NA)                | Eaton    |
+| Monitor fallo aislamiento              | MK2430-xA                     | Eaton    |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                    | Por qué                                        |
+|----|-------------------------------------------------------------|------------------------------------------------|
+| 1  | ¿Qué marca es el pulsador/selector donde va el accesorio?  | Los bloques son exclusivos de cada sistema     |
+| 2  | ¿Necesita contacto NA, NC o combinado?                     | Define el bloque de contactos a pedir          |
+| 3  | ¿Para qué sirve el botón? (rotulación)                     | Para recomendar la placa de etiqueta correcta  |
+| 4  | ¿Es para red IT (médica/hospitalaria)?                     | Si sí: puede necesitar monitor de aislamiento  |
+
+CONSEJO: Muchas veces el cliente pide "la plaquita que pone MARCHA" o
+"el bloque que va detrás del pulsador" sin saber la referencia.
+Con la marca del pulsador (Siemens/Eaton/ABB) y la función deseada
+se puede identificar el accesorio correcto.
+Los accesorios Siemens 3SU son los más pedidos — si no se tiene la referencia
+exacta, con la serie (3SU), el color/función y la tensión se puede localizar
+en el catálogo Siemens.
+
+============================================================
+Fuentes:
+- Siemens accesorios 3SU: https://new.siemens.com/es/es/productos/automatizacion/aparellaje-industrial/dispositivos-control-maniobra/3SU.html
+- Eaton M22 accesorios: https://www.eaton.com/es/es-es/catalog/pushbutton-selector-switches/m22-series.html
+============================================================

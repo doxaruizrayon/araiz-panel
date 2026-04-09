@@ -1,0 +1,113 @@
+CUADRO RESUMEN — PULSADORES INDUSTRIALES: CABEZALES, BLOQUES DE CONTACTOS Y PULSADORES COMPLETOS
+Familia: Electricidad > Aparellaje eléctrico > Pulseteria
+Ejemplo en Araiz: Schneider ref. XB5AA21 (Pulsador rasante verde 1NA Harmony XB5)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"pulsador industrial Harmony XB4 montaje" o "pulsador 22mm tipos cabezal bloque contactos"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Los pulsadores industriales son los botones que el operario pulsa en el cuadro
+de mando o en la puerta del armario para controlar la máquina: marcha, paro,
+reset, confirmación. Son el elemento de mando más básico y universal de la
+automatización industrial.
+
+Un pulsador industrial se compone de piezas separadas que se ensamblan:
+
+**ESTRUCTURA DE UN PULSADOR (3 piezas mínimo):**
+
+1. **Cabezal / Elemento frontal** — La parte visible que el operario toca.
+   Define la forma (rasante, saliente, luminoso), el color y el tipo de retorno
+   (con retorno automático = pulsador, mantenido = interruptor).
+   - Rasante: el botón queda a ras de la placa — evita accionamientos accidentales.
+   - Saliente: el botón sobresale — más fácil de pulsar con guantes.
+   - Luminoso: lleva LED integrado que indica el estado (piloto + pulsador en uno).
+   - Doble: dos pulsadores en un solo cabezal (ej. marcha/paro en una pieza).
+
+2. **Bloque de contactos** — La parte eléctrica que va detrás del cabezal.
+   Tiene contactos NA (normalmente abierto) y/o NC (normalmente cerrado).
+   - NA (NO): se cierra al pulsar → envía señal de MARCHA.
+   - NC (NC): se abre al pulsar → corta señal de PARO.
+   Se pueden apilar varios bloques (1NA+1NC, 2NA, etc.) según lo que necesite
+   el circuito de mando.
+
+3. **Base / Cuerpo de fijación** — Pieza que sujeta el conjunto al panel.
+   Se inserta en un taladro de 22mm (estándar industrial) o 30mm (serie antigua).
+
+**COLORES NORMALIZADOS (IEC 60073):**
+| Color | Significado | Uso típico |
+|-------|------------|------------|
+| Verde | Arranque, marcha, ON | Pulsador de marcha |
+| Rojo | Parada, OFF, emergencia | Pulsador de paro |
+| Amarillo | Precaución, intervención | Reset de alarma |
+| Azul | Función obligatoria | Confirmación |
+| Blanco | Sin significado asignado | Uso general |
+| Negro | Sin significado asignado | Uso general / arranque |
+
+**DIÁMETRO DEL TALADRO:**
+- **22mm**: Estándar actual — el 95% de la pulsatería nueva es de 22mm.
+- **30mm**: Serie antigua (Schneider XB2, Telemecanique) — solo para repuestos.
+
+Lo que facilita:
+- Controlar máquinas de forma directa y fiable (marcha, paro, reset).
+- Personalizar cada puesto de mando con los colores y funciones necesarias.
+- Reemplazar piezas individuales sin cambiar todo el pulsador.
+
+Lo que evita que ocurra:
+- Accionamientos accidentales (cabezales rasantes, protecciones).
+- Confusión del operario (código de colores normalizado).
+- Paradas imprevistas por fallo de contacto (bloques de calidad industrial).
+
+============================================================
+
+MODELOS EN ARAIZ (~3.400 artículos)
+--------------------------------------------------------------
+| Tipo                     | Marca           | Serie               | Taladro | Para qué                |
+|--------------------------|-----------------|---------------------|---------|-------------------------|
+| Cabezal rasante          | Schneider       | Harmony XB4/XB5     | 22mm    | Cabezal estándar        |
+| Cabezal luminoso         | Schneider       | XB4BW / XB5AW       | 22mm    | Pulsador con piloto LED |
+| Cabezal rasante          | Siemens         | 3SU1 SIRIUS ACT     | 22mm    | Cabezal estándar Siemens|
+| Cabezal metálico         | Siemens         | 3SU1050              | 22mm    | Cabezal premium metal   |
+| Cabezal rasante          | Eaton           | M22-D / M22-DL      | 22mm    | Cabezal estándar Eaton  |
+| Cabezal rasante          | ABB             | Modular MPxx         | 22mm    | Cabezal ABB             |
+| Cabezal rasante          | Omron           | A22/M22              | 22mm    | Cabezal Omron           |
+| Bloque contacto 1NA      | Schneider       | ZBE-101              | —       | Contacto NA             |
+| Bloque contacto 1NC      | Schneider       | ZBE-102              | —       | Contacto NC             |
+| Bloque contacto          | Siemens         | 3SU1400              | —       | Contacto 3SU1           |
+| Bloque contacto          | Eaton           | M22-K10 / M22-K01    | —       | Contacto Eaton          |
+| Pulsador completo        | Schneider       | XB5AA21 (verde 1NA)  | 22mm    | Pulsador montado listo  |
+| Pulsador completo        | Siemens         | 3SU1100 + 3SU1400    | 22mm    | Pulsador montado Siemens|
+| Pulsador completo        | Eaton           | M22-D-G + M22-K10    | 22mm    | Pulsador montado Eaton  |
+| Pulsador carril DIN      | Siemens/Gewiss  | 5TE48 / GW series    | DIN     | Pulsador modular cuadro |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                | Por qué la necesitas                                          |
+|----|----------------------------------------------------------|------------------------------------------------------------- |
+| 1  | Qué marca tiene instalada? (Schneider, Siemens, Eaton)  | Las piezas NO son intercambiables entre marcas               |
+| 2  | Taladro 22mm o 30mm?                                    | 30mm = serie antigua, 22mm = estándar actual                  |
+| 3  | Qué color y función? (verde marcha, rojo paro, etc.)    | Define el cabezal y su color                                  |
+| 4  | Rasante, saliente o luminoso?                            | Define el tipo de cabezal                                     |
+| 5  | Qué contactos necesita? (1NA, 1NC, 1NA+1NC)             | Define el bloque de contactos                                 |
+| 6  | Necesita piezas sueltas o pulsador completo montado?     | Completo = más caro pero listo para instalar                  |
+
+CONSEJO: La pulsatería es un producto que se pide MUCHO por piezas sueltas como
+repuesto. El cabezal se desgasta, el bloque de contactos se quema — se reemplaza
+solo la pieza dañada. Schneider Harmony XB4/XB5 es la serie más instalada en
+España. Siemens SIRIUS ACT 3SU1 es la alternativa premium (todo metálico).
+Eaton M22 es buena relación calidad-precio. Los tres sistemas son 22mm pero
+NO son compatibles entre sí — cada marca tiene su propio sistema de ensamblaje.
+Error frecuente: pedir un bloque de contactos Schneider para un cabezal Siemens.
+No encajan. Confirmar SIEMPRE la marca del sistema instalado.
+
+============================================================
+Fuentes:
+- Schneider Harmony XB4/XB5: https://www.se.com/es/es/product-range/832-harmony-xb4/
+- Siemens SIRIUS ACT: https://www.siemens.com/es/es/productos/automatizacion/aparamenta/sirius-act.html
+- Eaton M22: https://www.eaton.com/es/es-es/catalog/industrial-controls/m22.html
+============================================================

@@ -1,0 +1,107 @@
+CUADRO RESUMEN — CÁMARA / SISTEMA DE VISIÓN ARTIFICIAL FH (OMRON)
+Familia: Electricidad > Aparellaje eléctrico > Autómatas programables y robots industriales
+Ejemplo en Araiz: Omron ref. FHSC04 (Cámara FH alta resolución 4MP color)
+============================================================
+
+IMAGEN DEL PRODUCTO:
+https://www.ia.omron.com/products/family/3873/
+
+VÍDEO / REFERENCIA TÉCNICA:
+https://industrial.omron.co.uk/en/products/fh-series
+
+Búsqueda recomendada en YouTube (español):
+"sistema visión artificial Omron FH inspección defectos" o "visión artificial qué es para qué sirve industria"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Un sistema de visión artificial es una combinación de cámara industrial + procesador
+de imagen + software que permite a una máquina "ver" y tomar decisiones en tiempo real:
+detectar defectos, verificar la presencia y posición de piezas, leer códigos, medir
+dimensiones o guiar robots. El sistema FH de Omron es la gama alta de visión industrial:
+un controlador FH con uno o más sensores/cámaras FH-SC conectados por cable dedicado.
+El controlador procesa las imágenes a alta velocidad (hasta 480 imágenes/segundo) y
+envía el resultado al PLC o robot — "pieza buena/mala", "posición X,Y,ángulo", "código
+leído"... Se programa con el software FH Series (incluido) desde un PC.
+
+Lo que facilita:
+- Inspección visual automática al 100% (cada pieza) sin operario: detectar rayaduras,
+  grietas, manchas, piezas mal ensambladas, etiquetas mal aplicadas...
+- Guiar robots en pick & place: la cámara detecta la posición exacta de cada pieza
+  y envía las coordenadas al robot para que la coja con precisión.
+- Medir dimensiones sin contacto: distancias, diámetros, ángulos en piezas a
+  alta velocidad directamente en la línea de producción.
+- Leer códigos de barras, QR y DataMatrix integrado en el flujo de visión: sin
+  lector separado.
+- Integración directa con PLCs NJ/NX Omron vía EtherCAT: los resultados de visión
+  llegan al PLC en el mismo ciclo de 125µs.
+
+Lo que evita que ocurra:
+- Piezas defectuosas llegando al cliente: inspección al 100% con criterios objetivos,
+  sin fatiga visual ni errores humanos.
+- Paradas de línea para ajustes manuales de posición: el sistema de visión guía
+  el robot o la máquina automáticamente aunque las piezas lleguen desordenadas.
+- Inversión en múltiples sistemas separados (lector + medidor + inspector): el FH
+  integra todo en un solo controlador.
+
+============================================================
+
+DIFERENCIA CLAVE: SISTEMA FH vs SENSOR FQ2
+--------------------------------------------------------------
+| Característica          | Sistema FH (este)                | Sensor FQ2 (compacto)            |
+|-------------------------|----------------------------------|----------------------------------|
+| Formato                 | Controlador externo + cámara     | Sensor todo en uno               |
+| Cámaras simultáneas     | Hasta 8 cámaras en un FH         | 1 cámara fija                    |
+| Resolución              | 0,3 a 12 MPx                     | 0,3 a 5 MPx                      |
+| Velocidad procesado     | Hasta 480 im/s                   | Hasta 60 im/s                    |
+| Herramientas visión     | Completo — medida, color, OCR... | Básico — presencia y códigos     |
+| Precio                  | Alto                             | Medio                            |
+| Para qué                | Inspección compleja, multi-tarea | Verificación sencilla            |
+
+============================================================
+
+COMPONENTES DEL SISTEMA FH
+--------------------------------------------------------------
+| Componente           | Función                                      | Ejemplo                  |
+|---------------------|----------------------------------------------|--------------------------|
+| Controlador FH      | Procesa las imágenes y comunica con el PLC   | FH-L350 (4 cámaras)     |
+| Cámara FH-SC        | Captura la imagen — distintas resoluciones   | FH-SC04 (4MP color)      |
+| Objetivo / lente    | Define el campo de visión y la distancia     | Lente 6mm / 12mm / 25mm  |
+| Iluminación         | Iluminador LED para obtener imagen estable   | FLV series (anular/barra)|
+| Cable cámara-control| Conecta la cámara al controlador FH          | FH-VSCS (longitud variad)|
+
+============================================================
+
+MODELOS CÁMARA FH-SC A CONOCER
+--------------------------------------------------------------
+| Modelo    | Resolución | Color/Mono | Cuándo usarlo                             |
+|-----------|-----------|------------|-------------------------------------------|
+| FH-SC02   | 2 MPx     | Color      | Inspección general, defectos de color     |
+| FH-SC04   | 4 MPx     | Color      | El más habitual — buena resolución/vel.   |
+| FH-SC05R  | 5 MPx     | Rolling S. | Alta resolución para objetos pequeños     |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                               | Por qué la necesitas                                          |
+|----|--------------------------------------------------------|---------------------------------------------------------------|
+| 1  | ¿Qué quiere detectar? (defecto, posición, código, medida)| Define las herramientas de visión necesarias                 |
+| 2  | ¿Cuántas cámaras necesita?                             | 1 cámara → FQ2 puede valer / > 1 cámara → sistema FH        |
+| 3  | ¿A qué velocidad pasan las piezas? (piezas/minuto)     | Define la velocidad de procesado del controlador necesario   |
+| 4  | ¿Qué tamaño tiene la zona a inspeccionar?              | Define la resolución de la cámara y el objetivo (lente)      |
+| 5  | ¿Cómo va a conectar con el PLC? (EtherCAT, Ethernet)   | Define el modelo de controlador FH compatible                |
+| 6  | ¿Tiene iluminación propia o necesita iluminador Omron? | La iluminación es crítica — sin ella la imagen no es estable |
+
+CONSEJO: Un sistema de visión es un proyecto técnico, no solo un producto. Cuando
+un cliente pregunta por visión artificial, es recomendable involucrar al técnico de
+Omron o al integrador para la selección y puesta en marcha. La cámara sola no
+funciona — necesita controlador + objetivo + iluminación + configuración del software.
+
+============================================================
+Fuentes:
+- Omron FH series (oficial): https://www.ia.omron.com/products/family/3873/
+- Omron FQ2 (compacto): https://www.ia.omron.com/products/family/2757/
+- Manual FH (PDF): https://assets.omron.eu/downloads/latest/manual/en/z342_fh_series_vision_system_users_manual_en.pdf
+============================================================

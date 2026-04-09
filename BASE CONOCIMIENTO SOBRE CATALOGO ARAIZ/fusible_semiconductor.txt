@@ -1,0 +1,93 @@
+CUADRO RESUMEN — FUSIBLE ULTRARRÁPIDO PARA SEMICONDUCTORES (aR)
+Familia: Electricidad > Aparellaje eléctrico > Portafusibles y fusibles industriales
+Ejemplo en Araiz: Eaton ref. 170M1808 (Fusible 100A 1000V DC aR tamaño 000FU/90)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"fusible semiconductor aR ultrarrápido protección variador" o "fuse semiconductor protection"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Los fusibles para semiconductores (curva aR = accompagnement rapide / ultrarrápido)
+son fusibles especiales diseñados para proteger componentes electrónicos de potencia:
+diodos, tiristores (SCR), IGBT, rectificadores y variadores de frecuencia.
+
+¿Por qué no vale un fusible normal? Porque los semiconductores se destruyen en
+milisegundos — mucho más rápido de lo que un fusible gG puede actuar. Un fusible
+aR funde en menos de 5 milisegundos, cortando la corriente antes de que el
+semiconductor se destruya.
+
+**CARACTERÍSTICAS ESPECIALES:**
+- **Velocidad**: Actúan en <5ms (un fusible gG tarda 10-100ms).
+- **Limitación de corriente**: Cortan antes de que la corriente de cortocircuito
+  alcance su pico máximo (I²t muy bajo).
+- **NO protegen contra sobrecargas**: Solo actúan ante cortocircuito. La protección
+  contra sobrecargas la hace el variador/rectificador internamente.
+- **Tensiones elevadas**: Muchos modelos trabajan a 690V AC, 1000V DC o incluso
+  1250V DC para aplicaciones de tracción y energía.
+
+**FORMATOS:**
+- Formato NH (cuchilla): Los más comunes en Europa, se montan en bases NH estándar.
+- Formato cilíndrico especial: Para aplicaciones compactas.
+- Formato de perno (bolt-in): Con tornillos para conexión directa a barras de cobre.
+  Usado en rectificadores de gran potencia.
+- Formato cuadrado/especial: Para equipos específicos de Eaton/Bussmann.
+
+**APLICACIONES TÍPICAS:**
+- Variadores de frecuencia industriales (dentro del variador o en la alimentación).
+- Rectificadores de potencia (convertidores AC/DC industriales).
+- SAI / UPS (sistemas de alimentación ininterrumpida).
+- Tracción eléctrica (trenes, metros, tranvías).
+- Soldadura por resistencia.
+
+Lo que facilita:
+- Proteger semiconductores de potencia que cuestan miles de euros.
+- Limitar la corriente de cortocircuito para proteger las barras del equipo.
+
+Lo que evita que ocurra:
+- Destrucción de IGBT, tiristores o diodos por cortocircuito (reparación muy cara).
+- Daños colaterales en el equipo por corrientes de cortocircuito no limitadas.
+
+============================================================
+
+MODELOS EN ARAIZ (~800 artículos)
+--------------------------------------------------------------
+| Tipo                     | Marca           | Serie               | Para qué                      |
+|--------------------------|-----------------|---------------------|-------------------------------|
+| Fusible aR formato NH    | Eaton (Bussmann)| 170M                | Protección semiconductor NH   |
+| Fusible aR bolt-in       | Eaton (Bussmann)| 170M, BKN            | Rectificadores gran potencia  |
+| Fusible aR cilíndrico    | Eaton           | FWC, FWP             | Aplicaciones compactas        |
+| Fusible aR               | Ferraz Shawmut  | Protistor            | Semiconductores Ferraz        |
+| Fusible aR formato NH    | Siemens         | 3NE1/3NE3            | Protección semiconductor      |
+| Fusible aR cuadrado      | Eaton           | 170M especial        | Equipos específicos           |
+| Fusible aR 1000-1250V DC | Eaton           | BKN, SBKN            | Tracción, energía DC          |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                | Por qué la necesitas                                          |
+|----|----------------------------------------------------------|------------------------------------------------------------- |
+| 1  | Qué equipo protege? (variador, rectificador, UPS)       | Define el tipo y formato del fusible                          |
+| 2  | Referencia del fusible actual o del equipo               | Los fusibles aR se piden casi siempre por referencia exacta   |
+| 3  | Corriente nominal y tensión?                             | Define amperaje y tensión del fusible                         |
+| 4  | Formato? (NH cuchilla, bolt-in, cilíndrico)              | Define el tipo de montaje                                     |
+| 5  | I²t requerido?                                           | Dato técnico para selección precisa (lo da el fabricante)     |
+
+CONSEJO: Los fusibles de semiconductor son un producto MUY técnico y caro (de 20€
+a más de 500€ por unidad). Eaton (Bussmann) es el líder absoluto con más de 600
+referencias en Araiz. La forma más segura de presupuestar es pedir la referencia
+exacta del fusible actual — estos fusibles se sustituyen siempre por el mismo modelo.
+Si el cliente no tiene la referencia, necesita el manual del variador o rectificador
+donde aparece el fusible recomendado.
+Ferraz Shawmut (ahora Mersen) con su gama Protistor es la alternativa principal a
+Eaton en este segmento. NO son intercambiables entre marcas sin verificar el I²t.
+
+============================================================
+Fuentes:
+- Eaton fusibles semiconductor: https://www.eaton.com/es/es-es/catalog/fuses/semiconductor-fuses.html
+- Mersen (Ferraz) Protistor: https://www.mersen.com/products/electrical-protection/
+- Norma IEC 60269-4 (fusibles para semiconductores)
+============================================================

@@ -1,0 +1,110 @@
+CUADRO RESUMEN — VENTILADOR DE PANEL INDUSTRIAL (REFRIGERACIÓN ARMARIO CONTROL)
+Familia: Electricidad > Aparellaje eléctrico > Autómatas programables y robots industriales
+Ejemplo en Araiz: Omron ref. R87FA4A83H (Ventilador axial alta velocidad con aspas plástico 80x80mm)
+============================================================
+
+IMAGEN DEL PRODUCTO:
+https://www.ia.omron.com/products/family/1396/
+
+VÍDEO / REFERENCIA TÉCNICA:
+https://industrial.omron.co.uk/en/products/r87f
+
+Búsqueda recomendada en YouTube (español):
+"ventilador armario eléctrico refrigeración panel industrial" o "cómo calcular refrigeración cuadro eléctrico"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Un ventilador de panel es un ventilador compacto diseñado para instalarse en la
+puerta o en la parte superior de un armario eléctrico y hacer circular aire para
+disipar el calor que generan los componentes internos (PLCs, drives, fuentes de
+alimentación, relés...). En un armario cerrado sin ventilación, el calor acumulado
+puede superar los límites de temperatura de los componentes y provocar averías,
+reinicios o acortamiento de vida útil. Los ventiladores de panel son la solución
+más económica para armarios con disipación de calor moderada. Se instalan en
+pareja: uno de entrada (con filtro) en la parte baja y uno de salida en la parte
+alta, creando un flujo natural de convección forzada.
+
+Lo que facilita:
+- Mantener la temperatura interior del armario dentro del rango de trabajo de los
+  componentes (normalmente < 40-50°C) sin necesidad de aire acondicionado.
+- Instalar en cualquier armario estándar: se corta un hueco en la chapa y se fija
+  con tornillos — sin obra ni infraestructura adicional.
+- Filtrar el aire de entrada para evitar que polvo, virutas metálicas o insectos
+  entren en el armario (los modelos con filtro llevan un cartucho reemplazable).
+- Bajo consumo: un ventilador de panel consume 10-20W — mucho menos que una unidad
+  de aire acondicionado de armario (150-500W).
+
+Lo que evita que ocurra:
+- Averías por sobrecalentamiento: variadores, PLCs y fuentes de alimentación tienen
+  temperatura máxima de trabajo — superarla reduce drásticamente su vida útil.
+- Reinicios inesperados por protección térmica de los componentes: un drive servo
+  o un variador de frecuencia tiene protección térmica que para el equipo si se
+  calienta demasiado.
+- Condensación: el flujo de aire constante evita la acumulación de humedad y la
+  condensación que puede generar cortocircuitos.
+
+============================================================
+
+DIFERENCIA CLAVE: VENTILADOR DE PANEL vs AIRE ACONDICIONADO DE ARMARIO
+--------------------------------------------------------------
+| Característica          | Ventilador de panel              | Aire acondicionado de armario    |
+|-------------------------|----------------------------------|----------------------------------|
+| Coste                   | Bajo (20-80 euros)               | Alto (500-2.000 euros)           |
+| Instalación             | Sencilla — hueco en chapa        | Compleja — requiere espacio ext. |
+| Consumo                 | 10-20W                           | 150-500W                         |
+| Temperatura máx.        | Solo válido si T exterior < T obj| Funciona aunque haga calor       |
+| Protección IP           | IP44 con filtro                  | IP54 o superior                  |
+| Polvo                   | Filtro requiere limpieza         | Ciclo cerrado — no entra polvo   |
+| Para qué                | Armarios en locales < 40°C       | Ambientes calurosos o polvorientos|
+
+REGLA: Si la temperatura del local donde está el armario < 35°C, casi siempre
+un par de ventiladores resuelven el problema. Si hace más calor, aire acondicionado.
+
+============================================================
+
+MODELOS R87F A CONOCER
+--------------------------------------------------------------
+| Tamaño     | Tensión    | Caudal aprox. | Con filtro | Cuándo usarlo                       |
+|------------|------------|---------------|------------|-------------------------------------|
+| 60x60 mm   | 24V DC     | Bajo          | Opcional   | Armarios pequeños o ventilación spot|
+| 80x80 mm   | 24V DC     | Medio         | Opcional   | El más habitual — armarios estándar |
+| 120x120 mm | 24V DC     | Alto          | Sí         | Armarios con mucha disipación       |
+
+============================================================
+
+CARACTERÍSTICAS TÉCNICAS BÁSICAS A SABER
+--------------------------------------------------------------
+| Parámetro                    | Qué significa                                    | Valor típico serie R87F (Omron)               |
+|------------------------------|--------------------------------------------------|-----------------------------------------------|
+| Tensión de alimentación      | De qué tensión funciona                          | 24V DC (el mismo bus del armario)             |
+| Tamaño                       | Hueco que hay que cortar en la chapa             | 60x60 / 80x80 / 120x120 mm                   |
+| Caudal de aire               | Litros por minuto que mueve                      | 20-80 l/min según modelo                     |
+| Nivel de ruido               | Decibelios de ruido acústico                     | 25-40 dB(A) — prácticamente silencioso        |
+| IP con filtro                | Protección frente a polvo                        | IP44 (con kit de filtro instalado)            |
+| Vida útil rodamiento         | Horas de funcionamiento continuo                 | 50.000-70.000 horas (5-8 años continuo)      |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                          | Por qué la necesitas                                                          |
+|----|-------------------------------------------------------------------|-------------------------------------------------------------------------------|
+| 1  | ¿Cuántos vatios de calor generan los componentes del armario?     | Dimensiona el caudal necesario — regla general: 1W calor = 5 m³/h de aire   |
+| 2  | ¿A qué temperatura máxima está el local donde está el armario?    | Si > 35°C, los ventiladores solos no van a bajar la temperatura              |
+| 3  | ¿El armario está en un ambiente con polvo, virutas o insectos?    | Si sí → obligatorio filtro en la entrada + mantenimiento periódico           |
+| 4  | ¿Qué tensión tiene disponible en el armario? (24V DC o 230V AC?)  | El modelo R87F es 24V DC — si solo tiene 230V AC necesita otro modelo        |
+| 5  | ¿Qué tamaño de hueco puede hacer en la chapa?                     | Define el tamaño del ventilador: 60, 80 o 120 mm                            |
+
+CONSEJO: La instalación correcta es siempre en pareja: uno de entrada en la parte
+inferior (con filtro para el aire sucio de entrada) y uno de salida en la parte
+superior (sin filtro en la salida). Así se aprovecha la convección natural —
+el aire caliente sube y el ventilador de salida lo expulsa. Si solo se pone uno,
+la refrigeración es mucho menos eficiente.
+
+============================================================
+Fuentes:
+- Omron R87F ventiladores (oficial): https://www.ia.omron.com/products/family/1396/
+- TME R87F: https://www.tme.com/us/en-us/details/r87f-a4a83h/cooling-fans/omron/
+============================================================

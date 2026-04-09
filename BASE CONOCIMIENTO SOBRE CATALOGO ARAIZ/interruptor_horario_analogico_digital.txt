@@ -1,0 +1,119 @@
+CUADRO RESUMEN — INTERRUPTORES HORARIOS (ANALÓGICOS Y DIGITALES)
+Familia: Electricidad > Aparellaje eléctrico > Interruptor horario e interruptor crepuscular
+Ejemplo en Araiz: Schneider ref. CCT15245 (Interruptor horario astronómico IC Astro 2 canales)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"interruptor horario DIN cómo programar" o "reloj programador semanal carril DIN"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Un interruptor horario es un reloj programable que conecta y desconecta
+una carga eléctrica a las horas que el usuario configura. Es el "timer"
+del cuadro eléctrico: enciende y apaga automáticamente alumbrado, calefacción,
+bomba de piscina, riego, climatización, o cualquier carga eléctrica.
+
+**¿Por qué no usar simplemente un reloj inteligente?**
+Porque los interruptores horarios de carril DIN van dentro del cuadro
+eléctrico, aguantan la temperatura del armario, soportan la corriente de
+la carga directamente (sin relay externo en muchos casos), y son más
+fiables que un enchufe programable para uso industrial o terciario.
+
+**Diferencia entre analógico y digital:**
+| Característica          | Analógico (mecánico)          | Digital                         |
+|-------------------------|-------------------------------|----------------------------------|
+| Programación            | Palitos en disco 24h          | Botones + pantalla               |
+| Resolución mínima       | 15 o 30 minutos               | 1 minuto                         |
+| Programas disponibles   | Solo 24h (el disco)           | 7 días distintos, varios on/off  |
+| Con fallo de red        | El muelle sigue girando 24-48h| Batería (conserva la hora)       |
+| Precio                  | Económico (8-25 €)            | Algo más caro (20-60 €)          |
+| Uso típico              | Alumbrado simple, riego básico| Control complejo, semana entera  |
+
+============================================================
+
+TIPO 1: INTERRUPTOR HORARIO ANALÓGICO (102 art.)
+--------------------------------------------------------------
+El disco gira una vuelta en 24 horas. Se insertan palitos (clips)
+para marcar los periodos de encendido. La resolución mínima es 15 o
+30 minutos según el modelo.
+
+Capacidad de carga habitual: 16A 230V AC (~3,5 kW en monofásico).
+
+Marcas en Araiz:
+- **Orbis (13)**: marca española líder en horarios y automatismos. Muy habitual
+  en instalaciones residenciales y terciarias. Gama TM-nano, TM-micro.
+- **Finder (16)**: gama 11 (horario diario mecánico). Muy económico y fiable.
+- **Gewiss (13)**: horarios analógicos para cuadros residenciales y terciarios.
+- **Schneider (11)**: integrados en la gama Acti9 (IC24).
+- **Theben (11)**: fabricante alemán de referencia, gama TR 608.
+- **Eaton (15)**: horarios serie PXF para cuadros de distribución.
+- **Grasslin (6)**: fabricante alemán clásico de timers, gama talento.
+
+**¿Cuándo elegir analógico?**
+Cuando solo se necesita repetir el mismo ciclo cada 24 horas. Ejemplo:
+encender la bomba de riego de 7:00 a 8:00 y de 20:00 a 21:00 todos
+los días. El analógico es suficiente, económico y muy fiable.
+
+============================================================
+
+TIPO 2: INTERRUPTOR HORARIO DIGITAL (73 art.)
+--------------------------------------------------------------
+Programación por botones. Puede tener programas distintos para cada
+día de la semana. Muchos modelos permiten varios intervalos de encendido
+por día (por ejemplo 3 periodos en lunes y 2 en sábado).
+
+Capacidad de carga habitual: 16A 230V AC.
+Batería de respaldo: para no perder la hora si hay corte de luz.
+
+Marcas en Araiz:
+- **Orbis (72 en total)**: la gama más completa. Modelos BIO-CLOCK (astronómico),
+  CRON (digital semanal), BIO-PLUS (astronómico + semanal). Orbis es la referencia
+  española en este segmento.
+- **Hager (15)**: serie EG100 (semanal digital, 1 módulo DIN).
+- **Siemens (21)**: LOGO! CL (controlador) y SENTRON — algunos horarios integrados.
+- **Dinuy (22)**: horarios astronómicos avanzados para alumbrado público y terciario.
+  Ya descritos en "Contador automático de escalera".
+- **ABB (19)**: serie REK — horarios digitales compactos.
+- **Koban (6)**: horarios digitales de la marca española. Económicos.
+- **Schneider (43 en total)**: IHP (horario analógico), IC Astro (astronómico),
+  IC Plus (digital semanal). La gama más completa del segmento terciario-industrial.
+
+**Función astronómica** (algunos modelos Orbis, Schneider, Dinuy):
+El horario calcula automáticamente la hora de amanecer y anochecer cada día
+del año según la latitud/longitud programada. Ideal para alumbrado exterior
+y jardines: enciende cuando anochece y apaga cuando amanece — aunque en
+verano el día dure mucho más que en invierno.
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                    | Por qué                                        |
+|----|-------------------------------------------------------------|------------------------------------------------|
+| 1  | ¿Necesita el mismo horario todos los días o varía?         | Igual → analógico; varía → digital semanal     |
+| 2  | ¿Cuántos on/off necesita al día?                           | Si son 3 o más, necesita digital               |
+| 3  | ¿Qué carga va a controlar? ¿Cuántos vatios / amperios?    | Verificar que el horario aguanta la corriente  |
+| 4  | ¿Quiere que encienda según el anochecer?                  | Si sí: necesita función astronómica (Orbis Bio)|
+| 5  | ¿Va en carril DIN dentro de cuadro?                        | Todos los mencionados son DIN                  |
+| 6  | ¿Cuántos módulos DIN puede ocupar? (ancho del cuadro)     | Los horarios ocupan 1 o 2 módulos DIN (18mm/ud)|
+
+CONSEJO: Para uso residencial sencillo (riego, bomba piscina, ventilación
+aseo), el horario analógico Orbis TM o Finder es la solución más económica
+y fiable — no se puede estropear la programación por accidente.
+Para edificios de viviendas y terciario (alumbrado escaleras, zonas comunes),
+el Orbis BIO o Schneider IC Astro con función astronómica es lo más moderno:
+el conserje no tiene que cambiar la hora de encendido cada vez que cambian
+las horas de luz del día.
+Un horario digital 7 días de Schneider o Hager cuesta entre 25 y 50 €
+y es suficiente para el 80% de aplicaciones. Los astronómicos Orbis/Dinuy
+rondan los 60-120 € según modelo.
+
+============================================================
+Fuentes:
+- Orbis horarios: https://www.orbis.es/es/productos/programadores-horarios/
+- Finder serie 11: https://www.findernet.com/es/producto/serie-11/
+- Schneider IC Astro: https://www.se.com/es/es/product-range/64428-IHP-timer-switch/
+- Theben TR: https://www.theben.de/es/productos/interruptores-horarios/
+============================================================

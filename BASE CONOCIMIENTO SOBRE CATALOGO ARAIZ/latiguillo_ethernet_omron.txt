@@ -1,0 +1,112 @@
+CUADRO RESUMEN — LATIGUILLO / CABLE ETHERNET INDUSTRIAL
+Familia: Electricidad > Aparellaje eléctrico > Autómatas programables / Comunicaciones
+Ejemplo en Araiz: Omron ref. 724026 (cable Ethernet industrial serie XS — conector industrial IP67)
+============================================================
+
+IMAGEN DEL PRODUCTO:
+https://www.ia.omron.com/products/family/2923/
+
+VÍDEO / REFERENCIA TÉCNICA:
+https://es.rs-online.com/web/p/cables-ethernet/1226657
+
+Búsqueda recomendada en YouTube (español):
+"cable ethernet industrial IP67 M12 RJ45 diferencia" o "latiguillo ethernet industrial armario PLC"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Un latiguillo Ethernet industrial es un cable de red prefabricado con conectores
+robustos en ambos extremos, diseñado para resistir el entorno industrial: vibraciones,
+temperatura extrema, aceite, polvo y agua. A diferencia de un cable de red de oficina
+(que tiene conectores RJ45 estándar frágiles), el latiguillo industrial de Omron
+(serie XS5/XS2/XS6) usa conectores con cierre de rosca o enclavamiento que garantizan
+una conexión segura aunque haya vibraciones. Algunos modelos tienen conector M12
+(redondo con rosca) o RJ45 industrial reforzado con IP67 para uso directo en campo.
+Se usa para conectar PLCs, switches, variadores y HMIs entre sí dentro del armario
+o entre el armario y dispositivos en campo.
+
+Lo que facilita:
+- Conectar dispositivos Ethernet (PLC, HMI, switch, variador) de forma rápida,
+  segura y sin herramientas usando cables prefabricados y testados.
+- Garantizar la integridad de la señal de red en entornos con vibraciones, polvo,
+  aceite o humedad gracias a los conectores de cierre mecánico.
+- Evitar pérdidas de conexión: el conector industrial no se suelta por vibración
+  como ocurre con el RJ45 estándar de oficina.
+- El formato prefabricado ahorra tiempo: no hay que crimpar ni preparar conectores
+  en campo — plug & play listo para instalar.
+
+Lo que evita que ocurra:
+- Pérdidas de conexión de red por vibración (el RJ45 de oficina se suelta con facilidad).
+- Corrosión o entrada de agua en el conector en entornos húmedos (IP67 en campo).
+- Errores de crimpado manual en campo con cables de red (el latiguillo industrial
+  viene testado y certificado de fábrica).
+- Averías en la red por un conector en mal estado difícil de localizar.
+
+============================================================
+
+DIFERENCIA CON OTROS TIPOS DE CABLE ETHERNET OMRON XS
+--------------------------------------------------------------
+| Serie / Tipo              | Conector          | IP      | Longitud típica | Cuándo usarlo                                     |
+|---------------------------|-------------------|---------|-----------------|---------------------------------------------------|
+| XS5 (M12 D-coded)         | M12 macho/hembra  | IP67    | 0,3m a 20m      | Dispositivos en campo con conector M12 Ethernet   |
+| XS6 (RJ45 industrial)     | RJ45 reforzado    | IP20    | 0,3m a 10m      | Dentro del armario, conexión entre PLC y switch   |
+| XS2 (M12 a RJ45)          | M12 un lado / RJ45 otro | IP67 campo | 0,5m a 5m | Conexión campo (IP67) a armario (RJ45)          |
+| Cable oficina Cat5e/Cat6  | RJ45 estándar     | Sin IP  | Varios          | Solo uso en oficina — NO recomendado en industria |
+
+El ref. 724026 es un latiguillo de la serie XS de Omron — verificar el modelo exacto
+con el cliente para confirmar conector y longitud.
+
+============================================================
+
+CARACTERÍSTICAS TÉCNICAS BÁSICAS A SABER
+--------------------------------------------------------------
+| Parámetro                    | Qué significa                                    | Valor ref. 724026 / Serie XS Omron            |
+|------------------------------|--------------------------------------------------|-----------------------------------------------|
+| Categoría de cable           | Velocidad máxima soportada                       | Cat 5e — hasta 100 Mbps (Fast Ethernet)       |
+| Tipo de conector             | Formato del conector en los extremos             | RJ45 industrial o M12 D-coded (según variante)|
+| Grado de protección          | Nivel de estanqueidad del conector               | IP67 (campo) / IP20 (armario, según variante) |
+| Resistencia a vibración      | Si el conector se mantiene firme                 | Sí — cierre de rosca (M12) o enclavamiento    |
+| Blindaje                     | Protección frente a interferencias EMI           | STP (par trenzado apantallado)                |
+| Temperatura de trabajo       | Rango de temperatura admisible                   | -20°C a +70°C (uso industrial)               |
+| Flexibilidad                 | Si soporta movimiento repetitivo                 | Según variante: estático o flexible           |
+| Compatible con               | Equipos que usa este conector                    | PLCs, HMI, switches, variadores con Ethernet  |
+
+============================================================
+
+TIPOLOGÍAS DE LATIGUILLOS ETHERNET INDUSTRIAL
+--------------------------------------------------------------
+| Tipología                        | Descripción                                                   | Cuándo se usa                                         |
+|----------------------------------|---------------------------------------------------------------|-------------------------------------------------------|
+| RJ45 industrial a RJ45 (IP20)    | Ambos extremos RJ45 reforzado, solo interior armario          | Conexiones dentro del armario entre PLC y switch      |
+| M12 a M12 (IP67)                 | Ambos extremos M12 con rosca — totalmente estanco             | Conexión entre dos dispositivos en campo (IP67)       |
+| M12 a RJ45 (IP67 a IP20)         | Un extremo en campo (M12 IP67), otro en armario (RJ45)        | Del dispositivo en campo al switch del armario        |
+| Cable Ethernet de instalación fija| Cable sin conectores, para tirar en canaleta y crimpar        | Instalaciones permanentes largas en bandeja o tubo    |
+| Patch cord oficina (Cat5e/Cat6)  | RJ45 estándar, solo para oficina                             | NO usar en entornos industriales                      |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                          | Por qué la necesitas                                                          |
+|----|-------------------------------------------------------------------|-------------------------------------------------------------------------------|
+| 1  | ¿El dispositivo va dentro del armario o en campo (exterior)?      | Interior → RJ45 industrial IP20. Campo → M12 o RJ45 IP67                    |
+| 2  | ¿Qué conector tiene el dispositivo a conectar? (RJ45 o M12)       | Define qué extremo del cable se necesita                                      |
+| 3  | ¿Cuántos metros necesita?                                         | Los latiguillos industriales tienen longitudes fijas: 0,3 / 0,5 / 1 / 2 / 5m|
+| 4  | ¿Hay vibraciones, aceite, polvo o agua en la zona?               | Si sí → conector IP67 con cierre de rosca obligatorio                        |
+| 5  | ¿El cable va a estar en movimiento o fijo?                        | Si hay movimiento repetitivo → cable flexible (mayor número de ciclos)       |
+| 6  | ¿Cuántos cables necesita? (uno por dispositivo a conectar)        | Cada dispositivo necesita su latiguillo — calcular el total                   |
+
+CONSEJO: Para conexiones dentro del armario entre el PLC y el switch industrial,
+un latiguillo RJ45 a RJ45 de 0,5m es suficiente en la mayoría de los casos.
+Para dispositivos en campo (sensores inteligentes, variadores en campo, cámaras IP)
+siempre usar variante IP67 con conector M12 de rosca. Nunca usar cable de red
+de oficina en entornos industriales — aunque funciona inicialmente, falla con el tiempo.
+
+============================================================
+Fuentes:
+- Omron serie XS (Ethernet cables): https://www.ia.omron.com/products/family/2923/
+- RS Online latiguillos Ethernet Omron: https://es.rs-online.com/web/p/cables-ethernet/1226657
+- Omron XS5 M12 Ethernet: https://automation.omron.com/en/us/products/family/XS5
+- Diferencia M12 vs RJ45 industrial: https://www.ia.omron.com/products/family/2923/specification.html
+============================================================

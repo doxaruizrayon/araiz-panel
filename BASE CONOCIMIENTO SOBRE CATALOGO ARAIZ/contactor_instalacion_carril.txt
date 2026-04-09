@@ -1,0 +1,98 @@
+CUADRO RESUMEN — CONTACTOR DE INSTALACIÓN CARRIL DIN (doméstico/terciario)
+Familia: Electricidad > Aparellaje eléctrico > Contactores
+Ejemplo en Araiz: Hager ref. ESC440 (Contactor instalación 4 polos 40A 230V AC carril DIN)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"contactor instalación carril DIN diferencia industrial doméstico" o "contactor modular Hager Legrand cuadro vivienda"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+El contactor de instalación para carril DIN (también llamado contactor modular o
+contactor doméstico) es una versión compacta del contactor diseñada para instalarse
+en cuadros de viviendas, oficinas y pequeña industria — los cuadros con espacio
+limitado donde los contactores industriales (Siemens 3RT, Schneider LC1D) son
+demasiado grandes o caros. Se monta en carril DIN de 35mm igual que un interruptor
+automático, ocupa 1-4 módulos de anchura y se activa igual que cualquier contactor:
+con tensión en la bobina.
+
+Sus usos más habituales:
+- **Control de cargas generales:** alumbrado de escaleras, garajes, zonas comunes —
+  el contactor recibe la señal del automático de escalera o el temporizador.
+- **Control de calefacción:** el termostato o el PLC activa el contactor que alimenta
+  el acumulador, caldera eléctrica o suelo radiante.
+- **Corte general telecontrolado:** en viviendas con contador inteligente, el
+  distribuidor puede cortar la potencia activando un contactor centralizado.
+- **Control de tarifas:** se activa en horas valle para cargar el vehículo eléctrico
+  o el acumulador de agua caliente.
+
+Diferencia con el contactor industrial: el de instalación tiene una carcasa más
+pequeña (mismo ancho que un IGA), su corriente máxima suele ser 25-63A, y tiene
+menos accesorios disponibles que los industriales. No está diseñado para maniobras
+frecuentes (millones de ciclos) sino para uso moderado.
+
+Lo que facilita:
+- Instalar maniobra remota de cargas en cuadros domésticos sin necesitar un
+  cuadro industrial por separado.
+- Añadir control automático de iluminación o calefacción en viviendas y oficinas.
+- Corte y reconexión de circuitos de forma remota (domotica, gestión energética).
+
+Lo que evita que ocurra:
+- Tener que instalar un armario industrial aparte solo para maniobrar una carga.
+- Accionamiento manual constante de cargas que deberían ser automáticas.
+
+============================================================
+
+DIFERENCIA CLAVE: CONTACTOR INSTALACIÓN vs CONTACTOR INDUSTRIAL
+--------------------------------------------------------------
+| Característica       | Contactor instalación (DIN)    | Contactor industrial (LC1D/3RT)|
+|----------------------|--------------------------------|-------------------------------|
+| Formato              | Modular carril DIN (como IGA)  | Bloque independiente           |
+| Corriente típica     | 25-63 A                        | 6-800 A                        |
+| Ciclos de maniobra   | Medio (uso moderado)           | Millones (uso industrial)      |
+| Accesorios           | Limitados                      | Bloques auxiliares, temporizadores|
+| Precio               | Económico                      | Mayor coste por talla          |
+| Para qué             | Viviendas, oficinas, terciario | Industria, máquinas, motores   |
+
+============================================================
+
+MODELOS EN ARAIZ (343 artículos)
+--------------------------------------------------------------
+| Marca      | Referencia tipo  | Corriente | Polos | Bobina habitual      |
+|------------|-----------------|-----------|-------|----------------------|
+| Hager      | ESC225 / ESC440 | 25-40 A   | 2/4P  | 230V AC              |
+| Legrand    | 412500 / 412503 | 25-63 A   | 2/4P  | 230V AC              |
+| Eaton      | Z-SCH25/2       | 25-40 A   | 2P    | 230V AC              |
+| Schneider  | A9C20831        | 25-40 A   | 2/4P  | 230V AC              |
+| Siemens    | 5TE3800         | 25-63 A   | 2/4P  | 230V AC              |
+
+2 polos: para circuitos monofásicos (alumbrado, calefacción monofásica).
+4 polos: para circuitos trifásicos o para cortar fase y neutro en monofásico.
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                | Por qué la necesitas                                          |
+|----|----------------------------------------------------------|------------------------------------------------------------- |
+| 1  | ¿Para qué instalación es? ¿Vivienda, local, industria?  | Define si va contactor modular (DIN) o industrial            |
+| 2  | ¿Cuántos amperios tiene la carga a controlar?           | Define la corriente del contactor                            |
+| 3  | ¿Cuántos polos necesita? ¿Monofásico o trifásico?       | 2P monofásico / 4P trifásico o fase+neutro                   |
+| 4  | ¿Qué tensión tiene la bobina? ¿Quién lo activa?         | 230V AC si lo activa el temporizador de alumbrado o reloj    |
+| 5  | ¿Qué marca tiene el cuadro?                             | Hager en cuadros Hager / Schneider en Pragma / etc.          |
+
+CONSEJO: El contactor modular de instalación se vende mucho en obras de viviendas
+y locales para control de alumbrado (zonas comunes, garajes) y calefacción eléctrica.
+La marca suele seguir la del cuadro — si el cuadro es Hager, el cliente normalmente
+quiere Hager. Si el cliente no sabe la marca, cualquiera vale porque todos ocupan
+los mismos módulos en carril DIN estándar. Los de 4 polos son más caros y se usan
+cuando se necesita cortar también el neutro o para circuitos trifásicos pequeños.
+
+============================================================
+Fuentes:
+- Hager ESC: https://www.hager.es/productos-y-sistemas/aparamenta-modular/contactores/
+- Legrand: https://www.legrand.es/productos/aparamenta-modular/contactores
+- Schneider iCT: https://www.se.com/es/es/product-subcategory/4290-contactores-ict/
+============================================================

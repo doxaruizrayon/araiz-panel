@@ -1,0 +1,103 @@
+CUADRO RESUMEN — ACCESORIOS PARA SENSORES Y CABLES DE CAMPO
+Familia: Electricidad > Aparellaje eléctrico > Accesorios
+Ejemplo en Araiz: Sick ref. BEF-1KHALB22 (Soporte de fijación para sensor fotoeléctrico)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"cables sensor M12 conector tipos" o "accesorios montaje sensor industrial reflector"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Este cuadro agrupa todos los accesorios que se necesitan para instalar sensores,
+actuadores y equipos de campo en una máquina o instalación industrial: soportes
+de montaje, reflectores para fotocélulas, cables preconectorizados con conector
+M8/M12, cables Ethernet industrial y adaptadores de conexión.
+
+Son los "complementos de campo" — el sensor o fotocélula es el equipo principal,
+pero sin estos accesorios no se puede montar ni conectar.
+
+**1. SOPORTES Y FIJACIONES PARA SENSORES (~90 art.)**
+Piezas metálicas o plásticas para fijar sensores de proximidad, fotocélulas y
+encoders a la máquina. Cada tipo de sensor tiene su soporte específico según
+diámetro (M8, M12, M18, M30) y tipo de montaje (escuadra, abrazadera, rótula).
+Marcas: Sick, Omron, IFM, Balluff.
+
+**2. REFLECTORES PARA FOTOCÉLULAS (~40 art.)**
+Elementos catadióptricos (tipo espejo) que devuelven el haz de luz emitido por
+una fotocélula réflex. Se montan enfrente de la fotocélula. Los hay redondos
+(para corta distancia), cuadrados (larga distancia) y con cinta adhesiva.
+Marcas: Sick, Omron, IFM.
+
+**3. CABLES PRECONECTORIZADOS SENSOR-ACTUADOR (~200 art.)**
+Cables con conector M8 o M12 en un extremo (se conectan al sensor) y cable
+libre en el otro (va al armario de control). Se clasifican por: tipo conector
+(M8/M12), número de pines (3, 4, 5, 8), recto o acodado, longitud (1m a 10m),
+apantallado o no. Evitan errores de cableado y reducen el tiempo de instalación.
+Marcas: Sick, IFM, Omron, Murrelektronik, Phoenix Contact.
+
+**4. CABLES ETHERNET INDUSTRIAL (~80 art.)**
+Cables con conector M12 codificación D (4 pines) o RJ45 para redes Ethernet
+industriales (PROFINET, EtherNet/IP, EtherCAT). Son cables apantallados con
+grado IP67 en el conector M12 para uso en planta. Diferentes de los cables
+Ethernet de oficina: resisten aceite, flexión mecánica y temperatura.
+Marcas: Murrelektronik, Phoenix Contact, Sick, Weidmuller.
+
+**5. ADAPTADORES, DISTRIBUIDORES Y CAJAS DE CAMPO (~50 art.)**
+Cajas de distribución de campo con múltiples puertos M12 para concentrar las
+conexiones de varios sensores en un solo cable multipar hacia el armario.
+También adaptadores M12-M8, Y-splitters y terminaciones.
+Marcas: Murrelektronik, Phoenix Contact.
+
+Lo que facilita:
+- Montar sensores de forma segura y ajustable en la máquina (soportes).
+- Conectar sensores sin necesidad de cablear manualmente (cables preconectorizados).
+- Crear redes Ethernet industriales con protección IP67 (cables industriales).
+- Concentrar cableado de campo en un solo punto (distribuidores).
+
+Lo que evita que ocurra:
+- Errores de cableado al conectar sensores (cables preconectorizados con codificación).
+- Daños en el conector por vibración o tracción (soportes y prensaestopas adecuados).
+- Fallos de comunicación por interferencias (cables apantallados industriales).
+
+============================================================
+
+MODELOS EN ARAIZ (~460 artículos)
+--------------------------------------------------------------
+| Tipo                     | Marca           | Ejemplo              | Para qué                      |
+|--------------------------|-----------------|----------------------|-------------------------------|
+| Soporte sensor M12-M30   | Sick / IFM      | BEF, E20107          | Fijar sensor a máquina        |
+| Reflector fotocélula     | Sick / Omron    | PL80A, E39-R1        | Devolver haz de luz réflex    |
+| Cable M12 4p recto       | Sick / IFM      | DOL-1204, EVC        | Conexión sensor estándar      |
+| Cable M12 4p acodado     | Murrelektronik  | 7000 series          | Espacios reducidos            |
+| Cable M8 3p              | IFM / Sick      | EVC, DOL-0803        | Sensores compactos            |
+| Cable Ethernet M12-RJ45  | Murrelektronik  | 7000-74 series       | PROFINET / EtherNet/IP        |
+| Distribuidor campo M12   | Murrelektronik  | EXACT12, MVP12       | Concentrar sensores           |
+| Adaptador M12-M8         | Phoenix Contact | SAC adapter          | Convertir conector            |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                | Por qué la necesitas                                          |
+|----|----------------------------------------------------------|------------------------------------------------------------- |
+| 1  | Qué sensor o equipo va a conectar? (marca y modelo)     | Los cables y soportes son específicos por sensor              |
+| 2  | Conector M8 o M12? Cuántos pines? (3, 4, 5, 8)         | Define el cable o adaptador                                   |
+| 3  | Recto o acodado?                                        | Depende del espacio de montaje                                |
+| 4  | Qué longitud necesita? (1m, 2m, 5m, 10m)               | Longitudes estándar — si no existe, hay que combinar          |
+| 5  | Es red Ethernet industrial? Qué protocolo? (PROFINET, etc.)| Ethernet M12 tiene codificación específica (D o X)         |
+
+CONSEJO: Los cables M12 preconectorizados son un consumible habitual — se piden
+en cantidad cuando se monta una máquina nueva. Siempre preguntar cuántos necesita.
+Los reflectores se pierden o se ensucian y se piden como repuesto.
+Si el cliente pide un sensor, preguntarle siempre si necesita cable y soporte.
+Los cables Ethernet industriales son mucho más caros que los de oficina porque
+llevan conector M12 IP67 — no confundir con un latiguillo RJ45 normal.
+
+============================================================
+Fuentes:
+- Sick accesorios: https://www.sick.com/es/es/accesorios-para-sensores/
+- IFM cables: https://www.ifm.com/es/es/category/010/010_010
+- Murrelektronik: https://www.murrelektronik.com/es/productos/cables-y-conectores/
+============================================================

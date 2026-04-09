@@ -1,0 +1,101 @@
+CUADRO RESUMEN — SENSORES DE FIBRA ÓPTICA Y AMPLIFICADORES
+Familia: Electricidad > Aparellaje eléctrico > Detectores proximidad y fotocelulas
+Ejemplo en Araiz: Omron ref. E3X-HD11 (Amplificador de fibra óptica digital PNP)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"sensor fibra óptica industrial amplificador" o "fiber optic sensor Omron E3X"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Los sensores de fibra óptica son fotocélulas miniaturizadas que usan un cable
+de fibra óptica flexible para llevar la luz hasta puntos de detección muy
+pequeños o de difícil acceso donde una fotocélula convencional no cabe.
+
+El sistema tiene dos partes:
+1. **Amplificador** — La electrónica que genera la luz, analiza la señal de
+   retorno y da la salida (PNP/NPN). Se monta en el cuadro o en carril DIN.
+2. **Cabeza de fibra óptica** — Cable de fibra flexible con una punta de
+   detección miniatura (desde 1mm de diámetro). Se lleva hasta el punto
+   donde hay que detectar.
+
+¿Cuándo usar fibra óptica en vez de fotocélula normal?
+- **Espacio reducido**: la cabeza de fibra cabe donde no cabe una fotocélula.
+- **Temperatura alta**: la fibra aguanta hasta 300°C, la electrónica queda lejos.
+- **Detección de objetos muy pequeños**: la fibra puede detectar hilos de 0,1mm.
+- **Ambientes agresivos**: la cabeza de fibra resiste químicos, la electrónica
+  está protegida a distancia en el cuadro.
+
+**TIPOS DE FIBRA:**
+
+**1. Fibra pasante / Barrera (~100 art.)**
+Dos fibras separadas (emisora + receptora). El objeto pasa entre ellas.
+Para detección de objetos muy pequeños (hilos, bordes, agujeros).
+
+**2. Fibra réflex / Difusa (~120 art.)**
+Una sola fibra (o bifibra) que emite y recibe. Detecta por reflexión del
+objeto. Más fácil de instalar (solo un cable).
+
+**3. Fibra de haz convergente (~50 art.)**
+Fibra con lente que enfoca el haz en un punto preciso a una distancia fija.
+Para detección de precisión (posicionamiento, marcas).
+
+**AMPLIFICADORES:**
+- Digitales (con display): permiten ajustar la sensibilidad con precisión.
+  Omron E3X-HD, Telemecanique XUDA.
+- Analógicos: ajuste por potenciómetro. Más económicos.
+  Omron E3X-NA, Telemecanique XUFA.
+
+Lo que facilita:
+- Detectar objetos en espacios donde no cabe ningún otro sensor.
+- Detectar objetos diminutos (hilos, bordes de papel, agujeros en piezas).
+- Trabajar en ambientes de alta temperatura o químicamente agresivos.
+
+Lo que evita que ocurra:
+- Fallo de detección por falta de espacio para montar un sensor convencional.
+- Destrucción del sensor en ambientes de alta temperatura (la electrónica está lejos).
+
+============================================================
+
+MODELOS EN ARAIZ (~280 artículos)
+--------------------------------------------------------------
+| Tipo                     | Marca           | Serie               | Para qué                      |
+|--------------------------|-----------------|---------------------|-------------------------------|
+| Amplificador digital     | Omron           | E3X-HD               | Amplificador con display      |
+| Amplificador analógico   | Omron           | E3X-NA               | Amplificador económico        |
+| Amplificador             | Telemecanique   | XUDA, XUFA            | Amplificador Schneider        |
+| Fibra pasante            | Omron           | E32-T                | Barrera miniatura             |
+| Fibra réflex             | Omron           | E32-D, E32-C          | Detección por reflexión       |
+| Fibra convergente        | Omron           | E32-L                | Detección de precisión        |
+| Fibra pasante            | Telemecanique   | XUFZ                 | Fibra Schneider               |
+| Cable fibra óptica       | Telemecanique   | XUFN                 | Cable de extensión            |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                | Por qué la necesitas                                          |
+|----|----------------------------------------------------------|------------------------------------------------------------- |
+| 1  | Por qué necesita fibra óptica? (espacio, temperatura)   | Confirmar que no vale una fotocélula normal (más barata)      |
+| 2  | Qué tipo de detección? (pasante, réflex, convergente)   | Define la cabeza de fibra                                     |
+| 3  | Qué tamaño tiene el objeto a detectar?                  | Define la resolución de la fibra                              |
+| 4  | Necesita amplificador + fibra o solo fibra de repuesto?  | Se compran por separado                                      |
+| 5  | Digital o analógico?                                    | Digital = más preciso y fácil de ajustar; analógico = barato  |
+
+CONSEJO: La fibra óptica es un sensor de nicho — más caro que una fotocélula
+convencional. Solo tiene sentido cuando hay un problema de espacio, temperatura
+o tamaño del objeto que no se puede resolver con una fotocélula normal.
+El amplificador Omron E3X-HD es el más vendido — tiene display digital que
+facilita mucho el ajuste en obra (se ve el nivel de señal en tiempo real).
+La fibra óptica y el amplificador se compran POR SEPARADO — son dos referencias
+diferentes. Siempre preguntar si necesita ambos o solo la fibra como repuesto.
+Las fibras se cortan y deterioran con el uso — es un repuesto habitual.
+
+============================================================
+Fuentes:
+- Omron E3X: https://www.omron.es/es/products/family/3190
+- Omron E32 fibras: https://www.omron.es/es/products/family/3191
+- Telemecanique XUDA: https://www.se.com/es/es/product-range/1008-osisense-xu/
+============================================================

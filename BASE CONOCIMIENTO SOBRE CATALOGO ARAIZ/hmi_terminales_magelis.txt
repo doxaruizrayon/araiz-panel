@@ -1,0 +1,101 @@
+CUADRO RESUMEN — TERMINALES HMI E INDUSTRIALES PC (Schneider Magelis / Harmony)
+Familia: Electricidad > Aparellaje eléctrico > Visualizador de datos de gran formato
+Ejemplo en Araiz: Schneider ref. HMIGTO4310 (Terminal Magelis 7,5" color VGA Ethernet 96MB RAM)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"HMI Magelis Schneider programación" o "panel operador pantalla táctil industrial SCADA"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Un terminal HMI (Human Machine Interface = Interfaz Hombre-Máquina) es
+la pantalla táctil o el panel de operador que muestra el estado de una
+máquina o proceso y permite al operario interactuar con él.
+
+Es el "tablero de control moderno": en vez de decenas de pilotos, pulsadores
+y displays analógicos, una pantalla muestra todo el estado de la instalación
+gráficamente — y el operario pulsa la pantalla para dar órdenes.
+
+**¿Por qué aparece en "Aparellaje eléctrico"?**
+La clasificación de Araiz agrupa aquí los HMI Schneider porque son
+dispositivos de control que van en cuadros eléctricos industriales.
+No son pantallas de ordenador — son equipos industriales robustos,
+diseñados para funcionar 24/7 en ambientes de fábrica (vibración,
+temperatura, humedad, polvo).
+
+============================================================
+
+GAMAS SCHNEIDER EN ARAIZ (150 art.)
+--------------------------------------------------------------
+La gama HMI de Schneider lleva varios nombres según la época:
+- **Magelis**: nombre clásico (hasta ~2018)
+- **Harmony**: nombre nuevo desde 2018
+
+En catálogo Araiz conviven referencias con ambos nombres.
+
+| Gama          | Referencia   | Características                           | Uso típico                 |
+|---------------|--------------|-------------------------------------------|----------------------------|
+| STU / HMISTU  | HMISTU655    | Pantalla 3,5" color, básica               | Máquinas pequeñas          |
+| GTO / HMIGTO  | HMIGTO4310   | 7,5" VGA color táctil, Ethernet, 96MB RAM | Control industrial estándar|
+| GTU / HMIGTU  | —            | Versiones avanzadas de la gama GT         | Aplicaciones exigentes     |
+| GK / HMIGK    | HMIGK5310    | 10,4" VGA color con teclado, Ethernet     | Paneles de operador grandes|
+| PC industrial | HMIYP6M2R42P | PC industrial de la familia iPC (Atom CTO)| SCADA local, control avanz.|
+
+**Accesorios (66 art. — el grupo más numeroso):**
+- Tarjetas de memoria SD (HMIZSD): para almacenar el programa de la pantalla
+  y los datos históricos (alarmas, producciones)
+- Interfaces de comunicación: RS485, Ethernet, PROFIBUS para conectar
+  la HMI al PLC o al sistema de supervisión
+- Fuentes de alimentación, soportes de montaje, conectores de panel
+
+**Medios de almacenamiento digital (30 art.):**
+Tarjetas SD, CompactFlash y memorias industriales para PCs y HMIs.
+Son memorias especiales de grado industrial — más caras que las de
+consumo pero con resistencia garantizada a ciclos de escritura elevados.
+
+**Software de programación (3 art.):**
+- **Vijeo Designer**: el software de Schneider para programar pantallas
+  Magelis/Harmony. Se instala en el PC del programador.
+  La referencia incluye la licencia del programa.
+
+============================================================
+
+DIFERENCIA: HMI vs PC INDUSTRIAL vs SCADA
+--------------------------------------------------------------
+| Dispositivo    | Qué hace                               | Dónde se instala          |
+|----------------|----------------------------------------|---------------------------|
+| HMI de panel   | Muestra estado y permite control básico| En la puerta del cuadro   |
+| PC industrial  | Hace lo del HMI + SCADA local          | En el cuadro o rack 19"   |
+| SCADA en red   | Supervisa múltiples máquinas/plantas   | Sala de control / servidor|
+
+Para una máquina sola: HMI (más económico, más simple).
+Para una instalación compleja con varias máquinas: PC industrial + SCADA.
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                    | Por qué                                        |
+|----|-------------------------------------------------------------|------------------------------------------------|
+| 1  | ¿Qué PLC controla la máquina?                              | La HMI debe comunicar con el PLC (protocolo)   |
+| 2  | ¿Qué tamaño de pantalla necesita? ¿3,5", 7", 10"?         | Define la gama (STU, GTO, GK)                  |
+| 3  | ¿Necesita Ethernet? ¿O solo puerto serie (RS485)?          | Define el modelo exacto y la comunicación      |
+| 4  | ¿Es sustitución de una pantalla existente?                 | Si sí: traer referencia exacta del actual      |
+| 5  | ¿Tiene tarjeta de memoria para backup del programa?        | Recomendar tarjeta SD compatible               |
+
+CONSEJO: Los HMI Schneider Magelis/Harmony son los más habituales en
+instalaciones con cuadros Schneider y PLCs Modicon. Para instalaciones
+con PLC Omron, el cliente normalmente prefiere la pantalla NS de Omron
+(que está en el grupo de Autómatas programables).
+La mayoría de pedidos son sustituciones por avería o ampliaciones —
+el cliente sabe qué referencia necesita. Tu papel es confirmar disponibilidad
+y tramitar el pedido. Para presupuestar una HMI nueva sin referencia,
+hay que conocer el tamaño y el protocolo de comunicación con el PLC.
+
+============================================================
+Fuentes:
+- Schneider Harmony HMI: https://www.se.com/es/es/product-category/hmi-and-industrial-pc/
+- Vijeo Designer software: https://www.se.com/es/es/product-range/62030-vijeo-designer/
+============================================================

@@ -1,0 +1,107 @@
+CUADRO RESUMEN — VERIFICADOR DE CÓDIGOS EN LÍNEA (INLINE CODE VERIFIER)
+Familia: Electricidad > Aparellaje eléctrico > Autómatas programables y robots industriales
+Ejemplo en Araiz: Omron (Verificador en línea enfoque automático lente mediano 2,3MPx luz roja)
+============================================================
+
+IMAGEN DEL PRODUCTO:
+https://www.ia.omron.com/products/family/4049/
+
+VÍDEO / REFERENCIA TÉCNICA:
+https://www.omron.com/global/en/products/family/4049/
+
+Búsqueda recomendada en YouTube (español):
+"verificador códigos de barras QR en línea producción Omron" o "inline barcode verifier GS1 ISO calidad impresión"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Un verificador de códigos en línea es un sistema de visión especializado que comprueba
+en tiempo real, durante la producción, que los códigos de barras (1D), los códigos QR
+o los DataMatrix (2D) impresos en los productos o envases cumplen los estándares de
+calidad GS1 e ISO. A diferencia de un lector de código de barras (que solo lee si el
+código es legible), el verificador también evalúa la CALIDAD de impresión del código —
+si el contraste es suficiente, si la geometría es correcta, si una lectora más barata
+podría leerlo en el punto de venta o en el cliente final. Está diseñado para montarse
+fijo en la línea de producción, integrado con el PLC, verificando cada producto que
+pasa sin parar la línea.
+
+Lo que facilita:
+- Detectar defectos de impresión o etiquetado antes de que el producto salga de
+  fábrica: evita reclamaciones, devoluciones y multas de clientes que exigen
+  calidad GS1.
+- Verificación al 100% (todos los productos) en lugar de muestreo manual: sin
+  parar la línea y sin operario dedicado a inspección visual.
+- Cumplir los estándares internacionales GS1-128, ISO 15416 (1D) e ISO 15415 (2D):
+  requisito habitual en alimentación, farmacia, automoción y logística.
+- Integración directa con PLC vía señales digitales o EtherNet/IP: si el código
+  falla, el PLC puede rechazar el producto automáticamente.
+- Enfoque automático y múltiples lentes (estrecho, mediano, largo): se adapta al
+  tamaño del código y a la distancia de trabajo sin ajuste manual.
+
+Lo que evita que ocurra:
+- Productos con códigos ilegibles llegando al cliente: detecta el fallo en
+  producción, no en el destino.
+- Reclamaciones y multas por incumplimiento de estándares GS1: los grandes
+  distribuidores (supermercados, logística) penalizan económicamente a proveedores
+  con códigos de baja calidad.
+- Inspección visual manual lenta y subjetiva: el verificador da una nota objetiva
+  (grado A-F) según norma ISO en cada producto.
+- Paradas de línea para ajustar la impresora: el verificador detecta la deriva
+  de calidad antes de que sea un rechazo total.
+
+============================================================
+
+DIFERENCIA CLAVE: VERIFICADOR vs LECTOR DE CÓDIGO DE BARRAS
+--------------------------------------------------------------
+| Característica          | Verificador en línea             | Lector de código de barras       |
+|-------------------------|----------------------------------|----------------------------------|
+| Función                 | Evalúa la CALIDAD del código     | Solo comprueba si puede leerlo   |
+| Estándar                | GS1, ISO 15416/15415             | Ninguno — solo lectura exitosa   |
+| Resultado               | Nota A-F + parámetros de calidad | Leído / No leído                 |
+| Uso                     | Control de calidad en producción | Trazabilidad, inventario         |
+| Precio                  | Alto                             | Bajo-medio                       |
+| Para qué                | Fabricantes que imprimen etiq.   | Almacenes, logística, tiendas    |
+
+============================================================
+
+VARIANTES A CONOCER
+--------------------------------------------------------------
+| Variante              | Resolución | Lente       | Para qué                                          |
+|-----------------------|------------|-------------|---------------------------------------------------|
+| Estrecho 2,3MPx       | 2,3 Mpíxeles | Estrecho  | Códigos pequeños, alta densidad                   |
+| Estrecho 5,0MPx       | 5,0 Mpíxeles | Estrecho  | Códigos muy pequeños o alta precisión             |
+| Mediano 2,3MPx        | 2,3 Mpíxeles | Mediano   | El más habitual — etiquetas estándar              |
+| Mediano 5,0MPx        | 5,0 Mpíxeles | Mediano   | Mayor resolución en tamaño estándar               |
+| Largo 2,3MPx          | 2,3 Mpíxeles | Largo     | Cuando el verificador va a distancia del producto |
+
+NOTA: El enfoque es automático en todos los modelos — no requiere ajuste mecánico.
+La elección de lente depende del tamaño del campo de visión necesario.
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                          | Por qué la necesitas                                                          |
+|----|-------------------------------------------------------------------|-------------------------------------------------------------------------------|
+| 1  | ¿Qué tipo de código verifica? (código de barras 1D, QR, DataMatrix)| Todos soportados, pero define el estándar ISO aplicable                     |
+| 2  | ¿Cuánto mide el código en la etiqueta o envase?                   | Define la lente necesaria: estrecho (código pequeño) / mediano / largo       |
+| 3  | ¿A qué velocidad va la línea de producción?                       | El verificador debe poder disparar y procesar a esa velocidad                |
+| 4  | ¿Qué estándar de calidad exige su cliente? (GS1, ISO, farmacia)   | Confirmar que el verificador emite el informe de calidad requerido           |
+| 5  | ¿Cómo quiere integrar el rechazo de productos con fallo?          | Señal digital / EtherNet/IP al PLC para activar el rechazador automático    |
+| 6  | ¿Tiene ya impresora de etiquetas o impresión directa en línea?    | El verificador se pone justo después de la impresora en la línea             |
+
+CONSEJO: El verificador de códigos en línea es un producto muy especializado para
+fabricantes con requisitos de calidad GS1 (alimentación, farmacia, automoción,
+logística). No es un producto de venta masiva — cuando un cliente lo pide, es
+porque tiene una necesidad muy concreta (auditoría GS1, multa de cliente, nueva
+normativa). En ese caso, es recomendable involucrar al técnico de Omron para la
+puesta en marcha y el ajuste inicial.
+
+============================================================
+Fuentes:
+- Omron verificadores en línea (oficial): https://www.ia.omron.com/products/family/4049/
+- GS1 estándar de verificación: https://www.gs1.org/services/verified-by-gs1
+- ISO 15416 código de barras lineal: https://www.iso.org/standard/72981.html
+- ISO 15415 código 2D: https://www.iso.org/standard/72982.html
+============================================================

@@ -1,0 +1,109 @@
+CUADRO RESUMEN — SWITCH ETHERNET INDUSTRIAL
+Familia: Electricidad > Aparellaje eléctrico > Autómatas programables / Comunicaciones
+Ejemplo en Araiz: Phoenix Contact ref. 2891453 (FL SWITCH SFN 4TX/FX ST)
+============================================================
+
+IMAGEN DEL PRODUCTO:
+https://www.phoenixcontact.com/en-pc/products/industrial-ethernet-switch-fl-switch-sfn-4tx-fx-st-2891453
+
+VÍDEO / REFERENCIA TÉCNICA:
+https://rspsupply.com/p-8726-phoenix-contact-2891453-fl-switch-sfn-4txfx-st-ethernet-switch.aspx
+
+Búsqueda recomendada en YouTube (español):
+"switch ethernet industrial carril DIN tutorial" o "switch industrial gestionado no gestionado diferencia"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Un switch Ethernet industrial es el componente que interconecta varios dispositivos
+de red dentro de una instalación industrial: PLCs, paneles HMI, acopladores de bus,
+PCs de supervisión, cámaras IP, variadores de velocidad con Ethernet... Funciona
+como una "regleta de enchufes inteligente" para la red: cada dispositivo se conecta
+a un puerto del switch y el switch gestiona el tráfico entre ellos, enviando los datos
+solo al destinatario correcto en lugar de mandarlos a todos a la vez (como haría un hub).
+La versión industrial está diseñada para funcionar sin ventilación forzada, en
+carril DIN y con temperaturas y vibraciones propias de entornos industriales.
+
+Lo que facilita:
+- Conectar múltiples dispositivos Ethernet en una misma red industrial de forma
+  ordenada y fiable.
+- Ampliar la red añadiendo más dispositivos sin necesidad de reemplazar nada.
+- Separar el tráfico de red: los datos de un PLC no interfieren con los de las cámaras.
+- El ref. 2891453 permite también conectar un tramo de fibra óptica (puerto FX ST)
+  para largas distancias o entornos con mucho ruido eléctrico.
+
+Lo que evita que ocurra:
+- Colisiones de datos en la red (el switch gestiona el tráfico inteligentemente).
+- Que un cable de red en mal estado afecte a toda la red (el switch aísla el puerto con fallo).
+- Interferencias electromagnéticas en tramos largos de cable Ethernet (usando el puerto de fibra óptica).
+- Que la red se sature con tráfico innecesario (el switch filtra y dirige los datos).
+
+============================================================
+
+DIFERENCIA CLAVE CON OTROS SWITCHES
+--------------------------------------------------------------
+| Tipo                         | Gestión         | Cuándo usarlo                                              |
+|------------------------------|-----------------|----------------------------------------------------------|
+| Switch no gestionado (unmanaged)| Sin configuración| Redes simples, plug and play. El ref. 2891453 es este tipo|
+| Switch gestionado (managed)  | Configurable    | Redes complejas, VLANs, redundancia, diagnóstico avanzado|
+| Switch con PoE               | Alimenta dispositivos por cable de red | Cámaras IP, puntos de acceso WiFi sin fuente propia|
+| Switch con fibra (FX)        | Puerto de fibra óptica | Distancias >100m o entornos con mucho ruido EMI  |
+| Hub Ethernet                 | Sin inteligencia| Obsoleto — no usar en instalaciones industriales         |
+
+El ref. 2891453 es no gestionado con 4 puertos RJ45 (cobre) + 1 puerto FX (fibra óptica ST).
+
+============================================================
+
+CARACTERÍSTICAS TÉCNICAS BÁSICAS A SABER
+--------------------------------------------------------------
+| Parámetro                    | Qué significa                                    | Valor ref. 2891453 (Phoenix Contact)          |
+|------------------------------|--------------------------------------------------|-----------------------------------------------|
+| Puertos RJ45 (cobre)         | Conexiones estándar Ethernet con cable UTP       | 4 puertos 10/100 Mbps                         |
+| Puerto de fibra óptica       | Conexión para cable de fibra óptica              | 1 puerto FX 100 Mbps — conector ST-D          |
+| Velocidad de transferencia   | Velocidad máxima por puerto                      | 10/100 Mbps (detección automática)            |
+| Dúplex                       | Modo de transmisión                              | Full dúplex (envía y recibe a la vez)         |
+| Autocrossing                 | Si detecta automáticamente el tipo de cable      | Sí — no hace falta cable cruzado              |
+| Gestión                      | Si es configurable por software                  | No gestionado (plug and play)                 |
+| Alimentación                 | Tensión de trabajo                               | 24V DC (carril DIN)                           |
+| Montaje                      | Cómo se instala                                  | Carril DIN NS 35 — dentro del armario         |
+| Temperatura de trabajo       | Rango admisible                                  | -10°C a +60°C                                 |
+| Diseño                       | Si tiene ventilación forzada                     | Fanless (sin ventilador) — sin mantenimiento  |
+
+============================================================
+
+TIPOLOGÍAS DE SWITCHES ETHERNET INDUSTRIALES
+--------------------------------------------------------------
+| Tipología                        | Descripción                                                   | Cuándo se usa                                          |
+|----------------------------------|---------------------------------------------------------------|--------------------------------------------------------|
+| No gestionado (unmanaged)        | Sin configuración, plug and play                              | Redes simples y fiables. El ref. 2891453 es este tipo  |
+| Gestionado (managed)             | Configurable: VLANs, QoS, redundancia, SNMP                  | Redes complejas o críticas que necesitan diagnóstico   |
+| Con fibra óptica (FX)            | Uno o más puertos de fibra para largas distancias             | Distancias >100m o entornos con ruido eléctrico severo |
+| Con PoE (Power over Ethernet)    | Alimenta dispositivos por el propio cable de red              | Cámaras IP, APs WiFi, teléfonos IP                    |
+| Compacto (nano switch)           | Muy pequeño, pocos puertos                                    | Espacios muy reducidos, aplicaciones específicas       |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                          | Por qué la necesitas                                                          |
+|----|-------------------------------------------------------------------|-------------------------------------------------------------------------------|
+| 1  | ¿Cuántos dispositivos Ethernet necesita conectar?                 | Define cuántos puertos necesita el switch                                     |
+| 2  | ¿Hay dispositivos a más de 100 metros de distancia?               | Si sí → necesita puerto de fibra óptica para esos tramos largos              |
+| 3  | ¿Necesita diagnóstico o monitorización de la red?                 | Si sí → switch gestionado (managed) con SNMP                                 |
+| 4  | ¿Hay mucho ruido eléctrico en la instalación? (motores, soldadura)| Si sí → considerar usar fibra óptica en los tramos críticos                  |
+| 5  | ¿Necesita redundancia de red? (que si cae un cable, la red siga)  | Si sí → switch gestionado con protocolo MRP o RSTP                           |
+| 6  | ¿Necesita alimentar cámaras u otros dispositivos por el cable?    | Si sí → switch con PoE                                                       |
+| 7  | ¿Va dentro de un armario eléctrico?                               | Si sí → modelo carril DIN. Si va en campo → caja IP65 externa               |
+
+CONSEJO: Para instalaciones industriales simples (PLC + HMI + 2-3 dispositivos más)
+un switch no gestionado como el ref. 2891453 es suficiente y más fiable al no
+tener configuración que pueda desconfigurarse. Solo pasar a gestionado si el cliente
+tiene una red compleja o necesita diagnóstico avanzado.
+
+============================================================
+Fuentes:
+- Ficha oficial Phoenix Contact 2891453: https://www.phoenixcontact.com/en-pc/products/industrial-ethernet-switch-fl-switch-sfn-4tx-fx-st-2891453
+- RSP Supply ref. 2891453: https://rspsupply.com/p-8726-phoenix-contact-2891453-fl-switch-sfn-4txfx-st-ethernet-switch.aspx
+- Graybar ref. 2891453: https://www.graybar.com/industrial-ethernet-switch/p/25074463
+============================================================

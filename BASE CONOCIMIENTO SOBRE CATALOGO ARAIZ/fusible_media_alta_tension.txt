@@ -1,0 +1,95 @@
+CUADRO RESUMEN — FUSIBLE DE MEDIA Y ALTA TENSIÓN (MT/AT)
+Familia: Electricidad > Aparellaje eléctrico > Portafusibles y fusibles industriales
+Ejemplo en Araiz: Eaton ref. 170M3507 (Cartucho fusible media tensión 12kV 63A)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"fusible media tensión transformador protección" o "fusible MT celda protección"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Los fusibles de media y alta tensión protegen transformadores, líneas de
+distribución y equipos de media tensión (3,6kV a 36kV) contra cortocircuitos.
+Se instalan dentro de celdas de media tensión (como las celdas Schneider SM6)
+o en portafusibles especiales en subestaciones transformadoras.
+
+Son productos MUY especializados — no se parecen en nada a un fusible doméstico.
+Son cartuchos cerámicos grandes (de 30cm a 60cm de largo) con terminales
+especiales y capacidad de corte de decenas de kiloamperios.
+
+**TIPOS PRINCIPALES:**
+
+**1. Cartucho fusible MT limitador de corriente (~580 art.)**
+Fusible que corta el cortocircuito limitando el pico de corriente. Se usa para
+proteger transformadores de distribución (los que convierten 20kV en 400V).
+Cuando un transformador sufre un cortocircuito interno, este fusible actúa
+antes de que la corriente destructiva alcance su valor máximo.
+Tensiones: 3,6kV, 7,2kV, 12kV, 17,5kV, 24kV, 36kV.
+Marcas: Eaton (Bussmann), Schneider (Fusarc), Pronutec, SIBA.
+
+**2. Cartucho fusible MT de expulsión (~260 art.)**
+Fusible que extingue el arco expulsando los gases generados por la fusión del
+elemento. Se usa en líneas aéreas de distribución y en cutouts (seccionadores
+fusibles aéreos). Más barato que el limitador pero con menor capacidad de corte.
+Marcas: Eaton (S&C type).
+
+**3. Fusible MT con percutor (~70 art.)**
+Fusible que al fundir acciona un percutor mecánico que a su vez dispara el
+interruptor de la celda. Es un sistema de seguridad: si funde uno de los 3
+fusibles trifásicos, el percutor abre los 3 polos para evitar que el
+transformador funcione en monofásico (que lo dañaría).
+Marcas: Schneider (Fusarc para SM6), Eaton.
+
+Lo que facilita:
+- Proteger transformadores de distribución contra cortocircuitos internos.
+- Proteger líneas aéreas de MT contra sobrecorrientes.
+- Desconectar automáticamente un transformador averiado de la red MT.
+
+Lo que evita que ocurra:
+- Destrucción explosiva de un transformador por cortocircuito sin protección.
+- Incendio en subestaciones por arco no extinguido.
+- Funcionamiento monofásico de transformadores (percutor trifásico).
+
+============================================================
+
+MODELOS EN ARAIZ (~1.100 artículos)
+--------------------------------------------------------------
+| Tipo                     | Marca           | Serie               | Tensiones              |
+|--------------------------|-----------------|---------------------|------------------------|
+| Fusible MT limitador     | Eaton (Bussmann)| 170M, CEF            | 3,6kV a 36kV          |
+| Fusible MT limitador     | Schneider       | Fusarc SM6           | 7,2kV, 12kV, 24kV     |
+| Fusible MT limitador     | Pronutec / SIBA | Varias               | 6kV a 24kV            |
+| Fusible MT expulsión     | Eaton           | S&C, EJO             | 3,6kV a 36kV          |
+| Fusible MT con percutor  | Schneider       | Fusarc + percutor    | 7,2kV, 12kV, 24kV     |
+| Fusible MT               | Ferraz Shawmut  | Protistor MT         | Varios                 |
+| Fusible AT               | Eaton           | HV series            | >36kV                  |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                | Por qué la necesitas                                          |
+|----|----------------------------------------------------------|------------------------------------------------------------- |
+| 1  | Qué tensión de la red MT? (12kV, 20kV, 24kV, 36kV)    | Define la tensión nominal del fusible                         |
+| 2  | Qué equipo protege? (transformador, línea, motor MT)    | Define el tipo de fusible y la curva                          |
+| 3  | Qué potencia tiene el transformador? (kVA)              | Define el amperaje del fusible                                |
+| 4  | En qué celda va? (Schneider SM6, ABB SafeRing, etc.)   | Los fusibles pueden ser específicos de la celda               |
+| 5  | Necesita percutor?                                      | Define si es simple o con mecanismo de disparo                |
+
+CONSEJO: Los fusibles de media tensión son un producto MUY específico que se pide
+por referencia exacta. No se puede "equivaler" entre marcas fácilmente porque las
+dimensiones, contactos y percutores varían entre fabricantes de celdas.
+Schneider Fusarc solo vale para celdas Schneider SM6. Eaton tiene gama universal.
+El dato clave es: marca de la celda + tensión + corriente del transformador.
+Si el cliente tiene un transformador de 630kVA a 20kV, la corriente primaria es
+~18A — necesitará un fusible de 25A o 31,5A MT (se sobredimensiona ligeramente).
+Estos fusibles son caros (50€-500€ por unidad) — confirmar bien la referencia.
+
+============================================================
+Fuentes:
+- Eaton fusibles MT: https://www.eaton.com/es/es-es/catalog/fuses/medium-voltage-fuses.html
+- Schneider Fusarc: https://www.se.com/es/es/product-range/993-fusarc/
+- Norma IEC 60282 (fusibles MT/AT)
+============================================================

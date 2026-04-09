@@ -1,0 +1,105 @@
+CUADRO RESUMEN — BALIZAS, SEÑALIZACIÓN LUMINOSA Y ACÚSTICA, PILOTOS INDUSTRIALES
+Familia: Electricidad > Aparellaje eléctrico > Accesorios
+Ejemplo en Araiz: Schneider ref. XVBC2B5 (Elemento luminoso LED ámbar fijo para columna XVB)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"columna luminosa industrial baliza señalización" o "piloto señalización cuadro eléctrico LED"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Este cuadro agrupa todos los elementos de señalización visual y acústica que se
+usan en instalaciones industriales y edificios: balizas luminosas (columnas de
+señalización), pilotos de cuadro eléctrico, zumbadores, pictogramas de emergencia
+y luminarias de emergencia.
+
+Son los "ojos y oídos" de la instalación — permiten saber de un vistazo si una
+máquina está en marcha, parada, en alarma, o si hay una emergencia.
+
+**1. COLUMNAS DE SEÑALIZACIÓN / BALIZAS (~60 art.)**
+Torres modulares con módulos de colores apilables (rojo, ámbar, verde, azul, blanco)
+y opcionalmente un módulo acústico (zumbador o sirena). Se montan encima de las
+máquinas para indicar su estado a distancia.
+Colores estándar: rojo = alarma/parada, ámbar = precaución/espera, verde = marcha OK,
+azul = petición de intervención, blanco = información general.
+Cada módulo se compra por separado y se apila sobre una base.
+Marcas: Schneider (XVB, Harmony), Siemens (8WD4), ABB.
+
+**2. PILOTOS LUMINOSOS PARA CUADRO (~30 art.)**
+Pilotos LED o neón embutidos en la puerta del armario o cuadro eléctrico para
+indicar estados: encendido, en automático, fallo, etc. Se insertan en taladros
+de 22mm (estándar) o 16mm. Colores: misma convención que las balizas.
+Marcas: Schneider (XB5), Siemens (3SU1), ABB.
+
+**3. ZUMBADORES Y SIRENAS (~25 art.)**
+Elementos acústicos para alarma sonora: zumbadores (tono continuo suave para
+señalización) y sirenas (tono fuerte para alarma). Se montan en cuadro o en
+columna de señalización.
+Marcas: Schneider, Siemens, Werma.
+
+**4. PICTOGRAMAS Y SEÑALIZACIÓN DE EMERGENCIA (~30 art.)**
+Bloques luminosos con pictogramas normalizados (salida de emergencia, flecha
+de evacuación) que se instalan sobre puertas y pasillos. Pueden ser permanentes
+(siempre encendidos) o de emergencia (solo con fallo de red).
+Marcas: Legrand, Schneider (OVA).
+
+**5. LUMINARIAS DE EMERGENCIA (~25 art.)**
+Equipos autónomos con batería que proporcionan luz mínima cuando falla la red
+eléctrica, para permitir la evacuación segura. Obligatorias por el CTE (Código
+Técnico de Edificación) en edificios públicos, comerciales e industriales.
+Tipos: emergencia (solo con fallo), permanente (siempre encendida + batería).
+Marcas: Legrand, Schneider (OVA), Normalux.
+
+Lo que facilita:
+- Ver a distancia el estado de las máquinas (balizas en lo alto).
+- Supervisar el cuadro eléctrico sin abrirlo (pilotos en puerta).
+- Evacuar edificios de forma segura en caso de fallo eléctrico (emergencia).
+
+Lo que evita que ocurra:
+- Que un operario no detecte una alarma de máquina a tiempo.
+- Que no haya luz para evacuar en caso de emergencia (obligatorio por normativa).
+- Confusión sobre el estado de la máquina (código de colores estandarizado).
+
+============================================================
+
+MODELOS EN ARAIZ (~170 artículos)
+--------------------------------------------------------------
+| Tipo                     | Marca           | Serie               | Para qué                      |
+|--------------------------|-----------------|---------------------|-------------------------------|
+| Módulo LED baliza        | Schneider       | XVB (Harmony)       | Columna señalización máquina  |
+| Base + tubo baliza       | Schneider       | XVBC, XVBZ          | Soporte para módulos LED      |
+| Baliza compacta          | Siemens         | 8WD4                | Señalización torre compacta   |
+| Piloto LED 22mm          | Schneider       | XB5AVM              | Señalización puerta cuadro    |
+| Zumbador cuadro          | Schneider       | XB5KS               | Alarma acústica cuadro        |
+| Pictograma emergencia    | Legrand         | 0617xx              | Señalización evacuación       |
+| Luminaria emergencia     | Legrand         | 0617xx              | Luz evacuación fallo red      |
+| Luminaria emergencia     | Schneider       | OVA                 | Luz evacuación fallo red      |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                | Por qué la necesitas                                          |
+|----|----------------------------------------------------------|------------------------------------------------------------- |
+| 1  | Es para máquina (baliza) o para cuadro (piloto)?        | Producto completamente diferente                              |
+| 2  | Qué colores necesita y cuántos módulos?                 | Cada módulo/color se vende aparte en balizas                  |
+| 3  | Qué tensión de alimentación? (24V DC, 230V AC)          | Cada tensión es un modelo diferente                           |
+| 4  | Si es emergencia: permanente o no permanente?           | Define el tipo de luminaria                                   |
+| 5  | Lúmenes / autonomía de la luminaria de emergencia?      | Obligatorio cumplir mínimos del CTE según el local            |
+
+CONSEJO: Las balizas Schneider XVB son modulares — el cliente necesita como mínimo:
+base + tubo + módulos LED. Si pide "una baliza roja-ámbar-verde", son 5 referencias:
+base, tubo, módulo rojo, módulo ámbar, módulo verde. Siempre desglosar.
+Las luminarias de emergencia tienen normativa obligatoria (CTE, REBT ITC-BT-28):
+si el cliente tiene un local comercial, nave o edificio público, las necesita sí o sí.
+No confundir piloto de cuadro (22mm, se empotra en puerta) con módulo de baliza
+(se apila en columna sobre la máquina).
+
+============================================================
+Fuentes:
+- Schneider Harmony XVB: https://www.se.com/es/es/product-range/1777-harmony-xvb/
+- Legrand emergencia: https://www.legrand.es/catalogo/iluminacion-de-emergencia/
+- Siemens 8WD4: https://www.siemens.com/es/es/productos/automatizacion/aparamenta.html
+============================================================

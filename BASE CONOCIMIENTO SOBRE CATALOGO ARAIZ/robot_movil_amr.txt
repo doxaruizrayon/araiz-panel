@@ -1,0 +1,102 @@
+CUADRO RESUMEN — ROBOT MÓVIL AUTÓNOMO AMR (LD / HD / OL — OMRON)
+Familia: Electricidad > Aparellaje eléctrico > Autómatas programables y robots industriales
+Ejemplo en Araiz: Omron ref. LD-250 (Robot móvil autónomo 250kg carga máxima nave industrial)
+============================================================
+
+IMAGEN DEL PRODUCTO:
+https://www.ia.omron.com/products/family/3597/
+
+VÍDEO / REFERENCIA TÉCNICA:
+https://industrial.omron.co.uk/en/products/ld-series
+
+Búsqueda recomendada en YouTube (español):
+"robot móvil autónomo AMR qué es AGV diferencia" o "Omron LD-250 robot logístico almacén nave"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Un robot móvil autónomo (AMR — Autonomous Mobile Robot) es un vehículo robótico que
+se desplaza de forma autónoma por la nave o almacén sin guías físicas ni cintas en
+el suelo, transportando cargas de un punto a otro. A diferencia del AGV clásico
+(Automated Guided Vehicle, que sigue una línea pintada o banda magnética), el AMR
+usa láseres LIDAR para mapear el entorno, detectar obstáculos en tiempo real y
+calcular la ruta óptima — puede adaptarse a cambios en la nave sin reconfigurar
+la instalación. La flota Omron incluye:
+
+- **LD-250 / LD-90 / LD-60:** robots de interior para cargas de 60 a 250kg. Los más
+  habituales en logística interna de fábrica y almacén.
+- **HD-1500:** robot de alta carga para mover palés o contenedores hasta 1500kg.
+- **OL-450S:** robot de exterior con ruedas para exteriores y superficies irregulares.
+
+Se integran con el PLC NJ/NX de Omron y el software de gestión de flota Enterprise
+Manager (EM) para coordinación de múltiples robots simultáneos.
+
+Lo que facilita:
+- Automatizar el transporte interno de materiales: materia prima, WIP (work in
+  process) y producto terminado circulan solos entre almacén, línea y expedición.
+- Eliminar carretillas manuales en recorridos repetitivos: el operario no hace
+  de "mensajero" entre puestos — el AMR lo hace solo.
+- Adaptarse a cambios en la distribución de la nave: a diferencia del AGV, el
+  AMR se reprograma con un nuevo mapa sin obras en el suelo.
+- Coordinar múltiples robots en flota: el software Enterprise Manager asigna
+  tareas a cada robot según su posición y carga de trabajo.
+- Integrar con el sistema MES/ERP: el AMR recibe órdenes de transporte del ERP
+  automáticamente cuando el sistema de producción genera una necesidad.
+
+Lo que evita que ocurra:
+- Accidentes por movimiento de cargas pesadas manualmente: el AMR tiene sensores
+  de seguridad que paran ante cualquier obstáculo (persona, objeto, otra máquina).
+- Cuellos de botella en el transporte interno: el AMR trabaja 24/7 sin pausas,
+  sincronizado con la producción.
+
+============================================================
+
+DIFERENCIA CLAVE: AMR vs AGV
+--------------------------------------------------------------
+| Característica          | AMR (LD-250, este)               | AGV clásico                      |
+|-------------------------|----------------------------------|----------------------------------|
+| Navegación              | LIDAR — mapa propio, autónomo    | Guía física (cinta, banda magnet)|
+| Adaptación a cambios    | Solo software — minutos          | Obras en suelo — días/semanas    |
+| Detección obstáculos    | Sí — LIDAR + cámara              | Básica o ninguna                 |
+| Flexibilidad de ruta    | Recalcula en tiempo real         | Ruta fija predefinida            |
+| Instalación             | Sin obras                        | Requiere modificar el suelo      |
+| Precio                  | Alto                             | Medio-alto                       |
+
+============================================================
+
+GAMA OMRON AMR EN ARAIZ
+--------------------------------------------------------------
+| Modelo   | Carga máx. | Entorno   | Para qué                                      |
+|----------|-----------|-----------|-----------------------------------------------|
+| LD-60    | 60 kg     | Interior  | Transporte de bandejas, cajas, componentes   |
+| LD-90    | 90 kg     | Interior  | El más habitual — logística interna fábrica  |
+| LD-250   | 250 kg    | Interior  | Palets pequeños, contenedores, KLTs          |
+| HD-1500  | 1500 kg   | Interior  | Palets completos, movimiento pesado          |
+| OL-450S  | 450 kg    | Exterior  | Entre edificios, superficies irregulares     |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                               | Por qué la necesitas                                          |
+|----|--------------------------------------------------------|---------------------------------------------------------------|
+| 1  | ¿Cuánto pesa la carga que necesita transportar?        | Define el modelo: LD-60/90/250 / HD-1500                     |
+| 2  | ¿El recorrido es interior o exterior?                  | Interior → LD/HD / Exterior o suelos irregulares → OL-450S  |
+| 3  | ¿Cuántos robots necesita? ¿Cuántos viajes/hora?        | Define el número de unidades de la flota                     |
+| 4  | ¿Tiene sistema MES o ERP para enviar órdenes?          | La integración con MES/ERP es clave para automatizar        |
+| 5  | ¿Hay personas circulando en la misma zona?             | Los AMR Omron son seguros para entornos con personas         |
+
+CONSEJO: El robot móvil AMR es una solución de proyecto de alta inversión — nunca
+se vende como producto de catálogo estándar. Cuando un cliente pregunta por AMRs,
+es porque tiene un proyecto de automatización logística en marcha. Poner en contacto
+con el equipo de proyectos de Omron o un integrador especializado para el
+dimensionamiento de la flota, el software de gestión y la integración con el ERP.
+El coste de un LD-90 es del orden de 30.000-60.000€ por unidad, con el software
+de flota aparte.
+
+============================================================
+Fuentes:
+- Omron LD series AMR: https://www.ia.omron.com/products/family/3597/
+- Omron mobile robots: https://industrial.omron.co.uk/en/products/mobile-robots
+============================================================

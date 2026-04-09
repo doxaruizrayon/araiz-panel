@@ -1,0 +1,157 @@
+CUADRO RESUMEN — PAQUETE ROBOT COBOT (ROBOT COLABORATIVO)
+Familia: Electricidad > Aparellaje eléctrico > Autómatas programables y robots industriales
+Ejemplo en Araiz: Omron ref. 701888 (Paquete Robot Cobot — serie TM)
+============================================================
+
+IMAGEN DEL PRODUCTO:
+https://robotics.omron.com/products/collaborative-robots/tm-series/
+
+VÍDEO / REFERENCIA TÉCNICA:
+https://industrial.omron.es/es/products/tm-cobot
+
+Búsqueda recomendada en YouTube (español):
+"Omron TM cobot colaborativo programacion TMflow" o "robot colaborativo cobot diferencia robot industrial"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Un cobot (collaborative robot — robot colaborativo) es un brazo robótico diseñado
+para trabajar junto a personas en el mismo espacio, sin necesidad de jaula de
+protección ni vallado de seguridad. A diferencia de un robot industrial tradicional
+(rápido pero peligroso cerca de personas), el cobot detecta contacto, reduce
+velocidad y para en milisegundos si alguien lo toca, cumpliendo las normas de
+seguridad para trabajo colaborativo. El ref. 701888 es el paquete completo de
+Omron serie TM: incluye el brazo robótico + controlador + sistema de visión
+integrado + software TMflow. Es la solución para automatizar tareas repetitivas
+(ensamblaje, empaquetado, paletizado, control de calidad) de forma flexible
+y sin obras de seguridad en la planta.
+
+Lo que facilita:
+- Automatizar tareas manuales repetitivas (coger, mover, ensamblar, inspeccionar,
+  paletizar) sin vallado ni jaula de seguridad alrededor del robot.
+- Programación sencilla: con TMflow (interfaz gráfica drag & drop) y guiado
+  manual (mover el brazo con la mano para enseñarle posiciones).
+- Reubicar el cobot en otra línea o tarea en poco tiempo gracias al sistema de
+  visión integrado que recalibra solo al cambiar de posición (landmark).
+- Inspección visual integrada: la cámara incorporada detecta piezas, verifica
+  posiciones y controla calidad sin cámara externa adicional.
+- Conectar el cobot a PLCs, sistemas SCADA y otros equipos mediante Modbus,
+  TCP/IP o E/S digitales estándar.
+
+Lo que evita que ocurra:
+- Que el operario repita durante horas tareas monótonas que generan fatiga
+  y errores (el cobot trabaja sin parar con la misma precisión).
+- Costosas obras de seguridad: sin vallado ni sensores de área adicionales
+  para la mayoría de aplicaciones colaborativas.
+- Paradas largas al cambiar de producto: el cobot se reprograma o reubica
+  rápidamente sin necesidad de un programador experto en robótica.
+- Errores de inspección visual por fatiga del operario: la cámara integrada
+  revisa el 100% de las piezas con criterio constante.
+- Accidentes: 31 funciones de seguridad certificadas paran el brazo al menor
+  contacto con personas u objetos no esperados.
+
+============================================================
+
+DIFERENCIA CLAVE: COBOT vs ROBOT INDUSTRIAL TRADICIONAL
+--------------------------------------------------------------
+| Característica           | Cobot (TM Omron)                   | Robot industrial tradicional          |
+|--------------------------|-------------------------------------|---------------------------------------|
+| Seguridad cerca de personas| Sí — para al contacto              | No — requiere jaula o vallado         |
+| Velocidad máxima         | Moderada (hasta 1,4 m/s)            | Muy alta (hasta 10 m/s)               |
+| Carga útil               | 4 a 25 kg (según modelo)            | Hasta cientos de kg                   |
+| Programación             | Intuitiva — guiado manual + gráfica | Requiere programador especialista     |
+| Instalación              | Rápida, sin obras de seguridad      | Lenta, requiere vallado y proyecto    |
+| Flexibilidad             | Alta — fácil de reubicar            | Baja — instalación fija               |
+| Visión integrada         | Sí (única en el mercado con visión) | No — cámara externa aparte            |
+| Precio                   | Medio-alto                          | Alto (más infraestructura de seguridad)|
+| Para qué                 | Tareas colaborativas con personas   | Producción en masa, alta velocidad    |
+
+============================================================
+
+QUÉ INCLUYE EL PAQUETE (ref. 701888)
+--------------------------------------------------------------
+| Componente               | Qué es                                           | Detalle                               |
+|--------------------------|--------------------------------------------------|---------------------------------------|
+| Brazo robótico TM        | El robot en sí — 6 ejes de movimiento            | Varios modelos (ver tabla modelos)    |
+| Controlador              | Unidad de control del robot                      | Con 16 E/S digitales + 2 analógicas  |
+| Cámara integrada         | Sistema de visión en la muñeca del brazo         | 5 Mpx color — reconocimiento objetos |
+| Software TMflow          | Programación gráfica drag & drop                 | Gratuito, descargable también en PC  |
+| Cable de enseñanza       | Pendant táctil para programación manual          | Pantalla 10" — incluido en el paquete |
+| Landmark / referencia    | Marcador para recalibrar posición rápidamente    | Permite reubicar sin reprogramar     |
+
+============================================================
+
+MODELOS DISPONIBLES EN LA SERIE TM (para orientar al cliente)
+--------------------------------------------------------------
+| Modelo   | Carga útil | Alcance  | Velocidad máx. | Cuándo usarlo                                  |
+|----------|------------|----------|----------------|------------------------------------------------|
+| TM5      | 4 kg       | 700 mm   | 1,4 m/s        | Ensamblaje de piezas pequeñas, electrónica    |
+| TM12     | 12 kg      | 1.300 mm | 1,3 m/s        | Manipulación, paletizado ligero               |
+| TM14     | 14 kg      | 1.100 mm | 1,1 m/s        | Paletizado, machine tending con piezas medias |
+| TM16     | 16 kg      | 900 mm   | 1,0 m/s        | Montaje, logística, manipulación pesada       |
+| TM20     | 20 kg      | 1.300 mm | 1,1 m/s        | Paletizado y manipulación de materiales       |
+| TM25S    | 25 kg      | 1.900 mm | —              | Paletizado y manipulación móvil de alta carga |
+
+============================================================
+
+CARACTERÍSTICAS TÉCNICAS BÁSICAS A SABER
+--------------------------------------------------------------
+| Parámetro                    | Qué significa                                    | Valor serie TM (Omron)                        |
+|------------------------------|--------------------------------------------------|-----------------------------------------------|
+| Carga útil                   | Peso máximo que puede mover                      | 4 a 25 kg según modelo                        |
+| Alcance                      | Distancia máxima del brazo extendido             | 700 a 1.900 mm según modelo                   |
+| Grados de libertad           | Número de ejes de movimiento                     | 6 ejes                                        |
+| Repetibilidad                | Precisión de posicionamiento                     | ±0,02 mm                                      |
+| Sistema de visión            | Cámara integrada en la muñeca                    | 5 Mpx color — única en el mercado             |
+| E/S digital controlador      | Señales de I/O para conectar al proceso          | 16 entradas + 16 salidas digitales            |
+| E/S analógica controlador    | Señales analógicas                               | 2 entradas + 2 salidas analógicas             |
+| Comunicación                 | Protocolos de conexión con otros equipos         | TCP/IP, Modbus TCP/RTU, RS-232                |
+| Funciones de seguridad       | Certificaciones de seguridad colaborativa        | 31 funciones — ISO 13849-1 Cat.3 PLd, ISO 10218-1|
+| Grado de protección          | Estanqueidad frente a polvo y agua               | IP54                                          |
+| Alimentación                 | Tensión de trabajo                               | 200-240V AC monofásico                        |
+| Software                     | Plataforma de programación                       | TMflow — gratuito, drag & drop                |
+
+============================================================
+
+TIPOLOGÍAS DE ROBOTS COLABORATIVOS
+--------------------------------------------------------------
+| Tipología                        | Descripción                                                   | Cuándo se usa                                          |
+|----------------------------------|---------------------------------------------------------------|--------------------------------------------------------|
+| Cobot de brazo articulado (este) | 6 ejes, imita el movimiento humano                            | Ensamblaje, paletizado, inspección, machine tending   |
+| Cobot SCARA                      | 4 ejes, movimiento horizontal rápido                          | Pick & place rápido, ensamblaje en horizontal         |
+| Cobot de brazo paralelo (delta)  | Muy rápido, carga pequeña                                     | Picking de alta velocidad en líneas de alimentación   |
+| Robot móvil autónomo (AMR)       | Se desplaza por la planta de forma autónoma                   | Transporte de materiales entre puestos               |
+| Cobot + AMR (combinado)          | Brazo cobot montado sobre un AMR móvil                        | Automatización flexible en toda la planta            |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                          | Por qué la necesitas                                                          |
+|----|-------------------------------------------------------------------|-------------------------------------------------------------------------------|
+| 1  | ¿Qué tarea quiere automatizar? (coger, mover, ensamblar, paletizar)| Define el tipo de cobot y si es viable con un brazo colaborativo             |
+| 2  | ¿Cuánto pesa la pieza que tiene que mover?                        | Define el modelo: TM5 (4kg), TM12 (12kg), TM20 (20kg), TM25S (25kg)         |
+| 3  | ¿Cuánto espacio necesita el brazo para llegar a todas las posiciones?| Define el alcance necesario: 700mm, 900mm, 1100mm, 1300mm o 1900mm          |
+| 4  | ¿El operario va a trabajar justo al lado del robot?               | Si sí → cobot perfecto. Si trabajan separados → valorar robot industrial     |
+| 5  | ¿Necesita que el robot identifique o inspeccione piezas?          | Si sí → la visión integrada del TM lo cubre sin cámara externa               |
+| 6  | ¿Va a cambiar de tarea o reubicar el robot con frecuencia?        | Si sí → el cobot TM es ideal por su flexibilidad y reprogramación sencilla   |
+| 7  | ¿Tiene ya PLC o sistema de control al que conectarlo?             | Define la integración por Modbus, TCP/IP o E/S digitales                     |
+| 8  | ¿Tiene personal técnico para programarlo o necesita formación?    | TMflow es sencillo pero requiere formación básica — Omron ofrece cursos      |
+
+CONSEJO: El cobot TM de Omron es el único del mercado con cámara integrada en el brazo,
+lo que lo diferencia claramente de competidores como Universal Robots o KUKA.
+Si el cliente necesita inspección visual además de manipulación, el TM evita comprar
+un sistema de visión externo adicional. Para aplicaciones de paletizado de cajas de
+más de 12 kg, orientar directamente al TM20 o TM25S.
+El ref. 701888 es el paquete completo listo para instalar: no necesita comprar
+el controlador, la cámara ni el software por separado.
+
+============================================================
+Fuentes:
+- Omron TM serie (oficial): https://robotics.omron.com/products/collaborative-robots/tm-series/
+- Omron TM España: https://industrial.omron.es/es/products/tm-cobot
+- Omron TM especificaciones: https://www.ia.omron.com/products/family/3739/
+- Datasheet TM5/TM12 (PDF): https://assets.omron.eu/downloads/latest/datasheet/en/i837_collaborative_robots_datasheet_en.pdf
+- Comparativa modelos TM: https://robotics.omron.com/products/collaborative-robots/tms-series/
+============================================================

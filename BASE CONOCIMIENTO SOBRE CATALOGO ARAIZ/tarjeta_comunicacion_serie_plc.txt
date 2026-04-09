@@ -1,0 +1,109 @@
+CUADRO RESUMEN — TARJETA COMUNICACIÓN SERIE PLC (MÓDULO RS232C / RS422 / RS485)
+Familia: Electricidad > Aparellaje eléctrico > Autómatas programables y robots industriales
+Ejemplo en Araiz: Omron ref. CP1WCIF12 (Tarjeta opcional comunicación serie CP1 RS422/485 — hasta 500m)
+============================================================
+
+IMAGEN DEL PRODUCTO:
+https://www.ia.omron.com/products/family/1716/
+
+VÍDEO / REFERENCIA TÉCNICA:
+https://industrial.omron.co.uk/en/products/cp1w-cif12
+
+Búsqueda recomendada en YouTube (español):
+"Omron CP1W-CIF12 RS485 Modbus configuración" o "PLC Omron comunicación serie RS232 RS485 Modbus"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Una tarjeta de comunicación serie es un módulo que se instala en el propio PLC para
+añadirle un puerto de comunicación serie (RS232C, RS422 o RS485). Los PLCs de Omron
+suelen incluir un puerto Ethernet de serie, pero no siempre tienen puertos RS232C o
+RS485 integrados. Cuando el cliente necesita conectar el PLC con un dispositivo que
+habla RS485 Modbus (un variador de frecuencia, un medidor de energía, un lector de
+código de barras...), hay que añadir esta tarjeta al PLC.
+
+Lo que facilita:
+- Conectar el PLC con cualquier dispositivo industrial que use protocolo serie:
+  variadores de frecuencia (Modbus RTU), básculas, lectores de código de barras,
+  sensores de temperatura, sistemas SCADA, etc.
+- Ampliar el PLC sin cambiarlo: la tarjeta se enchufar directamente en el lateral del
+  PLC (CP1) o en el bastidor (CS1) — no hace falta un PLC más grande ni más caro.
+- Distancias largas: la tarjeta CP1W-CIF12 con RS485 permite comunicar hasta 500 metros
+  (a diferencia del RS232C que solo llega a 15 metros).
+- Conectar varios dispositivos en una sola tarjeta: RS485 es un bus — hasta 32 esclavos
+  Modbus con un solo cable en cadena (daisy-chain).
+
+Lo que evita que ocurra:
+- Comprar un PLC más grande o más caro solo por necesitar un puerto serie adicional:
+  la tarjeta cuesta mucho menos que cambiar el PLC.
+- Confusión entre RS232C y RS485: son protocolos distintos — RS232C es punto a punto
+  (1 dispositivo), RS485 es bus (muchos dispositivos, más distancia).
+- Interferencias en distancias largas: RS485 es diferencial y permite cables largos
+  en entornos industriales con ruido eléctrico.
+
+============================================================
+
+DIFERENCIA CLAVE: RS232C vs RS422 vs RS485
+--------------------------------------------------------------
+| Característica      | RS232C                    | RS422                     | RS485                     |
+|---------------------|---------------------------|---------------------------|---------------------------|
+| Dispositivos        | 1 a 1 (punto a punto)     | 1 emisor / 10 receptores  | 32 dispositivos en bus    |
+| Distancia máxima    | 15 m                      | 1.200 m                   | 1.200 m (500m a 9.600 bps)|
+| Señal               | Asimétrica (voltaje)      | Diferencial               | Diferencial               |
+| Uso típico          | PC, báscula, lector        | Encoders, sistemas CNC    | Modbus RTU, red industrial|
+| Protocolo habitual  | ASCII, Modbus ASCII       | Mechatrolink, encoders    | Modbus RTU                |
+
+NOTA: Modbus RTU (el protocolo más usado en industria para comunicar PLCs con
+variadores) necesita RS485 — no RS232C.
+
+============================================================
+
+MODELOS DE TARJETAS A CONOCER
+--------------------------------------------------------------
+| Modelo          | PLC compatible | Puertos               | Protocolo               | Cuándo usarla                          |
+|-----------------|----------------|-----------------------|-------------------------|----------------------------------------|
+| CP1W-CIF12      | CP1L, CP1H     | 1 x RS422/485         | Modbus RTU, CompoWay/F  | CP1 + red Modbus a variadores/esclavos |
+| CS1W-SCB21-V1   | CS1 (bastidor) | 2 x RS232C            | Host Link, Modbus, NT   | CS1 con 2 dispositivos serie           |
+| CS1W-SCB41-V1   | CS1 (bastidor) | 1 x RS232C + 1 x RS422| Host Link + Modbus       | CS1 con mix de dispositivos            |
+| (tarjetas NJ/NX)| NJ, NX         | Puerto USB + EtherNet | EtherNet/IP, Modbus TCP | NJ/NX — normalmente no necesita RS485  |
+
+============================================================
+
+CARACTERÍSTICAS TÉCNICAS BÁSICAS A SABER
+--------------------------------------------------------------
+| Parámetro                    | Qué significa                                    | Valor CP1W-CIF12                              |
+|------------------------------|--------------------------------------------------|-----------------------------------------------|
+| PLC compatible               | En qué PLC se instala                            | CP1L, CP1H (ranura lateral opcional)          |
+| Puerto                       | Tipo de conexión                                 | 1 x RS422/485 (conector D-Sub 9 pines)        |
+| Distancia                    | Longitud máxima del cable                        | 500 m (a 9.600 bps)                           |
+| Esclavos                     | Cuántos dispositivos en el bus                   | Hasta 32 esclavos Modbus                      |
+| Aislamiento                  | Protección eléctrica                             | Aislado ópticamente (protege el PLC)          |
+| Protocolo                    | Estándares de comunicación soportados            | Modbus RTU, CompoWay/F, Host Link, NT Link    |
+| Velocidad                    | Baudrate configurable                            | 1.200 a 115.200 bps                           |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                          | Por qué la necesitas                                                          |
+|----|-------------------------------------------------------------------|-------------------------------------------------------------------------------|
+| 1  | ¿Qué modelo de PLC tiene? (CP1L, CP1H, CS1...)                    | La tarjeta es específica del PLC — no son intercambiables entre modelos       |
+| 2  | ¿Con qué dispositivo quiere comunicar el PLC?                     | Define el protocolo: Modbus RTU (RS485) / Host Link (RS232C) / etc.          |
+| 3  | ¿Cuántos metros hay entre el PLC y el dispositivo?                | > 15 m → necesita RS485 (no RS232C)                                          |
+| 4  | ¿Necesita conectar 1 dispositivo o varios?                        | Varios → RS485 en bus / Solo 1 dispositivo → RS232C puede servir             |
+| 5  | ¿Ya tiene el cable serie apropiado?                               | El cable RS485 es un par trenzado apantallado — no sirve cable de red normal |
+| 6  | ¿El PLC ya tiene puertos serie integrados o solo Ethernet?        | CP1L básico no tiene RS485 de serie — necesita esta tarjeta                  |
+
+CONSEJO: El caso más habitual es un CP1L o CP1H que necesita hablar Modbus RTU con
+un variador de frecuencia (para controlar velocidad) o con un medidor de energía.
+La respuesta casi siempre es CP1W-CIF12 + cable RS485 + configuración Modbus en el PLC.
+Si el cliente tiene un PLC NJ/NX (gama nueva), en la mayoría de casos ya tiene
+Ethernet y usa Modbus TCP — no necesita tarjeta serie.
+
+============================================================
+Fuentes:
+- Omron CP1W-CIF12 (oficial): https://www.ia.omron.com/products/family/1716/
+- TME CP1W-CIF12: https://www.tme.com/us/en-us/details/cp1w-cif12/plc-accessories/omron/
+- Omron CS1W-SCB21/41: https://www.ia.omron.com/products/family/263/
+============================================================

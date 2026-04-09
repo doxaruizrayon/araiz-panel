@@ -1,0 +1,116 @@
+CUADRO RESUMEN — MEDIDA DE ENERGÍA: CONTADORES kWh, CALORÍMETROS Y ANALIZADORES
+Familia: Electricidad > Aparellaje eléctrico > Otros aparatos
+Ejemplo en Araiz: ABB ref. EQ-meters (Contador de energía kWh para carril DIN)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"contador kwh carril DIN cuadro eléctrico" o "analizador de red energía eléctrica industrial"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Este grupo recoge los equipos de medida de energía que se instalan en cuadros
+eléctricos para cuantificar el consumo: cuántos kWh consume una máquina, un edificio
+o una instalación. Son los "contadores" internos de las instalaciones industriales,
+distintos al contador de la compañía eléctrica que está en la acometida.
+
+Tipos presentes en Araiz:
+
+**1. Contador de energía kWh (21 art., ABB 21)**
+Mide la energía eléctrica consumida (en kilovatios-hora). Se instala en carril DIN
+dentro del cuadro eléctrico. Puede ser:
+- **Monofásico**: para circuitos 230V monofásicos.
+- **Trifásico**: para instalaciones industriales 400V trifásico.
+- **Con comunicación**: envía datos por Modbus, M-Bus, RS485 — para telegestión.
+
+Usos habituales:
+- Medir el consumo de una máquina concreta para detectar ineficiencias.
+- Facturación interna entre departamentos o inquilinos (subcontaje).
+- Control de consumo para gestión energética y certificaciones ISO 50001.
+- Verificar que una instalación fotovoltaica está generando correctamente.
+
+**2. Calorímetro (22 art., Schneider 22)**
+Mide la energía térmica (calor) de un sistema de climatización o calefacción —
+por ejemplo, el calor entregado por un circuito de agua caliente a un edificio.
+Combina medición de temperatura en entrada/salida del fluido con medición de
+caudal para calcular la energía térmica total. Muy usado en:
+- Instalaciones de calor urbano (district heating).
+- Edificios con contabilización de calefacción por vivienda.
+- Sistemas de aerotermia con contabilización de energía.
+
+**3. Instrumento de medición multiusos (18 art., Omron 9, Phoenix Contact 4, Siemens 4)**
+Equipos compactos que miden simultáneamente múltiples parámetros eléctricos:
+tensión, corriente, potencia activa (kW), potencia reactiva (kVAR), factor de
+potencia (cos φ), frecuencia y energía acumulada. Se llaman también analizadores
+de red o multímetros de panel.
+Útiles para:
+- Monitorizar la calidad de la red eléctrica.
+- Detectar desequilibrios de carga entre fases.
+- Diagnóstico de consumos en industria.
+
+**4. Control para gestión energética (10 art., Schneider 6, Circutor 4)**
+Sistemas completos de monitorización y gestión del consumo energético. Incluyen
+software, módulos de comunicación y sensores para crear un cuadro completo
+de eficiencia energética. Circutor es una empresa española especializada en
+calidad de energía y gestión energética.
+
+Lo que facilita:
+- Saber exactamente cuánto consume cada máquina o zona de la fábrica.
+- Detectar consumos anómalos (motor averiado, fuga de corriente, factor de potencia bajo).
+- Cumplir con auditorías energéticas obligatorias en grandes empresas.
+- Facturar el consumo a inquilinos o líneas de producción internas.
+- Verificar el ahorro real de medidas de eficiencia energética.
+
+============================================================
+
+DIFERENCIA CLAVE: CONTADOR kWh vs ANALIZADOR DE RED vs CALORÍMETRO
+--------------------------------------------------------------
+| Característica      | Contador kWh           | Analizador de red      | Calorímetro            |
+|---------------------|------------------------|------------------------|------------------------|
+| Mide                | Energía eléctrica (Wh) | Múltiples parámetros   | Energía térmica (kWh)  |
+| Tipo de energía     | Eléctrica              | Eléctrica              | Térmica (calor/frío)   |
+| Salida              | Pulsos / Modbus        | Modbus / pantalla      | M-Bus / pantalla       |
+| Complejidad         | Baja                   | Media-alta             | Alta (sonda + caudal.) |
+| Precio              | Bajo (~50-200€)        | Medio (200-1.000€)     | Alto (500-3.000€)      |
+| Uso habitual        | Subcontaje consumo     | Calidad red / auditoría| Calefacción edificios  |
+
+============================================================
+
+GAMAS PRINCIPALES EN ARAIZ (~71 artículos nucleares)
+--------------------------------------------------------------
+| Marca           | Producto                  | Referencias tipo        | Comunicación        |
+|-----------------|---------------------------|-------------------------|---------------------|
+| ABB             | Contadores EQ / B-series  | B21 112-100, EQ-meters  | M-Bus / Modbus      |
+| Schneider Elec. | Calorímetros EM / iEM     | iEM3255, EM6400         | Modbus / M-Bus      |
+| Schneider Elec. | Analizadores PM           | PM1200, PM2100, PM5100  | Modbus / Ethernet   |
+| Circutor        | CVM / AR / HMS            | CVM-C10, AR6-100        | Modbus / RS485      |
+| Omron           | K6CM / K8DS               | K6CM-CIMP2, K8DS        | RS485 / NPN         |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                        | Por qué la necesitas                                        |
+|----|-----------------------------------------------------------------|-------------------------------------------------------------|
+| 1  | ¿Qué quiere medir? ¿Energía eléctrica, calor, o ambas?          | Define el tipo de equipo (kWh / calorímetro / analizador)   |
+| 2  | ¿Es monofásico o trifásico?                                      | Contadores distintos según la red                           |
+| 3  | ¿Necesita comunicación? ¿Modbus, M-Bus, Ethernet?               | Define si solo lectura local o integración en SCADA/BMS     |
+| 4  | ¿Tiene transformador de corriente (TC) instalado o va directo?   | Para >63A se necesita TC externo + contador indirecto       |
+| 5  | ¿Para qué se va a usar el dato? ¿Facturación / auditoría / PLC? | Define la precisión y las homologaciones necesarias          |
+
+CONSEJO: Los contadores de energía kWh en carril DIN de ABB (serie B21/B23) son
+los más sencillos y económicos para subcontaje — se instalan en cualquier cuadro
+existente con un TC en la fase y dan el consumo acumulado con un pulso por kWh.
+Para industria con muchos puntos de medida, Schneider PM y Circutor CVM dan una
+solución completa con comunicación Modbus — un solo cable conecta todos los contadores
+al sistema de gestión energética.
+El calorímetro es un producto especializado que raramente se vende en mostrador
+— casi siempre va dentro de un proyecto de instalación de calefacción o climatización.
+
+============================================================
+Fuentes:
+- ABB contadores: https://new.abb.com/low-voltage/es/productos/medicion-de-energia
+- Schneider PM: https://www.se.com/es/es/product-subcategory/power-meters/
+- Circutor: https://circutor.es/es/productos/medicion-y-analizadores
+============================================================

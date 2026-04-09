@@ -1,0 +1,113 @@
+CUADRO RESUMEN — ACCESORIOS PARA SENSORES Y DETECTORES: CABLES, REFLECTORES, SOPORTES
+Familia: Electricidad > Aparellaje eléctrico > Detectores proximidad y fotocelulas
+Ejemplo en Araiz: Omron ref. XS2F-M12PVC4A5M (Cable sensor M12 4 pines PVC 5m)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"cable sensor M12 conector tipos" o "reflector fotocélula catadióptrico montaje"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Este cuadro agrupa todos los accesorios necesarios para instalar y conectar
+sensores de proximidad y fotocélulas. El sensor es el equipo principal, pero
+sin estos accesorios no se puede montar ni conectar a la máquina.
+
+**1. CABLES PRECONECTORIZADOS SENSOR-ACTUADOR (~365 art.)**
+Cables con conector M8 o M12 en un extremo que se conectan al sensor, y cable
+libre en el otro que va al cuadro de control. Son el accesorio más pedido.
+
+Tipos por conector:
+- **M8 3 pines**: Para sensores compactos (inductivos M8, fotocélulas mini).
+- **M12 4 pines**: El estándar — para el 80% de los sensores industriales.
+- **M12 5 pines**: Para sensores con doble salida o función IO-Link.
+- **M12 8 pines**: Para cortinas de seguridad y equipos complejos.
+
+Tipos por forma:
+- Recto: conector recto perpendicular al cable.
+- Acodado: conector a 90° — para espacios reducidos.
+
+Longitudes estándar: 1m, 2m, 3m, 5m, 10m.
+Marcas: Omron (XS2F), Telemecanique (XZCP), Eaton.
+
+**2. ACCESORIOS DE MONTAJE PARA SENSORES (~390 art.)**
+Soportes, abrazaderas, escuadras y tuercas para fijar sensores a la máquina:
+- Soportes para sensores cilíndricos (M8, M12, M18, M30).
+- Escuadras para fotocélulas.
+- Abrazaderas ajustables.
+- Tuercas de fijación de repuesto.
+Marcas: Omron, Telemecanique.
+
+**3. REFLECTORES PARA FOTOCÉLULAS (~68 art.)**
+Espejos catadióptricos que devuelven el haz de luz en fotocélulas réflex.
+Se montan enfrente de la fotocélula. Tipos:
+- Redondos pequeños (Ø20-40mm): Para distancias cortas (<3m).
+- Cuadrados/rectangulares: Para distancias largas (hasta 15m).
+- Con cinta adhesiva: Para montaje rápido.
+- De esquina: Para montaje en esquinas con ángulo.
+Marcas: Omron (E39-R), Telemecanique (XUZC).
+
+**4. CONECTORES SUELTOS M8/M12 (~44 art.)**
+Conectores macho o hembra para cablear en campo. Se usan cuando el cable
+estándar no tiene la longitud o configuración necesaria.
+Marcas: Telemecanique, Omron.
+
+Lo que facilita:
+- Conectar sensores rápidamente con cables preconectorizados (sin cablear).
+- Montar sensores de forma segura y ajustable en la máquina.
+- Reemplazar cables y reflectores dañados sin cambiar el sensor.
+
+Lo que evita que ocurra:
+- Errores de cableado (los cables preconectorizados tienen codificación por pines).
+- Fallos de detección por reflector sucio o dañado (repuesto fácil).
+- Movimiento del sensor por fijación inadecuada (soportes ajustables).
+
+============================================================
+
+MODELOS EN ARAIZ (~900 artículos)
+--------------------------------------------------------------
+| Tipo                     | Marca           | Serie               | Para qué                      |
+|--------------------------|-----------------|---------------------|-------------------------------|
+| Cable M12 4p recto 2m    | Omron           | XS2F-M12PVC4A2M      | Conexión sensor estándar      |
+| Cable M12 4p acodado 5m  | Omron           | XS2F-M12PVC4A5M-90   | Espacios reducidos            |
+| Cable M8 3p recto        | Omron           | XS3F-M8PVC3A         | Sensores compactos M8         |
+| Cable M12 4p recto       | Telemecanique   | XZCP1141L2            | Cable Telemecanique           |
+| Cable M12 4p acodado     | Telemecanique   | XZCP1241L5            | Cable acodado Schneider       |
+| Cable M12 8p             | Omron           | XS2F-M12PUR8A        | Cortinas seguridad            |
+| Soporte sensor M12       | Omron           | E39-L1xx              | Escuadra fijación M12         |
+| Soporte sensor M18       | Omron           | E39-L1xx              | Escuadra fijación M18         |
+| Soporte fotocélula       | Telemecanique   | XUZB, XUZA            | Soporte para XUB              |
+| Reflector redondo        | Omron           | E39-R1                | Réflex corta distancia        |
+| Reflector cuadrado       | Omron           | E39-R9                | Réflex larga distancia        |
+| Reflector                | Telemecanique   | XUZC50                | Réflex Schneider              |
+| Conector M12 hembra      | Telemecanique   | XZCC12FDM40B          | Conector suelto campo         |
+| Conector M12 macho       | Omron           | XS2G-M12              | Conector suelto Omron         |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                | Por qué la necesitas                                          |
+|----|----------------------------------------------------------|------------------------------------------------------------- |
+| 1  | Para qué sensor es? (marca y modelo)                   | Los cables/soportes son específicos                           |
+| 2  | Conector M8 o M12? Cuántos pines? (3, 4, 5, 8)        | Define el cable                                               |
+| 3  | Recto o acodado?                                        | Depende del espacio de montaje                                |
+| 4  | Qué longitud? (1m, 2m, 3m, 5m, 10m)                   | Longitudes estándar disponibles                               |
+| 5  | Reflector: qué tamaño? A qué distancia está la fotocélula?| Mayor distancia → reflector más grande                     |
+
+CONSEJO: Los cables M12 son el accesorio que MÁS se vende junto con los sensores.
+Si un cliente pide un sensor con conector (sin cable integrado), SIEMPRE
+preguntarle si necesita el cable. Es el olvido más frecuente.
+Los cables Omron XS2F y Telemecanique XZCP son compatibles mecánicamente
+(conector M12 estándar) pero las calidades del cable difieren.
+Los reflectores se ensucian y se pierden — es un repuesto recurrente.
+Para cables de más de 10m: se puede usar cable + conector suelto y cablear
+en campo, o empalmar con un distribuidor de campo.
+
+============================================================
+Fuentes:
+- Omron cables XS2F: https://www.omron.es/es/products/family/3432
+- Omron reflectores E39: https://www.omron.es/es/products/family/3195
+- Telemecanique cables: https://www.se.com/es/es/product-range/1008-osisense-xu/
+============================================================

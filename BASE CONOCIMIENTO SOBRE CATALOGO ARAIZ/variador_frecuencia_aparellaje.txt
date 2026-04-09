@@ -1,0 +1,119 @@
+CUADRO RESUMEN — VARIADOR DE FRECUENCIA APARELLAJE (PowerXL / Altivar / Optidrive)
+Familia: Electricidad > Aparellaje eléctrico > Arrancadores e inversores
+Ejemplo en Araiz: Eaton ref. DA1-12011FB-A20C (Variador PowerXL DA1 5,5kW 400V trifásico)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"qué es un variador de frecuencia para qué sirve" o "variador frecuencia motor bomba ahorro energía"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Un variador de frecuencia (VFD — Variable Frequency Drive, también llamado inversor
+o convertidor de frecuencia) es un equipo electrónico que controla la velocidad de
+un motor eléctrico cambiando la frecuencia y la tensión de la corriente que le llega.
+
+Principio básico:
+- La velocidad de un motor AC depende de la frecuencia de la red: a 50 Hz gira a
+  su velocidad nominal (por ejemplo 1.450 rpm para un motor de 4 polos).
+- El variador convierte la corriente de red (50 Hz fija) en corriente de frecuencia
+  variable (de 0 Hz a 100 Hz o más) → el motor puede girar de 0 a doble velocidad.
+
+NOTA sobre este grupo en Araiz:
+En este grupo de "Arrancadores e inversores" están los variadores de la familia
+de aparellaje eléctrico — principalmente Eaton PowerXL (412 art.) y algunos Omron
+sin clasificar. Los variadores Omron (series V1000, J1000, A1000) están también
+en el grupo de Autómatas — cubren el mismo producto desde distintas familias del
+catálogo. Aquí describimos los variadores orientados a aplicaciones industriales
+generales (bombas, ventiladores, transportadores).
+
+Ventajas del variador sobre el arranque directo:
+- **Velocidad variable**: la bomba puede ir al 60%, 80% o al 100% según la demanda real.
+- **Ahorro energético**: una bomba al 80% de velocidad consume un 50% menos de energía
+  (ley del cubo: potencia ∝ velocidad³).
+- **Arranque suave total**: sin pico de corriente, sin golpe mecánico, rampa ajustable.
+- **Protecciones integradas**: sobrecorriente, sobretemperatura, subtensión, etc.
+
+Aplicaciones habituales:
+- Bombas de agua (caudal variable según demanda)
+- Ventiladores y climatización (velocidad variable según temperatura o presión)
+- Compresores (regulación de caudal de aire)
+- Cintas transportadoras (velocidad de proceso ajustable)
+- Grúas y elevadores (control preciso de velocidad de bajada/subida)
+
+============================================================
+
+DIFERENCIA CLAVE: VARIADOR vs ARRANCADOR SUAVE
+--------------------------------------------------------------
+| Característica           | Variador de frecuencia      | Arrancador suave           |
+|--------------------------|-----------------------------|----------------------------|
+| Control velocidad        | Sí (todo el tiempo)         | No (solo en arranque/paro) |
+| Ahorro energético        | Alto (si la carga varía)    | Solo en el arranque        |
+| Coste                    | Mayor                       | Menor                      |
+| Complejidad              | Mayor (más parámetros)      | Menor                      |
+| Genera armónicos red     | Sí (necesita filtro EMC)    | En menor medida            |
+| Aplicación óptima        | Velocidad variable siempre  | Velocidad fija, arranque ok|
+
+REGLA PRÁCTICA:
+- ¿El motor va siempre a la misma velocidad y solo necesitas arrancar bien? → Arrancador suave
+- ¿El motor necesita ir a distintas velocidades según la demanda? → Variador de frecuencia
+- ¿Necesitas máximo ahorro en bombas o ventiladores con carga variable? → Variador siempre
+
+============================================================
+
+GAMAS PRINCIPALES EN ARAIZ (~712 artículos)
+--------------------------------------------------------------
+| Marca           | Gama                   | Referencias tipo              | Potencia          |
+|-----------------|------------------------|-------------------------------|-------------------|
+| Eaton           | PowerXL DA1            | DA1-12011FB-A20C              | 0,37 kW a 90 kW   |
+| Eaton           | PowerXL DE1 (básico)   | DE1-12011FB-N20N              | 0,37 kW a 11 kW   |
+| Eaton           | PowerXL DG1 (avanzado) | DG1-34016FB-C54C              | 0,75 kW a 630 kW  |
+| Omron           | J1000 / V1000 / A1000  | J1000-CIMR-JC, V1000          | 0,1 kW a 132 kW   |
+
+SELECCIÓN POR POTENCIA (Eaton PowerXL DA1):
+| Potencia motor  | Corriente motor | Referencia tipo   |
+|-----------------|-----------------|-------------------|
+| 0,75 kW         | 2,3 A           | DA1-12003FB       |
+| 2,2 kW          | 5,5 A           | DA1-12006FB       |
+| 5,5 kW          | 12 A            | DA1-12011FB       |
+| 11 kW           | 23 A            | DA1-12023FB       |
+| 22 kW           | 44 A            | DA1-12044FB       |
+| 45 kW           | 90 A            | DA1-12090FB       |
+
+PARÁMETROS BÁSICOS QUE SIEMPRE SE CONFIGURAN:
+| Parámetro          | Qué hace                                    | Valor típico         |
+|--------------------|---------------------------------------------|----------------------|
+| Frecuencia mínima  | Velocidad mínima del motor                  | 5-10 Hz              |
+| Frecuencia máxima  | Velocidad máxima del motor                  | 50 Hz (60 Hz USA)    |
+| Tiempo rampa acel. | Cuánto tarda en llegar a velocidad nominal  | 5-30 segundos        |
+| Tiempo rampa decel.| Cuánto tarda en frenar hasta parar          | 5-30 segundos        |
+| Corriente nominal  | La del motor (placa de características)     | Según motor          |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                        | Por qué la necesitas                                         |
+|----|-----------------------------------------------------------------|--------------------------------------------------------------|
+| 1  | ¿Cuántos kW tiene el motor? (o amperios de placa)              | Define la talla del variador                                 |
+| 2  | ¿La red es monofásica 230V o trifásica 400V?                   | Hay variadores mono y trifásicos — no son intercambiables    |
+| 3  | ¿Qué aplicación? ¿Bomba, ventilador, transportadora, otro?      | Algunos variadores tienen modos específicos preconfigurados  |
+| 4  | ¿Necesita comunicación? (Modbus, PROFINET, CAN, DeviceNet)      | Define si necesita tarjeta de comunicación extra             |
+| 5  | ¿Hay filtro EMC en el cuadro o tiene que llevarlo el variador?  | Los variadores generan interferencias — el filtro es obligat.|
+| 6  | ¿La instalación es en zona con riesgo de polvo o humedad?       | Define el grado IP necesario (algunos llevan IP66 de fábrica)|
+
+CONSEJO: El Eaton PowerXL DA1 es el variador de aparellaje más vendido en Araiz
+para aplicaciones industriales generales. Es plug-and-play: con poner la corriente
+del motor y los tiempos de rampa ya funciona en la mayoría de las aplicaciones.
+Si el cliente viene con un variador quemado de otra marca, pedir siempre la potencia
+del motor (kW), la tensión de red (230V mono / 400V trifásico) y si necesita
+comunicación por bus — con esos tres datos se puede encontrar el equivalente.
+El filtro EMC es obligatorio en muchas aplicaciones para cumplir la normativa CE —
+verificar si el variador lo lleva integrado o hay que pedirlo aparte.
+
+============================================================
+Fuentes:
+- Eaton PowerXL: https://www.eaton.com/es/es-es/catalog/variable-frequency-drives.html
+- Omron variadores: https://industrial.omron.es/es/products/drives
+============================================================

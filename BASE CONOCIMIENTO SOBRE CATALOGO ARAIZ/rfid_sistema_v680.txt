@@ -1,0 +1,98 @@
+CUADRO RESUMEN — SISTEMA RFID V680 (IDENTIFICACIÓN POR RADIOFRECUENCIA)
+Familia: Electricidad > Aparellaje eléctrico > Autómatas programables y robots industriales
+Ejemplo en Araiz: Omron ref. V680SHMD63EIP (Antena 50x50 + controlador Ethernet IP67 24V CC)
+============================================================
+
+IMAGEN DEL PRODUCTO:
+https://www.ia.omron.com/products/family/2506/
+
+VÍDEO / REFERENCIA TÉCNICA:
+https://industrial.omron.co.uk/en/products/v680
+
+Búsqueda recomendada en YouTube (español):
+"RFID industrial qué es para qué sirve" o "Omron V680 RFID trazabilidad palés"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+RFID (Radio Frequency IDentification — Identificación por Radiofrecuencia) es una
+tecnología que permite identificar objetos sin contacto visual y sin necesitar que
+el código esté visible: una antena lectora/escritora emite una señal de radio, y cuando
+una etiqueta RFID (llamada tag o transponder) entra en el campo, responde con su
+identificador único. A diferencia del código de barras (que necesita línea de visión
+y está impreso), la etiqueta RFID puede ir embebida dentro del objeto, en condiciones
+de suciedad, orientación cualquiera y puede leerse a distancias de 5-15 cm. El sistema
+V680 de Omron incluye cabezal lector/escritor + controlador + etiquetas reescribibles
+(se pueden escribir datos en la etiqueta, no solo leerla).
+
+Lo que facilita:
+- Identificar palés, cubetas, herramientas o piezas en proceso sin etiqueta visible:
+  la tag va dentro del palet o sujeta con tornillo en la pieza.
+- Rastrear el recorrido de cada pieza por las estaciones de trabajo: cada vez que
+  pasa por una antena, el sistema registra dónde está y qué operación se ha hecho.
+- Escribir datos en la etiqueta en tiempo real: la estación de trabajo graba en la
+  tag los parámetros del proceso (temperatura alcanzada, resultado de test...).
+- Identificar herramientas en cambios automáticos de útil: el robot o la máquina
+  lee la tag del útil y configura los parámetros correctos automáticamente.
+- Distancias de lectura sin contacto: 5-15 cm sin necesitar alinear nada.
+
+Lo que evita que ocurra:
+- Confusión de piezas similares: aunque dos piezas sean idénticas visualmente,
+  cada una tiene una tag con ID único — nunca se confunden.
+- Etiquetas de código de barras ilegibles por suciedad, aceite o desgaste: la tag
+  RFID funciona en entornos con aceite, agua, virutas y temperaturas extremas.
+- Registros manuales con errores: la identificación es automática y sin intervención
+  del operario.
+
+============================================================
+
+DIFERENCIA CLAVE: RFID vs CÓDIGO DE BARRAS
+--------------------------------------------------------------
+| Característica          | RFID V680 (este)                 | Código de barras / QR            |
+|-------------------------|----------------------------------|----------------------------------|
+| Necesita visión directa | No — funciona a través de objetos| Sí — el código debe estar visible|
+| Distancia lectura       | 5-15 cm                          | 0-50 cm (lector fijo)            |
+| Escritura en campo      | Sí — la tag es re-escribible     | No — el código es estático       |
+| Resistencia entorno     | Alta — sin deterioro visible     | Se deteriora con suciedad/agua   |
+| Coste tag               | Alto (1-5 € por tag)             | Muy bajo (papel impreso)         |
+| Para qué                | Trazabilidad alta gama, útiles   | Trazabilidad estándar, envases   |
+
+============================================================
+
+COMPONENTES DEL SISTEMA V680
+--------------------------------------------------------------
+| Componente                | Función                                      | Ejemplo ref.          |
+|--------------------------|----------------------------------------------|-----------------------|
+| Controlador V680-CA5D     | Interfaz entre antena y PLC (Ethernet/IP)    | V680SHMD63EIP         |
+| Controlador Profinet      | Interfaz para redes Siemens PROFINET         | V680SHMD63PNT         |
+| Antena de lectura         | Emite RF y lee/escribe en las tags           | Incluida en V680SHM   |
+| Tag / Transponder         | Etiqueta RFID que va en el objeto            | V680-D□ (varios tipos)|
+
+NOTA: El sistema V680 opera en la banda 13,56 MHz (HF/ISO 15693) — frecuencia
+habitual para distancias cortas en entornos industriales.
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                               | Por qué la necesitas                                          |
+|----|--------------------------------------------------------|---------------------------------------------------------------|
+| 1  | ¿Para qué quiere usar RFID? (trazabilidad, útiles...)  | Define la aplicación y el tipo de tag más adecuado            |
+| 2  | ¿A qué distancia va a leer la tag?                     | Hasta 15 cm con V680 estándar — si necesita más → otra gama   |
+| 3  | ¿Necesita leer solo o también escribir en la tag?      | V680 permite escritura — confirmar si la necesita             |
+| 4  | ¿Qué protocolo de red tiene el PLC? (Ethernet/IP, PROFINET)| Define el modelo de controlador: EIP o PNT                |
+| 5  | ¿Cuántas antenas necesita? (cuántas estaciones)        | 1 controlador V680 puede manejar hasta 2 antenas              |
+| 6  | ¿La tag va a estar en un entorno agresivo? (aceite, temp)| Confirmar que el modelo de tag resiste ese entorno           |
+
+CONSEJO: El RFID es una solución de trazabilidad avanzada que se vende en proyectos,
+no como producto de catálogo estándar. Cuando un cliente pregunta por RFID, es casi
+siempre para un proyecto concreto de mejora de trazabilidad o cambio automático de
+útiles. Poner en contacto con el equipo técnico de Omron para la selección y
+dimensionamiento correcto del sistema.
+
+============================================================
+Fuentes:
+- Omron V680 (oficial): https://www.ia.omron.com/products/family/2506/
+- TME V680SHMD63EIP: https://www.tme.com/us/en-us/details/v680s-hmd63-etni/rfid-systems/omron/
+============================================================

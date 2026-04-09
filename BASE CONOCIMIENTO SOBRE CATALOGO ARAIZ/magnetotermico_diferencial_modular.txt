@@ -1,0 +1,118 @@
+CUADRO RESUMEN — MAGNETOTÉRMICO Y DIFERENCIAL MODULAR (iC60 / DS201 / PKN / RCBO)
+Familia: Electricidad > Aparellaje eléctrico > Interruptor y conmutador manual
+Ejemplo en Araiz: Eaton ref. PKN6-10 (PXK 10A C 6kA 1P magnetotérmico modular)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"qué es un magnetotérmico diferencial diferencia" o "RCBO combinado diferencial magnetotérmico instalación"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Este grupo cubre tres tipos de protecciones modulares para cuadros eléctricos:
+
+**1. Magnetotérmico (MCB — Miniature Circuit Breaker)**
+Protege contra dos problemas: sobrecarga (exceso de corriente mantenido) y cortocircuito
+(corriente muy alta instantánea). Tiene dos mecanismos: uno térmico (bimetálico) que
+actúa lento para sobrecargas, y uno magnético que actúa instantáneamente en cortocircuito.
+No protege contra corrientes de fuga a tierra (contactos indirectos).
+
+**2. Diferencial puro (RCCB — Residual Current Circuit Breaker)**
+Protege contra fugas de corriente a tierra: detecta si la corriente que entra
+es diferente a la que sale (diferencia = fuga). Protege personas de electrocución
+(contacto con una parte en tensión). No protege contra sobrecargas ni cortocircuitos —
+necesita ir siempre con un magnetotérmico delante.
+
+**3. Combinado diferencial+magnetotérmico (RCBO)**
+Integra ambas funciones en un solo módulo de 1 o 2 módulos de ancho DIN.
+Es la solución más habitual en instalaciones domésticas y terciarias actuales —
+un solo elemento protege contra fuga, sobrecarga y cortocircuito.
+Eaton domina este grupo en Araiz con su gama PXK/xPole (681 art.) + ABB DS201 (202 art.)
+
+Lo que facilita:
+- Protección de circuitos en cuadros domésticos, oficinas, locales comerciales.
+- Cumplimiento del REBT (Reglamento Electrotécnico de Baja Tensión) en España.
+- Cuadros más compactos: el RCBO ocupa 1-2 módulos en vez de 2 dispositivos separados.
+- Coordinación protección-vida: el diferencial (30mA) salva vidas; el magneto protege la instalación.
+
+Lo que evita que ocurra:
+- Electrocución por contacto indirecto (el diferencial corta en milisegundos).
+- Incendios por sobrecarga mantenida (el bimetálico corta antes de que el cable se caliente).
+- Daño de equipos por cortocircuito (el magnético corta en microsegundos).
+
+============================================================
+
+DIFERENCIA CLAVE: MCB vs RCCB vs RCBO
+--------------------------------------------------------------
+| Característica           | MCB (magnetotérmico)  | RCCB (diferencial puro) | RCBO (combinado)       |
+|--------------------------|-----------------------|-------------------------|------------------------|
+| Protege sobrecarga       | Sí                    | No                      | Sí                     |
+| Protege cortocircuito    | Sí                    | No                      | Sí                     |
+| Protege fuga a tierra    | No                    | Sí (30mA / 300mA)       | Sí                     |
+| Módulos DIN que ocupa    | 1 (1P) o 2 (1P+N)    | 2-4 polos               | 1-2 módulos (1P+N)     |
+| Precio relativo          | Bajo                  | Medio                   | Alto                   |
+| Instalación doméstica    | Líneas sin tierra     | Solo con MCB delante    | Solución completa      |
+
+SENSIBILIDADES DIFERENCIALES:
+| Sensibilidad | Tipo         | Protege contra                              | Uso típico                      |
+|--------------|--------------|---------------------------------------------|---------------------------------|
+| 10 mA        | Alta sens.   | Personas en entornos húmedos                | Piscinas, obras, baños          |
+| 30 mA        | Estándar     | Personas (electrocución)                    | Doméstico / terciario (obligat.)|
+| 300 mA       | Selectivo    | Incendios (fuga pequeña mantenida)          | Cabecera cuadro industrial      |
+| 1.000 mA     | Muy selectivo| Coordinar con diferenciales de 300mA        | Cuadros generales               |
+
+CURVAS DE DISPARO (magnetotérmico):
+| Curva | Disparo instantáneo | Uso típico                                    |
+|-------|---------------------|-----------------------------------------------|
+| B     | 3-5 × In            | Doméstico, cables largos, cargas resistivas   |
+| C     | 5-10 × In           | Uso general, motores pequeños, iluminación    |
+| D     | 10-20 × In          | Motores, transformadores, cargas con pico     |
+
+============================================================
+
+GAMAS PRINCIPALES EN ARAIZ (~1.284 artículos)
+--------------------------------------------------------------
+| Marca  | Gama                   | Tipo   | Referencias tipo          | Polos    | In típica  |
+|--------|------------------------|--------|---------------------------|----------|------------|
+| Eaton  | xPole / PXK            | RCBO   | PKNA-10, PKN6-10C         | 1P / 1P+N| 6A a 40A   |
+| Eaton  | ComboDiff              | RCBO   | ComboDiff 10A-30mA        | 1P+N     | 10A a 40A  |
+| ABB    | DS201 / DS201L         | RCBO   | DS201 C16 AC30 / DS201L   | 1P+N     | 6A a 63A   |
+| ABB    | SH201 / SH202          | MCB    | SH201-C16, SH202-C25      | 1P / 2P  | 6A a 63A   |
+| Eaton  | PXK+PKNM (dif. puro)   | RCCB   | PKNM-25/2/003-A           | 2P / 4P  | 25A a 63A  |
+
+NOTA IMPORTANTE SOBRE ESTE GRUPO EN ARAIZ:
+Hager y Schneider (las dos marcas más vendidas en doméstico en España) tienen muy
+pocos artículos en este grupo de "Interruptor y conmutador manual" en Araiz.
+Sus magnetotérmicos y diferenciales están en otra sección del catálogo o no son
+la gama principal de Araiz. Araiz es una empresa orientada a automatización industrial,
+no tanto a cuadros domésticos, por eso Eaton y ABB dominan aquí.
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                        | Por qué la necesitas                                         |
+|----|-----------------------------------------------------------------|--------------------------------------------------------------|
+| 1  | ¿Necesita magnetotérmico solo, diferencial solo o combinado?    | Define el tipo de producto                                   |
+| 2  | ¿Cuántos amperios? (la corriente nominal)                       | Define el tamaño (In: 6, 10, 16, 20, 25, 32, 40, 63A)       |
+| 3  | ¿Cuántos polos? 1P / 1P+N / 2P / 4P                            | 1P+N es lo habitual para RCBO doméstico                      |
+| 4  | ¿Qué curva de disparo? B / C / D                               | C es la más habitual; D para motores                         |
+| 5  | ¿Qué sensibilidad diferencial? 10 / 30 / 300 mA                | 30mA es obligatorio para doméstico en España (REBT)          |
+| 6  | ¿Qué tipo de diferencial? AC / A / F                            | AC para corriente alterna; A para circuitos con electrónica  |
+| 7  | ¿Cuál es el poder de corte? (kA)                               | 6kA estándar; 10kA si está cerca del transformador           |
+
+CONSEJO: En instalaciones domésticas y terciarias el RCBO (combinado) es lo que más
+se vende actualmente porque el REBT exige diferencial por circuito. El cliente que
+compra para una reforma normalmente necesita: 1 diferencial general de cabecera (RCCB
+63A/300mA) + RCBOs de 16A o 20A por circuito.
+Si el presupuesto es ajustado y el cuadro tiene pocos circuitos, a veces se opta por
+MCB + 1 RCCB general — es más barato pero menos selectivo (si hay fuga en un circuito,
+salta todo el diferencial general).
+
+============================================================
+Fuentes:
+- Eaton xPole: https://www.eaton.com/es/es-es/catalog/miniature-circuit-breakers.html
+- ABB DS201: https://new.abb.com/low-voltage/es/productos/aparamenta/rcbo
+- REBT ITC-BT-22 (protección sobreintensidades): BOE vigente
+============================================================

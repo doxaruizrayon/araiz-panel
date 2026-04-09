@@ -1,0 +1,107 @@
+CUADRO RESUMEN — BASTIDOR / RACK CPU (PLC MODULAR)
+Familia: Electricidad > Aparellaje eléctrico > Autómatas programables
+Ejemplo en Araiz: Omron ref. 135558 (CS1W-BC053 — rack CPU 5 ranuras, serie CS1)
+============================================================
+
+IMAGEN DEL PRODUCTO:
+https://www.ia.omron.com/products/family/159/
+
+VÍDEO / REFERENCIA TÉCNICA:
+https://es.rs-online.com/web/p/bastidores-para-plc/0285946
+
+Búsqueda recomendada en YouTube (español):
+"rack CPU PLC Omron CS1 instalación módulos" o "bastidor PLC modular montaje ranuras"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+El bastidor o rack de CPU es la estructura base del PLC modular donde se insertan
+físicamente todos los módulos del sistema: la CPU, las tarjetas de I/O (entradas y
+salidas), los módulos de comunicaciones y los de funciones especiales. Actúa como
+la "columna vertebral" del PLC: proporciona alimentación eléctrica a todos los módulos
+insertados, el bus de datos interno para que se comuniquen entre sí, y la sujeción
+mecánica de todos los componentes. El ref. 135558 (CS1W-BC053) es el bastidor de
+5 ranuras para la serie CS1 de Omron, con una anchura de 330 mm.
+
+Lo que facilita:
+- Albergar físicamente la CPU y hasta 4 módulos adicionales (en este modelo de 5 ranuras)
+  en una estructura compacta y ordenada sobre carril DIN o montaje en panel.
+- Ampliar el sistema añadiendo racks de expansión conectados al bastidor principal.
+- Distribuir la alimentación del bus interno a todos los módulos insertados.
+- Organizar el PLC de forma clara: cada módulo ocupa su ranura y queda perfectamente
+  identificado por su posición física.
+
+Lo que evita que ocurra:
+- Que los módulos queden sueltos o mal conectados al bus del PLC.
+- Pérdidas de comunicación entre la CPU y los módulos de I/O por conexión deficiente.
+- Confusión en el cableado: cada módulo está en su posición numerada.
+- Que se mezclen módulos de familias incompatibles: el bastidor CS1 solo acepta
+  módulos CS1/CS1D — garantiza compatibilidad física y eléctrica.
+
+============================================================
+
+DIFERENCIA CON OTROS BASTIDORES OMRON
+--------------------------------------------------------------
+| Bastidor              | Ranuras | Serie PLC | Expansión        | Cuándo usarlo                                |
+|-----------------------|---------|-----------|------------------|----------------------------------------------|
+| CS1W-BC023 (2 ranuras)| 2       | CS1       | Hasta 7 racks exp.| Configuraciones muy pequeñas                 |
+| CS1W-BC053 (ref.135558)| 5      | CS1       | Hasta 7 racks exp.| Aplicaciones medianas, más módulos en 1 rack |
+| CS1W-BC083 (8 ranuras)| 8       | CS1       | Hasta 7 racks exp.| Aplicaciones grandes con muchos módulos      |
+| CS1W-BC103 (10 ranuras)| 10     | CS1       | Hasta 7 racks exp.| Aplicaciones muy grandes                     |
+| CJ-series backplane   | —       | CJ1/CJ2   | Estructura diferente| Para PLCs CJ — formato más compacto sin rack|
+
+El CJ no usa rack: los módulos se encadenan directamente entre sí.
+El CS1 usa bastidor rígido con ranuras fijas.
+
+============================================================
+
+CARACTERÍSTICAS TÉCNICAS BÁSICAS A SABER
+--------------------------------------------------------------
+| Parámetro                    | Qué significa                                    | Valor ref. 135558 / CS1W-BC053 (Omron)        |
+|------------------------------|--------------------------------------------------|-----------------------------------------------|
+| Número de ranuras            | Módulos que caben en el bastidor                 | 5 ranuras (1 CPU + 4 módulos I/O/com)         |
+| Serie compatible             | PLCs que pueden usar este bastidor               | CS1 / CS1D                                    |
+| Anchura                      | Dimensión horizontal del bastidor                | 330 mm                                        |
+| Ranuras de expansión         | Racks adicionales que puede conectar             | Hasta 7 racks de expansión adicionales        |
+| Bus interno                  | Cómo se comunican los módulos entre sí           | Bus propietario CS1 (paralelo)                |
+| Alimentación bus             | Quién alimenta los módulos                       | Módulo de alimentación externo (PS-series)    |
+| Montaje                      | Cómo se instala                                  | Panel metálico o perfil DIN                   |
+
+============================================================
+
+TIPOLOGÍAS DE BASTIDORES PLC
+--------------------------------------------------------------
+| Tipología                        | Descripción                                                   | Cuándo se usa                                         |
+|----------------------------------|---------------------------------------------------------------|-------------------------------------------------------|
+| Bastidor CPU (este)              | Rack principal donde va la CPU + módulos                      | Siempre — es la base del sistema                      |
+| Bastidor de expansión            | Rack adicional conectado al principal por cable bus            | Cuando se necesitan más módulos de los que caben en 1 |
+| PLC compacto (sin rack)          | CPU con I/O integradas, sin expansión modular                 | Aplicaciones pequeñas y fijas                         |
+| Backplane CJ (sin rack rígido)   | Módulos que se unen directamente entre sí                     | PLC Omron serie CJ — más compacto y flexible          |
+| Bastidor redundante (CS1D)       | Rack especial para configuración redundante de CPU            | Instalaciones críticas que no pueden parar            |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                          | Por qué la necesitas                                                          |
+|----|-------------------------------------------------------------------|-------------------------------------------------------------------------------|
+| 1  | ¿Qué serie de PLC Omron tiene? (CS1, CJ1, CJ2...)                 | El bastidor es específico por serie — CS1W-BC053 solo vale para CS1          |
+| 2  | ¿Cuántos módulos necesita en total? (I/O + comunicaciones + otros) | Define cuántas ranuras necesita: 2, 5, 8 o 10                                |
+| 3  | ¿Es instalación nueva o ampliación/sustitución?                   | Si es sustitución → mismo número de ranuras que el bastidor actual           |
+| 4  | ¿Necesita racks de expansión adicionales?                         | Si tiene más módulos de los que caben → añadir bastidores de expansión       |
+| 5  | ¿Tiene módulo de alimentación PS-series?                          | El bastidor no incluye fuente — necesita módulo de alimentación aparte       |
+| 6  | ¿Necesita redundancia de CPU?                                     | Si sí → bastidor CS1D especial para configuración dual redundante            |
+
+CONSEJO: El bastidor CS1W-BC053 solo ocupa 5 ranuras pero permite expandir el sistema
+hasta 7 racks adicionales conectados por cable de bus. Si el cliente tiene muchos módulos,
+puede empezar con un rack de 5 e ir ampliando sin cambiar el bastidor principal.
+Verificar siempre que el módulo de alimentación (PS-series) está incluido en el pedido.
+
+============================================================
+Fuentes:
+- Ficha oficial Omron CS1W-BC053: https://www.ia.omron.com/products/family/159/
+- RS Online ref. 135558: https://es.rs-online.com/web/p/bastidores-para-plc/0285946
+- Omron CS1 System configuration: https://www.ia.omron.com/products/family/159/specification.html
+- Omron CS1 overview: https://automation.omron.com/en/us/products/family/cs1
+============================================================

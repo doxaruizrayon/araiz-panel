@@ -1,0 +1,98 @@
+CUADRO RESUMEN — PANTALLA HMI NA (NUEVA GENERACIÓN — TÁCTIL CAPACITIVO SYSMAC)
+Familia: Electricidad > Aparellaje eléctrico > Autómatas programables y robots industriales
+Ejemplo en Araiz: Omron ref. NA9W-KBA04 (Teclado externo para pantalla NA — accesorio)
+============================================================
+
+IMAGEN DEL PRODUCTO:
+https://www.ia.omron.com/products/family/3459/
+
+VÍDEO / REFERENCIA TÉCNICA:
+https://industrial.omron.co.uk/en/products/na-series
+
+Búsqueda recomendada en YouTube (español):
+"HMI Omron NA pantalla táctil capacitivo Sysmac Studio" o "diferencia NA NS Omron pantalla nueva generación"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+La serie NA es la pantalla HMI de nueva generación de Omron, diseñada específicamente
+para trabajar con los PLCs NJ/NX (la plataforma Sysmac actual). A diferencia de la NS
+(gama anterior), la NA tiene pantalla táctil capacitiva (como un smartphone, no de
+presión), mayor resolución, y se programa directamente desde Sysmac Studio — la misma
+herramienta que programa el PLC NJ/NX. Esto significa que variables del PLC y variables
+de la pantalla se comparten de forma nativa, sin necesidad de mapear direcciones de
+memoria manualmente. La NA soporta páginas web HTML5, visualizaciones SVG y se puede
+controlar desde navegador externo. Es la elección recomendada para cualquier instalación
+nueva con NJ/NX; la NS se mantiene para mantenimiento de instalaciones legacy con CS1/CJ1.
+
+Lo que facilita:
+- Programar PLC + pantalla desde una sola herramienta (Sysmac Studio): ahorra tiempo
+  y evita errores de mapeo de variables entre el PLC y la pantalla.
+- Táctil capacitivo: respuesta más suave y precisa que la NS resistiva — igual que
+  un tablet moderno, funciona con gestos multitouch.
+- Visualizaciones modernas: SVG vectorial, páginas HTML5 integradas en la pantalla,
+  gráficas de tendencias fluidas.
+- Acceso remoto al panel desde navegador: el operario puede ver la pantalla en su
+  tablet o PC sin necesidad de estar físicamente en la máquina.
+- Integración directa con variables NJ/NX: sin configurar tablas de comunicación
+  adicionales — el estudio comparte el mismo proyecto.
+
+Lo que evita que ocurra:
+- Doble programación: con la NS hay que programar el PLC en CX-Programmer y la
+  pantalla en CX-Designer por separado. Con la NA es un solo entorno Sysmac.
+- Pantallas desactualizadas en nuevas instalaciones: la NA tiene aspecto moderno y
+  soporte vigente de Omron; la NS es legacy aunque siga disponible.
+- Mapeo manual de variables: con la NS hay que asignar manualmente las direcciones
+  del PLC a los objetos de pantalla; con la NA es automático si usas Sysmac.
+
+============================================================
+
+DIFERENCIA CLAVE: NA (nueva generación) vs NS (legacy)
+--------------------------------------------------------------
+| Característica          | NA (nueva generación)            | NS (legacy, ya documentada)      |
+|-------------------------|----------------------------------|----------------------------------|
+| Táctil                  | Capacitivo (multitouch)          | Resistivo (presión)              |
+| Programación            | Sysmac Studio (mismo que NJ/NX)  | CX-Designer (CX-One separado)    |
+| PLC recomendado         | NJ/NX (Sysmac)                   | CS1/CJ1 (legacy) + NJ/NX        |
+| HTML5 / SVG             | Sí — páginas web integradas      | No                               |
+| Acceso remoto web       | Sí — desde navegador             | No                               |
+| Para instalaciones      | Nuevas con NJ/NX                 | Legacy CS1/CJ1 / sustitución     |
+
+============================================================
+
+MODELOS NA A CONOCER
+--------------------------------------------------------------
+| Modelo        | Pantalla | Resolución  | Para qué                                |
+|---------------|---------|-------------|-----------------------------------------|
+| NA5-7W□□□□□□ | 7"      | 800x480     | Máquinas compactas con NX1P2/NJ         |
+| NA5-9W□□□□□□ | 9"      | 800x480     | El más habitual — equilibrio tamaño     |
+| NA5-12W□□□□□□| 12"     | 1280x800    | Paneles de control avanzados            |
+| NA5-15W□□□□□□| 15"     | 1280x800    | Grandes instalaciones con NJ/NX         |
+
+ACCESORIO: NA9W-KBA04 — teclado externo USB para la NA, útil cuando el operario
+necesita introducir textos largos (referencias de producto, nombres de recetas).
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                               | Por qué la necesitas                                          |
+|----|--------------------------------------------------------|---------------------------------------------------------------|
+| 1  | ¿Qué PLC tiene o va a instalar?                        | NA → con NJ/NX (Sysmac) / NS → con CS1/CJ1 (legacy)         |
+| 2  | ¿Tiene Sysmac Studio o CX-One?                         | NA requiere Sysmac Studio; NS requiere CX-Designer (CX-One)  |
+| 3  | ¿Es instalación nueva o sustitución de pantalla?       | Sustitución NS → mismo modelo NS / Nueva → recomendar NA     |
+| 4  | ¿Qué tamaño de pantalla necesita?                      | 7" / 9" / 12" / 15" según espacio en el panel               |
+| 5  | ¿Necesita acceso remoto a la pantalla desde PC/tablet? | NA permite acceso web; la NS no                              |
+
+CONSEJO: Cuando un cliente instala un NJ/NX nuevo, recomendar siempre la NA — la
+integración con Sysmac Studio es muy superior y el aspecto es mucho más moderno.
+La NS se recomienda solo para sustitución de pantallas existentes o en instalaciones
+legacy CS1/CJ1 donde el programa ya está en CX-Designer. La NA no es compatible con
+programas CX-Designer: hay que reprogramar desde cero en Sysmac Studio.
+
+============================================================
+Fuentes:
+- Omron NA series (oficial): https://www.ia.omron.com/products/family/3459/
+- Omron Sysmac HMI: https://industrial.omron.co.uk/en/products/na-series
+============================================================

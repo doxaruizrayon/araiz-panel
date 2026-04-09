@@ -1,0 +1,99 @@
+CUADRO RESUMEN — PUNTO DE ACCESO WLAN INDUSTRIAL (WIFI INDUSTRIAL / IWLAN)
+Familia: Electricidad > Aparellaje eléctrico > Autómatas programables y robots industriales
+Ejemplo en Araiz: Siemens ref. SCALANCE WUB762-1 (Cliente IWLAN 2,4/5GHz 1 radio conector R-SMA)
+============================================================
+
+IMAGEN DEL PRODUCTO:
+https://www.siemens.com/es/es/productos/automatizacion/producto/scalance-w.html
+
+VÍDEO / REFERENCIA TÉCNICA:
+https://www.siemens.com/scalance-w
+
+Búsqueda recomendada en YouTube (español):
+"WiFi industrial SCALANCE IWLAN qué es diferencia WiFi oficina" o "red inalámbrica industrial PLC máquina móvil"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Un punto de acceso WLAN industrial (también llamado IWLAN o WiFi industrial) es un
+equipo de red inalámbrica diseñado para funcionar en entornos industriales: dentro
+de naves con interferencias electromagnéticas, temperatura extrema, vibraciones y
+humedad — donde un punto de acceso WiFi de oficina fallaría. A diferencia del WiFi
+doméstico, el WLAN industrial tiene protección IP65/IP67, antenas externas con mayor
+ganancia, soporte de handover rápido (la conexión no se pierde cuando una máquina
+se mueve de una celda a otra) y cifrado industrial (WPA2 con certificados). En el
+catálogo Araiz hay 83 artículos, principalmente Siemens SCALANCE W (64) y Phoenix
+Contact (19). La serie SCALANCE WUB/WUM son clientes IWLAN — se instalan en la
+máquina móvil (AGV, robot, vehículo) y se conectan al AP fijo instalado en la nave.
+
+Lo que facilita:
+- Conectar máquinas móviles (AGVs, robots, carros) al PLC o SCADA sin cable:
+  el cliente IWLAN va en la máquina y se conecta por WiFi a los APs de la nave.
+- Dar acceso remoto WiFi al PLC para programación o diagnóstico desde un tablet:
+  el operario programa o diagnostica el PLC desde cualquier punto de la nave.
+- Sustituir cableado Ethernet en instalaciones con partes móviles: grúas, mesas
+  rotativas, cintas con desplazamiento donde el cable no puede seguir el movimiento.
+- Transmitir datos de proceso en tiempo real desde máquinas sin cableado fijo:
+  datos de calidad, producción, alarmas — directamente al SCADA vía WiFi.
+
+Lo que evita que ocurra:
+- Pérdida de comunicación con la máquina al moverse: el handover rápido del SCALANCE
+  mantiene la conexión mientras la máquina se desplaza entre zonas de cobertura.
+- Interferencias de otros equipos WiFi en la comunicación industrial: el IWLAN
+  industrial usa canales y protocolos optimizados para entornos con mucha RF.
+- Cables de Ethernet que se rompen por flexión continua en partes móviles: la
+  conexión inalámbrica elimina el cable de datos en el punto de movimiento.
+
+============================================================
+
+DIFERENCIA CLAVE: WLAN INDUSTRIAL vs WIFI DOMÉSTICO/OFICINA
+--------------------------------------------------------------
+| Característica          | WLAN industrial (SCALANCE)       | WiFi doméstico/oficina           |
+|-------------------------|----------------------------------|----------------------------------|
+| Protección IP           | IP65/IP67 — exterior y nave      | IP20 — solo interior seco        |
+| Temperatura             | -20°C a +60°C                    | 0°C a +40°C                      |
+| Handover                | Rápido (<50ms) para máquinas     | Lento — no apto para movilidad   |
+| Interferencias          | Filtrado industrial              | Sin filtrado específico          |
+| Configuración           | Por software SINEMA RC / web     | App móvil simple                 |
+| Para qué                | Máquinas móviles, naves          | Oficinas, doméstico              |
+| Precio                  | Alto (300-1500€)                 | Bajo (20-200€)                   |
+
+============================================================
+
+MODELOS SIEMENS SCALANCE EN ARAIZ
+--------------------------------------------------------------
+| Modelo            | Tipo          | Bandas     | Para qué                              |
+|-------------------|---------------|------------|---------------------------------------|
+| SCALANCE WUB762-1 | Cliente IWLAN | 2,4/5GHz   | Máquina móvil / equipo en movimiento  |
+| SCALANCE WUM763-1 | Cliente+DI/DO | 2,4/5GHz   | Cliente con E/S digitales integradas  |
+| SCALANCE WAM763-1 | AP + cliente  | 2,4/5GHz   | Punto de acceso para la nave          |
+
+Phoenix Contact también tiene APs industriales en el catálogo para aplicaciones
+con PROFINET wireless.
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                               | Por qué la necesitas                                          |
+|----|--------------------------------------------------------|---------------------------------------------------------------|
+| 1  | ¿La máquina o equipo es fijo o se mueve?               | Fijo → router 4G / Móvil dentro de nave → WLAN industrial   |
+| 2  | ¿Qué equipos necesita conectar por WiFi?               | PLC, HMI, AGV, robot — define el cliente WLAN a instalar     |
+| 3  | ¿Hay ya infraestructura WiFi en la nave?               | Si no hay APs → hay que instalar también los puntos de acceso|
+| 4  | ¿Qué velocidad de datos necesita? ¿Tiempo real?         | Datos de proceso en tiempo real → verificar latencia IWLAN   |
+| 5  | ¿Es Siemens el PLC? ¿Usa PROFINET?                     | SCALANCE integra nativamente con PROFINET/SIMATIC            |
+
+CONSEJO: El WLAN industrial se vende principalmente en dos situaciones: (1) AGVs
+(vehículos de guiado automático) y robots móviles que necesitan comunicación
+continua con el sistema central mientras se desplazan por la nave, y (2) grúas
+o sistemas de transporte con partes móviles donde el cable Ethernet es inviable.
+Para acceso remoto desde internet (mantenimiento), el router 4G es más sencillo
+y económico. El WLAN industrial es para comunicación dentro de la nave, no para
+acceso externo.
+
+============================================================
+Fuentes:
+- Siemens SCALANCE W (oficial): https://www.siemens.com/es/es/productos/automatizacion/producto/scalance-w.html
+- Phoenix Contact WLAN: https://www.phoenixcontact.com/es-es/productos/comunicacion-inalambrica
+============================================================

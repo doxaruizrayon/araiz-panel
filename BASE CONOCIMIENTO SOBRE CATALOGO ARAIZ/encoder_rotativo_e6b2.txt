@@ -1,0 +1,112 @@
+CUADRO RESUMEN — ENCODER ROTATIVO INCREMENTAL E6B2 (CODIFICADOR DE POSICIÓN)
+Familia: Electricidad > Aparellaje eléctrico > Autómatas programables y robots industriales
+Ejemplo en Araiz: Omron ref. E6B2CWZ6C1000 (Incremental ABZ 1000 ppr NPN 5-24V CC cable 2m)
+============================================================
+
+IMAGEN DEL PRODUCTO:
+https://www.ia.omron.com/products/family/488/
+
+VÍDEO / REFERENCIA TÉCNICA:
+https://industrial.omron.co.uk/en/products/e6b2-cwz6c
+
+Búsqueda recomendada en YouTube (español):
+"encoder rotativo incremental qué es cómo funciona" o "Omron E6B2 conexión PLC contador"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Un encoder rotativo es un sensor que convierte el giro de un eje mecánico en señales
+eléctricas que indican cuánto ha girado y en qué dirección. Se acopla físicamente al
+eje a medir (motor, rodillo, cinta, husillo...) y genera pulsos eléctricos — un número
+fijo de pulsos por vuelta (ppr = pulsos por revolución). El PLC cuenta esos pulsos
+y calcula la posición, la velocidad o la distancia recorrida. El E6B2 de Omron es el
+encoder incremental más usado en automatización: eje de 6 mm, cuerpo de 40 mm, salida
+NPN o PNP con señales A, B y Z. Es incremental: sabe cuánto ha girado desde el inicio
+del conteo, pero pierde la referencia si se corta la tensión (hay que hacer referencia
+al arrancar). Para guardar posición sin alimentación → encoder absoluto.
+
+Lo que facilita:
+- Medir la posición de un eje, una cinta o un rodillo con el PLC: longitudes de corte,
+  velocidad de línea, ángulos de rotación, distancias de avance...
+- Controlar la velocidad de un motor con realimentación: el PLC compara la velocidad
+  real (del encoder) con la consigna y ajusta el variador de frecuencia.
+- Sincronizar dos ejes mecánicos: el PLC lee ambos encoders y ajusta uno respecto al otro
+  (seguimiento maestro-esclavo).
+- Contar piezas o ciclos en una máquina: un pulso por pieza → el PLC lleva el total.
+
+Lo que evita que ocurra:
+- Error de posición acumulado en sistemas sin realimentación: el encoder cierra el
+  bucle de control — el PLC sabe siempre la posición real, no la teórica.
+- Roturas de cadena o fallo de transmisión mecánica sin detectar: si el eje no gira
+  pero debería, el encoder no genera pulsos y el PLC puede generar alarma.
+
+============================================================
+
+DIFERENCIA CLAVE: ENCODER INCREMENTAL vs ENCODER ABSOLUTO
+--------------------------------------------------------------
+| Característica          | Incremental (E6B2)               | Absoluto (E6C3-A)                |
+|-------------------------|----------------------------------|----------------------------------|
+| Posición al arrancar    | Necesita hacer referencia (home) | Conoce la posición sin moverse   |
+| Señal de salida         | Pulsos A, B, Z (índice)          | Código binario / Gray            |
+| Precio                  | Más económico                    | Más caro                         |
+| Corte de tensión        | Pierde la posición               | La recuerda                      |
+| Para qué                | Velocidad, conteo, posic. relat. | Posición absoluta sin referencias|
+| Conexión PLC            | Módulo contador rápido           | Módulo contador / paralelo       |
+
+============================================================
+
+MODELOS E6B2 A CONOCER
+--------------------------------------------------------------
+| Modelo            | Resolución | Salida  | Tensión     | Cuándo usarlo                    |
+|-------------------|-----------|---------|-------------|----------------------------------|
+| E6B2-CWZ6C-360    | 360 ppr   | NPN     | 5-24V DC    | Velocidad, conteo básico         |
+| E6B2-CWZ6C-500    | 500 ppr   | NPN     | 5-24V DC    | Resolución media                 |
+| E6B2-CWZ6C-1000   | 1.000 ppr | NPN     | 5-24V DC    | El más habitual — buena resolución|
+| E6B2-CWZ5B-1000   | 1.000 ppr | PNP     | 12-24V DC   | PLCs con entradas PNP             |
+| E6B2-CWZ1X-1000   | 1.000 ppr | RS422   | 5V DC       | Distancias largas / alta velocidad|
+
+NOTA: A más ppr, más resolución de posición pero más frecuencia de pulsos → verificar
+que el módulo de contador del PLC aguanta la frecuencia máxima.
+
+============================================================
+
+CARACTERÍSTICAS TÉCNICAS BÁSICAS
+--------------------------------------------------------------
+| Parámetro                    | E6B2-CWZ6C-1000                               |
+|------------------------------|-----------------------------------------------|
+| Resolución                   | 1.000 pulsos por revolución (ppr)             |
+| Señales de salida            | A, B (cuadratura 90°) + Z (índice, 1 p/rev)  |
+| Tipo de salida               | NPN open collector                            |
+| Tensión alimentación         | 5-24V DC                                      |
+| Frecuencia máxima de respuesta| 100 kHz                                      |
+| Diámetro eje                 | 6 mm                                          |
+| Cuerpo                       | 40 mm de diámetro                             |
+| Conexión                     | Cable 2m o conector M12                       |
+| IP                           | IP50 (sin protección contra agua)             |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                               | Por qué la necesitas                                          |
+|----|--------------------------------------------------------|---------------------------------------------------------------|
+| 1  | ¿Para qué lo va a usar? (velocidad, posición, conteo)  | Define la resolución necesaria en ppr                         |
+| 2  | ¿Cuántos ppr necesita? ¿Qué precisión de medida?        | 360/500/1000/2000 ppr según la aplicación                    |
+| 3  | ¿Las entradas del PLC son NPN o PNP?                    | CWZ6C=NPN / CWZ5B=PNP — no es intercambiable                 |
+| 4  | ¿Qué tensión tiene el bus de señal? (5V o 12-24V DC)    | CWZ1X=5V / CWZ6C=5-24V — verificar compatibilidad           |
+| 5  | ¿Cuántos metros hay del encoder al PLC?                 | > 10m → RS422 (CWZ1X) para evitar pérdida de señal           |
+| 6  | ¿El eje tiene 6 mm de diámetro o necesita acoplamiento? | Si el eje es de otro diámetro → acoplamiento flexible E69-C  |
+
+CONSEJO: El E6B2-CWZ6C-1000 (NPN, 1000ppr, 5-24V, cable 2m) es el más vendido y
+cubre el 80% de las aplicaciones. Cuando el cliente pide "un encoder para medir
+velocidad" o "para contar", esta es casi siempre la primera propuesta. Recordar
+siempre que el PLC necesita un módulo de contador rápido para leer el encoder
+(como el CP1L con puerto de alta velocidad, o un módulo CJ1W-CTF para el CJ1).
+
+============================================================
+Fuentes:
+- Omron E6B2 (oficial): https://www.ia.omron.com/products/family/488/
+- TME E6B2-CWZ6C-1000: https://www.tme.com/us/en-us/details/e6b2-cwz6c-1000/encoders/omron/
+- Omron E6B2 datasheet: https://assets.omron.eu/downloads/latest/datasheet/en/y077_e6b2_incremental_60dia_encoder_datasheet_en.pdf
+============================================================

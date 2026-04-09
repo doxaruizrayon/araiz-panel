@@ -1,0 +1,117 @@
+CUADRO RESUMEN — BORNE CONTADOR (MÓDULO CONTADOR DE PULSOS)
+Familia: Electricidad > Aparellaje eléctrico > Autómatas programables
+Ejemplo en Araiz: Phoenix Contact ref. 2861852 (IB IL CNT-PAC — serie Inline)
+============================================================
+
+IMAGEN DEL PRODUCTO (ref. 2861852 Phoenix Contact):
+https://www.phoenixcontact.com/en-us/products/io-component-ib-il-cnt-pac-2861852
+
+VÍDEO / REFERENCIA TÉCNICA:
+https://us.wiautomation.com/phoenix-contact/modules/2861852
+
+Búsqueda recomendada en YouTube (español):
+"módulo contador pulsos PLC encoder tutorial" o "Phoenix Contact IB IL CNT contador inline"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Un borne contador es el componente especializado que permite al sistema I/O
+capturar y contar secuencias de pulsos a muy alta velocidad procedentes de
+sensores como encoders, caudalímetros, sensores inductivos o fotocélulas.
+A diferencia de una entrada digital normal (que solo ve si hay señal o no),
+el borne contador procesa pulsos individuales a frecuencias de hasta varios
+kHz de forma completamente autónoma, sin depender del tiempo de ciclo del PLC.
+Cuando alcanza el valor de conteo programado, activa su salida directamente.
+
+Lo que facilita:
+- Contar piezas, revoluciones, metros de cable, litros o cualquier magnitud
+  que un sensor convierta en pulsos.
+- Medir frecuencias y velocidades en tiempo real (número de pulsos por segundo).
+- Medir tiempos entre eventos (tiempo entre dos pulsos consecutivos).
+- Generar pulsos de salida con frecuencia y duración programables
+  (función generador de pulsos).
+- Actuar de forma inmediata al alcanzar el conteo, sin esperar al ciclo del PLC
+  (tiempos de respuesta independientes del bus).
+
+Lo que evita que ocurra:
+- Que el PLC pierda pulsos rápidos por ser demasiado lento en su ciclo de scan
+  (un PLC estándar puede tardar 10-20ms por ciclo; el borne contador no pierde ninguno).
+- Errores de conteo en líneas de producción rápidas (piezas que pasan a alta velocidad).
+- Tener que añadir un contador externo o un PLC específico para la función de conteo.
+- Imprecisión en el control de posición o velocidad por pérdida de pulsos.
+
+============================================================
+
+DIFERENCIA CLAVE CON OTROS MÓDULOS DE CONTEO
+--------------------------------------------------------------
+| Tipo                          | Qué hace                                         | Velocidad máx.    | Cuándo usarlo                                            |
+|-------------------------------|--------------------------------------------------|-------------------|----------------------------------------------------------|
+| Entrada digital estándar      | Detecta señal on/off, puede contar pulsos lentos | ~100 Hz           | Conteo de piezas lento (cintas lentas, operario manual)  |
+| Borne contador (IB IL CNT)    | Contador autónomo de alta velocidad              | Varios kHz        | Encoders, caudalímetros, líneas de producción rápidas. El ref. 2861852 es este |
+| Módulo encoder incremental    | Lee señal cuadratura A/B de encoder incremental  | Decenas de kHz    | Control de posición preciso (ejes, robots, CNC)          |
+| Módulo encoder absoluto (SSI) | Lee posición exacta absoluta del encoder         | Alta resolución   | Cuando el sistema no puede perder la posición al apagar  |
+| Módulo PWM                    | Genera señal de anchura de pulso variable        | Alta frecuencia   | Control de velocidad de motores DC, regulación de potencia|
+
+El ref. 2861852 (IB IL CNT) tiene 4 modos de operación seleccionables:
+1. Medición de frecuencia
+2. Conteo de eventos
+3. Medición de tiempo
+4. Generador de pulsos (salida)
+
+============================================================
+
+CARACTERÍSTICAS TÉCNICAS BÁSICAS A SABER
+--------------------------------------------------------------
+| Parámetro                    | Qué significa                                    | Valor ref. 2861852 (Phoenix Contact)          |
+|------------------------------|--------------------------------------------------|-----------------------------------------------|
+| Entradas                     | Señales que recibe                               | 1 entrada de conteo + 1 entrada de control (gate)|
+| Salidas                      | Señales que genera                               | 1 salida digital 24V DC / 500 mA              |
+| Función de la entrada gate   | Para qué sirve la entrada de control             | Habilita/deshabilita el conteo (on/off del contador)|
+| Tensión de trabajo           | Tensión del sistema                              | 24V DC                                        |
+| Modos de operación           | Funciones que puede realizar                     | Frecuencia / Conteo / Tiempo / Generador pulsos|
+| Respuesta de salida          | Cuándo activa la salida                          | Independiente del bus — actúa directamente    |
+| Tecnología de conexión       | Número de hilos por canal                        | 3 conductores (Push-in enchufable)            |
+| Velocidad de bus local       | Comunicación con el sistema Inline               | 500 kbps / 2 Mbps                             |
+| Accesorios incluidos         | Qué viene en la caja (PAC = completo)            | Conector + campo de etiquetado incluidos      |
+| Grado de protección          | Nivel de estanqueidad                            | IP20 → interior de armario                    |
+| Serie / familia              | Sistema al que pertenece                         | Inline (IB IL) — Phoenix Contact              |
+
+============================================================
+
+TIPOLOGÍAS DE MÓDULOS DE CONTEO / FUNCIÓN
+--------------------------------------------------------------
+| Tipología                        | Descripción                                                    | Cuándo se usa                                           |
+|----------------------------------|----------------------------------------------------------------|---------------------------------------------------------|
+| Contador de pulsos (CNT)         | Cuenta pulsos simples a alta velocidad                         | Encoders simples, caudalímetros, conteo de piezas. Ref. 2861852 |
+| Contador encoder incremental     | Lee señal cuadratura A/B (dirección + posición relativa)       | Control de posición en ejes o transportadores           |
+| Contador encoder absoluto (SSI)  | Lee posición absoluta del encoder                              | Ejes que deben mantener posición tras apagado           |
+| Módulo temporizador              | Mide tiempos con alta precisión                                | Control de tiempos de proceso, cronometraje industrial  |
+| Módulo generador de pulsos (PWM) | Genera pulsos con frecuencia y ancho configurables             | Control de motores DC, regulación de potencia           |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                          | Por qué la necesitas                                                          |
+|----|-------------------------------------------------------------------|-------------------------------------------------------------------------------|
+| 1  | ¿Qué sistema I/O tiene? (Inline IB IL, Axioline AXL...)           | El borne contador debe ser de la misma serie que los módulos I/O              |
+| 2  | ¿Qué quiere contar o medir? (piezas, revoluciones, litros, metros) | Define el modo de operación necesario (conteo, frecuencia, tiempo)           |
+| 3  | ¿Qué tipo de sensor genera la señal de pulsos?                    | Encoder / caudalímetro / sensor inductivo / fotocélula → define la frecuencia |
+| 4  | ¿A qué frecuencia genera pulsos el sensor? (Hz o kHz)             | Para confirmar que el borne contador puede seguir la velocidad del sensor     |
+| 5  | ¿Necesita que el contador actúe directamente al llegar al valor?  | Si sí → borne contador con salida directa (como el ref. 2861852)             |
+| 6  | ¿La señal del encoder es simple (1 canal) o cuadratura (A/B)?     | Cuadratura → necesita módulo encoder incremental, no contador simple          |
+| 7  | ¿Necesita saber la posición absoluta o solo contar pulsos?         | Posición absoluta → encoder absoluto SSI. Contar → borne contador estándar   |
+| 8  | ¿Va dentro de un armario o en campo abierto?                      | IP20 para armario / IP65 para campo                                           |
+| 9  | ¿Es instalación nueva o ampliación?                               | Si es ampliación debe ser de la misma serie que lo existente                  |
+
+CONSEJO: La diferencia clave frente a una entrada digital normal es la velocidad.
+Si el cliente dice "un sensor me manda señales muy rápidas y el PLC no las pilla"
+o "necesito contar pulsos de un encoder" → siempre borne contador, nunca entrada digital estándar.
+
+============================================================
+Fuentes:
+- Ficha oficial Phoenix Contact 2861852: https://www.phoenixcontact.com/en-us/products/io-component-ib-il-cnt-pac-2861852
+- WI Automation ref. 2861852: https://us.wiautomation.com/phoenix-contact/modules/2861852
+- Módulo encoder incremental (referencia): https://www.phoenixcontact.com/en-pc/products/inline-function-terminal-ib-il-inc-in-pac-2861755
+============================================================

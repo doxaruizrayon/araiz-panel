@@ -1,0 +1,99 @@
+CUADRO RESUMEN — SONDA DE TEMPERATURA (TERMOPAR / PT100 / TERMORRESISTENCIA)
+Familia: Electricidad > Aparellaje eléctrico > Autómatas programables y robots industriales
+Ejemplo en Araiz: Omron ref. E52-CA1DY (Termopar tipo K vaina inoxidable conexión DIN)
+============================================================
+
+IMAGEN DEL PRODUCTO:
+https://www.ia.omron.com/products/family/244/
+
+VÍDEO / REFERENCIA TÉCNICA:
+https://industrial.omron.co.uk/en/products/e52
+
+Búsqueda recomendada en YouTube (español):
+"termopar PT100 qué es diferencia sonda temperatura industrial" o "Omron E52 termopar tipo K vaina"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Una sonda de temperatura es el sensor que mide la temperatura real de un proceso
+(un horno, un molde, un fluido, una superficie) y envía esa información al regulador
+de temperatura (E5CC, E5AN...) o al módulo de entrada analógica del PLC. Hay dos
+tecnologías principales:
+
+**Termopar (TC):** dos metales distintos unidos en un extremo que generan una tensión
+eléctrica muy pequeña (mV) proporcional a la temperatura. Tipos: K (el más habitual,
+-200°C a +1250°C), J, T, N... Económico y rango amplio. Requiere cable de compensación
+específico del tipo de termopar.
+
+**PT100 / termorresistencia (RTD):** sonda de platino cuya resistencia varía
+proporcionalmente con la temperatura. Más precisa que el termopar pero rango más
+limitado (-200°C a +600°C). Se conecta con 2, 3 o 4 hilos al módulo de medida.
+
+La serie E52 de Omron son vainas (thermowells con termopar integrado) para instalación
+directa en el proceso: se atornillan o sueldan al recipiente o tubería y miden la
+temperatura del fluido o material. Se conectan al regulador E5CC/E5AN o al módulo
+de temperatura del PLC NJ/NX.
+
+Lo que facilita:
+- Medir la temperatura de un horno, molde de inyección, extrusora o fluido en
+  proceso y enviarla al regulador de temperatura para el control PID.
+- Instalación directa en el proceso: las vainas E52 se atornillan en la pared
+  del recipiente con rosca G1/4 o G1/2 estándar.
+- Seleccionar el sensor correcto según el rango de temperatura del proceso:
+  termopar K para altas temperaturas, PT100 para mayor precisión en rangos medios.
+
+Lo que evita que ocurra:
+- Error de medición por usar la sonda equivocada: cada tipo de termopar (K, J, T)
+  tiene una curva distinta — el regulador debe estar configurado para el mismo tipo.
+- Sondas que no aguantan el ambiente del proceso: las vainas de inoxidable aguantan
+  fluidos corrosivos, aceites y altas presiones.
+
+============================================================
+
+DIFERENCIA CLAVE: TERMOPAR vs PT100
+--------------------------------------------------------------
+| Característica          | Termopar (tipo K/J/T)            | PT100 / RTD                      |
+|-------------------------|----------------------------------|----------------------------------|
+| Rango temperatura       | Hasta 1250°C (tipo K)            | Hasta 600°C                      |
+| Precisión               | ±1-2°C típico                    | ±0,1-0,5°C — más preciso         |
+| Coste                   | Bajo                              | Medio                            |
+| Conexión                | 2 hilos (con cable compensación) | 2, 3 o 4 hilos estándar          |
+| Para qué                | Hornos, fundición, extrusión     | Control preciso, laboratorio     |
+| Cable especial          | Sí — cable de compensación tipo K| No — cable de cobre estándar     |
+
+============================================================
+
+MODELOS E52 OMRON MÁS COMUNES
+--------------------------------------------------------------
+| Modelo          | Tipo sensor | Vaina              | Para qué                         |
+|-----------------|-------------|--------------------|------------------------------------|
+| E52-CA1DY       | Termopar K  | Inox 3mm Ø × 50mm | Inmersión en fluidos — el más común|
+| E52-CA1HY       | Termopar K  | Inox 6mm Ø × 100mm| Inmersión en piezas más gruesas   |
+| E52-P10BY       | PT100       | Inox con rosca     | Control de precisión PT100        |
+| E52-CA1A-NPT    | Termopar K  | Rosca NPT          | Conexión a tuberías con rosca NPT |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                               | Por qué la necesitas                                          |
+|----|--------------------------------------------------------|---------------------------------------------------------------|
+| 1  | ¿Qué temperatura máxima va a medir?                    | Define si necesita termopar (hasta 1250°C) o PT100 (hasta 600°C)|
+| 2  | ¿Qué regulador o módulo PLC tiene para conectarla?     | El regulador debe ser del mismo tipo: K, J o PT100           |
+| 3  | ¿La sonda va en inmersión o en contacto superficial?   | Define la forma de la vaina: recta / acodada / superficie    |
+| 4  | ¿Cómo va a fijar la sonda al proceso?                  | Con rosca (G1/4, G1/2, NPT) / brida / sin rosca             |
+| 5  | ¿Hay presión o fluido corrosivo en el punto de medida? | Define el material de la vaina: inox estándar o Hastelloy    |
+
+CONSEJO: La sonda de temperatura se vende siempre acompañando al regulador de
+temperatura (E5CC, E5AN) o al módulo de entrada de temperatura del PLC. Sin el
+regulador, la sonda no sirve de nada. Cuando el cliente pide una sonda, preguntar
+siempre a qué regulador va conectada — el tipo de sonda (K, J, PT100) debe coincidir
+exactamente con la configuración del regulador. El error más habitual: conectar un
+termopar tipo J a un regulador configurado para tipo K — las lecturas son erróneas.
+
+============================================================
+Fuentes:
+- Omron E52 (oficial): https://www.ia.omron.com/products/family/244/
+- Manual selección sensores temperatura: https://www.ia.omron.com/support/faq/answer/31/faq00307/
+============================================================

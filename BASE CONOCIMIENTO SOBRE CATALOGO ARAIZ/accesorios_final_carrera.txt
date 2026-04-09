@@ -1,0 +1,123 @@
+CUADRO RESUMEN — ACCESORIOS PARA FINALES DE CARRERA (RFID / MAGNÉTICOS / BLOQUES CONTACTOS)
+Familia: Electricidad > Aparellaje eléctrico > Final de carrera (interruptor de posición)
+Ejemplo en Araiz: Telemecanique ref. XCSMP102 (Interruptor posición magnético 1NA+1NC 24V DC)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"interruptor posición magnético sin contacto" o "RFID safety switch coded magnetic"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Este grupo cubre los complementos y variantes especiales de los finales de carrera:
+
+**1. Interruptor de posición magnético** (64 art., Telemecanique 63):
+Detecta la posición sin contacto mecánico — un imán acerca o aleja y el sensor
+detecta el campo magnético. Ventajas frente al mecánico:
+- Sin desgaste (no hay contacto físico).
+- Funciona aunque haya suciedad, aceite o polvo entre sensor e imán.
+- Más silencioso y rápido.
+Gama principal: Telemecanique XCSDMC (magnético con enclavamiento) y XCSMP (magnético simple).
+Usados en puertas de resguardo donde no es práctico tener contacto mecánico.
+
+**2. Transponder RFID para seguridad** (32 art., Telemecanique 18 + accesorios 14):
+La evolución del interruptor magnético — en vez de un imán simple, el actuador
+lleva un chip RFID codificado únicamente para ese sensor. Esto garantiza que
+no se puede "engañar" al sistema con un imán cualquiera para hacer creer que
+la puerta está cerrada (trampa frecuente en industria).
+Normativa: EN ISO 14119 exige codificación en instalaciones de alta seguridad.
+Marcas en Araiz: Telemecanique serie XCSLF/XCSLB.
+
+**3. Bloques de contactos auxiliares** (60 art.):
+Módulos de contactos adicionales que se añaden al cuerpo del final de carrera
+para obtener más señales de estado. Por ejemplo: añadir un contacto extra para
+conectar un piloto luminoso además del contacto que va al PLC.
+Telemecanique (40 art.), Omron (14 art.), Schneider (6 art.).
+
+**4. Accesorios generales** (93 art., Siemens 39, Omron 29, Telemecanique 25):
+Cables de conexión preconectados (30 art.), adaptadores de montaje,
+prensaestopas (12 art. Telemecanique), soportes angulares, tapas de repuesto.
+
+**5. Accesorios para interruptores de BT** (37 art., Omron 35):
+Clasificados aquí por ETIM pero son mayoritariamente accesorios de montaje y
+adaptadores para los finales de carrera Omron (carcasas, soportes angulares,
+adaptadores DIN).
+
+**6. Cabezales de pulsador cruzados** (86 art., Omron 86):
+Cabezales de la gama de pulsatería Omron A22 que el catálogo ha clasificado
+en este grupo — son elementos de accionamiento para pulsadores e interruptores
+de control, no para finales de carrera estrictamente.
+
+Lo que facilita:
+- El interruptor magnético elimina el desgaste en aplicaciones de alta frecuencia
+  de ciclos (puertas que se abren y cierran miles de veces al día).
+- El RFID evita el sabotaje de seguridad y cumple normativas más estrictas.
+- Los cables preconectados reducen el tiempo de instalación y eliminan errores
+  de cableado en campo.
+
+============================================================
+
+TABLA COMPARATIVA: MECÁNICO vs MAGNÉTICO vs RFID
+--------------------------------------------------------------
+| Característica         | Mecánico           | Magnético            | RFID codificado       |
+|------------------------|--------------------|----------------------|-----------------------|
+| Contacto físico        | Sí                 | No                   | No                    |
+| Desgaste               | Sí (actuador)      | No                   | No                    |
+| Resistente a suciedad  | Medio              | Alto                 | Alto                  |
+| Se puede engañar       | Con fuerza         | Con cualquier imán   | No (código único)     |
+| Nivel seguridad        | PLc/d              | PLd                  | PLe                   |
+| Precio                 | Bajo               | Medio                | Alto                  |
+| Mantenimiento          | Periódico          | Mínimo               | Mínimo                |
+
+============================================================
+
+GAMAS PRINCIPALES EN ARAIZ (~543 artículos)
+--------------------------------------------------------------
+**Magnéticos:**
+| Marca           | Gama            | Referencias tipo            | Uso                      |
+|-----------------|-----------------|-----------------------------|--------------------------|
+| Telemecanique   | XCSMP           | XCSMP102, XCSMP202          | Detección simple, PLc    |
+| Telemecanique   | XCSDMC (bloqueo)| XCSDMC7902L2, XCSDMCN7902   | Con bloqueo magnético    |
+
+**RFID seguridad:**
+| Marca           | Gama            | Referencias tipo            | Nivel seguridad  |
+|-----------------|-----------------|-----------------------------|------------------|
+| Telemecanique   | XCSLF / XCSLB   | XCSLF10333, XCSLB10333      | PLe / Cat. 4     |
+
+**Bloques contactos:**
+| Marca           | Gama            | Para qué cuerpo             |
+|-----------------|-----------------|-----------------------------|
+| Telemecanique   | ZCE__ (serie)   | XCM, XCP, XCK              |
+| Omron           | D4N-B__ / D4E-B | D4N, D4E                   |
+
+**Cables preconectados:**
+| Marca           | Conector        | Referencias tipo            | Longitud         |
+|-----------------|-----------------|-----------------------------|------------------|
+| Telemecanique   | M12 / MiniDIN   | XZCP29PA30L / XZCP1164L     | 2 m a 10 m       |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                        | Por qué la necesitas                                         |
+|----|-----------------------------------------------------------------|--------------------------------------------------------------|
+| 1  | ¿Para qué final de carrera es el accesorio?                    | Bloques y cables son específicos por marca/gama              |
+| 2  | ¿Necesita detección sin contacto? ¿Por qué?                    | Define si magnético o RFID según el caso de uso              |
+| 3  | ¿La aplicación requiere que no se pueda "engañar" el sensor?   | Si sí: RFID codificado (obligatorio en muchas normativas)    |
+| 4  | ¿Cuántos contactos necesita del bloque adicional? NA / NC       | Define el bloque auxiliar correcto                           |
+| 5  | ¿Prefiere cablear en campo o usar cable preconectado?           | El cable preconectado (M12) es más rápido y sin errores      |
+
+CONSEJO: En aplicaciones de seguridad con muchas aperturas de puerta al día (más
+de 50-100 veces), el interruptor magnético amortiza su mayor coste frente al mecánico
+en pocos meses — el mecánico necesita recambios de cabezal y ajustes periódicos.
+El RFID codificado está ganando terreno rápidamente porque EN ISO 14119 (2013) ya
+distingue entre sensores codificados y no codificados — en instalaciones nuevas
+de robótica e industria avanzada es casi obligatorio para niveles PLe.
+
+============================================================
+Fuentes:
+- Telemecanique magnéticos: https://www.se.com/es/es/product-subcategory/magnetic-safety-switches/
+- Telemecanique RFID: https://www.se.com/es/es/product-subcategory/rfid-safety-switches/
+- EN ISO 14119: norma interbloqueo dispositivos de enclavamiento con resguardos
+============================================================

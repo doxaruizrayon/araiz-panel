@@ -1,0 +1,127 @@
+CUADRO RESUMEN — PRESOSTATO / INTERRUPTOR DE PRESIÓN (XMP / Pressure Switch)
+Familia: Electricidad > Aparellaje eléctrico > Otros aparatos
+Ejemplo en Araiz: Telemecanique ref. XMLA010A2S11 (Presostato diferencial 0,04-1 bar 1NA+1NC)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"qué es un presostato cómo funciona" o "presostato compresor bomba regulación presión"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Un presostato (o interruptor de presión) es un sensor que detecta la presión de
+un fluido (aire, agua, aceite, gas) y abre o cierra un contacto eléctrico cuando
+la presión alcanza un valor determinado.
+
+Funciona como un final de carrera, pero en lugar de reaccionar a un movimiento
+mecánico, reacciona a la presión del fluido que llega por una toma neumática
+o hidráulica. Cuando la presión sube hasta el valor de consigna (set point),
+el contacto cambia de estado y envía la señal al PLC o al circuito de mando.
+
+Telemecanique domina este grupo en Araiz con 397 de 412 artículos — es la marca
+de referencia histórica en presostatos industriales en España, con la gama XMP.
+
+Aplicaciones típicas:
+- **Compresores de aire**: el presostato arranca el compresor cuando la presión
+  baja del mínimo y lo para cuando alcanza el máximo. El presostato de un
+  compresor de taller es casi siempre un Telemecanique.
+- **Bombas de agua**: detectar presión de red y actuar cuando cae por debajo
+  del mínimo (protección contra marcha en seco, arranque automático).
+- **Instalaciones hidráulicas**: proteger circuitos contra sobrepresión.
+- **Sistemas de vapor**: monitorizar la presión en calderas y circuitos de vapor.
+- **Filtros**: detectar diferencia de presión antes/después del filtro para
+  indicar cuándo está sucio (presostato diferencial).
+- **Detección de flujo**: algunos presostatos diferenciales detectan si hay
+  circulación de fluido en una tubería.
+
+Tipos de presostato:
+1. **Presostato estándar**: un único valor de presión que activa/desactiva el contacto.
+2. **Presostato diferencial**: compara dos presiones (antes y después de un filtro,
+   o en dos puntos del circuito) y actúa cuando la diferencia supera un umbral.
+3. **Presostato ajustable**: el valor de consigna se puede ajustar con un tornillo
+   o un dial — el operario puede cambiar el punto de disparo en campo.
+
+Lo que facilita:
+- Proteger equipos contra presión excesiva (máquinas hidráulicas, calderas).
+- Automatizar el arranque/paro de compresores y bombas sin necesidad de PLC.
+- Detectar obstrucciones en filtros antes de que causen un problema mayor.
+- Monitorizar el estado de fluidos sin conexión eléctrica directa al fluido.
+
+Lo que evita que ocurra:
+- Que un compresor siga comprimiendo con el depósito lleno → sobrepresión → explosión del depósito.
+- Que una bomba funcione en seco (sin agua) → rotura del rodete.
+- Que un filtro obstruido reduzca el caudal sin que nadie lo sepa.
+
+============================================================
+
+DIFERENCIA CLAVE: PRESOSTATO vs TRANSMISOR DE PRESIÓN vs MANÓMETRO
+--------------------------------------------------------------
+| Característica          | Presostato              | Transmisor presión     | Manómetro            |
+|-------------------------|-------------------------|------------------------|----------------------|
+| Tipo de salida          | Contacto ON/OFF         | Señal 4-20mA o 0-10V  | Visual (lectura)     |
+| Información que da      | Sí/No (umbral)          | Valor exacto continuo  | Lectura en pantalla  |
+| Conexión al PLC         | Entrada digital         | Entrada analógica      | No se conecta        |
+| Precio                  | Bajo                    | Medio-alto             | Muy bajo             |
+| Uso típico              | Automatización ON/OFF   | Control PID de presión | Lectura en campo     |
+| Ejemplo                 | XMP Telemecanique       | —                      | —                    |
+
+PRESOSTATO vs FINAL DE CARRERA:
+Funcionalmente son análogos — ambos dan una señal digital (ON/OFF) al PLC.
+La diferencia es el estímulo: presión de fluido vs. posición mecánica.
+El PLC los trata igual: entrada digital que pasa a 1 o a 0.
+
+============================================================
+
+GAMAS PRINCIPALES EN ARAIZ (~412 artículos)
+--------------------------------------------------------------
+| Marca           | Gama               | Referencias tipo              | Rango presión      |
+|-----------------|--------------------|-------------------------------|--------------------|
+| Telemecanique   | XMLA (ajustable)   | XMLA010A2S11, XMLA100B2S11   | 0,04 bar a 400 bar |
+| Telemecanique   | XMLB (fijo)        | XMLB002B2S11, XMLB010B2S11   | 0,04 bar a 20 bar  |
+| Telemecanique   | XMLD (diferencial) | XMLD01V2S11, XMLD002V2S11    | 0,04 bar a 10 bar  |
+| Telemecanique   | XMLF (presión alta)| XMLF060D2S11                 | 6 bar a 400 bar    |
+| Eaton           | ESB / series       | ESB10-30, ESB30-60           | 1 bar a 30 bar     |
+
+CODIFICACIÓN TELEMECANIQUE (la clave para entender la referencia):
+| Posición | Código | Significado                                  |
+|----------|--------|----------------------------------------------|
+| 4ª-5ª   | 002    | Rango máximo 0,2 bar                         |
+| 4ª-5ª   | 010    | Rango máximo 1 bar                           |
+| 4ª-5ª   | 100    | Rango máximo 10 bar                          |
+| 6ª      | A      | Contacto 1NA+1NC (el más habitual)           |
+| 6ª      | B      | Contacto 2NA                                 |
+| 9ª-10ª  | S11    | Conexión a tornillo (estándar)               |
+
+Conexión al proceso: rosca G1/4 o G1/2 (rosca de gas / BSP) en la mayoría de modelos.
+Tensión de trabajo: hasta 250V AC / 24V DC. Corriente: 10A habitual.
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                        | Por qué la necesitas                                        |
+|----|-----------------------------------------------------------------|-------------------------------------------------------------|
+| 1  | ¿Qué fluido mide? ¿Aire, agua, aceite, gas?                    | Algunos presostatos son específicos para cada fluido        |
+| 2  | ¿Qué rango de presión necesita? (bar)                           | Define la gama (0,04-1 bar / 1-10 bar / 10-400 bar)        |
+| 3  | ¿Es presión absoluta, relativa o diferencial?                   | Presostato estándar o diferencial (filtros, caudal)         |
+| 4  | ¿Necesita que el punto de disparo sea ajustable en campo?       | Si sí: gama XMLA (ajustable); si no: XMLB (fijo más barato)|
+| 5  | ¿Cuántos contactos? NA / NC / NA+NC                             | Define el código de referencia                              |
+| 6  | ¿Qué rosca tiene la toma de presión en la instalación?          | G1/4" o G1/2" son las más habituales — hay adaptadores      |
+| 7  | ¿Tiene la referencia del existente?                             | Con referencia Telemecanique es directo; sin ella necesita rango + contactos|
+
+CONSEJO: El presostato de compresor es el pedido más frecuente de este grupo.
+El operario viene con "se me ha roto el presostato del compresor" y normalmente
+trae el aparato o la referencia. Si no la trae, preguntar: rango de presión del
+compresor (habitualmente 6-10 bar para talleres), rosca de conexión y si es
+ajustable o fijo.
+La gama XMLA de Telemecanique es la más vendida — con ella se cubre la mayoría
+de aplicaciones de taller e industria general.
+Cuidado con los presostatos para gas: necesitan certificación ATEX o específica
+para gas — no sirve cualquier presostato de agua/aire.
+
+============================================================
+Fuentes:
+- Telemecanique XMP: https://www.se.com/es/es/product-subcategory/pressure-switches/
+- Eaton presostatos: https://www.eaton.com/es/es-es/catalog/pressure-switches.html
+============================================================

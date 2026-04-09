@@ -1,0 +1,99 @@
+CUADRO RESUMEN — PANEL PC INDUSTRIAL / CONTROLADOR DE MÁQUINA AI (IPC INDUSTRIAL)
+Familia: Electricidad > Aparellaje eléctrico > Autómatas programables y robots industriales
+Ejemplo en Araiz: Omron ref. NYB15E3D (Industrial Panel PC 15" Intel Atom 4 núcleos 4GB RAM)
+============================================================
+
+IMAGEN DEL PRODUCTO:
+https://www.ia.omron.com/products/family/3536/
+
+VÍDEO / REFERENCIA TÉCNICA:
+https://industrial.omron.co.uk/en/products/ny-series
+
+Búsqueda recomendada en YouTube (español):
+"Panel PC industrial qué es diferencia PLC" o "Omron NY series controlador máquina AI visión"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Un Panel PC industrial (también llamado IPC industrial o controlador de máquina AI) es
+esencialmente un ordenador industrial robusto con pantalla táctil integrada que se monta
+en el armario o en la máquina. A diferencia de un PC de oficina, está diseñado para
+funcionar 24/7 en entornos industriales: sin ventilador (sin polvo), con protección
+IP65/IP66 en el frontal, alimentación 24V DC y temperatura de operación ampliada.
+La serie NY de Omron son estos controladores AI: el NY Monitor Link conecta con el PLC
+NJ/NX por Ethernet y sirve como interfaz operador avanzada; los modelos con Windows 10
+IoT corren software de visión, SCADA, o aplicaciones AI directamente en la máquina.
+La gran diferencia con un HMI (NS/NB/NA): el IPC corre Windows y software estándar
+de PC; el HMI solo corre el programa diseñado con la herramienta del fabricante.
+
+Lo que facilita:
+- Instalar software de visión artificial o AI en la propia máquina sin PC externo:
+  el IPC está al lado del proceso, no en una sala de servidores.
+- Ejecutar aplicaciones Windows en la máquina: SCADA, MES, análisis de datos, OPC-UA.
+- Integrar pantalla táctil de operario + control + visión en un solo equipo.
+- Conectar con el PLC NJ/NX vía Ethernet para lectura de datos de proceso en tiempo real.
+- Actualizar el software remotamente: Windows permite acceso remoto y actualizaciones
+  como cualquier PC de empresa.
+
+Lo que evita que ocurra:
+- Tener que instalar un PC industrial separado + pantalla táctil + cableado adicional:
+  el Panel PC es todo en uno.
+- Software de SCADA o visión en equipos frágiles de escritorio en entornos industriales:
+  el IPC aguanta vibraciones, temperatura y suciedad.
+- Incompatibilidad entre el sistema de visión y el PLC: la integración NY+NJ/NX
+  es nativa con el ecosistema Sysmac.
+
+============================================================
+
+DIFERENCIA CLAVE: PANEL PC (IPC) vs HMI TÁCTIL (NA/NS)
+--------------------------------------------------------------
+| Característica          | Panel PC / IPC (este)            | HMI táctil NA/NS                 |
+|-------------------------|----------------------------------|----------------------------------|
+| Sistema operativo       | Windows 10 IoT / Linux           | SO propietario (Omron)           |
+| Software que corre      | Cualquier app Windows / Python   | Solo CX-Designer / Sysmac Studio |
+| Capacidad AI / SCADA    | Sí — software estándar           | No / limitado                    |
+| Programación            | Visual Studio, Python, etc.      | CX-Designer, NB-Designer         |
+| Precio                  | Alto                             | Medio-alto                       |
+| Para qué                | Visión AI, SCADA, MES integrado  | Interfaz operario estándar       |
+| Integración PLC Omron   | Vía Ethernet (NY Monitor Link)   | Nativa EtherNet/IP               |
+
+============================================================
+
+MODELOS NY A CONOCER
+--------------------------------------------------------------
+| Modelo serie  | Pantalla | Procesador        | Para qué                              |
+|---------------|---------|-------------------|---------------------------------------|
+| NY□B-□ (7")   | 7"      | Intel Atom E3940  | Máquinas compactas, junto al PLC      |
+| NY□B-□ (12")  | 12"     | Intel Atom E3940  | Paneles de operario con SCADA         |
+| NY□B-□ (15")  | 15"     | Intel Atom E3940  | El más habitual en líneas de producción|
+| NY□B-□ (19")  | 19"     | Intel Core i5/i7  | Aplicaciones AI + visión complejas    |
+| Monitor Link  | —       | —                 | NY como display externo del NJ/NX     |
+
+NOTA: Los modelos con Intel Core i5/i7 son para aplicaciones de visión AI pesadas
+(deep learning, inspección de imagen compleja). Los Atom E3940 para SCADA y HMI avanzado.
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                               | Por qué la necesitas                                          |
+|----|--------------------------------------------------------|---------------------------------------------------------------|
+| 1  | ¿Qué software necesita correr en la máquina?           | Define si necesita IPC (Windows) o basta con un HMI (NA/NS)  |
+| 2  | ¿Necesita visión artificial o análisis de datos AI?    | Si sí → IPC NY con procesador Intel / Si no → HMI NA         |
+| 3  | ¿Qué tamaño de pantalla necesita?                      | 7" / 12" / 15" / 19" según el espacio en el panel            |
+| 4  | ¿Tiene PLC Omron NJ/NX?                                | La integración nativa es con NJ/NX vía Monitor Link          |
+| 5  | ¿Necesita conexión a red de empresa (MES/ERP)?         | El IPC con Windows conecta directamente; el HMI no           |
+| 6  | ¿Es sustitución de PC existente o instalación nueva?   | Sustitución → ver el software que corre para compatibilidad  |
+
+CONSEJO: El Panel PC industrial es la solución cuando el cliente necesita algo más que
+una pantalla HMI estándar: análisis de datos, SCADA avanzado, visión artificial o
+cualquier aplicación que requiera Windows. Para clientes que solo necesitan visualizar
+el estado del PLC y dar consignas, el HMI NA es más sencillo y económico. Cuando alguien
+dice "quiero correr mi software SCADA en la máquina", el IPC es la respuesta.
+
+============================================================
+Fuentes:
+- Omron NY series (oficial): https://www.ia.omron.com/products/family/3536/
+- Omron Industrial PC: https://industrial.omron.co.uk/en/products/ny-series
+============================================================

@@ -1,0 +1,122 @@
+CUADRO RESUMEN — MICRORRUPTORES (MICROSWITCHES)
+Familia: Electricidad > Aparellaje eléctrico > Microrruptores
+Ejemplo en Araiz: Omron ref. D2F-01 (Microinterruptor miniatura 0,1A 30V)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"microswitch funcionamiento cómo detecta posición" o "microinterruptor final carrera miniatura"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Un microrruptor (microswitch en inglés) es un interruptor miniatura de
+acción rápida: un pequeño pulsador que al presionarse (con muy poca fuerza)
+cambia el estado de un contacto eléctrico de forma brusca ("snap action").
+
+El mecanismo interno hace que el contacto cambie de posición de golpe —
+no gradualmente — lo que garantiza una conmutación limpia y sin rebotes.
+Por eso son tan habituales como detectores de posición en maquinaria.
+
+**¿En qué se diferencia de un final de carrera?**
+El microrruptor ES el elemento interior del final de carrera. Los finales
+de carrera industriales (XCK Telemecanique, D4N Omron) son una carcasa
+robusta con IP67 que lleva dentro un microrruptor.
+
+| Característica    | Microrruptor               | Final de carrera industrial  |
+|-------------------|----------------------------|------------------------------|
+| Tamaño            | Muy pequeño (10-50 mm)     | Mayor, con carcasa robusta   |
+| Protección IP     | Baja (IP00-IP20)           | Alta (IP67)                  |
+| Fuerza necesaria  | Muy baja (0,5-5N)          | Más alta (adaptado al actuador)|
+| Precio            | 1-10 €                     | 30-150 €                     |
+| Para qué          | Dentro de máquinas/aparatos| Instalaciones industriales   |
+
+**Usos típicos de microrruptores:**
+- Detección de puerta abierta/cerrada en máquinas (¿está cerrada la tapa
+  antes de arrancar el motor?)
+- Posición de fin de recorrido en mecanismos pequeños
+- Sensor de papel en impresoras
+- Detección de bandeja en cajeros automáticos y vending
+- Control de posición en válvulas pequeñas y actuadores
+- Detección de nivel de líquido (con flotador)
+
+============================================================
+
+OMRON — LÍDER EN MICRORRUPTORES (230 art.)
+--------------------------------------------------------------
+Omron es el fabricante de referencia mundial en microswitches.
+Su catálogo en Araiz cubre desde microswitches miniatura hasta
+versiones selladas para ambientes húmedos.
+
+**Gamas principales:**
+
+| Gama     | Corriente máx. | Tipo               | Uso típico                        |
+|----------|----------------|--------------------|-----------------------------------|
+| D2F      | 0,1A a 3A      | Miniatura           | Electrónica, electrodomésticos    |
+| SS       | 5A a 15A       | Sub-miniatura       | Equipos médicos, instrumentación  |
+| D2HW     | 5A-15A         | Sellado (IP67)      | Lavadoras, lavavajillas, humedad  |
+| VX       | 10A-20A        | Robusta             | Aplicaciones industriales ligeras |
+| Z        | 5A-15A         | Estándar industrial | Maquinaria general                |
+| D4C      | 6A             | Compacta            | Paneles de control, aparatos      |
+
+**Actuadores disponibles (la parte que se presiona):**
+- Émbolo (pin): el más básico — una varilla corta que se empuja
+- Émbolo con muelle largo: permite detectar piezas con más recorrido
+- Palanca corta/larga: para activación lateral o con leva rotatoria
+- Rodillo: para piezas que pasan deslizándose
+
+**Terminal eléctrico:**
+- Tornillo: para cablear directamente
+- Faston (terminal rápido): para conexión de crimpado
+- PCB: para soldar en placa de circuito impreso
+
+La referencia completa incluye el tipo de actuador y el terminal:
+Ejemplo: **D2F-01** = miniatura, émbolo, 0,1A, terminal tornillo.
+
+**CROUZET (45 art.)**
+Fabricante francés (ahora del grupo Schneider), especializado en
+automatismos y microswitches. Sus microswitches son equivalentes a
+Omron en calidad y funcionamiento.
+- Gama 83 y 84: miniatura y sub-miniatura
+- Muy habituales en maquinaria francesa e italiana
+
+============================================================
+
+CLASIFICACIÓN ETIM EN ARAIZ — OJO CON ESTE GRUPO
+--------------------------------------------------------------
+La API de Araiz clasifica varios artículos de este grupo bajo clases ETIM
+de "contactor de potencia" (EC000066) o "combinación de contactores" (EC000010).
+Esto es un error de clasificación ETIM, no un error de Araiz.
+
+En la práctica, el 57% de los artículos (168/295) son realmente
+"Interruptor final de carrera" (EC000030), que es la clase ETIM correcta
+para los microswitches. El resto son clasificaciones incorrectas pero el
+producto físico es siempre un microswitch.
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                    | Por qué                                         |
+|----|-------------------------------------------------------------|-------------------------------------------------|
+| 1  | ¿Tiene la referencia del microswitch averiado?             | Es la forma más rápida de identificar el modelo |
+| 2  | ¿Qué corriente tiene que soportar el contacto?             | 0,1A (señal) o 10-15A (potencia directa)        |
+| 3  | ¿Cómo se activa? ¿Con émbolo, palanca o rodillo?           | Define el tipo de actuador                      |
+| 4  | ¿Hay humedad o líquidos cerca?                             | Si sí: necesita versión sellada IP67 (D2HW)     |
+| 5  | ¿Va soldado en placa o cablea con tornillo?                | Define el tipo de terminal                      |
+
+CONSEJO: La mayoría de peticiones de microrruptores son sustituciones
+por avería. El cliente trae el microswitch roto o la referencia y se
+busca equivalente. Si no hay la referencia exacta, con la corriente,
+el actuador y el terminal se puede encontrar un equivalente compatible.
+Omron D2F y Z son las series más habituales en mantenimiento industrial.
+Si el cliente necesita muchas unidades idénticas (producción en serie),
+Omron y Crouzet tienen precios competitivos en grandes cantidades.
+Para aplicaciones con agua o aceite: D2HW-A201H (IP67 sellado) — no
+usar microswitches estándar en ambientes húmedos o con limpiezas a presión.
+
+============================================================
+Fuentes:
+- Omron microswitches: https://industrial.omron.es/es/products/microswitches
+- Crouzet: https://www.crouzet.com/es/productos/componentes-de-conmutacion/microswitches/
+============================================================

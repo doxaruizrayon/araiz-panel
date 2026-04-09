@@ -1,0 +1,118 @@
+CUADRO RESUMEN — RELÉ DE PROTECCIÓN PARA DISTRIBUCIÓN / IED (Schneider Easergy/P1F/P5F — Arteche — ABB RC)
+Familia: Electricidad > Aparellaje eléctrico > Reles
+Ejemplo en Araiz: Schneider ref. P1F1B1N0N92N1NN11N (Relé de protección IED P1F configuración personalizada)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"relé de protección IED subestación distribución qué es" o "Schneider Easergy P3U relé numérico protección"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Los relés de protección para distribución (también llamados IED — Intelligent
+Electronic Device — o relés numéricos) son equipos especializados para proteger
+redes eléctricas de media y alta tensión en subestaciones, centros de transformación
+y distribución industrial. Son completamente distintos a los relés de control
+de automatización (FINDER, Omron MY, 3SK) — son equipos de protección de red,
+no de maniobra de procesos.
+
+Su función: medir continuamente las magnitudes eléctricas de la red (corriente,
+tensión, potencia, frecuencia, impedancia) y disparar automáticamente el disyuntor
+o el seccionador cuando detectan una anomalía que puede dañar la red o los equipos:
+- Cortocircuito (sobrecorriente de fase o de tierra).
+- Fallo a tierra (corriente diferencial).
+- Sobretensión o subtensión.
+- Desequilibrio de fases en generación.
+- Fallo de aislamiento de cable.
+- Carga excesiva (sobrecarga del transformador).
+
+Diferencia con los relés de automatización:
+El relé de protección de distribución es un equipo de instrumentación que se conecta
+a los transformadores de corriente (TC) y de tensión (TP) de la instalación eléctrica
+de media tensión. Tiene comunicaciones (IEC 61850, MODBUS, DNP3) para integrarse en
+el SCADA de la red eléctrica. Su precio es de cientos o miles de euros por unidad.
+No tiene nada que ver con el relé FINDER de 5€ o el 3SK de seguridad de máquina.
+
+**Familias del catálogo Araiz:**
+- **Schneider Easergy P3U / P1F / P5F / P5V:** gama completa de IEDs Schneider Electric
+  para protección de líneas, transformadores, generadores y barras en MT/AT.
+  - P1F: protección de alimentador/línea básica (sobrecorriente, tierra).
+  - P3U: protección de barras y subestaciones (lógica selectiva).
+  - P5F/P5V: protección diferencial de transformador y generador.
+- **Arteche RJ/RD/RF4:** relés auxiliares de alta fiabilidad para subestaciones —
+  se usan como relés de mando, señalización y repetición de órdenes dentro del
+  panel de protecciones (no son IEDs, son relés de maniobra de alta fiabilidad).
+- **Arteche BJ/BF:** relés basculantes para memorización de señales de disparo
+  (ver también cuadro rele_enclavamiento).
+- **ABB RC221/RC222:** relés diferenciales para disyuntores TMAX T1/T2/T3 — accesorio
+  especial que se instala dentro del disyuntor para añadir protección diferencial.
+- **ABB relé de mínima tensión / relé de apertura:** accesorios para disyuntores TMAX
+  que disparan el disyuntor cuando la tensión cae por debajo de un umbral.
+
+Lo que facilita:
+- Proteger la red eléctrica de media tensión de forma selectiva y automática.
+- Cumplir los requisitos de la compañía eléctrica para la protección del punto
+  de conexión de una instalación industrial.
+- Registrar todos los eventos de protección para análisis forense de averías.
+- Integrar las protecciones en el SCADA de la instalación vía IEC 61850 o MODBUS.
+
+Lo que evita que ocurra:
+- Propagación de un fallo en un alimentador al resto de la red (selectividad).
+- Danos en transformadores por sobrecargas prolongadas no detectadas.
+- Penalizaciones regulatorias por no tener las protecciones exigidas por la compañía.
+
+============================================================
+
+DIFERENCIA CLAVE: IED / RELÉ NUMÉRICO vs RELÉ DE CONTROL DE AUTOMATIZACIÓN
+--------------------------------------------------------------
+| Característica            | IED / Relé numérico            | Relé de control / automatización|
+|---------------------------|--------------------------------|--------------------------------|
+| Aplicación                | Protección redes MT/AT         | Maniobra de motores y procesos  |
+| Señal de entrada          | TC + TP (transf. medida)       | 24V DC / 230V AC               |
+| Precio                    | 500-5.000 euros                | 5-200 euros                    |
+| Comunicaciones            | IEC 61850, MODBUS, DNP3        | IO-Link, PROFIBUS (algunos)    |
+| Lo instala                | Especialista protecciones      | Electricista automatización     |
+| Ejemplos                  | Schneider P1F, Arteche RD      | FINDER 40, Siemens 3SK1        |
+
+============================================================
+
+MODELOS EN ARAIZ (~191 artículos)
+--------------------------------------------------------------
+| Marca      | Familia              | Función                                     |
+|------------|----------------------|---------------------------------------------|
+| Schneider  | Easergy P1F          | Protección sobrecorriente alimentador MT    |
+| Schneider  | Easergy P3U          | Protección barras, selectividad             |
+| Schneider  | Easergy P5F/P5V      | Protección diferencial transformador/generador|
+| Arteche    | RJ-8 / RD-2 / RF-4   | Relé auxiliar alta fiabilidad subestación  |
+| Arteche    | BJ-8 / BF-4          | Relé basculante memorización disparos       |
+| ABB        | RC221 / RC222        | Relé diferencial para disyuntor TMAX T1-T3  |
+| ABB        | RS6 / Mínima tensión | Relé apertura / mínima tensión para TMAX   |
+| Socomec    | RESYS M40            | Relé diferencial para interruptor           |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                | Por qué la necesitas                                          |
+|----|----------------------------------------------------------|------------------------------------------------------------- |
+| 1  | Es para protección de red de media tensión?             | Confirmar que es un proyecto de distribución                 |
+| 2  | Que tipo de protección necesita? (línea, transform...) | Define la familia IED (P1F línea / P5F transformador)        |
+| 3  | Para un disyuntor ABB TMAX? Que modelo de TMAX?        | Los RC221/222 y mínima tensión son específicos por modelo    |
+| 4  | Tiene el código completo del relé Schneider?            | Los P1F/P5F tienen referencias largas configuradas a medida  |
+| 5  | Necesita comunicaciones? IEC61850 o MODBUS?             | Define la versión con o sin comunicaciones                   |
+
+CONSEJO: Los relés de protección para distribución son productos de proyecto muy
+especializados. Si el cliente te pide un "Easergy P1F" o un "relé diferencial para
+TMAX T2", no hay ambigüedad — es un proyecto de distribución eléctrica. Si el cliente
+no tiene la referencia completa, orientarle a su representante técnico de Schneider
+o ABB para la especificación correcta. Nunca sustituir un IED sin verificar que la
+configuración del nuevo es equivalente a la del sustituido — los parámetros de
+protección están ajustados a la red específica.
+
+============================================================
+Fuentes:
+- Schneider Easergy: https://www.se.com/es/es/product-subcategory/3900-proteccion-distribucion/
+- Arteche relés: https://www.arteche.com/es/productos/reles/
+- ABB TMAX accesorios: https://new.abb.com/low-voltage/es/productos/disyuntores/accesorios
+============================================================

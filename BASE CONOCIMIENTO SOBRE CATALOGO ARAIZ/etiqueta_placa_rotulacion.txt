@@ -1,0 +1,103 @@
+CUADRO RESUMEN — ETIQUETAS, PLACAS IDENTIFICADORAS Y ROTULACIÓN PARA PULSATERÍA
+Familia: Electricidad > Aparellaje eléctrico > Pulseteria
+Ejemplo en Araiz: Siemens ref. 3SU1900-0AF81-0AA0 (Placa inscripción "START" para 3SU1)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"etiquetas pulsadores industriales tipos" o "rotulación cuadro eléctrico pulsatería"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Las etiquetas y placas de rotulación son piezas que se colocan alrededor o sobre
+los pulsadores, selectores y pilotos para identificar su función. Sin etiquetas,
+un cuadro de mando es una fila de botones idénticos que nadie sabe para qué sirven.
+
+**TIPOS:**
+
+**1. Placa de inscripción / Etiqueta portanombre (~830 art.)**
+Placa de plástico que se coloca alrededor del pulsador (en el anillo exterior)
+con texto grabado o impreso: "MARCHA", "PARO", "AUTO", "MANUAL", "BOMBA 1",
+"COMPRESOR", etc.
+Tipos:
+- Placas pregrabadas (textos estándar: START, STOP, ON, OFF, I, O, 0-1-2).
+- Placas vírgenes (el instalador las graba o rotula con marcador/máquina).
+- Placas con símbolos (flechas direccionales, símbolos IEC).
+Marcas: Siemens (3SU1900), Schneider (ZBY), Eaton (M22-XST).
+
+**2. Portaetiquetas y marcos (~330 art.)**
+Marcos metálicos o plásticos que se colocan encima del pulsador para sujetar
+una etiqueta impresa o una tira de papel rotulada. Permiten cambiar el texto
+sin cambiar la placa (se imprime una nueva etiqueta y se inserta).
+Marcas: Eaton (M22-XST portaetiquetas), ABB, Schneider (ZBY).
+
+**3. Placa de rotulación para grupo (~33 art.)**
+Placas más grandes que identifican un grupo de pulsadores (ej. "ZONA 1",
+"TRANSPORTADOR 3", "ALIMENTACIÓN"). Se montan encima de una fila de pulsadores.
+Marcas: Schneider, Eaton, ABB, Siemens.
+
+**TEXTOS MÁS HABITUALES:**
+| Texto | Función |
+|-------|---------|
+| START / MARCHA / I | Arranque |
+| STOP / PARO / O | Parada |
+| AUTO / MAN | Modo automático / manual |
+| ON / OFF | Encendido / apagado |
+| RESET | Rearme de alarma |
+| ↑ ↓ ← → | Direcciones de movimiento |
+| 0 - 1 - 2 | Posiciones de selector |
+| EMERGENCIA | Parada de emergencia |
+
+Lo que facilita:
+- Identificar rápidamente cada pulsador en el cuadro de mando.
+- Cambiar la rotulación sin cambiar el pulsador (portaetiquetas).
+- Etiquetar en cualquier idioma (placas vírgenes + grabado personalizado).
+
+Lo que evita que ocurra:
+- Que el operario pulse el botón equivocado por no saber su función.
+- Pérdida de tiempo buscando qué botón corresponde a cada función.
+
+============================================================
+
+MODELOS EN ARAIZ (~1.190 artículos)
+--------------------------------------------------------------
+| Tipo                     | Marca           | Serie               | Para qué                      |
+|--------------------------|-----------------|---------------------|-------------------------------|
+| Placa "START"/"STOP"     | Siemens         | 3SU1900-0AF          | Texto pregrabado Siemens      |
+| Placa con flechas        | Siemens         | 3SU1900-0AB          | Símbolos dirección            |
+| Placa virgen             | Siemens         | 3SU1900-0AC          | Para grabar texto propio      |
+| Etiqueta Harmony         | Schneider       | ZBY                  | Placas Schneider XB4/XB5      |
+| Etiqueta "MARCHA"/"PARO" | Schneider       | ZBY2                 | Textos español Schneider      |
+| Portaetiquetas           | Eaton           | M22-XST              | Marco portaetiquetas Eaton    |
+| Placa virgen             | Eaton           | M22-XST-x            | Para grabar texto propio      |
+| Placa inscripción        | ABB             | Modular Legend        | Placas ABB                    |
+| Portaetiquetas           | ABB             | Modular KA1          | Marco portaetiquetas ABB      |
+| Placa grupo grande       | Schneider       | ZBY6                 | Rotulación grupo pulsadores   |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                | Por qué la necesitas                                          |
+|----|----------------------------------------------------------|------------------------------------------------------------- |
+| 1  | Qué marca de pulsatería tiene? (Schneider, Siemens...)  | Las placas son específicas por marca (encaje diferente)       |
+| 2  | Texto pregrabado o virgen?                              | Pregrabado = textos estándar; virgen = personalizable         |
+| 3  | Qué texto necesita?                                    | Verificar si existe pregrabado o si necesita virgen           |
+| 4  | Cuántas unidades?                                       | Se piden en cantidad (1 por cada pulsador del cuadro)         |
+
+CONSEJO: Las etiquetas son un producto barato (1-3€/ud) que se pide en cantidad
+cuando se monta un cuadro de mando nuevo. Un cuadro típico de máquina puede llevar
+10-20 etiquetas. Son fáciles de olvidar al presupuestar — si el cliente pide
+pulsadores, ofrecerle siempre las etiquetas.
+Las placas Siemens son las que tienen más variedad de textos pregrabados (más de
+500 referencias). Las de Schneider y Eaton tienen menos variedad pero cubren los
+textos más habituales. Si el texto no existe pregrabado, se pide placa virgen y
+se graba con máquina de grabado o con marcador indeleble.
+
+============================================================
+Fuentes:
+- Siemens placas 3SU1: https://www.siemens.com/es/es/productos/automatizacion/aparamenta/sirius-act.html
+- Schneider etiquetas: https://www.se.com/es/es/product-range/832-harmony-xb4/
+- Eaton M22 etiquetas: https://www.eaton.com/es/es-es/catalog/industrial-controls/m22.html
+============================================================

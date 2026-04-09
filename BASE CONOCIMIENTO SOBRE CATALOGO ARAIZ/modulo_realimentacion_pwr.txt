@@ -1,0 +1,84 @@
+CUADRO RESUMEN — MÓDULO DE REALIMENTACIÓN / ALIMENTACIÓN (FEED-IN)
+Familia: Electricidad > Aparellaje eléctrico > Autómatas programables
+Ejemplo en Araiz: Phoenix Contact ref. 2688297 (AXL F PWR 1H — serie Axioline F)
+============================================================
+
+IMAGEN DEL PRODUCTO:
+https://www.phoenixcontact.com/en-us/products/io-component-axl-f-pwr-1h-2688297
+
+VÍDEO / REFERENCIA TÉCNICA:
+https://rspsupply.com/p-71117-phoenix-contact-2688080-analog-module-axl-f-ao8-1f.aspx
+
+Búsqueda recomendada en YouTube (español):
+"módulo alimentación Axioline F feed-in Phoenix Contact" o "AXL F PWR módulo potencia Axioline"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Un módulo de realimentación (feed-in o PWR) es el componente que inyecta una
+nueva alimentación de 24V DC al bus de alimentación interno de la estación
+Axioline F cuando la corriente que puede suministrar el acoplador de bus ya no
+es suficiente para alimentar todos los módulos I/O conectados. Es como un
+"refuerzo de corriente" que se inserta en un punto intermedio de la estación
+para que los módulos que vienen después tengan suficiente potencia.
+
+Lo que facilita:
+- Ampliar una estación Axioline F con más módulos I/O sin llegar al límite
+  de corriente del acoplador (que suele ser 4A en el bus lógico).
+- Distribuir la alimentación en puntos estratégicos de la estación cuando
+  hay módulos de alta potencia (salidas digitales con muchas cargas activas).
+- Mantener la tensión estable en toda la estación aunque haya muchos módulos.
+
+Lo que evita que ocurra:
+- Caídas de tensión en los módulos más alejados del acoplador por falta de corriente.
+- Que el acoplador se sobrecargue al intentar alimentar demasiados módulos.
+- Comportamientos erráticos o fallos de comunicación por tensión insuficiente
+  en los módulos del final de la estación.
+- Tener que dividir la instalación en dos estaciones separadas solo por falta
+  de capacidad de corriente.
+
+============================================================
+
+DIFERENCIA CON OTROS MÓDULOS DE ALIMENTACIÓN AXIOLINE
+--------------------------------------------------------------
+| Tipo                         | Función                                          | Cuándo usarlo                                         |
+|------------------------------|--------------------------------------------------|-------------------------------------------------------|
+| AXL F PWR 1H (ref. 2688297)  | Inyecta hasta 4A adicionales al bus lógico       | Cuando el acoplador no tiene suficiente corriente     |
+| Módulo PWR para bus de potencia| Alimenta solo el bus de potencia (salidas)      | Cuando las salidas consumen mucho y hay caída de tensión|
+| Borne de segmento IB IL SEG  | Para sistema Inline — función equivalente        | Solo en sistema Inline (IB IL), no en Axioline F      |
+
+============================================================
+
+CARACTERÍSTICAS TÉCNICAS BÁSICAS A SABER
+--------------------------------------------------------------
+| Parámetro                    | Qué significa                                    | Valor ref. 2688297 (Phoenix Contact)          |
+|------------------------------|--------------------------------------------------|-----------------------------------------------|
+| Función principal            | Qué hace en la estación                          | Alimenta el bus lógico Ubus con hasta 4A      |
+| Corriente máxima aportada    | Cuánta corriente inyecta en el bus               | Hasta 4A                                      |
+| Tensión de alimentación      | Tensión de entrada que necesita                  | 24V DC                                        |
+| Velocidad de bus local       | Comunicación con el sistema Axioline F           | 100 Mbps                                      |
+| Grado de protección          | Nivel de estanqueidad                            | IP20 → interior de armario                    |
+| Serie / familia              | Sistema al que pertenece                         | Axioline F (AXL F) — Phoenix Contact          |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                          | Por qué la necesitas                                                          |
+|----|-------------------------------------------------------------------|-------------------------------------------------------------------------------|
+| 1  | ¿Cuántos módulos I/O Axioline F tiene en la estación?             | A partir de cierto número de módulos, el acoplador no da suficiente corriente |
+| 2  | ¿Hay módulos con muchas salidas activas simultáneamente?          | Las salidas consumen corriente — si hay muchas activas → puede faltar potencia|
+| 3  | ¿Tiene problemas de caída de tensión o fallos intermitentes?      | Síntoma clásico de falta de corriente en el bus → necesita módulo PWR        |
+| 4  | ¿Tiene fuente de alimentación 24V DC disponible para el módulo?   | El módulo PWR necesita su propia alimentación externa de 24V DC              |
+| 5  | ¿Es instalación nueva o tiene problemas con una existente?        | Si es nueva → dimensionar bien desde el principio contando la corriente total |
+
+CONSEJO: Para saber si hace falta un módulo PWR, sumar la corriente que consume
+cada módulo I/O de la estación (dato en la ficha técnica de cada uno) y comparar
+con la corriente máxima del acoplador. Si la suma supera el límite → módulo PWR.
+
+============================================================
+Fuentes:
+- Ficha oficial Phoenix Contact 2688297: https://www.phoenixcontact.com/en-us/products/io-component-axl-f-pwr-1h-2688297
+- Feed-in module Inline (referencia equivalente): https://www.phoenixcontact.com/en-us/products/io-component-ib-il-24-pwr-inr-pac-2861674
+============================================================

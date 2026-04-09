@@ -1,0 +1,101 @@
+CUADRO RESUMEN — AMPLIFICADOR DE AISLAMIENTO / ACONDICIONADOR DE SEÑAL ANALÓGICA
+Familia: Electricidad > Aparellaje eléctrico > Autómatas programables y robots industriales
+Ejemplo en Araiz: Phoenix Contact ref. MINI MCR-SL-UI-I (Amplificador separación 2 vías señal analógica)
+============================================================
+
+IMAGEN DEL PRODUCTO:
+https://www.phoenixcontact.com/es-es/productos/amplificador-de-separacion-mini-mcr
+
+VÍDEO / REFERENCIA TÉCNICA:
+https://www.phoenixcontact.com/es-es/productos/acondicionadores-de-señal
+
+Búsqueda recomendada en YouTube (español):
+"acondicionador señal analógica 4-20mA aislamiento galvánico 3 vías" o "amplificador separación señal PLC Phoenix MCR"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Un amplificador de aislamiento (también llamado acondicionador de señal o separador
+galvánico analógico) es un módulo que transmite una señal analógica (4-20mA, 0-10V)
+de un circuito a otro con aislamiento galvánico completo — igual que el optoacoplador
+pero para señales analógicas, no digitales. El más habitual de los 96 artículos del
+catálogo Araiz es la serie MINI MCR de Phoenix Contact: un módulo de carril DIN de
+6,2mm de ancho que recibe una señal analógica (tensión o corriente) en su entrada,
+la aísla eléctricamente y la reproduce en la salida con la misma o distinta escala.
+La versión "2 vías" (2-wire) tiene entrada y salida analógicas más alimentación
+por los propios terminales de señal. La versión "3 vías" tiene entrada, salida y
+alimentación como circuitos completamente independientes — el máximo aislamiento.
+
+Lo que facilita:
+- Eliminar bucles de tierra en señales analógicas largas: cuando un sensor 4-20mA
+  está a 200m del PLC, la diferencia de tierra entre ambos puntos genera error en
+  la lectura — el separador galvánico lo elimina.
+- Conectar señales de instrumentos con alimentación propia (transmisores HART)
+  a entradas del PLC sin conflicto de alimentación.
+- Duplicar una señal analógica para enviarla a dos destinos distintos: el separador
+  de 2 salidas replica la señal a dos instrumentos sin que se carguen mutuamente.
+- Convertir el rango de señal: de 4-20mA a 0-10V o viceversa, para adaptar
+  instrumentos con rangos distintos a las entradas del PLC.
+- Proteger las entradas del PLC de tensiones altas en la línea de señal: el
+  aislamiento galvánico protege el módulo analógico del PLC.
+
+Lo que evita que ocurra:
+- Lecturas erróneas en señales analógicas por bucles de tierra: el problema más
+  habitual en instalaciones con sensores lejanos — el acondicionador lo resuelve.
+- Interferencia entre instrumentos que comparten la señal 4-20mA: la salida
+  aislada del separador elimina la carga mutua entre instrumentos.
+
+============================================================
+
+DIFERENCIA CLAVE: ACONDICIONADOR ANALÓGICO vs OPTOACOPLADOR
+--------------------------------------------------------------
+| Característica          | Acondicionador MCR (este)        | Optoacoplador (OBOC...)          |
+|-------------------------|----------------------------------|----------------------------------|
+| Tipo de señal           | Analógica — 4-20mA, 0-10V       | Digital — ON/OFF                 |
+| Aislamiento             | Galvánico total (3 vías)         | Galvánico (por luz)              |
+| Para qué                | Señales de proceso continuas     | Señales de estado digital        |
+| Conversión de rango     | Sí — mA↔V, escala libre          | No — solo niveles lógicos        |
+| Marcas en Araiz         | Phoenix Contact (96 artículos)   | ABB, Phoenix Contact             |
+
+============================================================
+
+MODELOS PHOENIX CONTACT MINI MCR EN ARAIZ
+--------------------------------------------------------------
+| Modelo                     | E/S                        | Para qué                          |
+|----------------------------|----------------------------|-----------------------------------|
+| MINI MCR-SL-UI-I           | Tensión/corriente → corriente| El más habitual — 4-20mA→4-20mA |
+| MINI MCR-SL-UI-I-LP-NC     | Igual — versión compacta    | Para armarios con poco espacio   |
+| MINI MCR-SL-2UI-2UI        | 2 entradas → 2 salidas      | Duplicar 2 señales simultáneas   |
+| MACX MCR-EX-SL (NAMUR)     | Sensor NAMUR → señal PLC    | Para sensores en zona Ex (ATEX) |
+| MCR-2-U-UI                 | 2 entradas, 1 salida        | Suma o promedio de 2 señales     |
+
+NOTA: El prefijo "MINI" indica formato compacto 6,2mm de ancho. "MACX" es la
+versión para zona Ex (ATEX). "3 vías" = entrada, salida y alimentación totalmente
+aisladas entre sí — el nivel de aislamiento más alto.
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                               | Por qué la necesitas                                          |
+|----|--------------------------------------------------------|---------------------------------------------------------------|
+| 1  | ¿Qué tipo de señal entra y qué tipo debe salir?        | mA→mA / V→mA / mA→V — define el modelo MCR                  |
+| 2  | ¿Necesita 2 salidas (duplicar señal) o 1?              | 1 salida → MCR-SL / 2 salidas → MCR-SL-2UI                  |
+| 3  | ¿El sensor está en zona ATEX (zona explosiva)?         | Zona Ex → modelo MACX MCR-EX con certificación ATEX          |
+| 4  | ¿Necesita 2 vías o 3 vías de aislamiento?              | Máximo aislamiento → 3 vías (entrada, salida y alim. separadas)|
+| 5  | ¿Qué alimentación tiene disponible en el armario?      | 24V DC (lo más habitual) / 230V AC / alimentado por la señal |
+
+CONSEJO: El acondicionador de señal se vende cuando hay un problema de ruido o
+error en señales analógicas. El síntoma más común del cliente: "el sensor marca
+bien en el instrumento local pero en el PLC la lectura varía o tiene offset".
+Casi siempre es un problema de bucle de tierra que resuelve el separador MCR.
+También se vende en proyectos nuevos donde el diseñador de la instalación ya
+lo especifica por buenas prácticas de ingeniería (señales analógicas largas o
+entre edificios distintos).
+
+============================================================
+Fuentes:
+- Phoenix Contact MINI MCR (oficial): https://www.phoenixcontact.com/es-es/productos/amplificador-de-separacion-mini-mcr
+- Catálogo acondicionadores: https://www.phoenixcontact.com/es-es/productos/acondicionadores-de-señal
+============================================================

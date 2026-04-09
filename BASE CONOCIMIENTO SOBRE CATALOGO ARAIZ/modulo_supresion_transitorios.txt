@@ -1,0 +1,95 @@
+CUADRO RESUMEN — MÓDULO DE SUPRESIÓN DE TRANSITORIOS (RC / varistor / diodo para bobina contactor)
+Familia: Electricidad > Aparellaje eléctrico > Contactores
+Ejemplo en Araiz: Schneider ref. LAD9R2 (Módulo RC supresión bobina contactor TeSys D)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"módulo supresión transitorios contactor RC varistor qué es" o "protección bobina contactor pico tensión desconexión"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Un módulo de supresión de transitorios es un accesorio que se conecta directamente
+sobre la bobina del contactor (o directamente sobre los terminales de la bobina)
+para absorber el pico de tensión que se genera en el momento en que se desconecta
+la bobina. Cuando se corta la corriente a un electroimán (la bobina del contactor),
+la inductancia genera un pico de tensión inversa que puede llegar a varios cientos
+de voltios — este pico puede:
+- Destruir la salida del PLC o del relé que la controla (quema el transistor de salida).
+- Producir interferencias electromagnéticas (EMC) que afecten a otros equipos.
+- Dañar a largo plazo los componentes electrónicos del armario.
+
+El módulo de supresión absorbe o limita este pico. Hay tres tecnologías:
+1. **RC (resistencia + condensador):** El condensador absorbe el pico y la resistencia
+   lo disipa en calor. Es el más universal — funciona para AC y DC. Pequeño retardo
+   en la apertura del contactor (no relevante en la mayoría de aplicaciones).
+2. **Varistor (MOV):** Semiconductor que conduce cuando la tensión supera un umbral.
+   Rápido, económico, pero se degrada con el tiempo si hay muchos transitorios.
+3. **Diodo:** Solo para bobinas DC. El diodo conduce la corriente de la bobina en
+   sentido inverso al desconectar, disipando la energía sin pico de tensión.
+   Más lento para soltar el contactor (el diodo mantiene la bobina energizada un poco
+   más de tiempo) — para aplicaciones donde la velocidad de apertura es crítica,
+   se usa diodo + zener para equilibrar velocidad y protección.
+
+Se monta sin herramienta encima de la bobina del contactor (clip de enganche).
+
+Lo que facilita:
+- Proteger las salidas del PLC del pico de tensión al desconectar el contactor.
+- Reducir las interferencias electromagnéticas (EMC) del cuadro eléctrico.
+- Cumplir los requisitos EMC de marcado CE en maquinaria.
+
+Lo que evita que ocurra:
+- Destrucción de salidas de PLC por picos inductivos de las bobinas de contactores.
+- Interferencias que afecten a pantallas HMI, variadores de frecuencia o sensores.
+
+============================================================
+
+DIFERENCIA CLAVE: RC vs VARISTOR vs DIODO
+--------------------------------------------------------------
+| Característica            | Módulo RC                      | Varistor                  | Diodo               |
+|---------------------------|--------------------------------|--------------------------|---------------------|
+| Para CA / DC              | Ambos                          | Ambos                    | Solo DC             |
+| Velocidad apertura        | Ligero retardo                 | Normal                   | Retardo mayor       |
+| Desgaste                  | No                             | Sí (con el tiempo)       | No                  |
+| Protección                | Buena                          | Buena                    | Excelente (DC)      |
+| Precio                    | Económico                      | Económico                | Económico           |
+
+============================================================
+
+MODELOS EN ARAIZ (97 artículos)
+--------------------------------------------------------------
+| Referencia     | Marca      | Tipo      | Compatible con                  |
+|----------------|------------|-----------|---------------------------------|
+| LAD9R2         | Schneider  | RC        | TeSys D (LC1D09-D38 bobina AC)  |
+| LAD9R3         | Schneider  | RC        | TeSys D (LC1D40-D95 bobina AC)  |
+| LAD9E7         | Schneider  | Varistor  | TeSys D bobina AC               |
+| 3RT2926-1BB00  | Siemens    | Varistor  | 3RT2 S00-S3 bobina AC           |
+| 3RT2926-1BD20  | Siemens    | Diodo     | 3RT2 S00-S3 bobina DC           |
+| DILM-XSP24DC   | Eaton      | Varistor  | DILM bobina DC 24V              |
+
+NOTA: El módulo se selecciona según la marca/gama del contactor, el tipo de bobina
+(AC o DC) y la tensión de la bobina. No son intercambiables entre marcas.
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                | Por qué la necesitas                                          |
+|----|----------------------------------------------------------|------------------------------------------------------------- |
+| 1  | ¿Qué referencia tiene el contactor?                     | Define el módulo compatible (cada marca tiene el suyo)       |
+| 2  | ¿La bobina es AC o DC?                                  | AC → RC o varistor / DC → diodo o varistor DC                |
+| 3  | ¿Hay problemas con el PLC o interferencias en el cuadro?| Confirmar la necesidad del módulo                            |
+
+CONSEJO: En instalaciones modernas con PLC, el módulo de supresión de transitorios
+debería ser casi obligatorio — los PLC modernos tienen salidas de transistor muy
+sensibles que se pueden dañar con los picos inductivos. Normalmente se pide junto
+con el contactor, especialmente si es bobina DC. Si el cliente dice "se me queman
+las salidas del PLC" o "tengo interferencias en el cuadro", proponer siempre revisar
+si todos los contactores tienen módulo de supresión.
+
+============================================================
+Fuentes:
+- Schneider LAD9R: https://www.se.com/es/es/product-subcategory/4700-contactores-tesys-d/
+- Siemens 3RT2926: https://new.siemens.com/es/es/productos/automatizacion/aparamenta.html
+============================================================

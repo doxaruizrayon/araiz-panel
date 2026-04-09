@@ -1,0 +1,93 @@
+CUADRO RESUMEN — RELÉ AUXILIAR / CONTACTOR AUXILIAR (3RH / CAD / CA-series / DILA)
+Familia: Electricidad > Aparellaje eléctrico > Contactores
+Ejemplo en Araiz: Siemens ref. 3RH2122-1AP00 (Relé auxiliar 3RH2 4 contactos 2NA+2NC 230V AC)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"relé auxiliar para qué sirve diferencia contactor" o "relé de maniobra auxiliar esquema eléctrico"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Un relé auxiliar (también llamado contactor auxiliar) es un contactor de tamaño pequeño
+diseñado para maniobrar señales de control, no cargas de potencia. Mientras el contactor
+de potencia maneja la corriente del motor (hasta cientos de amperios), el relé auxiliar
+trabaja con la corriente del circuito de mando (normalmente 6-10 A máximo). Su función
+es multiplicar y gestionar señales de control:
+- Una salida del PLC (24V DC, 0,5A) no puede alimentar directamente una bobina de
+  contactor grande → el PLC activa el relé auxiliar y el relé activa el contactor.
+- Un pulsador puede tener que activar varios elementos a la vez → el relé auxiliar
+  multiplica la señal (tiene 4-8 contactos que se cierran o abren simultáneamente).
+- Necesitas enclavamiento eléctrico entre dos circuitos → un contacto del relé A
+  se pone en serie con la bobina del relé B y viceversa.
+- Necesitas memorizar un estado (encendido/apagado) → circuito de autoalimentación
+  con un contacto NA propio del relé.
+
+La diferencia con un relé de carril DIN enchufable (estilo FINDER 40.31):
+el relé auxiliar estilo contactor se monta en el mismo carril y bloque que los
+contactores — se combina con bloques de contactos auxiliares adicionales,
+temporizadores, etc. El FINDER es más económico pero no expande con accesorios.
+
+Lo que facilita:
+- Ampliar el número de contactos disponibles en un circuito de mando.
+- Interfaz entre PLC (24V DC baja corriente) y bobinas de contactores de CA.
+- Crear lógicas de enclavamiento, memorias y retardos en circuitos cableados.
+- Señalizar estados del proceso: cada contacto puede encender un piloto diferente.
+
+Lo que evita que ocurra:
+- Que el PLC deba manejar directamente cargas de corriente alta (dañaría la salida).
+- Usar contactores grandes para maniobrar señales de control: desproporciona el cuadro
+  y encarece innecesariamente la instalación.
+
+============================================================
+
+DIFERENCIA CLAVE: RELÉ AUXILIAR vs CONTACTOR DE POTENCIA
+--------------------------------------------------------------
+| Característica       | Relé auxiliar                  | Contactor de potencia          |
+|----------------------|--------------------------------|-------------------------------|
+| Corriente de carga   | 6-10 A (señales de mando)      | 6 A a 800 A (motor/potencia)  |
+| Número de contactos  | 4-8 NA/NC combinables          | 3 polos de potencia + 1-2 aux |
+| Tamaño               | Pequeño (mismo tamaño para todo| Varía por talla/amperios      |
+| Accesorios           | Bloques auxiliares, temporizadores| Igual, pero por talla       |
+| Para qué             | Circuito de mando              | Circuito de potencia          |
+
+============================================================
+
+MODELOS EN ARAIZ (1.079 artículos)
+--------------------------------------------------------------
+| Marca            | Gama              | Referencias tipo        | Contactos disponibles     |
+|------------------|-------------------|-------------------------|--------------------------|
+| Siemens          | 3RH2 (SIRIUS)     | 3RH2122, 3RH2131        | 2NA+2NC / 3NA+1NC / 4NA  |
+| Schneider Elec.  | TeSys D (CAD)     | CAD32, CAD40, CA2DM     | 3NA+2NC / 4NA / 2NA+2NC  |
+| ABB              | CA-series         | CA4-22M, CA4-31M        | 2NA+2NC / 3NA+1NC        |
+| Eaton            | DILA (xStart)     | DILA-22, DILA-31        | 2NA+2NC / 3NA+1NC        |
+
+Voltaje de bobina: igual que los contactores — 24V DC (PLC) o 230V AC (habitual)
+Número de contactos: se codifica en el nombre — "22" = 2NA+2NC, "31" = 3NA+1NC, "40" = 4NA
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                | Por qué la necesitas                                          |
+|----|----------------------------------------------------------|------------------------------------------------------------- |
+| 1  | ¿Para qué lo usa? (interfaz PLC, enclavamiento...)      | Define si necesita relé auxiliar o contactor de potencia     |
+| 2  | ¿Cuántos contactos necesita y de qué tipo (NA/NC)?      | Define el modelo: 22 (2+2), 31 (3+1), 40 (4NA)...           |
+| 3  | ¿Qué tensión tiene la bobina?                           | 24V DC para PLC / 230V AC para circuitos de mando convencional|
+| 4  | ¿Qué marca tiene el resto del cuadro?                   | Compatibilidad con bloques auxiliares y accesorios           |
+
+CONSEJO: El relé auxiliar se pide mucho como sustitución en cuadros viejos. El dato
+más importante es la combinación de contactos (NA/NC) y la tensión de bobina. Si el
+cliente tiene el relé quemado y no sabe la referencia, pedir esos dos datos más la
+marca del cuadro. Muchos instaladores usan relés FINDER o Phoenix Contact enchufables
+en zócalo (más económicos y fáciles de cambiar en campo) para las señales de PLC —
+si el cliente ya tiene esa filosofía, orientarle hacia los relés enchufables del
+cuadro de la subfamilia correspondiente.
+
+============================================================
+Fuentes:
+- Siemens 3RH2: https://new.siemens.com/es/es/productos/automatizacion/aparamenta/contactores-y-reles-3RT-3RH.html
+- Schneider CAD: https://www.se.com/es/es/product-subcategory/4700-contactores-tesys-d/
+- ABB CA-series: https://new.abb.com/low-voltage/es/productos/aparamenta/contactores
+============================================================

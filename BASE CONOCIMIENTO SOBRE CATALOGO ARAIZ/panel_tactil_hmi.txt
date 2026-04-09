@@ -1,0 +1,116 @@
+CUADRO RESUMEN — PANEL TÁCTIL HMI
+Familia: Electricidad > Aparellaje eléctrico > Autómatas programables
+Ejemplo en Araiz: Phoenix Contact ref. 1190420 (TP 6121-WXPS)
+============================================================
+
+IMAGEN DEL PRODUCTO:
+https://www.phoenixcontact.com/en-us/products/touch-panel-tp-6121-wxps-1190420
+
+VÍDEO / REFERENCIA TÉCNICA:
+https://uk.rs-online.com/web/p/hmi-displays/2698084
+
+Búsqueda recomendada en YouTube (español):
+"panel táctil HMI industrial tutorial" o "Phoenix Contact TP 6121 HMI programación"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Un panel táctil HMI (Human Machine Interface — Interfaz Hombre-Máquina) es la
+pantalla táctil que permite al operario ver el estado de la máquina o proceso
+y darle órdenes sin necesidad de conocer programación. Es la "ventana" entre
+el operario y el PLC: muestra datos en tiempo real (temperaturas, presiones,
+contadores, alarmas) y permite actuar sobre la instalación pulsando botones
+en pantalla.
+
+Lo que facilita:
+- Que el operario controle y supervise la instalación sin entrar al armario
+  ni tocar el PLC directamente.
+- Ver en tiempo real el estado de todos los parámetros del proceso (alarmas,
+  históricos, tendencias, valores de sensores).
+- Configurar consignas y parámetros de proceso de forma sencilla e intuitiva.
+- Reducir errores humanos: la pantalla guía al operario con mensajes claros.
+
+Lo que evita que ocurra:
+- Que el operario tenga que interpretar señales de LEDs o consultar manuales
+  para saber el estado de la máquina.
+- Paradas largas por no identificar a tiempo una alarma o avería.
+- Acceso no autorizado al PLC para cambiar parámetros (el HMI puede tener
+  niveles de acceso por contraseña).
+- Pérdida de datos de producción: el HMI puede registrar históricos y
+  exportarlos a USB o red.
+
+============================================================
+
+DIFERENCIA CLAVE CON OTROS PANELES HMI
+--------------------------------------------------------------
+| Tipo                         | Tamaño / Característica           | Cuándo usarlo                                         |
+|------------------------------|-----------------------------------|-------------------------------------------------------|
+| Panel básico sin pantalla    | Solo LEDs y pulsadores            | Máquinas muy simples, bajo coste                      |
+| HMI pequeño (3,5" - 5")      | Pantalla pequeña, funciones básicas| Visualización simple, poco espacio en puerta de armario|
+| HMI mediano (7" - 10")       | Pantalla cómoda, conectividad media| El más habitual en maquinaria industrial              |
+| HMI grande (12" - 21")       | Pantalla amplia, mucha información | Salas de control, líneas complejas, SCADA reducido    |
+| Panel PC industrial          | PC completo con pantalla táctil   | Aplicaciones complejas, SCADA, bases de datos         |
+| HMI remoto (web / app)       | Acceso desde PC, tablet o móvil   | Supervisión remota sin estar en planta                |
+
+El ref. 1190420 (TP 6121-WXPS) es un HMI de 12,1" de gama alta con IP66,
+PCAP multitouch (10 puntos) y software Visu+ incluido.
+
+============================================================
+
+CARACTERÍSTICAS TÉCNICAS BÁSICAS A SABER
+--------------------------------------------------------------
+| Parámetro                  | Qué significa                                    | Valor ref. 1190420 (Phoenix Contact)          |
+|----------------------------|--------------------------------------------------|-----------------------------------------------|
+| Tamaño de pantalla         | Diagonal de la pantalla                          | 12,1 pulgadas (widescreen 16:9)               |
+| Resolución                 | Nitidez de la imagen                             | 1280 x 800 píxeles (WXGA)                    |
+| Tipo de pantalla           | Tecnología del panel                             | TFT color — 16,7 millones de colores          |
+| Tipo de táctil             | Cómo detecta el toque                            | PCAP — capacitivo proyectivo (10 puntos)      |
+| Procesador                 | Velocidad de respuesta del panel                 | ARM Cortex-A9 800 MHz                         |
+| Memoria RAM / Flash        | Capacidad de proceso y almacenamiento            | 1 GB RAM / 8 GB eMMC Flash                    |
+| Conectividad               | Puertos disponibles                              | 1x RJ45 Ethernet + 2x USB 2.0 + microSD      |
+| Alimentación               | Tensión de trabajo                               | 18-32V DC (nominal 24V DC)                    |
+| Grado de protección        | Resistencia a polvo y agua                       | IP66 → válido para entornos con agua a presión|
+| Temperatura de trabajo     | Rango admisible                                  | -20°C a +50°C                                 |
+| Software incluido          | Con qué se programa                              | Visu+ RT (software de visualización propio)   |
+| Montaje                    | Cómo se instala                                  | Empotrado en puerta de armario                |
+
+============================================================
+
+TIPOLOGÍAS DE PANELES HMI
+--------------------------------------------------------------
+| Tipología                        | Descripción                                                   | Cuándo se usa                                          |
+|----------------------------------|---------------------------------------------------------------|--------------------------------------------------------|
+| HMI standalone                  | Panel independiente, se programa con software propio          | La mayoría de las instalaciones industriales           |
+| HMI integrado en PLC            | El PLC lleva pantalla táctil incorporada                      | Instalaciones compactas, poco espacio                  |
+| Panel PC industrial              | PC completo con pantalla táctil, corre Windows/Linux          | SCADA, gestión de datos, informes de producción        |
+| HMI con IP65/IP66               | Protegido contra agua y polvo                                 | Alimentación, química, lavados, zonas húmedas          |
+| HMI ATEX / zonas explosivas     | Certificado para atmósferas potencialmente explosivas         | Petroquímica, gas, pintura, harina                     |
+| HMI web / remoto                | Acceso desde navegador sin software específico                | Supervisión remota, mantenimiento a distancia          |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                          | Por qué la necesitas                                                          |
+|----|-------------------------------------------------------------------|-------------------------------------------------------------------------------|
+| 1  | ¿Qué PLC o sistema de control tiene?                              | El HMI debe ser compatible o tener driver de comunicación para ese PLC        |
+| 2  | ¿Qué tamaño de pantalla necesita?                                 | Depende del espacio disponible en la puerta del armario o sala de control     |
+| 3  | ¿Qué quiere ver y controlar desde la pantalla?                    | Define la complejidad del software y la capacidad de memoria necesaria        |
+| 4  | ¿El entorno tiene agua, polvo o productos químicos?               | Si sí → IP65 mínimo (frente de panel). IP66 si hay agua a presión            |
+| 5  | ¿Necesita registrar históricos o exportar datos?                  | Si sí → panel con ranura USB o tarjeta SD y software de logging              |
+| 6  | ¿Necesita acceso remoto para supervisión o mantenimiento?         | Si sí → panel con Ethernet y función de acceso remoto/web server             |
+| 7  | ¿Habrá diferentes usuarios con distintos permisos?                | Si sí → panel con sistema de gestión de usuarios por contraseña              |
+| 8  | ¿Hay zonas ATEX en la instalación?                                | Si sí → panel certificado ATEX, no un HMI estándar                          |
+| 9  | ¿Es instalación nueva o sustitución de un HMI existente?          | Si es sustitución → verificar compatibilidad de comunicación y tamaño de hueco|
+
+CONSEJO: La pregunta más importante es la compatibilidad con el PLC.
+Un HMI Phoenix Contact se comunica fácilmente con PLCs Schneider, Siemens, Omron,
+Allen-Bradley mediante drivers estándar, pero hay que verificarlo antes de presupuestar.
+
+============================================================
+Fuentes:
+- Ficha oficial Phoenix Contact 1190420: https://www.phoenixcontact.com/en-us/products/touch-panel-tp-6121-wxps-1190420
+- RS Online ref. 1190420: https://uk.rs-online.com/web/p/hmi-displays/2698084
+- Mouser ref. 1190420: https://www.mouser.com/ProductDetail/Phoenix-Contact/1190420
+============================================================

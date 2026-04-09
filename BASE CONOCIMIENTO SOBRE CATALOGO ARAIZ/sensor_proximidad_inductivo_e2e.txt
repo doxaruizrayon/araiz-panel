@@ -1,0 +1,108 @@
+CUADRO RESUMEN — SENSOR DE PROXIMIDAD INDUCTIVO E2E (DETECTOR METÁLICO SIN CONTACTO)
+Familia: Electricidad > Aparellaje eléctrico > Autómatas programables y robots industriales
+Ejemplo en Araiz: Omron ref. E2EHX7B15MOMS (Sensor inoxidable 3h Enr 7mm M18 PNP NA cable 5m)
+============================================================
+
+IMAGEN DEL PRODUCTO:
+https://www.ia.omron.com/products/family/657/
+
+VÍDEO / REFERENCIA TÉCNICA:
+https://industrial.omron.co.uk/en/products/e2e
+
+Búsqueda recomendada en YouTube (español):
+"sensor proximidad inductivo cómo funciona NPN PNP" o "Omron E2E detector metálico PLC"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Un sensor de proximidad inductivo detecta la presencia de objetos metálicos sin
+contacto físico, usando un campo electromagnético que genera en su cara activa.
+Cuando un metal se acerca a esa cara, el metal absorbe parte de la energía del campo
+y el sensor conmuta su salida (activa o desactiva). No tiene partes móviles, no se
+desgasta mecánicamente y puede trabajar en entornos con aceite, virutas metálicas,
+humedad y suciedad — características que los hacen imprescindibles en maquinaria
+industrial. El E2E es la serie estándar de Omron: roscado cilíndrico M8/M12/M18/M30,
+distancias de detección de 1,5 mm a 15 mm, y salida NPN o PNP de 3 hilos.
+
+Lo que facilita:
+- Detectar la llegada de piezas metálicas a una posición: piezas en un alimentador,
+  bandejas metálicas en una cinta, tornillos, ejes, engranajes...
+- Confirmar la posición final de cilindros neumáticos y actuadores: detecta el
+  pistón metálico interno sin contacto desde el exterior del cilindro.
+- Contar piezas que pasan por un punto: cada pieza genera un pulso al PLC.
+- Detectar rotura de herramienta en mecanizado: si no hay pieza metálica donde
+  debe haber, el sensor no conmuta → alarma de pieza faltante.
+
+Lo que evita que ocurra:
+- Desgaste por contacto mecánico: sin partes móviles, dura decenas de millones
+  de operaciones — muy superior a un final de carrera mecánico.
+- Falsas detecciones por suciedad o aceite en la cara del sensor: el inductivo
+  funciona a través de aceite, refrigerante y virutas metálicas finas.
+- Daños por golpes directos del objeto detectado: el inductivo detecta sin tocar
+  — no hay impacto entre sensor y pieza.
+
+============================================================
+
+DIFERENCIA CLAVE: SENSOR INDUCTIVO vs SENSOR FOTOELÉCTRICO
+--------------------------------------------------------------
+| Característica          | Inductivo E2E                    | Fotoeléctrico E3FA               |
+|-------------------------|----------------------------------|----------------------------------|
+| Detecta                 | Solo metales                     | Cualquier objeto (opaco)         |
+| Distancia               | 1-15 mm (corta)                  | 10 mm a 15 m (larga)             |
+| Afectado por suciedad   | No — funciona con aceite/virutas | Sí — suciedad en lente → fallo   |
+| Afectado por luz ambiente| No                              | Puede afectar si hay mucha luz   |
+| Precio                  | Bajo-medio                       | Similar o algo más caro          |
+| Para qué                | Metales, cilindros, piezas metal | Plásticos, cajas, presencia gen. |
+
+============================================================
+
+TIPOS DE SALIDA NPN vs PNP
+--------------------------------------------------------------
+| Tipo    | Cómo funciona                              | Con qué PLC                          |
+|---------|--------------------------------------------|--------------------------------------|
+| NPN     | La salida conecta a masa (0V) cuando activa| PLCs con entradas NPN (OMRON CP1L-D) |
+| PNP     | La salida conecta a +24V cuando activa      | PLCs con entradas PNP (SIEMENS S7)   |
+
+REGLA: Si el PLC es Omron CP1L / CJ1 / NJ → suele ser NPN. Si es Siemens S7-1200/1500
+o la mayoría de PLCs europeos → PNP. Siempre confirmar el tipo de entrada del PLC.
+
+============================================================
+
+MODELOS E2E A CONOCER
+--------------------------------------------------------------
+| Modelo            | Diám | Distancia | Salida | Hilos | Cuándo usarlo                  |
+|-------------------|------|-----------|--------|-------|--------------------------------|
+| E2E-X1R5E1        | M8   | 1,5 mm    | NPN NA | 3h    | Espacios muy reducidos         |
+| E2E-X2MF1         | M12  | 2 mm      | NPN NA | 3h    | El más pequeño habitual        |
+| E2E-X5MF1         | M18  | 5 mm      | NPN NA | 3h    | El más usado — equilibrio      |
+| E2E-X10MF1        | M30  | 10 mm     | NPN NA | 3h    | Detección a más distancia      |
+| E2EH-X7B1         | M18  | 7 mm      | PNP NA | 3h    | Para PLCs europeos (PNP)       |
+
+NOTA: NA = Normalmente Abierto (activa cuando detecta). NC = Normalmente Cerrado.
+La mayoría de aplicaciones usan NA — el sensor activa cuando hay metal.
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                               | Por qué la necesitas                                          |
+|----|--------------------------------------------------------|---------------------------------------------------------------|
+| 1  | ¿El objeto a detectar es metálico o no metálico?       | Inductivo solo detecta metales — si no es metal → fotoeléctrico|
+| 2  | ¿A qué distancia necesita detectar? (mm)               | Define el diámetro: M8 (1,5mm) / M12 (2mm) / M18 (5mm) / M30 |
+| 3  | ¿Las entradas del PLC son NPN o PNP?                   | NPN o PNP — NO son intercambiables                            |
+| 4  | ¿NA (activar al detectar) o NC (desactivar al detectar)?| La mayoría son NA — confirmar si necesita NC                  |
+| 5  | ¿Cuántos metros hay del sensor al armario?              | Define la longitud del cable necesario (2m / 5m / conector M12)|
+| 6  | ¿Hay aceite, refrigerante o virutas en la zona?        | Si sí → confirmar que el sensor sea IP67 o inoxidable (E2EH)  |
+
+CONSEJO: El sensor inductivo es el más instalado en maquinaria industrial —
+cualquier máquina tiene varios. Los modelos más pedidos son M18 NPN NA con cable 2m.
+Cuando un cliente dice "sensor de presencia" sin especificar, preguntar siempre si
+el objeto es metálico (→ inductivo) o puede ser cualquier material (→ fotoeléctrico).
+
+============================================================
+Fuentes:
+- Omron E2E (oficial): https://www.ia.omron.com/products/family/657/
+- Omron E2EH inoxidable: https://www.ia.omron.com/products/family/783/
+- TME E2E-X5MF1: https://www.tme.com/us/en-us/details/e2e-x5mf1/proximity-sensors/omron/
+============================================================

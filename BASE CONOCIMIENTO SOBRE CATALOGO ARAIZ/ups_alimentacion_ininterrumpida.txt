@@ -1,0 +1,98 @@
+CUADRO RESUMEN — UPS / SAI INDUSTRIAL (ALIMENTACIÓN ININTERRUMPIDA PARA AUTOMATIZACIÓN)
+Familia: Electricidad > Aparellaje eléctrico > Autómatas programables y robots industriales
+Ejemplo en Araiz: Siemens ref. SITOP UPS501S (UPS industrial SITOP 24V DC 5A con batería integrada)
+============================================================
+
+IMAGEN DEL PRODUCTO:
+https://www.siemens.com/es/es/productos/automatizacion/producto/sitop-ups.html
+
+VÍDEO / REFERENCIA TÉCNICA:
+https://www.siemens.com/sitop
+
+Búsqueda recomendada en YouTube (español):
+"UPS industrial 24V DC PLC qué es SAI automatización" o "SITOP UPS Siemens alimentación ininterrumpida armario"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Un UPS industrial (Uninterruptible Power Supply — Sistema de Alimentación Ininterrumpida)
+es un dispositivo que mantiene la alimentación del PLC, los módulos de E/S y el
+sistema de control cuando falla la red eléctrica, durante el tiempo suficiente para
+que el PLC ejecute una secuencia de parada controlada y guarde el estado del proceso.
+A diferencia de un SAI doméstico o de oficina (que alimenta a 230V AC), el UPS
+industrial de automatización trabaja directamente en el bus de 24V DC del armario
+de control — se instala entre la fuente de alimentación 24V y el PLC/módulos, y cuando
+detecta un microcorte o bajada de tensión, conmuta inmediatamente a la batería interna
+sin ninguna interrupción. El Siemens SITOP UPS501S es el más habitual: se conecta a
+la fuente SITOP existente y añade autonomía de batería. El Omron BUF8600 hace lo
+mismo para el bus de 24V de un sistema Omron.
+
+Lo que facilita:
+- Proteger el PLC de microcortes y bajadas de tensión: incluso un corte de 20ms
+  puede reiniciar un PLC y perder el estado del proceso.
+- Ejecutar una parada controlada cuando falla la red: el UPS da tiempo al PLC para
+  guardar datos, cerrar válvulas, retraer cilindros y llegar a una posición segura.
+- Proteger los datos del proceso: sin UPS, un corte de luz puede corromper archivos
+  de recetas, históricos o configuración guardados en memoria RAM del PLC.
+- Señalizar el fallo de red al PLC: el UPS tiene salida digital que avisa al PLC
+  cuando está funcionando con batería — el PLC puede iniciar la secuencia de parada.
+
+Lo que evita que ocurra:
+- Paradas no controladas por microcortes: en redes eléctricas con calidad deficiente,
+  el UPS filtra todos los transitorios y mantiene el 24V estable.
+- Pérdida de posición en ejes servo: al perder tensión sin UPS, los servos se paran
+  sin control — el UPS da tiempo al drive para hacer la parada controlada.
+- Pérdida de recetas o datos de producción por corte brusco de alimentación.
+
+============================================================
+
+DIFERENCIA CLAVE: UPS INDUSTRIAL 24V vs SAI DOMÉSTICO 230V
+--------------------------------------------------------------
+| Característica          | UPS industrial 24V (SITOP)       | SAI doméstico 230V               |
+|-------------------------|----------------------------------|----------------------------------|
+| Tensión de trabajo      | 24V DC — bus de control directo  | 230V AC — para equipos de oficina|
+| Tiempo de conmutación   | 0ms — sin interrupción           | 4-20ms — hay un hueco            |
+| Instalación             | Carril DIN — dentro del armario  | Externa — caja aparte            |
+| Señal de aviso al PLC   | Sí — salida digital al PLC       | No                               |
+| Autonomía habitual      | 1-30 minutos (parada controlada) | 5-60 minutos (seguir trabajando) |
+| Para qué                | Parada controlada del PLC        | Mantener equipos de oficina      |
+
+============================================================
+
+MODELOS EN ARAIZ
+--------------------------------------------------------------
+| Modelo                     | Marca    | Corriente | Para qué                          |
+|----------------------------|----------|-----------|-----------------------------------|
+| SITOP UPS501S (2,5kWs)     | Siemens  | 5A / 24V  | PLC pequeño — CPs + módulos E/S  |
+| SITOP UPS501S (5kWs)       | Siemens  | 10A / 24V | PLC con más módulos               |
+| BUF8600 100MS 40A          | Omron    | 40A / 24V | Sistemas Omron con alta corriente |
+| Módulo batería SIPLUS UPS  | Siemens  | —         | Batería adicional para SITOP UPS  |
+
+NOTA: "kWs" = kilowatts-segundo = cantidad de energía almacenada. 2,5kWs a 5A = 50
+segundos de autonomía. Para calcular el tiempo necesario: tiempo (s) = kWs / (V×A).
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                               | Por qué la necesitas                                          |
+|----|--------------------------------------------------------|---------------------------------------------------------------|
+| 1  | ¿Cuánta corriente consume el sistema de control?       | Define la capacidad del UPS (5A, 10A, 40A...)                |
+| 2  | ¿Cuánto tiempo necesita de autonomía?                  | Parada controlada (30-60s) / Seguir trabajando (minutos)     |
+| 3  | ¿Qué fuente de alimentación tiene? ¿SITOP?             | SITOP UPS501S es el complemento directo de las fuentes SITOP |
+| 4  | ¿Necesita señal al PLC cuando hay fallo de red?        | Sí siempre — para iniciar la secuencia de parada controlada  |
+| 5  | ¿Es Siemens u Omron el PLC?                            | SITOP → Siemens / BUF8600 → Omron                           |
+
+CONSEJO: El UPS industrial se vende en procesos donde una parada brusca causa
+daños: hornos con material caliente, prensas con pieza en molde, sistemas con
+ejes servo en posición intermedia, o cualquier proceso donde la parada abrupta
+requiere una secuencia de cierre segura. También en fábricas con calidad eléctrica
+deficiente (microcortes frecuentes). Si el cliente dice "cuando se va la luz el
+PLC se reinicia y perdemos la producción", el UPS es la solución directa.
+
+============================================================
+Fuentes:
+- Siemens SITOP UPS: https://www.siemens.com/es/es/productos/automatizacion/producto/sitop-ups.html
+- Omron BUF8600: https://www.ia.omron.com/products/family/3244/
+============================================================

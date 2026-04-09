@@ -1,0 +1,96 @@
+CUADRO RESUMEN — GUARDAMOTOR / PROTECCIÓN ELECTRÓNICA DE MOTORES (SIMOCODE / R88D)
+Familia: Electricidad > Aparellaje eléctrico > Autómatas programables y robots industriales
+Ejemplo en Araiz: Siemens ref. 3UF7010-1AB00-0 (SIMOCODE pro módulo base 24V DC termistor)
+============================================================
+
+IMAGEN DEL PRODUCTO:
+https://www.siemens.com/es/es/productos/automatizacion/producto/simocode-pro.html
+
+VÍDEO / REFERENCIA TÉCNICA:
+https://www.siemens.com/simocode
+
+Búsqueda recomendada en YouTube (español):
+"guardamotor electrónico SIMOCODE qué es para qué sirve" o "protección electrónica motor relé térmico electrónico"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Un guardamotor (o dispositivo de protección electrónico para motores) es un equipo que
+protege el motor eléctrico de sobrecargas, cortocircuitos, fallos de fase, desequilibrio
+de fases y sobretemperatura — todo en un solo dispositivo. A diferencia del relé térmico
+clásico (bimetálico, sin comunicación), el guardamotor electrónico mide la corriente
+real del motor con transformadores de corriente internos, calcula el modelo térmico
+del motor y actúa con mucha más precisión. El modelo avanzado en el catálogo Araiz es
+el **Siemens SIMOCODE pro**: un sistema modular de gestión de motores que además de
+proteger el motor, comunica por PROFIBUS/PROFINET con el PLC — el técnico puede ver
+desde el SCADA la corriente exacta del motor, las horas de funcionamiento y el historial
+de disparos. El Omron R88D de esta categoría es un **motor lineal** (para sistemas de
+movimiento lineal de precisión), no un guardamotor clásico.
+
+Lo que facilita (SIMOCODE):
+- Proteger el motor de sobrecargas con curva térmica configurable: ajuste preciso
+  según el motor real, no aproximado como el relé térmico bimetálico.
+- Diagnóstico en red: el SCADA y el PLC ven en tiempo real la corriente del motor,
+  el estado de la protección y el número de disparos acumulados.
+- Reducir el tiempo de diagnóstico de averías: SIMOCODE indica exactamente por qué
+  paró el motor (sobrecarga, falta de fase, sobretemperatura del termistor...).
+- Funciones de gestión: arranque estrella-triángulo, inversión de giro, control
+  de válvulas — todo integrado en el módulo sin cableado adicional.
+- Comunicación PROFIBUS/PROFINET: integración directa con PLCs Siemens S7/S5.
+
+Lo que evita que ocurra:
+- Disparos innecesarios por curva térmica mal ajustada del relé bimetálico: el
+  SIMOCODE usa la corriente real medida, no la estimada por la lámina bimetálica.
+- Paradas de planta sin diagnóstico: el historial de disparos indica exactamente
+  qué pasó y cuándo — sin conjeturas.
+
+============================================================
+
+DIFERENCIA CLAVE: GUARDAMOTOR ELECTRÓNICO vs RELÉ TÉRMICO CLÁSICO
+--------------------------------------------------------------
+| Característica          | Guardamotor electrónico (SIMOCODE)| Relé térmico bimetálico  |
+|-------------------------|----------------------------------|--------------------------|
+| Medición corriente      | TC interno — corriente real       | Bimetálico — estimada    |
+| Precisión               | Alta (±2%)                       | Media (±10%)             |
+| Comunicación con PLC    | PROFIBUS / PROFINET              | No — contacto seco       |
+| Diagnóstico             | Historial, causa de disparo       | Solo indicador LED       |
+| Funciones adicionales   | Arranque Y/D, inversión, válvulas | Solo protección          |
+| Precio                  | Alto                              | Bajo                     |
+| Para qué                | Motores críticos, muchos motores | Motores estándar          |
+
+============================================================
+
+NOTA SOBRE OMRON R88D (MOTOR LINEAL)
+--------------------------------------------------------------
+Los artículos Omron R88DKN de esta categoría son **motores lineales** para sistemas
+de posicionamiento de alta precisión (ejes lineales en máquinas CNC, semiconductores,
+laboratorio). Son parte del sistema servo Accurax G5 en su variante lineal. No son
+guardamotores — su nombre en el catálogo está agrupado bajo la misma clase ETIM
+por un error de clasificación. Si el cliente pregunta por "motor lineal Omron",
+referirle al cuadro del sistema servo Accurax G5.
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                               | Por qué la necesitas                                          |
+|----|--------------------------------------------------------|---------------------------------------------------------------|
+| 1  | ¿Qué PLC usa? ¿Siemens S7/S5?                         | SIMOCODE comunica por PROFIBUS/PROFINET — solo con Siemens   |
+| 2  | ¿Cuántos amperios tiene el motor a proteger?           | Define el módulo de medida de corriente del SIMOCODE         |
+| 3  | ¿Necesita solo protección o también diagnóstico en red?| Solo protección → relé térmico / Diagnóstico → SIMOCODE     |
+| 4  | ¿El motor tiene termistor (sonda PTC)?                 | El SIMOCODE tiene entrada de termistor para protección       |
+| 5  | ¿Es sustitución de equipo existente?                   | Verificar versión SIMOCODE (pro V, pro C) para compatibilidad|
+
+CONSEJO: El SIMOCODE es una solución premium para plantas con muchos motores donde
+el diagnóstico rápido de averías es crítico. Se vende en proyectos con PLCs Siemens
+donde el cliente quiere integrar la gestión de motores en el SCADA. Para motores
+individuales o instalaciones sencillas, el relé térmico electrónico estándar es
+más económico y suficiente. Si el cliente menciona "SIMOCODE" ya sabe exactamente
+lo que quiere.
+
+============================================================
+Fuentes:
+- Siemens SIMOCODE pro: https://www.siemens.com/es/es/productos/automatizacion/producto/simocode-pro.html
+- Omron R88D motor lineal: https://www.ia.omron.com/products/family/3382/
+============================================================

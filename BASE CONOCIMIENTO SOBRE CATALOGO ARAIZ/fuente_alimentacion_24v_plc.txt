@@ -1,0 +1,98 @@
+CUADRO RESUMEN — FUENTE DE ALIMENTACIÓN 24V DC PARA PLC (CARRIL DIN)
+Familia: Electricidad > Aparellaje eléctrico > Autómatas programables y robots industriales
+Ejemplo en Araiz: Omron ref. CJ1WPD0221 (Fuente de alimentación 24V CC 19,6W — para rack CJ1)
+============================================================
+
+IMAGEN DEL PRODUCTO:
+https://www.ia.omron.com/products/family/174/
+
+VÍDEO / REFERENCIA TÉCNICA:
+https://industrial.omron.co.uk/en/products/s8fs
+
+Búsqueda recomendada en YouTube (español):
+"fuente alimentación 24V DC carril DIN PLC armario" o "S8VK S8FS Omron fuente industrial"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+La fuente de alimentación de carril DIN convierte la tensión de red (230V AC o 400V AC)
+en 24V DC — la tensión estándar que necesitan el PLC, los sensores, los relés y la
+mayoría de los actuadores de un armario de automatización. Sin ella, ninguno de los
+componentes del armario funciona. Hay dos tipos principales:
+- Fuente de alimentación del bastidor (CJ1W-PD, CS1W-PA): va dentro del rack del PLC
+  modular y alimenta directamente la CPU y los módulos del bastidor.
+- Fuente de carril DIN general (S8FS, S8VK): va en carril DIN y alimenta el bus de
+  24V del armario — sensores, relés, bobinas de contactores, HMI, etc.
+Omron tiene la serie S8FS y S8VK para uso general, y las CJ1W-PD/CS1W-PA específicas
+para los racks de PLC modular.
+
+Lo que facilita:
+- Alimentar todos los componentes del armario desde la red 230V AC: un solo equipo
+  convierte y distribuye la tensión de control necesaria.
+- Proteger los componentes frente a variaciones de red: las fuentes industriales tienen
+  compensación de tensión y protección frente a cortocircuitos y sobrecargas.
+- Diagnóstico del estado de la alimentación: señal de alarma cuando la tensión de
+  salida baja del límite — el PLC puede leerla y generar una alarma antes de que
+  falle algo.
+- Instalación en carril DIN estándar: mismo carril que el PLC, los módulos y los
+  disyuntores — todo en el mismo armario.
+
+Lo que evita que ocurra:
+- Daños por transitorios de red: las fuentes industriales tienen filtro EMC y
+  protección contra picos de tensión de la red eléctrica.
+- Reinicios inesperados del PLC por caídas de tensión momentáneas: las fuentes con
+  hold-up time de 20-30 ms absorben micro-cortes sin que el PLC lo note.
+- Sobredimensionamiento: se elige la corriente justa según la carga total del armario.
+
+============================================================
+
+DIFERENCIA CLAVE: FUENTE BASTIDOR PLC vs FUENTE CARRIL DIN GENERAL
+--------------------------------------------------------------
+| Tipo                        | Para qué                               | Ejemplo Omron           |
+|-----------------------------|----------------------------------------|-------------------------|
+| Fuente bastidor CJ1W-PD     | Alimenta internamente el rack CJ1/CS1  | CJ1W-PD022, CJ1W-PD025 |
+| Fuente bastidor CS1W-PA     | Alimenta internamente el rack CS1      | CS1W-PA204, CS1W-PA204S |
+| Fuente NX (NX-PF)           | Alimenta módulos NX del bus NX         | NX-PF0630, NX-PF0730   |
+| Fuente carril DIN S8FS      | Bus 24V DC general del armario         | S8FS-C05024, S8FS-C10024|
+| Fuente carril DIN S8VK      | Bus 24V DC alta potencia               | S8VK-C24024, S8VK-G24024|
+
+============================================================
+
+CORRIENTES DISPONIBLES (S8FS / S8VK)
+--------------------------------------------------------------
+| Modelo típico    | Potencia | Corriente | Para qué                               |
+|-----------------|----------|-----------|----------------------------------------|
+| S8FS-C05024     | 50W      | 2A 24VDC  | Armarios pequeños — pocos sensores     |
+| S8FS-C10024     | 100W     | 4A 24VDC  | Armario medio — PLC + sensores         |
+| S8FS-C25024     | 240W     | 10A 24VDC | El más habitual en automatización      |
+| S8VK-C24024     | 240W     | 10A 24VDC | Versión mejorada — mayor eficiencia    |
+| S8VK-G48024     | 480W     | 20A 24VDC | Armarios grandes o con muchos actuad.  |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                               | Por qué la necesitas                                          |
+|----|--------------------------------------------------------|---------------------------------------------------------------|
+| 1  | ¿Es para alimentar el rack de PLC modular o el bus 24V?| Bastidor → CJ1W-PD/CS1W-PA / Bus general → S8FS o S8VK       |
+| 2  | ¿Qué modelo de PLC tiene? (CS1, CJ1, NX...)            | La fuente de bastidor es específica del rack                  |
+| 3  | ¿Cuántos amperios consume el bus de 24V en total?       | Sumar: PLC + sensores + relés + HMI + margen 20%              |
+| 4  | ¿La red de entrada es 230V AC o 400V AC?                | Confirmar que la fuente acepta esa tensión de entrada         |
+| 5  | ¿Necesita señal de alarma de bajo voltaje?              | Para que el PLC sepa si la fuente está fallando               |
+| 6  | ¿Va a añadir un UPS S8BA?                               | El UPS va detrás de la fuente — confirmar que son compatibles |
+
+CONSEJO: En cualquier presupuesto de automatización con PLC, la fuente de alimentación
+es un componente que siempre va incluido. Si el cliente pide solo la CPU del PLC,
+preguntar siempre si ya tiene la fuente para el bastidor y la fuente general del
+armario. La regla básica para dimensionar: sumar todos los consumos en 24V DC del
+armario y añadir un 25% de margen. Para la mayoría de armarios medianos, una
+S8FS de 10A (240W) es suficiente.
+
+============================================================
+Fuentes:
+- Omron S8FS (oficial): https://www.ia.omron.com/products/family/3394/
+- Omron S8VK (oficial): https://www.ia.omron.com/products/family/3551/
+- Omron CJ1W-PD (oficial): https://www.ia.omron.com/products/family/174/
+- TME S8FS-C25024: https://www.tme.com/us/en-us/details/s8fs-c25024/power-supplies/omron/
+============================================================

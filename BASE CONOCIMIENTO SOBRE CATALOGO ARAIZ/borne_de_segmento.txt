@@ -1,0 +1,107 @@
+CUADRO RESUMEN — BORNE DE SEGMENTO (MÓDULO DE SEGMENTACIÓN)
+Familia: Electricidad > Aparellaje eléctrico > Autómatas programables
+Ejemplo en Araiz: Phoenix Contact ref. 2861409 (IB IL 24 SEG-ELF-PAC — serie Inline)
+============================================================
+
+IMAGEN DEL PRODUCTO (ref. 2861409 Phoenix Contact):
+https://www.phoenixcontact.com/en-us/products/io-component-ib-il-24-seg-elf-pac-2861409
+
+VÍDEO / REFERENCIA TÉCNICA:
+https://rspsupply.com/p-70999-ib-il-24-seg-elf-pac-phoenix-contact-2861409-io-component-inline-terminal.aspx
+
+Búsqueda recomendada en YouTube (español):
+"módulo segmentación inline PLC tutorial" o "Phoenix Contact IB IL SEG segmentación potencia"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Un borne de segmento es el componente que divide un sistema de I/O distribuido
+(como el sistema Inline de Phoenix Contact) en tramos o segmentos eléctricos
+independientes. Cada segmento tiene su propia alimentación de 24V DC, de modo
+que si hay un fallo o sobrecarga en un grupo de módulos, el resto de la
+instalación sigue funcionando. El ref. 2861409 lleva además fusible electrónico
+(ELF = Electronic Fuse) integrado, que protege automáticamente cada segmento
+sin necesidad de fusibles físicos externos.
+
+Lo que facilita:
+- Dividir la instalación en zonas independientes: si una zona falla, las demás
+  siguen operativas (no para toda la máquina).
+- Proteger grupos de módulos I/O con fusible electrónico integrado: se dispara
+  automáticamente ante sobrecorriente y se puede resetear sin cambiar nada.
+- Organizar lógicamente la instalación por zonas o funciones (zona de entrada,
+  zona de salida, zona de seguridad...).
+- Reducir el cableado de potencia: cada segmento tiene su propia alimentación
+  conectada directamente en el borne de segmento.
+
+Lo que evita que ocurra:
+- Que un cortocircuito o sobrecarga en un módulo tumbe toda la estación I/O.
+- Tener que parar toda la máquina para intervenir en una zona concreta.
+- Necesitar fusibles físicos externos para cada grupo de módulos
+  (el ELF lo gestiona electrónicamente de forma automática).
+- Que la caída de tensión en un segmento afecte a los módulos de otro segmento.
+
+============================================================
+
+DIFERENCIA CLAVE CON OTROS BORNES DE SEGMENTO
+--------------------------------------------------------------
+| Tipo                          | Qué incluye                                      | Ventaja principal                              | Cuándo usarlo                                        |
+|-------------------------------|--------------------------------------------------|------------------------------------------------|------------------------------------------------------|
+| SEG estándar (sin fusible)    | Solo segmenta la alimentación de potencia        | Más barato, más sencillo                       | Cuando el cliente gestiona la protección externamente|
+| SEG-ELF (fusible electrónico) | Segmenta + protege con fusible electrónico       | Sin fusibles físicos, reset automático          | La opción más cómoda y moderna. El ref. 2861409 es este|
+| SEG/F (con fusible de vidrio) | Segmenta + protege con fusible de vidrio físico  | Muy conocido, fácil de sustituir               | Instalaciones donde ya se usa fusible convencional   |
+| SEG descentralizado IP65      | Para instalar en campo, fuera del armario        | Protección ambiental alta                      | Segmentos en campo alejados del armario              |
+
+El ref. 2861409 (SEG-ELF-PAC) es el más completo: segmentación + fusible
+electrónico + accesorios incluidos (conector y campo de etiquetado).
+
+============================================================
+
+CARACTERÍSTICAS TÉCNICAS BÁSICAS A SABER
+--------------------------------------------------------------
+| Parámetro                    | Qué significa                                    | Valor ref. 2861409 (Phoenix Contact)          |
+|------------------------------|--------------------------------------------------|-----------------------------------------------|
+| Tensión de segmento          | Tensión de la alimentación que gestiona          | 24V DC                                        |
+| Tipo de protección           | Cómo protege el segmento                        | Fusible electrónico (ELF) integrado           |
+| Ventaja del ELF              | Qué hace el fusible electrónico                 | Se dispara ante sobrecorriente y se resetea   |
+| Velocidad de bus local       | Comunicación con el sistema Inline              | 500 kbps / 2 Mbps                             |
+| Grado de protección          | Nivel de estanqueidad                            | IP20 → interior de armario                    |
+| Accesorios incluidos         | Qué viene en la caja (PAC = completo)           | Conector + campo de etiquetado incluidos      |
+| Serie / familia              | Sistema al que pertenece                         | Inline (IB IL) — Phoenix Contact              |
+
+============================================================
+
+TIPOLOGÍAS DE BORNES DE SEGMENTO
+--------------------------------------------------------------
+| Tipología                        | Descripción                                                   | Cuándo se usa                                          |
+|----------------------------------|---------------------------------------------------------------|--------------------------------------------------------|
+| SEG estándar                     | Solo nueva alimentación de potencia, sin protección propia    | Cuando la protección se gestiona externamente          |
+| SEG-ELF (fusible electrónico)    | Nueva alimentación + fusible electrónico integrado            | Instalaciones modernas. El ref. 2861409 es este tipo  |
+| SEG/F (fusible de vidrio)        | Nueva alimentación + portafusible físico integrado            | Cuando el cliente prefiere fusible convencional visible|
+| SEG de diagnóstico               | Informa al PLC del estado del fusible (roto/OK)               | Instalaciones críticas donde el PLC debe saber el fallo|
+| SEG IP65 descentralizado         | Para segmentar en campo, fuera del armario                    | Sistemas I/O descentralizados en la máquina            |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                          | Por qué la necesitas                                                          |
+|----|-------------------------------------------------------------------|-------------------------------------------------------------------------------|
+| 1  | ¿Qué sistema I/O tiene? (Inline IB IL, Axioline AXL...)           | El borne de segmento debe ser de la misma serie que los módulos I/O           |
+| 2  | ¿Cuántas zonas o segmentos independientes necesita?               | Un borne de segmento por cada zona que quiera aislar eléctricamente          |
+| 3  | ¿Qué potencia consume cada segmento?                              | Para dimensionar correctamente el fusible del segmento                        |
+| 4  | ¿Prefiere fusible electrónico o fusible físico de vidrio?         | ELF = sin mantenimiento, reset automático / Fusible físico = más visual      |
+| 5  | ¿Necesita que el PLC sepa cuándo ha saltado un fusible?           | Si sí → borne de segmento con diagnóstico integrado                          |
+| 6  | ¿Va dentro de un armario o en campo abierto?                      | IP20 para armario / IP65 para campo                                           |
+| 7  | ¿Es instalación nueva o ampliación?                               | Si es ampliación debe ser de la misma serie que lo existente                  |
+
+CONSEJO: El borne de segmento siempre va acompañado de una fuente de alimentación
+de 24V DC externa que conecta en sus bornes de potencia. Preguntar si el cliente
+ya tiene fuente disponible o si necesita también la fuente de alimentación.
+
+============================================================
+Fuentes:
+- Ficha oficial Phoenix Contact 2861409: https://www.phoenixcontact.com/en-us/products/io-component-ib-il-24-seg-elf-pac-2861409
+- Módulo segmentación sin fusible (referencia): https://www.phoenixcontact.com/en-us/products/io-component-ib-il-24-seg-pac-2861344
+- RSP Supply ref. 2861409: https://rspsupply.com/p-70999-ib-il-24-seg-elf-pac-phoenix-contact-2861409-io-component-inline-terminal.aspx
+============================================================

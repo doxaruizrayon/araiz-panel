@@ -1,0 +1,93 @@
+CUADRO RESUMEN — CABLE DE PROGRAMACIÓN PLC / HMI (USB, RS232C, USB-SERIE)
+Familia: Electricidad > Aparellaje eléctrico > Autómatas programables y robots industriales
+Ejemplo en Araiz: Omron ref. CS1W-CIF31 (Cable USB-Serie para PLC CS1/CJ1/CP1) / USB-RS232C
+============================================================
+
+IMAGEN DEL PRODUCTO:
+https://www.ia.omron.com/products/family/2247/
+
+VÍDEO / REFERENCIA TÉCNICA:
+https://industrial.omron.co.uk/en/products/cables
+
+Búsqueda recomendada en YouTube (español):
+"cable programación PLC Omron USB RS232" o "conectar PC a PLC Omron cable CIF31"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+El cable de programación es el cable físico que conecta el ordenador del técnico
+con el PLC o la pantalla HMI para descargar el programa, leer datos o hacer diagnóstico.
+Sin este cable, no se puede subir ni bajar el programa al PLC. Los PLCs más antiguos
+(CS1, CJ1, CP1L/H) tienen puerto RS232C o periférico en la CPU, que necesitan un
+adaptador USB-Serie específico (no cualquier adaptador USB-serie de tienda): Omron
+proporciona el CS1W-CIF31 (USB a periférico Omron) con drivers probados. Los PLCs
+más nuevos (NJ/NX, NX1P2) ya tienen puerto Ethernet estándar y se programan por
+red, sin cable especial. El error más común: el técnico usa un adaptador USB-RS232C
+genérico de tienda y el software CX-Programmer no reconoce el puerto — siempre
+recomendar el cable original o adaptadores con chip FTDI certificados.
+
+Lo que facilita:
+- Conectar el PC con CX-Programmer / Sysmac Studio al PLC para programar o diagnosticar.
+- Conectar el PC con NB-Designer / CX-Designer a la pantalla HMI para descargar el proyecto.
+- Hacer diagnóstico on-line: ver el estado de las variables del PLC en tiempo real
+  desde el PC, con el cable conectado durante la puesta en marcha.
+- Hacer backup del programa del PLC al PC antes de intervenir en la máquina.
+
+Lo que evita que ocurra:
+- No poder intervenir en el PLC por falta del cable específico: el cable de
+  programación es una herramienta básica del técnico de automatización.
+- Errores de comunicación con adaptadores genéricos: los drivers del CS1W-CIF31
+  son los certificados por Omron para CX-Programmer.
+
+============================================================
+
+DIFERENCIA CLAVE: CABLE USB-SERIE vs ETHERNET (programación por red)
+--------------------------------------------------------------
+| Característica          | Cable USB-Serie (CS1W-CIF31)     | Ethernet (NJ/NX directo)         |
+|-------------------------|----------------------------------|----------------------------------|
+| PLCs compatibles        | CS1, CJ1, CP1L, CP1H            | NJ, NX, NX1P2 (y CS1/CJ1 con EIP)|
+| Velocidad               | Lenta (19200 bps)               | Rápida (100 Mbps Ethernet)       |
+| Instalación             | Cable directo PC-PLC            | Red LAN o cable cruzado          |
+| Drivers necesarios      | Sí — instalar CS1W-CIF31        | No — conexión TCP/IP estándar    |
+| Para qué                | PLCs legacy, mantenimiento      | PLCs actuales, puesta en marcha  |
+
+============================================================
+
+CABLES DE PROGRAMACIÓN MÁS COMUNES
+--------------------------------------------------------------
+| Referencia         | Conectores            | Para qué                                  |
+|--------------------|-----------------------|-------------------------------------------|
+| CS1W-CIF31         | USB A → periférico    | CS1, CJ1, CP1L, CP1H (el más habitual)   |
+| CS1W-CIF11         | RS232C → periférico   | Lo mismo, para PCs con puerto serie       |
+| CS1W-CN226 / CN626 | RS232C (consola)      | Cable consola para CS1/CJ1               |
+| NT-AL001           | RS232C / RS422        | Cable para pantallas NS (serie RS232C)    |
+| USB-RS232C genérico| USB A → DB9 (RS232C)  | Solo usar chip FTDI — no noname           |
+
+NOTA: Para las pantallas NS conectadas al PC por USB (no al PLC), el cable es
+un USB estándar tipo B — el mismo que una impresora. Para la descarga del programa
+a la NS también sirve tarjeta CompactFlash + lector.
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                               | Por qué la necesitas                                          |
+|----|--------------------------------------------------------|---------------------------------------------------------------|
+| 1  | ¿Qué PLC o pantalla necesita programar?                | Define el cable específico — no todos los cables son iguales |
+| 2  | ¿El PC tiene puerto USB o puerto serie (RS232C)?        | CS1W-CIF31 (USB) / CS1W-CIF11 (RS232C)                      |
+| 3  | ¿El PLC ya tiene Ethernet configurado?                  | Si tiene Ethernet → programar por red, no por cable          |
+| 4  | ¿Tiene el software CX-One o Sysmac Studio instalado?   | Sin el software, el cable no sirve de nada                   |
+
+CONSEJO: El cable de programación es una venta de acompañamiento: cuando un cliente
+compra un PLC CS1/CJ1 nuevo o de segunda mano, siempre preguntar si tiene el cable
+CS1W-CIF31. Es pequeño y económico pero sin él no pueden hacer nada. También se
+vende mucho como recambio urgente cuando el técnico pierde o rompe el cable original.
+Para PLCs NJ/NX y NX1P2, recordar que la programación es por Ethernet y no necesitan
+cable especial — solo un cable Ethernet normal o red local.
+
+============================================================
+Fuentes:
+- Omron CS1W-CIF31 (oficial): https://www.ia.omron.com/products/family/2247/
+- Manual conexión PC-PLC: https://industrial.omron.co.uk/en/products/cables
+============================================================

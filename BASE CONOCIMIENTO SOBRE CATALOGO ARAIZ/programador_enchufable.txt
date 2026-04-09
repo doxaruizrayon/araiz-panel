@@ -1,0 +1,115 @@
+CUADRO RESUMEN — PROGRAMADORES ENCHUFABLES Y TIMERS DE ENCHUFE
+Familia: Electricidad > Aparellaje eléctrico > Programador enchufable
+Ejemplo en Araiz: Hager ref. EG103B (Programador semanal 1 vía 1 conmutador 16A)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"programador enchufable semanal cómo programar" o "timer enchufe programador horario"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Un programador enchufable es un temporizador-interruptor que se conecta
+directamente a un enchufe de pared y controla lo que se enchufa a él.
+Es la versión "sin cuadro" del interruptor horario DIN: se usa en
+instalaciones sin cuadro eléctrico accesible, o donde el usuario final
+quiere gestionar el horario él mismo sin abrir el cuadro.
+
+**Diferencia con el interruptor horario DIN:**
+| Característica        | Programador enchufable      | Interruptor horario DIN        |
+|-----------------------|-----------------------------|--------------------------------|
+| Instalación           | Enchufa en cualquier toma   | Va dentro del cuadro eléctrico |
+| Quién lo instala      | El usuario final (sin técnico)| Electricista                  |
+| Corriente máxima      | 16A (3.680W)                | 16A (igual)                    |
+| Precio                | 8-30 €                      | 15-60 €                        |
+| Aspecto               | Como un adaptador de enchufe| Módulo carril DIN              |
+| Usos típicos          | Casas, oficinas, riego      | Cuadros industriales, edificios|
+
+============================================================
+
+MARCAS EN ARAIZ (62 art. totales)
+--------------------------------------------------------------
+**Hager (13 art.) — los más vendidos en instalación profesional**
+- **EG103B**: programador semanal 1 vía, 1 conmutador, 16A, sin llave.
+  Programación digital, resolución 1 minuto, 7 días independientes.
+- **EG203B**: versión 2 vías — controla 2 circuitos independientes.
+- **EGN200**: versión con Bluetooth para programar desde smartphone.
+- **EG004**: llave de bloqueo para que no se pueda cambiar la programación.
+
+Son programadores de carril DIN (no enchufables al uso) — van en cuadro.
+Son "enchufables" en el sentido de que se montan en carril DIN sin
+fijación permanente (se puede extraer fácilmente).
+
+**Omron (16 art.)**
+Programadores digitales y semanales Omron para aplicaciones de automatización.
+Algunos son de carril DIN, otros de panel.
+Incluye también cables de comunicación industrial (Ethernet, serie)
+que aparecen en este grupo por clasificación ETIM compartida.
+
+**Simon (7 art.)**
+- **AF131313**: Mini programador diario enchufable 16A blanco.
+  El clásico "timer de enchufe" para el hogar — similar a los que se
+  usan para las lámparas de vacaciones. Programación por palitos en
+  disco de 24h, resolución 30 minutos.
+  Simon lo fabrica en versión residencial (compatible con bases Simon 31).
+
+**Orbis (6 art.)**
+Programadores horarios compactos de Orbis — algunos enchufables, otros
+para carril DIN. Misma tecnología que sus interruptores horarios DIN
+pero en formato enchufable.
+
+**Dinuy (4 art.)**
+Relojes astronómicos Dinuy en versión enchufable para alumbrado exterior
+sin cuadro. Permiten horario según amanecer/anochecer.
+
+**ABB (7 art.)**
+Programadores horarios ABB para cuadros de distribución residencial.
+Equivalentes a los Hager EG en formato y función.
+
+**Phoenix Contact (4 art.)**
+Cables de comunicación industrial (patchcords RJ45 Ethernet para trenzado)
+que aparecen clasificados en este grupo por error de ETIM. No son
+programadores enchufables.
+
+**Gave (2 art.) / Legrand (1 art.) / Schneider (1 art.) / Theben (1 art.)**
+Referencias sueltas de programadores analógicos o digitales de cada marca.
+
+============================================================
+
+TABLA RESUMEN TIPOS DE PROGRAMADOR ENCHUFABLE
+--------------------------------------------------------------
+| Tipo           | Resolución | Días indep.| Precio aprox. | Para qué                  |
+|----------------|------------|------------|---------------|---------------------------|
+| Analógico disco| 30 min     | No (24h)   | 8-15 €        | Hogar, plantas, lámparas  |
+| Digital básico | 1-15 min   | Sí (7 días)| 15-25 €       | Riego, calefacción, tienda|
+| Digital Bluetooth| 1 min   | Sí         | 30-50 €       | Control desde smartphone  |
+| 2 vías         | 1-15 min   | Sí         | 30-60 €       | 2 circuitos independientes|
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                    | Por qué                                        |
+|----|-------------------------------------------------------------|------------------------------------------------|
+| 1  | ¿Va en enchufe de pared o en cuadro eléctrico?             | Define si es enchufable o DIN                  |
+| 2  | ¿Necesita programación diaria o semanal?                   | Diario → analógico; semanal → digital          |
+| 3  | ¿Cuántos circuitos quiere controlar?                       | 1 circuito → 1 vía; 2 → versión 2 vías        |
+| 4  | ¿Cuántos vatios tiene la carga?                            | Todos aguantan 16A (3.680W) — verificar si más |
+| 5  | ¿Necesita control desde el móvil?                          | Si sí → versión Bluetooth (Hager EGN200)       |
+
+CONSEJO: El programador enchufable más pedido en instalación residencial
+y pequeño comercio es el analógico tipo "palitos" (Simon, Legrand) —
+económico y fácil de usar para el usuario final.
+Para instalaciones un poco más exigentes (horario diferente cada día,
+control desde móvil), el Hager EGN200 con Bluetooth es una buena opción.
+Para cuadros de distribución con Hager: los EG103B/EG203B son la elección
+natural — se montan en DIN igual que el resto del cuadro y tienen la misma
+estética.
+
+============================================================
+Fuentes:
+- Hager programadores: https://www.hager.es/productos/cuadros-electricos/programadores-horarios/
+- Simon programadores: https://www.simon.es/es-es/productos/automatismos/temporizadores/
+- Orbis: https://www.orbis.es/es/productos/programadores-horarios/
+============================================================
