@@ -1,0 +1,86 @@
+REPARTIDORES EN CARRIL DIN Y BARRAS DE DISTRIBUCIÓN
+Subfamilia: Material de conexión eléctrica > Repartidores
+Artículos en Araiz: ~140 | Marcas: Phoenix Contact, Legrand, Siemens, Schneider
+
+=== QUÉ ES ESTO ===
+Elementos que van dentro del cuadro eléctrico para repartir una fase, neutro o tierra
+a múltiples circuitos desde un único punto de entrada.
+
+Son el equivalente a una "regleta de distribución interna del cuadro": entra un cable
+gordo (la fase principal) y salen varios cables hacia los diferentes circuitos.
+
+=== BORNES DISTRIBUIDORES PTRV / PTRVB (Phoenix Contact) ===
+~41 artículos
+
+Bornes de distribución en carril DIN con conexión push-in (sin tornillo — se inserta el
+cable y queda sujeto). Van sobre carril DIN Omega estándar.
+
+--- PTRV (distribución con 2 conexiones por nivel) ---
+· PTRV 4-PV: borne distribuidor 2 polos, 4mm², push-in
+· PTRV 8-PV BU: borne distribuidor 2 polos, 8mm², azul (neutro)
+· PTRV 8-PV BK: negro (fase L)
+
+--- PTRVB (distribución con más conexiones) ---
+· PTRVB 4-PV/RD: rojo (fase L1 en esquemas tricolor)
+· PTRVB 8-PV/BU: azul (neutro N)
+· PTRVB 8-PV/RD: rojo
+· PTRVB 8-FI/BU: versión FI (Flat Input — entrada plana para cable sin puntear)
+- Tensión: 250V | Corriente: 17,5A
+- Conexión push-in: introduce el cable pelado directamente, sin herramienta
+
+Colores estándar en esquemas eléctricos:
+- Azul (BU): neutro N
+- Rojo (RD): fases (L1, L2, L3)
+- Negro (BK): también fases en algunos esquemas
+- Amarillo-verde: tierra PE (no aparece en esta familia, va en bornas de tierra aparte)
+
+Uso típico: en cuadros de distribución de vivienda o industria ligera, para repartir
+el neutro y las fases a varias salidas sin necesidad de empalmar cables con regleta.
+
+=== REPARTIDORES MODULARES DE BARRAS ESCALONADAS (Legrand) ===
+~19 artículos
+
+Bloques de distribución que se montan en el cuadro y permiten conectar un cable de
+entrada grande y varios cables de salida más pequeños, todo en un solo bloque compacto.
+
+--- Características ---
+· Formato modular: 6 módulos de ancho en cuadro (ocupa 6 "huecos" estándar)
+· Número de salidas: 10 o 12 según modelo
+· Corriente: 40A o 100A según modelo
+· Polos: 4P (fase + neutro + tierra, o 3F+N)
+· Las "barras escalonadas" permiten conectar cables de distintas secciones en el mismo bloque
+
+Ejemplos:
+· Repartidor 4P 40A 12 salidas 6 módulos
+· Repartidor 4P 100A 10 salidas 6 módulos
+
+Uso típico: en cuadros de vivienda con muchos circuitos, o en subcuadros industriales
+donde llega un cable principal 4P y hay que derivar a 10-12 circuitos secundarios.
+
+=== OTROS EN ESTE GRUPO ===
+
+--- Módulos E/S Siemens ET200 / Schneider (~15 art.) ---
+Módulos de entradas/salidas digitales para sistemas de bus de campo (PROFIBUS, Modbus).
+Técnicamente son automatización, pero el catálogo los clasifica aquí.
+Siemens: serie ET200 / Schneider: Modicon TM
+No profundizar aquí — se tratan mejor en el cuadro de Autómatas.
+
+--- Conectores circulares y pletinas (~15 art.) ---
+Conectores circulares industriales Phoenix Contact y pletinas de cobre para barras de
+distribución en cuadros. Soportes de pletina, canalizaciones prefabricadas.
+
+--- Panel de fibra óptica Legrand (~7 art.) ---
+Panel LINK de parcheo para fibra óptica en armarios de red. Similar al patch panel RJ45
+pero para fibra. Clasificado aquí por error — es producto de telecomunicaciones.
+
+=== CÓMO ELEGIR ===
+| Situación | Producto |
+|-----------|---------|
+| Repartir neutro/fase en cuadro, cable hasta 8mm² | Borne PTRV/PTRVB Phoenix Contact |
+| Distribuir fase principal a 10-12 circuitos, hasta 100A | Barras escalonadas Legrand |
+| Cable de entrada muy gordo (>35mm²) en subcuadro | Bornes distribución Sofamel (ver regleta_empalme_derivacion.txt) |
+
+=== LO QUE NO CUBRE ESTE CUADRO ===
+- Distribuidores de campo para sensores M12 → ver distribuidores_campo_sacb_sac.txt
+- Bornas de carril DIN individuales → ver bornas_carril_din_phoenix.txt
+- Pletinas y embarrados industriales → ver pletinas_embarrados_distribucion.txt

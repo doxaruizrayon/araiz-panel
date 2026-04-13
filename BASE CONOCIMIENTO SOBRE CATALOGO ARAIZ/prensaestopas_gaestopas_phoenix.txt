@@ -1,0 +1,154 @@
+CUADRO RESUMEN — PRENSAESTOPAS (CABLE GLANDS)
+Familia: Electricidad > Material de conexión eléctrica > Prensaestopas, racores y otros accesorios
+Ejemplo en Araiz: GAESTOPAS ref. 300.8000.1 (Prensaestopas latón niquelado M80x2 cable 55-74mm)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"prensaestopas instalación cuadro eléctrico" o "cable gland tipos rosca métrica PG instalacion"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Un prensaestopas (cable gland en inglés) es el accesorio que sella la
+entrada de un cable en una caja, armario o cuadro eléctrico. Cumple
+dos funciones simultáneas:
+1. **Sujetar el cable** mecánicamente — evita que tire el cable desde
+   el exterior y dañe las conexiones internas.
+2. **Sellar la apertura** — protege el interior del armario contra polvo,
+   agua, aceites y gases según el nivel IP declarado.
+
+Sin prensaestopas, la apertura del cable en el armario queda sin sellar
+y el armario pierde su protección IP — dejando de ser estanco.
+
+**¿Dónde se instalan?**
+En los agujeros (pasacables) de la placa de fondo o paredes del armario
+o caja de conexiones. La rosca exterior del prensaestopas se enrosca en
+el agujero del armario; el cable pasa por el centro y se aprieta con
+la tuerca interior que comprime el elastómero contra el cable.
+
+============================================================
+
+TIPOS DE ROSCA — LO MÁS IMPORTANTE
+--------------------------------------------------------------
+El prensaestopas se elige por la rosca que tiene el armario (o la que
+hay que mecanizar). Hay dos sistemas de rosca:
+
+**Rosca métrica (M) — el estándar actual:**
+| Rosca | Ø cable admitido | Uso típico                              |
+|-------|------------------|-----------------------------------------|
+| M12   | 3 - 7 mm         | Cables de señal, sensores               |
+| M16   | 5 - 10 mm        | Cables de mando, control                |
+| M20   | 6 - 14 mm        | El más habitual — cables de mando y potencia|
+| M25   | 10 - 17 mm       | Cables de potencia medianos             |
+| M32   | 15 - 24 mm       | Cables de potencia grandes              |
+| M40   | 22 - 32 mm       | Cables trifásicos, mangueras            |
+| M50   | 29 - 40 mm       | Cables muy gruesos                      |
+| M63   | 38 - 52 mm       | Grandes entradas de potencia            |
+| M80   | 55 - 74 mm       | Entrada de cables principales BT        |
+
+**Rosca PG (Panzergewinde) — sistema antiguo alemán:**
+El PG se usó durante décadas en cuadros y equipos alemanes. Sigue
+siendo habitual en armarios Rittal antiguos y en equipamiento de importación.
+| Rosca | Equivalente aprox. M | Ø cable admitido |
+|-------|----------------------|-----------------|
+| PG7   | M12                  | 3 - 6,5 mm      |
+| PG9   | M16                  | 4 - 8 mm        |
+| PG11  | M20                  | 5 - 10 mm       |
+| PG13,5| M20                  | 6 - 12 mm       |
+| PG16  | M25                  | 10 - 14 mm      |
+| PG21  | M32                  | 13 - 18 mm      |
+| PG29  | M40                  | 18 - 25 mm      |
+
+**OJO:** M20 y PG13,5 tienen un diámetro similar pero las roscas NO son
+compatibles. Hay que especificar siempre si el armario tiene rosca M o PG.
+
+============================================================
+
+MATERIALES — SEGÚN EL AMBIENTE
+--------------------------------------------------------------
+| Material          | Resistente a                  | IP máx. | Para qué                       |
+|-------------------|-------------------------------|---------|-------------------------------|
+| Poliamida (PA)    | Uso general, ligero           | IP68    | Interior, exterior estándar    |
+| Latón niquelado   | Corrosión media, resistente   | IP68    | Industrial general             |
+| Latón             | Mecánico, temperaturas altas  | IP68    | Maquinaria pesada              |
+| Acero inoxidable  | Corrosión severa, alimentaria | IP68    | Alimentaria, química, marina   |
+| Libre de halógenos| Incendio (no emite gases tóxicos)| IP54 | Hospitales, trenes, túneles    |
+
+**Poliamida (PA)**: el más vendido en instalaciones estándar. Económico,
+ligero, buena resistencia química general. Color gris o negro.
+
+**Latón niquelado**: más caro que la PA pero más resistente mecánicamente.
+Se usa cuando hay riesgo de golpes en la entrada del cable, altas
+temperaturas o ambientes con aceite.
+
+============================================================
+
+MARCAS EN ARAIZ (4.843 art. en el grupo total)
+--------------------------------------------------------------
+**GAESTOPAS (875 art.) — especialista español**
+Empresa española de referencia en prensaestopas. Toda su gama:
+- **GADI-M**: serie métrica en poliamida. El prensaestopas estándar.
+- **GADI-LH**: libre de halógenos (para instalaciones especiales).
+- **GADI-EX**: versión ATEX para zonas explosivas (ya visto en Aparellaje).
+- **GADI-INOX**: acero inoxidable para industria alimentaria.
+
+**Phoenix Contact (1.166 art.)**
+Sus prensaestopas son muy habituales en cuadros con bornas y conectores
+Phoenix Contact — todo el cableado de entrada y salida va con la misma marca.
+Gama SK: SK-M20, SK-M25... Con anillo elastómero intercambiable.
+
+**Weidmuller (769 art.)**
+Prensaestopas de la gama KMF (métrico) y KPF (PG). Equivalentes a
+los de Phoenix Contact, para instalaciones con estándar Weidmuller.
+
+**Rittal (1.187 art.)**
+Rittal es el fabricante de armarios más grande del mundo. Sus accesorios
+para armarios (incluidos prensaestopas, placas de entrada de cables y
+marcos de sellado) son los más usados en cuadros Rittal.
+
+**Gewiss (321 art.)**
+Prensaestopas para sus cajas de distribución y derivación. La referencia
+habitual en cajas de empalme estancas IP65/IP67.
+
+============================================================
+
+CÓMO ELEGIR EL PRENSAESTOPAS CORRECTO
+--------------------------------------------------------------
+Dato 1: **Rosca del agujero del armario** → M20, M25, PG13,5...
+Dato 2: **Diámetro del cable** → el prensaestopas debe admitir ese diámetro
+Dato 3: **Material** → según el ambiente (PA para interior, latón para industrial)
+Dato 4: **IP necesario** → IP54 para interior, IP65/IP67 para exterior o húmedo
+
+Con esos 4 datos se identifica el modelo exacto.
+
+**Truco práctico:** El prensaestopas M20 en poliamida para cable de
+6-12mm cubre el 60% de las aplicaciones estándar. Si el cliente no
+especifica, preguntar solo el diámetro del cable.
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                    | Por qué                                        |
+|----|-------------------------------------------------------------|------------------------------------------------|
+| 1  | ¿Cuál es el diámetro del cable? (en mm)                    | Define el tamaño del prensaestopas             |
+| 2  | ¿El agujero tiene rosca métrica (M) o PG?                  | No son intercambiables                         |
+| 3  | ¿Qué rosca tiene el agujero? ¿M20? ¿M25?                  | El número de rosca                             |
+| 4  | ¿Interior o exterior? ¿Hay agua, aceite, polvo?            | Define el IP y el material necesario           |
+| 5  | ¿Es zona ATEX? (explosiva)                                  | Si sí: necesita GADI-EX con certificación      |
+| 6  | ¿Cuántas unidades necesita?                                  | Se venden por unidad y en bolsas de 10/25/50   |
+
+CONSEJO: El prensaestopas más pedido en España es el M20 en poliamida
+gris para cable de 6-12mm — es el que va en el 60% de los armarios estándar.
+Si el cliente trae un prensaestopas roto para comparar, mirar la rosca
+y el diámetro del cable que pasa por él: con eso se identifica el modelo.
+Los prensaestopas de Gaestopas y Phoenix Contact de la misma rosca son
+intercambiables si la rosca M y el rango de cable coinciden.
+
+============================================================
+Fuentes:
+- Gaestopas: https://www.gaestopas.com/es/categorias/prensaestopas/
+- Phoenix Contact SK: https://www.phoenixcontact.com/es-es/products/cable-entry-systems
+- Weidmuller KMF: https://www.weidmuller.com/es/products/cable_entry/
+============================================================

@@ -41,15 +41,15 @@ Iniciado: 2026-04-07
 |---|-------|------|--------|
 | 1 | Conectores | 50.412 | ✅ COMPLETO (2026-04-09) — 3 cuadros |
 | 2 | Bornas | 25.237 | ✅ COMPLETO (2026-04-09) — 3 cuadros |
-| 3 | Prensaestopas, racores y otros accesorios | 4.843 | ⏳ PENDIENTE |
-| 4 | Etiquetas e identificadores para bornes y circuitos | 3.643 | ⏳ PENDIENTE |
-| 5 | Terminales | 3.248 | ⏳ PENDIENTE |
-| 6 | Tomas de corriente industriales | 3.148 | ⏳ PENDIENTE |
-| 7 | Pletinas y embarrados | 937 | ⏳ PENDIENTE |
-| 8 | Terminaciones y empalmes | 572 | ⏳ PENDIENTE |
-| 9 | Regletas y PDU | 519 | ⏳ PENDIENTE |
-| 10 | Repartidores | 518 | ⏳ PENDIENTE |
-| 11 | Material para puesta a tierra | 396 | ⏳ PENDIENTE |
+| 3 | Prensaestopas, racores y otros accesorios | 4.843 | ✅ COMPLETO — 1 cuadro |
+| 4 | Etiquetas e identificadores para bornes y circuitos | 3.643 | ✅ COMPLETO — 1 cuadro |
+| 5 | Terminales | 3.248 | ✅ COMPLETO — 1 cuadro |
+| 6 | Tomas de corriente industriales | 3.148 | ✅ COMPLETO — 1 cuadro |
+| 7 | Pletinas y embarrados | 937 | ✅ COMPLETO — 1 cuadro |
+| 8 | Terminaciones y empalmes | 572 | ✅ COMPLETO — 2 cuadros |
+| 9 | Regletas y PDU | 519 | ✅ COMPLETO — 2 cuadros |
+| 10 | Repartidores | 518 | ✅ COMPLETO — 2 cuadros |
+| 11 | Material para puesta a tierra | 396 | ✅ COMPLETO — 2 cuadros |
 
 ### Cuadros escritos para esta subfamilia:
 - `conectores_regleta_pcb.txt` — Phoenix Contact MSTB/MC/FMC, Weidmuller BCZ — conectores para PCB
@@ -58,8 +58,25 @@ Iniciado: 2026-04-07
 - `bornas_carril_din_phoenix.txt` — UK/SAK/PTFIX Phoenix Contact, WDU Weidmuller, Viking3 Legrand, 8WH Siemens
 - `bornas_especiales_funcionales.txt` — Bornas seccionables, con fusible, de tierra, sensor/actuador
 - `accesorios_bornas_carril.txt` — Tapas, puentes/peines, carril DIN Omega, marcadores, identificación
+- `prensaestopas_gaestopas_phoenix.txt` — Prensaestopas, racores y accesorios de entrada de cable
+- `etiquetas_identificadores_bornes.txt` — Etiquetas e identificadores para bornes y circuitos
+- `terminales_crimpado_zapatas.txt` — Terminales de crimpado, zapatas, punteras
+- `tomas_corriente_industriales_cee.txt` — Tomas de corriente industriales CEE (clavijas/bases)
+- `pletinas_embarrados_distribucion.txt` — Pletinas y embarrados de distribución
 
-### SIGUIENTE PASO: Grupo "Prensaestopas, racores y otros accesorios" (4.843 art.)
+- `conectores_quickon_pasamuros.txt` — QUICKON QPD/IPD Phoenix Contact, pasamuros conexión rápida multipolar
+- `terminaciones_accesorios_empalme.txt` — Tapones CES, accesorios bornas DIN, cajas SACB M12, acopladores fibra, kits empalme 3M/Cellpack/Raytech/Anguila
+
+- `pdu_rack_regleta_enchufes.txt` — PDU Rittal/Legrand para racks: básica, metered, switched, managed. Tomas IEC C13/C19
+- `regleta_empalme_derivacion.txt` — Regletas empalme cajas derivación: Tekox/Gaestopas/Solera/Legrand SUPREM. Esteatita alta temp. Bornas Sofamel
+
+- `distribuidores_campo_sacb_sac.txt` — Cajas SACB, repartidores SAC Y/T/H, distribuidores QUICKON QPD/IPD para campo
+- `repartidores_carril_din_barras.txt` — Bornes PTRV/PTRVB Phoenix Contact push-in + barras escalonadas Legrand 4P 40/100A
+
+- `equipos_pat_picas_tierra.txt` — Picas Mora/Sofamel, arquetas KLK/Cirprotec, grapas, vías chispas, equipos PAT Sofamel AT/MT/BT
+- `soldadura_exotermica_tierra.txt` — Moldes KLK (CC/CP/TH/XS), cartuchos C-65/150/200, ERICO Cadweld Plus, herramientas Armengol
+
+### ⭐ SUBFAMILIA MATERIAL DE CONEXIÓN ELÉCTRICA: TODOS LOS GRUPOS COMPLETADOS (2026-04-13)
 
 - **Panel:** activo en localhost:5192
 

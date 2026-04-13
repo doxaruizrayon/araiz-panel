@@ -1,0 +1,153 @@
+CUADRO RESUMEN — TERMINALES DE CRIMPADO (ZAPATAS, ANILLOS, HORQUILLAS)
+Familia: Electricidad > Material de conexión eléctrica > Terminales
+Ejemplo en Araiz: Sofamel ref. TC-95 (Terminal cobre estañado 95mm² tornillo M10)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"terminal zapata cable crimpado instalación eléctrica" o "terminales anillo horquilla cobre aluminio"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Un terminal de crimpado (también llamado zapata, terminal de cable o
+lug en inglés) es el accesorio que conecta el extremo de un cable de
+potencia (sección grande: 6mm² a 630mm²) a un aparato eléctrico,
+barras de cobre, cuadros de distribución o transformadores.
+
+**Diferencia con las punteras:**
+- **Puntera**: cable flexible pequeño (0,14 a 16mm²) → borna de tornillo
+- **Terminal de crimpado**: cable de sección media-grande (6 a 630mm²) → perno/tornillo directo en equipo
+
+El terminal tiene dos partes:
+1. **Tubo de crimpado**: el hueco donde entra el cable. Se crimpa con
+   herramienta hidráulica o mecánica para fijar el cable permanentemente.
+2. **Paleta de conexión**: la parte plana con agujero que se atornilla
+   al equipo. El agujero define el diámetro del tornillo (M6, M8, M10, M12...).
+
+============================================================
+
+TIPOS DE TERMINALES POR FORMA DE PALETA
+--------------------------------------------------------------
+| Tipo          | Forma         | Para qué                                        |
+|---------------|---------------|--------------------------------------------------|
+| Anillo (ring) | Círculo cerrado| El más seguro — no puede salirse accidentalmente|
+| Horquilla     | U abierta     | Más rápido de montar/desmontar (sin sacar el tornillo)|
+| Pala plana    | Lengüeta plana| Para bornes tipo faston (conexión rápida)        |
+| Pin           | Cilindro      | Para bornes de tipo pasante                      |
+| Codo 90°      | Anillo doblado| Cuando el cable sale en ángulo recto             |
+
+**El terminal de anillo es el más habitual en instalaciones industriales**
+— la normativa de cuadros de distribución exige que los terminales en
+barras de cobre sean de anillo para garantizar que no se sueltan.
+
+============================================================
+
+TIPOS DE TERMINAL POR MATERIAL DEL CABLE
+--------------------------------------------------------------
+**Para cable de cobre (EC001050/1051/1052) — la mayoría del catálogo:**
+Los terminales estándar son de cobre electrolítico estañado. El estaño
+protege contra la oxidación y garantiza buena conductividad en el contacto.
+
+| Sección cable | Tornillo habitual | Corriente aprox.  |
+|---------------|-------------------|--------------------|
+| 6 mm²         | M5 / M6           | 40-50 A            |
+| 10 mm²        | M6 / M8           | 60-70 A            |
+| 16 mm²        | M8                | 80-90 A            |
+| 25 mm²        | M8 / M10          | 110-120 A          |
+| 35 mm²        | M10               | 135-150 A          |
+| 50 mm²        | M10 / M12         | 165-185 A          |
+| 70 mm²        | M12               | 210-230 A          |
+| 95 mm²        | M12 / M16         | 260-280 A          |
+| 120 mm²       | M16               | 300-320 A          |
+| 150 mm²       | M16               | 340-370 A          |
+| 185 mm²       | M16               | 390-425 A          |
+| 240 mm²       | M20               | 470-510 A          |
+
+**Para cable de aluminio (EC001053/1060):**
+El aluminio se oxida rápidamente al contacto con el cobre — la capa de
+óxido es un aislante que aumenta la resistencia del contacto y genera
+calor. Los terminales bimetálicos (cobre + aluminio) tienen una interfaz
+especial que evita la corrosión galvánica.
+
+Uso: líneas de distribución de potencia, acometidas, transformadores.
+El cable de aluminio es más ligero y barato que el cobre para grandes
+secciones — habitual en líneas aéreas y acometidas de alta potencia.
+
+**Manguito de continuidad / empalme (EC001059/1060):**
+Conector que une dos cables por sus extremos (sin paleta de conexión).
+Se usa para empalmar dos cables de la misma sección dentro de una canalización.
+- De cobre para cables de cobre.
+- Bimetálico (cobre-aluminio) para empalmar un cable de aluminio con uno de cobre.
+
+============================================================
+
+MARCAS EN ARAIZ
+--------------------------------------------------------------
+**Sofamel (798 art.) — especialista español en terminales de potencia**
+Empresa española de Igualada (Barcelona), referencia del mercado ibérico
+en terminales de crimpado para cables de potencia. Su gama TC (terminales
+de cobre) cubre desde 1,5mm² hasta 630mm².
+- **TC-16 M8**: terminal cobre estañado 16mm², tornillo M8
+- **TC-95 M10**: terminal cobre estañado 95mm², tornillo M10
+- Disponibles con y sin faldilla aislante (tubo de PVC en el manguito)
+
+**Weidmuller (1.108 art. en Terminales total)**
+Terminales de crimpado de la gama KAB y KREP. Muy habituales en
+instalaciones con estándar Weidmuller.
+
+**Cembre (244 art.) — marca italiana de referencia**
+Especialista italiano en terminales y herramientas de crimpado.
+Sus terminales de la serie B (cobre) y BA (aluminio) son de alta calidad
+y muy usados en instalaciones industriales y de infraestructura.
+
+**Schneider Electric (146 art.)**
+Terminales para sus cuadros y aparamenta. Referencias específicas
+para instalaciones con estándar Schneider.
+
+**XB Components (106 art.)**
+Terminales económicos de importación. Para instalaciones de menor exigencia.
+
+============================================================
+
+HERRAMIENTAS DE CRIMPADO PARA TERMINALES GRANDES
+--------------------------------------------------------------
+Los terminales de potencia (>16mm²) no se crimpan con alicates manuales
+— se necesita una herramienta de crimpado hidráulica:
+
+- **Manual hidráulica**: para secciones hasta 240mm². Se opera con la mano.
+  Precio: 150-400 €. La más habitual en instaladores eléctricos.
+- **Eléctrica/batería**: para secciones hasta 630mm². Para grandes
+  instalaciones donde se hacen muchos terminales al día.
+
+Sin la herramienta adecuada el terminal queda mal crimpado —
+puede sobrecalentarse y provocar un incendio bajo carga.
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                    | Por qué                                        |
+|----|-------------------------------------------------------------|------------------------------------------------|
+| 1  | ¿Qué sección tiene el cable? (mm²)                         | Define el tamaño del terminal                  |
+| 2  | ¿El cable es de cobre o de aluminio?                        | Terminales distintos — no intercambiables      |
+| 3  | ¿Qué diámetro tiene el tornillo donde va a conectar?        | M6, M8, M10, M12... define el agujero          |
+| 4  | ¿Anillo o horquilla?                                         | Anillo para barras fijas; horquilla para desmontaje frecuente|
+| 5  | ¿Necesita faldilla aislante en el manguito?                 | Para zonas donde el cable no va entubado       |
+| 6  | ¿Cuántas unidades necesita?                                  | Los terminales se venden por unidad o bolsas   |
+
+CONSEJO: El terminal más pedido en instalaciones industriales estándar
+es el TC-16 M8 de Sofamel (16mm², tornillo M8) — cubre la mayoría de
+conexiones de motores y cuadros secundarios.
+Para acometidas de transformador y cuadros generales: los terminales
+van en secciones de 95mm² a 240mm² (TC-95 a TC-240).
+Si el cliente no sabe el diámetro del tornillo: pedirle que mida el
+perno con una tuerca como referencia, o que traiga el terminal roto
+para comparar.
+
+============================================================
+Fuentes:
+- Sofamel terminales: https://www.sofamel.com/es/productos/terminales/
+- Cembre terminales: https://www.cembre.com/es/products/cable-lugs/
+- Weidmuller KAB: https://www.weidmuller.com/es/products/terminals/
+============================================================

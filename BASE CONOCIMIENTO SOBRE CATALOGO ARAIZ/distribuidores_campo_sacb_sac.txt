@@ -1,0 +1,93 @@
+DISTRIBUIDORES DE CAMPO: CAJAS SACB Y REPARTIDORES SAC + QUICKON
+Subfamilia: Material de conexión eléctrica > Repartidores
+Artículos en Araiz: ~378 | Marca dominante: Phoenix Contact (99%)
+
+=== QUÉ ES ESTO ===
+Productos para distribuir y ramificar señales y alimentación en campo, cerca de las máquinas,
+sin tener que llevar un cable individual por cada sensor hasta el armario.
+
+Hay dos familias:
+1. SAC/SACB — para señales de sensores y actuadores (M8/M12, baja potencia)
+2. QPD/IPD distribuidores — para cables de potencia (3+PE, 2,5-6mm², hasta 20A)
+
+=== FAMILIA 1: CAJAS SACB (Sensor/Actuator Connection Box) ===
+~213 artículos
+
+Cajas de plástico que se montan en la máquina o estructura. Tienen varias entradas M8/M12
+para conectar sensores y actuadores, y una salida principal hacia el armario.
+
+El concepto: en lugar de 8 cables de sensor llegando al armario, llegas con 1 cable de bus.
+
+--- Nomenclatura SACB ---
+SACB - [entradas sensores] / [entradas actuadores] - [longitud cable] - [conector salida]
+
+Ejemplos:
+· SACB-4/4-L-5,0PUR: 4 entradas sensor + 4 entradas actuador, cable 5m PUR, salida M12
+· SACB-6/3-L-5,0PUR-M8: 6 entradas M8, cable 5m
+· SACB-6/6-C: 6+6 entradas, sin cable (conector hembra para conectar cable aparte)
+· SACB-8/8-C: 8+8 entradas
+· SACB-8/16-SC SCO P: versión con protección de cortocircuito individual por puerto
+· SACB-10/3-L-C-M8 HD: versión HD (Heavy Duty), más robusta para entornos duros
+
+Sufijos importantes:
+- PUR: cable de poliuretano (flexible, resistente aceites)
+- HD: Heavy Duty (IP67, conector metálico)
+- SCO: Smart Connection Output (monitorización de estado)
+- SC: Short Circuit protection por puerto
+- GG: color gris
+
+=== FAMILIA 2: REPARTIDORES SAC EN Y / T / H ===
+~75 artículos
+
+Pequeños adaptadores para dividir un conector M12 o M8 en dos o cuatro salidas.
+Sin caja, sin cable propio — solo el divisor.
+
+--- Tipos por forma ---
+· Repartidor Y (SAC-xP-M12Y / SAC-xP-M8Y): 1 entrada → 2 salidas. El más habitual.
+· Repartidor T (SAC-xPT): 1 entrada → 3 salidas (forma de T)
+· Distribuidor H (SAC-xPH o QPD H): 1 entrada → 4 salidas (forma de H)
+
+--- Nomenclatura SAC ---
+SAC - [nº polos] P - [conector entrada] Y / [conector salida x2]
+
+Ejemplos:
+· SAC-3P-M12Y/2XM12FS PE S21: 3 polos, entrada M12 macho, 2 salidas M12 hembra, con PE (tierra)
+· SAC-5P-M12Y/2XM12FS VP SCO: 5 polos (sensor+actuador), M12, con protección VP
+· SAC-3P-M8Y/2XM8FS: versión M8 (conector más pequeño)
+· SAC-5PT-FB/2XMB PBDP SH: repartidor T para PROFIBUS DP
+
+Uso típico: tienes un sensor de 3 hilos y necesitas conectarlo a dos puntos distintos
+del sistema — metes el repartidor Y y ya tienes dos salidas desde un solo cable.
+
+=== FAMILIA 3: DISTRIBUIDORES QUICKON QPD/IPD (potencia en campo) ===
+~90 artículos
+
+Los mismos conectores QUICKON vistos en conectores_quickon_pasamuros.txt pero en versión
+"distribuidor": en lugar de pasamuro (entrada al armario), aquí son bifurcaciones en campo.
+
+--- QPD H (distribuidor H — 4 salidas) ---
+· QPD H 4PE2,5: 4 salidas 3+PE 2,5mm², 690V 20A
+· QPD H 4PE6,0: versión para 6mm² (más corriente)
+· Con o sin tuercas QUICKON según si los cables ya vienen preparados
+
+--- QPD T (distribuidor T — 3 salidas) ---
+· QPD T 3PE1,5: 3 salidas 3P 1,5mm²
+
+--- IPD Y (distribuidor Y — 2 salidas, señal/control) ---
+· IPD Y 3P2,5 BK / GY: 2 salidas 3 polos 2,5mm², negro o gris
+
+Uso típico: en una línea de máquinas, llevas un cable de alimentación principal y en
+cada máquina pones un QPD H para derivar la corriente sin cortar el cable principal.
+
+=== RESUMEN: ¿QUÉ PEDIR SEGÚN LA NECESIDAD? ===
+| Necesito... | Producto |
+|-------------|---------|
+| Concentrar varios sensores M12 cerca de la máquina | Caja SACB |
+| Dividir un cable M12 en dos para dos sensores | Repartidor SAC-Y |
+| Ramificar un cable de potencia en campo | QPD H o QPD T |
+| Entorno muy duro (polvo, agua, golpes) | SACB HD |
+
+=== LO QUE NO CUBRE ESTE CUADRO ===
+- Cables pre-ensamblados M12/M8 (SAC cables con cable) → ver cables_sensor_actuador_m12.txt
+- Pasamuros QUICKON para entrada a armario → ver conectores_quickon_pasamuros.txt
+- Módulos E/S activos (con electrónica, bus de campo) → cubiertos en Autómatas

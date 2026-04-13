@@ -1,0 +1,104 @@
+CUADRO RESUMEN — PLETINAS, EMBARRADOS Y PEINES DE DISTRIBUCIÓN
+Familia: Electricidad > Material de conexión eléctrica > Pletinas y embarrados
+Ejemplo en Araiz: Legrand ref. 037419 (Barra cobre plana sección 32x5mm)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"embarrado barras cobre cuadro distribución" o "peine distribución magnetotérmicos cuadro"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Las pletinas, embarrados y peines son los sistemas que distribuyen la
+energía eléctrica dentro de un cuadro o armario a todos los dispositivos
+de protección (magnetotérmicos, diferenciales) o a las bornas de salida.
+
+**Pletina / barra de cobre:**
+Barra rectangular de cobre electrolítico que conduce la corriente principal
+dentro del cuadro. Es el "tronco" del que salen "las ramas" hacia cada
+magnetotérmico o borna. A diferencia de un cable, la barra es rígida
+y aguanta corrientes muy altas (de 100A a miles de amperios).
+
+Secciones habituales:
+- 12×2mm, 15×2mm: cuadros pequeños (hasta ~80A)
+- 25×5mm, 32×5mm: cuadros de distribución estándar (hasta ~200A)
+- 50×5mm, 60×5mm, 80×10mm: cuadros de distribución principal (hasta ~500A)
+
+**Legrand** (037418: 25×5mm, 037419: 32×5mm) es la referencia española
+para barras de cobre en cuadros residenciales y terciarios.
+
+============================================================
+
+PEINES DE DISTRIBUCIÓN (153 art.)
+--------------------------------------------------------------
+El peine de distribución es la forma moderna de distribuir la alimentación
+a una fila de magnetotérmicos en un cuadro sin usar cables.
+
+**Cómo funciona:**
+El peine tiene "dientes" que se insertan directamente en los bornes de
+los magnetotérmicos montados en el cuadro. Conecta todos los magnetotérmicos
+de la misma fila al mismo potencial (misma fase) en un solo movimiento.
+
+**Ventajas sobre el cableado fase a fase:**
+- Mucho más rápido de montar (segundos vs. minutos)
+- Conexión más segura y limpia (sin riesgo de flojedad en los tornillos)
+- Ocupa menos espacio que los cables entre aparatos
+
+**Tipos:**
+- **Monofásico (1P)**: todos los magnetotérmicos reciben la misma fase.
+- **Bifásico (2P)**: para interruptores bipolares.
+- **Trifásico (3P+N)**: distribuye las tres fases más neutro. Los magnetotérmicos
+  trifásicos reciben cada uno la fase que les corresponde.
+
+**Marcas:**
+- **Siemens (269 art.)**: peines para sus series SENTRON (3KA, 3VA, 5SY).
+  Son específicos de cada familia de aparato.
+- **Phoenix Contact (235 art.)**: puentes FBS para bornas UK.
+  Peines FBI para distribución en cuadros modulares.
+- **Schneider (77 art.)**: peines para iC60, Acti9.
+- **Hager (85 art.)**: peines para su gama de cuadros.
+- **Wohner (55 art.)**: especialista en sistemas de embarrado modulares.
+  Sus sistemas NH y BH son habituales en cuadros industriales de potencia.
+- **Erico (53 art.)**: barras y embarrados de cobre para grandes instalaciones.
+
+**IMPORTANTE:** los peines son específicos de cada fabricante y serie
+de aparatos. Un peine Siemens para la gama 5SY no vale para los iC60
+de Schneider aunque sean del mismo tamaño.
+
+============================================================
+
+ADAPTADORES Y ACCESORIOS DE PLETINA (40 art.)
+--------------------------------------------------------------
+- **Adaptador de pletina**: pieza que conecta una barra de cobre a
+  un aparato que no tiene conexión directa para pletina (ej. conectar
+  una barra a un magnetotérmico antiguo).
+- **Soporte de barra**: fijación que sujeta la barra de cobre al fondo
+  del armario, con aislamiento eléctrico incluido.
+- **Unión de barra**: pieza para empalmar dos tramos de barra cuando
+  no llega la longitud.
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                    | Por qué                                        |
+|----|-------------------------------------------------------------|------------------------------------------------|
+| 1  | ¿Es para barra de cobre o para peine de magnetotérmicos?   | Productos distintos con función similar        |
+| 2  | ¿Qué marca y serie son los magnetotérmicos del cuadro?     | El peine es específico de cada marca/serie     |
+| 3  | ¿Cuántos polos tiene el magnetotérmico? (1P, 2P, 3P)       | Define el tipo de peine (mono/bi/trifásico)    |
+| 4  | ¿Cuántos aparatos hay en la fila?                           | Define la longitud del peine                   |
+| 5  | ¿Qué corriente máxima tiene el cuadro? (para barras)       | Define la sección de la barra de cobre         |
+
+CONSEJO: Cuando el cliente pide "el peine para los automáticos",
+preguntar siempre la marca y modelo del automático (magnetotérmico).
+La referencia del peine suele ir en el catálogo del fabricante del
+magnetotérmico — Siemens, Schneider y Hager tienen cada uno su sistema
+propio. Pedir foto del cuadro si hay dudas.
+
+============================================================
+Fuentes:
+- Legrand barras cobre: https://www.legrand.es/catalogo/cuadros-electricos/barras-de-cobre/
+- Siemens peines SENTRON: https://new.siemens.com/es/es/productos/energía/baja-tensión/
+- Wohner embarrados: https://www.wohner.com/es/productos/
+============================================================

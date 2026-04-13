@@ -1,0 +1,172 @@
+CUADRO RESUMEN — TOMAS DE CORRIENTE INDUSTRIALES (CEE / IEC 60309)
+Familia: Electricidad > Material de conexión eléctrica > Tomas de corriente industriales
+Ejemplo en Araiz: Gewiss ref. GW62015 (Base empotrable 2P+T 16A 250V IP44 azul)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"toma corriente industrial CEE cetac colores significado" o "enchufe industrial azul rojo diferencia"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Las tomas de corriente industriales son enchufes y bases diseñados para
+uso en fábricas, talleres, obras y cualquier entorno donde los enchufes
+domésticos (Schuko, tipo F) no son suficientes por su fragilidad,
+baja capacidad o falta de estanquidad.
+
+El estándar europeo es la **norma IEC 60309** (en España también llamado
+"CEE" o "Cetac"). Este sistema:
+- Define la forma, tamaño y configuración de los pines según la tensión
+  y la corriente — así es IMPOSIBLE conectar por error un aparato de
+  230V a una toma de 400V (los pines no encajan).
+- Usa un código de colores para identificar de un vistazo la tensión.
+- Tiene protección IP44 como mínimo — resistente a salpicaduras.
+
+**Diferencia con enchufes domésticos:**
+| Característica    | Enchufe doméstico (Schuko) | Toma industrial CEE      |
+|-------------------|----------------------------|--------------------------|
+| Corriente máx.    | 16A                        | 16A, 32A, 63A, 125A      |
+| Tensiones         | Solo 230V                  | 110V, 230V, 400V, 500V   |
+| Protección IP     | IP20 (sin protección)      | IP44, IP55, IP67         |
+| Fases             | Solo monofásico            | Monofásico y trifásico   |
+| Identificación    | Ninguna (todos iguales)    | Color + posición del perno|
+| Precio            | 2-10 €                     | 8-80 €                   |
+
+============================================================
+
+EL CÓDIGO DE COLORES CEE — LO MÁS IMPORTANTE
+--------------------------------------------------------------
+**MEMORIZA ESTO:** el color del enchufe CEE indica la tensión.
+
+| Color      | Tensión        | Fases        | Uso típico                          |
+|------------|----------------|--------------|-------------------------------------|
+| Violeta    | 20-25V         | Monofásico   | Alumbrado de obra (tensión segura)  |
+| Amarillo   | 100-130V       | Monofásico   | Herramientas de obra (UK/JP)        |
+| **Azul**   | **200-250V**   | **Monofásico**| **Uso general, herramientas 230V** |
+| **Rojo**   | **380-415V**   | **Trifásico**| **Motores, maquinaria industrial**  |
+| Negro      | 500V           | Trifásico    | Industria pesada                    |
+
+En España, los más habituales son:
+- **Azul 16A 2P+T**: para herramientas eléctricas, equipos monofásicos.
+- **Azul 32A 2P+T**: para equipos de mayor potencia monofásicos.
+- **Rojo 16A 3P+N+T**: para motores y equipos trifásicos pequeños.
+- **Rojo 32A 3P+N+T**: para maquinaria industrial estándar.
+- **Rojo 63A 3P+N+T**: para equipos de gran potencia (compresores, prensas).
+
+============================================================
+
+TIPOS DE APARATOS EN EL CATÁLOGO
+--------------------------------------------------------------
+**1. Clavija (plug) — la parte macho con el cable**
+Va conectada al cable del equipo o de la extensión. Se introduce en la base.
+- Clavija aérea: para cablear directamente con un cable flexible.
+- Clavija para montaje en equipo/máquina: se fija en la carcasa de la máquina.
+
+**2. Base (socket) — la parte hembra fija en la pared o cuadro**
+Va instalada permanentemente. Recibe la clavija.
+
+| Tipo de base            | Dónde va                        | IP habitual |
+|-------------------------|---------------------------------|-------------|
+| Base empotrable         | Empotrada en caja de pared      | IP44        |
+| Base superficie         | Montada en superficie de pared  | IP44/IP55   |
+| Base para armario (panel)| Montada en puerta de cuadro    | IP44        |
+| Base móvil (acoplamiento)| En el cable, sin fijar         | IP44        |
+
+**3. Caja de distribución con tomas (110 art.)**
+Caja con varias tomas integradas: 2, 4 o 6 tomas CEE en una misma caja
+con protección diferencial o magnetotérmica incluida.
+Habitual en obras de construcción y eventos: se conecta a la red y
+distribuye a varias herramientas o equipos.
+
+============================================================
+
+CONFIGURACIÓN DE PINES — CÓMO SE LEEN
+--------------------------------------------------------------
+Los pines de una toma CEE están en posiciones fijas según su función:
+
+**2P+T** (monofásico con tierra):
+- 2 pines de corriente (fase + neutro) + 1 pin de tierra (T)
+- Azul 16A: la configuración más habitual para herramientas
+
+**3P+T** (trifásico sin neutro):
+- 3 fases + tierra. Para motores que no necesitan neutro.
+
+**3P+N+T** (trifásico con neutro):
+- 3 fases + neutro + tierra. Para equipos trifásicos que necesitan 230V entre fase y neutro.
+
+La **posición del perno de tierra** (el pin más gordo) cambia según la corriente:
+- 16A: perno a las 6 en punto (abajo)
+- 32A: perno a las 4 en punto
+- 63A: perno a las 3 en punto
+- 125A: perno a las 2 en punto
+
+Esto garantiza que un enchufe de 63A NO encaje en una base de 16A —
+protección mecánica contra sobrecargas.
+
+============================================================
+
+MARCAS EN ARAIZ
+--------------------------------------------------------------
+**Gewiss (1.716 art.) — líder absoluto**
+Fabricante italiano especializado en tomas industriales CEE.
+Sus referencias más vendidas:
+- GW62015: base empotrable 2P+T 16A 250V IP44 azul
+- GW62025: base superficie 2P+T 16A 250V IP44 azul
+- GW62035: base empotrable 3P+N+T 16A 400V IP44 rojo
+- GW62040: base empotrable 3P+N+T 32A 400V IP44 rojo
+
+**Schneider Electric (478 art.)**
+Gama Pratika y Thalassa. Tomas industriales integradas en su ecosistema
+de cuadros y armarios.
+
+**BJC (313 art.) — marca española**
+Bases y clavijas CEE de fabricación española. Económicas y muy usadas
+en obra e instalaciones industriales de presupuesto ajustado.
+
+**Legrand (154 art.)**
+Gama P17 Tempra y P17 Pro. Las P17 Pro son las de mayor calidad —
+IP66/67/69, para instalaciones exigentes con limpieza a presión.
+
+**Marechal (49 art.)**
+Marca francesa especializada en conectores industriales de alta seguridad,
+con función de interruptor integrada (se pueden conectar/desconectar con carga).
+Para instalaciones que requieren desconexión bajo carga sin cortar el circuito primero.
+
+**Scame (42 art.)**
+Fabricante italiano, gama equivalente a Gewiss. Habitual en importaciones italianas.
+
+**Mennekes (19 art.)**
+Fabricante alemán de alta calidad. También conocidos por los conectores
+de vehículo eléctrico tipo 2 (Mennekes). Sus tomas industriales CEE son
+de gama alta.
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                    | Por qué                                        |
+|----|-------------------------------------------------------------|------------------------------------------------|
+| 1  | ¿Monofásico (230V) o trifásico (400V)?                     | Azul = monofásico; Rojo = trifásico            |
+| 2  | ¿Cuántos amperios? ¿16A, 32A o 63A?                       | Define el tamaño del conector                  |
+| 3  | ¿Lleva neutro? ¿3P+T o 3P+N+T?                             | Motores simples → 3P+T; equipos con 230V → 3P+N+T|
+| 4  | ¿Es la base fija o la clavija del cable?                    | Base = hembra fija; clavija = macho con cable  |
+| 5  | ¿Dónde va? ¿Interior, exterior, zona húmeda?               | Define el IP necesario (IP44/IP55/IP67)        |
+| 6  | ¿Necesita que sea conectable bajo carga?                    | Si sí: Marechal con interruptor integrado      |
+
+CONSEJO: El conjunto más pedido en instalaciones industriales es la
+pareja base + clavija roja 32A 3P+N+T (400V trifásico) — para maquinaria
+estándar como tornos, fresadoras, compresores y soldadores trifásicos.
+Para talleres y obras: base azul 16A 2P+T IP44 (Gewiss o BJC) para
+herramientas portátiles y extensiones.
+Cuando el cliente dice "quiero poner un enchufe para la máquina", siempre
+preguntar si es monofásica o trifásica y cuántos amperios consume —
+con esos datos se selecciona el color y el tamaño CEE correcto.
+
+============================================================
+Fuentes:
+- Gewiss CEE: https://www.gewiss.com/es/es/products/industrial-plugs-and-sockets
+- Legrand P17: https://www.legrand.es/catalogo/conexion-industrial/tomas-p17/
+- Schneider Pratika: https://www.se.com/es/es/product-subcategory/industrial-plugs-and-sockets/
+- Mennekes: https://www.mennekes.es/productos/tomas-de-corriente-industriales/
+============================================================

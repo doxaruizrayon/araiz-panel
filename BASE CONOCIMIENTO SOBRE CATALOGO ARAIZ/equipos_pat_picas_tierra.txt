@@ -1,0 +1,107 @@
+PUESTA A TIERRA: PICAS, ARQUETAS, ACCESORIOS Y EQUIPOS PAT
+Subfamilia: Material de conexión eléctrica > Material para puesta a tierra
+Artículos en Araiz: ~235 | Marcas: Sofamel, Cirprotec, Mora, Armengol, Aplicaciones Tecnológicas, Legrand
+
+=== QUÉ ES ESTO ===
+Todo lo necesario para instalar y mantener una red de puesta a tierra:
+- Las picas que se clavan en el suelo para crear el electrodo de tierra
+- Las arquetas donde se hacen las conexiones y se pueden inspeccionar
+- Las abrazaderas y grapas que unen los cables a las picas y estructuras
+- Los equipos PAT de seguridad para poner a tierra líneas antes de trabajar en ellas
+
+=== 1. PICAS DE TIERRA (Mora, Sofamel) ===
+Varillas de acero cobrizado que se clavan en el suelo. Son el electrodo que contacta
+con la tierra para disipar corrientes de falta o rayos.
+
+--- Características a elegir ---
+· Longitud: 1.500mm o 2.000mm (cuanto más larga, menor resistencia de tierra)
+· Diámetro: 14,2mm estándar / 17,3mm para mayor sección
+· Recubrimiento: cobrizado 100 micrómetros (resistente a la corrosión)
+· Con o sin rosca: las roscadas permiten empalmar varias picas en serie para mayor profundidad
+
+Marcas:
+· MORA: pica 1500mm 14,2mm sin rosca 100µm / pica 2000mm 14,2mm sin rosca 100µm
+· SOFAMEL: pica 100u 14mm 1,5m / pica 100u 14mm 2,0m (presentación en pack 100 unidades)
+· APLICACIONES TECNOLOGICAS: pica diámetro 17,3x2400mm cobrizada 254µm sin rosca
+
+=== 2. ARQUETAS DE REGISTRO (KLK, Cirprotec) ===
+Cajas enterradas que dan acceso a las conexiones de la red de tierra para inspección,
+medición de la resistencia y mantenimiento.
+
+· KLK AC-M 200 FE: arqueta metálica de registro (hierro)
+· Cirprotec 300x300mm: arqueta de polipropileno con regleta equipotencial incluida
+  y 3 terminales de brida — para instalar en jardines, exteriores o industria
+  (polipropileno = no corroe, ideal para ambientes húmedos)
+· Aplicaciones Tecnológicas: puente de comprobación de latón para arqueta
+  (permite medir la resistencia de tierra sin desconectar la instalación)
+
+=== 3. ABRAZADERAS, GRAPAS Y ACCESORIOS DE CONEXIÓN ===
+
+--- Grapas de tierra (Mora, Sofamel) ---
+Unen el cable de cobre al conductor de tierra o a la estructura metálica.
+· MORA grapa tierra CU 16/50mm²: abrazadera de acero bicromatado para cable de cobre
+  sección 16 a 50mm²
+· SOFAMEL TGT142: grapa tierra estándar
+
+--- Manguitos y terminales (Cirprotec, Aplicaciones Tecnológicas) ---
+· Manguito unión cable hasta 70mm²: para empalmar dos cables de tierra sin soldar
+· Manguito cuadrado aluminio + pletina: para unión cable sobre pletina
+· Terminal anillo cobre estañado 50mm² M12: para fijar cable de tierra con tornillo M12
+· Manguito paralelo latón cable 4-13mm: conexión paralelo
+
+--- Accesorios bajante y soporte (Cirprotec) ---
+Para instalar el cable de bajante de pararrayos en fachadas:
+· Soporte para superficie metálica (cable 8-10mm) con tornillo y aislante PVC
+· Soporte M-8 bronce con tirafondo (cable 50/70mm²)
+· Tubo protección bajante 3m diámetro 32mm: protege el cable a pie de fachada
+· Placa de señalización de toma de tierra
+
+--- Vías chispas (Cirprotec, Aplicaciones Tecnológicas) ---
+Dispositivo que une dos partes de la instalación de tierra en caso de sobretensión
+(rayo) pero las mantiene aisladas en condiciones normales.
+· Vía chispas para unión de tierras
+· Conjunto vía chispas para mástil-antena
+
+=== 4. EQUIPOS PAT — PUESTA A TIERRA Y CORTOCIRCUITO DE SEGURIDAD (Sofamel) ===
+~120 artículos
+
+Equipos de seguridad obligatorios para trabajar en instalaciones eléctricas sin tensión.
+Antes de tocar una línea, el electricista la pone a tierra y en cortocircuito para que,
+si se energiza accidentalmente, el diferencial dispare y no haya electrocución.
+
+--- PAT para Alta Tensión (líneas aéreas) ---
+· PAT-MPL/07006, PAT-MPL/09506, PAT-MPL/12006, PAT-MPL/12010...
+  Referencia: PAT-MPL / [tensión kV] [sección cable mm²]
+  Ejemplo: PAT-MPL/12010 = para línea de 12kV, cable de 10mm²
+  Incluyen: pinzas de enganche, cable de cobre aislado, pértiga
+
+· Pinza MPL bayoneta rosca trapezoidal: cabeza de enganche en conductor de AT
+
+--- PAT para Centros de Transformación MT/AT ---
+· PATC-3MPLE-12050-1,5/2,5-T-1TT38L: equipo completo para CT de media tensión
+  (3 fases + neutro, para tensiones 12kV y 50mm² de cable, con tierra)
+· PATC-PP15/2525: versión para celdas de protección primaria 15kV
+
+--- PAT para Cuadros de Baja Tensión ---
+· ECBT-4/MPUH-L/120120: equipo de puesta a tierra para cuadros BT 4 polos
+  (para bloquear una salida en cuadro de distribución antes de intervenir)
+· ERLAIN-4/10: equipo PAT para cuadros de alumbrado exterior
+
+--- Kit de salvamento ---
+· Kit SZ-51M: todos los útiles de rescate en un único lugar (percha aislante,
+  guantes, banqueta aislante, etc.) para rescate de accidentado en AT
+
+=== RESUMEN: ¿QUÉ SE NECESITA EN CADA CASO? ===
+| Trabajo | Producto necesario |
+|---------|-------------------|
+| Instalar nueva toma de tierra | Pica + arqueta + cable + grapa + soldadura exotérmica |
+| Medir/inspeccionar tierra existente | Puente comprobación latón en arqueta |
+| Trabajar en línea AT sin tensión | Equipo PAT-MPL Sofamel |
+| Trabajar en CT de media tensión | Equipo PATC Sofamel |
+| Intervenir en cuadro BT | Equipo ECBT Sofamel |
+| Proteger bajante de pararrayos | Tubo + soportes Cirprotec |
+
+=== LO QUE NO CUBRE ESTE CUADRO ===
+- Unión permanente cable-pica mediante soldadura exotérmica → ver soldadura_exotermica_tierra.txt
+- Bornas de tierra en carril DIN → ver bornas_especiales_funcionales.txt
+- Protectores contra sobretensión (SPD/DPS) → familia Protecciones

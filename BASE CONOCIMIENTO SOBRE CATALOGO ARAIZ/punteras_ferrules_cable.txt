@@ -1,0 +1,149 @@
+CUADRO RESUMEN — PUNTERAS DE CABLE (FERRULES / TERMINALES DE EXTREMO)
+Familia: Electricidad > Material de conexión eléctrica > Terminales
+Ejemplo en Araiz: Phoenix Contact ref. AI 2,5-8 GY (Puntera con manguito 2,5mm² gris longitud 8mm)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"punteras de cable ferrules crimpado instalación" o "puntera aislada cable flexible borna tornillo"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Una puntera de cable (también llamada ferrule, terminal de extremo o
+virola) es un pequeño cilindro hueco de cobre estañado que se coloca
+en el extremo de un cable flexible y se crimpa (aplasta con alicates
+especiales) para mantener todos los hilos del cable juntos y protegidos.
+
+**El problema que resuelve:**
+Los cables flexibles están formados por muchos hilos de cobre muy finos.
+Al introducir el extremo pelado directamente en una borna de tornillo,
+los hilos finos se doblan, se parten o se abren en abanico — algunos
+pueden quedarse fuera de la borna haciendo un contacto deficiente o
+tocando el borne de al lado (cortocircuito).
+
+Con una puntera crimpada, los hilos quedan unidos en un bloque sólido
+que entra perfectamente en la borna — conexión limpia, segura y duradera.
+
+**¿Es obligatorio usarlas?**
+No hay normativa que lo exija en todos los casos, pero la IEC 60947-7-1
+(bornas industriales) recomienda el uso de punteras en cables flexibles.
+En instalaciones industriales de calidad, el uso de punteras es estándar.
+
+============================================================
+
+ANATOMÍA DE UNA PUNTERA
+--------------------------------------------------------------
+Una puntera tiene dos partes:
+- **Manguito de cobre**: el cilindro metálico donde entra el cable.
+  Se crimpa con alicates y sujeta los hilos.
+- **Collar de plástico (aislante)**: la parte de color que sobresale
+  y protege el extremo del cable pelado. También facilita el agarre
+  con los dedos al insertar en la borna.
+
+**Sin collar**: punteras sin aislante, solo el manguito de cobre.
+Se usan en bornas donde el espacio es muy reducido.
+
+============================================================
+
+CÓDIGO DE COLORES — CLAVE PARA IDENTIFICARLAS RÁPIDO
+--------------------------------------------------------------
+Las punteras siguen un código de colores estándar internacional
+según la sección del cable:
+
+| Color       | Sección cable | Longitud manguito | Para qué                      |
+|-------------|---------------|-------------------|-------------------------------|
+| Blanco      | 0,5 mm²       | 8 mm              | Señales débiles, bus          |
+| Gris        | 0,75 mm²      | 8 mm              | Señales analógicas            |
+| Rojo        | 1 mm²         | 8 mm / 10 mm      | Control 24V DC estándar       |
+| Negro       | 1,5 mm²       | 8 mm              | Control 230V AC               |
+| Azul        | 2,5 mm²       | 8 mm              | Circuitos de mando            |
+| Gris claro  | 2,5 mm²       | 10 mm / 12 mm     | Variante longitud larga       |
+| Naranja     | 4 mm²         | 10 mm / 12 mm     | Potencia media                |
+| Amarillo    | 6 mm²         | 12 mm             | Potencia                      |
+| Verde       | 10 mm²        | 12 mm / 16 mm     | Potencia alta                 |
+| Marrón      | 16 mm²        | 16 mm             | Alimentaciones principales    |
+
+ATENCIÓN: algunos fabricantes tienen ligeras variaciones de color.
+El número impreso en el collar siempre indica la sección exacta — es
+más fiable que el color si hay dudas.
+
+============================================================
+
+MARCAS EN ARAIZ
+--------------------------------------------------------------
+**Phoenix Contact — gama AI (470 art.)**
+La referencia del mercado. Su código es:
+**AI [sección] - [longitud] [color inicial]**
+- AI 0,25-6 VT → 0,25mm², 6mm longitud, violeta
+- AI 2,5-8 GY → 2,5mm², 8mm longitud, gris
+- AI 4-10 OG → 4mm², 10mm longitud, naranja (OG = orange)
+
+Se venden en cajas de 100, 500 y 5.000 unidades. En grandes instalaciones
+se usan dispensadores con mezcla de colores.
+
+**Weidmuller (1.108 art.)**
+Gama H (punteras con collar aislante) y H... sin collar.
+Equivalentes a las AI de Phoenix Contact. Mismo código de colores.
+Referencias: H0,5/12 (0,5mm²/12mm), H2,5/8 (2,5mm²/8mm)...
+
+**Gaestopas (100 art.)**
+Punteras económicas TE-4 (naranja, 4mm²), TE-2,5... para instalaciones
+estándar donde no se requiere marca premium.
+
+============================================================
+
+HERRAMIENTA DE CRIMPADO — IMPRESCINDIBLE
+--------------------------------------------------------------
+Las punteras se crimpan con alicates de crimpar específicos (no con
+alicates normales). Los alicates de crimpar para punteras hacen una
+sección cuadrada uniforme — garantizando que todos los hilos quedan
+comprimidos correctamente.
+
+**Phoenix Contact CRIMPFOX**: alicates manuales para punteras de 0,14
+a 16mm². El modelo más habitual es el CRIMPFOX 6 (hasta 6mm²).
+
+**Weidmuller CRIMPFIX**: equivalente del CRIMPFOX.
+
+Sin alicates adecuados, la puntera no queda bien crimpada y el contacto
+puede fallar — peor que sin puntera. No usar alicates de corte ni
+de electricista genérico para crimpار punteras.
+
+============================================================
+
+PUNTERAS DOBLES (TWIN FERRULES)
+--------------------------------------------------------------
+Punteras con dos entradas paralelas que permiten conectar DOS cables
+al mismo borne de la borna — sin necesidad de puente o borna adicional.
+Útiles cuando dos circuitos deben compartir el mismo punto de conexión.
+
+Phoenix Contact: AI-TWIN 2×0,5, AI-TWIN 2×1,5...
+Weidmuller: H-TWIN series.
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                    | Por qué                                        |
+|----|-------------------------------------------------------------|------------------------------------------------|
+| 1  | ¿Qué sección de cable va a usar? (mm²)                     | Define el tamaño y color de la puntera         |
+| 2  | ¿Cuántas punteras necesita?                                  | Se venden en cajas de 100/500/5.000 ud.        |
+| 3  | ¿Con collar aislante o sin collar?                          | Bornas pequeñas pueden necesitar sin collar    |
+| 4  | ¿Qué longitud de manguito necesita? ¿8mm o 12mm?           | Depende de la profundidad de la borna          |
+| 5  | ¿Tiene alicates de crimpar para punteras?                   | Sin alicates no puede crimpарlas correctamente |
+
+CONSEJO: Las punteras más pedidas son las de 1mm² (rojo) y 1,5mm² (negro)
+para circuitos de control a 24V DC y 230V AC respectivamente.
+Si el cliente pide "punteras para cable de 2,5" casi siempre son las
+azules AI 2,5-8 de Phoenix Contact — la referencia estándar para
+circuitos de mando. Vienen en caja de 100 unidades (la más habitual)
+o de 500 para instalaciones grandes.
+Para un cuadro mediano de 50 bornas: calcular unas 100-150 punteras
+(dos por borna en muchos casos: entrada y salida).
+
+============================================================
+Fuentes:
+- Phoenix Contact AI punteras: https://www.phoenixcontact.com/es-es/products/ferrules
+- Weidmuller H punteras: https://www.weidmuller.com/es/products/ferrules/
+- Gaestopas TE: https://www.gaestopas.com/es/categorias/punteras/
+============================================================

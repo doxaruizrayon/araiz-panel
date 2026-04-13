@@ -1,0 +1,102 @@
+TERMINACIONES, ACCESORIOS DE CABLE Y KITS DE EMPALME
+Subfamilia: Material de conexión eléctrica > Terminaciones y empalmes
+Artículos en Araiz: ~420 | Marcas: Phoenix Contact (dominante), 3M Electricos, Cellpack, Raytech, Anguila, Weidmuller
+
+=== QUÉ HAY EN ESTE GRUPO ===
+Un conjunto de productos muy variados que comparten función: proteger, terminar o empalmar
+cables y conexiones. Se agrupan aquí por ser accesorios/consumibles, no producto principal.
+
+=== 1. PASACABLES Y TAPONES CIEGOS (Phoenix Contact CES) ===
+~108 artículos
+Pequeñas piezas de goma/plástico para tapar agujeros no usados en armarios y cajas.
+Evitan la entrada de polvo, agua y roedores por orificios vacíos.
+
+- CES-SRG-BK: tapón ciego (sin cable — tapa el agujero totalmente)
+- CES-SRG-BK-5: pasacable para cable de 5mm
+- CES-SRG-BK-8: pasacable para cable de 8mm
+- CES-SRG-BK-14: pasacable para cable de 14mm
+Color: BK (negro) estándar
+
+Uso típico: en chasis de armarios con múltiples agujeros para prensaestopas, solo se usan
+algunos — el resto se tapan con CES para mantener el grado IP.
+
+También incluye tapas finales de protección (EC000910): capuchones que se ponen sobre bornes
+sin usar para evitar contacto accidental.
+
+=== 2. ACCESORIOS PARA BORNAS DIN (Phoenix Contact, Weidmuller) ===
+~85 artículos
+Piezas que completan las regletas de bornas en carril DIN. Ya se cubrieron en parte
+en bornas_especiales_funcionales.txt, pero aquí hay variantes específicas de terminación.
+
+- D-PIT 1,5/S GY: tapa final para bornas Phoenix Contact PTFIX/PT (gris)
+- D-PITTB 1,5/S GY: tapa final para bornas PITTB
+- Placas intermedias de separación: para separar grupos de bornas visualmente
+- Topes finales (EC001041): retienen el grupo de bornas en el carril sin que se muevan
+- Soportes de pletina (EC001166): abrazaderas para fijar pletinas de distribución
+
+Referencia clave: las tapas finales van siempre a juego con la serie de borna.
+Ejemplo: si tienes bornas PT 1,5, necesitas tapa D-PT 1,5.
+
+=== 3. CONCENTRADORES M8/M12 PASIVOS — SACB (Phoenix Contact) ===
+~47 artículos (EC002585 + EC003558)
+Cajas de distribución pasiva para sensores y actuadores en campo.
+Sin electrónica: simplemente distribuyen la alimentación y recogen señales.
+
+- SACB-4/3: caja con 4 entradas M12 para sensores + 3 salidas M8 para actuadores
+- SACB-C-H180: versión con orientación de cable a 180°
+- Conexión al PLC: un solo cable M12 de 8 polos — en lugar de 4-8 cables individuales
+- Reduce cableado desde armario a zona de máquina
+
+Uso típico: instalaciones con muchos sensores en una zona de la máquina. En vez de llevar
+un cable por sensor hasta el armario, pones una caja SACB cerca y llevas un solo cable.
+
+=== 4. ACOPLADORES Y MANGUITOS DE FIBRA ÓPTICA (Phoenix Contact) ===
+~20 artículos (EC000752)
+Conectores hembra-hembra para unir dos cables de fibra óptica.
+- FOC-ADAPTER STD/SCD-SM: acoplador estándar monomodo, IP20, 2 puertos
+- Material: aleación de zinc / fundición inyectada
+- Se montan en paneles o armarios para llevar fibra al exterior
+No son para instalación de redes de datos (eso es otro cuadro) — son para las
+comunicaciones industriales (PROFIBUS, EtherCAT por fibra).
+
+=== 5. CONECTORES CIRCULARES SIN CABLE (Phoenix Contact) ===
+~9 artículos (EC003569)
+Conectores circulares industriales tipo M12/M8 para montaje en panel/chasis (sin cable).
+El instalador crimpa o suelda sus propios cables.
+Diferencia con los cables pre-ensamblados: aquí el conector va solo, sin cable.
+
+=== 6. KITS DE EMPALME Y TERMINACIÓN DE CABLE (3M, Cellpack, Raytech, Anguila) ===
+~37 artículos sin clase ETIM + ~14 manguitos con junta (EC001169)
+Para empalmes de cables de media tensión, BT exterior y telecomunicaciones.
+
+--- 3M Electricos Scotchcast ---
+- Serie 92-NB: kits de empalme recto para cables BT (0,6/1kV)
+  - 92-NB-A0, A2, A3, A4: distintos tamaños de cable
+  - Incluyen: resina epoxy bicomponente de relleno + molde
+  - Resultado: empalme totalmente encapsulado, estanco, mecánicamente resistente
+  - Uso: cables enterrados, canalizaciones, zonas con humedad
+
+--- Cellpack / Raytech ---
+Kits termorretráctil para empalmes y terminaciones:
+- Terminaciones unipolares y tripolares para cables de BT/MT
+- Se aplican con pistola de calor — el tubo se contrae y sella
+- Cellpack: gama amplia para distintas secciones
+- Raytech: especializado en MT (media tensión) y cables especiales
+
+--- Anguila Barney ---
+- BARNEY MINITORPEDO GEL: empalme con gel dieléctrico para 2 cables hasta 2,5mm²
+  - Sin herramientas: se inserta el cable, el gel sella y aísla
+  - Uso: alumbrado público, circuitos exteriores, jardines
+  - Viene en blíster unitario
+
+=== CÓMO BUSCAR EN CATÁLOGO ===
+- Tapones y pasacables: busca "CES" o "tapón ciego" + medida
+- Tapas bornas: busca el código de tu serie de borna + "tapa final"
+- Cajas SACB: busca "SACB" + número de puertos
+- Kits empalme: busca marca (3M / Cellpack / Raytech) + sección del cable
+
+=== LO QUE NO CUBRE ESTE CUADRO ===
+- Prensaestopas con tuerca roscada → ver prensaestopas_gaestopas_phoenix.txt
+- Bornas de regleta completas → ver bornas_carril_din_phoenix.txt
+- Terminales de crimpado → ver terminales_crimpado_zapatas.txt
+- Conectores QUICKON multipolares → ver conectores_quickon_pasamuros.txt

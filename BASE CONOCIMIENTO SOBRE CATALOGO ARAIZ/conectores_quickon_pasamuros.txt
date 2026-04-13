@@ -1,0 +1,54 @@
+CONECTORES QUICKON Y PASAMUROS DE CONEXIÓN RÁPIDA
+Subfamilia: Material de conexión eléctrica > Terminaciones y empalmes
+Artículos en Araiz: ~152 | Marca principal: Phoenix Contact (100%)
+
+=== QUÉ ES ESTO ===
+Conectores de entrada de cable para armarios y máquinas que permiten conectar y desconectar
+rápidamente sin herramientas. Combinan la función de prensaestopa (entrada estanca de cable)
+con la de conector multipolar (varios conductores de una sola vez).
+
+La gran familia es Phoenix Contact QUICKON: entras el cable, giras la tuerca, y todos los
+conductores quedan conectados simultáneamente. Sin destornillador. Sin pelar cada hilo.
+
+=== FAMILIAS DE PRODUCTO ===
+
+--- QPD (Quick Power Distribution) ---
+Pasamuros multipolares para cables de potencia: 4P+PE (4 conductores + tierra), 2,5mm²
+- Rosca de montaje: M25 (agujero en chapa de armario)
+- Tensión: hasta 690V | Corriente: hasta 20A
+- Tipos de conexión: push-in, IDC (perforación de aislante), enchufe plano
+- Rango de cable: 6-10mm o 9-16mm de diámetro exterior
+- Color: BK (negro) o GY (gris)
+- Formato: pasamuros (QPD W) o empalmador cable-cable (QPD CW)
+- Ref. ejemplo: 1582557 (QPD W 4PE2,5 6-11 M25 0,5 BK)
+
+--- IPD (Industrial Push-in Distribution) ---
+Pasamuros multipolares para cables de control/señal: 5 polos, 2,5mm²
+- Variantes macho (M) y hembra (F) para crear circuito completo macho-hembra
+- Colores: BK negro o GY gris claro
+- Ref. ejemplo: 1088685 (IPD W 5P2,5 M M25 BK — macho)
+             1088692 (IPD W 5P2,5 F M25 GY — hembra)
+
+--- IPD WD (3 polos, compacto) ---
+Versión más pequeña: 3 polos, rosca M20 (agujero más pequeño)
+- Para cables de control con menos conductores
+- Ref. ejemplo: IPD WD 3P2,5 M20 GY
+
+=== CÓMO SE USAN ===
+1. Se monta la tuerca/rosca en el agujero del armario (M20 o M25)
+2. Se pasa el cable desde fuera
+3. La conexión QUICKON engancha todos los conductores de golpe
+4. Para desconectar: se gira y extrae — sin cortar nada
+
+Aplicación típica: entrada de cables de alimentación (motor, ventilador, resistencia
+calefacción) en armarios de automatización, sin necesidad de regleta de bornas.
+
+=== CÓMO IDENTIFICAR EN CATÁLOGO ===
+Referencias Phoenix Contact de 7 dígitos (ej. 1423986, 1582557)
+Descripción contiene: QUICKON / QPD / IPD
+Busca por: número de polos (3P, 4PE, 5P) + sección (1,5 / 2,5mm²) + rosca (M20/M25)
+
+=== LO QUE NO CUBRE ESTE CUADRO ===
+- Prensaestopas estándar sin conexión rápida → ver prensaestopas_gaestopas_phoenix.txt
+- Conectores M12/M8 para sensores → ver cables_sensor_actuador_m12.txt
+- Tomas CEE industriales (enchufe/base) → ver tomas_corriente_industriales_cee.txt

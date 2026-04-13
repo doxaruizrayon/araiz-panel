@@ -1,0 +1,64 @@
+PDU PARA RACK Y REGLETAS DE ENCHUFES MÚLTIPLES
+Subfamilia: Material de conexión eléctrica > Regletas y PDU
+Artículos en Araiz: ~162 | Marcas: Rittal (133), Legrand (~29)
+
+=== QUÉ ES ESTO ===
+PDU = Power Distribution Unit. Es la "regleta de enchufes profesional" que se monta dentro
+de un rack (armario de servidores o telecomunicaciones). Da corriente a varios equipos a la vez
+desde una sola entrada eléctrica.
+
+No confundir con regletas domésticas de enchufe — las PDU son para uso profesional en
+centros de datos, armarios IT, salas de comunicaciones.
+
+=== TIPOS DE PDU (de menos a más funcionalidad) ===
+
+--- PDU Básica ---
+Solo distribuye corriente. Sin pantalla, sin medición, sin control remoto.
+- Entrada: IEC C20 (16A) o CEE (trifásico 16A/32A)
+- Salidas: 8, 12, 18 o 24 tomas IEC C13 + 1-4 tomas C19 para equipos grandes
+- Formato: 1U de rack (44mm de alto), montaje vertical u horizontal
+- Ref. ejemplo Rittal: PDU basic DK 44x845x70mm 18xC13 2xC19 16A C20
+
+--- PDU Metered (con medición) ---
+Igual que la básica + mide el consumo eléctrico por fase.
+- Tiene display integrado que muestra kW, A, V
+- Útil para saber cuánta carga hay en cada rack y no sobrecargar el circuito
+- Con o sin interfaz de red (para leer desde software)
+- Ref. ejemplo Rittal: PDU metered DK RCM con display e interfaz de red
+
+--- PDU Switched (con conmutación) ---
+Permite encender/apagar cada toma individualmente de forma remota.
+- Interfaz de red integrada: se gestiona desde navegador web o software de gestión
+- Útil para reiniciar equipos colgados sin ir físicamente al rack
+- Variante RCM: incluye detector de corriente diferencial residual (avisa de fugas)
+- Ref. ejemplo Rittal: PDU switched DK 24xC13+4xC19 con interfaz red y display
+
+--- PDU Managed ---
+El nivel más completo: medición + conmutación + monitorización ambiental (temperatura, humedad).
+
+=== TOMAS Y CONECTORES IEC — CÓMO IDENTIFICARLOS ===
+| Conector | Corriente | Uso típico |
+|----------|-----------|-----------|
+| IEC C13 (hembra) | hasta 10A | Mayoría de servidores y equipos rack |
+| IEC C19 (hembra) | hasta 16A | Equipos grandes: UPS, servidores de alta gama |
+| IEC C20 (macho entrada) | hasta 16A | Entrada de alimentación en la PDU |
+| CEE 7/3 Schuko | 16A | Enchufes estándar europeos |
+| CEE industrial | 16A/32A mono o trifásico | Entradas PDU de mayor potencia |
+
+=== LEGRAND PDU ===
+- PDU 19" 6 Schuko + interruptor + protección: versión sencilla con enchufes domésticos
+- PDU inteligente 16A 8xC13 con bloqueo de cable: versión gestionable con entrada C20
+- Panel LINKEO EQUIP 24 RJ45: patch panel de cobre para cableado estructurado de red
+  (técnicamente no es PDU pero viene en este grupo en el catálogo)
+
+=== CÓMO BUSCAR EN CATÁLOGO ===
+Busca: "PDU" + tipo (basic/metered/switched/managed) + número de tomas + amperaje entrada
+Ejemplo: "PDU basic 16A 18xC13" o "PDU switched 32A trifásica"
+
+Dimensiones: la longitud varía (695mm, 845mm, 1695mm) según número de tomas.
+Todas son 44mm alto (1U) y 70mm fondo.
+
+=== LO QUE NO CUBRE ESTE CUADRO ===
+- Regletas de empalme para instalación eléctrica → ver regleta_empalme_derivacion.txt
+- Mecanismos de enchufe para instalación doméstica → familia Mecanismos
+- SAI/UPS → otra familia

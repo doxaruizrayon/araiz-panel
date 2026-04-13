@@ -1,0 +1,175 @@
+CUADRO RESUMEN — RACORES, ACCESORIOS DE ENTRADA DE CABLE Y TUBOS FLEXIBLES
+Familia: Electricidad > Material de conexión eléctrica > Prensaestopas, racores y otros accesorios
+Ejemplo en Araiz: GAESTOPAS ref. 241.5000.0 (Manguito unión tubo libre halógenos M50 IP40)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"racor tubo corrugado armario eléctrico" o "contratuerca prensaestopas instalación cuadro"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Este cuadro cubre los accesorios que complementan al prensaestopas
+y los racores para conectar tubos de protección de cables a armarios
+y cajas de conexión.
+
+============================================================
+
+PRODUCTO 1: RACORES PARA TUBO CORRUGADO (204 art.)
+--------------------------------------------------------------
+El tubo corrugado (el tubo flexible rizado de plástico) protege los
+cables en los recorridos hasta el armario. El racor es el accesorio que
+conecta el extremo del tubo corrugado a la caja o armario, asegurando
+la continuidad de la protección y manteniendo el grado IP.
+
+**Tipos de racor según el tubo:**
+| Tipo                    | ETIM            | Para qué                              |
+|-------------------------|-----------------|---------------------------------------|
+| Para tubo corrugado     | EC001176        | Tubo flexible corrugado (el más común)|
+| Para tubo flexible PA   | EC001178        | Tubo flexible liso de poliamida       |
+| Para tubo flexible metal| EC001180        | Tubo metálico flexible (Sealtite)     |
+
+**Cómo funciona:**
+El racor tiene rosca exterior (M o PG) que entra en el agujero del armario,
+y en el interior tiene un mecanismo que agarra el tubo corrugado al
+empujarlo — sin tornillos, de encaje rápido.
+
+**Marcas:** Gaestopas (especialista), Interflex, Gewiss, Dicomat.
+
+**Con o sin IP:**
+- Racor simple: IP40 (no estanco) — solo para protección mecánica del cable.
+- Racor estanco: IP54/IP67 — con junta de goma que sella la entrada del tubo.
+  Obligatorio cuando el armario necesita protección contra agua o polvo.
+
+============================================================
+
+PRODUCTO 2: CONTRATUERCAS (197 art.)
+--------------------------------------------------------------
+La contratuerca se enrosca en el extremo de rosca del prensaestopas
+(el que queda dentro del armario) para bloquearlo en su posición y
+evitar que gire o se afloje.
+
+**No es opcional:** sin contratuerca, el prensaestopas puede aflojarse
+con las vibraciones y perder la estanquidad. En instalaciones industriales
+siempre se usa contratuerca.
+
+**Materiales:** poliamida (la más común, económica) o latón (más resistente).
+La rosca debe coincidir con la del prensaestopas: M12, M16, M20, M25...
+
+**Referencia Gaestopas:** 793.1200.0 (contratuerca poliamida M12),
+793.2000.0 (M20), 793.2500.0 (M25)...
+
+============================================================
+
+PRODUCTO 3: TAPONES CIEGOS (180 art.)
+--------------------------------------------------------------
+Tapón de plástico o latón que cierra una apertura roscada del armario
+cuando no pasa ningún cable. Mantiene la protección IP del armario.
+
+**Obligatorio:** si hay agujeros sin cable en el armario y se necesita
+mantener el grado IP (IP54, IP65...), cada agujero sin usar debe tener
+su tapón ciego. Un agujero abierto anula el IP del armario.
+
+**Materiales:** poliamida (estándar), latón (más robusto), goma (tapones
+ciegos elastómeros para agujeros sin rosca).
+
+============================================================
+
+PRODUCTO 4: MANGUITOS DE UNIÓN (149 art.)
+--------------------------------------------------------------
+Pieza que une dos tramos de tubo corrugado o dos tramos de tubo rígido
+cuando no llega la longitud o hay que hacer una unión en medio del recorrido.
+
+**Tipos:**
+- Manguito recto: une dos tubos del mismo diámetro en línea recta.
+- Manguito de reducción: une un tubo grueso con uno más fino.
+- Manguito libre de halógenos: para instalaciones en hospitales,
+  trenes y lugares donde los humos de incendio deben ser no tóxicos.
+
+**Gaestopas** es el especialista principal (241.5000.0 = manguito M50 IP40).
+
+============================================================
+
+PRODUCTO 5: ANILLOS DE EXPANSIÓN Y REDUCCIÓN (88 art.)
+--------------------------------------------------------------
+Anillos adaptadores que permiten usar un prensaestopas de una rosca
+mayor en un agujero de rosca menor, o ampliar el diámetro de cable
+admitido.
+
+**Uso típico:** tienes un armario con agujeros M32 pero el cable es
+fino (solo necesitas M20). En vez de tapar el agujero M32 y hacer uno
+M20 nuevo, se pone un anillo reductor M32→M20 dentro del agujero M32.
+
+**Gaestopas** los llama "reduciones": ref. 700.1107.0 (reducción latón
+Pg11/Pg7) o similar con nomenclatura rosca-grande/rosca-pequeña.
+
+============================================================
+
+PRODUCTO 6: JUNTAS DE ESTANQUIDAD (82 art.)
+--------------------------------------------------------------
+Anillos de goma (NBR, neopreno, silicona) que van entre el prensaestopas
+y la pared del armario para garantizar la estanquidad IP67/IP68.
+
+**Cuándo son necesarias:**
+- Cuando el armario es de acero y la superficie no es perfectamente lisa.
+- Cuando se instala en exterior y se necesita IP67 total.
+- Cuando el prensaestopas es de latón sobre chapa de acero inoxidable.
+
+**Materiales:** Perbunan (NBR): resistente a aceite y gasoil —
+el más habitual en maquinaria. Silicona: temperaturas extremas.
+Neopreno: uso general exterior.
+
+**Referencia Gaestopas:** 870.2015.0 (junta plana perbunan M20) —
+una de las referencias más pedidas.
+
+============================================================
+
+PRODUCTO 7: ABRAZADERAS Y ACCESORIOS DE TUBO (49 art.)
+--------------------------------------------------------------
+- **Abrazaderas para tubo**: sujetan el tubo corrugado a la pared, bandeja
+  o estructura — evitan que el tubo quede suelto.
+- **Curvas para tubo**: permiten hacer cambios de dirección de 90° en
+  el recorrido del tubo, con radio controlado para no dañar el cable.
+- **Terminales protectores**: protegen el extremo del tubo corrugado
+  cortado, evitando que el borde corte el aislamiento del cable.
+
+============================================================
+
+TABLA RESUMEN — QUÉ PEDIR PARA UN ARMARIO NUEVO
+--------------------------------------------------------------
+| Elemento necesario               | Producto                        | Marca      |
+|----------------------------------|---------------------------------|------------|
+| Sellado de cable en la entrada   | Prensaestopas M+PA              | Gaestopas  |
+| Bloqueado del prensaestopas      | Contratuerca PA mismo tamaño    | Gaestopas  |
+| Agujeros sin cable               | Tapón ciego mismo rosca         | Gaestopas  |
+| Unión tubo corrugado→armario     | Racor tubo corrugado IP67       | Gaestopas/Interflex|
+| Estanquidad extra IP67           | Junta plana perbunan            | Gaestopas  |
+| Adaptación entre roscas distintas| Anillo de reducción             | Gaestopas  |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                    | Por qué                                        |
+|----|-------------------------------------------------------------|------------------------------------------------|
+| 1  | ¿Llega el cable directo o viene dentro de tubo corrugado?  | Cable directo → prensaestopas; tubo → racor    |
+| 2  | ¿Qué IP necesita la entrada? ¿IP54, IP65, IP67?            | Define si necesita junta y si el racor es estanco|
+| 3  | ¿Tiene agujeros sin usar en el armario?                     | Pedir tapones ciegos para mantener el IP       |
+| 4  | ¿Cuántos cables entran y de qué diámetro?                  | Una unidad de cada accesorio por cable/agujero |
+| 5  | ¿Cuál es la rosca del agujero? ¿M o PG?                    | Determinante para todo el accesorio            |
+
+CONSEJO: En presupuestos de armarios nuevos, no olvidar incluir
+contratuercas (una por prensaestopas) y tapones para los agujeros sobrantes.
+Es muy habitual que el cliente encargue el armario y los prensaestopas
+pero se olvide de las contratuercas — y cuando instala el electricista
+tiene que volver a pedir. Pregunta siempre si tiene contratuercas.
+La junta perbunan M20 (Gaestopas 870.2015.0) es el accesorio de sellado
+más pedido — siempre es bueno tener en stock.
+
+============================================================
+Fuentes:
+- Gaestopas racores y accesorios: https://www.gaestopas.com/es/categorias/racores/
+- Interflex tubos y racores: https://www.interflex.es/
+- Phoenix Contact entrada de cables: https://www.phoenixcontact.com/es-es/products/cable-entry-systems
+============================================================

@@ -1,0 +1,102 @@
+SOLDADURA EXOTÉRMICA PARA PUESTA A TIERRA
+Subfamilia: Material de conexión eléctrica > Material para puesta a tierra
+Artículos en Araiz: ~161 | Marcas: KLK (141), ERICO/Cadweld (10), Armengol (14), Aplicaciones Tecnológicas (parte)
+
+=== QUÉ ES ESTO ===
+La soldadura exotérmica es la forma más permanente y fiable de unir dos cables de tierra,
+o un cable con una pica. No usa soldador eléctrico ni estaño — usa una reacción química
+(thermite: polvo de cobre + oxidante) que alcanza ~1.500°C y funde el cobre de ambos
+conductores, creando una unión molecular.
+
+Por qué se usa en tierra en lugar de simples grapas:
+- La unión no se afloja con el tiempo ni con la vibración
+- Resiste la corrosión mejor que las grapas mecánicas
+- Conductividad eléctrica igual o mejor que el propio cable
+- Obligatoria en muchas instalaciones de MT/AT y en instalaciones con pararrayos
+
+=== LOS 3 COMPONENTES DEL SISTEMA ===
+
+--- 1. MOLDE (KLK, Aplicaciones Tecnológicas) ---
+Bloque de grafito o acero con la cavidad donde se hace la soldadura. Define qué tipo
+de unión se realiza y qué secciones de cable admite.
+
+Nomenclatura KLK:
+  CC = Cable / Cable (unión entre dos cables)
+  CP = Cable / Pica (cable sobre pica de tierra)
+  TH = forma T Horizontal (cable en T con otro cable)
+  XS = forma X (cruce de dos cables)
+  AR = Angular (cable en ángulo sobre pica)
+
+Ejemplos KLK:
+· CC-TH 35/16: cable 35mm² con cable 16mm², forma T horizontal
+· CC-TH 120/120: cable 120mm² con cable 120mm², forma T
+· CC-XS 120/120: cruce de dos cables 120mm²
+· CP-AR 146/35: cable 146mm² sobre pica 35mm² (angular)
+
+Moldes Aplicaciones Tecnológicas (grafito):
+· C50/T16/LV: molde para cable 50mm² en T con 16mm²
+· C16/C16/XS: molde para cruce de dos cables 16mm²
+
+Los moldes son reutilizables — con limpieza adecuada aguantan muchas soldaduras.
+
+--- 2. CARTUCHO (KLK) ---
+Cápsula con la mezcla de polvo termita que se coloca encima del molde y se enciende.
+La reacción produce el cobre fundido que cae en el molde y hace la soldadura.
+
+· C-65: para secciones pequeñas (hasta ~35mm²)
+· C-150: para secciones medias (35-95mm²)
+· C-200: para secciones grandes (95-185mm²)
+
+El número indica aproximadamente el peso de cobre fundido en gramos.
+Cada molde requiere su cartucho específico — consultar tabla KLK.
+
+--- 3. MATERIAL DE RELLENO / EMPAQUETADURA (ERICO Cadweld Plus) ---
+Pasta o material que sella el molde para que el cobre fundido no escape y forme
+bien la soldadura. Colores según aplicación:
+· Amarillo: uso estándar en tierra
+· Gris: para entornos húmedos o enterrados
+· Azul oscuro: para secciones grandes
+
+ERICO también vende el sistema Cadweld completo (moldes + cartuchos bajo su propia marca),
+pero en Araiz el catálogo está principalmente en KLK.
+
+=== ACCESORIOS Y HERRAMIENTAS (Armengol, KLK, ERICO) ===
+
+--- Armengol ---
+· Pistola de ignición: enciende el cartucho de forma segura desde distancia
+  (evita quemaduras — la reacción es instantánea y muy caliente)
+· Paleta raspadora moldes 1: limpia el interior del molde entre soldaduras
+  (los restos de cobre solidificado se raspan para que la siguiente quede perfecta)
+
+--- KLK ---
+· Carda limpieza cable: cepillo de acero para limpiar y preparar el cable
+  antes de la soldadura (óxido, suciedad — afectan a la conductividad final)
+· Embarrado conexión BE 10 agujeros 420mm: barra de cobre para distribuir
+  múltiples conexiones de tierra en arqueta o cuadro
+
+--- ERICO ---
+· Limpiador B136B: producto químico para limpiar moldes
+· Cepillo T394: cepillo específico para moldes Cadweld
+
+=== PROCESO COMPLETO DE UNA SOLDADURA ===
+1. Elegir molde según tipo de unión (CC, CP, TH, XS, AR) y secciones de cable
+2. Limpiar cables con carda (quitar óxido)
+3. Colocar cables en el molde y cerrar
+4. Aplicar empaquetadura ERICO en junta del molde
+5. Colocar cartucho (tamaño según molde)
+6. Encender con pistola de ignición — alejarse
+7. Esperar 30 segundos — abrir molde, retirar pieza
+8. Limpiar molde con raspador y limpiador para siguiente uso
+9. Cubrir la soldadura con tierra o sellante si va enterrada
+
+=== CÓMO PEDIR EN ARAIZ ===
+Se compran por separado: molde + cartucho + empaquetadura.
+- Molde: por tipo de unión y sección (ej. "KLK CC-TH 35/16")
+- Cartucho: por tamaño (ej. "KLK C-150")
+- Empaquetadura: ERICO Cadweld Plus del color adecuado
+
+Los moldes son reutilizables → 1 molde + N cartuchos para N soldaduras.
+
+=== LO QUE NO CUBRE ESTE CUADRO ===
+- Picas, arquetas y grapas mecánicas → ver equipos_pat_picas_tierra.txt
+- Equipos de seguridad PAT → ver equipos_pat_picas_tierra.txt

@@ -1,0 +1,166 @@
+CUADRO RESUMEN — ETIQUETAS E IDENTIFICADORES PARA BORNES Y CABLES
+Familia: Electricidad > Material de conexión eléctrica > Etiquetas e identificadores para bornes y circuitos
+Ejemplo en Araiz: Weidmuller ref. VTMC 0.5/tw (Sistema marcaje cable espiral 0,5mm²)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"identificación cables bornas cuadro eléctrico" o "marcadores bornes Phoenix Contact Weidmuller impresora"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Los identificadores de bornes y cables son los sistemas que dan nombre
+a cada cable y cada borna dentro de un cuadro eléctrico, para que el
+técnico sepa en todo momento qué cable es cuál sin necesidad de seguirlo
+físicamente desde el origen hasta el destino.
+
+**¿Por qué es obligatorio identificar?**
+La normativa IEC 60204 (seguridad de máquinas) y IEC 60439 (cuadros
+eléctricos) exigen que los cables y las bornas estén identificados.
+En una revisión o auditoría, un cuadro sin identificación es una
+no-conformidad. En el mantenimiento, la identificación evita errores
+que pueden costar vidas o equipos caros.
+
+**Dos cosas que hay que identificar:**
+1. **Las bornas** (la borna nº 15 corresponde al cable X en el plano)
+2. **Los cables** (este cable es el nº 15, va de A a B)
+
+============================================================
+
+SISTEMA 1: MARCADORES DE BORNAS (755 + 838 art.)
+--------------------------------------------------------------
+Son tarjetas, tiras o peines que se insertan en la ranura de la borna
+y muestran el número o texto identificativo.
+
+**Phoenix Contact — KMKK / ZB:**
+- **KMKK**: marcador individual de tarjeta, se inserta en cada borna.
+  Viene en blanco (para escribir a mano) o pre-impreso.
+- **ZB 5**: tira continua de marcadores para imprimir en impresora de
+  transferencia térmica. Se corta al número de bornas de la regleta.
+- Compatible con bornas UK de Phoenix Contact.
+
+**Weidmuller — Klippon Print / ESG:**
+- **ESG**: marcadores individuales encajables en bornas WDU/W.
+- **TM**: tiras imprimibles para impresora Weidmuller PrintJet.
+- Software **Klippon Connect** (gratuito): diseña la numeración de la
+  regleta completa y la envía directamente a la impresora.
+
+**Siemens (222 art.):**
+Marcadores para bornas 8WH. Referencias específicas para cada serie
+de bornas Siemens — no son intercambiables con Phoenix Contact ni Weidmuller.
+
+**Legrand (293 art.):**
+Marcadores para bornas Viking 3. Referencias 038xxx (letras y números
+individuales para cables de 1,5-6mm²).
+
+**IMPORTANTE:** los marcadores son exclusivos de cada gama de bornas.
+Un marcador Phoenix Contact no sirve en una borna Weidmuller aunque
+sean del mismo tamaño.
+
+============================================================
+
+SISTEMA 2: IDENTIFICADORES DE CABLES (1.019 art.)
+--------------------------------------------------------------
+Se colocan en el cable (no en la borna) para identificar el conductor
+individualmente.
+
+**Espirales (marcadores de cable tipo espiral):**
+Anillos de plástico con letras o números que se enrollan alrededor
+del cable. El más habitual en instalaciones tradicionales.
+- Legrand 038374 (letra O, cable 4-6mm²): ejemplo típico de letra suelta.
+- Se compran letras y números sueltos y se combinan para formar el código.
+- Ventaja: económico, sin impresora. Desventaja: laborioso y puede quedar
+  mal ordenado si no se hace con cuidado.
+
+**Fundas termorretráctiles impresas:**
+Tubo de plástico termorretráctil que se imprime con el código del cable
+y se aplica con pistola de calor — queda fijo y no se borra.
+- Weidmuller FLEXIMARK: sistema de fundas termorretráctiles imprimibles.
+- Phoenix Contact THERMOMARK ROLLMASTER: fundas continuas imprimibles.
+
+**Bridas identificadoras:**
+Bridas normales de sujeción con espacio para insertar un marcador.
+Identifican el cable y lo sujetan al mismo tiempo.
+
+============================================================
+
+SISTEMA 3: IMPRESORAS DE ETIQUETAS INDUSTRIALES (14 + 11 art.)
+--------------------------------------------------------------
+Las impresoras industriales de marcado imprimen etiquetas, marcadores
+de bornas y fundas de cable en una sola operación, con resultado
+profesional y duradero.
+
+**Weidmuller PrintJet:**
+Impresora de inyección de tinta específica para marcadores de bornas
+y cables Weidmuller. Se conecta al PC con el software Klippon Connect.
+El técnico diseña la numeración de todo el cuadro en el PC y lo imprime
+de golpe — en vez de escribir borna por borna.
+
+**Phoenix Contact THERMOMARK:**
+Impresora de transferencia térmica para marcadores Phoenix Contact.
+Software CLIPLINE complete para diseño. Imprime tanto marcadores de bornas
+como fundas de cable y etiquetas de panel.
+
+**Brother (17 art.):**
+Impresoras Brother P-touch para etiquetas adhesivas. No son específicas
+de bornas o cables pero son muy habituales para etiquetado general
+de cuadros, armarios y equipos. Más económicas que las industriales.
+
+**Consumibles de impresora (145 + 53 art.):**
+- Cintas de tinta para impresoras de transferencia térmica
+- Rollos de marcadores en blanco (tiras continuas)
+- Fundas termorretráctiles en rollo
+
+============================================================
+
+SISTEMA 4: PLACAS DE SEÑALIZACIÓN (49 art.)
+--------------------------------------------------------------
+Placas de advertencia o señalización para el interior y exterior
+del cuadro: "PELIGRO ALTA TENSIÓN", "NO DESCONECTAR", "MANTENIMIENTO",
+símbolos de riesgo eléctrico (⚡), instrucciones de seguridad...
+
+Son obligatorias en cuadros eléctricos accesibles al público o al
+personal no especializado (IEC 60439).
+
+============================================================
+
+RESUMEN RÁPIDO — CUÁNDO USAR CADA SISTEMA
+--------------------------------------------------------------
+| Situación                                  | Solución recomendada              |
+|--------------------------------------------|-----------------------------------|
+| Cuadro pequeño, pocos cables               | Espirales Legrand o marcadores manuales|
+| Cuadro mediano con bornas Phoenix Contact  | Marcadores ZB + impresora THERMOMARK|
+| Cuadro mediano con bornas Weidmuller       | Marcadores TM + PrintJet Weidmuller|
+| Gran instalación con muchos cuadros        | Impresora industrial + software   |
+| Cables potencia 4-6mm² con letras         | Espirales Legrand 038xxx          |
+| Señalización de seguridad                  | Placas de advertencia             |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                    | Por qué                                        |
+|----|-------------------------------------------------------------|------------------------------------------------|
+| 1  | ¿Qué marca de bornas tiene? (Phoenix, Weidmuller, Siemens) | Los marcadores son exclusivos de cada marca    |
+| 2  | ¿Cuántas bornas tiene la regleta?                           | Para calcular la cantidad de marcadores        |
+| 3  | ¿Necesita marcar cables también?                            | Marcadores de borna ≠ identificadores de cable |
+| 4  | ¿Tiene impresora de etiquetas o va a escribir a mano?      | Determina el formato (tira imprimible vs suelto)|
+| 5  | ¿Qué diámetro tienen los cables a identificar?             | Los espirales y fundas son por sección de cable|
+
+CONSEJO: En presupuestos de cuadros completos, incluir siempre los
+marcadores de bornas — es fácil olvidarlos y son imprescindibles para
+la puesta en marcha. Con las bornas Phoenix Contact UK la referencia
+es ZB 5/número_bornas.
+Si el cliente tiene muchos cuadros que hacer con frecuencia, recomendar
+la impresora THERMOMARK (Phoenix Contact) o PrintJet (Weidmuller) —
+el ahorro de tiempo en la instalación amortiza la impresora en pocos cuadros.
+Los marcadores individuales Legrand (letras y números sueltos) son la
+solución más económica para cuadros pequeños sin impresora.
+
+============================================================
+Fuentes:
+- Phoenix Contact THERMOMARK: https://www.phoenixcontact.com/es-es/products/marking-systems
+- Weidmuller Klippon Print: https://www.weidmuller.com/es/products/marking_systems/
+- Legrand marcadores: https://www.legrand.es/catalogo/cuadros-electricos/marcadores/
+============================================================

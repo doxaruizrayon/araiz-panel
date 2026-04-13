@@ -1,0 +1,85 @@
+REGLETAS DE EMPALME Y CONEXIÓN PARA CAJAS DE DERIVACIÓN
+Subfamilia: Material de conexión eléctrica > Regletas y PDU
+Artículos en Araiz: ~300 | Marcas: Tekox, Gaestopas, Solera, Legrand, Garsaco, XB Components, Weidmuller, Sofamel
+
+=== QUÉ ES ESTO ===
+Regletas de empalme = bloques de plástico con bornes metálicos para unir cables en cajas
+de derivación, cuadros pequeños o instalaciones eléctricas en general.
+Son el producto que usa el electricista en obra para conectar los cables que llegan a una
+caja de registro: mete el cable por un lado y el otro, aprieta el tornillo, y los cables
+quedan unidos sin soldar.
+
+No confundir con las bornas de carril DIN (esas van en cuadros industriales sobre carril).
+Estas regletas van en cajas de derivación empotradas en la pared o en pequeños cuadros.
+
+=== TIPOS POR MATERIAL Y TEMPERATURA ===
+
+--- Polipropileno / Poliamida (uso general) ---
+El más habitual. Para instalaciones eléctricas normales (viviendas, locales, industria ligera).
+- Temperatura trabajo: hasta ~105°C
+- Secciones: desde 2,5mm² hasta 35mm²
+- Formato estándar: 12 pares de bornes (12P) en tira, se cortan a medida
+
+Marcas y series:
+· Tekox Serie PRO: con cubierta protectora desmontable. Secciones 2,5 / 6 / 10 / 35mm²
+  Ref. ejemplo: "Regleta Serie PRO 12P 6mm² con cubierta"
+· Tekox HPS: versión para secciones grandes (2x25/35mm² — dos cables gruesos por borne)
+· Gaestopas polipropileno: entrada abocardada (guía el cable al meterlo). Negro o blanco.
+  Secciones: 4 / 6 / 16 / 25mm². Ref: "Regleta conexión polipropileno 12P 4mm² negro"
+· XB Components: versión seccionable (se puede cortar entre pares de bornes)
+  Ref: "Regleta UNIP.SECC.4 5B" / "REGLETA UNIP.SECC.10 5B"
+· Garsaco: regletas genéricas para instalación
+
+--- Esteatita (alta temperatura) ---
+Para zonas con calor elevado: hornos, estufas, calefactores, conexiones cerca de focos.
+- Temperatura trabajo: hasta ~200°C
+- Material cerámico (esteatita) — no funde
+- Marcas: Gaestopas
+  Ref: "Regleta calor esteatita 6mm² 2P" / "Regleta calor esteatita 16mm² 2P"
+
+=== REGLETAS LEGRAND (SUPREM / NYLBloc / Paso) ===
+
+--- SUPREM ---
+Gama profesional de Legrand para instalación en cuadros y cajas.
+- NYLBloc 6mm² negra: borna de paso sencilla en tira
+- SUPREM 12 bornas PVC negra 6mm / 10mm: tira de 12 bornes con cubierta PVC
+
+--- Regleta de paso (bornas de paso grandes) ---
+Para cuadros donde necesitas distribuir cables de sección grande entre varios circuitos.
+- 10 bornas de paso 2x10mm² / 2x16mm² / 2x25mm² / 2x35mm²
+- "Paso" = el cable entra por un lado y sale por el otro (distribución en cascada)
+- Uso típico: embarrado de neutros en cuadros de vivienda
+
+=== BORNES DE DISTRIBUCIÓN (Sofamel, OBO-Bettermann) ===
+~22 artículos
+Bornes gordos para conexiones de gran sección en armarios de distribución eléctrica.
+- Para cables de 16mm² a 120mm² o más
+- Material: latón con tornillo de apriete
+- Sofamel: especialista en bornes de distribución de alta sección
+- Uso: llegada del cable general a un cuadro secundario
+
+=== PANEL DE PARCHEO RJ45 — Legrand LINKEO ===
+~19 artículos (clasificados aquí por error del catálogo — son de redes de datos)
+- LINKEO EQUIP 24 RJ45 SO-CL: patch panel de 24 puertos RJ45 Cat.6 para armario 19"
+- Se usa para el cableado estructurado de red en oficinas o instalaciones
+- No es producto eléctrico en sentido estricto, pero aparece en este grupo
+
+=== CONECTORES PARA PCB (Phoenix Contact) ===
+~57 artículos — YA CUBIERTOS en conectores_regleta_pcb.txt
+Regletas SMD de cuchilla y bases híbridas para circuitos impresos. No repetir aquí.
+
+=== CÓMO ELEGIR LA REGLETA CORRECTA ===
+1. Sección del cable más grueso que vas a conectar → elige la regleta de esa sección o superior
+2. ¿Zona de calor? → esteatita. ¿Instalación normal? → polipropileno/poliamida
+3. ¿Necesitas cubierta protectora? → Tekox Serie PRO o XB seccionable
+4. ¿Cables muy gruesos (>16mm²)? → bornas de distribución Sofamel
+
+=== CÓMO BUSCAR EN CATÁLOGO ===
+- Busca "regleta" + sección (ej. "regleta 6mm²" o "regleta 25mm²")
+- Para alta temperatura: busca "esteatita"
+- Para distribución: busca "borna distribución" o marca "Sofamel"
+
+=== LO QUE NO CUBRE ESTE CUADRO ===
+- Bornas de carril DIN para cuadros industriales → ver bornas_carril_din_phoenix.txt
+- PDU para racks de servidores → ver pdu_rack_regleta_enchufes.txt
+- Conectores para PCB → ver conectores_regleta_pcb.txt
