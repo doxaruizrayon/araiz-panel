@@ -1,0 +1,116 @@
+CUADRO RESUMEN — ACCESORIOS MCCB: BOBINAS, MANETAS Y MOTORIZACIONES
+Familia: Electricidad > Automáticos y diferenciales > Accesorios para interruptor automático
+Total artículos grupo: ~9.800 art. | Este cuadro: bobinas + manetas + motorización (~2.500 art.)
+Marcas: ABB, Eaton, Siemens, Schneider, Legrand, Hager
+========================================================
+
+¿QUÉ SON ESTOS ACCESORIOS?
+Los MCCBs (interruptores automáticos de caja moldeada) se pueden equipar con
+módulos adicionales que añaden funciones:
+  · Bobinas → disparo remoto o protección adicional
+  · Manetas → mando mecánico desde la puerta del cuadro
+  · Motorizaciones → apertura/cierre eléctrico a distancia
+
+NOTA IMPORTANTE: Cada accesorio es específico de su marca y frame de MCCB.
+No son intercambiables entre marcas. Hay que indicar para qué interruptor se necesita.
+
+=======================================================
+BOBINAS DE DISPARO
+=======================================================
+Las bobinas se instalan dentro del MCCB y permiten dispararlo eléctricamente.
+
+MN = Mínima Tensión (undervoltage release)
+  · Abre el interruptor cuando la tensión CAE por debajo del umbral
+  · Uso: proteger equipos sensibles contra caídas de tensión, o para corte por fallo de red
+  · Necesita tensión para mantener el circuito CERRADO
+  → Bobina MN 220-240V NSX100-360 Ref. LV429407 — SCHNEIDER
+  → Temporizador MN Rr 50-60Hz 380/480CA Ref. 33683 — SCHNEIDER (con temporización)
+
+MX / XF = Bobina de Disparo (shunt release)
+  · Abre el interruptor cuando recibe UN PULSO de tensión
+  · Uso: corte a distancia (botón de emergencia, PLC, BMS)
+  · Solo necesita tensión para DISPARAR (no para mantener)
+  → Bobina MX 380-415V 440-480V 50/60Hz Ref. LV429388 — SCHNEIDER
+  → Bobina MX 200-250V CA/CC Ref. 33662 — SCHNEIDER
+  → Bobina MX 100-130V CC/CA para seccionador Ref. 47452 — SCHNEIDER
+  → Disparador mínima tensión U-PKZ0 110V 50Hz Ref. 073132 — EATON
+
+MSU = Bobina de Protección de Sobretensión (surge protection release)
+  → Bobina MSU EN50550 Ref. A9N26500 — SCHNEIDER (protección sobretensiones integrada)
+
+MX/XF con función MTZ (Schneider MasterPact):
+  → Conmutador MX/XF 200/250V DC/AC fijo MTZ Ref. LV833662SP — SCHNEIDER
+  (Para los grandes NS/MTZ de Schneider)
+
+=======================================================
+MANETAS Y MANDOS MECÁNICOS
+=======================================================
+Permiten accionar el MCCB desde el exterior del cuadro sin abrir la puerta.
+
+TIPOS:
+  · Mando directo → palanca o maneta que actúa directamente sobre el interruptor
+  · Mando reenviado → con eje flexible que conecta la puerta con el interruptor
+  · Mando rotativo → perilla exterior giratoria (la más habitual)
+  · Con bloqueo → permite colocar candado LOTO (Lock-Out/Tag-Out)
+
+EJEMPLOS:
+  · ABB:
+    → 1SDA066479R1 — Mando reenviado RHE F/P XT1-XT3 (serie Tmax XT)
+    → 1SDA069054R1 — Mando directo emergencia RHD-EM F-P
+    → 1SDA069059R1 — Mando lateral izquierda emergencia RHS F-P
+    → 1SFA611410R1006 — Maneta potenciómetro MT-1B plástico negro
+
+  · Eaton:
+    → 260178 — Mando acoplador puerta NZM1-XTVDVR rojo/amarillo giratorio con bloqueo
+    (Específico para NZM1, color rojo = off / amarillo = on/off)
+
+  · Schneider:
+    → 33452 — Bloqueo corte interruptor carga mando entrada NS800 3P CA
+
+MANDO ROTATIVO CON BLOQUEO (LOTO):
+  El color estándar para interruptores principales es ROJO.
+  Permite colocar hasta 3 candados para bloquear en posición abierta (seguridad en
+  mantenimiento — norma IEC 60947).
+
+=======================================================
+MOTORIZACIONES (accionamiento eléctrico)
+=======================================================
+Permiten abrir/cerrar el MCCB de forma eléctrica (desde PLC, BMS o pulsador remoto).
+
+TIPOS:
+  · Motor de mando → rearme y cierre motorizado
+  · Bloque motorizado → módulo completo que añade motor al MCCB
+
+EJEMPLOS:
+  · Siemens:
+    → 3RV2902-1DP0 — Disparador apertura CA 210-240V para S00-S0 (guardamotores 3RV)
+    (Usado también con interruptores de la serie 3RV)
+
+  · Schneider:
+    → LV432652 — Bloque motorizado COMÚN 220-240V para NSX400-630
+    → LV431541 — Bloque motorizado 220-240V 208-277V para NSX250
+
+TENSIONES HABITUALES DE BOBINAS Y MOTORIZACIONES:
+  · 24V DC → con PLCs y sistemas de control
+  · 110-125V AC/DC → industria norteamericana
+  · 220-240V AC → lo más común en Europa
+  · 380-415V AC → uso puntual en algunos modelos
+
+=======================================================
+CÓMO PEDIR UN ACCESORIO CORRECTAMENTE
+=======================================================
+Datos necesarios para evitar errores:
+  1. MARCA del MCCB (Siemens / ABB / Schneider / Eaton / Hager)
+  2. MODELO / SERIE (3VA1, XT2, NSX250, NZM2...)
+  3. FRAME (tamaño: 160A, 250A, 400A, 630A...)
+  4. TIPO de accesorio (bobina MN, bobina MX, maneta, motorización...)
+  5. TENSIÓN de la bobina/motor (24VDC, 230VAC, 400VAC...)
+
+=======================================================
+ACCESORIOS RESTANTES (ver cuadro separado)
+=======================================================
+  · Bloques de contactos auxiliares
+  · Peines de distribución (distribución horizontal de fases)
+  · Rating plugs (ajuste de corriente)
+  · Kits de montaje y bastidores
+  → Ver cuadro: accesorios_mccb_contactos_peines.txt

@@ -1,0 +1,117 @@
+CUADRO RESUMEN — MCCB EATON NZM + SCHNEIDER NSX/CVS/NS
+Familia: Electricidad > Automáticos y diferenciales > Interruptor automático
+Total artículos: Eaton ~3.370 + Schneider ~2.730 = ~6.100 art.
+========================================================
+
+=======================================================
+EATON — SERIE NZM (MCCB principal)
+=======================================================
+NZM es la familia de MCCBs industriales de Eaton (antes Moeller).
+El más habitual en Araiz es la serie NZM con ~2.100 artículos de referencia "NZM".
+
+MODELOS POR TAMAÑO:
+  · NZM1 — hasta 125A — el más pequeño
+    → LZMB1-A100-I: Ref. con protección solo magnética (arranque motores)
+  · NZM2 — hasta 300A — gama media (muy común)
+    → NZMN2-A300: 3P 300A 50kA Ref. 107580
+    → NZMH2-A125-SVE: 3P 125A 150kA versión de alto poder de corte Ref. 113333
+    → LZMB2-A200-I: 3P 200A 25kA Ref. 111923 (solo magnético para motores)
+  · NZM3 — hasta 630A
+    → NZMN3-4-AE400-AVE: 4P 400A 50kA Ref. 110874 (con control externo)
+    → NZMN3-VE630-AVE: 3P 630A 50kA selectivo Ref. 110845
+  · NZM4 — hasta 1600A — el más grande
+    → NZML4-VE800: 3P 800A 150kA limitador Ref. 283214
+    → NZM4 PXR20 630A: versión extraíble Ref. 193328
+    → NZM4 PXR20 800A: tornillo Ref. 193316
+    · Zócalo NZM4-4-XAVS 4P Ref. 266714
+
+NOMENCLATURA NZM:
+  NZM N2 - A 300
+  │   │    │ └── Corriente nominal (A)
+  │   │    └─── A = solo amperimétrico / AE = con ajuste externo
+  │   └──────── 2 = frame (1/2/3/4)
+  └──────────── N = Normal / H = High (alto poder de corte) / L = Limitador
+
+VARIANTES ESPECIALES:
+  · -SVE = con actuador motorizado (motorización rearme) integrado
+  · -AVE = con actuador de voltaje externo (corte remoto por bobina)
+  · PXR20 = unidad de disparo electrónica (zona de selectividad avanzada)
+  · Selectivo = permite coordinación con aguas abajo (retardo de disparo)
+  · Limitador (L) = limita la corriente de cortocircuito muy rápido
+
+SERIE LZM (MCCB compacto Eaton, menor tamaño):
+  · LZMC1 / LZMB1 / LZMC2 / LZMB2
+  → LZMC1-4-A50-I: 4P 50A 36kA Ref. 111912
+  → LZMB2-A200-I: 3P 200A 25kA Ref. 111923
+  Estos son más pequeños que los NZM estándar.
+
+=======================================================
+SCHNEIDER ELECTRIC — SERIE NSX (MCCB principal industrial)
+=======================================================
+NSX es la familia de MCCBs para distribución industrial de Schneider Electric.
+
+MODELOS:
+  · NSX100 — hasta 100A, 36-70kA
+  · NSX160 — hasta 160A
+  · NSX250 — hasta 250A (más vendido)
+  · NSX400 — hasta 400A
+  · NSX630 — hasta 630A
+
+NOMENCLATURA NSX:
+  C 63 H 32 D 630
+  │ │  │ │  │ └── Calibre seleccionado (A)
+  │ │  │ │  └──── Unidad de disparo: D=TM, V=TMD, (F=fijo sin ud.)
+  │ │  │ └─────── Polos+Rotura: 32=3P3R, 42=4P4R, 34=3P3R
+  │ │  └───────── Poder de corte: B=25kA, N=50kA, H=70kA, S=100kA, L=150kA
+  │ └──────────── Tamaño frame (40=NSX400, 63=NSX630, etc.)
+  └───────────────  C = ComPact NSX
+
+EJEMPLOS REALES:
+  · C63N34V400 — NSX630 50kA 3P 400A disparo TMD — Ref. habitual
+  · C63H42D630 — NSX630 70kA 4P 630A — alto poder corte
+  · C63N34V400 — NSX400 50kA 3P 400A TMD
+  · C40N44V400 — NSX400 50kA 4P 400A
+
+UNIDADES DE DISPARO NSX (se piden por separado muchas veces):
+  · TM_D = Termomagnético estándar (regulable)
+  → LV429054 — Unidad TM40D 4P 4R para NSX100-250 — Ref. muy consultada
+
+SERIE CVS (NSX compacto modernizado):
+  · CVS250 / CVS400 / CVS630 — Versión actualizada del NSX
+  → CVS400F tripolar 36kA 400A Ref. LV540505
+  → CVS250F TM200D 4P Ref. LV525352
+
+SERIE NS (ComPact NS, gama anterior — aún en catálogo):
+  · NS630 / NS800 / NS1000 / NS1600 / NS2000 / NS3200
+  → NS 1600N 50kA 4P 1600A fijo manual Ref. C160N420FM
+  Estos son los grandes (NSX cubre hasta 630A, NS sigue para >630A).
+
+SERIE RESI9 (Schneider, vivienda/terciario — aparece aquí por clasificación):
+  · R9F12625 — RESI9 1P+N 25A curva C 230V 6000A
+  · R9F12620 — RESI9 1P+N 20A curva C
+  · R9F12216 — RESI9 2P 16A curva C
+  · R9L20625 — RESI9 Combi SPU 1PN C 25A (combinado diferencial+magnetotérmico)
+  (Estos son en realidad MCBs domésticos pero Araiz los clasifica aquí)
+
+=======================================================
+¿CUÁNDO SE USA CADA MARCA/SERIE?
+=======================================================
+  · Eaton NZM1/2/3    → Protección en paneles industriales, motores, distribución
+  · Eaton NZM4        → Acometidas grandes y distribución general
+  · Schneider NSX     → Distribución industrial estándar, cuadros de BT
+  · Schneider NS      → Grandes cuadros de distribución (>630A)
+  · Schneider CVS     → Versión modernizada NSX para nuevas instalaciones
+
+=======================================================
+COMPARATIVA ENTRE MARCAS (equivalencias aproximadas)
+=======================================================
+  Eaton NZM2-A125    ↔   Siemens 3VA1 Frame 160 clase S   ↔   Schneider NSX160
+  Eaton NZM3-A400    ↔   Siemens 3VA1 Frame 400 clase S   ↔   Schneider NSX400
+  Eaton NZM4-A630    ↔   Siemens 3VA1 Frame 630 clase M   ↔   Schneider NS630
+  Eaton NZM4-VE1600  ↔   Siemens 3VA2 Frame 630           ↔   Schneider NS1600
+
+=======================================================
+ACCESORIOS (ver cuadro separado)
+=======================================================
+  → Ver cuadro: accesorios_mccb_bobinas_manetas.txt
+  → Ver cuadro: accesorios_mccb_contactos_peines.txt

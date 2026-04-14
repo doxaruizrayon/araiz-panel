@@ -1,0 +1,178 @@
+CUADRO RESUMEN — DIFERENCIALES RESIDENCIALES Y TERCIARIOS (2P y 4P, CLASE AC/A)
+Familia: Electricidad > Automáticos y diferenciales > Diferencial y núcleo toroidal
+Total artículos grupo: ~3.220 art. | Este cuadro: diferenciales domésticos 2P/4P clase AC y A
+Marcas: Siemens, Eaton, Schneider, ABB, Gewiss, Legrand, Hager
+========================================================
+
+¿QUÉ ES UN DIFERENCIAL (RCCB)?
+RCCB = Residual Current Circuit Breaker (sin protección de sobrecarga)
+= Interruptor diferencial PURO (solo detecta fugas a tierra)
+
+FUNCIÓN: Protege a las personas contra electrocución cuando hay una fuga de corriente
+a tierra (por ejemplo, si alguien toca un cable pelado).
+NO protege contra sobrecargas ni cortocircuitos → para eso necesita un magnetotérmico delante.
+
+PRINCIPIO: Si la corriente que entra (fase) ≠ corriente que sale (neutro), hay una fuga.
+Si esa diferencia supera el umbral (ej. 30mA), dispara.
+
+=======================================================
+PARÁMETROS CLAVE
+=======================================================
+  1. SENSIBILIDAD (mA): lo que tiene que fugarse para que dispare
+     · 10mA  → para baños/piscinas (muy sensible)
+     · 30mA  → estándar vivienda (valor reglamentario REBT España)
+     · 100mA → selectivo o sistemas con diferencial aguas arriba
+     · 300mA → protección contra incendios (no personas)
+     · 500mA → solo protección grandes instalaciones
+
+  2. POLOS:
+     · 2P = 2 polos (monofásico + neutro) → para circuitos 230V con neutro
+     · 4P = 4 polos (trifásico + neutro) → para cuadros trifásicos
+
+  3. CORRIENTE NOMINAL (A): la corriente máxima que puede pasar continuamente
+     · 25A / 40A / 63A → los más habituales
+     · Debe ser ≥ que la suma de los automáticos aguas abajo
+
+  4. CLASE: tipo de corriente residual que detecta (ver abajo)
+
+=======================================================
+SIEMENS — SERIE 5SV (DIFERENCIAL)
+=======================================================
+La serie 5SV es la gama de diferenciales domésticos e industriales de Siemens.
+
+CLASE AC (estándar):
+  · 5SV4312-0 — 5SV clase-AC 2P 25A 30mA 70mm
+  · 5SV4316-0 — 5SV clase-AC 2P 63A 30mA 70mm
+  · 5SV4644-0 — 5SV clase-AC 4P 40A 300mA 70mm
+  · 5SV4346-0 — 5SV clase-AC 4P 63A 30mA 70mm
+
+CLASE A:
+  · 5SV3646-6 — 5SV clase-A 4P 63A 300mA 70mm
+  · 5SV3314-6LA01 — 5SV clase-A 2P con retardo breve 40A 30mA
+
+TIPO B (electrovehículo/solar):
+  · 5SV3742-4 — Tipo B retardo breve 4P 25A 500mA
+  · 5SV3644-4 — Tipo B retardo breve 4P 40A 300mA
+
+NOMENCLATURA SIEMENS 5SV:
+  5SV 4 346 - 0
+  │    │ │││   └── Variante
+  │    │ ││└────── Clase: 4=AC, 6=A (también en 3ra y 4ta cifra del código)
+  │    │ │└─────── Sensibilidad: 2=30mA, 3=30mA, 4=100mA, 6=300mA, 7=500mA
+  │    │ └──────── Corriente: 1=16A, 2=25A, 3=40A, 4=40A, 5=63A, 6=80A, 7=100A
+  │    └─────────── Polos: 3=2P, 6=4P
+  └──────────────── Familia 5SV
+
+=======================================================
+EATON — DIFERENCIALES (RCCB)
+=======================================================
+  Serie Home → económicos
+    · 194691 — Home 2P 40A 30mA clase AC
+
+  Serie PFIM → industrial/residencial 4P
+    · 235408 — PFIM-25/4/03-MW 4P 25A 300mA
+    · 235435 — PFIM-25/4/003-A-MW 4P 25A 30mA clase A
+
+  Serie FRCMM → 4P
+    · 170304 — FRCMM-40/4/03-G/A 4P 40A 300mA clase A (G = gris = selectivo)
+
+=======================================================
+SCHNEIDER ELECTRIC — DIFERENCIALES
+=======================================================
+  Serie RESI9 ID → doméstico económico
+    · R9R51225 — RESI9 ID 2P 25A 30mA clase AC
+
+  Serie M9R / ID → estándar
+    · M9R11225 — ID 2P 25A 30mA clase AC 36mm
+    · M9R11240 — ID 2P 40A 30mA clase AC 36mm (muy habitual)
+    · M9R11440 — ID 2P 40A 30mA clase AC M9 72mm (ancho doble)
+
+  NOTA: Schneider ha unificado varias gamas. iID, Multi9, Acti9 ID — todo es la misma
+  familia. El "M9" indica gama Acti9 actual.
+
+=======================================================
+ABB — SERIE F200/FH200 (DIFERENCIAL RESIDENCIAL/INDUSTRIAL)
+=======================================================
+  FH200 → residencial (vivienda)
+    · 2CSF204004R1250 — FH204AC-25/0,03 4P 25A 30mA clase AC
+
+  F200 → industrial (mayor calibre)
+    · 2CSF202001R1800 — F202AC-80/0,03 2P 80A 30mA clase AC
+    · 2CSF202001R4900 — F202AC-100/0,5 2P 100A 500mA clase AC
+    · 2CSF202101R1900 — F202A-100/0,03 2P 100A 30mA clase A
+    · 2CSF202101R2900 — F202A-100/0,1 2P 100A 100mA clase A
+
+NOMENCLATURA ABB F200:
+  F  H  2  04 AC - 25 / 0,03
+  │  │  │  │  │    │    └── Sensibilidad (A): 0,03=30mA, 0,1=100mA, 0,3=300mA
+  │  │  │  │  │    └──── Corriente nominal (A): 25/40/63/80/100
+  │  │  │  │  └──────── Clase: AC / A / B
+  │  │  │  └─────────── Número de polos: 02=2P, 04=4P
+  │  │  └────────────── Generación: 2 = actual F200
+  │  └───────────────── H = Residencial (FH), sin H = industrial
+  └──────────────────── Familia F
+
+=======================================================
+LEGRAND — SERIE DX3 / TX3 (DIFERENCIAL)
+=======================================================
+  Nomenclatura DX3: DX3 [polos] / [calibre] / [sensibilidad][clase]
+    · 411524 — DX3 2/25/300AC → 2P 25A 300mA clase AC
+    · 411525 — DX3 2/40/300AC → 2P 40A 300mA clase AC
+    · 411590 — DX3 2/25/30HPI → 2P 25A 30mA clase HPI (super-inmunizado)
+    · 411660 — DX3 4/25/30AC → 4P 25A 30mA clase AC
+    · 411661 — DX3 4/40/30AC → 4P 40A 30mA clase AC (muy vendido)
+    · 411664 — DX3 4/25/300AC → 4P 25A 300mA clase AC
+
+  Serie TX3 → económica
+    · 403033 — TX3 2P 40A 30mA clase AC
+
+  Bloque diferencial adaptador DX3 4P:
+    · 410546 — Bloque diferencial 4/63/300HPI → para calibres grandes clase HPI
+
+NOTA "HPI" (Legrand):
+  HPI = High Performance Immunity = Super-inmunizado
+  Equivalente a clase A con alta inmunidad a falsas alarmas por cargas electrónicas
+  (inversores, cargadores, etc.)
+
+=======================================================
+HAGER — DIFERENCIALES
+=======================================================
+  Serie CDC / CDA → domésticos clase AC y A
+    · CDC225M — 2P 25A 30mA clase AC
+    · CDA263M — 2P 63A 30mA clase A
+    · CDA263S — 2P 63A 30mA tipo A con reconexión automática
+
+  Serie CDH → tipo HI (super-inmunizado)
+    · CDH425M — 4P 25A 30mA tipo HI
+    · CDH263M — 2P 63A 30mA tipo HI
+
+  Serie CFC → 300mA
+    · CFC263M — 2P 63A 300mA clase AC
+
+  Bloque diferencial (add-on):
+    · BF326N — Bloque diferencial tipo-AC 300mA 3P 25A
+    · BD241N — Bloque diferencial tipo-AC 30mA 2P 40A
+
+GEWISS (210 artículos en este grupo):
+  Gama de diferenciales domésticos con características similares a las anteriores.
+
+=======================================================
+TABLA RESUMEN — EQUIVALENCIAS POR SENSIBILIDAD
+=======================================================
+Para un diferencial 2P 40A 30mA clase AC estándar:
+  · Siemens: 5SV4314-0 (5SV 2P 40A 30mA clase AC)
+  · Eaton: PFIM-40/2/003-MW (o la serie Home 194691 en 40A)
+  · Schneider: M9R11240
+  · ABB: F202AC-40/0,03 (ref. 2CSF202001R1400)
+  · Legrand: DX3 2/40/30AC (411523)
+  · Hager: CDC240M
+
+=======================================================
+¿CUÁNDO USA CADA SENSIBILIDAD?
+=======================================================
+  · 30mA → SIEMPRE para protección de personas (reglamentario REBT España)
+  · 300mA → Protección contra incendios (detecta fugas que calienten un conductor)
+             O para uso selectivo (aguas arriba de un 30mA)
+  · 100mA → Cuando hay diferencial 30mA aguas abajo y queremos selectividad
+  · 10mA  → Baños, piscinas, locales médicos (extra protección)
+  · 500mA → Solo protección de grandes equipos / transformadores

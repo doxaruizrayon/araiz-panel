@@ -1,0 +1,134 @@
+CUADRO RESUMEN — MAGNETOTÉRMICOS INDUSTRIALES (CURVAS D/K/Z, DC, PHOENIX CONTACT)
+Familia: Electricidad > Automáticos y diferenciales > Magnetotérmico
+Total artículos grupo: ~10.400 art. | Este cuadro: curvas especiales + DC + industriales
+Marcas: Eaton FAZ, Siemens 5SL4, ABB S200, Phoenix Contact TMC
+========================================================
+
+¿QUÉ ES UN MAGNETOTÉRMICO INDUSTRIAL ESPECIAL?
+Los MCBs estándar (curva C) no siempre sirven. En aplicaciones industriales se necesitan:
+  · CURVA D → para cargas con arranques muy altos (motores pequeños, transformadores)
+  · CURVA K → para protección de transformadores y motores (similar a D pero más estricta)
+  · CURVA Z → para protección de electrónica sensible (dispara antes)
+  · DC → para circuitos de corriente continua (solar FV, baterías, vehículo eléctrico)
+  · MCBs para carril DIN en automatización (Phoenix Contact TMC)
+
+=======================================================
+CURVAS DE DISPARO — EXPLICACIÓN TÉCNICA
+=======================================================
+La curva indica a qué múltiplo de la corriente nominal (In) dispara el magnético:
+
+  · Curva B → dispara a ×3-5 In  → cargas resistivas puras (resistencias, alumbrado)
+  · Curva C → dispara a ×5-10 In → USO GENERAL (lo más común)
+  · Curva D → dispara a ×10-20 In → motores, transformadores, cargas con arranque alto
+  · Curva K → dispara a ×8-14 In → transformadores, protección de circuitos inductivos
+  · Curva Z → dispara a ×2,4-3,6 In → electrónica, semiconductores, PCs (muy sensible)
+
+EJEMPLO PRÁCTICO:
+  · Un motor de 5kW arranca con 6-8× la corriente nominal → necesita curva D
+  · Un servidor o PLC necesita protección rápida → curva Z o K
+  · Un transformador de 630VA puede tener pico de 10× → curva D
+
+=======================================================
+EATON — SERIE FAZ (MCCB INDUSTRIAL DE CARRIL DIN)
+=======================================================
+La serie FAZ de Eaton es la gama industrial de MCBs para carril DIN.
+Con ~1.921 artículos en Araiz bajo esta búsqueda (dentro del grupo Magnetotérmico).
+
+VARIANTES PRINCIPALES:
+  FAZ-B / FAZ-C / FAZ-D / FAZ-Z según curva
+  FAZ-DC → versión para corriente continua (CC)
+  FAZ-RT → con terminales de carril (Rail Terminal) para conexión por carril
+
+EJEMPLOS:
+  · 132787 — FAZ RT 40A FAZ-B40/3-RT 3P curva B (con terminal carril)
+  · 176084 — FAZ 2P DC 32A FAZ-B32/2-DC (corriente continua 2P)
+  · 176083 — FAZ 2P DC 25A FAZ-B25/2-DC
+  · 176079 — FAZ 2P DC 10A FAZ-B10/2-DC
+  · 176085 — FAZ 2P DC 40A FAZ-B40/2-DC
+  · 176074 — FAZ 1P DC 50A FAZ-B50/1-DC
+
+USO DC (Corriente Continua):
+  La versión DC es imprescindible para:
+  · Instalaciones fotovoltaicas (protección entre paneles y cargador/inversor)
+  · Baterías y acumuladores
+  · Circuitos de 24V DC, 48V DC en automatización
+  IMPORTANTE: Un MCB de AC no puede usarse en DC — el arco eléctrico en DC no se
+  extingue igual y el interruptor puede destruirse.
+
+=======================================================
+SIEMENS 5SL4 — CURVA D (INDUSTRIAL)
+=======================================================
+La serie 5SL4 de Siemens 10kA incluye variantes de curva D para uso industrial.
+
+EJEMPLOS:
+  · 5SL4320-8 — 5SL4 10kA 3P C20A CURVA D (industrial 3 polos)
+  · 5SL4150-8 — 5SL4 10kA 1P D50A CURVA D (1 polo 50A)
+
+Identificación en referencia:
+  · -7 al final → curva C (doméstico)
+  · -8 al final → curva D (industrial)
+  · -6 al final → curva B
+
+=======================================================
+ABB — SERIE S200 CURVA K Y Z (INDUSTRIAL)
+=======================================================
+La serie S200/S203 de ABB incluye curvas K y Z para aplicaciones especiales.
+
+EJEMPLOS:
+  · 2CDS253001R0277 — S203-K2 3P 2A curva K 10kA
+    → K2 = curva K, 2 amperios, muy baja calibración → protección de electrónica
+    → 10kA = alto poder de corte
+
+CURVA K ABB:
+  · Diseñada para transformadores y circuitos con alta inductancia
+  · Respuesta más precisa que curva D en algunos casos
+  · Se usa en cuadros de automatización ABB
+
+=======================================================
+PHOENIX CONTACT — SERIE TMC (AUTOMATIZACIÓN)
+=======================================================
+Phoenix Contact fabrica MCBs específicamente diseñados para cuadros de automatización,
+carril DIN, y protección de circuitos de control.
+
+MODELOS TMC:
+  · TMC 82D → 2P (bifásico), protección termomagnética
+  · TMC 83B / 83C → 3P, curvas B y C
+
+EJEMPLOS:
+  · 2907652 — TMC 82D 02A 2P 2A (para circuito de control muy pequeño)
+  · 1010308 — TMC 83B 40A 3P curva B 40A
+  · 2907625 — TMC 83C 32A 3P curva C 32A
+  · 2907623 — TMC 83C 25A 3P curva C 25A
+  · 1010301 — TMC 83C 60A 3P curva C 60A
+  · 1010305 — TMC 83C 40A 3P curva C 40A
+
+VENTAJAS TMC PHOENIX:
+  · Diseñados para trabajo en cuadros de automatización (alta temperatura, vibración)
+  · Compatibles con accesorios Phoenix Contact (bornas, peines, etiquetas)
+  · Corrientes bajas disponibles desde 0,5A
+  · Habitual en cuadros PLC, variadores y automatización industrial
+
+=======================================================
+SOLERA / AEG / CHINT — GAMAS ECONÓMICAS
+=======================================================
+En el catálogo de Araiz también aparecen:
+  · SOLERA (66 art.) → gama española económica para proyectos de bajo coste
+  · AEG (116 art.) → marca alemana de gama media
+  · CHINT (47 art.) → marca china, muy económica, para proyectos con presupuesto ajustado
+
+NOTA: Para instalaciones en España bajo REBT, hay que verificar que el producto
+tenga certificación CE y marca AENOR o equivalente europeo.
+
+=======================================================
+GUÍA RÁPIDA DE SELECCIÓN POR CURVA
+=======================================================
+¿Qué curva necesito?
+
+  → Motor de arranque directo (pequeño/mediano)    = CURVA D
+  → Motor con arrancador suave o variador           = CURVA C (el variador suaviza el pico)
+  → Transformador de control/alimentación           = CURVA D o K
+  → Alumbrado fluorescente / LED con driver         = CURVA C
+  → Resistencias calefactoras                       = CURVA B o C
+  → Equipos electrónicos, PLCs, servidores          = CURVA Z o K (sensibles)
+  → Circuito solar fotovoltaico DC                  = MCB DC (FAZ-DC u otros DC)
+  → Uso general vivienda/oficina                    = CURVA C (la de siempre)

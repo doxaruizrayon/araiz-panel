@@ -1,0 +1,157 @@
+CUADRO RESUMEN — DIFERENCIALES ESPECIALES: CLASE A/B, SELECTIVO, TOROIDES Y CIRCUTOR
+Familia: Electricidad > Automáticos y diferenciales > Diferencial y núcleo toroidal
+Total artículos grupo: ~3.220 art. | Este cuadro: clases especiales + toroides + Circutor
+Marcas: Siemens, Eaton, Hager, ABB, Circutor, Legrand (DX3 HPI), Schneider (Vigi C120 tipo S)
+========================================================
+
+=======================================================
+CLASES DE DIFERENCIAL — EXPLICACIÓN TÉCNICA
+=======================================================
+La "clase" define qué tipo de corriente residual detecta:
+
+  Clase AC → solo corriente alterna sinusoidal pura
+    · La más básica. OBSOLETA en instalaciones modernas (cargas con electrónica).
+    · Permitida aún en España pero no recomendada con cargadores VE, inversores solares...
+
+  Clase A → corriente alterna + DC pulsante (corriente continua pulsada)
+    · ESTÁNDAR ACTUAL recomendado para la mayoría de instalaciones
+    · Necesaria cuando hay cargadores de móvil, TVs, ordenadores, LED drivers...
+    · Obligatoria en España para puntos de recarga VE (RD 1053/2021)
+
+  Clase F → clase A + DC liso de alta frecuencia
+    · Para frecuencias intermedias (1kHz a 100kHz)
+    · Frecuentes en equipos industriales con convertidores
+
+  Clase B → clase A + DC liso (componente continua pura)
+    · OBLIGATORIA para puntos de recarga EV tipo 3 y algunos inversores
+    · Para instalaciones solares con microinversores, sistemas de baterías
+    · También para equipos médicos de alta protección
+
+RESUMEN PRÁCTICO:
+  · Instalación sin electrónica especial: Clase A (suficiente y obligado por norma)
+  · Cargador VE en vivienda: Clase A como mínimo, Clase B si es cargador tipo 3
+  · Instalación solar con microinversores: Clase B
+  · Instalación industrial con variadores/PLCs: Clase A o F
+
+=======================================================
+DIFERENCIAL SELECTIVO (TIPO S) — DISCRIMINACIÓN TEMPORAL
+=======================================================
+El diferencial selectivo o tipo "S" tiene un RETARDO de disparo (50-100ms típico).
+Esto permite que el diferencial aguas abajo dispare ANTES que el de cabecera.
+
+USO:
+  · En cuadros con jerarquía: diferencial S en cabecera + diferencial instantáneo en circuitos
+  · Evita que un fallo en un circuito apague todo el cuadro
+  · Requerido en instalaciones con varios niveles de protección diferencial
+
+EJEMPLOS:
+  · Siemens 5SV3314-6LA01 — tipo A con retardo breve (selectivo)
+  · Siemens 5SV3742-4 / 5SV3644-4 — tipo B con retardo breve
+  · Hager CDA263S — 2P 63A 30mA tipo A CON RECONEXIÓN AUTOMÁTICA
+  · Schneider 18599 — Vigi C120 4P 500mA tipo A instantáneo (no selectivo pero grande)
+  · Eaton FRCMM-40/4/03-G/A — 4P 40A 300mA clase A (G = selectivo)
+
+=======================================================
+DIFERENCIAL SUPER-INMUNIZADO (HPI / ELM / clase A+)
+=======================================================
+Los diferenciales normales pueden dar falsas alarmas por corrientes de fuga de
+cargas modernas (dimmer, variadores, fuentes conmutadas). El super-inmunizado tolera
+más sin disparar por falsa alarma, pero sigue protegiendo correctamente.
+
+NOMBRES COMERCIALES:
+  · LEGRAND → "HPI" (High Performance Immunity)
+    → 411590 — DX3 2P 25A 30mA HPI
+    → 410546 — Bloque diferencial 4P 63A 300mA HPI
+  · HAGER → "HI" (High Immunity)
+    → CDH425M — 4P 25A 30mA tipo HI
+    → CDH263M — 2P 63A 30mA tipo HI
+  · SIEMENS → "clase A" con retardo breve
+  · EATON → serie con código "G" (gris = selectivo/super-inmunizado)
+
+=======================================================
+DIFERENCIAL CON RECONEXIÓN AUTOMÁTICA (REarmable)
+=======================================================
+Intenta reconectar automáticamente tras un disparo por corriente transitoria.
+Si la fuga era puntual (tormenta, arranque motor...) se rearma solo.
+Si es permanente, vuelve a disparar y se queda abierto.
+
+EJEMPLOS:
+  · Hager:
+    → CDA263S — 2P 63A 30mA tipo A con reconexión automática
+  · Circutor:
+    → P26A21 — REC4-2P-40-30M tipo A autorrearmable
+    → P26F23 — REC4-4P-40-300 tipo A autorrearmable
+    → P2A112 — RECmaxLPD-C2-16 reconectador
+  · Schneider:
+    → A9CR1240 — REDs 40A 30mA reconectador diferencial (visto en accesorios)
+
+USO: Muy habitual en instalaciones con muchos ciclos de encendido/apagado,
+cargas pesadas, o donde el personal no puede estar para rearmarlo manualmente
+(instalaciones remotas, cuadros en locales sin vigilancia continua).
+
+=======================================================
+CIRCUTOR — SISTEMA DIFERENCIAL EXTERNO (RELÉ + TOROIDE)
+=======================================================
+Circutor es especialista en equipos de medida y protección diferencial para
+instalaciones especiales donde no cabe un diferencial estándar o se necesita
+más flexibilidad de ajuste.
+
+SISTEMA: Relé diferencial + Transformador toroidal (separados)
+  · El TOROIDE (transformador) se instala en el cable de la instalación y mide la fuga
+  · El RELÉ recibe la señal del toroide y dispara la bobina MX del interruptor principal
+
+VENTAJAS:
+  · Calibres de corriente hasta miles de amperios (el toroide se elige por tamaño de cable)
+  · Ajuste de sensibilidad muy fino (0,03A hasta 30A y más)
+  · Para instalaciones donde un diferencial modular no existe en ese calibre
+
+TOROIDES (transformadores diferenciales):
+  · P10153 — WGC-55: toroide diámetro interior 55mm (para cables medianos)
+  · P11B52 — WGB-35: toroide para relé tipo B (detección DC)
+
+RELÉS DE PROTECCIÓN DIFERENCIAL:
+  · P12A70 — CBS-40A: central relé diferencial tipo A (el más habitual de Circutor)
+  · P24912 — CBS-4C RA: central diferencial CBS con reconexión automática
+  · P33020 — IMD-2R: relé monitorización aislamiento offline (para redes IT)
+
+RELÉ IMD (Insulation Monitoring Device):
+  → Para redes IT (aisladas de tierra): hospitales, barcos, quirófanos
+  → Monitoriza continuamente el aislamiento sin disparar (solo alarma)
+
+AUTOREARMADORES CIRCUTOR:
+  · P26A21 — REC4-2P-40-30M tipo A (2P 40A 30mA) → rearme automático
+  · P26F23 — REC4-4P-40-300 tipo A (4P 40A 300mA) → rearme automático
+
+=======================================================
+BLOQUES DIFERENCIALES ADD-ON (VER TAMBIÉN CUADRO SEPARADO)
+=======================================================
+Algunos diferenciales se añaden como BLOQUE a un interruptor automático existente:
+  · Hager BD241N — Bloque diferencial AC 30mA 2P 40A
+  · Hager BF326N — Bloque diferencial AC 300mA 3P 25A
+  · Schneider Vigi NSX/NSXm → ver cuadro bloque_diferencial_addon.txt
+
+=======================================================
+GUÍA DE SELECCIÓN RÁPIDA POR SITUACIÓN
+=======================================================
+  1. Cuadro vivienda estándar (2023+)
+     → Diferencial 2P 40A 30mA CLASE A (no AC)
+     → Ej: Siemens 5SV3312-6 / Hager CDA240M / Legrand DX3 2/40/30A / Schneider M9R21240
+
+  2. Cuadro con punto de carga VE (doméstico)
+     → Diferencial CLASE A como mínimo, con el punto VE en su propio circuito
+     → Si cargador modo 3: clase F o B
+
+  3. Cuadro industrial con variador de velocidad
+     → Diferencial clase A mínimo (puede ser necesario tipo S o F si hay interferencias)
+
+  4. Cuadro grande (>63A o trifásico industrial)
+     → Sistema toroide + relé Circutor (la opción más flexible)
+
+  5. Instalación remota sin personal
+     → Diferencial con autorearmable (Hager CDA-S / Circutor REC4)
+
+  6. Instalación solar con microinversores
+     → Clase B obligatorio en el punto de conexión del generador
+
+  7. Cuadro de varios niveles (cuadro principal + subcuadros)
+     → Diferencial tipo S (selectivo) en el cuadro principal + estándar en subcuadros

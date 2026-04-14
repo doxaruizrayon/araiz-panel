@@ -1,0 +1,127 @@
+CUADRO RESUMEN — ACCESORIOS MCCB: CONTACTOS AUX, PEINES Y MONTAJE
+Familia: Electricidad > Automáticos y diferenciales > Accesorios para interruptor automático
+Total artículos grupo: ~9.800 art. | Este cuadro: contactos + peines + bastidores + kits montaje
+Marcas: ABB, Eaton, Siemens, Schneider, Legrand, Hager
+========================================================
+
+=======================================================
+BLOQUES DE CONTACTOS AUXILIARES
+=======================================================
+Se montan lateralmente o en la parte frontal del MCCB. Señalizan el estado (abierto/cerrado)
+y pueden conectarse a PLC, alarmas o señalización luminosa.
+
+TIPOS:
+  · OF (Open-Fault) = contacto de posición (abierto/cerrado del interruptor)
+  · SD = contacto de disparo por fallo (señaliza que ha disparado por sobrecarga/cortocircuito)
+  · OF+SD = combinado
+
+EJEMPLOS:
+  · Siemens:
+    → 3VA9988-0AA12 — Bloque contactos aux HQ 7mm (para 3VA1/3VA2)
+    → 3VL9800-2AC00 — Bloque contactos 4HS (2NA+1NC) para VL-series
+    → 5ST3062 — Contacto aux inversor + bloque señalización fallo 230/400VAC (5ST = iC60 Acti9)
+
+  · Schneider:
+    → M9A26904 — Contacto aux Multi9 M9A OF 0,1-6A
+    → A9N26909 — Contacto aux Acti9 A9N OF/SD+OF top 0,1-6A (para iC60/iD)
+
+MONTAJE:
+  · Lateral (side) → se instala a un lado del MCCB
+  · Frontal (top/front) → encima del MCCB (algunos modelos)
+  · Siempre hay que confirmar qué posición admite el MCCB específico
+
+=======================================================
+PEINES DE DISTRIBUCIÓN
+=======================================================
+Los peines son barras de conexión en forma de peine que conectan varios MCBs/MCCBs
+a la misma fase. Son los que permiten alimentar filas de interruptores en paralelo
+sin hacer manguito a manguito.
+
+TIPOS DE PEINE:
+  · 1P (monofásico) → solo une los polos de una fase
+  · 2P → une 2 fases (o fase+neutro)
+  · 3P → une las 3 fases
+  · 3P+N → une 3 fases y neutro
+
+EXEMPLOS SCHNEIDER (ACTI9 / iC60 — los más vendidos en peines):
+  → A9XPC612 — Peine ACTI9 iC40 1P+N 12 módulos 18mm
+  → A9XPC624 — Peine ACTI9 iC40 1P+N 24 módulos 18mm
+  → A9XPC724 — Peine ACTI9 iC40 3P+N 24 módulos 18mm
+  → A9XPC748 — Peine ACTI9 iC40 3P+N 48 módulos 18mm
+  → A9X21094 — Juego cubierta de dientes de embarrado ACTI9 tipo peine 30x170x80mm
+  → A9XPH810 — Peine iID 4P cabecera + 2P 10 módulos (para diferenciales iID)
+
+EJEMPLOS SIEMENS:
+  → 3RV2917-4A — Embarrado trifásico con conector para 2 interruptores S00/S0 (guardamotores)
+
+DIMENSIONES IMPORTANTES:
+  · Los peines Acti9 son específicos para la gama Acti9 de Schneider (iC60, iDPN, iID)
+  · El paso/pitch es 9mm o 18mm según modelo
+  · Los MCCBs grandes (NSX, 3VA, XT...) usan barras de distribución distintas, no peines
+
+=======================================================
+BASTIDORES Y BASES PARA ACB (GRANDES)
+=======================================================
+Los ACB (Emax2, 3WL) necesitan bastidores o bases de montaje separados.
+
+EJEMPLOS ABB EMAX2:
+  → 1SDA073911R1 — Base fija W terminal HR-HR 3P IU2500 E2.2 (para Emax2 E2, 2500A)
+  → 1SDA073915R1 — Base fija W terminal HR-HR 3P IU4000 E4.2 (para Emax2 E4)
+  → 1SDA073917R1 — Base fija W terminal HR-HR 3P IU5000 E6.2 (para Emax2 E6)
+  → 1SDA073919R1 — Base fija W terminal HR-HR 4P IU5000 E6.2 (4P)
+  → 1SDA073921R1 — Base fija W terminal HR-HR 4P IU6300 E6.2 (máxima)
+
+NOTA: W = withdrawable (para versiones extraíbles). Las bases permiten extraer el ACB
+para mantenimiento sin tocar el cableado principal.
+
+SIEMENS ACB:
+  → 3WA9111-0AE06 — Disparador mínima tensión para 3WA/3WL (instantáneo 0,08s y retardado)
+  → 3WA9111-0AT50 — Cubierta frontal 3WA con etiquetas
+
+=======================================================
+KITS DE TERMINALES Y CONEXIÓN
+=======================================================
+Adaptan las bornas del MCCB al tipo de cable o barra.
+
+EJEMPLOS:
+  · ABB:
+    → 1SDA066906R1 — Kit terminales FC CU-XT1 (4 piezas) — para cables en Tmax XT1
+    → 3VW9011-0AL78 — Barra conexión frontal extendidas 4 piezas + adaptador (3WL)
+
+  · Siemens:
+    → 8US1941-2AA04 — Juego conexión 3 polos barra 32x20mm UL508A
+    → 8US1922-2BA00 — Perfil tapa material aislante 1000mm (para barras)
+    → 8US1922-2AA00 — Perfil tapa material aislante 1000mm (variante)
+
+  · Legrand DPX3:
+    → 421031 — Borna DPX3 250-4 para cable (terminal adicional)
+    → 421072 — Fijación DPX3 250 3P/4P sin perfil (kit montaje sin carril DIN)
+
+=======================================================
+TAPAS Y CUBIERTAS
+=======================================================
+Protegen las conexiones y bornas contra contactos accidentales.
+
+EJEMPLOS SIEMENS:
+  → 3VA9601-0WD30 — Tapa cubrebornes corta 3P para 3VA15/25 1000
+  → 3VT9200-8CB30 — Tapa para conexión corto 3 polos para VT250
+  → 3VL9300-8CA30 — Juego 2 tapas conexión prolongado 3P para VL160
+
+=======================================================
+ACCIONAMIENTOS ROTATIVOS PARA 3VA (SIEMENS)
+=======================================================
+Permiten montar la palanca giratoria de mando en el lateral del cuadro.
+  → 3VA9467-0PK11 — Accionamiento giratorio pared lateral estándar para 3VA2 400/630
+
+=======================================================
+GUÍA DE USO EN PRESUPUESTOS
+=======================================================
+Cuando se presupuesta un MCCB, siempre preguntar si necesita:
+  1. Bobina de disparo (MN o MX) → para corte remoto o protección extra
+  2. Bloque contactos auxiliares → para señalización en panel o PLC
+  3. Maneta/mando rotativo → si va instalado en puerta de cuadro
+  4. Motorización → si se requiere apertura/cierre eléctrico a distancia
+  5. Peine de distribución → si alimenta varios interruptores aguas abajo
+  6. Terminales especiales → si el cable es muy grande o se usa barra de cobre
+
+Estos accesorios pueden suponer 20-40% del coste del MCCB principal.

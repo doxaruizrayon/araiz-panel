@@ -1,0 +1,166 @@
+CUADRO RESUMEN — RCBO (COMBINADO DIFERENCIAL+MAGNETOTÉRMICO) + ACCESORIOS
+Familia: Electricidad > Automáticos y diferenciales > Magnetotérmico + Accesorios para magnetotérmico
+Total: ~292 accesorios + ~570 RCBOs dispersos en el grupo
+Marcas: Eaton, Schneider, ABB, Hager, Siemens, Legrand, Gewiss
+========================================================
+
+=======================================================
+RCBO — ¿QUÉ ES?
+=======================================================
+RCBO = Residual Current Circuit Breaker with Overcurrent protection
+     = Interruptor automático diferencial combinado
+     = Magnetotérmico + Diferencial en un solo módulo
+
+Combina en UN APARATO:
+  · Protección contra sobrecarga y cortocircuito (parte magnetotérmica)
+  · Protección contra contactos indirectos / electrocución (parte diferencial)
+
+VENTAJA vs sistemas separados:
+  · Ocupa MENOS espacio en el cuadro (1 o 2 módulos en vez de 3-4)
+  · Más económico para circuitos individuales
+
+DESVENTAJA:
+  · Si dispara, no sabes si fue por sobrecarga/cortocircuito o por fuga diferencial
+  · Más caro que un magnetotérmico solo
+
+USO HABITUAL:
+  · Circuitos individuales en cuadros pequeños (baño, cocina, terraza...)
+  · Circuitos donde el espacio en el cuadro es limitado
+  · Reformas donde no cabe un diferencial + magnetotérmico separados
+
+=======================================================
+EATON — SERIE FRBM / FRBMM (RCBO)
+=======================================================
+Serie FRBM6 → 1P+N, 6kA, clase AC
+  · 73000630 — FRBM6 6A 30mA curva C 1P+N clase AC
+
+Serie FRBMM → 1P+N, 10kA, clases AC y F
+  · 193482 — FRBMM 13A 30mA curva C 1P+N clase F
+  · 193483 — FRBMM 16A 30mA curva C 1P+N clase F
+  · 193484 → 20A
+  · 193492 — FRBMM 32A 30mA curva C 1P+N clase F
+  · 193493 — FRBMM 40A 30mA curva C 1P+N clase F
+  · 193485 — FRBMM 13A 30mA curva D 1P+N clase F
+  · 193486 — FRBMM 16A 30mA curva D 1P+N clase F
+  · 193487 — FRBMM 20A 30mA curva D 1P+N clase F
+
+NOTA CLASE F (Eaton):
+  Clase F = clase A+I = detecta corrientes residuales alternas + continuas pulsantes
+  (más protección que clase AC estándar)
+
+=======================================================
+SCHNEIDER ELECTRIC — SERIE iC60N RCBO / iDPN RCBO
+=======================================================
+  · A9D57425 — ACTI9 IC60N RCBO 4P 25A 30mA 6kA clase AC
+
+NOTA: Los RCBO de Schneider están principalmente en la gama Acti9.
+Para 1P+N los buscar por "iDPN" o "IDN".
+
+DIFERENCIAL RESI9 (más económico):
+  · R9R51225 — RESI9 ID 2P 25A 30mA AC (este es diferencial puro, no RCBO)
+
+=======================================================
+ABB — SERIE DS200 (RCBO)
+=======================================================
+DS200 = interruptor residencial/terciario combinado (magneto + diferencial)
+  · 10kA de poder de corte (alto)
+  · Clase A (detecta corrientes alternas + DC pulsante)
+
+CALIBRES DISPONIBLES:
+  · 2CSR256140R1064 — DS200 3P+N C6A clase A 10kA 30mA
+  · 2CSR256140R1104 — DS200 3P+N C10A clase A 10kA 30mA
+  · 2CSR256140R1204 — DS200 3P+N C20A clase A 10kA 30mA
+  · 2CSR256140R1254 — DS200 3P+N C25A clase A 10kA 30mA
+  · 2CSR256140R1324 — DS200 3P+N C32A clase A 10kA 30mA
+  · 2CSR256140R3204 — DS200 3P+N C20A clase A 10kA 300mA
+  → Disponible en 30mA y 300mA de sensibilidad diferencial
+
+=======================================================
+HAGER — SERIE ADC / ACC (RCBO)
+=======================================================
+  · ADC920M — diferencial 1P+N C-20A 30mA
+  · ADC925M — diferencial 1P+N C-25A 30mA
+  · ADC932M — diferencial 1P+N C-32A 30mA (muy vendido)
+  · ACC916M — diferencial 1P+N C-16A 10mA (sensibilidad 10mA = más sensible)
+
+=======================================================
+LEGRAND — SERIE MDC / DX3 COMBI
+=======================================================
+  · GW95956 (Gewiss MDC) — MDC 2P C10 10000A/10kA F 30mA
+  (Los RCBO de Legrand aparecen con ref. en el grupo de magnetotérmico / diferencial)
+
+=======================================================
+SENSIBILIDAD DIFERENCIAL EN RCBO
+=======================================================
+  · 10mA  → muy sensible (baños, piscinas, zonas húmedas de alta peligrosidad)
+  · 30mA  → estándar para viviendas y locales (valor reglamentario en España)
+  · 100mA → selectividad (cuando hay diferencial aguas arriba de 30mA)
+  · 300mA → incendios / transformadores (no protege personas, protege instalación)
+
+=======================================================
+CLASES DE DIFERENCIAL (RCBO y diferenciales puros)
+=======================================================
+  · Clase AC  → solo detecta corriente alterna sinusoidal (la más básica y barata)
+  · Clase A   → detecta corriente alterna + DC pulsante (para cargas con electrónica)
+  · Clase F/B → detecta corriente alterna + DC pulsante + DC liso (vehículo eléctrico, fotovoltaica)
+  · Clase S   → selectivo (con retardo) → no dispara instantáneo, permite que dispare primero el aguas abajo
+
+  RECOMENDACIÓN PRÁCTICA:
+  · Clase AC → instalaciones sencillas sin electrónica (antiguas o muy básicas)
+  · Clase A  → estándar actual recomendado (hay lectores LED, cargadores, etc.)
+  · Clase F/B → obligatorio en puntos de recarga VE y sistemas solares con microinversores
+
+=======================================================
+ACCESORIOS PARA MAGNETOTÉRMICO (292 artículos)
+=======================================================
+
+CONTACTOS AUXILIARES (señalización estado):
+  · Siemens:
+    → 5ST3020 — Contacto señalización defecto para automático 70 M0,5
+    → 5ST3021 — Contacto señalización defecto automático 70 M0,5 2NA
+
+  · Schneider:
+    → 29452 — Contacto auxiliar OF/CAF/CAO (para C60/iC60)
+    → A9N26476 — Elemento auxiliar MX 110-415V CA 110-130V CC (bobina disparo)
+
+BOBINAS DE DISPARO:
+  · Schneider:
+    → LV947451 — Bobina MX 48V AC 50/60Hz / 48-60V DC (para NSX)
+    → LV948512 — Bobina MX 48V AC (alternativa)
+
+MOTORIZACIONES (rearme eléctrico):
+  · Schneider:
+    → A9C70114 — Mando motorizado RCA para iC60 sin interfaz Ti24 3P/4P
+    → 19092 — Mando rotativo directo NG125
+    → 19089 — Mando rotativo NG125 prolongador de emergencia
+
+PEINES Y DISTRIBUCIÓN:
+  · Schneider:
+    → A9XPH512 — Peine 1P+N (L1,L2,L3) 12 módulos K60N/C60
+    → A9XPE310 — Juego escudos laterales peines tripolares (10u)
+    → A9XPE410 — Juego escudos laterales peines tetrapolares (10u)
+    → A9XAH557 — Peine 2P+aux Aux+N+L1, Aux+N+L2
+
+RECONECTADORES DIFERENCIALES (rearme automático):
+  · Schneider:
+    → A9CR1240 — Reconectador diferencial 40A 30mA REDs
+    (Permite reenganche automático del diferencial tras disparo transitorio)
+
+KITS MONTAJE:
+  · Schneider Resi9:
+    → R9H10939 — Kit ensamblaje Resi9 KV empotrado
+
+=======================================================
+DIFERENCIA ENTRE RCBO Y DIFERENCIAL PURO
+=======================================================
+  · RCBO = magnetotérmico + diferencial en uno → protege sobrecarga/cortocircuito Y fuga
+  · Diferencial puro = solo protege contra fugas de corriente (electrocución)
+    → Necesita siempre un magnetotérmico delante o detrás para proteger la línea
+
+En cuadros de vivienda estándar (España):
+  → IGA (magnetotérmico) → Diferencial (puro) → PIAs (magnetotérmicos) por circuito
+  Es lo más habitual. El diferencial puro protege a toda la fila de circuitos aguas abajo.
+
+  En cuadros con RCBO:
+  → IGA → RCBO por cada circuito (sin diferencial general)
+  Cada circuito tiene su protección completa integrada.

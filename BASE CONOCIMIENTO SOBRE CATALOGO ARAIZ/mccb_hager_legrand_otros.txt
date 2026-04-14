@@ -1,0 +1,107 @@
+CUADRO RESUMEN — MCCB HAGER h3+ / LEGRAND DPX3 / GEWISS MSX y otros
+Familia: Electricidad > Automáticos y diferenciales > Interruptor automático
+Total artículos: Hager ~1.040 + Legrand ~460 + Gewiss ~58 + otros = ~1.600 art.
+========================================================
+
+=======================================================
+HAGER — SERIE h3+ (MCCB principal)
+=======================================================
+h3+ es la familia de MCCBs industriales de Hager.
+
+MODELOS:
+  · h3+ P160 / X160 — hasta 160A — el más pequeño
+    → HDA161L — X160 4P 18kA 160A TM fijo Ref.
+    → HDA160L — X160 3P 18kA 160A TM fijo
+    Nota: X160 es la versión básica (económica) de h3+
+  · h3+ P250 — hasta 250A
+    → HNT202DR — h3+ P250 4P 200A 40kA relé TM
+  · h3+ P630 — hasta 630A (el más habitual en industria)
+    → HEW400GR — h3+ P630 3P 400A 70kA LSnI Ref.
+    → HMW631DE — P630 4P 630A 50kA relé TM reg Ref.
+    → HPW401JR — h3+ P630 4P 400A 110kA LSI (versión muy alta ruptura)
+
+NOMENCLATURA HAGER (simplificada):
+  H   E  W  400  G  R
+  │   │  │   │   │  └── Variante
+  │   │  │   │   └───── Poder de corte (G=70kA, J=110kA, D=50kA)
+  │   │  │   └───────── Corriente (400A)
+  │   │  └───────────── W=4P / M=3P
+  │   └───────────────── Familia (E=h3+)
+  └────────────────────── Marca Hager
+
+UNIDADES DE DISPARO HAGER:
+  · TM fijo / TM regulable = termomagnético (estándar)
+  · Relé TM = termomagnético regulable en panel
+  · LSnI = electrónico: Long-time + Short-time + Instantaneous (equivalente a LSI de otras marcas)
+  · LSI = protección larga duración + corto retardado + instantáneo
+
+ACB HAGER (grandes — aparecen en el grupo):
+  · HW2 — 1600A 100kA extraíble — Ref. HW2S316DE
+  · HW4 — 4000A 66kA extraíble — Ref. HW4E340DE
+  Serie Sentinel de Hager = sus interruptores de aire (ACB)
+
+=======================================================
+LEGRAND — SERIE DPX3 (MCCB principal)
+=======================================================
+DPX3 es la familia de MCCBs y desconectadores industriales de Legrand.
+
+MODELOS:
+  · DPX3 160 — hasta 160A — Ref. tipo: 420xxx
+    → 420713 — DPX³ 160 solo magnético 3P 16kA 63A
+  · DPX3 630 — hasta 630A
+    → DPX3-I 630 3P 630A Ref. 422217 (DPX3-I = solo desconectador, sin protección)
+    → DPX3-I 630 4P 630A Ref. 422219
+  · DPX3 1600 — hasta 1600A
+    → DPX3-I 1600 3P 800A Ref. 422491
+    → DPX3 1600 versión seccionable Ref. 422593
+
+NOTA sobre DPX3-I:
+  El sufijo -I significa "Interruptor-seccionador" = solo desconecta, NO protege contra
+  sobrecargas ni cortocircuitos. Se usa cuando la protección ya viene de aguas arriba.
+
+TAMBIÉN EN LEGRAND (clasificados aquí por error):
+  · 077010 — Interruptor 10AX 2 módulos MOSAIC-II (mecanismo de vivienda)
+  Estos no son MCCB pero Araiz los clasifica en este grupo.
+
+=======================================================
+GEWISS — SERIE MSX / MSXM / MSXE
+=======================================================
+Gewiss es una marca italiana. Solo ~58 artículos en Araiz en este grupo.
+
+MODELOS:
+  · MSX 125 — hasta 125A
+    → GWD9214 — MSX 125 4P 63A 36kA termomagnético FC
+    → GWD9217 — MSX 160 4P 160A 36kA termomagnético FC
+  · MSXE 400-630 — gama media-alta (E = electronic)
+    → GWD9378 — MSXE 400 4P 400A 50kA LSIG térmico FC
+    → GWD9384 — MSXE 630 4P 630A 36kA LSIG térmico FC
+    → GWD9418 — MSXE 1250 4P 1250A 50kA LSIG térmico RC
+  · MSXM 1600 — grandes
+    → GWD9456B — MSXM 1600 4P 1600A térmico FB interlocked
+
+NOTA: Gewiss tiene poca presencia en Araiz para esta familia.
+Principalmente se vende su material de canalización y pequeño material.
+
+=======================================================
+RESUMEN COMPARATIVO — 4 MARCAS PRINCIPALES (MCCB)
+=======================================================
+| Marco      | Siemens      | ABB          | Eaton      | Schneider   | Hager      |
+|------------|-------------|--------------|------------|-------------|------------|
+| ~100-160A  | 3VA1 Fr.160  | XT1/XT2      | NZM2       | NSX160      | h3+ P160   |
+| ~250A      | 3VA1 Fr.250  | XT3/XT4      | NZM2       | NSX250      | h3+ P250   |
+| ~400-630A  | 3VA1 Fr.630  | XT5/XT6      | NZM3       | NSX400/630  | h3+ P630   |
+| >800-1600A | 3VA2/3WL     | XT7/Emax2    | NZM4       | NS1600      | HW (ACB)   |
+
+=======================================================
+¿CUÁNDO APARECE CADA MARCA EN UN PRESUPUESTO?
+=======================================================
+  · Siemens / ABB / Schneider / Eaton → Proyectos industriales, grandes instalaciones
+  · Hager → Proyectos de tamaño medio, instaladores, terciario
+  · Legrand DPX3 → Cuando el cuadro es de Legrand o se usa con material Legrand
+  · Gewiss → Menos frecuente; proyectos donde ya se usa Gewiss en mecanismos
+
+=======================================================
+ACCESORIOS (ver cuadros separados)
+=======================================================
+  → Bobinas, manetas, motorizaciones: accesorios_mccb_bobinas_manetas.txt
+  → Contactos aux, peines: accesorios_mccb_contactos_peines.txt

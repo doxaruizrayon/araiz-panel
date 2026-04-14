@@ -1,0 +1,120 @@
+CUADRO RESUMEN — MCCB SIEMENS 3VA (Interruptores automáticos de caja moldeada)
+Familia: Electricidad > Automáticos y diferenciales > Interruptor automático
+Total artículos Siemens en este grupo: ~6.700 art.
+========================================================
+
+¿QUÉ ES UN MCCB?
+MCCB = Molded Case Circuit Breaker = Interruptor automático de caja moldeada.
+Protege circuitos eléctricos contra sobrecargas y cortocircuitos en instalaciones
+industriales y comerciales. Son más grandes y potentes que los magnetotérmicos domésticos.
+Se montan en cuadros de distribución, no en carril DIN estándar (llevan sus propias
+fijaciones o carril especial).
+
+USO: Para proteger líneas de distribución, motores y transformadores en entornos industriales.
+
+=======================================================
+SERIE 3VA1 — MCCB SIEMENS BÁSICO (protección termomagnética)
+=======================================================
+Ref. ejemplo: 3VA1132-5GD42-0AA0
+             │││└── Polos (32=3P, 42=4P, 46=4P+N)
+             ││└─── Clase corte (4=S 36kA, 5=M 55kA, 6=H 70kA)
+             │└──── Tamaño de frame
+             └───── Serie 3VA1
+
+FRAMES DISPONIBLES (= tamaño máximo de corriente del marco):
+  · Frame 100  — hasta 100A  — Ref. tipo: 3VA10xx-...
+  · Frame 160  — hasta 160A  — Ref. tipo: 3VA11xx-... (más vendido)
+  · Frame 250  — hasta 250A  — Ref. tipo: 3VA12xx-...
+  · Frame 400  — hasta 400A  — Ref. tipo: 3VA13xx-...
+  · Frame 630  — hasta 630A  — Ref. tipo: 3VA14xx-...
+
+CLASES DE PODER DE CORTE (Icu = corriente máxima de cortocircuito que puede interrumpir):
+  · Clase S = 36kA  (Standard)
+  · Clase M = 55kA  (Medium — el más habitual en industria)
+  · Clase H = 70kA  (High)
+  · Clase V = 110kA (Very high — raro, aplicaciones especiales)
+
+UNIDADES DE DISPARO 3VA1:
+  · TM210 — Termomagnético básico: protección sobrecarga (térmica) + cortocircuito (magnética)
+  · TM240 — Termomagnético distribución: igual pero con mayor ajuste del magnético
+
+POLOS:
+  · 3P = 3 polos (trifásico sin neutro)
+  · 4P = 4 polos (trifásico + neutro protegido)
+  · 4P+N = 4 polos con neutro no protegido (conectado directo)
+
+EJEMPLOS REALES (más vendidos):
+  · 3VA1132-5GD42-0AA0 — FRAME 160, clase M 55kA, 4P, TM210, 32A — tornillo
+  · 3VA1112-5GD42-0AA0 — FRAME 160, clase M 55kA, 4P, TM210, 125A — tornillo
+  · 3VA1463-5EF32-0AA0 — FRAME 630, clase M 55kA, 3P, TM240, 400-630A
+  · 3VA1340-4EF32-0AA0 — FRAME 400, clase S 36kA, 3P, TM240, 280-400A
+  · 3VA1096-4ED32-0AA0 — FRAME 100, clase S 36kA, 3P, TM210, 16A — tornillo
+  · 3VA1080-4ED32-0AA0 — FRAME 100, clase S 36kA, 3P, TM210, 80A — tornillo
+  · 3VA1163-3ED36-0AA0 — FRAME 160, clase estándar 25kA, 3P, TM210, 63A — borne
+
+=======================================================
+SERIE 3VA2 — MCCB SIEMENS AVANZADO (protección electrónica)
+=======================================================
+Ref. ejemplo: 3VA2110-5HN32-0AA0
+
+Igual que 3VA1 en frames y clases, pero con unidad de disparo ELECTRÓNICA ETU350:
+  · ETU350 = Electronic Trip Unit con funciones LSI (Long-time/Short-time/Instantaneous)
+  · Permite ajuste más preciso de los umbrales de disparo
+  · Indicadores LED de fallo, comunicación opcional
+
+FRAMES DISPONIBLES: 160 / 400 / 630 (mismo criterio que 3VA1)
+
+EJEMPLOS REALES:
+  · 3VA2110-5HN32-0AA0 — FRAME 160, clase M 55kA, 3P, ETU350, 100A — tornillo
+  · 3VA2325-5MN32-0AA0 — FRAME 400, clase M 55kA, 3P, LSI 250A — tornillo
+  · 3VA2063-7HN32-0AA0 — FRAME 100, clase V 110kA, 3P, ETU350, 63A (alto poder de corte)
+
+=======================================================
+5TE8 — INTERRUPTORES DE INSTALACIÓN SIEMENS (pequeños, no MCCB propiamente)
+=======================================================
+Son interruptores de instalación modulares pequeños (no caja moldeada industrial).
+  · 5TE8111 — Unipolar 20A 230VAC
+  · 5TE8112 — Bipolar 20A 400VAC
+  · 5TE8114 — Tripolar+N 20A 400VAC
+  · 5TE8214 — Tripolar+N 32A 400VAC
+
+=======================================================
+3WL — ACB (Air Circuit Breaker) SIEMENS (muy grandes, media tensión próxima a BT)
+=======================================================
+ACB = Air Circuit Breaker = Interruptor de aire. Son los más grandes.
+Solo ~72 artículos en Araiz. Para instalaciones especiales.
+  · Para corrientes: 800A – 6300A
+  · Se montan en celdas de distribución grandes
+  · Referencia tipo: 3WA9111-0AT50 (accesorios), 3VW9011-0AG05
+
+=======================================================
+¿CUÁNDO SE USA CADA SERIE?
+=======================================================
+  · 3VA1 TM210/TM240 → Distribución general en cuadros industriales estándar
+  · 3VA2 ETU350      → Cuando se necesita ajuste preciso o comunicación con BMS/SCADA
+  · 5TE8             → Interruptores de instalación pequeños (vivienda, terciario pequeño)
+  · 3WL              → Grandes distribuciones (subestaciones, data centers, hospitales)
+
+=======================================================
+ACCESORIOS HABITUALES (se buscan en grupo separado)
+=======================================================
+  · Bobina de disparo MN (corte por fallo de tensión)
+  · Bobina de disparo MX (corte a distancia)
+  · Motor de mando (rearme motorizado a distancia)
+  · Bloque de contactos auxiliares NA/NC
+  · Maneta giratoria larga (para puerta del cuadro)
+  → Ver cuadro: accesorios_mccb_bobinas_manetas.txt
+
+=======================================================
+TÉRMINOS CLAVE PARA PRESUPUESTAR
+=======================================================
+  · Icu = poder de corte definitivo (kA) — cuánto cortocircuito aguanta sin romperse
+  · Ics = poder de corte de servicio (80-100% de Icu en clase M/H)
+  · In = corriente nominal (A) — la calibración del disparo térmico
+  · Frame = "marco" = tamaño físico máximo que admite la carcasa
+  · LSI = protección: Long time (sobrecarga) + Short time (cortocircuito retardado) + Instantaneous
+  · TM = Termomagnético (mecánico, bimetálico)
+  · ETU = Electronic Trip Unit (electrónico, más ajustable)
+  · Fijo = el aparato no sale del bastidor (más barato)
+  · Extraíble = puede sacarse del bastidor sin cables (mantenimiento sin corte)
+  · Withdrawable (W) = extraíble (código de referencia)

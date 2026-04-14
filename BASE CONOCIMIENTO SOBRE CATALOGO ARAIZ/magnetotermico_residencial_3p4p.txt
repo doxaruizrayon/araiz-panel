@@ -1,0 +1,126 @@
+CUADRO RESUMEN — MAGNETOTÉRMICOS 3P / 3P+N / 4P (TRIFÁSICO E INSTALACIONES)
+Familia: Electricidad > Automáticos y diferenciales > Magnetotérmico
+Total artículos grupo: ~10.400 art. | Este cuadro: 3P, 3P+N, 4P
+Marcas: Eaton, Siemens, ABB, Schneider, Hager, Legrand, Gewiss
+========================================================
+
+¿PARA QUÉ SE USA UN MAGNETOTÉRMICO TRIFÁSICO?
+Los magnetotérmicos 3P y 4P se usan en:
+  · Motores trifásicos (protección de línea, no del motor directamente)
+  · Cabeceras de cuadros industriales y terciarios
+  · IGA de instalaciones trifásicas (viviendas con cocina vitrocerámica trifásica, talleres)
+  · Circuitos trifásicos en general (climatización, bomba trifásica, etc.)
+
+DIFERENCIA 3P vs 4P:
+  · 3P = protege las 3 fases (L1, L2, L3). El neutro va sin proteger.
+        → Para cargas trifásicas que no tienen neutro (motores 3F)
+  · 4P = protege 3 fases + neutro (L1, L2, L3, N)
+        → Para cabeceras de cuadro o cuando el neutro necesita ser desconectado
+  · 3P+N = 3 polos con neutro no protegido (neutro pasa pero no se protege)
+           → Variante con neutro para montaje, sin protección del neutro
+
+=======================================================
+CALIBRES TÍPICOS 3P/4P EN INSTALACIONES
+=======================================================
+  · 3P C6A-C16A   → circuitos trifásicos pequeños (climatización, bomba pequeña)
+  · 3P C25A-C40A  → motores 5,5kW-15kW, cuadros secundarios
+  · 3P C63A       → cuadros de distribución, IGA de pequeña nave
+  · 4P C63A       → cabecera cuadro trifásico con neutro
+
+Referencia rápida de potencias (trifásico 400V, cos φ=0,8):
+  · 3P C16A → hasta ~8,9kW (motor ~7,5kW)
+  · 3P C25A → hasta ~13,9kW (motor ~11kW)
+  · 3P C40A → hasta ~22,2kW
+  · 3P C63A → hasta ~35kW
+
+=======================================================
+MARCAS Y SERIES — MAGNETOTÉRMICO 3P / 4P
+=======================================================
+
+EATON
+  Serie PLS6 → estándar 3P 6kA
+    · PLS6-C16/3 3P 16A 6kA — Ref. 242949
+    · PLS6-B3/3N-MW 3P+N B3A — Ref. 242982 (curva B con neutro)
+
+  Serie CLS6 → doméstico/terciario 3P
+    · Muchas referencias con código CLS6-Cxx/3 (3 polos)
+
+  Serie FAZ → 3P industrial (ver también cuadro industrial — tiene variantes D/Z/DC)
+    · FAZ RT 40A FAZ-B40/3-RT 3P — Ref. 132787 (RT = rail terminal)
+
+SIEMENS
+  Serie 5SL4 → 10kA 3P y 4P
+    · 5SL4320-8 — 10kA 3P C20A D curva D (industrial)
+    · 5SL4480-7 — 10kA 4P C80A accesorio (5SP4)
+    · 5SP4480-7 — 70 accesorio 10kA-C 6 módulos 4P 80A (IGA selectivo)
+    · 5SP4191-6 — 10kA-B 1,5 módulos 1P 100A (alta calibración)
+
+ABB
+  Serie SH203 / S203 → 3P estándar 6kA / 10kA
+    · S203-C16NA 3P+N 16A C 10kA — Ref. 2CDS253103R0164 (3P+N)
+    · S203-C10NA 3P+N 10A C 10kA — Ref. 2CDS253103R0104
+    · S203-K2 3P 2A curva K — Ref. 2CDS253001R0277 (industrial curva K)
+    · SH204-C32 4P 32A C 6kA — Ref. 2CDS214001R0324
+
+SCHNEIDER ELECTRIC
+  Serie iK60N → 4P 6kA
+    · A9K17416 — iK60N 4P 16A curva-C
+    · A9K17432 — iK60N 4P 32A curva-C
+    · A9K24440 — iK60N 4P 40A curva-C
+
+  Serie iC60H → 4P 10kA
+    · A9F89440 — iC60H 4P 40A curva-C 10kA
+    · A9F89463 — iC60H 4P 63A curva-C 10kA
+
+HAGER
+  Serie MCA → 3P doméstico
+    · MCA306 — automático M curva-C 6kA 3P 6A
+
+  Serie MUN → 3P+N compacto
+    · MUN663A — 3P+N 63A curva-C 6kA
+
+LEGRAND
+  Serie DX3 → 4P 6/10kA
+    · DX3 4P 10A C — Ref. 407926
+    · DX3 4P 32A C — Ref. 407931
+    · DX3 4P 40A C — Ref. 407932
+    · DX3 4P 50A C — Ref. 407933
+    → NOTA: DX3 tiene doble poder de corte 6/10kA (indicado en referencia)
+
+  Serie DPX3 → para calibres grandes (MCCB doméstico)
+    · DPX3 160 4P 63A 16kA — Ref. 420013 (ya es una caja moldeada, no MCB puro)
+    · DPX3 250 4P 250A 25kA — Ref. 420219
+
+GEWISS
+  Serie MTC 60 → compacto 1 módulo ancho
+    · MTC 60 3P 10A curva C — Ref. GW90266 (3P en 1 módulo)
+    · MTC 60 4P 25A curva C — Ref. GW90289 (4P en 1 módulo)
+
+  Serie MT60 → estándar
+    · MT60 3P 40A curva C — Ref. GW92071
+
+  Serie MDC → combinado diferencial + magnetotérmico
+    · GW95956 — MDC 2P C10 10000A/10kA F 30mA (RCBO → ver cuadro RCBO)
+
+=======================================================
+APLICACIONES TÍPICAS EN PRESUPUESTOS DE ARAIZ
+=======================================================
+  Cuadro de local comercial (trifásico):
+    → IGA 4P C25A-C40A + varios circuitos 1P+N para alumbrado/enchufes
+    → Circuito bomba de frío 3P C16A
+
+  Cuadro de pequeño taller / nave:
+    → IGA 4P C63A o C80A
+    → Circuitos motores 3P C10A-C25A
+
+  Cuadro de vivienda con electrificación elevada (trifásica):
+    → IGA 4P C25A-C40A
+    → Circuitos monofásicos 1P+N para cocina, lavadora, etc.
+
+=======================================================
+NOTA: IGA vs PIA
+=======================================================
+  · IGA (Interruptor General Automático) = el que está en cabecera, de mayor calibre
+  · PIA (Pequeño Interruptor Automático) = cada circuito individual
+  Tanto el IGA como los PIA son "magnetotérmicos" — la diferencia es dónde van y su calibre.
+  En España, el IGA suele tener selectividad frente a los PIA (dispara antes el PIA que el IGA).

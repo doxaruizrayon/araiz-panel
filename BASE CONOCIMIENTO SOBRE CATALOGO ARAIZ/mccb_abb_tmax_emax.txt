@@ -1,0 +1,120 @@
+CUADRO RESUMEN — MCCB/ACB ABB TMAX XT + EMAX2
+Familia: Electricidad > Automáticos y diferenciales > Interruptor automático
+Total artículos ABB en este grupo: ~7.660 art.
+========================================================
+
+=======================================================
+SERIE TMAX XT — MCCB ABB (caja moldeada, gama industrial)
+=======================================================
+La serie Tmax XT es la gama actual de MCCBs de ABB para distribución industrial.
+Sustituye a la antigua Tmax T (T1/T2/T3/T4/T5/T6/T7).
+
+NOMENCLATURA:
+  XT1B160  TMD  R40  IM450  4P  F-F
+  │││││    │    │    │      │   └── conexión (F=frontal fijo, F=frontal)
+  ││││└─── Frame máximo (160A)     └── Polos
+  │││└──── Clase corte: B=16kA, N=36kA, S=50kA, H=70kA, L=120kA, V=200kA
+  ││└───── Serie XT + número
+  │└────── Familia XT
+  └─────── ABB (marca)
+
+FRAMES Y CORRIENTES:
+  · XT1 — Frame 160A: 16-160A — el más pequeño y económico
+  · XT2 — Frame 160A: 10-160A — más prestaciones que XT1
+  · XT3 — Frame 250A: 63-250A
+  · XT4 — Frame 250A: 16-250A — gama media
+  · XT5 — Frame 630A: 320-630A
+  · XT6 — Frame 630A: 400-630A — alta potencia
+  · XT7 — Frame 1600A: 800-1600A — muy grande
+
+CLASES DE PODER DE CORTE:
+  · B = 16kA (básico, solo XT1/XT2)
+  · N = 36kA (Normal)
+  · S = 50kA (Standard — el más habitual)
+  · H = 70kA (High)
+  · L = 120kA (muy alto)
+  · V = 200kA (máximo, raro)
+
+UNIDADES DE DISPARO:
+  · TMD = Termomagnético estándar (básico)
+  · TMF = Termomagnético fijo
+  · EKIP LSIG = Electrónico avanzado con LSI + tierra (G)
+  · EKIP E-LSIG = Con módulo de comunicación Ethernet integrado
+  · PR222 / PR223 = Unidades electrónicas (gama anterior)
+
+EJEMPLOS REALES:
+  · 1SDA066814R1 — XT1B160 TMD R40 IM450 4P F-F — pequeño, 40A, 16kA, 4P
+  · 1SDA068027R1 — XT2V160 EKIP LSIG R160 4P FF — 160A, clase V 200kA, electrónico
+  · 1SDA067679R1 — XT2V160 TMD R8 IM80 3P FF — 8A, clase V, 3P, termomagnético
+
+=======================================================
+TMAX T — GAMA ANTERIOR ABB (aún en catálogo)
+=======================================================
+La serie T (T1/T2/T3/T4/T5/T6/T7) es la predecesora de XT.
+Se sigue vendiendo. Nomenclatura similar:
+  · T1B160 → Frame 160, clase B (16kA)
+  · T4N250 → Frame 250, clase N (36kA)
+  · T6H800 → Frame 800, clase H (70kA)
+
+=======================================================
+SERIE EMAX2 — ACB ABB (interruptores de aire, grandes potencias)
+=======================================================
+Emax2 = gama de Air Circuit Breakers (ACB) de ABB para grandes corrientes.
+Son los más grandes en el catálogo ABB. ~236 artículos en Araiz.
+
+MODELOS:
+  · E1N — 800-1600A, poder de corte 42-65kA
+  · E2N/E2S — 800-2000A, 65-85kA
+  · E3L — 2000-4000A (L = alta capacidad de corte)
+    → Ref. 1SDA056780R1 — E3L2500 PR122LSI 2500A 4P W
+  · E4S — 3200-4000A
+    → Ref. 1SDA056787R1 — E4S4000 PR122LI 4000A 3P
+    → Ref. 1SDA056788R1 — E4S4000 PR122LSI 4000A 3P
+    → Ref. 1SDA056792R1 — E4S4000 PR121LI 4000A 4P
+  · E6H/E6V — 3200-6300A (los más grandes)
+
+UNIDADES DE DISPARO EMAX2:
+  · PR121/PR122 = Ekip Touch — electrónico con pantalla táctil
+  · PR123 = Ekip Hi-Touch — alta prestación, comunicación integrada
+  · LI = protección Long time + Instantaneous
+  · LSI = Long time + Short time + Instantaneous (la más habitual)
+  · LSIG = LSI + protección de falta a tierra (Ground fault)
+
+MONTAJE:
+  · -F = fijo en bastidor
+  · -W = extraíble (Withdrawable) — se puede sacar sin cortar cables
+
+=======================================================
+SERIE S (ABB) — MCBs CLASIFICADOS AQUÍ
+=======================================================
+Algunos MCBs ABB aparecen también en este grupo por clasificación:
+  · S302P-D3 → 2P 3A curva D 25kA
+  · S304P-C32 → 4P 32A curva C 25kA
+Estos son magnetotérmicos de mayor poder de corte (25kA) para instalaciones industriales.
+(Los S200/SH200 estándar están en el grupo Magnetotérmico)
+
+=======================================================
+¿CUÁNDO SE USA CADA SERIE?
+=======================================================
+  · XT1/XT2 (Frame 160A) → Protección de líneas secundarias, cuadros individuales
+  · XT3/XT4 (Frame 250A) → Circuitos de mayor potencia en industria
+  · XT5/XT6 (Frame 630A) → Embarrados principales de cuadro mediano
+  · XT7 (Frame 1600A)    → Acometidas y distribución principal
+  · Emax2               → Centros de transformación, CGD, subestaciones BT, data centers
+
+=======================================================
+COMPARATIVA ABB vs SIEMENS
+=======================================================
+  ABB Tmax XT1B160   ↔   Siemens 3VA1 Frame 160 clase S
+  ABB Tmax XT2S160   ↔   Siemens 3VA1 Frame 160 clase M
+  ABB Tmax XT4N250   ↔   Siemens 3VA1 Frame 250 clase S
+  ABB Emax2 E2N2000  ↔   Siemens 3WL (ACB grandes)
+
+=======================================================
+ACCESORIOS (ver cuadro separado)
+=======================================================
+  · Bobinas MN (mínima tensión) / MX (tensión de disparo)
+  · Motores de mando (motorización rearme)
+  · Bloques contactos aux NA/NC (señalización estado)
+  · Manetas rotativas para puerta
+  → Ver cuadro: accesorios_mccb_bobinas_manetas.txt

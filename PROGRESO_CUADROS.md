@@ -3,8 +3,8 @@ Iniciado: 2026-04-07
 Última actualización: 2026-04-07
 
 ## Estado actual
-- **Total cuadros en panel: 178**
-- **Última actualización:** 2026-04-09
+- **Total cuadros en panel: 206**
+- **Última actualización:** 2026-04-14
 - **Grupo Autómatas programables:** 56 cuadros ✅ COMPLETO
 - **Grupo Contactores:** 11 cuadros ✅ COMPLETO (2026-04-07)
 - **Grupo Reles:** 11 cuadros ✅ COMPLETO (2026-04-07)
@@ -77,6 +77,35 @@ Iniciado: 2026-04-07
 - `soldadura_exotermica_tierra.txt` — Moldes KLK (CC/CP/TH/XS), cartuchos C-65/150/200, ERICO Cadweld Plus, herramientas Armengol
 
 ### ⭐ SUBFAMILIA MATERIAL DE CONEXIÓN ELÉCTRICA: TODOS LOS GRUPOS COMPLETADOS (2026-04-13)
+
+---
+## SUBFAMILIA ACTUAL: Automáticos y diferenciales (~46.000 art. totales en Araiz)
+
+### Grupos de esta subfamilia:
+| # | Grupo | Art. aprox | Estado |
+|---|-------|-----------|--------|
+| 1 | Interruptor automático (MCCB/ACB) | ~22.000 | ✅ COMPLETO (2026-04-14) — 4 cuadros |
+| 2 | Accesorios para interruptor automático | ~9.800 | ✅ COMPLETO (2026-04-14) — 2 cuadros |
+| 3 | Magnetotérmico | ~10.400 | ✅ COMPLETO (2026-04-14) — 4 cuadros |
+| 4 | Accesorios para magnetotérmico | ~290 | ✅ COMPLETO (2026-04-14) — incluido en cuadro RCBO |
+| 5 | Diferencial y núcleo toroidal | ~3.220 | ✅ COMPLETO (2026-04-14) — 3 cuadros |
+
+### Cuadros escritos para esta subfamilia (13 cuadros):
+- `mccb_siemens_3va.txt` — Siemens 3VA1/3VA2 MCCB + 5TE8 + 3WL ACB
+- `mccb_abb_tmax_emax.txt` — ABB Tmax XT series + Emax2 ACB
+- `mccb_eaton_nzm_schneider_nsx.txt` — Eaton NZM + Schneider NSX/CVS/NS
+- `mccb_hager_legrand_otros.txt` — Hager h3+ + Legrand DPX3 + Gewiss MSX
+- `accesorios_mccb_bobinas_manetas.txt` — Bobinas MN/MX, manetas, motorizaciones
+- `accesorios_mccb_contactos_peines.txt` — Contactos aux, peines, bastidores, kits
+- `magnetotermico_residencial_1p2p.txt` — MCB 1P/1P+N/2P vivienda: Eaton/Legrand/Siemens/ABB/Schneider/Hager/Gewiss
+- `magnetotermico_residencial_3p4p.txt` — MCB 3P/4P trifásico e instalaciones
+- `magnetotermico_industrial_especial.txt` — Curvas D/K/Z, DC, Phoenix Contact TMC
+- `rcbo_y_accesorios_magnetotermico.txt` — RCBO combinado + accesorios magneto (Eaton FRBM, ABB DS200, Hager ADC)
+- `diferencial_residencial_2p4p.txt` — RCCB 2P/4P estándar: Siemens 5SV, Eaton, Schneider, ABB F200, Legrand DX3, Hager
+- `diferencial_clase_a_selectivo_toroidal.txt` — Clase A/B, selectivo tipo S, super-inmunizado, Circutor CBS/REC4
+- `bloque_diferencial_addon.txt` — Bloques add-on: Vigi (Schneider), DDA (ABB), 5SM (Siemens), NZM-XFI (Eaton)
+
+### ⭐ SUBFAMILIA AUTOMÁTICOS Y DIFERENCIALES: TODOS LOS GRUPOS COMPLETADOS (2026-04-14)
 
 - **Panel:** activo en localhost:5192
 

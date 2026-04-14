@@ -1,0 +1,170 @@
+CUADRO RESUMEN — MAGNETOTÉRMICOS 1P / 1P+N / 2P (VIVIENDA Y TERCIARIO)
+Familia: Electricidad > Automáticos y diferenciales > Magnetotérmico
+Total artículos grupo: ~10.400 art. | Este cuadro: 1P, 1P+N, 2P doméstico
+Marcas: Eaton, Legrand, Siemens, ABB, Schneider, Hager, Gewiss
+========================================================
+
+¿QUÉ ES UN MAGNETOTÉRMICO?
+= Interruptor automático en caja pequeña de carril DIN.
+Protege circuitos eléctricos contra:
+  · Sobrecarga (disparo térmico = bimetálico que se dobla con el calor)
+  · Cortocircuito (disparo magnético = instantáneo)
+
+Es el "automático" que ves en el cuadro de casa o negocio.
+Diferente del MCCB (caja moldeada industrial): el magnetotérmico es más pequeño y va
+en carril DIN de 35mm estándar.
+
+=======================================================
+PARÁMETROS CLAVE PARA PRESUPUESTAR
+=======================================================
+  1. POLOS: 1P / 1P+N / 2P / 3P / 4P (ver cuadro 3P/4P para esos)
+  2. CALIBRE (A): corriente nominal — 6/10/16/20/25/32/40/50/63A los más habituales
+  3. CURVA de disparo: B / C / D (ver abajo)
+  4. PODER DE CORTE (kA): capacidad de interrumpir cortocircuito: 6kA / 10kA habituales
+  5. TENSIÓN: 230V monofásico / 400V trifásico
+
+CURVAS DE DISPARO (¿cuándo dispara el magnético?):
+  · Curva B (×3-5 In) → para cargas resistivas (calefacción, alumbrado incandescente)
+                         → poco frecuente en España para vivienda
+  · Curva C (×5-10 In) → USO GENERAL — la más común en viviendas y oficinas
+                         → motores pequeños, fluorescentes, todo lo habitual
+  · Curva D (×10-20 In) → para cargas con arranques muy elevados (ver cuadro industrial)
+  · Curva Z/K           → para protección de electrónica sensible (ver cuadro industrial)
+
+  En viviendas y terciario: SIEMPRE CURVA C salvo indicación especial.
+
+=======================================================
+TIPOS DE POLO — EXPLICACIÓN
+=======================================================
+  · 1P     = 1 polo = solo protege la FASE (el neutro va directo, sin proteger)
+             El más pequeño y económico. Ocupa 1 módulo (18mm).
+  · 1P+N   = 1 polo + neutro = protege la FASE y DESCONECTA también el neutro
+             Ocupa 1 módulo de ancho (doble densidad). Muy habitual en vivienda española.
+  · 2P     = 2 polos = 2 fases protegidas (para circuitos bifásicos o alimentaciones 2F)
+             Ocupa 2 módulos.
+
+  En España (ITC-BT-17), los PIA de circuitos individuales suelen ser:
+  · 1P+N para circuitos monofásicos (lo más habitual hoy en día)
+  · El IGA (Interruptor General Automático) es el de cabecera: habitualmente 2P o 4P
+
+=======================================================
+CALIBRES TÍPICOS EN VIVIENDA (REBT España)
+=======================================================
+  · C10A 1P+N → Alumbrado (hasta 2.300W)
+  · C16A 1P+N → Tomas de corriente generales (habitaciones)
+  · C20A 1P+N → Lavadora / lavavajillas / toma cocina
+  · C25A 1P+N → Termo eléctrico / cocina eléctrica con horno
+  · C40A 2P   → IGA (Interruptor General Automático) vivienda pequeña
+  · C63A 2P   → IGA para viviendas con más consumo o electrificación elevada
+
+=======================================================
+MARCAS Y SERIES — MAGNETOTÉRMICO 1P / 1P+N / 2P
+=======================================================
+
+EATON (2.494 art. en grupo)
+  Serie CLS6 → doméstico básico, 6kA
+    · CLS6-C40 1P 40A 6kA — Ref. 263662 (uno de los más vendidos)
+    · Interruptor 1P+N C6A 6kA — Ref. 263279
+    · CLS6-C20-DE 1P 2A curva C — Ref. 247614
+
+  Serie PLS6 → doméstico estándar, 6kA
+    · PLS6-B3/3N-MW 3P+N curva B 3A — Ref. 242982
+
+  Serie Home → gama económica
+    · Home 2P curva C 20A — Ref. 194872
+
+  Serie ICP-M → Interruptor de Control de Potencia (para el contador)
+    · ICP-M 10A/2 2P — Ref. 70004023 (habitual en viviendas con discriminación)
+
+LEGRAND (990 art. en grupo)
+  Serie RX3 → gama económica para vivienda
+    · RX3 1P+N 6kA 10A — Ref. 419925
+    · RX3 1P+N 6kA 16A — Ref. 419926 (muy vendido)
+    · RX3 1P+N 6kA 25A — Ref. 419928 (muy vendido)
+
+  Serie DX3 → gama media, 6/10kA doble potencia de corte
+    · DX3 1P+N C25 1 módulo — Ref. 407730
+    · DX3 1P+N C32 1 módulo — Ref. 407731
+    → NOTA: DX3 1P+N ocupa 1 módulo de ancho (más compacto que otros)
+
+  Serie TX3 → gama media 2P
+    · TX3 6kA-C 2P 20A — Ref. 403607
+    · TX3 6kA-C 2P 32A — Ref. 403609
+    · TX3 6kA-C 2P 40A — Ref. 403610
+    · TX3 6kA-C 2P 50A — Ref. 403611
+
+SIEMENS (2.194 art. en grupo)
+  Serie 5SL6 → doméstico estándar 6kA
+    · 5SL6503-7 — 230V 6kA 1P+N C3A
+    · 5SL6250-7 — 400V 6kA 2P C50A
+    · 5SL6201-7 — 400V 6kA 2P C1A
+    · 5SL6210-6 — 400V 6kA 2P B10A (curva B)
+
+  Serie 5SL4 → 10kA (mayor poder de corte)
+    · 5SL4504-7 — 10kA 1P+N C4A 70mm
+    · 5SL4525-7 — 10kA 1P+N C25A 70mm
+    · 5SL4150-8 — 10kA 1P D50A (curva D industrial → ver cuadro industrial)
+
+  Serie 5SP → Interruptor magnetotérmico selectivo / IGA
+    · 5SP3825-2 — magnetotérmico principal 3×1P 25A 230/400V
+    · 5SP3840-2 — principal 3×1P 40A
+    · 5SP3850-2 — principal 3×1P 50A
+    · 5SP3725-2 — principal 1P (SHU) 25A 230/400V
+
+ABB (1.452 art. en grupo)
+  Serie SH201 / SH204 → doméstico estándar 6kA
+    · SH201-C6NA 1P+N 6A C 6kA — Ref. 2CDS211103R0064
+    · SH201-C16 1P 16A C 6kA — Ref. 2CDS211001R0164
+    · SH204-C32 4P 32A C 6kA — Ref. 2CDS214001R0324
+    · SV201-C16NA 1P+N 16A C 6kA — Ref. 2CDS211166R0164
+
+  Serie S281UCK → unipolar ICP
+    · S281UCK 6A 1P — Ref. GHS2810164R0377 (gama de bajo coste)
+
+SCHNEIDER ELECTRIC (1.115 art. en grupo)
+  Serie iK60N → doméstico estándar 6kA (sustituye al antiguo iC60N)
+    · A9K17610 — iK60N 1P+N 10A curva-C (muy vendido)
+    · A9K17606 — iK60N 1P+N 6A curva-C
+    · A9K17232 — iK60N 2P 32A curva-C
+    · A9K24440 — iK60N 4P 40A curva-C (→ ver cuadro 3P/4P)
+    · A9K17416 — iK60N 4P 16A curva-C
+
+  Serie iC60H → 10kA
+    · A9F89440 — iC60H 4P 40A curva-C 10kA
+    · A9F89463 — iC60H 4P 63A curva-C 10kA
+
+HAGER (382 art. en grupo)
+  Serie MN → 1P+N compacto
+    · MN910V — MN 1P+N 10A curva-C
+    · MN520V — MN 1P+N 20A curva-C
+    · MN925V — MN 1P+N 25A curva-C
+
+  Serie MCA / MP → 2P
+    · MCA306 — automático M C 6kA 3P 6A (también hay 2P)
+    · MP205E — interruptor magnético bipolar 5A curva ICP-M
+    · MP240E — magnético bipolar 40A curva ICP-M
+    · MP210E — magnético bipolar 10A curva ICP-M
+
+GEWISS (1.021 art. en grupo)
+  Serie MTC 60 → compacto 1 módulo ancho
+    · GW90228 — MTC 60 1P+N 20A curva C 1 módulo
+    · GW90266 — MTC 60 3P 10A curva C 1 módulo
+    · GW90289 — MTC 60 4P 25A curva C 1 módulo
+
+  Serie MT60 → estándar 2P/3P
+    · GW92049 — MT60 2P 25A curva C 2 módulos
+    · GW92071 — MT60 3P 40A curva C 3 módulos
+
+=======================================================
+COMPARATIVA RÁPIDA ENTRE MARCAS (1P+N vivienda)
+=======================================================
+Todas las siguientes son equivalentes funcionales (1P+N C16A 6kA):
+  · Eaton CLS6-C16/1N         → gama económica
+  · Legrand RX3 1P+N 6kA 16A  → gama económica (419926)
+  · ABB SH201-C16NA            → gama estándar
+  · Siemens 5SL6516-7          → gama estándar
+  · Schneider iK60N 1P+N 16A   → gama estándar
+  · Hager MN916V               → gama media
+  · Gewiss MTC 60 1P+N 16A     → alternativa italiana
+
+El precio varía aprox ×1,5-2 entre gama económica y premium.

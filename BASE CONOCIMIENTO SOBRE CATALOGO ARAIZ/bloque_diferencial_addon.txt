@@ -1,0 +1,149 @@
+CUADRO RESUMEN — BLOQUES DIFERENCIALES ADD-ON (VIGI, DDA, 5SM, NZM-XFI)
+Familia: Electricidad > Automáticos y diferenciales > Diferencial y núcleo toroidal
+Total artículos grupo: ~3.220 art. | Este cuadro: bloques add-on + módulos especiales
+Marcas: Schneider (Vigi), ABB (DDA), Siemens (5SM), Eaton (NZM-XFI), Hager
+========================================================
+
+¿QUÉ ES UN BLOQUE DIFERENCIAL ADD-ON?
+Un bloque diferencial add-on es un módulo que se AÑADE a un magnetotérmico o MCCB
+ya existente para añadirle protección diferencial SIN tener que cambiar el interruptor.
+
+CUÁNDO SE USA:
+  · Cuando tienes un MCB o MCCB ya instalado y necesitas añadir diferencial
+  · Para grandes calibres donde no existe un diferencial modular puro (>100A)
+  · Para proteger un cuadro completo con un solo bloque (diferencial de cabecera)
+  · Para complementar MCCBs industriales (NSX, 3VA, Tmax XT...) con protección diferencial
+
+TIPOS:
+  · Bloque add-on para MCB carril DIN → se engancha lateralmente o en la parte trasera
+  · Bloque Vigi para MCCB (NSX, C120) → módulo específico que se añade al MCCB
+
+=======================================================
+SCHNEIDER — BLOQUES VIGI
+=======================================================
+La gama Vigi es la familia de módulos diferenciales add-on de Schneider Electric.
+
+VIGI para MCCB (NSX / Compact):
+  · LV432466 — Vigi NSX400/630 3P 440-550V 0,3-30A (ajustable, para grandes MCCB)
+  · LV429498 — Vigi NSX100/160/250 3P solo alarma (sin disparo, para monitorización)
+  Estos se añaden a la parte trasera del NSX para convertirlo en un MCCB diferencial
+
+VIGI para Acti9 iC60 (MCB carril DIN):
+  · A9V11363 — VIGI iC60 3P 63A 30mA clase CA
+  · A9V14463 — VIGI iC60 4P 63A 300mA clase CA
+  · A9Q11340 — QUICK VIGI iC60 3P 40A 30mA clase AC
+  · A9Q14425 — QUICK VIGI iC60 4P 25A 300mA clase AC
+
+VIGI para NG125/C120 (MCB grande):
+  · 19016 — VIGI NG125/63 4P 300mA clase A
+  · 18599 — Bloqueo Vigi C120 instantáneo 4P 500mA tipo A
+
+VIGIREX (relé diferencial Schneider — sistema externo):
+  · LV481010 — VIGIREX RHB tipo B (relé diferencial con toroide externo)
+
+NOTA: La referencia "QUICK VIGI" (A9Q...) se instala sin herramienta en segundos.
+La referencia "VIGI" (A9V...) también es fácil pero requiere más manipulación.
+
+=======================================================
+ABB — BLOQUES DDA (Differential Device Add-on)
+=======================================================
+Serie DDA = bloques diferenciales para añadir a MCBs ABB (Tmax T / S200 / XT).
+
+DDA204 → 4P (trifásico + neutro):
+  · 2CSB204101R1250 — DDA204A-25/0,03 4P 25A tipo A 30mA
+  · 2CSB204101R3250 — DDA204A-25/0,3 4P 25A tipo A 300mA
+  · 2CSB204101R4400 — DDA204A-40/0,5 4P 40A tipo A 500mA
+
+DDA203 → 3P:
+  · 2CSB203101R1630 — DDA203A-63/0,03 3P 63A tipo A 30mA
+  · 2CSB203101R2400 — DDA203A-40/0,1 3P 40A tipo A 100mA
+  · 2CSB203101R2630 — DDA203A-63/0,1 3P 63A tipo A 100mA
+  · 2CSB203401R1250 — DDA203A25/0,03APR 3P 25A tipo A APR (Anti-Pulse Rejection)
+  · 2CSB203401R1630 — DDA203A63/0,03APR 3P 63A tipo A APR
+
+NOTA APR (Anti-Pulse Rejection):
+  Mayor inmunidad a disparos por transitorios eléctricos (rayos, switcheo de cargas).
+  Equivalente a lo que Legrand llama HPI y Hager llama HI.
+
+=======================================================
+SIEMENS — BLOQUES 5SM Y SERIE 5SM3
+=======================================================
+Serie 5SM2 → bloques add-on para MCBs 5SY (gama antigua) y 5SL:
+  · 5SM2121-0 — Bloque diferencial 2P tipo AC 16A 10mA (para 5SY)
+  · 5SM2332-0 — Bloque diferencial 6/40A 30mA
+  · 5SM2323-0 — Bloque diferencial automático 5SL4 clase CA 0,3-40A 2P 30mA
+
+Serie 5SM3 → diferenciales puros modulares (también en este grupo):
+  · 5SM3314-0FC — 5SM3 bipolar 40A 30mA
+  · 5SM3347-0 — 4P 80A 30mA clase AC
+  · 5SM3346-0 — 4P 63A 30mA clase AC
+  · 5SM3644-4 — 4P 40A 300mA
+  · 5SM3646-4 — 4P 63A 300mA
+
+NOTA: Los 5SM3 son diferenciales "puros" de mayor tamaño (ancho 4 módulos),
+diseñados para calibres altos y mayor robustez que los 5SV.
+
+=======================================================
+EATON — BLOQUES NZM-XFI (ADD-ON PARA NZM)
+=======================================================
+Los bloques XFI se añaden a los MCCBs NZM para convertirlos en diferenciales.
+
+PARA NZM1:
+  · 104603 — NZM1-XFI30R 0,03A (30mA) fijo
+  · 104604 — NZM1-XFI300R 0,3A (300mA) fijo
+  · 104605 — NZM1-XFIR ajustable (0,03A a 0,3A)
+  · 104609 — NZM1-XFI30U (30mA) fijo
+  · 104610 — NZM1-XFI300U (300mA) fijo
+  · 104611 — NZM1-XFIU ajustable
+
+PARA NZM2:
+  · 292344 — NZM2-4-XFI ajustable (4P)
+  · 292345 — NZM2-XFIA30 0,03A (30mA)
+  · 292346 — NZM2-XFIA ajustable
+
+PARA NZM4:
+  · 104614 — NZM1-4-XFIU ajustable
+  → También: NZM3-4-XFIU para los NZM3
+
+NOMENCLATURA NZM-XFI:
+  NZM1 - XFI  30  R
+  │      │    │   └── R = regulable (ajustable) / U = universal
+  │      │    └────── Sensibilidad en mA (30=30mA, 300=300mA)
+  │      └─────────── XFI = bloque diferencial add-on
+  └────────────────── Frame NZM (1/2/3/4)
+
+NOTA: Los bloques NZM-XFI van integrados en el MCCB NZM, no son módulos separados
+de carril DIN. Son accesorios específicos de montaje del NZM.
+
+RELÉ DIFERENCIAL EATON (ajustable):
+  · 070012096 — Relé diferencial regulable RGU-10-400V 0,03-30A
+    → Este es un relé independiente (con toroide externo) para grandes calibres
+
+=======================================================
+COMPARATIVA RÁPIDA — ¿QUÉ SISTEMA USAR?
+=======================================================
+| Situación | Solución recomendada |
+|-----------|---------------------|
+| MCB iC60/iK60 Schneider, necesito diferencial | VIGI iC60 (A9V o A9Q) |
+| MCB NSX Schneider, necesito diferencial | VIGI NSX (LV...) |
+| MCB ABB S200/XT, necesito diferencial | Bloque DDA203/DDA204 |
+| MCCB NZM Eaton, necesito diferencial | Bloque NZM-XFI |
+| MCCB Siemens 5SL, necesito diferencial | Bloque 5SM2 |
+| Calibre >100A, sin diferencial modular disponible | Relé diferencial + toroide |
+| Instalación crítica, solo quiero alarma sin disparo | VIGI modo alarma (LV429498) |
+
+=======================================================
+MÓDULOS AUXILIARES Y RELÉS (miscelánea del grupo)
+=======================================================
+También en este grupo aparecen:
+  · ABB: bobinas de mínima tensión para S2C
+    → 2CSS200911R0007 — S2C-UA24DC (24V DC)
+    → 2CSS200911R0008 — S2C-UA48DC (48V DC)
+    → 2CSS200911R0009 — S2C-UA110DC (110V DC)
+
+  · Schneider: N40N VIGI (magnetotérmico con diferencial integrado)
+    → M9D11610 — N40N VIGI 10A curva-C 30mA 10kA (es un RCBO con el nombre N40N)
+    → M9P22740 — N40N 3P+N 40A curva-C 10kA (sin diferencial, solo magneto)
+
+  · Eaton: relé diferencial ajustable
+    → 070012096 — RGU-10-400V 0,03-30A (para usar con toroide externo)

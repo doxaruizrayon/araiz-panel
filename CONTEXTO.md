@@ -1,5 +1,5 @@
 # CONTEXTO — Estado del proyecto Araiz
-Actualizado: 2026-04-09
+Actualizado: 2026-04-14
 
 ## QUÉ ESTAMOS HACIENDO
 
@@ -14,42 +14,36 @@ Los cuadros se leen desde el panel local en **http://localhost:5192**
 
 ## DÓNDE ESTAMOS AHORA
 
-**Total cuadros escritos: 178**
+**Total cuadros escritos: 206**
 
 ### Subfamilias completadas:
 - Autómatas programables y robots industriales — 56 cuadros (Lotes A/B/C/D...)
 - Aparellaje eléctrico — todos los grupos completados (26 grupos, ~116 cuadros)
+- Material de conexión eléctrica — todos los grupos completados (11 grupos, ~19 cuadros)
+- **Automáticos y diferenciales — todos los grupos completados (5 grupos, 13 cuadros) ← ÚLTIMA SESIÓN**
 
-### Subfamilia en curso: Material de conexión eléctrica
-API filter: `classification_l2: 'Material de conexión eléctrica'`
-Total artículos en esta subfamilia: 93.473
+### Cuadros de Automáticos y diferenciales (13 cuadros, ~46.000 art.):
+- Interruptor automático (MCCB/ACB): `mccb_siemens_3va.txt`, `mccb_abb_tmax_emax.txt`, `mccb_eaton_nzm_schneider_nsx.txt`, `mccb_hager_legrand_otros.txt`
+- Accesorios MCCB: `accesorios_mccb_bobinas_manetas.txt`, `accesorios_mccb_contactos_peines.txt`
+- Magnetotérmico: `magnetotermico_residencial_1p2p.txt`, `magnetotermico_residencial_3p4p.txt`, `magnetotermico_industrial_especial.txt`, `rcbo_y_accesorios_magnetotermico.txt`
+- Diferencial: `diferencial_residencial_2p4p.txt`, `diferencial_clase_a_selectivo_toroidal.txt`, `bloque_diferencial_addon.txt`
 
-**Grupos completados:**
-- Conectores (50.412 art.) — 3 cuadros:
-  - `conectores_regleta_pcb.txt`
-  - `conectores_industriales_circulares.txt`
-  - `cables_sensor_actuador_m12.txt`
+## SIGUIENTE SUBFAMILIA A HACER
 
-- Bornas (25.237 art.) — 3 cuadros:
-  - `bornas_carril_din_phoenix.txt`
-  - `bornas_especiales_funcionales.txt`
-  - `accesorios_bornas_carril.txt`
+**Envolventes, armarios y cajas** (~43.400 art.)
+API filter: `classification_l2: 'Envolventes, armarios y cajas'`
 
-**SIGUIENTE GRUPO A HACER:**
-Prensaestopas, racores y otros accesorios (4.843 art.)
-  API filter: classification_l3 = 'Prensaestopas, racores y otros accesorios'
-  Marcas esperadas: Gaestopas, Phoenix Contact, Weidmuller, Roxtec
-  Tipos esperados: prensaestopas métricos, PG, racores, tapones ciegos, pasamuros
+Para ver los grupos disponibles:
+  facets: { classification_l3: [{ type: 'value', size: 30 }] }
+  filters: { all: [{ classification_l2: 'Envolventes, armarios y cajas' }] }
 
-**Grupos pendientes después (en orden):**
-3. Etiquetas e identificadores para bornes y circuitos (3.643 art.)
-4. Terminales (3.248 art.)
-5. Tomas de corriente industriales (3.148 art.)
-6. Pletinas y embarrados (937 art.)
-7. Terminaciones y empalmes (572 art.)
-8. Regletas y PDU (519 art.)
-9. Repartidores (518 art.)
-10. Material para puesta a tierra (396 art.)
+Grupos esperados (aproximados):
+- Armarios metálicos
+- Cajas de distribución
+- Envolventes de plástico
+- Accesorios para armarios
+- Cuadros de vivienda (empotrar/superficie)
+- Racks y armarios de telecomunicaciones
 
 ## REGLAS DE TRABAJO (NO CAMBIAR)
 - NO borrar archivos .txt de la base de conocimiento
@@ -67,17 +61,17 @@ Key:  search-r7e1j8xyqi5nhnr44tgiqqhf
 Auth: Bearer [KEY]
 
 Filtros para un grupo:
-  classification_l2: 'Material de conexión eléctrica'
+  classification_l2: 'Automáticos y diferenciales'
   classification_l3: 'NOMBRE DEL GRUPO'
 
 Facets útiles: brand_name (size:20), etim_class_name (size:20)
 
-## SUBFAMILIAS PENDIENTES (después de Material de conexión eléctrica)
-1. Automáticos y diferenciales (45.884 art.)
-2. Envolventes, armarios y cajas (43.399 art.)
-3. Pequeño material (mecanismos) (24.387 art.)
-4. Hilos y cables (19.670 art.)
-5. Equipo de seguridad y almacenamiento de energía (16.897 art.)
-6. Alumbrado de interior (12.823 art.)
-7. Bandejas, canales y tubos conducción cables (10.655 art.)
+## SUBFAMILIAS PENDIENTES (en orden de tamaño)
+1. ~~Automáticos y diferenciales~~ ✅ COMPLETADO
+2. Envolventes, armarios y cajas (~43.400 art.) ← SIGUIENTE
+3. Pequeño material (mecanismos) (~24.400 art.)
+4. Hilos y cables (~19.700 art.)
+5. Equipo de seguridad y almacenamiento de energía (~16.900 art.)
+6. Alumbrado de interior (~12.800 art.)
+7. Bandejas, canales y tubos conducción cables (~10.700 art.)
 ... (ver lista completa con facets en classification_l2)
