@@ -14,44 +14,54 @@ Los cuadros se leen desde el panel local en **http://localhost:5192**
 
 ## DÓNDE ESTAMOS AHORA
 
-**Total cuadros escritos: 206**
+**Total cuadros escritos: 260**
 
-### Subfamilias completadas:
-- Autómatas programables y robots industriales — 56 cuadros (Lotes A/B/C/D...)
-- Aparellaje eléctrico — todos los grupos completados (26 grupos, ~116 cuadros)
-- Material de conexión eléctrica — todos los grupos completados (11 grupos, ~19 cuadros)
-- **Automáticos y diferenciales — todos los grupos completados (5 grupos, 13 cuadros) ← ÚLTIMA SESIÓN**
+### Familia Electricidad — COMPLETADA AL 100%
 
-### Cuadros de Automáticos y diferenciales (13 cuadros, ~46.000 art.):
-- Interruptor automático (MCCB/ACB): `mccb_siemens_3va.txt`, `mccb_abb_tmax_emax.txt`, `mccb_eaton_nzm_schneider_nsx.txt`, `mccb_hager_legrand_otros.txt`
-- Accesorios MCCB: `accesorios_mccb_bobinas_manetas.txt`, `accesorios_mccb_contactos_peines.txt`
-- Magnetotérmico: `magnetotermico_residencial_1p2p.txt`, `magnetotermico_residencial_3p4p.txt`, `magnetotermico_industrial_especial.txt`, `rcbo_y_accesorios_magnetotermico.txt`
-- Diferencial: `diferencial_residencial_2p4p.txt`, `diferencial_clase_a_selectivo_toroidal.txt`, `bloque_diferencial_addon.txt`
+| Subfamilia | Cuadros | Grupos |
+|---|---|---|
+| Aparellaje eléctrico | 172 | 26 |
+| Material de conexión eléctrica | 13 | 11 |
+| Automáticos y diferenciales | 13 | 5 |
+| Bandejas, canales y tubos | 13 | 20 |
+| Envolventes, armarios y cajas | 10 | 10 |
+| Hilos y cables | 11 | 11 |
+| Equipo de seguridad y energía | 8 | 10 |
+| Pequeño material (mecanismos) | 5 | 5 |
+| Vehículo eléctrico | 4 | 5 |
+| Media y alta tensión | 3 | 3 |
+| **TOTAL** | **252** | **106** |
 
-## SIGUIENTE SUBFAMILIA A HACER
+### Familias pendientes (sin ningún cuadro aún)
+- Iluminación, Comunicaciones, Domótica, Climatización, Neumática, Renovables,
+  Herramientas, Ferretería, Seguridad
 
-**Envolventes, armarios y cajas** (~43.400 art.)
-API filter: `classification_l2: 'Envolventes, armarios y cajas'`
+## PANEL VERCEL — LISTO PARA PUBLICAR
 
-Para ver los grupos disponibles:
-  facets: { classification_l3: [{ type: 'value', size: 30 }] }
-  filters: { all: [{ classification_l2: 'Envolventes, armarios y cajas' }] }
+La Opción A (panel estático sin servidor) está preparada en `panel_vercel/`.
 
-Grupos esperados (aproximados):
-- Armarios metálicos
-- Cajas de distribución
-- Envolventes de plástico
-- Accesorios para armarios
-- Cuadros de vivienda (empotrar/superficie)
-- Racks y armarios de telecomunicaciones
+**Archivos:**
+- `panel_vercel/generar.js` — genera `base_conocimiento.json` desde los .txt
+- `panel_vercel/index.html` — el panel completo (búsqueda, catálogo, alfabético)
+- `panel_vercel/.gitignore` — excluye los JSON generados de git
+
+**Flujo de publicación (cuando se tengan las cuentas):**
+```
+node panel_vercel/generar.js   ← genera el JSON (ejecutar cada vez que se añadan cuadros)
+npx vercel --prod              ← sube el panel a internet
+```
+
+**Pendiente:**
+1. Crear cuenta GitHub
+2. Crear cuenta Vercel (se vincula con GitHub)
+3. Primera publicación — Aurora necesita guía paso a paso
 
 ## REGLAS DE TRABAJO (NO CAMBIAR)
 - NO borrar archivos .txt de la base de conocimiento
 - NO mostrar código mientras se trabaja
 - NO reiniciar el panel a mitad de trabajo — solo al terminar una subfamilia completa
-- Consultar la API antes de escribir cada grupo nuevo
-- 2-3 cuadros por grupo grande (>2.000 art.), 1 cuadro para grupos pequeños (<500 art.)
-- Los cuadros van en: C:\PROYECTOS IA\ARAIZ\BASE CONOCIMIENTO SOBRE CATALOGO ARAIZ\
+- 1 cuadro por grupo (metodología simplificada acordada con Aurora)
+- Los cuadros van en: `C:\PROYECTOS IA\ARAIZ\BASE CONOCIMIENTO SOBRE CATALOGO ARAIZ\`
 
 ## CÓMO CONSULTAR LA API (para retomar)
 
@@ -61,17 +71,16 @@ Key:  search-r7e1j8xyqi5nhnr44tgiqqhf
 Auth: Bearer [KEY]
 
 Filtros para un grupo:
-  classification_l2: 'Automáticos y diferenciales'
-  classification_l3: 'NOMBRE DEL GRUPO'
+  classification_l2: 'nombre de subfamilia'
+  classification_l3: 'nombre del grupo'
 
-Facets útiles: brand_name (size:20), etim_class_name (size:20)
+## ESTRUCTURA DEL PROYECTO
 
-## SUBFAMILIAS PENDIENTES (en orden de tamaño)
-1. ~~Automáticos y diferenciales~~ ✅ COMPLETADO
-2. Envolventes, armarios y cajas (~43.400 art.) ← SIGUIENTE
-3. Pequeño material (mecanismos) (~24.400 art.)
-4. Hilos y cables (~19.700 art.)
-5. Equipo de seguridad y almacenamiento de energía (~16.900 art.)
-6. Alumbrado de interior (~12.800 art.)
-7. Bandejas, canales y tubos conducción cables (~10.700 art.)
-... (ver lista completa con facets en classification_l2)
+| Carpeta/Archivo | Para qué |
+|---|---|
+| `BASE CONOCIMIENTO SOBRE CATALOGO ARAIZ/` | 260 cuadros .txt |
+| `panel_vercel/` | Panel listo para Vercel |
+| `servidor_conocimiento.js` | Panel local puerto 5192 |
+| `catalogo_completo.json` | 2.747 artículos de muestra (9/grupo) |
+| `araiz_ninja_v4.js` | Scraper del catálogo completo (regenera catalogo_total_v4.json) |
+| `_archivo/` | Versiones antiguas y catalogo_total_v4.json (2 GB) |
