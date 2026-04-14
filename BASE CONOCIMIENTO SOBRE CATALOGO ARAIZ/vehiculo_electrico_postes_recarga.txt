@@ -1,0 +1,105 @@
+CUADRO RESUMEN — POSTES DE RECARGA VE (Gewiss I-CON/I-ON, Simon SM20 Business)
+Familia: Electricidad > Vehículo eléctrico > Postes de recarga
+Ejemplo en Araiz: GEWISS I-CON 22kW T2S IP55 GWJ3004A / SIMON SM20 Business 7,4kW T2
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"poste cargador coche eléctrico parking" o "estación recarga doble VE comunidad empresa"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Son las estaciones de recarga en formato pedestal o columna — se instalan en el
+suelo (no en la pared) en parkings, áreas de servicio y aparcamientos al aire
+libre. La diferencia con los murales (wallbox) es que el poste es autoportante
+y puede dar servicio a uno o dos vehículos simultáneamente.
+
+**¿Cuándo usar un poste en lugar de un mural?**
+- Cuando no hay pared cerca de las plazas de aparcamiento (parkings al aire libre).
+- Cuando se quieren cargar 2 vehículos desde una sola instalación (poste doble).
+- Por estética o normativa de la comunidad/municipio (los postes son más "formales").
+- En instalaciones donde los coches aparcan en perpendicular a la pared.
+
+**GEWISS — Gama I-CON e I-ON**
+
+**Estación I-CON 22kW T2S Autostart IP55 (GWJ3004A):**
+- 22kW trifásico: carga rápida en AC para comunidades y empresas.
+- T2S = base Tipo 2 sin cable fijo (el usuario usa su propio cable).
+- Autostart = sin identificación: cualquier usuario puede iniciar la carga
+  directamente al conectar. Para uso libre (parkings sin control).
+- IP55: para exterior bajo lluvia y polvo.
+- Formato pedestal: se fija al suelo.
+
+**Estación I-ON RFID 22kW 2×T2S IP55 (GWJ1003R):**
+- Igual de potente pero con dos bases T2 = carga 2 vehículos a la vez.
+- RFID = control de acceso por tarjeta: solo usuarios autorizados pueden cargar.
+- Para parkings de empresa, hoteles, centros comerciales donde se quiere
+  control de uso y posible facturación.
+- La potencia de 22kW se puede compartir entre los 2 vehículos (carga dinámica).
+
+**SIMON — Gama SM20 Business**
+
+Simon ofrece tres variantes del mismo wallbox SM20 en formato mural (no son postes
+sino murales, pero aparecen en este grupo del catálogo):
+
+**SM20 Business Schuko + Base T2 7,4kW monofásico (0640341-100):**
+- Tiene dos conectores: uno schuko estándar y uno Tipo 2. El usuario elige.
+- 7,4kW monofásico: para instalaciones con solo suministro monofásico.
+- Incluye automático magnetotérmico y diferencial integrados.
+- Para comunidades de propietarios donde unos vecinos tienen VE y otros no
+  (el schuko sirve para usos domésticos, el T2 para el VE).
+
+**SM20 Business Socket T2 7,4kW con modem (0641141-100):**
+- Solo base T2, con modem de conectividad para gestión remota.
+- Permite control remoto, registro de cargas y actualización remota.
+
+**SM20 Business Cable recto 5m T2 7,4kW (0640142-100):**
+- Lleva cable Tipo 2 integrado de 5m: el usuario solo conecta al coche.
+- La solución más cómoda para uso privado o vivienda unifamiliar.
+- Incluye magnetotérmico y diferencial integrados.
+
+Lo que facilita:
+- Instalar carga en parkings al aire libre sin paredes disponibles (postes).
+- Cargar 2 vehículos simultáneamente con un solo punto de suministro (poste doble).
+- Dar servicio de recarga controlado con RFID en comunidades y empresas.
+
+Lo que evita que ocurra:
+- Conflictos de uso en parkings sin control de acceso (RFID evita uso no autorizado).
+- Cargadores que solo sirven para VE (SM20 con schuko también vale para otros usos).
+
+============================================================
+
+MODELOS EN ARAIZ (~5 artículos)
+--------------------------------------------------------------
+| Tipo                          | Marca  | Potencia | Conector     | Para qué                      |
+|-------------------------------|--------|----------|--------------|-------------------------------|
+| I-CON 22kW T2S Autostart IP55 | GEWISS | 22kW 3F  | T2 base libre| Parking libre exterior 22kW   |
+| I-ON RFID 22kW 2×T2S IP55    | GEWISS | 22kW 3F  | 2×T2 RFID   | Parking empresa 2VE con ctrl  |
+| SM20 Business Schuko+T2 7,4kW | SIMON  | 7,4kW 1F | Schuko+T2    | Comunidad: VE + otros usos    |
+| SM20 Business T2+modem 7,4kW  | SIMON  | 7,4kW 1F | T2 base+modem| VE con gestión remota 1F      |
+| SM20 Business cable 5m T2 7,4kW| SIMON | 7,4kW 1F | T2 cable fijo| VE cómodo cable integrado     |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                              | Por qué la necesitas                                     |
+|----|-------------------------------------------------------|----------------------------------------------------------|
+| 1  | ¿Hay pared disponible o hace falta poste autoportante?| Define si es wallbox mural o poste pedestal              |
+| 2  | ¿Cuántos vehículos necesita cargar simultáneamente?   | 2 vehículos a la vez → poste doble (I-ON)               |
+| 3  | ¿El suministro es monofásico o trifásico?             | Monofásico → SM20 7,4kW; trifásico → Gewiss 22kW        |
+| 4  | ¿Necesita control de acceso (RFID)?                   | Sin control → Autostart; con control → RFID             |
+| 5  | ¿Prefiere cable fijo o base sin cable?                | Cable fijo más cómodo; base sin cable más flexible      |
+
+CONSEJO: El modelo con schuko + T2 de Simon (SM20 Business Schuko+T2) es muy útil
+en comunidades de propietarios donde no todos los vecinos tienen VE. El schuko sirve
+para cargar dispositivos normales o herramientas, y el T2 para el coche eléctrico.
+Así justificas la instalación aunque solo un vecino tenga VE ahora — los demás
+también sacan provecho del punto instalado.
+
+============================================================
+Fuentes:
+- Gewiss EV Charging: https://www.gewiss.com/es/es/ev-charging
+- Simon SM20 Business: https://www.simonelectric.com/vehiculo-electrico
+============================================================

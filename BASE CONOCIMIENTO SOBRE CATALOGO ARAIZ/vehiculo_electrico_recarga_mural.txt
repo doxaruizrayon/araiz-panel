@@ -1,0 +1,109 @@
+CUADRO RESUMEN — PUNTOS DE RECARGA MURALES VE (Circutor eHome, Legrand Green'up, Schneider EVlink Pro AC)
+Familia: Electricidad > Vehículo eléctrico > Puntos de recarga en pared
+Ejemplo en Araiz: CIRCUTOR eHome 5 T2C32 negro / SCHNEIDER EVlink Pro AC 22kW T2S
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"wallbox cargador mural coche eléctrico instalar" o "diferencia Tipo 2 recarga 7kW 22kW"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Son los cargadores de pared (wallbox) para vehículo eléctrico — los que se instalan
+fijos en la pared del garaje o parking para cargar coches eléctricos e híbridos
+enchufables más rápido que con un enchufe doméstico convencional.
+
+**¿Por qué no basta con un enchufe normal?**
+Un enchufe schuko de 16A carga a ~3,7kW máximo. Un wallbox puede cargar a 7,4kW
+(monofásico) o hasta 22kW (trifásico) — 3 a 6 veces más rápido. Además incorpora
+protecciones específicas para VE (diferencial tipo A-EV o B-EV) que evitan
+problemas con las corrientes de carga de los coches modernos.
+
+**Tipos de conector (Modo 3):**
+- **Tipo 2 (T2)**: el estándar europeo para VE. Todos los coches europeos modernos
+  tienen Tipo 2 en el lado del vehículo. El cargador tiene un cable fijo T2 o una
+  base T2 donde el usuario conecta su propio cable.
+- **Schuko**: conector doméstico estándar europeo. Modo 2 (más lento, 3,7kW).
+
+**Modos de carga:**
+- **Modo 2**: cable con caja de control (EVSE portátil) entre enchufe y coche. Lento.
+- **Modo 3**: wallbox fijo conectado directamente al coche por cable Tipo 2. Estándar.
+
+---
+
+**1. CIRCUTOR eHOME 5 T2C32 (negro)**
+Wallbox doméstico de Circutor:
+- Tipo 2 con cable integrado, 32A — hasta 7,4kW monofásico o 22kW trifásico.
+- Negro: acabado oscuro para instalaciones con preferencia estética.
+- Gestión básica. Para garajes particulares, comunidades de propietarios.
+
+**2. LEGRAND GREEN'UP HOME 7,4kW Mural (057035)**
+- Monofásica 7,4kW. Toma Modo 3 + Modo 2 (admite tanto cable Tipo 2 como
+  cable schuko con caja EVSE portátil).
+- IP55 / IK10: resistente a chorros de agua y a golpes (para aparcamientos).
+- Verde'up es la gama VE de Legrand: reconocible por su diseño verde.
+
+**3. SCHNEIDER EVlink Pro AC 22kW T2S RCD B-EV MNX (EVB3S22N4B)**
+- Cargador profesional trifásico 22kW. La opción más potente de la gama mural.
+- T2S = base Tipo 2 (el cable lo pone el usuario, no está integrado).
+- RCD B-EV = diferencial tipo B específico para VE (protege contra corrientes DC
+  residuales que los diferenciales normales tipo A no detectan).
+- MNX = con pantalla y teclado para gestión local.
+- Para comunidades, empresas y flotas con alta rotación de vehículos.
+
+**4. CAJA CONEXIÓN SOLAR FUS (GAVE STM30140P15)**
+Este artículo dentro del grupo es en realidad una caja de conexión fotovoltaica:
+110VDC, 1 MPPT, 3 strings, fusibles 15A, seccionador 40A + SPD clase II.
+Se usa en la parte de corriente continua de instalaciones fotovoltaicas (no
+es propiamente para VE, pero aparece en este grupo del catálogo).
+
+**5. RECAMBIO PANEL FRONTAL ABB (6AGC101274)**
+Panel frontal de repuesto para cargadores TAC de ABB. Recambio para mantenimiento.
+
+Lo que facilita:
+- Cargar vehículos eléctricos mucho más rápido que con enchufe doméstico.
+- Instalaciones resistentes en parkings (IP55, IK10) con protección específica VE.
+- Cargadores 22kW para rotar vehículos rápidamente en flotas o comunidades.
+
+Lo que evita que ocurra:
+- Carga lenta e ineficiente por usar enchufe schuko para cargar el VE.
+- Disparos del diferencial estándar por corrientes DC del cargador (necesita RCD B-EV).
+- Averías en cargadores de exterior sin protección IP suficiente.
+
+============================================================
+
+MODELOS EN ARAIZ (~5 artículos principales)
+--------------------------------------------------------------
+| Tipo                          | Marca     | Potencia  | Conector | Para qué                     |
+|-------------------------------|-----------|-----------|----------|------------------------------|
+| eHome 5 T2C32 negro           | CIRCUTOR  | hasta 22kW| T2 cable | Garaje particular doméstico  |
+| Green'up Home 7,4kW IP55 M3+M2| LEGRAND  | 7,4kW     | T2/Schuko| Garaje particular/comunidad  |
+| EVlink Pro AC 22kW T2S RCD B-EV| SCHNEIDER| 22kW      | T2 base  | Empresa/comunidad alta carga |
+| Caja FV FUS 110VDC MPPT       | GAVE      | —         | —        | Conexión DC fotovoltaica     |
+| Panel frontal TAC recambio    | ABB       | —         | —        | Recambio mantenimiento       |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                              | Por qué la necesitas                                     |
+|----|-------------------------------------------------------|----------------------------------------------------------|
+| 1  | ¿Es monofásico o trifásico el suministro?             | Sin trifásico → máximo 7,4kW; con trifásico → hasta 22kW |
+| 2  | ¿Cuántos kW admite el coche del cliente?              | El coche limita la carga (muchos solo admiten 7,4kW)     |
+| 3  | ¿Es exterior o interior cubierto?                     | Exterior → IP55 mínimo                                   |
+| 4  | ¿Cable fijo o base T2 (el usuario pone su cable)?     | Preferencia del cliente / política del parking           |
+| 5  | ¿Necesita control de acceso o gestión remota?         | Comunidad/empresa → RFID + sistema de gestión            |
+
+CONSEJO: La pregunta clave es si el suministro es monofásico o trifásico. La mayoría
+de viviendas son monofásicas → máximo 7,4kW. Si el cliente tiene trifásico puede
+llegar a 22kW, pero el coche también debe admitirlo (muchos VE de gama media solo
+aceptan 7,4kW aunque el cargador sea de 22kW). Siempre preguntar la potencia máxima
+de AC del coche para no vender un cargador sobredimensionado.
+
+============================================================
+Fuentes:
+- Circutor eHome: https://www.circutor.com/es/productos/carga-ve/
+- Legrand Green'up: https://www.legrand.es/greenup
+- Schneider EVlink: https://www.se.com/es/es/product-range/evlink/
+============================================================

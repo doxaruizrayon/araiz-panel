@@ -1,0 +1,120 @@
+CUADRO RESUMEN — APARELLAJE DE MEDIA Y ALTA TENSIÓN (Schneider SM6 / AirSeT, Acti9 iCVm protección terciaria)
+Familia: Electricidad > Media y alta tensión / Líneas aéreas > Aparellaje para MT y AT
+Ejemplo en Araiz: SCHNEIDER Celda SM6 24kV 630A / SCHNEIDER Acti9 iCVm40 1PN protección terciaria
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"celda media tensión SM6 qué es" o "protección terciaria ICP diferencial acometida"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Este grupo mezcla dos productos de naturaleza muy distinta: las celdas de media
+tensión para centros de transformación, y los dispositivos de protección terciaria
+para acometidas domésticas y terciarias.
+
+---
+
+**PARTE 1 — CELDAS DE MEDIA TENSIÓN (MT)**
+
+**¿Qué es la media tensión?**
+Se denomina media tensión (MT) al rango de 1kV a 36kV. Los centros de transformación
+(el "transformador verde de la calle") trabajan en MT — reciben la línea de MT de
+la distribuidora y la transforman a 400V/230V para los consumidores.
+
+**Celda SM6 24kV (Schneider):**
+Las celdas SM6 son los módulos que componen el cuadro de MT de un centro de
+transformación o subestación industrial. Son armarios de acero con interruptores,
+seccionadores y protecciones para trabajar a 24kV (segunda tensión normalizada
+en España: 20kV nominal → 24kV máximo).
+
+- **SM6 24kV GBCD vacía 630A 20kA RF-UFD**: celda de 630A de corriente nominal,
+  20kA de poder de corte en cortocircuito, vacía (sin los módulos interiores —
+  se configura según la función: medida, protección, transformador...).
+  RF = Ruptura en SF6 o vacío según la variante. UFD = Unidad de Función Definida.
+- **24kV**: soporta hasta 24kV de tensión de trabajo.
+- Para instalar en Centros de Transformación (CT) de industrias, urbanizaciones,
+  centros comerciales o subestaciones eléctricas.
+
+**Celda SM AirSeT 24kV (Schneider):**
+Variante de nueva generación de la celda SM6, con tecnología AirSeT:
+- Sin SF6: utiliza aire seco en lugar del gas SF6 (el SF6 es un gas de efecto
+  invernadero muy potente). Más ecológica y cumple con normativa de sostenibilidad.
+- Zigbee: comunicación inalámbrica integrada para monitorización remota.
+- Mismas funciones que la SM6 pero con tecnología más moderna.
+
+---
+
+**PARTE 2 — DISPOSITIVOS PROTECCIÓN TERCIARIA (Acti9 iCVm40)**
+
+**¿Qué es la protección terciaria?**
+La protección terciaria es la protección de la acometida de un local comercial,
+oficina o pequeño negocio (sector terciario). Se instala en la caja de acometida
+en la entrada del local y protege contra sobrecargas, cortocircuitos y fugas.
+
+El **Acti9 iCVm40** de Schneider es un RCBO (Residual Current circuit Breaker
+with Overcurrent protection) — combina en un solo módulo:
+- **Magnetotérmico**: protege contra sobrecargas y cortocircuitos.
+- **Diferencial**: protege contra fugas a tierra.
+
+Variantes del catálogo:
+- **1PN C 16A 30mA A** (A9DXC2616): 16A, diferencial 30mA tipo A.
+- **1PN C 20A 30mA A** (A9DXC3620): 20A, diferencial 30mA tipo A.
+- **1PN C 25A 300mA A** (A9DXC6625): 25A, diferencial 300mA tipo A.
+- **1PN C 32A 30mA A** (A9DXC2632): 32A, diferencial 30mA tipo A.
+- etc. según calibre y sensibilidad diferencial.
+
+Tipo A = detecta corrientes de fuga alternas y corrientes pulsantes DC
+(obligatorio cuando hay variadores, cargadores VE o electrónica de potencia).
+
+Lo que facilita:
+- Distribuir y proteger la energía eléctrica en centros de transformación (celdas SM6).
+- Proteger acometidas de locales comerciales con un único dispositivo combinado (iCVm).
+- Cumplir con la normativa de protección terciaria en locales del sector servicios.
+
+Lo que evita que ocurra:
+- Cortocircuitos y averías en instalaciones de MT sin interrupción controlada.
+- Incendios en locales comerciales por falta de protección diferencial en la acometida.
+
+============================================================
+
+MODELOS EN ARAIZ (~9 artículos)
+--------------------------------------------------------------
+| Tipo                          | Marca     | Ref.            | Para qué                           |
+|-------------------------------|-----------|-----------------|------------------------------------|
+| Celda SM6 24kV 630A vacía     | SCHNEIDER | SM61DANGJ6R7AMD0F | CT industrial/subestación         |
+| Celda SM AirSeT 24kV Zigbee   | SCHNEIDER | SR71ACNGJ5R9AAA32 | CT eco sin SF6 monitorizado      |
+| RCBO iCVm40 1PN C10A 300mA A  | SCHNEIDER | A9DXC6610       | Protec. terciaria local pequeño    |
+| RCBO iCVm40 1PN C16A 30mA A   | SCHNEIDER | A9DXC2616       | Protec. terciaria 16A sensib. alta |
+| RCBO iCVm40 1PN C16A 300mA A  | SCHNEIDER | A9DXC7616       | Protec. terciaria 16A sensib. baja |
+| RCBO iCVm40N 1PN C20A 30mA A  | SCHNEIDER | A9DXC3620       | Protec. terciaria 20A             |
+| RCBO iCVm40N 1PN C20A 300mA A | SCHNEIDER | A9DXC7620       | Protec. terciaria 20A sensib. baja |
+| RCBO iCVm40 1PN C25A 300mA A  | SCHNEIDER | A9DXC6625       | Protec. terciaria 25A             |
+| RCBO iCVm40 1PN C32A 30mA A   | SCHNEIDER | A9DXC2632       | Protec. terciaria 32A alta sensib. |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                              | Por qué la necesitas                                     |
+|----|-------------------------------------------------------|----------------------------------------------------------|
+| 1  | Para la celda: tensión de trabajo de la instalación MT?| 20kV o 36kV → define el modelo de celda                |
+| 2  | Para el iCVm: calibre en amperios necesario?          | Según la potencia contratada del local                   |
+| 3  | ¿Sensibilidad diferencial 30mA o 300mA?               | 30mA para protección personas; 300mA para protección anti-incendio|
+| 4  | ¿Hay cargas electrónicas (variadores, VE)?            | Si sí → tipo A obligatorio                              |
+| 5  | Para la celda SM6: ¿qué función necesita?             | Medida, protección, interruptor general... → configuración diferente|
+
+CONSEJO: Las celdas de MT son productos muy especializados que solo se piden para
+proyectos de CT. Si un cliente pide una celda, casi seguro es un instalador
+homologado en MT — pedir siempre especificaciones técnicas completas del proyecto.
+Los dispositivos iCVm40 son más habituales: se piden para acometidas de locales
+nuevos. La pregunta clave es el calibre (amperios) y la sensibilidad diferencial.
+30mA protege personas (obligatorio en zonas de trabajo). 300mA protege contra incendio
+(suficiente si hay otro diferencial 30mA aguas abajo).
+
+============================================================
+Fuentes:
+- Schneider SM6/AirSeT: https://www.se.com/es/es/product-range/sm6/
+- Schneider Acti9 iCVm: https://www.se.com/es/es/product-range/acti9/
+============================================================

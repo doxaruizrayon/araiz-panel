@@ -1,0 +1,141 @@
+CUADRO RESUMEN — COMPLEMENTOS PARA INSTALACIONES MT/AT: TERMINACIONES Y EMPALMES (Cellpack, Schneider)
+Familia: Electricidad > Media y alta tensión / Líneas aéreas > Complementos para instalaciones de MT y AT
+Ejemplo en Araiz: CELLPACK Terminación exterior CHE-F 36kV / CELLPACK Empalme CHMSV 36kV 150-240mm²
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"terminación cable media tensión instalación" o "empalme cable MT sellado"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Son los accesorios para terminar y empalmar cables de media y alta tensión:
+terminaciones (el remate del extremo del cable donde se conecta al aparato),
+empalmes (la unión entre dos tramos de cable) y conectores apantallados de MT.
+Son productos altamente especializados que solo instalan electricistas habilitados
+en MT (autorización de empresa instaladora categoría especialista en AT/MT).
+
+**¿Por qué los cables de MT necesitan terminaciones y empalmes especiales?**
+Un cable de MT (12/20kV o 18/30kV) tiene varias capas:
+1. Conductor de aluminio o cobre.
+2. Semiconductor interno.
+3. Aislante de XLPE (polietileno reticulado).
+4. Semiconductor externo.
+5. Pantalla metálica.
+6. Cubierta exterior.
+
+Al terminar o empalmar el cable, hay que reconstituir el gradiente de campo
+eléctrico de cada capa con precisión — si no, se producen descargas parciales
+que deterioran el aislamiento y acaban provocando un arco eléctrico a 20kV.
+Los kits de terminación y empalme incluyen todos los materiales necesarios
+(tubos termorretráctiles, mastic, cintas semiconductoras...) para hacer esto
+correctamente.
+
+---
+
+**CELLPACK — Terminaciones y empalmes MT**
+
+**Terminación exterior CHE-F 36kV 500-800mm² (194071):**
+Kit de terminación para el exterior — el extremo del cable de MT donde se conecta
+al aparellaje (celda, transformador, interruptor).
+- 36kV: para redes de 30kV (tensión máxima de la segunda categoría en España).
+- 500-800mm²: para cables de sección grande (líneas de alta capacidad).
+- Exterior: lleva elementos adicionales para resistir humedad y lluvia.
+"CHE-F" = familia de terminaciones de Cellpack para cable apantallado.
+
+**Conector apantallado T asimétrico CTS 630A 36kV 150-240mm² (355564):**
+Conector desmontable tipo T (en forma de T) para conexión entre el cable de MT
+y la celda o transformador. "Apantallado" = mantiene la continuidad de la pantalla
+del cable en la conexión. 630A de corriente nominal, 36kV.
+Muy usado en centros de transformación para conectar el cable de acometida al
+transformador o a las celdas SM6.
+
+**Terminación interruptor CAESK-I 24kV 120-240mm² (289957):**
+Terminación específica para conectar cable de MT a un interruptor de celda.
+24kV — para redes de 20kV (la más habitual en distribución urbana en España).
+120-240mm²: sección del conductor.
+
+**Empalme unipolar CHMSV 36kV 150-240mm² ENDESA (252356):**
+Kit de empalme para unir dos tramos de cable de MT en campo (versión especificada
+por Endesa para sus redes). "Unipolar" = se empalma un conductor por vez (en trifásico
+se hacen 3 empalmes, uno por fase). CHMSV = serie de Cellpack para cable apantallado.
+
+**Empalme unipolar CHMSV 36kV 95-240mm² (258145):**
+Igual que el anterior pero admite secciones desde 95mm² (para cables más delgados).
+
+**Kit reconexión ZC-CTS para conectores CTS 630A (257622):**
+Kit de accesorios para reconectar o reemplazar los conectores tipo CTS sin
+sustituir todo el extremo del cable. Para mantenimiento de instalaciones existentes.
+
+**Conector de acople asimétrico CTKS 630A 24/36kV 300-400mm² (353314):**
+Conector de mayor sección (300-400mm²) para cables de alta capacidad. Asimétrico
+= el lado del cable y el lado del aparato tienen geometrías diferentes.
+
+---
+
+**SCHNEIDER — Sensores y accesorios MT**
+
+**Adaptador VPIS RJ45 (EMS59570):**
+Adaptador para conectar el sistema VPIS (Voltage Presence Indication System —
+indicador de presencia de tensión) de las celdas MT a un conector RJ45 de supervisión.
+Permite monitorizar si hay tensión en cada celda desde un sistema de control.
+
+**Kit sensores kASCTR500-1-SB 3×SCTR500 1 corriente (EMS58171):**
+Kit de 3 sensores de corriente para celdas SM6/AirSeT. Los sensores SCTR500
+miden la corriente en las 3 fases de la celda y la transmiten al relé de protección
+(IED). Son la alternativa moderna a los transformadores de corriente clásicos —
+más compactos y sin peligro de secundario abierto.
+
+Lo que facilita:
+- Terminar cables de MT de forma segura en la conexión a celdas y transformadores.
+- Empalmar tramos de cable de MT en campo sin pérdida de propiedades dieléctricas.
+- Monitorizar tensión y corriente en celdas MT para protección y control.
+
+Lo que evita que ocurra:
+- Arcos eléctricos por terminaciones deficientes en cables de 20-36kV.
+- Descargas parciales que deterioran el aislamiento del cable a largo plazo.
+- Accidentes graves por contacto con líneas de MT sin indicación de presencia de tensión.
+
+============================================================
+
+MODELOS EN ARAIZ (~9 artículos)
+--------------------------------------------------------------
+| Tipo                             | Marca     | Tensión | Sección       | Para qué                      |
+|----------------------------------|-----------|---------|---------------|-------------------------------|
+| Terminación exterior CHE-F       | CELLPACK  | 36kV    | 500-800mm²    | Extremo cable MT exterior     |
+| Conector T CTS 630A apantallado  | CELLPACK  | 36kV    | 150-240mm²    | Conexión cable-celda/trafo    |
+| Terminación interruptor CAESK-I  | CELLPACK  | 24kV    | 120-240mm²    | Conexión a interruptor celda  |
+| Empalme CHMSV ENDESA             | CELLPACK  | 36kV    | 150-240mm²    | Empalme cable MT red Endesa   |
+| Empalme CHMSV                    | CELLPACK  | 36kV    | 95-240mm²     | Empalme cable MT sección menor|
+| Kit reconexión ZC-CTS            | CELLPACK  | —       | 630A          | Mantenimiento conector CTS    |
+| Conector CTKS asimétrico         | CELLPACK  | 24/36kV | 300-400mm²    | Cable alta capacidad          |
+| Adaptador VPIS RJ45              | SCHNEIDER | —       | —             | Supervisión presencia tensión |
+| Kit 3 sensores corriente SCTR500 | SCHNEIDER | —       | —             | Medida corriente celdas MT    |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                              | Por qué la necesitas                                     |
+|----|-------------------------------------------------------|----------------------------------------------------------|
+| 1  | ¿Qué tensión de red? ¿20kV (24kV max) o 30kV (36kV)?| Define el modelo de terminación/empalme                  |
+| 2  | ¿Qué sección tiene el cable de MT?                   | Define el rango del kit (95-240mm² o 150-240mm², etc.)   |
+| 3  | ¿Es terminación exterior o interior?                  | Exterior lleva protección adicional contra intemperie    |
+| 4  | ¿Es empalme en campo o en CT?                        | Empalme en campo → kit completo; en CT → puede ser conector|
+| 5  | ¿Qué distribuidora? (Iberdrola, Endesa, UFD...)       | Algunas tienen especificaciones propias de materiales    |
+
+CONSEJO: Estos materiales son de muy baja rotación en Araiz pero de ticket muy alto
+cuando se piden. Quien los pide es siempre un instalador habilitado en MT para un
+proyecto concreto. La pregunta más importante es siempre la tensión de red (20kV
+o 30kV) y la sección del cable, porque un kit equivocado es inútil y puede tardar
+días en reponer. Si hay dudas, pedir siempre la memoria técnica del proyecto antes
+de confirmar el pedido. La distribuidora (Endesa, Iberdrola, UFD...) también importa
+porque a veces especifican materiales aprobados por ellas.
+
+============================================================
+Fuentes:
+- Cellpack terminaciones MT: https://www.cellpack.com/es/
+- Schneider celdas y sensores MT: https://www.se.com/es/es/product-range/sm6/
+- REBT y Reglamento de Líneas de Alta Tensión (RAT): normativa aplicable
+============================================================

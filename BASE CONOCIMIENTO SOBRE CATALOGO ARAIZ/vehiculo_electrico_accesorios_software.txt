@@ -1,0 +1,118 @@
+CUADRO RESUMEN — ACCESORIOS Y SOFTWARE PARA RECARGA VE (Gewiss, Legrand, Schneider)
+Familia: Electricidad > Vehículo eléctrico > Accesorios / Software
+Ejemplo en Araiz: GEWISS Cuadro protector VE 4,6kW con descargador SPE1146D / SCHNEIDER Sistema Gestión 100 PdR
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"cuadro protección cargador vehículo eléctrico" o "gestión dinámica puntos recarga VE"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Son los elementos auxiliares que complementan los cargadores de vehículo eléctrico:
+cuadros de protección eléctrica, contadores, accesorios de identificación RFID
+y sistemas de software para gestionar flotas de puntos de recarga.
+
+**1. CUADRO PROTECTOR VE (GEWISS SPE1146D)**
+Los cargadores de VE necesitan protección eléctrica específica — no basta con
+el magnetotérmico estándar. Este cuadro incluye:
+- Protección de 4,6kW (el equivalente a un cargador monofásico estándar 20A)
+- Descargador de sobretensiones (SPD) integrado — protege el cargador de
+  picos de tensión provocados por rayos o maniobras en la red.
+Listo para instalar directamente antes del cargador en interior de garaje.
+
+**2. CONTADOR MONOFÁSICO MODBUS ICON DLM (GEWISS GWD6812)**
+Contador de energía con protocolo MODBUS para controlar el consumo de la
+recarga. MODBUS = protocolo de comunicación industrial que permite integrar
+el contador en un sistema de gestión de energía del edificio.
+Útil en comunidades de propietarios o flotas donde cada cargador debe
+medir y facturar su consumo de forma independiente.
+
+**3. TEJADILLO PROTECCIÓN (GEWISS GWJ8104)**
+Protector de intemperie para cargadores instalados en exterior: cubre la
+parte superior del cargador impidiendo que el agua de lluvia caiga directamente
+sobre el conector de carga. Metálico para durabilidad.
+
+**4. KIT LECTOR TARJETAS RFID (LEGRAND 059059)**
+Accesorio para añadir identificación por tarjeta RFID a los puntos de recarga
+Legrand Green'up. El RFID (Radio Frequency IDentification) permite:
+- Que solo usuarios autorizados puedan iniciar la carga.
+- Registrar quién ha cargado y cuánto (para facturación interna en empresas).
+- Integración con sistemas de gestión de flotas.
+Imprescindible en parkings de empresa, hoteles y comunidades con control de acceso.
+
+**5. PIE PARA BORNA PLÁSTICA (LEGRAND 059052)**
+Accesorio de instalación para los cargadores Green'up: la borna de conexión
+de cables necesita un pie de apoyo para montaje en superficie.
+
+**6. MODEM 4G EVlink Pro (SCHNEIDER EVA1MM / EVA1MS)**
+Módulo de conectividad 4G para los cargadores Schneider EVlink Pro AC.
+Permite gestionar el cargador de forma remota (arranque/parada, monitorización,
+actualizaciones de firmware) sin necesidad de red WiFi local.
+- EVA1MM: modem 4G con 1 antena externa
+- EVA1MS: modem 4G con 2 antenas (mayor cobertura)
+
+**7. SISTEMA DE GESTIÓN MASTER 100 PdR (SCHNEIDER HMIBSCEA53D1EML)**
+Software de gestión dinámica de hasta 100 puntos de recarga. Funciones:
+- Gestión de carga dinámica: reparte la potencia disponible entre los cargadores
+  activos para no superar la potencia contratada.
+- Registro de sesiones, usuarios y consumos.
+- Control de acceso por RFID o APP.
+Para parkings de empresa, centros comerciales y edificios con muchos cargadores.
+
+**8. ESTACIÓN HOME SMART EVLINK (SCHNEIDER EVH5A22N2S)**
+Cargador inteligente doméstico Schneider 22kW con conectividad integrada.
+Permite gestión remota desde APP y adaptación dinámica de potencia.
+Mono/trifásico según la instalación — 22kW máximo en trifásico.
+
+Lo que facilita:
+- Proteger los cargadores de sobretensiones y sobrecargas (cuadros y SPD).
+- Controlar y facturar el consumo por usuario o vehículo (contador + RFID).
+- Gestionar flotas de cargadores con reparto dinámico de potencia (software).
+
+Lo que evita que ocurra:
+- Daños en cargadores por picos de tensión sin descargador.
+- Superar la potencia contratada del edificio con muchos cargadores activos.
+- Carga no autorizada en parkings sin control de acceso.
+
+============================================================
+
+MODELOS EN ARAIZ (~9 artículos)
+--------------------------------------------------------------
+| Tipo                          | Marca     | Ref.            | Para qué                           |
+|-------------------------------|-----------|-----------------|------------------------------------|
+| Cuadro protector VE 4,6kW+SPD | GEWISS    | SPE1146D        | Protección cargador monofásico     |
+| Contador MODBUS monofásico    | GEWISS    | GWD6812         | Medida consumo recarga individual  |
+| Tejadillo protección exterior | GEWISS    | GWJ8104         | Proteger cargador exterior lluvia  |
+| Kit lector RFID               | LEGRAND   | 059059          | Control acceso/facturación VE      |
+| Pie borna plástica            | LEGRAND   | 059052          | Accesorio instalación Green'up     |
+| Modem 4G 1 antena EVlink Pro  | SCHNEIDER | EVA1MM          | Conectividad remota cargador       |
+| Modem 4G 2 antenas EVlink Pro | SCHNEIDER | EVA1MS          | Conectividad mayor cobertura       |
+| Sistema Gestión 100 PdR       | SCHNEIDER | HMIBSCEA53D1EML | Gestión dinámica 100 puntos recarga|
+| Estación Home Smart 22kW      | SCHNEIDER | EVH5A22N2S      | Cargador doméstico inteligente     |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                              | Por qué la necesitas                                     |
+|----|-------------------------------------------------------|----------------------------------------------------------|
+| 1  | ¿Cuántos puntos de recarga va a instalar?             | Más de 5-10 → justifica sistema de gestión dinámica      |
+| 2  | ¿Necesita control de acceso (quién carga y cuánto)?   | Si sí → kit RFID + contador por punto                   |
+| 3  | ¿Es en exterior o interior?                           | Exterior → tejadillo + IP adecuado en el cargador       |
+| 4  | ¿Tiene red WiFi en la zona o necesita 4G?             | Sin WiFi → modem 4G para conectividad remota            |
+| 5  | ¿Qué potencia contratada tiene disponible?            | Limita la potencia total instalable (gestión dinámica)  |
+
+CONSEJO: En instalaciones de más de 3-4 cargadores, el sistema de gestión dinámica
+de potencia es casi siempre necesario — sin él, si varios vehículos cargan a la vez
+se puede superar la potencia contratada y saltar el ICP. El software Schneider
+reparte automáticamente la potencia disponible. Venderlo junto con los cargadores
+evita problemas posteriores al cliente.
+
+============================================================
+Fuentes:
+- Gewiss VE: https://www.gewiss.com/es/es/ev-charging
+- Legrand Green'up: https://www.legrand.es/greenup
+- Schneider EVlink: https://www.se.com/es/es/product-range/evlink/
+============================================================

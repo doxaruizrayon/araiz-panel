@@ -1,0 +1,110 @@
+CUADRO RESUMEN — TOMAS DE CARGA VE GREEN'UP Y ACCESORIOS (Legrand, Schneider)
+Familia: Electricidad > Vehículo eléctrico > Toma de carga
+Ejemplo en Araiz: LEGRAND Green'up One trifásica 22kW cable 5m / LEGRAND Green'up Premium RFID 4,6kW
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"toma Green'up Legrand recarga VE" o "cargador modo 2 modo 3 diferencias"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Son las tomas de carga para vehículo eléctrico en formato más compacto que los
+wallbox — se instalan en la pared o en un poste y permiten conectar el cable del
+vehículo. La gama Green'up de Legrand es la más amplia en este formato.
+
+**¿Qué diferencia una toma de carga de un wallbox?**
+- Un wallbox es una caja completa con electrónica de control, pantalla, protecciones...
+- Una toma de carga Green'up es más sencilla: es básicamente el conector (Tipo 2,
+  Schuko o combinado) con carcasa resistente y protecciones básicas integradas.
+  Más económica, más discreta, para uso menos intensivo.
+
+**Modos de carga en las tomas Green'up:**
+- **Modo 2**: el cable lleva una caja de control entre el enchufe y el coche
+  (ICCPD o EVSE portátil). Más lento, para uso doméstico esporádico.
+- **Modo 3**: cable Tipo 2 directo coche-toma, con comunicación entre cargador
+  y vehículo para ajustar la corriente. Más rápido y seguro.
+
+---
+
+**1. TOMA GREEN'UP ACCESS 3,2kVA MURAL 2P+TT (090472)**
+La más económica de la gama. Mural con toma schuko estándar.
+3,2kVA (~14A) — carga lenta pero suficiente para cargar de noche en casa.
+IP44: para interior de garaje con algo de humedad. Para uso doméstico básico.
+
+**2. TOMA GREEN'UP ONE TRIFÁSICA CABLE 5m 22kW CON PROT. DC (057016)**
+- Trifásica 22kW: la máxima velocidad de carga AC doméstica.
+- Cable integrado de 5m con conector Tipo 2: se conecta directamente al coche.
+- Protección DC: bloquea la carga si detecta corriente continua en el conductor
+  de protección (obligatorio en algunos tipos de VE para no dañar el diferencial).
+- Formato "One": carcasa compacta de plástico.
+Para garajes particulares con suministro trifásico que quieren carga rápida.
+
+**3. CARGADOR SCHNEIDER CONVERTIDOR PEDESTAL 1→2 (EVA2PCS2)**
+Accesorio que transforma un pedestal Schneider de 1 cargador a 2 cargadores.
+Permite duplicar los puntos de recarga sin instalar un nuevo pedestal desde cero.
+Para ampliaciones de instalaciones existentes Schneider EVlink.
+
+**4. GREEN'UP PREMIUM MONOFÁSICA RFID 3,7/4,6kW CON PROT. DC (059070)**
+- Monofásica con selección de potencia: 3,7kW o 4,6kW según la instalación.
+- RFID integrado: control de acceso por tarjeta — solo usuarios autorizados.
+- Modos 2+3: admite cable schuko con EVSE portátil o cable Tipo 2 directo.
+- Protección DC integrada.
+- "Premium" = la versión de mayor funcionalidad de la gama Green'up.
+Para comunidades de propietarios o empresas que necesitan identificación
+del usuario sin llegar a un wallbox completo.
+
+**5. GREEN'UP PLAST 22kW TRIFÁSICA M3 RFID (059007)**
+- Trifásica 22kW máxima velocidad.
+- Modo 3 con Tipo 2 directamente (no admite Modo 2 con schuko).
+- RFID: control de acceso.
+- Plástico: carcasa compacta económica para interior/exterior cubierto.
+Para parkings de empresa o comunidades con trifásico y control de acceso.
+
+Lo que facilita:
+- Cargar VE de forma sencilla sin necesidad de wallbox complejo (tomas Green'up).
+- Control de acceso por tarjeta RFID sin invertir en sistema de gestión complejo.
+- Carga rápida trifásica 22kW en formato compacto (Green'up One / Plast 22kW).
+
+Lo que evita que ocurra:
+- Carga sin identificación en instalaciones que necesitan control (RFID).
+- Daños en diferenciales por corrientes DC de VE modernos (protección DC integrada).
+
+============================================================
+
+MODELOS EN ARAIZ (~5 artículos)
+--------------------------------------------------------------
+| Tipo                            | Marca     | Potencia  | RFID | Para qué                      |
+|---------------------------------|-----------|-----------|------|-------------------------------|
+| Green'up Access 3,2kVA Schuko   | LEGRAND   | 3,2kW 1F  | No   | Carga lenta doméstica básica  |
+| Green'up One 22kW cable 5m 3F   | LEGRAND   | 22kW 3F   | No   | Carga rápida garaje trifásico |
+| Convertidor pedestal 1→2        | SCHNEIDER | —         | —    | Ampliar instalación EVlink    |
+| Green'up Premium 4,6kW RFID 1F  | LEGRAND   | 3,7/4,6kW | Sí   | Comunidad/empresa con control |
+| Green'up Plast 22kW RFID 3F     | LEGRAND   | 22kW 3F   | Sí   | Empresa 22kW con control      |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                              | Por qué la necesitas                                     |
+|----|-------------------------------------------------------|----------------------------------------------------------|
+| 1  | ¿Monofásico o trifásico disponible?                   | Define si puede llegar a 22kW o se queda en 7,4kW       |
+| 2  | ¿Necesita identificación RFID?                        | Premium o Plast con RFID vs Access/One sin control       |
+| 3  | ¿Prefiere cable integrado o base sin cable?           | One lleva cable; Premium/Plast tienen base sin cable     |
+| 4  | ¿Cuántos VE necesita cargar y con qué frecuencia?     | Uso diario intensivo → wallbox completo; esporádico → Green'up |
+| 5  | ¿Es interior de garaje o exterior?                    | Verificar IP de la toma según el ambiente                |
+
+CONSEJO: La gama Green'up es la opción de precio medio entre "enchufe schuko normal"
+y "wallbox completo". Para un vecino de comunidad que carga el coche de noche,
+la Green'up Access (la más económica) suele ser suficiente. Si varios vecinos
+necesitan cargar, entonces sí conviene ir a un wallbox con RFID y gestión dinámica.
+La protección DC es importante: muchos VE modernos generan corriente DC en el neutro
+durante la carga y pueden cegar un diferencial tipo AC normal. Verificar siempre
+que la instalación tiene diferencial tipo A-EV o B-EV, o que la toma lleva protección DC.
+
+============================================================
+Fuentes:
+- Legrand Green'up: https://www.legrand.es/greenup
+- Schneider EVlink: https://www.se.com/es/es/product-range/evlink/
+============================================================

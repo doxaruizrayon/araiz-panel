@@ -1,0 +1,127 @@
+CUADRO RESUMEN — MATERIAL PARA LÍNEAS Y REDES AÉREAS (Sofamel, Niled, Cahors)
+Familia: Electricidad > Media y alta tensión / Líneas aéreas > Material para líneas y redes aéreas
+Ejemplo en Araiz: SOFAMEL Soporte plastificado ARC-2 / NILED Conector P-240 / CAHORS Pinza de amarre PA 54
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"tendido línea aérea baja tensión" o "soportes línea aérea acometida fachada"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Son los accesorios mecánicos para instalar y mantener líneas eléctricas aéreas:
+los cables que van por postes a lo largo de la calle o los que hacen la acometida
+desde el poste hasta la fachada del edificio. No son los cables en sí, sino los
+herrajes y conectores que los sujetan y conectan.
+
+**¿Qué es una línea aérea de BT (Baja Tensión)?**
+Las redes de distribución urbana usan cada vez más cable subterráneo, pero en
+muchas zonas rurales y semiurbanas siguen existiendo líneas aéreas: cables que
+van de poste en poste o de poste a la fachada de los edificios.
+
+El cable más habitual hoy es el **RZ de aluminio trenzado** (también llamado
+"cable trenzado" o "acometida en haz") — varios conductores retorcidos juntos
+en un mismo manojo, más seguro que los conductores separados de las líneas antiguas.
+
+---
+
+**SOFAMEL — Soportes y abrazaderas para línea aérea**
+
+Sofamel fabrica los herrajes de sujeción plásticos para líneas aéreas de BT:
+
+**Soportes plastificados para líneas (ARC-2, ARC-3, ARC-25):**
+Son las "horquillas" o "ganchos" que se atornillan en la fachada o en el poste
+y sujetan el cable aéreo. El plástico es poliamida resistente a la intemperie
+y a los rayos UV (aguanta décadas a la intemperie).
+- ARC-2: para 2 conductores (acometidas monofásicas o pequeñas instalaciones)
+- ARC-3: para 3 conductores (líneas trifásicas)
+- ARC-25: soporte de mayor tamaño para conductores de hasta 25mm² de sección
+
+**Soporte plastificado de acometidas BIP-180CF:**
+Específico para acometidas en fachada — la "pata" de plástico que se atornilla
+en la pared del edificio y de la que cuelga el cable que viene del poste.
+"BIP" = bifurcación y punto de anclaje para acometidas aéreas.
+
+**Abrazadera MULTI-50 110×10 (Sofamel 368100):**
+Abrazadera para fijar el soporte al poste de madera o de hormigón. Se abraza
+alrededor del poste y proporciona el punto de anclaje para el soporte de línea.
+
+---
+
+**NILED — Conectores para líneas aéreas**
+
+**Conector P-70-240/70-240mm² y P-35-150/35-150mm²:**
+Son conectores de perforación de aislante (tipo piercing) para empalmar o
+derivar un cable aéreo sin pelarlo. El conector se aprieta con llave y sus
+puntas perforan el aislante del cable haciendo contacto con el conductor interior.
+- P-240: para cables de 70 a 240mm² (líneas principales de distribución)
+- P-150: para cables de 35 a 150mm² (derivaciones y acometidas medianas)
+Muy usados para hacer la derivación desde la línea principal hasta el edificio
+sin cortar el suministro a los demás clientes.
+
+---
+
+**CAHORS — Pinzas de amarre y capuchones**
+
+**Pinza de amarre PA 54/1500 Fiador 54,6mm² (CAHORS 0564054):**
+Pinza que sujeta mecánicamente el cable en su punto de anclaje. El cable aéreo
+tiene tensión mecánica (está tirante entre postes) y la pinza es la que aguanta
+ese esfuerzo de tracción sin dañar el cable.
+"54,6mm²" = sección del conductor portante (fiador). 1500 = carga de rotura en kg.
+
+**Capuchón salida tubo de protección CP100/4 (CAHORS 0566017):**
+Capuchón de cierre que se coloca en el extremo del tubo de protección donde
+el cable aéreo entra al edificio o poste. Evita la entrada de agua y roedores.
+
+Lo que facilita:
+- Instalar y mantener líneas eléctricas aéreas de forma segura y durable.
+- Hacer derivaciones en líneas activas sin cortar el suministro (conectores NILED).
+- Anclar mecánicamente los cables aéreos en fachadas y postes.
+
+Lo que evita que ocurra:
+- Rotura de cables aéreos por falta de sujeción mecánica adecuada.
+- Entrada de agua en tubos de protección de cables (capuchones).
+- Cortocircuitos por contacto de conductores sin sujeción correcta.
+
+============================================================
+
+MODELOS EN ARAIZ (~9 artículos)
+--------------------------------------------------------------
+| Tipo                          | Marca   | Ref.      | Para qué                            |
+|-------------------------------|---------|-----------|-------------------------------------|
+| Soporte plastificado ARC-2    | SOFAMEL | 366110    | Sujetar 2 conductores aéreos        |
+| Soporte plastificado ARC-3    | SOFAMEL | 366120    | Sujetar 3 conductores aéreos        |
+| Soporte plastificado ARC-25   | SOFAMEL | 366130    | Sujetar conductores hasta 25mm²     |
+| Soporte acometidas BIP-180CF  | SOFAMEL | 367110    | Punto anclaje acometida en fachada  |
+| Abrazadera MULTI-50 110×10    | SOFAMEL | 368100    | Fijar soporte al poste              |
+| Conector P-240mm²             | NILED   | P-240     | Derivación/empalme línea 70-240mm²  |
+| Conector P-150mm²             | NILED   | P-150     | Derivación/empalme línea 35-150mm²  |
+| Capuchón tubo CP100/4         | CAHORS  | 0566017   | Cierre tubo entrada cable edificio  |
+| Pinza amarre PA 54/1500       | CAHORS  | 0564054   | Anclaje mecánico cable aéreo        |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                              | Por qué la necesitas                                     |
+|----|-------------------------------------------------------|----------------------------------------------------------|
+| 1  | ¿Qué sección tiene el cable de la línea?              | Define el modelo de conector NILED (P-150 o P-240)       |
+| 2  | ¿Es monofásica (2 conductores) o trifásica (3 o 4)?   | Define el soporte ARC-2, ARC-3...                       |
+| 3  | ¿Dónde va el soporte: fachada, poste madera, hormigón?| Cambia el tipo de abrazadera o tornillería de fijación   |
+| 4  | ¿Es una acometida al edificio o línea entre postes?   | Acometida → BIP; línea → ARC con abrazadera al poste    |
+| 5  | ¿La derivación es en caliente (sin corte de luz)?     | Si sí → conector de perforación NILED (no corta el cable)|
+
+CONSEJO: Los materiales de línea aérea los piden casi exclusivamente distribuidoras
+eléctricas (Iberdrola, UFD, E-Distribución) y sus instaladores homologados para
+obras de red. Si un cliente particular los pide es porque está haciendo una
+acometida aérea rural — en ese caso siempre verificar que tiene el proyecto
+aprobado por la distribuidora, porque las acometidas aéreas tienen normativa
+específica (REBT ITC-BT-06 para líneas aéreas de BT).
+
+============================================================
+Fuentes:
+- Sofamel: https://www.sofamel.com/es/
+- Niled conectores: https://www.niled.es/
+- REBT ITC-BT-06: Líneas aéreas de baja tensión
+============================================================
