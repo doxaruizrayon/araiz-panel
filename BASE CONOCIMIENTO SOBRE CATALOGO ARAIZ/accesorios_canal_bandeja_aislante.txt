@@ -1,0 +1,114 @@
+CUADRO RESUMEN — ACCESORIOS PARA CANAL Y BANDEJA AISLANTE (UNEX U23X/U24X — curvas, uniones, tapas, adaptadores mecanismos)
+Familia: Electricidad > Bandejas, canales y tubos > Accesorios para canal / Accesorios para bandeja aislante
+Ejemplo en Araiz: UNEX Curva plana 90° 60x200mm U23X gris / LEGRAND Ángulo interior EUROQUINT 60x200mm
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"accesorios canaleta PVC curva ángulo" o "Unex U23X accesorios derivación"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Son todas las piezas complementarias para montar instalaciones con canaletas y
+bandejas de PVC: curvas, derivaciones, ángulos y adaptadores para mecanismos.
+Sin estos accesorios, los canales no pueden hacer cambios de dirección ni
+integrarse con enchufes e interruptores.
+
+**PARTE 1 — ACCESORIOS PARA BANDEJA AISLANTE U23X (UNEX)**
+
+**1. CURVAS PLANAS 90° Y TAPAS DE CURVA**
+Las curvas planas permiten que la bandeja cambie de dirección horizontalmente:
+- Curva plana 90° 60x200mm U23X gris: para bandeja de 60mm de alto × 200mm de ancho
+- Tapa curva plana 90° 150mm U23X: tapa para curva de 150mm de ancho
+- Tapa curva plana 90° 300mm U23X: tapa para curva de 300mm de ancho
+La "curva plana" es para cambios de dirección en horizontal (girar en la misma
+planta del edificio). Si el cambio es vertical (subir o bajar de nivel), se usan
+curvas verticales (no en este catálogo de muestra).
+
+**2. ACCESORIOS ESTRUCTURALES U48X**
+- Rail aislante 50x50x2000mm U48X gris: soporte de montaje en PVC sin halógenos
+  para fijar módulos electrónicos u otros accesorios en la bandeja U48X.
+  El "rail" no es el carril DIN metálico — es un perfil aislante.
+- Bloqueo rail aislante 50 U48X: fija el rail sin tornillos de acero (100% aislante)
+- Tuerca rail 60 con muelle M8 acero galvanizado: tuerca de fijación para el rail
+- Unión entre tramos sin perno U48X 60mm gris: conecta dos tramos de bandeja U48X
+  sin herramientas ni tornillos (sistema de ensamblaje rápido)
+- Anclaje cables Ø40-46mm U48X: brida integrada en bandeja U48X para fijar cables
+- Perno unión PVC M1 U23X gris: tornillo de unión de PVC para conectar tramos
+  de bandeja aislante U23X (sin piezas metálicas = 100% aislante)
+
+---
+
+**PARTE 2 — ACCESORIOS PARA CANAL DISTRIBUCIÓN (UNEX U24X y LEGRAND EUROQUINT)**
+
+**3. ACCESORIOS CANAL EUROQUINT (LEGRAND)**
+- Ángulo interior 40x90mm: para esquina interior de habitación con canal Euroquint 40x90
+- Ángulo interior 60x110mm: para canal Euroquint 60x110mm
+- Ángulo interior 60x200mm: para el canal más grande Euroquint 60x200
+- Adaptador mecanismos NQ50DUO: permite instalar mecanismos de distintas series
+  (MOSAIC, CÉLIANE, Niessen) en el canal EUROQUINT sin caja intermedia.
+  El NQ50DUO es universal para mecanismos de 50x50mm.
+
+Lo que facilita:
+- Hacer cambios de dirección en la instalación de bandeja/canaleta (curvas).
+- Integrar enchufes e interruptores directamente en el canal (adaptadores).
+- Unir tramos de bandeja aislante sin herramientas ni metal (sistema clip U48X).
+- Mantener la clase de aislamiento II en toda la instalación (sin piezas metálicas U48X).
+
+Lo que evita que ocurra:
+- Cortes de ángulo mal hechos que dejan el cable expuesto.
+- Mecanismos que no encajan en el canal por falta de adaptador correcto.
+- Pérdida del aislamiento eléctrico por usar piezas de acero en bandeja U48X.
+
+============================================================
+
+MODELOS EN ARAIZ (~18 artículos en 2 grupos)
+--------------------------------------------------------------
+ACCESORIOS BANDEJA AISLANTE:
+| Tipo                          | Gama  | Para qué                           |
+|-------------------------------|-------|------------------------------------|
+| Curva plana 90° 60x200        | U23X  | Cambiar dirección bandeja 200mm    |
+| Tapa curva plana 90° 150mm    | U23X  | Tapar curva bandeja 150mm          |
+| Tapa curva plana 90° 300mm    | U23X  | Tapar curva bandeja 300mm          |
+| Rail aislante 50x50x2000mm    | U48X  | Soporte módulos en bandeja         |
+| Bloqueo rail aislante 50      | U48X  | Fijar rail sin tornillos           |
+| Tuerca rail 60 muelle M8      | U48X  | Tuerca fijación en rail            |
+| Unión sin perno 60mm          | U48X  | Unir tramos sin herramientas       |
+| Anclaje cables Ø40-46         | U48X  | Brida cables integrada             |
+| Perno unión PVC M1            | U23X  | Unir tramos con tornillo PVC       |
+
+ACCESORIOS CANAL DISTRIBUCIÓN:
+| Tipo                          | Marca   | Para qué                           |
+|-------------------------------|---------|-------------------------------------|
+| Ángulo interior 40x90         | LEGRAND | Esquina interior canal Euroquint   |
+| Ángulo interior 60x110        | LEGRAND | Esquina interior canal Euroquint   |
+| Ángulo interior 60x200        | LEGRAND | Esquina interior canal grande      |
+| Adaptador NQ50DUO universal   | LEGRAND | Mecanismos 50x50 en Euroquint      |
+| Caja derivación ABS moldura78 | UNEX    | Derivar en canal U24X              |
+| Caja 1 mecanismo U24X PVC     | UNEX    | Enchufe/interruptor en moldura     |
+| Derivación T U24X PVC         | UNEX    | Bifurcar canaleta U24X             |
+| Taco Ø6 poliamida U63X        | UNEX    | Fijar canal U63X a la pared        |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                              | Por qué la necesitas                                    |
+|----|-------------------------------------------------------|---------------------------------------------------------|
+| 1  | El canal tiene esquinas o ángulos?                    | Define el número y tipo de curvas/ángulos necesarios    |
+| 2  | Qué marca de mecanismos quiere instalar en el canal?  | Define el adaptador correcto (NQ50DUO u otros)          |
+| 3  | La instalación es de clase II (sin puesta a tierra)?  | Si sí → usar accesorios U48X sin piezas metálicas      |
+| 4  | Qué ancho y alto tiene la bandeja/canaleta?           | Los accesorios son específicos por tamaño               |
+| 5  | Necesita unir tramos de bandeja U48X sin tornillos?   | Si sí → usar unión sin perno (sistema rápido)           |
+
+CONSEJO: Los accesorios siempre se piden junto con el canal/bandeja — es fácil
+olvidar los ángulos, tapas y derivaciones. Como regla general: por cada 10m de
+canal, calcular 4-6 accesorios (esquinas, derivaciones, tapas). En presupuesto,
+preguntar siempre si el instalador ya tiene accesorios o necesita el kit completo.
+
+============================================================
+Fuentes:
+- UNEX U23X/U48X accesorios: https://www.unex.es/productos/accesorios/
+- LEGRAND EUROQUINT accesorios: https://www.legrand.es/catalogo/canalizaciones/
+============================================================

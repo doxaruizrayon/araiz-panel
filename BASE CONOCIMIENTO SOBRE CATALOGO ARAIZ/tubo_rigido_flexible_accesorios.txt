@@ -1,0 +1,106 @@
+CUADRO RESUMEN — TUBO Y ACCESORIOS PARA CONDUCCIÓN DE CABLES (rígido, flexible, prensaestopas, racores, PEMSA)
+Familia: Electricidad > Bandejas, canales y tubos > Tubo y accesorios para conducción de cables
+Ejemplo en Araiz: PEMSA ref. RPVC 1250 DN20 (Tubo rígido enchufable PVC gris IP44, barra 3m)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"tubo corrugado rígido instalación eléctrica empotrada" o "prensaestopas eléctrico IP68"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Son los conductos que protegen los cables eléctricos en su recorrido: por dentro
+de paredes (empotrado), por fuera de paredes (superficie), en zanjas o en máquinas.
+El tubo protege el cable mecánicamente y facilita su sustitución posterior.
+
+**Marca principal: PEMSA** — fabricante español de referencia en canalizaciones.
+
+**1. TUBO RÍGIDO ENCHUFABLE PVC (RPVC 1250)**
+El tubo más usado en instalaciones eléctricas empotradas en paredes y techos.
+"Enchufable" = los tramos se unen a presión (sin pegamento, sin accesorios).
+- RPVC 1250 DN20: diámetro 20mm — para cables de 1,5-2,5mm² (iluminación, enchufes)
+- RPVC 1250 DN32: diámetro 32mm — para cables de mayor sección o varios cables
+- IP44: protegido contra polvo y proyecciones de agua
+- Gris RAL7035: el color estándar para instalaciones eléctricas
+- Se vende en barras de 3m o en rollos (el corrugado)
+La resistencia "1250" indica resistencia al aplastamiento de 1250N/m (normal),
+apto para empotrar bajo yeso o mortero pero no bajo hormigón (ahí se usa 4000N).
+
+**2. ACCESORIOS PARA TUBO RÍGIDO (PEMSA)**
+- Curva 90° enchufable DN20 (RPVC): codo para cambiar de dirección en instalación empotrada
+- Curva 90° enchufable DN32 (RL): para tubo metálico RL (rígido de acero electrocincado EZ)
+- Curva 90° roscada M63 (RR): para tubo roscado de acero en instalaciones industriales
+Las curvas roscadas son más resistentes que las enchufables — se usan en industrial.
+
+**3. PRENSAESTOPAS IRIS-P (PEMSA)**
+El prensaestopas es el elemento que permite pasar el cable al interior de un armario
+o caja eléctrica manteniendo la estanqueidad:
+- IRIS-P gris poliamida 6, PG13,5, cable 6-12mm: rosca PG13,5, para cables de 6 a 12mm de diámetro
+- Autoextinguible: no propaga el fuego
+- Se atornilla en el orificio del armario; al apretar la tuerca, la junta de goma
+  sella alrededor del cable
+El "PG" (Panzergewinde) es el sistema de rosca europeo para prensaestopas. PG13,5
+es el más habitual para cables de 1,5 a 6mm².
+
+**4. RACORES PARA TUBO FLEXIBLE (PEMSA)**
+- Racor RA 90° PG21(DN23): racor en ángulo recto para conectar tubo flexible
+  a una caja o armario. La rosca exterior permite atornillarlo en el orificio.
+  PG21 = para tubo flexible de 23mm de diámetro nominal (DN23)
+- Tuerca TCP PVC M20: tuerca de contratuerca para asegurar racores roscados en cajas.
+- Clip unión tubos flexibles: brida para fijar y unir tramos de tubo flexible.
+
+**¿Cuándo usar rígido vs flexible?**
+- **Rígido**: tramos rectos, empotrado bajo enfoscado/escayola, instalación fija
+- **Flexible corrugado**: zonas con curvas, conexión final a máquinas, en cadenas portacables
+- **Flexible metálico**: industrial, protección mecánica adicional, altas temperaturas
+
+Lo que facilita:
+- Proteger cables en instalaciones empotradas (rígido PVC).
+- Pasar cables por zonas con curvas o movimiento (flexible).
+- Conectar cables a armarios con estanqueidad (prensaestopas).
+
+Lo que evita que ocurra:
+- Daños mecánicos en los cables (tubo los protege).
+- Entrada de agua o polvo en armarios eléctricos (prensaestopas).
+- Cables sin canalizar que incumplan REBT (obligatorio canalizar).
+
+============================================================
+
+MODELOS EN ARAIZ (~9 artículos)
+--------------------------------------------------------------
+| Tipo                           | Marca | Ref.               | Para qué                         |
+|--------------------------------|-------|--------------------|----------------------------------|
+| Tubo rígido RPVC 1250 DN20     | PEMSA | RPVC 1250 DN20     | Empotrar en paredes, diám. 20mm  |
+| Tubo rígido RPVC 1250 DN32     | PEMSA | RPVC 1250 DN32     | Empotrar en paredes, diám. 32mm  |
+| Curva 90° enchufable DN20 PVC  | PEMSA | Curva RPVC DN20    | Cambio dirección tubo empotrado  |
+| Curva 90° enchufable DN32 acero| PEMSA | Curva RL DN32 EZ   | Cambio dirección tubo metálico   |
+| Curva 90° roscada M63 acero    | PEMSA | Curva RR M63 EZ    | Industrial, tubo roscado         |
+| Prensaestopas PG13,5 cable 6-12mm| PEMSA| IRIS-P PA6 PG13,5 | Entrada cable en armario IP      |
+| Tuerca contratuerca TCP M20 PVC| PEMSA | TCP M20            | Fijar racores roscados en caja   |
+| Clip unión tubos flexibles     | PEMSA | Clip Pemsaflex     | Unir tramos tubo flexible        |
+| Racor 90° PG21(DN23) flexible  | PEMSA | RA 90° PG21 PA     | Conectar tubo flexible a caja    |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                              | Por qué la necesitas                                     |
+|----|-------------------------------------------------------|----------------------------------------------------------|
+| 1  | El tubo va empotrado o en superficie?                 | Empotrado → rígido; superficie → puede ser ambos         |
+| 2  | Qué diámetro de cable o cuántos cables van dentro?    | Define el diámetro del tubo (DN16, DN20, DN25, DN32...) |
+| 3  | Hay zonas con curvas o movimiento?                    | Si sí, necesita tubo flexible                            |
+| 4  | Necesita prensaestopas para entrar en armario?        | Define el PG según el diámetro del cable                 |
+| 5  | Es instalación doméstica o industrial?                | Industrial → tubo metálico; doméstica → PVC gris         |
+
+CONSEJO DIÁMETROS:
+- DN16 (Ø16mm): 1-2 cables de 1,5mm² — iluminación sencilla
+- DN20 (Ø20mm): 3-4 cables de 1,5mm² o 1-2 de 2,5mm² — el más usado en vivienda
+- DN25 (Ø25mm): 3-4 cables de 2,5mm² o 1-2 de 6mm²
+- DN32 (Ø32mm): cables de mayor sección o mazos con muchos conductores
+
+============================================================
+Fuentes:
+- PEMSA tubos: https://www.pemsa-rejiband.com/es/productos/tubos/
+- REBT ITC-BT-21: Instalaciones interiores — tubos
+============================================================

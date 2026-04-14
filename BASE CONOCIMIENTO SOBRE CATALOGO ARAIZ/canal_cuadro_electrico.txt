@@ -1,0 +1,97 @@
+CUADRO RESUMEN — CANAL PARA CUADRO ELÉCTRICO Y COMUNICACIONES (UNEX U23X, LEGRAND, HAGER BA7A)
+Familia: Electricidad > Bandejas, canales y tubos > Canal cuadro eléctrico/comunicación
+Ejemplo en Araiz: HAGER ref. BA7A 80x60 gris (Canal cuadro + tapa PVC, fondo perforado)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"canal canaleta cuadro eléctrico interior" o "canaleta ranurada PVC cuadro distribución"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Son las canaletas de PVC que se instalan DENTRO de los cuadros eléctricos para
+organizar el cableado interno. Cuando hay muchos cables dentro de un cuadro
+(los que van de los interruptores a los bornes, a los contactores, etc.),
+la canaleta permite pasarlos ordenadamente sin que se crucen ni enreden.
+
+**¿Por qué es importante ordenar el cableado interno de un cuadro?**
+- Facilita enormemente el mantenimiento (encontrar el cable correcto)
+- Cumple normativa de instalaciones industriales (IEC 61439)
+- Evita interferencias entre cables de fuerza y de control
+- Da un aspecto profesional al cuadro
+
+**1. CANAL CUADRO + TAPA BA7A (HAGER)**
+La canaleta de referencia para el interior de cuadros eléctricos:
+- BA7A 60x60: 60mm alto × 60mm ancho — para cuadros con pocos cables
+- BA7A 80x40: 80mm alto × 40mm ancho — para cuadros estrecho
+- BA7A 80x60: 80mm alto × 60mm ancho — la más habitual en cuadros estándar
+La tapa se abre a presión (con un destornillador plano) para acceder a los cables.
+El fondo perforado permite pasar los cables lateralmente hacia los dispositivos.
+Se vende en tramos de 2 metros.
+
+**2. CANAL DE CUADRO CON PAREDES PERFORADAS (LEGRAND)**
+- 30x25mm: el más pequeño, para cuadros residenciales con poco cableado
+- 40x60mm: tamaño estándar para cuadros de control industriales
+Las paredes del canal tienen ranuras/perforaciones por donde se sacan los cables
+hacia los dispositivos del cuadro. El diseño LEGRAND permite una mayor densidad
+de salidas que el canal de tapa continua.
+
+**3. CUBIERTAS DE CANAL (UNEX U23X)**
+Son las tapas individuales para los distintos tamaños de canal de la gama U23X:
+- 77/20: cubierta para canal de 20mm de ancho
+- 77/30: cubierta para canal de 30mm
+- 77/40: cubierta para canal de 40mm
+- 77/80: cubierta para canal de 80mm
+Se usan cuando se necesita reponer una tapa dañada o cuando se instala el canal
+sin tapa (primero el canal, luego se pasan los cables, luego se coloca la tapa).
+
+Lo que facilita:
+- Organizar el cableado interno de cuadros eléctricos industriales.
+- Separar físicamente cables de fuerza y cables de control dentro del cuadro.
+- Facilitar el mantenimiento al identificar rápidamente cada cable.
+
+Lo que evita que ocurra:
+- Cuadros con cableado desordenado que son un peligro en el mantenimiento.
+- Interferencias entre señales de control y cables de potencia.
+- Cortocircuitos por cables que se cruzan y rozan sin protección.
+
+============================================================
+
+MODELOS EN ARAIZ (~9 artículos)
+--------------------------------------------------------------
+| Tipo                        | Marca   | Ref.    | Dimensiones | Para qué                     |
+|-----------------------------|---------|---------|-------------|------------------------------|
+| Cubierta canal 77/20        | UNEX    | U23X    | 20mm ancho  | Tapa canal pequeño           |
+| Cubierta canal 77/30        | UNEX    | U23X    | 30mm ancho  | Tapa canal estándar          |
+| Cubierta canal 77/40        | UNEX    | U23X    | 40mm ancho  | Tapa canal mediano           |
+| Cubierta canal 77/80        | UNEX    | U23X    | 80mm ancho  | Tapa canal grande            |
+| Canal cuadro 30x25 perf.    | LEGRAND | —       | 30x25mm     | Cuadros residenciales/pequeños|
+| Canal cuadro 40x60 perf.    | LEGRAND | —       | 40x60mm     | Cuadros industriales estándar|
+| Canal BA7A + tapa 80x40     | HAGER   | BA7A    | 80x40mm     | Cuadro estrecho              |
+| Canal BA7A + tapa 80x60     | HAGER   | BA7A    | 80x60mm     | Cuadro estándar (el más usado)|
+| Canal BA7A + tapa 60x60     | HAGER   | BA7A    | 60x60mm     | Cuadro con poco cableado     |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                              | Por qué la necesitas                                    |
+|----|-------------------------------------------------------|---------------------------------------------------------|
+| 1  | Cuántos cables aproximadamente van en el canal?       | Define el tamaño necesario (40x60 o 80x60mm)            |
+| 2  | Qué altura tiene el cuadro?                           | Define cuántos metros de canal hacen falta              |
+| 3  | Necesita separar cables de fuerza y control?          | Si sí → dos canales paralelos de distintos tamaños      |
+| 4  | El cuadro es nuevo o de reforma?                      | En reforma puede tener ya instalado un sistema concreto |
+| 5  | Qué marca de canal tiene ya instalado?               | Los tamaños no son siempre intercambiables entre marcas |
+
+CONSEJO: La regla general es que la canaleta no debe ir más del 60% de su capacidad
+llena de cables. Un canal BA7A 80x60mm tiene aprox. 4.800mm² de sección —
+puede alojar cables cuya suma de secciones no supere ≈2.900mm².
+En cuadros grandes se suelen instalar dos canales: uno para la fuerza (cables de
+potencia gruesos) y otro para el control (cables de señal y mando, más finos).
+
+============================================================
+Fuentes:
+- HAGER BA7A: https://www.hager.com/es/catalogo/cuadros-electricos/canaletas/
+- LEGRAND canaletas cuadro: https://www.legrand.es/catalogo/cuadros/canaletas
+============================================================

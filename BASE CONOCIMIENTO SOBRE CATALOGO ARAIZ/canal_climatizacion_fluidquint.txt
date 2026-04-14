@@ -1,0 +1,95 @@
+CUADRO RESUMEN — CANAL PARA CLIMATIZACIÓN (FLUIDQUINT Legrand, UNEX U23X — canaleta para tubería AC)
+Familia: Electricidad > Bandejas, canales y tubos > Canal para climatización
+Ejemplo en Araiz: LEGRAND ref. 71000104 (Canal Fluidquint 32x35mm 2m blanco, instalación climatización)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"canaleta para tubería aire acondicionado" o "Fluidquint Legrand instalación AC"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Son canaletas de PVC blanco diseñadas específicamente para ocultar y proteger las
+tuberías y cables de instalaciones de aire acondicionado (split, VRV) y otros
+sistemas de climatización. No son para cables eléctricos en general — están
+optimizadas para tuberías de cobre frigoríficas más el cable eléctrico del equipo.
+
+**¿Por qué una canaleta específica para AC?**
+Las tuberías de aire acondicionado tienen:
+- Diámetros más grandes que los tubos eléctricos (hasta 60mm)
+- Aislamiento térmico (coquilla de espuma) que aumenta el diámetro total
+- El cable eléctrico del equipo va junto a las tuberías
+- Necesitan una canaleta más ancha y de mayor altura que la eléctrica estándar
+
+**Gama FLUIDQUINT (LEGRAND)**
+La referencia del mercado español para canalización de climatización:
+- **32x35mm**: la más pequeña, para equipos de pequeña potencia (monobloques, fan coils pequeños)
+- **40x70mm**: tamaño medio, la más usada para splits de pared de 2,5-5kW
+- **60x100mm**: la grande, para splits de mayor potencia o VRV con varias tuberías
+Color: blanco (el más habitual en instalaciones de climatización doméstica e
+instalaciones en locales comerciales).
+Se vende en tramos de 2 metros.
+
+**Accesorios Fluidquint**
+Indispensables para hacer una instalación limpia:
+- **Ángulo plano 32x35 y 60x100**: para cambios de dirección en el mismo plano
+- **Ángulo interior 32x35 y 60x70**: para esquinas en ángulo recto interior
+- **Derivación T 32x35**: para bifurcar el recorrido (multi-split con unidad exterior e interior)
+- **Tapa final 40x70**: cierra el extremo del canal
+
+**UNEX U23X para climatización**
+Canal 30 PVC-M1 U23X 60x90mm blanco nieve "aire acondicionado":
+El canal de la gama UNEX también tiene una versión para climatización de 60x90mm.
+Más rígido y resistente que el Fluidquint, se usa cuando se necesita más protección
+mecánica (pasillos, zonas con riesgo de golpes).
+
+Lo que facilita:
+- Ocultar las tuberías y cables de los equipos de aire acondicionado.
+- Dar un acabado profesional a la instalación de climatización.
+- Proteger las tuberías de cobre de golpes y luz solar directa.
+
+Lo que evita que ocurra:
+- Tuberías vistas que quedan feas y pueden deteriorarse con el tiempo.
+- Daños mecánicos en la coquilla de aislamiento de las tuberías.
+- Instalaciones que no cumplen la estética requerida por el cliente.
+
+============================================================
+
+MODELOS EN ARAIZ (~9 artículos)
+--------------------------------------------------------------
+| Tipo                       | Marca   | Ref.      | Dimensiones | Para qué                       |
+|----------------------------|---------|-----------|-------------|--------------------------------|
+| Canal Fluidquint           | LEGRAND | 71000104  | 32x35mm 2m  | Split pequeño / fan coil       |
+| Canal Fluidquint           | LEGRAND | —         | 40x70mm 2m  | Split estándar 2,5-5kW         |
+| Canal Fluidquint           | LEGRAND | —         | 60x100mm 2m | Split grande / VRV             |
+| Ángulo plano Fluidquint    | LEGRAND | —         | 32x35mm     | Cambio dirección plano pequeño |
+| Ángulo plano Fluidquint    | LEGRAND | —         | 60x100mm    | Cambio dirección plano grande  |
+| Ángulo interior Fluidquint | LEGRAND | —         | 32x35mm     | (ref. catálogo: 32x35)        |
+| Ángulo interior Fluidquint | LEGRAND | —         | 60x70mm     | Esquina interior grande        |
+| Derivación T Fluidquint    | LEGRAND | —         | 32x35mm     | Bifurcar hacia 2 interiores    |
+| Tapa final Fluidquint      | LEGRAND | —         | 40x70mm     | Cerrar extremo canal           |
+| Canal U23X para AC blanco  | UNEX    | —         | 60x90mm     | Alta resistencia mecánica      |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                              | Por qué la necesitas                                    |
+|----|-------------------------------------------------------|---------------------------------------------------------|
+| 1  | Qué potencia tiene el split o equipo de AC?           | Define el tamaño de tubería y por tanto el canal        |
+| 2  | Es split individual o multi-split (varios interiores)?| Multi-split puede necesitar derivación T en el canal    |
+| 3  | Cuántos metros de recorrido tiene la tubería?         | Define cuántos tramos de 2m necesita                   |
+| 4  | Hay esquinas o cambios de dirección?                  | Necesita accesorios de ángulo (plano, interior, exterior)|
+| 5  | El instalador es el electricista o el frigorista?     | La canaleta la suele instalar el frigorista, no el electricista|
+
+CONSEJO: El canal Fluidquint de 40x70mm es el tamaño más vendido — cubre la mayoría
+de instalaciones de split residencial (1,5 a 5kW). Para no quedarse corto,
+siempre mejor pedir el tamaño siguiente si hay dudas. El cable eléctrico del
+split (normalmente 3x2,5mm² o 3x4mm²) cabe perfectamente junto a las tuberías
+en el canal de 40x70mm.
+
+============================================================
+Fuentes:
+- LEGRAND Fluidquint: https://www.legrand.es/catalogo/canalizaciones/fluidquint
+============================================================

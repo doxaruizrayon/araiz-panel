@@ -1,0 +1,98 @@
+CUADRO RESUMEN — ACCESORIOS PARA BANDEJA METÁLICA (uniones, tapas, soportes luminaria, salidas tubo, PEMSA)
+Familia: Electricidad > Bandejas, canales y tubos > Accesorios para bandeja metálica
+Ejemplo en Araiz: PEMSA (Unión central tramos Pemsaband/Inducanal ancho 300mm, galvanizada caliente GC)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"accesorios bandeja cable unión ménsula" o "tapa bandeja metálica industrial"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Son todos los elementos que complementan las bandejas metálicas: las piezas que
+unen tramos, tapan la bandeja, fijan luminarias y permiten derivar el cableado.
+
+**1. UNIONES ENTRE TRAMOS**
+- **Unión central Pemsaband/Inducanal 300mm (GC)**: la pieza de unión estándar
+  para bandeja de chapa. Se atornilla solapando dos tramos de bandeja para
+  crear un recorrido continuo. Las hay para cada ancho de bandeja.
+- **Unión reforzada Rejiband (GC y AISI 316L)**: unión para bandeja de rejilla.
+  La versión reforzada (mayor resistencia) soporta más cargas y vibraciones.
+  En acero galvanizado caliente para interiores/exteriores estándar.
+  En AISI 316L para ambientes con cloruros (instalaciones alimentarias, marinas).
+
+**2. TAPAS PARA BANDEJAS DE CHAPA**
+- **Tapa recta Pemsaband/Inducanal 300mm (GC)**: tapa plana que cierra la parte
+  superior de la bandeja de chapa. Protege los cables del polvo, agua y objetos
+  caídos desde arriba. Disponible en varios anchos.
+- **Tapa recta 100mm (GC)**: para bandejas más estrechas o ramales secundarios.
+Las tapas NO son opcionales en zonas donde cae polvo o líquidos sobre la bandeja.
+
+**3. SOPORTE PARA LUMINARIAS Y CAJAS (BLACK C8)**
+Soporte para montar luminarias o cajas directamente sobre la bandeja Rejiband,
+sin necesidad de estructura separada. El acabado BLACK C8 (recubrimiento negro)
+es para instalaciones vistas donde se quiere un acabado más estético.
+Muy usado en naves logísticas donde la luminaria LED y la bandeja van juntas
+en el mismo recorrido horizontal.
+
+**4. SALIDA DE TUBO (BLACK C8)**
+Pieza para derivar de la bandeja a un tubo de conducción. Se coloca en el lateral
+o fondo de la bandeja y permite que los cables salgan hacia una máquina o cuadro
+a través de un tubo. El acabado BLACK C8 combina con la bandeja negra de la gama.
+
+**5. PERFIL PLÁSTICO DE PROTECCIÓN**
+Perfil de PVC blando que se encaja en los bordes de la bandeja de chapa para
+proteger el aislamiento de los cables de los cantos vivos del acero (aunque la
+bandeja tenga borde de seguridad, el perfil aporta protección adicional).
+Especialmente útil en instalaciones con cables de control de bajo espesor de aislamiento.
+
+Lo que facilita:
+- Unir tramos de bandeja de forma mecánicamente sólida.
+- Proteger los cables de agentes externos (tapas).
+- Integrar luminarias y bandejas en el mismo recorrido estructural.
+- Derivar el cableado desde la bandeja hacia equipos y máquinas.
+
+Lo que evita que ocurra:
+- Separación de tramos de bandeja por vibración o carga.
+- Deterioro de cables por exposición a polvo o líquidos (tapas).
+- Daños en el aislamiento de cables por cantos vivos del acero (perfil protección).
+
+============================================================
+
+MODELOS EN ARAIZ (~9 artículos)
+--------------------------------------------------------------
+| Tipo                           | Acabado    | Para qué                              |
+|--------------------------------|------------|---------------------------------------|
+| Soporte luminaria/caja Rejiband| BLACK C8   | Colgar luminaria en bandeja negra     |
+| Placa unión Rejiband           | BLACK C8   | Unir tramos bandeja rejilla negra     |
+| Unión central Pemsaband 300mm  | GC         | Unir tramos bandeja chapa 300mm       |
+| Salida tubo Rejiband           | BLACK C8   | Derivar a tubo desde bandeja negra    |
+| Tapa recta Pemsaband/Inducanal | GC         | Tapar bandeja chapa 300mm             |
+| Tapa recta Pemsaband/Inducanal | GC         | Tapar bandeja chapa 100mm             |
+| Perfil plástico protección     | PVC        | Proteger cables en bordes bandeja     |
+| Unión reforzada Rejiband       | AISI 316L  | Unir bandeja inox 316L (corrosivos)   |
+| Unión reforzada Rejiband       | GC         | Unir bandeja rejilla exterior         |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                              | Por qué la necesitas                                     |
+|----|-------------------------------------------------------|----------------------------------------------------------|
+| 1  | Qué ancho tiene la bandeja?                           | Las uniones y tapas son específicas por ancho            |
+| 2  | Es bandeja de rejilla o de chapa?                     | Los accesorios no son intercambiables entre tipos         |
+| 3  | Necesita tapa en todo el recorrido o solo en algunas zonas? | Las tapas se compran en metros/tramos separados     |
+| 4  | Va a colgar luminarias de la bandeja?                 | Si sí, necesita soporte específico                       |
+| 5  | El acabado de la bandeja es GC, EZ, negro o inox?     | Los accesorios deben ser del mismo acabado               |
+
+CONSEJO: Cuando se pide una instalación de bandeja, siempre preguntar también
+por los accesorios: uniones (2 por cada 3 metros de bandeja), ménsulas de soporte
+(cada 1,5-2m según norma), derivaciones en T o L si hay cambios de dirección,
+y tapas si hay zonas que lo requieran. Muchos instaladores se olvidan de pedirlos
+y luego tienen que hacer un segundo pedido.
+
+============================================================
+Fuentes:
+- PEMSA Accesorios Rejiband y Pemsaband: https://www.pemsa-rejiband.com/es/productos/
+============================================================

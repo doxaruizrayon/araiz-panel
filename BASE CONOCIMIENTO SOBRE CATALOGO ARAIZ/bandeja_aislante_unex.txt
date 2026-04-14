@@ -1,0 +1,106 @@
+CUADRO RESUMEN — BANDEJAS AISLANTES (perforada, ciega, escalera — UNEX gama U23X/U48X, PVC-M1)
+Familia: Electricidad > Bandejas, canales y tubos > Bandeja aislante perforada / ciega / escalera
+Ejemplo en Araiz: UNEX Bandeja 66 perforada PVC-M1 U23X 60x100mm gris RAL7035
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"bandeja PVC aislante instalación eléctrica" o "canalización Unex U23X"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Son bandejas de conducción de cables fabricadas en PVC (plástico aislante) en lugar
+de acero. La gran ventaja frente a la metálica: no conducen electricidad, por lo que
+no requieren puesta a tierra de la propia bandeja y son más seguras en instalaciones
+donde los trabajadores pueden contactar con ellas.
+
+**Marca principal: UNEX** — fabricante español líder en canalización aislante.
+Las gamas se identifican por el sistema de perfil:
+- **U23X**: sistema universal de ensamblaje, la gama más completa
+- **U48X**: sistema sin halógenos, para instalaciones con requisitos de seguridad contra incendios
+
+**¿Cuándo usar bandeja aislante en lugar de metálica?**
+- Instalaciones en edificios de oficinas donde los cables son visibles
+- Zonas con riesgo de contacto con la bandeja por el personal
+- Industria alimentaria donde la bandeja de metal podría corroerse y contaminar
+- Instalaciones de telecomunicaciones y datos donde se quiere evitar interferencias
+- Cuando el reglamento o el proyecto especifica "clase II de aislamiento"
+
+**1. BANDEJA 66 PERFORADA (UNEX U23X)**
+La bandeja de referencia para instalaciones en PVC. El número "66" hace referencia
+a la serie de UNEX. "Perforada" tiene agujeros en el fondo para fijación de cables.
+- Alturas de ala: 60mm y 100mm
+- Anchos: 75, 100, 150, 200, 300, 400mm
+- Color gris RAL7035 (estándar eléctrico)
+- PVC-M1: retardante a la llama (no propaga el fuego, autoextinguible)
+
+**2. BANDEJA 66 LISA / CIEGA (UNEX U23X + LEGRAND OMEGA)**
+Sin perforaciones en el fondo. Para instalaciones donde se quiere proteger los
+cables de la suciedad que pueda colarse por los agujeros.
+- UNEX gama U23X en gris: la misma gama que la perforada
+- LEGRAND OMEGA 150x75 y 200x100mm: bandeja aislante de acabado más estético,
+  con perfil liso para instalaciones en edificios de oficinas o públicos.
+
+**3. BANDEJA ESCALERA AISLANTE (UNEX U23X y U48X)**
+Igual que la escalera metálica pero en PVC. Travesaños separados (estructura
+de escalera) con alta capacidad de carga relativa al PVC.
+- Gama U23X: alturas 35, 85, 135mm × anchos 200, 300, 400, 500, 600mm
+- Gama U48X: sin halógenos (para locales de pública concurrencia, hospitales,
+  colegios — donde el humo tóxico en un incendio puede ser mortal)
+  Alturas 85mm × anchos 200, 400, 600mm
+
+**4. ACCESORIOS PARA BANDEJA AISLANTE (U48X)**
+- Rail aislante U48X 50x50mm: soporte en PVC para montaje de módulos en bandeja sin halógenos
+- Bloqueo rail, tuerca con muelle: fijación del rail sin tornillos de acero
+- Anclaje cables: brida integrada en la bandeja para sujetar cables en vertical
+- Perno de unión PVC U23X: une tramos de bandeja sin metal (100% aislante)
+- Curva plana 90° y tapa de curva U23X: para cambios de dirección
+
+Lo que facilita:
+- Conducir cables eléctricos de forma visible y segura sin riesgo de electrocución al tocar la bandeja.
+- Instalaciones en zonas con alta presencia de personal no técnico.
+- Ambientes donde el metal se corroería (alimentaria, farmacéutica).
+
+Lo que evita que ocurra:
+- Electrocución por contacto con bandeja metálica en fallo de aislamiento.
+- Corrosión de la canalización en ambientes húmedos o agresivos.
+- Propagación de incendio por materiales que arden (PVC-M1 y sin halógenos).
+
+============================================================
+
+MODELOS EN ARAIZ — PERFORADA, CIEGA Y ESCALERA (~27 artículos)
+--------------------------------------------------------------
+| Tipo                          | Gama  | Dimensiones  | Para qué                       |
+|-------------------------------|-------|--------------|--------------------------------|
+| Bandeja 66 perf. gris         | U23X  | 60x75mm      | Ramal pequeño                  |
+| Bandeja 66 perf. gris         | U23X  | 60x100mm     | Ramal estándar                 |
+| Bandeja 66 perf. gris         | U23X  | 60x150mm     | Varios cables                  |
+| Bandeja 66 perf. gris         | U23X  | 60x200mm     | Mazo medio                     |
+| Bandeja 66 perf. gris         | U23X  | 60x300mm     | Mazo grande                    |
+| Bandeja 66 perf. gris         | U23X  | 60x400mm     | Mazo muy grande                |
+| Bandeja 66 perf. gris         | U23X  | 100x200mm    | Alta carga                     |
+| Bandeja 66 perf. gris         | U23X  | 100x300mm    | Alta carga grande              |
+| Bandeja 66 perf. gris         | U23X  | 100x400mm    | Alta carga máx.                |
+| Bandeja 66 lisa gris          | U23X  | 60x75-300mm  | Ciega interior                 |
+| Bandeja OMEGA lisa            | LEGRAND| 150x75mm    | Estética oficinas              |
+| Bandeja escalera aislante     | U23X  | 35-135x200-600mm| Aislante alta carga         |
+| Bandeja escalera sin halógenos| U48X  | 85x200-600mm | Hospitales/colegios sin halóg. |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                              | Por qué la necesitas                                     |
+|----|-------------------------------------------------------|----------------------------------------------------------|
+| 1  | El local es de pública concurrencia (hospital, colegio)?| Si sí → U48X sin halógenos obligatorio                 |
+| 2  | La bandeja va vista o oculta en falso techo?          | Vista → considerar OMEGA (mejor acabado)                |
+| 3  | Hay riesgo de contacto de personas con la bandeja?    | Si sí → aislante es más seguro que metálico             |
+| 4  | El ambiente tiene agentes corrosivos?                 | PVC resiste mejor que el acero en muchos ambientes      |
+| 5  | Cuántos cables y de qué sección?                      | Define ancho y ala necesarios                           |
+
+============================================================
+Fuentes:
+- UNEX: https://www.unex.es/productos/bandejas/
+- LEGRAND OMEGA: https://www.legrand.es/catalogo/canalizaciones/omega
+============================================================

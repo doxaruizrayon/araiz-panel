@@ -1,0 +1,104 @@
+CUADRO RESUMEN — CADENA PORTACABLES (INTERFLEX — cadenas para movimiento continuo de cables)
+Familia: Electricidad > Bandejas, canales y tubos > Cadena portacables
+Ejemplo en Araiz: INTERFLEX ref. PLASTICHAIN 3010D (Cadena portacables modular para CNC y robots)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"cadena portacables energía CNC" o "energy chain cable drag chain robot"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Las cadenas portacables (también llamadas "energy chains" o "cable drag chains") son
+sistemas articulados de plástico que guían y protegen los cables y mangueras en
+máquinas con partes móviles: ejes de CNC, robots, grúas, carros de traslación.
+
+**¿Por qué se necesita una cadena portacables?**
+Cuando hay partes de una máquina que se mueven continuamente (el cabezal de una
+CNC, el carro de una grúa puente, el brazo de un robot), los cables que los
+alimentan tienen que seguir ese movimiento. Sin cadena, los cables se doblegan
+de forma aleatoria → se rompen en poco tiempo. La cadena:
+1. Guía el cable en un radio de curvatura controlado (sin dobleces bruscos)
+2. Separa los cables dentro (evita que se enreden entre sí)
+3. Protege los cables del aceite, virutas y suciedad de la máquina
+
+**Marca: INTERFLEX** — fabricante de cadenas portacables para automatización industrial.
+
+**1. GAMA PLASTICHAIN 3010D y 4230B (INTERFLEX)**
+Cadenas de eslabones de poliamida reforzada:
+- PLASTICHAIN 3010D: altura 30mm, paso 10mm — para máquinas pequeñas o medianas
+  (ejes auxiliares, mesas coordenadas pequeñas)
+- PLASTICHAIN 4230B: altura 42mm, paso 30mm — para máquinas más grandes
+  (centros de mecanizado, ejes principales CNC)
+Los eslabones se abren individualmente (clip lateral) para meter o sacar cables
+sin desmontar toda la cadena.
+
+**2. GAMA 6830 (INTERFLEX) — Cadena metálica/plástica mixta**
+- Cadena 6830/C: serie de mayor resistencia mecánica para cargas pesadas
+  o temperaturas extremas. Los eslabones tienen refuerzo metálico.
+- Clip verde RC 105mm cadena 6830: separador interior que divide la cadena
+  en carriles para organizar cables y mangueras por separado.
+- Juego 4 piezas cadena 6830A/B/C: el kit de montaje de los extremos.
+
+**3. TERMINALES DE FIJACIÓN (INTERFLEX)**
+Los terminales son las piezas de los extremos de la cadena que la fijan:
+- Juego 4 terminales fijación 3010 acero inoxidable: terminales para la cadena
+  PLASTICHAIN 3010, en inox (resistente a aceite y agua de refrigeración)
+- Juego 4 terminales fijación 4230 acero inoxidable: para la cadena 4230B
+
+**¿Qué hay dentro de la cadena?**
+Los cables que van dentro deben ser específicamente diseñados para movimiento
+continuo: los cables LAPP ÖLFLEX SERVO FD 798 CP (ver cuadro de cables de control)
+son los idóneos. Un cable de instalación normal se rompería rápidamente dentro
+de la cadena por los ciclos de doblado.
+
+Lo que facilita:
+- Guiar y proteger los cables en máquinas con partes móviles.
+- Aumentar la vida útil de los cables en aplicaciones de movimiento continuo.
+- Organizar múltiples cables y mangueras en una sola cadena.
+
+Lo que evita que ocurra:
+- Rotura de cables por doblado sin guía controlada.
+- Enredo de cables en piezas giratorias de la máquina.
+- Parada de producción por cable roto en eje CNC o robot.
+
+============================================================
+
+MODELOS EN ARAIZ (~9 artículos)
+--------------------------------------------------------------
+| Tipo                          | Marca     | Ref.           | Para qué                        |
+|-------------------------------|-----------|----------------|---------------------------------|
+| Cadena PLASTICHAIN 3010D      | INTERFLEX | PLASTICHAIN3010D| Ejes pequeños y medianos CNC   |
+| Cadena PLASTICHAIN 4230B      | INTERFLEX | PLASTICHAIN4230B| Ejes grandes, centros mec.     |
+| Cadena 6830/C refuerzo met.   | INTERFLEX | 6830/C         | Alta carga o temperatura       |
+| Cadena 4230 RC105 verde       | INTERFLEX | 4230 RC105     | 4230 con separadores verdes    |
+| Clip verde RC 105mm 6830      | INTERFLEX | RC105 6830     | Separador interior cadena 6830 |
+| Terminal fijación 3010 inox   | INTERFLEX | Terminales 3010| Fijar extremos cadena 3010     |
+| Terminal fijación 4230 inox   | INTERFLEX | Terminales 4230| Fijar extremos cadena 4230     |
+| Juego 4 piezas 6830A/B/C      | INTERFLEX | Kit 6830       | Kit montaje cadena 6830        |
+| Terminal poliamida/fibra 6830 | INTERFLEX | Terminal PA 6830| Terminal ligero cadena 6830   |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                              | Por qué la necesitas                                    |
+|----|-------------------------------------------------------|---------------------------------------------------------|
+| 1  | Qué máquina es? Qué eje se mueve?                     | Define el tamaño de cadena necesario                    |
+| 2  | Cuántos cables y de qué diámetro van dentro?          | Define el ancho y la altura interior de la cadena       |
+| 3  | Cuál es el recorrido (en metros) del movimiento?      | Define la longitud de cadena                            |
+| 4  | Hay aceite de refrigeración o virutas?                | Define si necesita terminales en inox y el tipo de clip |
+| 5  | Los cables son para movimiento continuo (flex. clase 6)?| Si no → los cables actuales se romperán pronto         |
+
+CONSEJO: Las cadenas portacables son productos muy específicos de la automatización
+industrial. Si un cliente los pide, es probable que sea un técnico de mantenimiento
+de CNC o un integrador. Siempre preguntar qué máquina es y cuántos cables van dentro,
+ya que las cadenas se seleccionan en función del número y tamaño de cables que
+deben contener. INTERFLEX tiene un configurador online de cadenas que puede ser útil.
+
+============================================================
+Fuentes:
+- INTERFLEX: https://www.interflex-energy-chains.com/
+- LAPP ÖLFLEX SERVO FD: cables compatibles para movimiento continuo
+============================================================

@@ -1,0 +1,105 @@
+CUADRO RESUMEN — BANDEJA METÁLICA DE REJILLA (Rejiband PEMSA, electrocincada, inoxidable, galvanizada caliente)
+Familia: Electricidad > Bandejas, canales y tubos > Bandeja metálica rejilla
+Ejemplo en Araiz: PEMSA Rejiband RAPIDE 60x100mm electrocincada EZ (sistema Click unión rápida)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"bandeja rejilla cable eléctrico industrial" o "Rejiband PEMSA instalación"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+La bandeja de rejilla (también llamada bandeja de malla o wire mesh tray) es el
+sistema más usado para tender cables en instalaciones industriales, salas de
+servidores, hospitales y edificios de oficinas. En lugar de un canal cerrado,
+la bandeja es una estructura de hilos de acero soldados con forma de cesta.
+
+**Ventajas de la rejilla frente al canal cerrado:**
+- Ventilación natural de los cables (menor calentamiento → mayor corriente admisible)
+- Fácil inspección visual de los cables
+- Más económica por kg de acero
+- Facilita la derivación de cables en cualquier punto
+- Permite paso de agua hacia abajo (en zonas con riesgo de goteo)
+
+**Marca principal: PEMSA** — Rejiband es el sistema de referencia mundial en bandejas de rejilla.
+
+**1. GAMA REJIBAND RAPIDE — Sistema Click (PEMSA)**
+La serie Rapide incorpora el sistema Click de unión rápida:
+sin herramientas, los tramos se unen presionando el clip metálico.
+Ahorra tiempo en instalación respecto al sistema tradicional con tornillos.
+Acabado electrocincado EZ (zinc electrolítico): para interiores secos o con
+humedad moderada. Galvanizado por proceso electrolítico, menos protección que
+galvanizado caliente pero más económico.
+Anchos disponibles: 60, 100, 150, 200, 300mm. Altura de ala: 60mm (estándar).
+
+**2. REJIBAND CON BORDE DE SEGURIDAD**
+Variante con borde enrollado en los laterales: evita que los cables se dañen
+con los bordes vivos de la rejilla. Recomendable para cables de baja tensión
+donde el aislamiento puede rozar con el lateral.
+Disponible en acero inoxidable AISI 304 (ancho 300mm) y AISI 316L (ancho 100mm).
+
+**3. ACABADOS Y SU APLICACIÓN:**
+- **EZ (electrocincado)**: para interiores secos o con humedad moderada. Económico.
+- **GC (galvanizado caliente)**: para exteriores, ambientes húmedos o corrosivos.
+  El zinc penetra en el acero → protección muy duradera. Obligatorio en muchas
+  instalaciones industriales exteriores.
+- **BLACK C8**: tratamiento negro con resina epoxy. Para instalaciones con requisitos
+  estéticos (salas de servidores, oficinas vistas) o donde se quiere minimizar
+  reflejo de luz.
+- **Inoxidable AISI 304/316L**: para ambientes muy corrosivos (alimentación,
+  farmacéutica, marine). 316L es más resistente a cloruros que 304.
+
+**4. REJIBAND RAPIDE 100mm DE ALA**
+Para instalaciones con mazos de cable muy pesados (gran cantidad de cables de
+gran sección). El ala alta de 100mm ofrece mayor capacidad de carga que la estándar
+de 60mm. Disponible en 400mm de ancho.
+
+Lo que facilita:
+- Tender mazos de cable en recorridos industriales largos.
+- Ventilación de cables con alta carga (evita derating por calor).
+- Instalación rápida con sistema Click (sin herramientas de unión).
+- Añadir o quitar cables en cualquier momento sin desmontar el sistema.
+
+Lo que evita que ocurra:
+- Sobrecalentamiento de cables apilados sin ventilación.
+- Daños mecánicos en cables por instalación sin canalización.
+- Corrosión prematura (el acabado correcto para el ambiente).
+
+============================================================
+
+MODELOS EN ARAIZ (~9 artículos)
+--------------------------------------------------------------
+| Tipo                               | Acabado | Ancho  | Altura | Para qué                      |
+|------------------------------------|---------|--------|--------|-------------------------------|
+| Rejiband RAPIDE Click              | EZ      | 60mm   | 60mm   | Interior estándar, poco cable |
+| Rejiband RAPIDE Click              | EZ      | 100mm  | 60mm   | Interior, carga media         |
+| Rejiband RAPIDE Click              | EZ      | 150mm  | 60mm   | Interior, varios circuitos    |
+| Rejiband RAPIDE Click              | EZ      | 200mm  | 60mm   | Interior, mazo grande         |
+| Rejiband RAPIDE Click              | EZ      | 300mm  | 60mm   | Interior, mazo muy grande     |
+| Rejiband RAPIDE Click alta carga   | EZ      | 400mm  | 100mm  | Mucho cable o gran sección    |
+| Rejiband borde seguridad           | GC      | 400mm  | 60mm   | Exterior o húmedo             |
+| Rejiband inox borde seg. AISI 304  | INOX304 | 300mm  | 60mm   | Alimentación / corrosivo      |
+| Rejiband inox borde seg. AISI 316L | INOX316L| 100mm  | 60mm   | Marine / cloruros             |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                              | Por qué la necesitas                                     |
+|----|-------------------------------------------------------|----------------------------------------------------------|
+| 1  | El ambiente es interior seco, húmedo o exterior?      | Define el acabado (EZ / GC / inox)                       |
+| 2  | Hay agentes corrosivos (cloro, sal, ácidos)?          | Si sí, inoxidable 316L o recubrimiento especial          |
+| 3  | Cuántos cables y de qué sección van en la bandeja?    | Define el ancho necesario                                |
+| 4  | Hay requisitos estéticos (vista en oficinas)?         | BLACK C8 o bandeja pintada                               |
+| 5  | Necesita tapa?                                        | La bandeja de rejilla no lleva tapa estándar             |
+
+CONSEJO ANCHO DE BANDEJA:
+Regla práctica: la suma de los diámetros de todos los cables no debe superar el 60%
+del ancho de la bandeja. Ejemplo: 10 cables de 12mm Ø = 120mm de cables → bandeja
+de 200mm mínimo. Dejar siempre margen para futuras ampliaciones.
+
+============================================================
+Fuentes:
+- PEMSA Rejiband: https://www.pemsa-rejiband.com/es/productos/bandejas/rejiband/
+============================================================

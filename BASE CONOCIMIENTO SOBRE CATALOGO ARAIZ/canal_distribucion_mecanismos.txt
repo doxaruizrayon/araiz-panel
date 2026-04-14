@@ -1,0 +1,105 @@
+CUADRO RESUMEN — CANAL DE DISTRIBUCIÓN Y MECANISMOS (EUROQUINT Legrand, UNEX U23X, canal 2 compartimentos)
+Familia: Electricidad > Bandejas, canales y tubos > Canal distribución y mecanismos
+Ejemplo en Araiz: LEGRAND Canal KIB EUROQUINT 60x150mm (para oficinas, mecanismos integrados)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"canaleta de pared distribución mecanismos oficina" o "canal Euroquint Legrand enchufes"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Son canales de mayor tamaño que se instalan en paredes o techos de oficinas, salas
+de reuniones y espacios comerciales para llevar el cableado de forma visible y
+estética, permitiendo instalar mecanismos (enchufes, conectores de red, USB) en
+cualquier punto del recorrido.
+
+A diferencia del canal de cuadro (que va dentro del armario), estos canales van
+en la pared y los ve el usuario final.
+
+**1. GAMA EUROQUINT (LEGRAND) — Canal de distribución para oficinas**
+La canaleta de referencia para instalaciones en oficinas y locales comerciales.
+Tamaños:
+- KIB 40x90mm: el más pequeño, para 1 compartimento con pocos cables
+- KIB 60x110mm: tamaño medio, 1 compartimento estándar
+- KIB 60x150mm: tamaño grande, para más cables o 2 compartimentos
+Permite instalar mecanismos de la gama MOSAIC de Legrand directamente en el canal
+(enchufes, conectores RJ45, HDMI, USB...). El cliente ve una canaleta ordenada
+con los enchufes ya integrados.
+Color: blanco o aluminio. Se venden accesorios (ángulos, derivaciones, tapas finales).
+
+**2. CANALES DE 2 COMPARTIMENTOS (LEGRAND)**
+- Canal clipaje directo 50x105mm 1 compartimento
+- Canal clipaje directo 50x145mm 2 compartimentos
+El canal de 2 compartimentos separa físicamente los cables de fuerza (enchufes)
+de los cables de datos (red, telefonía). La separación física reduce interferencias
+electromagnéticas entre circuitos. Muy habitual en puestos de trabajo de oficina.
+El sistema "clipaje directo" significa que los mecanismos se instalan sin necesidad
+de caja soporte — se encajan directamente en el canal.
+
+**3. CANAL MONOBLOC (LEGRAND)**
+Canal 50x105mm PVC blanco: versión de una sola pieza sin posibilidad de 2
+compartimentos. Más económico que el de 2 compartimentos. Para instalaciones
+donde no importa separar fuerza y datos.
+
+**4. CANAL UNEX U23X — Distribución con mecanismos**
+- Canal 93 1 tapa 50x100mm anodizado gris aluminio: canaleta de aluminio anodizado
+  para instalaciones donde se busca acabado metálico (salas de reuniones, zonas
+  de representación). Admite mecanismos de la gama UNEX.
+- Canal 72/73 PVC-M1 60x90mm U23X blanco nieve: versión en PVC blanco para
+  instalaciones estándar.
+
+**5. CANAL GAESTOPAS**
+Canal serie E/4 80x60mm con ranura 4mm gris: canal técnico con ranura continua
+en el fondo para fijación de accesorios. Se usa más en instalaciones técnicas
+que en oficinas. La ranura permite colocar y mover los accesorios en cualquier posición.
+
+Lo que facilita:
+- Llevar el cableado de forma ordenada y estética por paredes de oficinas.
+- Instalar enchufes y conectores de datos en cualquier punto del recorrido.
+- Separar circuitos de fuerza y datos para evitar interferencias.
+
+Lo que evita que ocurra:
+- Cables al aire visibles en pared (feo y potencialmente peligroso).
+- Mecanismos sueltos sin base de soporte.
+- Interferencias en la red de datos por proximidad con cables de potencia.
+
+============================================================
+
+MODELOS EN ARAIZ (~9 artículos)
+--------------------------------------------------------------
+| Tipo                          | Marca    | Dimensiones  | Para qué                       |
+|-------------------------------|----------|--------------|--------------------------------|
+| Canal KIB EUROQUINT           | LEGRAND  | 40x90mm      | Oficina pequeño, 1 compartimento|
+| Canal KIB EUROQUINT           | LEGRAND  | 60x110mm     | Oficina estándar               |
+| Canal KIB EUROQUINT           | LEGRAND  | 60x150mm     | Oficina amplio + mecanismos    |
+| Canal clipaje directo 1 comp. | LEGRAND  | 50x105mm     | Distribución básica            |
+| Canal clipaje directo 2 comp. | LEGRAND  | 50x145mm     | Fuerza + datos separados       |
+| Canal monobloc PVC            | LEGRAND  | 50x105mm     | Distribución económica         |
+| Canal aluminio anodizado      | UNEX     | 50x100mm     | Acabado metálico sala reuniones|
+| Canal PVC blanco              | UNEX     | 60x90mm      | Distribución PVC blanco        |
+| Canal E/4 técnico ranura 4mm  | GAESTOPAS| 80x60mm     | Canal técnico con ranura       |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                              | Por qué la necesitas                                    |
+|----|-------------------------------------------------------|---------------------------------------------------------|
+| 1  | Va en oficina, sala reuniones o zona técnica?         | Oficina → EUROQUINT o clipaje; técnica → Gaestopas      |
+| 2  | Necesita separar fuerza y datos?                      | Si sí → canal de 2 compartimentos                       |
+| 3  | Qué mecanismos quiere instalar en el canal?           | Define el tamaño y el sistema de clipaje compatible     |
+| 4  | Qué color o acabado quiere? (blanco, aluminio, gris)  | Define la gama y el modelo                              |
+| 5  | Cuántos metros de canal necesita?                     | Se vende en tramos de 2m                                |
+
+CONSEJO: La canaleta EUROQUINT de Legrand es la recomendada para oficinas porque
+tiene el mejor ecosistema de mecanismos (Mosaic, Céliane) y accesorios. Si el
+cliente tiene mecanismos de otra marca (Simon, BJC, Niessen), verificar la
+compatibilidad antes de proponer esta canaleta.
+
+============================================================
+Fuentes:
+- LEGRAND EUROQUINT: https://www.legrand.es/catalogo/canalizaciones/euroquint
+- UNEX distribución: https://www.unex.es/productos/
+============================================================

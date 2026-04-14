@@ -1,0 +1,142 @@
+CUADRO RESUMEN — CANAL DE SUELO, COLUMNAS Y TORRETAS (UNEX U48X, SIMON CIMA, LEGRAND, accesorios suelo)
+Familia: Electricidad > Bandejas, canales y tubos > Canal instalación bajo suelo / Columna y torreta / Accesorios canal bajo suelo
+Ejemplo en Araiz: SIMON 500 CIMA (Caja suelo con 2-4 módulos 70-90mm, gris y grafito)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"caja de suelo eléctrica oficina" o "columna eléctrica open space"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Son sistemas para llevar el cableado por el suelo (en la capa de mortero o suelo
+técnico elevado) y sacarlo en puntos concretos, o para distribuirlo verticalmente
+desde el suelo hasta la zona de trabajo en open spaces y oficinas.
+
+**PARTE 1 — CANAL INSTALACIÓN BAJO SUELO (UNEX U48X y LEGRAND)**
+
+Se instalan embutidos en el suelo técnico o en la capa de mortero bajo el acabado.
+Los cables van dentro del canal y se sacan en las cajas de suelo donde el usuario
+necesita los enchufes.
+
+**1. CANAL DE SUELO U48X (UNEX)**
+- 74 U48X 12x50mm antracita: canal plano muy delgado para instalaciones bajo acabado
+- 74 U48X 18x75mm antracita: canal algo más alto para más cables
+El color antracita es el estándar para instalaciones de suelo (queda "enterrado"
+bajo el revestimiento). Los cables se instalan antes de colocar el suelo.
+
+**2. CANAL FE (LEGRAND) — Canal de suelo compartimentado**
+Canal multicompartimento para suelos técnicos con mucho cableado:
+- FE 150x38: 3 compuertas, para instalaciones medianas
+- FE 200x38: 3 compuertas, para más cables
+- FE 350x38: 3 compuertas, la más ancha, para grandes instalaciones
+- Canal PVC 250x38, 5 compuertas: versión en PVC con 5 secciones separadas
+Los "compartimentos/compuertas" permiten separar diferentes circuitos (fuerza,
+telefonía, datos) en el mismo canal sin mezclar cables.
+
+**3. CANAL MONOBLOC DCS SIMON (suelo)**
+Simon CANALIZACIÓN DCS 85x18mm aluminio: canal de suelo delgado de aluminio con
+acabado anodizado. Para instalaciones de alta gama donde se quiere discreción
+total del canal en el suelo. Se instala antes del solado.
+
+**4. CAJA SUELO UNEX U24X**
+Caja simple de PVC para embutir en el suelo y alojar cajas de conexión o mecanismos.
+
+---
+
+**PARTE 2 — CAJAS DE SUELO SIMON 500 CIMA**
+
+Son las cajas que salen a la superficie del suelo donde el usuario conecta sus equipos:
+- Caja 2 módulos 70mm gris: para 2 mecanismos (ej: 1 enchufe + 1 RJ45)
+- Caja 3 módulos 70mm gris/grafito: para 3 mecanismos
+- Caja 4 módulos 70mm gris: para 4 mecanismos
+- Caja 3 módulos 90mm: cuando los mecanismos son más altos
+- Cubeta plástica 2M y 3M: la carcasa exterior que va embutida en el suelo
+- Cubeta pavimento para cajas grandes: para suelos con revestimiento más grueso
+- Tapa 2M gris: tapa que cierra la caja cuando no se usa (a ras del suelo)
+
+El sistema SIMON 500 CIMA es el estándar en oficinas con open space: la caja va
+embutida en el suelo, con tapa rasante, y cuando se abre aparecen los enchufes
+y conectores de datos. Muy limpio estéticamente.
+
+---
+
+**PARTE 3 — COLUMNAS Y TORRETAS**
+
+Para cuando no hay suelo técnico o no se puede llevar el cable por el suelo.
+Las columnas suben desde el suelo hasta la altura de la mesa de trabajo.
+
+**COLUMNAS LEGRAND**
+- Caja instalación mecanismos en columna: permite instalar mecanismos en la columna
+- Tabique altura 60mm: separador interior de la columna para dividir circuitos
+- Bandeja clipaje directo para columna: repisa para documentos u ordenadores
+- Adaptador 90° a presión ARTEOR/MOSAIC: orienta los mecanismos en la columna
+
+**TORRETAS UNEX (guías articuladas)**
+- Guía articulada 1m cerrada grafito transparente: columna articulada que sube
+  desde el suelo o del canal y permite orientar la toma en distintas posiciones
+- Conjunto extremo anclaje guía transparente: pieza de fijación al suelo
+
+**SIMON BASTIDOR + MARCO 500 CIMA**
+- SIMON 500 CIMA grafito y aluminio: el frontal decorativo del sistema CIMA
+  que define el acabado visual de la instalación de suelo.
+
+Lo que facilita:
+- Llevar enchufes y datos al centro de la sala sin obras de paredes.
+- Instalar puestos de trabajo en open space con cableado totalmente oculto.
+- Actualizar la distribución de puestos moviendo las cajas de suelo.
+
+Lo que evita que ocurra:
+- Cables al aire por el suelo que son peligrosos y feos.
+- Obras de demolición para añadir enchufes en medio de una sala.
+- Puestos de trabajo sin acceso a electricidad por falta de planificación.
+
+============================================================
+
+MODELOS EN ARAIZ (~18 artículos en 3 grupos)
+--------------------------------------------------------------
+CANAL BAJO SUELO:
+| Tipo                     | Marca   | Dimensiones | Para qué                       |
+|--------------------------|---------|-------------|--------------------------------|
+| Canal U48X 12x50 antracita| UNEX   | 12x50mm     | Canal delgado bajo mortero     |
+| Canal U48X 18x75 antracita| UNEX   | 18x75mm     | Canal bajo mortero + cables    |
+| Canal FE 3 comp. 150x38  | LEGRAND | 150x38mm    | Suelo técnico 3 circuitos      |
+| Canal FE 3 comp. 200x38  | LEGRAND | 200x38mm    | Suelo técnico amplio           |
+| Canal FE 3 comp. 350x38  | LEGRAND | 350x38mm    | Suelo técnico gran densidad    |
+| Canal PVC 5 comp. 250x38 | LEGRAND | 250x38mm    | 5 circuitos separados          |
+| Canal DCS aluminio       | SIMON   | 85x18mm     | Suelo técnico alta gama        |
+| Caja suelo PVC           | UNEX    | U24X        | Caja conexión bajo suelo       |
+| Caja suelo 4M 70mm gris  | SIMON   | CIMA 70mm   | 4 mecanismos en suelo          |
+
+CAJAS Y COLUMNAS:
+| Tipo                     | Marca   | Ref.        | Para qué                       |
+|--------------------------|---------|-------------|--------------------------------|
+| Caja suelo 2M 70mm gris  | SIMON   | CIMA        | 2 mecanismos ras suelo         |
+| Caja suelo 3M 70mm gris  | SIMON   | CIMA        | 3 mecanismos ras suelo         |
+| Caja suelo 3M grafito    | SIMON   | CIMA        | 3 mecanismos ras suelo grafito |
+| Tapa 2M gris             | SIMON   | CIMA        | Tapa de suelo cerrada          |
+| Cubeta 2M plástico       | SIMON   | CIMA        | Carcasa embutida en suelo      |
+| Cubeta 3M plástico       | SIMON   | CIMA        | Carcasa embutida más grande    |
+| Guía articulada 1m       | UNEX    | Torreta     | Columna articulada             |
+| Caja mecanismos columna  | LEGRAND | Columna     | Instalar mecanismos en columna |
+| Bastidor SIMON 500 CIMA  | SIMON   | CIMA grafito/alu| Frontal decorativo CIMA     |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                              | Por qué la necesitas                                    |
+|----|-------------------------------------------------------|---------------------------------------------------------|
+| 1  | El suelo tiene acceso técnico (suelo elevado)?        | Suelo elevado → canal FE; sobre solera → canal U48X     |
+| 2  | Cuántos circuitos diferentes necesita separar?        | Define el número de compartimentos del canal             |
+| 3  | Prefiere cajas de suelo rasantes o torretas?          | Rasante = SIMON CIMA; torreta = cuando el suelo no permite empotrar|
+| 4  | Qué acabado quiere? (gris, grafito, aluminio)         | Define el modelo SIMON CIMA o el sistema UNEX            |
+| 5  | Cuántos puestos de trabajo y con cuántos mecanismos?  | Define el número y tamaño de cajas de suelo              |
+
+============================================================
+Fuentes:
+- SIMON 500 CIMA: https://www.simon.es/
+- UNEX suelo: https://www.unex.es/
+- LEGRAND FE: https://www.legrand.es/catalogo/canalizaciones/
+============================================================

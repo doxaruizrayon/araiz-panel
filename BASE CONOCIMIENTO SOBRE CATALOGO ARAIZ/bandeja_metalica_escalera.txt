@@ -1,0 +1,109 @@
+CUADRO RESUMEN — BANDEJA METÁLICA TIPO ESCALERA (Megaband PEMSA, alta carga, galvanizada, travesaños soldados)
+Familia: Electricidad > Bandejas, canales y tubos > Bandeja metálica escalera
+Ejemplo en Araiz: PEMSA Megaband 100x200mm GC (travesaños soldados, borde de seguridad, 3m)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"bandeja escalera cable industrial" o "Megaband PEMSA instalación industrial"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+La bandeja tipo escalera es el sistema de conducción de cables para instalaciones
+industriales con cables de gran sección y alto peso. Su estructura (dos largueros
+laterales unidos por travesaños soldados, como una escalera) le da una capacidad
+de carga muy superior a la bandeja de rejilla o a la bandeja de chapa.
+
+**¿Cuándo se usa escalera en lugar de rejilla?**
+- Cables de gran sección (≥35mm²) que pesan mucho
+- Largas distancias entre soportes (la escalera soporta más sin doblarse)
+- Ambientes muy agresivos donde la rejilla de malla se deterioraría
+- Instalaciones de líneas aéreas o tendido en altura en naves industriales
+
+**Marca principal: PEMSA Megaband** — la bandeja escalera de mayor carga del mercado español.
+
+**1. MEGABAND — ALTURAS DE ALA (PEMSA)**
+La altura del ala (larguero lateral) define la resistencia mecánica:
+- Ala 60mm: carga estándar, para la mayoría de instalaciones industriales
+- Ala 100mm: carga alta, para cables muy pesados o grandes distancias entre soportes
+- Ala 120mm: máxima carga, para instalaciones de distribución de alta potencia
+La longitud estándar de cada tramo es 3 metros.
+
+**2. ANCHOS DISPONIBLES**
+- 100mm: para pocos cables o cables de pequeña sección
+- 150mm: carga media (versión GC ala 120mm)
+- 200mm: el más habitual en instalaciones industriales estándar
+- 400mm: para mazos grandes con muchos cables de potencia
+- 450mm: alta capacidad (versión GC ala 120mm)
+
+**3. ACABADOS**
+- **PG (galvanizado Sendzimir)**: proceso en continuo, protección moderada para interiores
+- **GC (galvanizado caliente)**: inmersión en zinc fundido, máxima protección para exteriores,
+  ambientes húmedos o corrosivos. El zinc penetra en todas las superficies incluidos
+  tornillos y soldaduras — la protección más duradera.
+- **HDG**: equivalente a GC (Hot Dip Galvanized), norma IEC 61537
+
+**4. BORDE DE SEGURIDAD**
+Todos los Megaband llevan borde de seguridad: los largueros tienen el extremo superior
+doblado hacia dentro para proteger los cables de los cantos vivos del acero.
+Imprescindible en instalaciones donde el cable roza con el lateral de la bandeja.
+
+**Comparativa escalera vs rejilla:**
+| Característica   | Escalera (Megaband) | Rejilla (Rejiband) |
+|-----------------|--------------------|--------------------|
+| Capacidad carga  | Muy alta            | Media              |
+| Peso propio      | Mayor               | Menor              |
+| Ventilación      | Buena               | Muy buena          |
+| Coste            | Mayor               | Menor              |
+| Instalación      | Más compleja        | Más rápida (Click) |
+| Para cables      | Gran sección (≥35mm²)| Cualquier sección  |
+
+Lo que facilita:
+- Tender cables de potencia de gran sección en largas distancias.
+- Soportar mazos de cable muy pesados con pocas ménsulas.
+- Resistir ambientes agresivos (GC para exteriores).
+
+Lo que evita que ocurra:
+- Flexión o rotura de la bandeja por sobrecarga.
+- Daños en cables de gran sección por falta de soporte.
+- Corrosión prematura en instalaciones exteriores (acabado GC).
+
+============================================================
+
+MODELOS EN ARAIZ (~9 artículos)
+--------------------------------------------------------------
+| Tipo                    | Acabado | Ala    | Ancho  | Long. | Para qué                    |
+|-------------------------|---------|--------|--------|-------|-----------------------------|
+| Megaband travesaños sold.| PG     | 60mm   | 100mm  | 3m    | Industrial ligero           |
+| Megaband travesaños sold.| PG     | 60mm   | 200mm  | 3m    | Industrial estándar         |
+| Megaband travesaños sold.| PG     | 60mm   | 400mm  | 3m    | Industrial mazo grande      |
+| Megaband travesaños sold.| GC     | 100mm  | 200mm  | 3m    | Exterior / carga alta       |
+| Megaband travesaños sold.| PG     | 100mm  | 400mm  | 3m    | Carga alta, mazo grande     |
+| Megaband travesaños sold.| GC     | 120mm  | 150mm  | 3m    | Exterior, máx. resistencia  |
+| Megaband travesaños sold.| GC     | 120mm  | 450mm  | 3m    | Exterior, máx. carga+ancho  |
+| Megaband HDG ala 120     | GC/HDG | 120mm  | 200mm  | 3m    | Norma IEC 61537 exterior    |
+| Megaband PG3 ala 60      | PG3    | 60mm   | 100mm  | 3m    | Interior industrial         |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                              | Por qué la necesitas                                     |
+|----|-------------------------------------------------------|----------------------------------------------------------|
+| 1  | Qué sección tienen los cables más gruesos?            | ≥35mm² → escalera; <35mm² → rejilla o chapa             |
+| 2  | Qué distancia hay entre soportes (ménsulas)?          | Define si necesita ala 60, 100 o 120mm                   |
+| 3  | Es instalación interior o exterior?                   | Interior → PG; exterior o húmedo → GC                   |
+| 4  | Cuántos cables y de qué diámetro en total?            | Define el ancho de bandeja necesario                     |
+| 5  | Tiene proyecto de ingeniería con cálculo de cargas?   | En grandes instalaciones es habitual calcular la carga   |
+
+CONSEJO: La regla de ocupación de bandeja (máx. 40% de la sección transversal con
+cables) es clave para no sobrecargar ni impedir ventilación. Para una bandeja
+Megaband de 200mm de ancho × 60mm de ala: sección útil ≈12.000mm² → capacidad
+para cables cuya suma de secciones no supere ≈4.800mm². Siempre dejar margen.
+
+============================================================
+Fuentes:
+- PEMSA Megaband: https://www.pemsa-rejiband.com/es/productos/bandejas/megaband/
+- IEC 61537: Sistemas de bandejas portacables
+============================================================

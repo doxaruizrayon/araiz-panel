@@ -1,0 +1,120 @@
+CUADRO RESUMEN — MOLDURAS, SALVACABLES Y CANAL ZÓCALO (UNEX U24X, SIMON K45/HAGER SL, canaleta rodapié)
+Familia: Electricidad > Bandejas, canales y tubos > Molduras y salvacables / Canal zócalo
+Ejemplo en Araiz: HAGER ref. SL20080 (Base zócalo negro grafito 80x20mm) / SIMON K45 zócalo anodizado
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"canaleta rodapié eléctrica" o "zócalo eléctrico mecanismos instalación oficina"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Son sistemas de canalización que van a ras del suelo (zócalo/rodapié) o pegados
+a la pared a baja altura. Permiten instalar cables y mecanismos (enchufes, datos)
+de forma limpia sin obras de albañilería — ideales para reformas en locales ya
+terminados.
+
+**PARTE 1 — MOLDURAS Y SALVACABLES (UNEX U24X)**
+
+El sistema U24X de UNEX es la gama de canaletas pequeñas para distribución final
+en oficinas y locales comerciales. Van adosadas a la pared.
+
+**1. CAJAS DE MECANISMO Y DERIVACIÓN**
+- Caja 1 mecanismo U24X PVC blanco: caja que alberga 1 mecanismo (enchufe, interruptor)
+  y se instala dentro o junto a la moldura.
+- Caja derivación ABS moldura 78: caja de conexión para cables que se instala en la moldura.
+- Caja derivación ABS modular 78: versión modular (admite más cables o varios ramales).
+- Caja MOSAIC 45 PVC módulo 78: permite instalar mecanismos Mosaic de Legrand en la moldura UNEX.
+
+**2. ACCESORIOS MOLDURA U24X**
+- Adaptador 93 4M UNICA 80: adapta mecanismos UNICA de Schneider a la moldura U24X (4 módulos)
+- Adaptador 1M Simon: adapta mecanismos Simon 107x75mm a la moldura
+- Adaptador frontal PVC: frontal de acabado para la caja de la moldura
+- Derivaciones en T y doble: para ramificar el cableado en la moldura
+- Cubrejuntas 16x100mm: tapa la junta entre dos tramos de moldura
+- Tapa final: cierra el extremo de la moldura
+
+---
+
+**PARTE 2 — CANAL ZÓCALO (SIMON K45 y HAGER SL)**
+
+Son canales que sustituyen el rodapié de la pared y llevan el cableado dentro.
+Permiten pasar cables y colocar enchufes directamente en el zócalo.
+
+**3. ZÓCALO SIMON K45 — Aluminio anodizado**
+La gama K45 de Simon es un sistema de zócalo eléctrico de diseño:
+- 130x18mm: el tamaño estándar del zócalo K45
+- Variantes: recto (sin troquel), con 1 troquel, con 2 troqueles, con 4 pretroqueles
+  El "troquel" es el hueco donde se instala el mecanismo (enchufe, red, etc.)
+- 180° y 90°: accesorios de ángulo para cambios de dirección
+- Acabado anodizado: aluminio tratado con capa de óxido — resistente y estético
+
+**4. ZÓCALO HAGER SL — Sistema Negro/Grafito/Arce**
+La gama SL de Hager es el zócalo eléctrico moderno en diferentes acabados:
+- SL20080 negro: el zócalo base de 80x20mm (ancho x alto), negro
+- SL20115 grafito: la base más alta 115mm para más cables
+- SL20055: el más pequeño y estrecho
+- Unión SL20055: pieza de conexión entre tramos de 80x20mm, en aluminio
+- Tapa final SL20080 arce: cierre de extremo del zócalo en color arce (madera clara)
+- Ángulo interno SL20080 arce: ángulo interior para esquinas de habitación
+El sistema Hager SL permite acabado en negro (moderno), grafito o arce — tres
+tonos para combinar con distintos estilos de decoración.
+
+Lo que facilita:
+- Instalar cables y enchufes en locales ya terminados sin picar paredes.
+- Dar un acabado limpio y profesional con el cableado oculto en el rodapié.
+- Adaptar diferentes marcas de mecanismos a las molduras y zócalos.
+
+Lo que evita que ocurra:
+- Obras de albañilería costosas en reformas de oficinas.
+- Cables visibles en pared o suelo que son un peligro y una antiestética.
+- Falta de enchufes en locales donde el cliente necesita ampliar puntos de electricidad.
+
+============================================================
+
+MODELOS EN ARAIZ (~18 artículos en 2 grupos)
+--------------------------------------------------------------
+MOLDURAS U24X:
+| Tipo                        | Ref.        | Para qué                        |
+|-----------------------------|-------------|---------------------------------|
+| Caja 1 mecanismo PVC blanco | U24X        | Albergar enchufe en moldura     |
+| Caja derivación ABS 78      | U24X        | Conexión cables en moldura      |
+| Adaptador 93 4M UNICA 80    | U24X        | Mecanismos UNICA en moldura     |
+| Caja MOSAIC 45 módulo 78    | U24X        | Mecanismos Mosaic en moldura    |
+| Cubrejuntas 16x100          | U24X        | Tapa junta entre tramos         |
+| Adaptador frontal PVC 78031 | U24X        | Acabado frontal caja            |
+| Derivación T y doble        | U24X        | Bifurcar ramal en moldura       |
+| Tapa final                  | U24X        | Cerrar extremo moldura          |
+
+ZÓCALO K45/SL:
+| Tipo                        | Marca | Ref.     | Para qué                        |
+|-----------------------------|-------|----------|---------------------------------|
+| Zócalo K45 1 troquel 130x18 | SIMON | K45      | Zócalo con 1 enchufe aluminio   |
+| Zócalo K45 2 troqueles 180° | SIMON | K45      | Ángulo recto con 2 enchufes     |
+| Zócalo K45 2 troqueles 90°  | SIMON | K45      | Esquina con 2 enchufes          |
+| Zócalo K45 4 pretroqueles   | SIMON | K45      | Máxima flexibilidad de posición |
+| Caja mecanismo SL20080 negro| HAGER | SL20080  | Caja para mecanismo en zócalo   |
+| Base zócalo SL20115 grafito | HAGER | SL20115  | Zócalo alto grafito             |
+| Unión SL20055 80x20 aluminio| HAGER | SL20055  | Unir tramos de zócalo           |
+| Tapa final SL20080 arce     | HAGER | SL20080  | Cerrar extremo zócalo arce      |
+| Ángulo interno SL20080 arce | HAGER | SL20080  | Esquina interior arce           |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                              | Por qué la necesitas                                    |
+|----|-------------------------------------------------------|---------------------------------------------------------|
+| 1  | Es para un local ya terminado (reforma)?              | Si sí → moldura/zócalo en lugar de empotrar             |
+| 2  | Qué acabado quiere? (blanco, negro, aluminio, arce)   | Define la gama: UNEX blanco, Simon anodizado, Hager SL  |
+| 3  | Qué mecanismos quiere instalar?                       | Define el adaptador correcto (Simon, UNICA, Mosaic...)  |
+| 4  | Cuántos metros de zócalo necesita?                    | Las barras son de 2m — calcular lineal total + accesorios|
+| 5  | Hay esquinas o cambios de dirección?                  | Necesita ángulos interiores/exteriores y uniones        |
+
+============================================================
+Fuentes:
+- UNEX U24X: https://www.unex.es/productos/molduras/
+- SIMON K45: https://www.simon.es/
+- HAGER SL: https://www.hager.com/es/catalogo/canalizaciones/
+============================================================

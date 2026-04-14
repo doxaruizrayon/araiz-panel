@@ -1,0 +1,112 @@
+CUADRO RESUMEN — BANDEJA METÁLICA DE CHAPA PERFORADA Y CIEGA (Pemsaband One PEMSA, PG/GC)
+Familia: Electricidad > Bandejas, canales y tubos > Bandeja metálica perforada / Bandeja metálica ciega
+Ejemplo en Araiz: PEMSA Pemsaband One 60x100mm PG (chapa perforada, borde seguridad)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"bandeja chapa perforada cable eléctrico" o "canal metálico cerrado instalación eléctrica"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Son bandejas de chapa de acero formadas por doblado. A diferencia de la bandeja
+de rejilla (hilos soldados) o la escalera (travesaños), la bandeja de chapa tiene
+el fondo continuo: perforado (con agujeros) o ciego (sin agujeros).
+
+**¿Cuándo usar cada tipo?**
+- **Perforada**: mejor ventilación que la ciega, protección moderada contra caída
+  de objetos desde arriba. La más habitual en instalaciones industriales estándar.
+- **Ciega**: protege los cables de líquidos que gotean desde arriba (aceites,
+  agua de limpieza). Se usa en zonas donde la bandeja está expuesta a goteos.
+  También aporta mejor apantallamiento EMC que la perforada.
+
+**Gama PEMSABAND ONE (PEMSA)**
+La gama actual de bandeja de chapa de PEMSA. La ventaja del diseño "One" es el
+sistema de protección integrado (PG) que facilita la unión entre tramos.
+
+**1. DIMENSIONES (alto de ala × ancho)**
+La nomenclatura es Altura × Ancho:
+- 60x60mm: muy estrecha, para pocos cables (ramales secundarios)
+- 60x100mm: estándar para ramales con varios cables
+- 60x150mm: para grupos de cables medianos
+- 60x200mm: para mazos medianos
+- 60x300mm: para mazos grandes
+- 60x400mm: para mazos muy grandes
+- 100x200mm: ala alta, mayor capacidad de carga
+- 100x300mm: para muchos cables de sección importante
+- 100x400mm: instalaciones de alta densidad de cableado
+- 100x600mm: bandeja muy ancha para grandes instalaciones
+
+**2. SISTEMA DE PROTECCIÓN (acabado)**
+- **PG (galvanizado Sendzimir)**: zinc aplicado en continuo antes del prensado.
+  Protección buena para interiores. El más económico.
+- **GC (galvanizado caliente)**: inmersión en zinc después del prensado.
+  Máxima protección para exteriores o ambientes corrosivos.
+
+**3. BANDEJA CIEGA EASY RACK (SCHNEIDER)**
+El modelo "Bandeja ciega estándar Easy Rack 1U" es una bandeja de rack para servidores,
+de 1U de altura. Es el accesorio de relleno que se usa en racks 19" para tapar
+las posiciones vacías y mantener el flujo de aire correcto dentro del rack.
+No confundir con las bandejas de instalación de cables — esta es para racks de datos.
+
+Lo que facilita:
+- Conducir mazos de cable en instalaciones industriales con protección contra goteos.
+- Organizar el cableado en trayectos secundarios con pocos cables.
+- Proteger cables de la caída de objetos o líquidos desde arriba (ciega).
+
+Lo que evita que ocurra:
+- Deterioro de cables por exposición a aceite o agua de limpieza (bandeja ciega).
+- Interferencias EMC en cables de control próximos a cables de potencia (ciega + tapa).
+- Caída de cables por falta de soporte (el fondo continuo aguanta más que la rejilla).
+
+============================================================
+
+MODELOS EN ARAIZ — PERFORADA (~9 artículos)
+--------------------------------------------------------------
+| Tipo                  | Acabado | Dimensiones  | Para qué                        |
+|-----------------------|---------|--------------|----------------------------------|
+| Pemsaband One perf.   | PG      | 60x100mm     | Ramal secundario estándar        |
+| Pemsaband One perf.   | GC      | 60x100mm     | Ramal secundario exterior/húmedo |
+| Pemsaband One perf.   | PG      | 60x150mm     | Varios cables interior           |
+| Pemsaband One perf.   | PG      | 60x200mm     | Mazo medio interior              |
+| Pemsaband One perf.   | PG      | 60x400mm     | Mazo grande interior             |
+| Pemsaband One perf.   | PG      | 60x200mm     | (duplicado catálogo)             |
+| Pemsaband One perf.   | PG      | 100x300mm    | Alta carga media                 |
+| Pemsaband One perf.   | PG      | 100x400mm    | Alta carga grande                |
+| Pemsaband One perf.   | PG      | 100x600mm    | Alta densidad cableado           |
+
+MODELOS EN ARAIZ — CIEGA (~9 artículos)
+--------------------------------------------------------------
+| Tipo                  | Acabado | Dimensiones  | Para qué                        |
+|-----------------------|---------|--------------|----------------------------------|
+| Pemsaband One ciega   | PG      | 60x60mm      | Ramal muy pequeño               |
+| Pemsaband One ciega   | PG      | 60x100mm     | Ramal secundario (2 variantes)  |
+| Pemsaband One ciega   | PG      | 60x150mm     | Zona con goteos pequeña         |
+| Pemsaband One ciega   | PG      | 60x200mm     | Zona con goteos media           |
+| Pemsaband One ciega   | PG      | 60x300mm     | Zona con goteos grande          |
+| Pemsaband One ciega   | GC/PG   | 100x100mm    | Alta carga + zona goteos        |
+| Pemsaband One ciega   | PG      | 100x200mm    | Alta carga + zona goteos grande |
+| Bandeja rack Easy Rack| —       | 1U 19"       | Tapar posición vacía en rack    |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                              | Por qué la necesitas                                     |
+|----|-------------------------------------------------------|----------------------------------------------------------|
+| 1  | Hay goteos de aceite o agua sobre la bandeja?         | Si sí → bandeja ciega; si no → perforada                |
+| 2  | Cuántos cables y de qué sección total?                | Define el ancho necesario                               |
+| 3  | El ambiente es agresivo o exterior?                   | PG para interior, GC para exterior/húmedo               |
+| 4  | Necesita tapa sobre la bandeja?                       | Las tapas son accesorios separados (ver accesorios bandeja)|
+| 5  | Qué distancia hay entre ménsulas de soporte?          | Define si necesita ala de 60 o 100mm                    |
+
+CONSEJO: En la misma nave puede haber zonas con diferentes tipos de bandeja:
+bandeja escalera en el tendido principal (muchos cables, larga distancia),
+bandeja perforada en los ramales secundarios, y bandeja ciega donde hay maquinaria
+con aceites. El instalador suele mezclar tipos según la zona.
+
+============================================================
+Fuentes:
+- PEMSA Pemsaband One: https://www.pemsa-rejiband.com/es/productos/bandejas/pemsaband/
+============================================================
