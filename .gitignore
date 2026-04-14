@@ -1,3 +1,10 @@
 node_modules/
 debug_error.png
 *.png
+
+# JSONs grandes de extracción completa (no entran en git — regenerables con araiz_ninja_v4.js)
+catalogo_total_v4.json
+*_completo.json
+araiz_v4_temp.ndjson
+araiz_v4_uids.json
+araiz_v4_checkpoint.json
