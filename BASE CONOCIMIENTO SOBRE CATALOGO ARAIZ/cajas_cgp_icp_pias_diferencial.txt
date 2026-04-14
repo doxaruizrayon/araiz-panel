@@ -1,0 +1,97 @@
+CUADRO RESUMEN — CAJAS PARA CGP, ICP, PIAs Y DIFERENCIAL (cuadros residenciales, Golf, Pragma)
+Familia: Electricidad > Envolventes, armarios y cajas > Cajas tipo CGP, ICP, PIAS y diferencial
+Ejemplo en Araiz: HAGER ref. GD110E (Caja superficie Golf 1 fila 10 módulos)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"cuadro eléctrico vivienda ICP PIAs" o "caja distribución hager pragma schneider"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Son las cajas que contienen los interruptores automáticos (PIAs/magnetotérmicos),
+el ICP (interruptor de control de potencia de la compañía eléctrica) y los
+diferenciales de las viviendas, locales y pequeñas instalaciones.
+No son los interruptores en sí, sino la caja que los aloja, protege y da acceso al usuario.
+
+**¿Qué significan las siglas?**
+- **CGP** (Caja General de Protección): la caja en el límite entre red de distribución
+  y la instalación del cliente. Suele tener los fusibles de la acometida.
+- **ICP** (Interruptor de Control de Potencia): lo instala la compañía eléctrica para
+  limitar la potencia contratada. Va en una caja precintable separada.
+- **PIAs** (Pequeños Interruptores Automáticos): los magnetotérmicos de cada circuito
+  de la vivienda (cocina, iluminación, lavadora, etc.).
+- **Diferencial**: protege contra contactos eléctricos indirectos, va junto a los PIAs.
+
+**1. GAMA GOLF (HAGER) (~4 art.)**
+Cajas de plástico blancas para instalar en pared (superficie o empotrar). Muy habituales
+en viviendas y locales pequeños. El número de módulos indica cuántos PIAs caben:
+- GD110E: 1 fila 10 módulos (superficie) — para apartamentos/locales pequeños
+- GD102B / GD106B: variantes empotrar de 2 y 6 módulos
+- GP102P / GP106P / GP110P: puertas opacas blancas para estas cajas
+La puerta cierra la caja y protege los dispositivos; se puede quitar para acceder.
+
+**2. GAMA VF/VD (HAGER) (~2 art.)**
+Cajas de superficie (VD) o empotrar (VR) para la gama VF de Hager:
+- VS104PEB: caja superficie Golf VF 1 fila 4 módulos, opaca blanca
+  (para pequeños circuitos: 1 diferencial + 2-3 PIAs)
+- VZ914N / VZ922N: puertas opacas para cajas VR/VD de 8 y 24 módulos
+
+**3. PRAGMA C (SCHNEIDER ELECTRIC) (~1 art.)**
+El Pragma C es el cuadro modular estándar de Schneider para viviendas y locales.
+El modelo 10222 es un cofre empotrable de 4 filas con 48 módulos (96 pasos "plena"):
+- 4 filas para organizar circuitos: iluminación, fuerza, cocina, aire...
+- 96 pasos plena: puede alojar un diferencial de 4 polos + muchos PIAs
+- Puerta ahumada (semitransparente) para ver el estado de los interruptores
+Es el cuadro estándar para viviendas con muchos circuitos (más de 10).
+
+Lo que facilita:
+- Instalar los cuadros eléctricos de viviendas, locales y pequeñas instalaciones.
+- Proteger los interruptores de manipulaciones no autorizadas (puertas con cerradura).
+- Organizar visualmente los circuitos en filas separadas.
+
+Lo que evita que ocurra:
+- Contacto accidental con interruptores en tensión.
+- Modificaciones no autorizadas de los circuitos (puerta con llave).
+- Mezcla de circuitos al no tener espacio para organizarlos.
+
+============================================================
+
+MODELOS EN ARAIZ (~9 artículos)
+--------------------------------------------------------------
+| Tipo                          | Marca     | Ref.     | Módulos | Instalación   |
+|-------------------------------|-----------|----------|---------|---------------|
+| Caja Golf 1F 10M              | HAGER     | GD110E   | 10      | Superficie    |
+| Caja Golf VF 1F 4M opaca      | HAGER     | VS104PEB | 4       | Superficie    |
+| Puerta opaca GD102B           | HAGER     | GP102P   | 2       | Repuesto      |
+| Puerta opaca GD106B           | HAGER     | GP106P   | 6       | Repuesto      |
+| Puerta opaca GD110E           | HAGER     | GP110P   | 10      | Repuesto      |
+| Puerta opaca VR 8M empotrar   | HAGER     | VZ914N   | 8       | Empotrar      |
+| Puerta opaca VD 8M superficie | HAGER     | VZ912N   | 8       | Superficie    |
+| Puerta opaca VD 24M superficie| HAGER     | VZ922N   | 24      | Superficie    |
+| Cofre Pragma C 4F 48M empotrar| SCHNEIDER | 10222    | 48 (96p)| Empotrar      |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                              | Por qué la necesitas                                         |
+|----|-------------------------------------------------------|--------------------------------------------------------------|
+| 1  | Cuántos circuitos tiene la instalación?               | Define el número de módulos necesarios                       |
+| 2  | Va empotrado en la pared o en superficie?             | Modelos diferentes para cada caso                            |
+| 3  | Es para vivienda, local o cuadro de contador?         | CGP, ICP y cuadros de vivienda son gamas distintas           |
+| 4  | Necesita puerta con llave o sin llave?                | Algunos Pragma tienen cerradura, Golf no                     |
+| 5  | La instalación tiene ICP separado?                    | Si sí, necesita precinto independiente del resto del cuadro  |
+
+CONSEJO: La regla para calcular módulos necesarios es sumar: 1 módulo por cada PIA
+de 1 polo, 2 módulos por diferencial o PIA tetrapolar, 4 módulos por diferencial
+4P. Siempre añadir 20% de espacio libre para futuras ampliaciones.
+Ejemplo vivienda estándar: 1 diferencial 2P (2M) + 8 PIAs (8M) = 10M mínimo,
+mejor pedir 12-14M para tener margen.
+
+============================================================
+Fuentes:
+- HAGER Golf/VF: https://www.hager.com/es/catalogo/cuadros-electricos/
+- SCHNEIDER Pragma: https://www.se.com/es/es/product-range/61498-pragma-c/
+============================================================

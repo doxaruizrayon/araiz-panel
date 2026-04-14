@@ -1,0 +1,97 @@
+CUADRO RESUMEN — CLIMATIZACIÓN DE ARMARIOS ELÉCTRICOS (ventiladores, termostatos, resistencias calefactoras)
+Familia: Electricidad > Envolventes, armarios y cajas > Equipos de climatización para envolventes
+Ejemplo en Araiz: SCHNEIDER ref. NSYCVF575M230MF (Ventilador techo 575m³/h 230V)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"climatización armario eléctrico" o "ventilación cuadro eléctrico industrial"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Los equipos eléctricos dentro de un armario (variadores, PLCs, fuentes de alimentación)
+generan calor. Si la temperatura sube demasiado, los equipos fallan o se dañan.
+Este grupo incluye todos los accesorios para controlar la temperatura dentro del
+armario: enfriar cuando hace calor y calentar cuando hace frío.
+
+¿Por qué importa? Los fabricantes de equipos industriales especifican una temperatura
+máxima de funcionamiento (típicamente 40-55°C). Superarla reduce la vida útil
+y puede causar paradas inesperadas de producción.
+
+**1. VENTILADORES DE TECHO Y PANEL (SCHNEIDER NSY) (~3 art.)**
+Se instalan en la parte superior del armario (techo o panel) para extraer el aire
+caliente hacia el exterior. Funcionan en 230V AC.
+- NSYCVF85M230PF: 85m³/h — para armarios pequeños o con poca carga
+- NSYCVF575M230MF: 575m³/h — armarios medianos con variadores o varios equipos
+- NSYCVF850M230PF: 850m³/h — armarios grandes con mucha carga calorífica
+La lógica: cuanto más caudal (m³/h), más calor puede extraer. Se usan en parejas
+(uno de entrada de aire frío abajo + uno de salida de aire caliente arriba).
+El sufijo "PF" indica versión IP54 (resistente a polvo y salpicaduras).
+
+**2. REJILLAS METÁLICAS (~2 art.)**
+Se instalan junto a los ventiladores para proteger las entradas/salidas de aire
+de objetos extraños, dedos y roedores. Diámetros estándar 78mm y 114mm.
+
+**3. TERMOSTATOS (~2 art.)**
+Controlan automáticamente los ventiladores o resistencias según la temperatura:
+- NSYCCOTHO (azul): contacto abierto en frío, cierra al superar la temperatura
+  ajustada → activa el ventilador cuando hace calor (el más habitual)
+- NSYCCOTHC (rojo): contacto cerrado en frío, abre al superar la temperatura
+  → activa la resistencia calefactora cuando hace frío
+Rango de uso: hasta 120V CA, 15A. Se ajustan con un potenciómetro.
+
+**4. RESISTENCIAS CALEFACTORAS (~2 art.)**
+Se usan en exteriores o ambientes fríos para mantener la temperatura mínima dentro
+del armario y evitar condensación (el agua condensa en equipos fríos → cortocircuitos):
+- NSYCR100WU2: 100W aluminio, para armarios pequeños en exteriores
+- NSYCR250W230VV: 250W con ventilador incorporado, para armarios medianos
+
+Lo que facilita:
+- Mantener la temperatura óptima dentro del armario eléctrico.
+- Prolongar la vida de los equipos electrónicos sensibles al calor.
+- Evitar condensación en armarios exteriores en invierno.
+
+Lo que evita que ocurra:
+- Paradas de producción por sobretemperatura en variadores o PLCs.
+- Cortocircuitos por condensación de agua sobre equipos fríos.
+- Fallos prematuros en equipos electrónicos por calor excesivo.
+
+============================================================
+
+MODELOS EN ARAIZ (~9 artículos)
+--------------------------------------------------------------
+| Tipo                           | Marca     | Ref.              | Potencia/Caudal | Para qué                    |
+|--------------------------------|-----------|-------------------|----------------|-----------------------------|
+| Ventilador 85m³/h 230V IP54    | SCHNEIDER | NSYCVF85M230PF    | 85m³/h         | Armarios pequeños            |
+| Ventilador 575m³/h 230V        | SCHNEIDER | NSYCVF575M230MF   | 575m³/h        | Armarios medianos            |
+| Ventilador 850m³/h 230V IP54   | SCHNEIDER | NSYCVF850M230PF   | 850m³/h        | Armarios grandes             |
+| Rejilla metálica Ø78mm         | SCHNEIDER | NSYCVA78M         | —              | Protección entrada/salida    |
+| Rejilla metálica Ø114mm        | SCHNEIDER | NSYCVA114M        | —              | Protección entrada/salida    |
+| Termostato contacto abierto    | SCHNEIDER | NSYCCOTHO         | 15A 120V       | Control ventilador (calor)   |
+| Termostato contacto cerrado    | SCHNEIDER | NSYCCOTHC         | 15A 120V       | Control resistencia (frío)   |
+| Resistencia calefactora 100W   | SCHNEIDER | NSYCR100WU2       | 100W           | Anticondensación exterior    |
+| Resistencia + ventilador 250W  | SCHNEIDER | NSYCR250W230VV    | 250W           | Calefacción armario mediano  |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                              | Por qué la necesitas                                        |
+|----|-------------------------------------------------------|-------------------------------------------------------------|
+| 1  | El armario está en interior o exterior?               | En exterior necesita resistencia calefactora anticondensación|
+| 2  | Qué equipos lleva dentro? (variadores, PLCs...)        | Define la carga calorífica y el caudal necesario            |
+| 3  | Cuántas kW de equipos tiene dentro del armario?       | Regla aproximada: 1 kW disipado → 100m³/h de ventilación   |
+| 4  | El armario tiene IP alto (IP54+)?                     | Con IP alto necesita ventilador con filtro o intercambiador |
+| 5  | Necesita control automático por temperatura?          | Si sí, añadir termostato al presupuesto                     |
+
+CONSEJO: Lo más habitual es poner un termostato (NSYCCOTHO) en serie con el
+ventilador para que solo arranque cuando la temperatura supera los 35-40°C.
+Sin termostato el ventilador funciona siempre, gasta más y genera más ruido.
+En armarios exteriores en zonas frías (norte de España, altitud) siempre añadir
+también resistencia calefactora con su propio termostato para evitar condensación.
+
+============================================================
+Fuentes:
+- Schneider NSY Accesorios armarios: https://www.se.com/es/es/product-range/1906-spacial-accesorios/
+============================================================

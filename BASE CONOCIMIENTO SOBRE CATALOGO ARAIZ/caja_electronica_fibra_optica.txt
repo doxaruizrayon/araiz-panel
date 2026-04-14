@@ -1,0 +1,101 @@
+CUADRO RESUMEN — CAJAS PARA ELECTRÓNICA Y FIBRA ÓPTICA (casetes FO, cajas para módulos, tomas ópticas)
+Familia: Electricidad > Envolventes, armarios y cajas > Caja para electrónica y accesorios
+Ejemplo en Araiz: LEGRAND ref. 032184 (Casete fibra óptica 6 fibras monomodo OS2 con 6 latiguillos SC)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"casete fibra óptica rack" o "bandeja fibra óptica instalación"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Este grupo mezcla dos tipos de productos: cajas pequeñas para electrónica de carril DIN
+(Phoenix Contact) y accesorios de fibra óptica para instalaciones de datos (Legrand LCS).
+Son productos más especializados, orientados a telecomunicaciones y electrónica de control.
+
+**1. CASETES DE FIBRA ÓPTICA PREEQUIPADOS (LEGRAND LCS) (~4 art.)**
+Un casete de fibra óptica es una bandeja compacta que se monta en un rack o armario
+de comunicaciones para terminar y organizar cables de fibra óptica.
+"Preequipado" significa que ya incluye los latiguillos (cables cortos de fibra con
+conectores) y el bloque (adaptadores donde se enchufan los conectores).
+Tipos de conector:
+- SC (cuadrado, más grande) — el más habitual en instalaciones de edificio
+- LC (pequeño, tipo click) — para instalaciones de mayor densidad
+Tipos de fibra:
+- OS2 (monomodo) — para distancias largas, color amarillo, exterior/campus
+- OM (multimodo) — para distancias cortas dentro de edificio
+Los casetes de 6 fibras son los más habituales para instalaciones pequeñas o una
+planta de un edificio.
+
+**2. TOMAS FIJAS DE FIBRA ÓPTICA MOSAIC-II (LEGRAND) (~2 art.)**
+Son conectores de fibra óptica para instalar en pared o panel (formato Mosaic,
+el sistema de mecanismos de Legrand). Se usan para hacer puntos de conexión de fibra
+en puestos de trabajo, salas de comunicaciones, etc.
+- 2ST: conector ST (tipo bayoneta, más antiguo)
+- 2SC: conector SC (cuadrado, más moderno y habitual)
+
+**3. BLOQUE DE FIBRA ÓPTICA LCS (LEGRAND) (~1 art.)**
+El bloque es el adaptador dentro del casete donde se enchufan los conectores de fibra.
+El modelo 032127 es para 6 fibras multimodo con conector ST. Se puede usar para
+completar o ampliar casetes de fibra ya instalados.
+
+**4. OBTURADOR PARA BANDEJA FIBRA ÓPTICA (~1 art.)**
+Pieza ciega que ocupa el espacio de un casete no utilizado en una bandeja de fibra
+óptica montada en rack. Evita que entren polvo y cables por los huecos vacíos.
+
+**5. CAJAS PARA MÓDULOS UEGM (PHOENIX CONTACT) (~1 art.)**
+La caja UEGM 22,5 es una caja compacta de carril DIN para montar módulos de
+electrónica de control (relés, separadores galvánicos, etc.) fuera de un cuadro
+estándar. Muy usada en automatización industrial.
+Los accesorios Tapa UM 72-SE y Pie UM 72-FE son para cerrar y fijar estas cajas.
+
+Lo que facilita:
+- Terminar y organizar cables de fibra óptica en racks de comunicaciones.
+- Crear puntos de conexión de fibra en puestos de trabajo.
+- Montar electrónica de control en carril DIN en espacios reducidos.
+
+Lo que evita que ocurra:
+- Roturas en conectores de fibra por cables sin organizar.
+- Pérdida de señal por polvo en conectores ópticos (obturadores).
+- Confusión entre tipos de fibra y conector (OS2/SC, multimodo/ST...).
+
+============================================================
+
+MODELOS EN ARAIZ (~9 artículos)
+--------------------------------------------------------------
+| Tipo                           | Marca           | Ref.    | Para qué                           |
+|--------------------------------|-----------------|---------|------------------------------------|
+| Casete FO 6F monomodo OS2 SC   | LEGRAND LCS     | 032184  | Terminar 6 fibras OS2 con SC        |
+| Casete FO 6F monomodo OS2 LC   | LEGRAND LCS     | 032185  | Terminar 6 fibras OS2 con LC        |
+| Toma fija óptica 2ST Mosaic-II | LEGRAND         | 078616  | Punto conexión fibra en pared       |
+| Toma fija óptica 2SC Mosaic-II | LEGRAND         | 078617  | Punto conexión fibra en pared       |
+| Bloque FO LCS 6F multimodo ST  | LEGRAND LCS     | 032127  | Adaptadores FO para casete          |
+| Obturador bandeja modular FO   | LEGRAND LCS     | 032129  | Tapar huecos vacíos en bandeja      |
+| Caja módulos UEGM 22,5         | PHOENIX CONTACT | 2792002 | Montar módulos electrónica DIN      |
+| Tapa UM 72-SE                  | PHOENIX CONTACT | 2959337 | Tapa cierre caja módulos            |
+| Pie UM 72-FE                   | PHOENIX CONTACT | 2959382 | Pie estabilizador caja módulos      |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                              | Por qué la necesitas                                  |
+|----|-------------------------------------------------------|-------------------------------------------------------|
+| 1  | Qué tipo de conector de fibra tiene la instalación?   | SC, LC, ST — no son intercambiables                   |
+| 2  | Es fibra monomodo (OS2) o multimodo?                  | Casetes y bloques son diferentes según el tipo        |
+| 3  | Cuántas fibras por casete necesita?                   | Los más habituales son 6F, también hay 12F y 24F      |
+| 4  | Tiene rack ya instalado o necesita el conjunto?        | El casete va dentro de una bandeja en el rack          |
+| 5  | Para qué es la caja Phoenix Contact?                  | Confirmar si es para relés, separadores u otros módulos|
+
+CONSEJO: La fibra óptica en Araiz no es su producto estrella — es un complemento
+de instalaciones de telecomunicaciones. Si el cliente necesita mucha fibra óptica
+(centros de datos, campus), probablemente tenga un proveedor especializado.
+Araiz es útil cuando el electricista necesita completar o ampliar una instalación
+ya existente con pocos casetes o tomas adicionales.
+
+============================================================
+Fuentes:
+- LEGRAND LCS Fibra óptica: https://www.legrand.es/catalogo/comunicaciones/lcs2
+- Phoenix Contact UEGM: https://www.phoenixcontact.com/es-es/productos/
+============================================================

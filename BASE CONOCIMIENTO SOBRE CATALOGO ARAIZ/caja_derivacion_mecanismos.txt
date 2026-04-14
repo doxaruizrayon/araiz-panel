@@ -1,0 +1,98 @@
+CUADRO RESUMEN — CAJAS DE DERIVACIÓN Y MECANISMOS (Plexo, empotrar, superficie, IP55)
+Familia: Electricidad > Envolventes, armarios y cajas > Caja derivación y mecanismos
+Ejemplo en Araiz: LEGRAND ref. 092022 (Caja Plexo 105x105x55 7 entradas IP55)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"caja derivación eléctrica IP55" o "caja registro empotrar mecanismos"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Son las cajas donde se hacen los empalmes y conexiones de cables (cajas de derivación)
+o donde se alojan los mecanismos de pared (enchufes, interruptores). Las hay de
+empotrar (van dentro de la pared) y de superficie (van por fuera).
+
+**1. CAJAS PLEXO IP55 (LEGRAND) (~3 art.)**
+La gama Plexo de Legrand son cajas de registro y derivación para exteriores y zonas
+húmedas o polvorientas. IP55 (protección contra polvo y proyecciones de agua).
+Fabricadas en polipropileno gris, muy robustas.
+Modelos más habituales:
+- 080x080x45mm (7 entradas): la más pequeña, para empalmes simples
+- 105x105x55mm (7 entradas): tamaño medio, la más vendida
+- 220x170x140mm sin entradas IP55: la grande, para instalaciones en exteriores
+Usos típicos: cuartos de contadores, garajes, instalaciones industriales ligeras,
+instalaciones en obra donde hay humedad temporal.
+
+**2. CAJAS INDUSTRIALES AISLANTES (SCHNEIDER) (~2 art.)**
+- Caja aislante tapa opaca 170x105x82: caja de plástico robusto para montar
+  pequeños equipos (relés, bornas) fuera de un cuadro. IP67.
+- Caja acero tapa baja 105x105x49mm NSYDBN1010: caja metálica compacta para
+  instalaciones donde se necesita resistencia mecánica o apantallamiento.
+
+**3. CAJAS PARA MECANISMOS MOSAIC (LEGRAND) (~2 art.)**
+Las cajas de puesto de trabajo (serie 078xxxx) son para empotrar en suelo o
+escritorio los mecanismos Mosaic (enchufes, conectores de datos, USB, etc.):
+- Para 2x4 módulos (078872L): puestos de trabajo pequeños
+- Para 4x4 módulos (078874L): puestos de trabajo amplios
+Son las cajas blancas que se ven en mesas de sala de reuniones o suelos técnicos
+con los enchufes e inyectores de datos.
+
+**4. SOPORTE PORTAMECANISMOS (LEGRAND) (~1 art.)**
+El soporte 088020 permite instalar mecanismos Mosaic en posición horizontal dentro
+de cajas de suelo. Orienta los módulos para que queden colocados correctamente
+cuando la caja está en el suelo (en lugar de en la pared).
+
+**5. TAPA PARA CAJA LEXIC (LEGRAND) (~1 art.)**
+La tapa 078840 cierra las cajas de la gama Lexic de Legrand. Es una pieza de
+repuesto o complemento cuando se añade una caja a una instalación existente.
+
+Lo que facilita:
+- Proteger los empalmes de cable en ambientes húmedos o polvorientos (Plexo IP55).
+- Instalar mecanismos (enchufes, interruptores) en suelo o encimera (Mosaic).
+- Alojar pequeños equipos de control fuera de cuadros grandes.
+
+Lo que evita que ocurra:
+- Oxidación y cortocircuitos en cajas de derivación sin protección IP.
+- Mecanismos flojos o mal anclados por falta de caja adecuada.
+- Contactos accidentales con empalmes al descubierto.
+
+============================================================
+
+MODELOS EN ARAIZ (~9 artículos)
+--------------------------------------------------------------
+| Tipo                             | Marca     | Ref.    | IP  | Dimensiones         |
+|----------------------------------|-----------|---------|-----|---------------------|
+| Caja Plexo 7 entradas            | LEGRAND   | 092012  | 55  | 80x80x45mm          |
+| Caja Plexo 7 entradas            | LEGRAND   | 092022  | 55  | 105x105x55mm        |
+| Caja Plexo sin entradas          | LEGRAND   | 092122  | 55  | 220x170x140mm       |
+| Caja industrial aislante opaca   | SCHNEIDER | SL03360 | 67  | 170x105x82mm        |
+| Caja acero tapa baja             | SCHNEIDER | NSYDBN1010 | —  | 105x105x49mm     |
+| Caja puesto trabajo 2x4M empotrar| LEGRAND   | 078872L | —   | Suelo/escritorio    |
+| Caja puesto trabajo 4x4M empotrar| LEGRAND   | 078874L | —   | Suelo/escritorio    |
+| Soporte portamecanismos 12M horiz| LEGRAND   | 088020  | —   | Para cajas de suelo |
+| Tapa caja LEXIC                  | LEGRAND   | 078840  | —   | Repuesto/complemento|
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                              | Por qué la necesitas                                       |
+|----|-------------------------------------------------------|------------------------------------------------------------|
+| 1  | Es para exterior o interior húmedo?                   | Define si necesita IP55 (Plexo) o IP20 (caja normal)       |
+| 2  | Cuántos cables entran en la caja?                     | Define el tamaño de la Plexo (entradas disponibles)        |
+| 3  | Es una caja de derivación (empalmes) o de mecanismos? | Son productos completamente distintos                      |
+| 4  | Va en pared, suelo o encimera?                        | Las cajas Mosaic son para suelo/encimera, las Plexo no     |
+| 5  | Cuántos módulos de mecanismo necesita?                | Define el tamaño de la caja Mosaic (2x4 o 4x4 módulos)    |
+
+CONSEJO: La Plexo IP55 en tamaño 105x105mm (ref. 092022) es la más vendida — es
+el estándar para cajas de registro en obra, garajes y exteriores. Tener stock de
+esta siempre es útil. Las cajas para mecanismos Mosaic de suelo son más específicas
+y se piden a medida para cada proyecto de oficina o sala de reuniones.
+
+============================================================
+Fuentes:
+- LEGRAND Plexo: https://www.legrand.es/catalogo/gamas/plexo
+- LEGRAND Mosaic suelo: https://www.legrand.es/catalogo/gamas/mosaic
+============================================================

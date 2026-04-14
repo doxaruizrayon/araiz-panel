@@ -1,0 +1,98 @@
+CUADRO RESUMEN — ARMARIOS RACK PARA ICT, VOZ, DATOS E IMAGEN (racks de pared y suelo, Keynet, Schneider)
+Familia: Electricidad > Envolventes, armarios y cajas > Armario ICT, voz, datos e imagen
+Ejemplo en Araiz: KEYNET SYSTEMS ref. FR6-C0964-GS (Rack 9U pared 600x450x480mm antipolvo 60kg)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"rack servidor armario ICT instalación" o "rack 19 pulgadas comunicaciones"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Los racks son armarios normalizados para montar equipos de comunicaciones y datos:
+routers, switches, patch panels, SAIs, servidores. El estándar es 19 pulgadas de ancho
+(que es el ancho útil interior donde se encajan los equipos con sus "orejas").
+
+**¿Qué es una "U"?** La altura de los equipos en rack se mide en Unidades de Rack (U).
+1U = 44,45mm. Un switch básico es 1U. Un servidor es 2U. Un armario de 9U tiene
+9 x 44,45mm = ~400mm de espacio útil.
+
+**1. RACKS DE PARED KEYNET FR6 (~5 art.)**
+La gama FR6 de Keynet Systems son racks de pared (se cuelgan en la pared, no van al suelo):
+- FR6-C0664-GS: 6U, 600x600x350mm — para una habitación pequeña o despacho
+- FR6-C0964-GS: 9U, 600x450x480mm — el más habitual en instalaciones de oficina
+- FR6-C0966-GS: 9U, 600x600x480mm — versión más profunda para switches de alta gama
+- FR6-C1264-GS: 12U, 600x450x590mm — para instalaciones medianas
+- FR6-C1566-GS: 15U, 600x600x800mm — para cuartos técnicos en oficinas grandes
+Todos incluyen accesos antipolvo y soportan hasta 60kg. "GS" = pre-montado (listo
+para instalar, no requiere montaje).
+
+**2. RACK DE SUELO KEYNET FR4 (~2 art.)**
+- FR4-CS2266: 22U, 1166x600x600mm, 800kg — rack de suelo mediano para salas técnicas
+- FR4-CS4266: 42U, 2055x600x600mm, 800kg — rack de suelo completo para CPDs
+Los racks de suelo FR4 incluyen patas niveladoras y ruedas, soportan mucho más peso
+(equipos de servidores son pesados). Son para centros de proceso de datos (CPD),
+salas de servidores y cuartos técnicos grandes.
+
+**3. ARMARIO MURAL ICT (SCHNEIDER) (~1 art.)**
+El KDB (NSYKDB15U6F) es el armario mural ICT de Schneider: 15U de fondo 600mm,
+diseñado específicamente para instalaciones ICT (Infraestructura Común de Telecomunicaciones)
+según normativa española. Muy usado en edificios residenciales donde el instalador
+de telecomunicaciones necesita un rack normalizado para el RITI/RITS.
+**RITI/RITS**: Recinto de Instalaciones de Telecomunicaciones Inferior/Superior —
+los cuartos donde se concentra el cableado de telecomunicaciones de un edificio.
+
+**4. PRODUCTO ESPECIAL (~1 art.)**
+CBANDEJA (MMCONECTA): bandeja ciega o soporte para rack 19" de una marca menos
+habitual. Útil para completar espacio vacío en un rack.
+
+Lo que facilita:
+- Organizar y proteger todos los equipos de comunicaciones de un edificio.
+- Cumplir normativa ICT en edificios residenciales (RITI/RITS).
+- Escalar la instalación añadiendo equipos en unidades U adicionales.
+
+Lo que evita que ocurra:
+- Equipos de red sin proteger contra golpes y polvo.
+- Cableado enmarañado al no tener un rack donde organizarlo.
+- Incumplimiento de normativa ICT en edificios de nueva construcción.
+
+============================================================
+
+MODELOS EN ARAIZ (~9 artículos)
+--------------------------------------------------------------
+| Tipo                      | Marca          | Ref.           | U   | Tipo      | kg  |
+|---------------------------|----------------|----------------|-----|-----------|-----|
+| Rack pared 6U 600x600     | KEYNET SYSTEMS | FR6-C0666-GS   | 6U  | Pared     | 60  |
+| Rack pared 9U 600x450     | KEYNET SYSTEMS | FR6-C0964-GS   | 9U  | Pared     | 60  |
+| Rack pared 9U 600x600     | KEYNET SYSTEMS | FR6-C0966-GS   | 9U  | Pared     | 60  |
+| Rack pared 12U 600x450    | KEYNET SYSTEMS | FR6-C1264-GS   | 12U | Pared     | 60  |
+| Rack pared 15U 600x600    | KEYNET SYSTEMS | FR6-C1566-GS   | 15U | Pared/Suel| 60  |
+| Rack suelo 22U 600x600    | KEYNET SYSTEMS | FR4-CS2266     | 22U | Suelo     | 800 |
+| Rack suelo 42U 600x600    | KEYNET SYSTEMS | FR4-CS4266     | 42U | Suelo     | 800 |
+| Armario mural ICT 15U     | SCHNEIDER      | NSYKDB15U6F    | 15U | Pared     | —   |
+| Bandeja rack 19"          | MMCONECTA      | CBANDEJA       | 1U  | Accesorio | —   |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                              | Por qué la necesitas                                         |
+|----|-------------------------------------------------------|--------------------------------------------------------------|
+| 1  | Cuántos equipos va a montar en el rack?               | Define el número de U necesarias                             |
+| 2  | Es para pared o para suelo?                           | Pared (FR6) para instalaciones pequeñas, suelo (FR4) para CPD|
+| 3  | El edificio es residencial (ICT obligatorio)?         | Si sí, necesita armario normalizado ICT (Schneider KDB)      |
+| 4  | Qué profundidad necesitan los equipos?               | Switches básicos: 450mm; switches de gama alta/servidores: 600+|
+| 5  | Cuánto pesa todo lo que va a meter?                   | Los racks de pared aguantan 60kg; si pesa más, necesita suelo |
+
+CONSEJO: En instalaciones residenciales (pisos, chalets con ICT), la normativa
+obliga a un RITI/RITS con armario normalizado. El Schneider KDB es el que más
+usan los instaladores de telecomunicaciones homologados. Para oficinas y PYMES
+sin normativa ICT, los Keynet FR6 son más económicos y cumplen perfectamente.
+
+============================================================
+Fuentes:
+- Keynet Systems: https://www.keynet.es/
+- Schneider ICT: https://www.se.com/es/es/product-range/ict-infrastructure/
+- Normativa ICT: Real Decreto 346/2011 (infraestructura telecomunicaciones edificios)
+============================================================

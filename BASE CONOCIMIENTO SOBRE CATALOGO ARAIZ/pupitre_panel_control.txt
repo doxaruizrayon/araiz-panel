@@ -1,0 +1,101 @@
+CUADRO RESUMEN — PUPITRES Y PANELES DE CONTROL (pupitres operador, carcasas CP, Spacial SD)
+Familia: Electricidad > Envolventes, armarios y cajas > Pupitres y componentes
+Ejemplo en Araiz: SCHNEIDER ref. NSYSD6 (Pupitre metálico sin placa 1000x600x466mm)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"pupitre eléctrico panel control industrial" o "consola operador cuadro control"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Los pupitres son mesas o consolas de mando donde el operador controla una máquina
+o proceso industrial. A diferencia de un armario eléctrico (que contiene los equipos),
+el pupitre está pensado para que el operador interactúe con él: botones de marcha/paro,
+pantallas HMI, lámparas de señalización, selectores de modo.
+
+**¿Cuándo se usa un pupitre en lugar de un armario?**
+El armario va en la sala eléctrica o junto a la máquina; el pupitre está donde
+trabaja el operador (junto a la línea de producción, en el puesto de control).
+El pupitre tiene inclinación y altura diseñadas para ser usados de pie o sentado.
+
+**1. PUPITRES SPACIAL SD (SCHNEIDER) (~2 art.)**
+- NSYSD6 (1000x600x466mm): pupitre metálico estándar sin placa de montaje.
+  Para instalar dentro los equipos de mando (botones, selectores, HMI).
+  El sufijo SD indica la gama Spacial SD (escritorio/pupitre).
+- NSYSDF1010 (1400x1000x1045mm): pupitre grande para líneas con muchos operadores
+  o instalaciones con varios puestos de mando. Admite placa de montaje interior.
+Ambos son metálicos, sin placa incluida (se pide aparte según la instalación).
+
+**2. PLACAS REMOVIBLES (SCHNEIDER) (~1 art.)**
+NSYRP2 (200mm): placa extraíble para la gama Spacial. Permite sacar el conjunto
+de equipos montados (panel de botones, etc.) sin desconectar el cableado.
+Muy útil para mantenimiento: se saca la placa, se trabaja en banco, se vuelve a insertar.
+
+**3. MANETA SPACIAL SD (~1 art.)**
+NSYSDH: tirador/asa para la puerta del pupitre Spacial SD. Accesorio de repuesto
+o para completar una instalación donde no se incluyó inicialmente.
+
+**4. GAMA CARCASAS CP (RITTAL) (~4 art.)**
+RITTAL es el fabricante de referencia mundial en armarios y pupitres industriales.
+La gama CP (Control Panel) son carcasas compactas para paneles de control:
+- Carcasa/dorsal CP-S (6501070): cuerpo base de un panel de control pequeño.
+  Se combina con frentes intercambiables para diferentes configuraciones.
+- Empalme movible para cajas (6016200): conector flexible entre módulos CP.
+  Permite alinear varios módulos en ángulo o en línea recta.
+- Asa puente CP para caja 7UA (6107100): asa de transporte para paneles CP.
+- Perfil soporte recto 1000mm (6660010): perfil estructural para montar
+  varios módulos CP en línea sobre una mesa o bancada.
+- Pupitre PS portaobjetos 800mm (4638800): repisa/bandeja para documentación
+  o equipos adicionales en pupitres RITTAL de la gama PS.
+
+Lo que facilita:
+- Crear puestos de control ergonómicos para operadores de líneas industriales.
+- Organizar todos los elementos de mando en una consola accesible y clara.
+- Mantener el equipamiento separado del cuadro de potencia (más seguro y limpio).
+
+Lo que evita que ocurra:
+- Errores de operación por mandos poco accesibles o mal organizados.
+- Daños a equipos por manipular el cuadro de potencia directamente.
+- Accidentes por operar cerca de alta tensión o equipos en movimiento.
+
+============================================================
+
+MODELOS EN ARAIZ (~9 artículos)
+--------------------------------------------------------------
+| Tipo                           | Marca     | Ref.      | Dimensiones (mm)   | Para qué                      |
+|--------------------------------|-----------|-----------|--------------------|-------------------------------|
+| Pupitre metálico 1000x600      | SCHNEIDER | NSYSD6    | 1000x600x466       | Puesto control estándar       |
+| Pupitre grande 1400x1000       | SCHNEIDER | NSYSDF1010| 1400x1000x1045     | Puesto control grande         |
+| Placa removible 200mm          | SCHNEIDER | NSYRP2    | 200mm              | Panel extraíble mantenimiento |
+| Maneta Spacial SD              | SCHNEIDER | NSYSDH    | —                  | Asa puerta pupitre            |
+| Carcasa/dorsal CP-S            | RITTAL    | 6501070   | —                  | Cuerpo panel compacto         |
+| Empalme movible cajas          | RITTAL    | 6016200   | —                  | Unir módulos CP               |
+| Asa puente CP 7UA              | RITTAL    | 6107100   | —                  | Transporte panel CP           |
+| Perfil soporte recto 1000mm    | RITTAL    | 6660010   | 1000mm             | Soporte bancada módulos CP    |
+| Pupitre portaobjetos PS 800mm  | RITTAL    | 4638800   | 800mm              | Repisa para documentos        |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                              | Por qué la necesitas                                         |
+|----|-------------------------------------------------------|--------------------------------------------------------------|
+| 1  | Para qué proceso / máquina es el pupitre?             | Define el tamaño y número de elementos de mando              |
+| 2  | El operador trabaja de pie o sentado?                 | Define la altura ergonómica del pupitre                      |
+| 3  | Lleva pantalla HMI? De qué tamaño?                    | Necesita recorte en el frontal y espacio suficiente           |
+| 4  | Necesita placa de montaje interior?                   | Los pupitres Spacial SD no la incluyen por defecto           |
+| 5  | Se va a mover el pupitre o es fijo?                   | Si se mueve: necesita ruedas y empalmes flexibles            |
+
+CONSEJO: Los pupitres y paneles de control son productos bastante específicos que
+normalmente forman parte de proyectos de automatización más grandes. En Araiz no
+son un producto de venta habitual (suelen ir en proyectos de integradores de
+automatización). Si un cliente pide un pupitre Rittal o Schneider Spacial SD,
+probablemente sea un integrador o un instalador con proyecto específico.
+
+============================================================
+Fuentes:
+- Schneider Spacial SD: https://www.se.com/es/es/product-range/1912-spacial-sd/
+- RITTAL CP: https://www.rittal.com/es-es/content/es/produkte/produkte.jsp
+============================================================

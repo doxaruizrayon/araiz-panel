@@ -1,0 +1,102 @@
+CUADRO RESUMEN — CUADROS ELÉCTRICOS (envolventes GEWISS, paneles, placas de fondo, IP55)
+Familia: Electricidad > Envolventes, armarios y cajas > Cuadro eléctrico
+Ejemplo en Araiz: GEWISS ref. GW44821 (Cuadro estanco GWPLAST 120 puerta transparente 396x474x160mm IP55)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"cuadro eléctrico estanco gewiss IP55" o "armario eléctrico fibra de vidrio"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Son cuadros eléctricos de plástico (poliéster reforzado con fibra de vidrio) para
+instalaciones en exteriores o ambientes agresivos. La gama GWPLAST 120 de Gewiss
+es la referencia para cuadros de distribución estancos en instalaciones industriales,
+instalaciones a pie de calle, cuadros de riego, cuadros de bomba, etc.
+
+**¿Por qué plástico y no metal?**
+El poliéster reforzado con fibra de vidrio tiene ventajas sobre el metal:
+- No se oxida (ideal para instalaciones en exteriores permanentes o ambientes corrosivos)
+- Mejor aislamiento eléctrico (clase II de aislamiento)
+- Más ligero
+- IP55 o superior sin tratamientos anticorrosión adicionales
+
+**1. CUADRO ESTANCO GWPLAST 120 (GEWISS) (~1 art.)**
+El GW44821 es el cuadro estanco estándar de la gama:
+- Dimensiones: 396x474x160mm (ancho x alto x fondo)
+- Material: poliéster gris RAL7035 con fibra de vidrio
+- Puerta transparente con cerradura (se ve el estado de los interruptores sin abrir)
+- IP55 (protección contra polvo y proyecciones de agua en cualquier dirección)
+- Incluye placa de montaje interior para carril DIN
+Uso típico: cuadros de distribución en locales comerciales, naves, cuadros de
+bomba de agua, cuadros de iluminación exterior.
+
+**2. PANELES TROQUELADOS FRONTALES (GEWISS) (~3 art.)**
+Son placas frontales perforadas que se instalan dentro del cuadro para montar
+interruptores modulares (PIAs, diferenciales) en carril DIN:
+- GW44852: 8 módulos, 236x316mm
+- GW44853: 14 módulos, 236x396mm
+- GW44855: 24 módulos, 396x396mm (el más grande)
+Los troquelados permiten que los módulos encajen perfectamente y queden bien fijados.
+"Frontal" significa que se ven desde delante cuando se abre la puerta del cuadro.
+
+**3. PLACAS DE FONDO EN ACERO (GEWISS) (~4 art.)**
+Son las placas traseras de acero donde se montan los equipos en el interior del cuadro.
+Distintos tamaños para cada modelo de cuadro:
+- GW46401: 250x300mm — cuadros pequeños
+- GW46402: 310x425mm — cuadros medianos
+- GW46403: 405x500mm — cuadros medianos-grandes
+- GW46404: 405x650mm — cuadros grandes
+- GW46467: 800x1060mm perforada cincada — para armarios grandes (placas metálicas de cuadros industriales)
+La placa de fondo es donde van sujetos los carriles DIN, los amarres de cable y
+los equipos que no van en carril (contactores grandes, fuentes, etc.).
+
+Lo que facilita:
+- Montar cuadros de distribución en exteriores con garantía de estanqueidad.
+- Organizar los interruptores modulares en paneles troquelados con orden.
+- Adaptar el cuadro a distintos tamaños de instalación con diferentes placas.
+
+Lo que evita que ocurra:
+- Oxidación del cuadro en ambientes húmedos o exteriores (plástico vs metal).
+- Interruptores mal sujetos o que se mueven dentro del cuadro.
+- Acceso de agua al interior de la instalación (IP55).
+
+============================================================
+
+MODELOS EN ARAIZ (~9 artículos)
+--------------------------------------------------------------
+| Tipo                           | Marca  | Ref.    | Dimensiones (mm)  | IP  |
+|--------------------------------|--------|---------|-------------------|-----|
+| Cuadro estanco GWPLAST puerta  | GEWISS | GW44821 | 396x474x160       | 55  |
+| Panel troquelado 8M            | GEWISS | GW44852 | 236x316           | —   |
+| Panel troquelado 14M           | GEWISS | GW44853 | 236x396           | —   |
+| Panel troquelado 24M           | GEWISS | GW44855 | 396x396           | —   |
+| Placa fondo acero 250x300      | GEWISS | GW46401 | 250x300           | —   |
+| Placa fondo acero 310x425      | GEWISS | GW46402 | 310x425           | —   |
+| Placa fondo acero 405x500      | GEWISS | GW46403 | 405x500           | —   |
+| Placa fondo acero 405x650      | GEWISS | GW46404 | 405x650           | —   |
+| Placa fondo perf. 800x1060     | GEWISS | GW46467 | 800x1060          | —   |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                              | Por qué la necesitas                                        |
+|----|-------------------------------------------------------|-------------------------------------------------------------|
+| 1  | El cuadro va en exterior o interior húmedo?           | Define si necesita IP55 (estanco) o vale IP20              |
+| 2  | Cuántos interruptores / módulos necesita?             | Define el tamaño del cuadro y el panel troquelado           |
+| 3  | Necesita puerta transparente o ciega?                 | Transparente = se ve estado sin abrir; ciega = más barata   |
+| 4  | Va a llevar equipos además de módulos (contactores)?  | Define si necesita placa de fondo en acero                  |
+| 5  | Hay riesgo de golpes o impactos mecánicos?            | Define si necesita mayor resistencia mecánica (IK rating)   |
+
+CONSEJO: La gama GWPLAST de Gewiss es la referencia en cuadros estancos de plástico
+para la mayoría de instaladores en España. El modelo con puerta transparente (GW44821)
+es el más vendido porque permite ver el estado de los PIAs sin abrir el cuadro.
+Para instalaciones de riego agrícola y cuadros de bomba en intemperie directa,
+considerar también la versión con IP66 o IK10 (resistencia a golpes).
+
+============================================================
+Fuentes:
+- GEWISS GWPLAST: https://www.gewiss.com/es/es/catalog/
+============================================================

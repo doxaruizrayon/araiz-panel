@@ -1,0 +1,95 @@
+CUADRO RESUMEN — ACCESORIOS PARA CAJAS Y ARMARIOS ELÉCTRICOS (barras, tapas, soportes, rails, placas)
+Familia: Electricidad > Envolventes, armarios y cajas > Accesorios para cajas y armarios
+Ejemplo en Araiz: LEGRAND ref. 037301 (Barra de cobre perforada 440mm) / EATON ref. 183025 (Base fusible seccionadora XNH00-A160)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"accesorios cuadro eléctrico carril DIN" o "barra de cobre cuadro distribución"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Son todos los componentes internos que permiten montar, organizar y ampliar un
+armario o cuadro eléctrico. No son los dispositivos de protección en sí (esos van
+en otro grupo), sino lo que los sujeta, conecta y estructura.
+
+**1. BARRAS DE COBRE Y SOPORTES DE BARRAS (~3 art.)**
+Las barras de cobre son los conductores principales que distribuyen la corriente
+dentro de un cuadro de distribución (conexión de fase, neutro y tierra entre
+módulos). Las barras perforadas de LEGRAND son típicas de la gama XL³, el sistema
+de cuadros modulares de LEGRAND para instalaciones industriales.
+Ejemplo: Barra cobre 440mm LEGRAND 037301 — se monta en cuadro XL³ y de ella
+cuelgan los interruptores de cada salida.
+
+**2. TAPAS Y PUERTAS PARA CUADROS XL³ (LEGRAND) (~3 art.)**
+Las tapas plenas (metálicas) y puertas extraplanas cierran los laterales y frente
+del cuadro XL³. Hay tapas de distintas alturas (150H, 200H) para combinar módulos.
+Sin estas tapas el cuadro queda abierto y no cumple el grado IP de protección.
+
+**3. BASES FUSIBLES SECCIONADORAS (EATON) (~1 art.)**
+La base fusible seccionadora XNH00-A160 es un portafusible de gran calibre (hasta
+160A) que se instala en cuadros de distribución industriales. Admite fusibles tipo
+NH (Neozed) para proteger salidas de alta potencia. Tiene función de seccionamiento:
+al extraer el fusible se aísla el circuito sin cortar la alimentación general.
+
+**4. JOYSTICKS DE ENCLAVAMIENTO (~1 art.)**
+Mandos de enclavamiento de 4 posiciones con eje metálico para paneles de control.
+Se montan en puertas de cuadros o pupitres para seleccionar modos de operación
+(manual, automático, parada, etc.). No son accesorios del cuadro en sí, sino
+mandos de operador que se fijan en el frontal.
+
+**5. PLACAS Y SOPORTES DE MONTAJE XL³ (~1 art.)**
+Placa XL³ para DPX3 160/250: permite instalar interruptores de caja moldeada
+de gran calibre (series DPX³) en posición vertical dentro del cuadro. Rail largo
+515mm: extensión del carril DIN estándar para módulos anchos.
+
+Lo que facilita:
+- Organizar y estructurar el interior de cuadros y armarios eléctricos.
+- Distribuir la corriente entre módulos mediante barras de cobre.
+- Proteger circuitos de alta potencia con bases fusibles industriales.
+- Cerrar y proteger el cuadro para cumplir con el grado IP.
+
+Lo que evita que ocurra:
+- Cortocircuitos por cableado mal organizado sin barras ni soportes.
+- Acceso accidental a partes en tensión (tapas y puertas).
+- Sobrecargas en salidas industriales sin fusibles adecuados.
+
+============================================================
+
+MODELOS EN ARAIZ (~9 artículos)
+--------------------------------------------------------------
+| Tipo                        | Marca    | Ref.              | Para qué                               |
+|-----------------------------|----------|-------------------|----------------------------------------|
+| Base fusible seccionadora   | EATON    | 183025            | Protección salidas hasta 160A          |
+| Joystick 4 posiciones       | EATON    | 178566            | Mando selección modo en panel          |
+| Barra cobre perforada 440mm | LEGRAND  | 037301            | Distribución corriente en XL³          |
+| Soporte juego barras 400A   | LEGRAND  | 037310            | Fijación barras de cobre en XL³        |
+| Tapa XL³ plena met. 200H   | LEGRAND  | 020343            | Cierre lateral/frontal cuadro XL³      |
+| Tapa XL³ met. modular 150H  | LEGRAND  | 020300            | Cierre cuadro XL³ con módulos          |
+| Puerta XL³ extraplana 1900H | LEGRAND  | 020279            | Puerta frontal cuadro XL³ alto         |
+| Placa XL³ DPX³ 160/250      | LEGRAND  | 020211            | Montaje interruptor caja moldeada      |
+| Soporte + rail largo 515mm  | LEGRAND  | 020201            | Rail DIN extendido para módulos anchos |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                              | Por qué la necesitas                                    |
+|----|-------------------------------------------------------|---------------------------------------------------------|
+| 1  | Qué gama de cuadro tiene? (XL³, Pragma, otro)         | Los accesorios son específicos de cada gama             |
+| 2  | Qué altura/módulos tiene el cuadro?                   | Las tapas y puertas dependen del tamaño                 |
+| 3  | Qué intensidad necesita en la barra principal?        | Define el calibre de la barra de cobre (160A, 250A...) |
+| 4  | Va a montar un DPX³ (interruptor caja moldeada)?      | Necesita placa adaptadora específica                    |
+| 5  | El cuadro es en obra nueva o reforma?                 | En reforma puede necesitar accesorios de ampliación     |
+
+CONSEJO: Los accesorios LEGRAND XL³ son muy específicos de esa gama — no son
+intercambiables con otros sistemas (Schneider Prisma, Hager, etc.). Si el cuadro
+es de otra marca, hay que buscar accesorios de la misma serie. Siempre confirmar
+la gama exacta antes de pedir.
+
+============================================================
+Fuentes:
+- LEGRAND XL³: https://www.legrand.es/catalogo/cuadros-electricos/xl3
+- EATON Fusibles NH: https://www.eaton.com/es/es/catalog/fusibles.html
+============================================================

@@ -1,0 +1,89 @@
+CUADRO RESUMEN — ARMARIOS Y CAJAS DE DISTRIBUCIÓN INDUSTRIALES (libre servicio, IP55, acero)
+Familia: Electricidad > Envolventes, armarios y cajas > Armario y caja distribución
+Ejemplo en Araiz: SCHNEIDER ref. NSYCRN108400 (Armario CRN 1000x800x400 puerta ciega IP55)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"armario eléctrico industrial IP55" o "cuadro distribución industrial schneider"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Son armarios metálicos de gran tamaño para contener equipos eléctricos industriales:
+variadores, PLCs, contactores, cuadros de distribución. A diferencia de los cuadros
+residenciales (plástico, para PIAs), estos son de acero, con grado de protección
+IP55 como mínimo, y se instalan en fábricas, salas eléctricas y plantas industriales.
+
+**1. GAMA CRN — ARMARIOS DE ACERO IP55 (SCHNEIDER) (~5 art.)**
+La serie CRN (Spacial CRN) es el armario industrial estándar de Schneider.
+Acero con tratamiento anticorrosión, IP55 (protegido contra polvo y proyecciones
+de agua). Disponibles en muchas combinaciones de alto x ancho x fondo:
+- 800x1000x300mm — armario pequeño para salas limpias
+- 1000x1000x300mm — armario medio, muy habitual en cuadros de control
+- 1200x1200x300mm — armario grande para distribución con muchos módulos
+- 1400x1000x300mm — el más alto de la gama básica
+Opción de puerta ciega (sin ventana) o con visor. Las versiones "doble puerta"
+(D al final de la referencia) abren por ambos lados.
+
+**2. GAMA SFN — ARMARIOS MODULARES IP55 (SCHNEIDER) (~2 art.)**
+El SFN (Spacial SFN) es la versión modular ampliable lateralmente. Permiten
+agrupar varios módulos en línea y añadir secciones. Incluyen placa de montaje
+interior. El modelo de 2000x1200x500mm es el mayor de la gama básica.
+Diferencia clave con CRN: el SFN está pensado para crecer (se acoplan módulos),
+el CRN es un armario independiente.
+
+**3. COFRET IP55 LEGRAND (SCHNEIDER LVS) (~1 art.)**
+El cofrete LVS08303 (11 módulos, 650mm) es un cuadro para instalaciones de
+media distribución. Más compacto que los armarios CRN/SFN, se usa cuando no
+hace falta un armario entero pero sí se necesita IP55.
+
+Lo que facilita:
+- Proteger equipos eléctricos industriales en ambientes con polvo y humedad.
+- Contener cuadros de distribución, variadores, PLCs y contactores.
+- Organizar toda la instalación eléctrica de una nave o planta en un punto.
+
+Lo que evita que ocurra:
+- Fallos por humedad o polvo en los equipos (IP55).
+- Accidentes por partes en tensión al descubierto.
+- Deterioro prematuro de equipos electrónicos en ambientes agresivos.
+
+============================================================
+
+MODELOS EN ARAIZ (~9 artículos)
+--------------------------------------------------------------
+| Tipo                     | Marca     | Ref.                | Dimensiones (HxAxF mm) | IP  |
+|--------------------------|-----------|---------------------|------------------------|-----|
+| Armario CRN puerta ciega | SCHNEIDER | NSYCRN108400        | 1000x800x400           | 55  |
+| Armario CRN doble puerta | SCHNEIDER | NSYCRN810300D       | 800x1000x300           | 55  |
+| Armario CRN doble puerta | SCHNEIDER | NSYCRN1010300D      | 1000x1000x300          | 55  |
+| Armario CRN doble puerta | SCHNEIDER | NSYCRN1012300D      | 1000x1200x300          | 55  |
+| Armario CRN doble puerta | SCHNEIDER | NSYCRN1410300D      | 1400x1000x300          | 55  |
+| Armario SFN con placa    | SCHNEIDER | NSYSFN20650P        | 2000x600x500           | 55  |
+| Armario SFN 2P con placa | SCHNEIDER | NSYSFN2012502DP     | 2000x1200x500          | 55  |
+| Cofret 11 módulos 650mm  | SCHNEIDER | LVS08303            | 650mm altura           | 55  |
+| Armario CRN doble puerta | SCHNEIDER | NSYCRN1212300D      | 1200x1200x300          | 55  |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                              | Por qué la necesitas                                       |
+|----|-------------------------------------------------------|------------------------------------------------------------|
+| 1  | Qué equipos va a meter dentro?                        | Define el tamaño necesario (variadores son más anchos)     |
+| 2  | Qué ambiente? (polvo, humedad, exterior?)             | Define el IP necesario (IP55, IP65, IP66)                  |
+| 3  | Necesita puerta con visor o ciega?                    | Para ver el estado de equipos sin abrir el armario         |
+| 4  | Va a crecer la instalación? Necesita ampliar?         | SFN si puede crecer, CRN si es fijo                        |
+| 5  | Lleva placa de montaje interior?                      | Algunos modelos la incluyen, otros hay que pedirla aparte  |
+
+CONSEJO: La medida de los armarios es siempre Alto x Ancho x Fondo. En instalaciones
+industriales el fondo importa mucho: los variadores de frecuencia necesitan
+fondo mínimo de 300-400mm para las conexiones traseras. Los armarios CRN con fondo
+300mm son para cuadros con contactores y protecciones; fondo 400-500mm para variadores
+y equipos más voluminosos.
+
+============================================================
+Fuentes:
+- Schneider Spacial CRN: https://www.se.com/es/es/product-range/1909-spacial-crn/
+- Schneider Spacial SFN: https://www.se.com/es/es/product-range/1910-spacial-sfn/
+============================================================

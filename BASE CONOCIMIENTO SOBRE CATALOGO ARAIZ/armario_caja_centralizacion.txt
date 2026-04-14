@@ -1,0 +1,106 @@
+CUADRO RESUMEN — ARMARIOS Y CAJAS PARA CENTRALIZACIÓN (CPM, contadores, medida, centralización de ICP)
+Familia: Electricidad > Envolventes, armarios y cajas > Armario, caja y panel para centralización
+Ejemplo en Araiz: CAHORS ref. 0236161 (Caja de protección y medida CPM-TDT-MI 540x630x200mm)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"caja centralización contadores eléctricos" o "CPM caja protección medida"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Son las cajas y armarios que concentran los equipos de medida y protección de entrada
+de la instalación: contadores, fusibles de acometida, ICPs y elementos de centralización
+en edificios con varios abonados (comunidades, locales en edificio, etc.).
+
+**¿Qué es una CPM?**
+La Caja de Protección y Medida (CPM) integra en una sola envolvente:
+- Los fusibles de protección del abonado (sustitución de la CGP individual).
+- El contador de energía (medida del consumo).
+Se instala en viviendas unifamiliares y locales donde la acometida llega directamente
+al punto de consumo sin pasar por un edificio de varios pisos.
+Marcas fabricadoras: CAHORS (fabricante francés con mucha presencia en España), CAHORS
+fabrica las cajas normalizadas que exigen las compañías eléctricas.
+
+**1. CAJA CPM-TDT-MI (CAHORS) (~1 art.)**
+La CPM-TDT-MI es la caja de protección y medida para instalaciones con telecontrol
+directo TDT (telemedida y telegestión). 540x630x200mm, homologada por compañías
+distribuidoras. Incluye espacio para fusibles de acometida, contador y módulo de
+telegestión. Para unifamiliares y locales con tarifa superior a 15kW.
+
+**2. CAJAS INDUSTRIALES DE METAL (SCHNEIDER) (~2 art.)**
+- NSYSBM202012 (200x200x120mm): caja de acero para instalaciones compactas
+- NSYSBM203012 (200x300x120mm): caja de acero ligeramente más alta
+Sin placa de montaje incluida, paredes lisas. Para montar pequeños equipos o
+hacer cuadros de control a medida. IP66 (estanca).
+
+**3. COFRE MINI PRAGMA (SCHNEIDER) (~1 art.)**
+El Pragma Mini (MIP10212T) es un cuadro empotrable de 24 módulos con puerta ahumada
+semitransparente. Versión compacta del Pragma C para instalaciones con menos circuitos.
+Diferencia con Golf (Hager): el Pragma tiene mejor acabado y más opciones de accesorios.
+
+**4. OBTURADOR PRISMASET (SCHNEIDER) (~1 art.)**
+El obturador LVSXF4 es una tapa ciega para cubrir huecos vacíos en cuadros PrismaSet
+(la gama de cuadros de distribución modular de Schneider para instalaciones terciarias).
+Evita el acceso a partes activas cuando hay posiciones sin ocupar.
+
+**5. CAJAS AISLANTES EATON (~2 art.)**
+- Caja aislante CI-K1-T0-2 (207435): caja de plástico para montar 1 contactor TeSys T
+  o similar. IP65. Muy usada para centralizar el mando de pequeños motores.
+- Caja aislante CI-K2-PKZ0-GRV (219656): con mando negro exterior para guardamotor
+  PKZ0 de Eaton. Se instala junto a la máquina controlada, no en el cuadro principal.
+
+**6. VENTANA SPACIAL (SCHNEIDER) (~2 art.)**
+Accesorios para la gama Spacial: ventanas de plástico transparente que se instalan
+en puertas de armarios para inspeccionar el interior sin abrir. Dimensiones 78x95mm
+y 78x165mm. Muy útiles para ver el estado de pilotos e indicadores.
+
+Lo que facilita:
+- Centralizar la medida y protección de la acometida eléctrica (CPM).
+- Instalar cuadros pequeños en zonas donde no cabe un armario grande.
+- Inspeccionar el estado de los equipos sin necesidad de abrir el armario.
+
+Lo que evita que ocurra:
+- No conformidades con la compañía distribuidora (CPM normalizada).
+- Pérdida de garantía de equipos IP65 al abrir el armario para mirar.
+- Acceso no autorizado a circuitos activos en cuadros con huecos vacíos.
+
+============================================================
+
+MODELOS EN ARAIZ (~9 artículos)
+--------------------------------------------------------------
+| Tipo                           | Marca     | Ref.          | IP  | Para qué                          |
+|--------------------------------|-----------|---------------|-----|-----------------------------------|
+| CPM-TDT-MI 540x630x200mm       | CAHORS    | 0236161       | —   | Caja medida y protección unifamiliar|
+| Caja industrial metal 200x200  | SCHNEIDER | NSYSBM202012  | 66  | Cuadros de control compactos       |
+| Caja industrial metal 200x300  | SCHNEIDER | NSYSBM203012  | 66  | Cuadros de control medianos        |
+| Cofre Pragma Mini 24M empotrar | SCHNEIDER | MIP10212T     | —   | Cuadro vivienda/local compacto     |
+| Obturador PrismaSet 24M        | SCHNEIDER | LVSXF4        | —   | Ciega huecos cuadro PrismaSet      |
+| Caja aislante CI-K1-T0-2       | EATON     | 207435        | 65  | Mando contactor junto a máquina    |
+| Caja aislante CI-K2 con mando  | EATON     | 219656        | 65  | Guardamotor PKZ0 en campo          |
+| Ventana plástico 78x95mm       | SCHNEIDER | NSYVA274MA    | —   | Inspección sin abrir armario       |
+| Ventana plástico 78x165mm      | SCHNEIDER | NSYVA278MA    | —   | Inspección sin abrir armario       |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                              | Por qué la necesitas                                        |
+|----|-------------------------------------------------------|-------------------------------------------------------------|
+| 1  | Es para una vivienda unifamiliar o un edificio?       | Unifamiliar → CPM; edificio → centralización de contadores  |
+| 2  | Qué potencia contratada tiene? (kW)                   | Define el calibre de los fusibles de la CPM                 |
+| 3  | La compañía distribuidora exige modelo concreto?      | Las CPM están homologadas y la distribuidora puede exigir una|
+| 4  | Necesita telegestión/telemedida (TDT)?                | Define si necesita CPM con módulo de telecontrol            |
+| 5  | La caja va en interior o en nicho de fachada?         | Define el IP y acabado necesario                            |
+
+CONSEJO: Las cajas CPM son producto muy regulado — la compañía distribuidora
+(Iberdrola, Endesa, UFD...) tiene sus propios modelos homologados y puede no aceptar
+una CPM de otra marca. Siempre verificar qué distribuidora opera en la zona del cliente
+antes de pedir la CPM. CAHORS es el fabricante más habitual en España para estas cajas.
+
+============================================================
+Fuentes:
+- CAHORS CPM: https://www.cahors.com/es/
+- Schneider Spacial accesorios: https://www.se.com/es/es/product-range/1906-spacial-accesorios/
+============================================================
