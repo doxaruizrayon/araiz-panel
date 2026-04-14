@@ -1,0 +1,116 @@
+CUADRO RESUMEN — MECANISMOS INDUSTRIALES Y ESTANCOS: PLEXO IP55 (Legrand)
+Familia: Electricidad > Pequeño material mecanismos > Pequeño material industrial y estanco
+Ejemplo en Araiz: LEGRAND Plexo Base 16A 3×2P+T IP55 superficie / Pulsador NA Plexo luminoso
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"Legrand Plexo IP55 instalación" o "mecanismos estancos industria IP55"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Son los mecanismos eléctricos diseñados para instalaciones en ambientes hostiles:
+talleres, naves industriales, zonas húmedas, exteriores bajo cubierta, salas de
+máquinas y cualquier lugar donde los mecanismos domésticos estándar no aguantarían.
+
+**¿Qué significa IP55?**
+IP = Ingress Protection (Protección contra Intrusión).
+- Primer dígito (5): protegido contra polvo — no entra ninguna cantidad de polvo
+  que pueda dañar el aparato.
+- Segundo dígito (5): protegido contra chorros de agua en cualquier dirección.
+Esto significa que un Plexo aguanta:
+- Serrerías y talleres con serrín o polvo metálico.
+- Lavados con manguera (naves de alimentación, garajes).
+- Lluvia directa aunque no sumersión.
+
+**GAMA PLEXO DE LEGRAND**
+La gama Plexo es la referencia estándar de Legrand para instalaciones industriales
+y estancas. Tiene tres formatos:
+- **Monobloc**: mecanismo completo en una carcasa de una sola pieza.
+- **Modular**: mecanismo independiente que se coloca dentro de una caja Plexo.
+- **Doble**: dos mecanismos en una misma carcasa estanca.
+
+**1. BASE PLEXO 16A 3×2P+T IP55 SUPERFICIE**
+Base de corriente estanca con 3 enchufes schuko. Para colocar en superficie
+(no empotrada) en nave industrial. Las 3 tomas permiten conectar simultáneamente
+varias herramientas o equipos. 16A — corriente suficiente para herramientas de
+mano y equipos de taller estándar.
+
+**2. PULSADOR NA PLEXO (Normal Abierto)**
+Pulsador estanco para activar circuitos de automatización, señalización o control
+de maquinaria. NA = Normalmente Abierto: el circuito está abierto en reposo y se
+cierra al pulsar (el tipo más común para botoneras de marcha). IP55 para ambientes
+industriales húmedos o con polvo.
+
+**3. PULSADOR NA LUMINOSO PLEXO**
+Igual que el anterior pero con LED indicador incorporado. El piloto luminoso indica
+que el equipo está en marcha o que el circuito está activo. Muy útil en botoneras
+de maquinaria donde el operario necesita confirmación visual.
+
+**4. MARCO EMPOTRAR PLEXO 2 ELEMENTOS**
+Marco de instalación para empotrar dos mecanismos Plexo en caja de registro estanca.
+Permite montar 2 mecanismos Plexo lado a lado manteniendo la estanqueidad IP55.
+
+**5. CRUZAMIENTO PLEXO (modular y monobloc)**
+Mecanismo de cruzamiento estanco para controlar una luz desde 3 o más puntos en
+entornos industriales. Se fabrica en versión modular (para cajas Plexo) y monobloc
+(carcasa completa independiente).
+
+**6. CONMUTADOR PLEXO (mono y doble)**
+Conmutador estanco para control de iluminación desde 2 puntos en ambientes de
+nave o exterior. La versión doble incorpora dos conmutadores en una misma carcasa
+IP55 — ahorra espacio y mantiene estanqueidad.
+
+**7. CAJA MEMBRANAS PLEXO**
+Caja de registro estanca para instalaciones empotradas en ambientes húmedos.
+Las "membranas" son juntas de goma que sellan el paso de cables manteniendo IP55.
+Se usa como caja base para montar los mecanismos Plexo en empotrado.
+
+Lo que facilita:
+- Instalar mecanismos eléctricos en talleres, naves y zonas húmedas de forma segura.
+- Montar botoneras de maquinaria con confirmación visual (pulsadores luminosos).
+- Control de iluminación desde múltiples puntos en entornos industriales.
+
+Lo que evita que ocurra:
+- Cortocircuitos por humedad o polvo en mecanismos no protegidos.
+- Daños en mecanismos domésticos estándar colocados en ambientes industriales.
+- Fallos en instalaciones de naves por mecanismos inadecuados para el ambiente.
+
+============================================================
+
+MODELOS EN ARAIZ (~7 artículos)
+--------------------------------------------------------------
+| Tipo                          | Gama    | Protección | Para qué                            |
+|-------------------------------|---------|------------|-------------------------------------|
+| Base 16A 3×2P+T superficie    | PLEXO   | IP55       | 3 enchufes estancos taller/nave     |
+| Pulsador NA                   | PLEXO   | IP55       | Marcha maquinaria/botonera          |
+| Pulsador NA luminoso          | PLEXO   | IP55       | Marcha con confirmación visual LED  |
+| Marco empotrar 2 elementos    | PLEXO   | IP55       | Base empotrada 2 mecanismos         |
+| Cruzamiento modular/monobloc  | PLEXO   | IP55       | Luz desde 3+ puntos en nave         |
+| Conmutador mono/doble         | PLEXO   | IP55       | Luz desde 2 puntos estanco          |
+| Caja membranas empotrar       | PLEXO   | IP55       | Caja registro estanca empotrada     |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                              | Por qué la necesitas                                     |
+|----|-------------------------------------------------------|----------------------------------------------------------|
+| 1  | ¿Qué IP necesita? ¿Hay agua a presión o solo humedad? | IP44 = salpicaduras; IP55 = chorro directo; IP67 = inmersión |
+| 2  | ¿Va en superficie o empotrado?                        | Base superficie vs marco empotrar son modelos diferentes |
+| 3  | El pulsador: ¿necesita piloto luminoso?               | Añade coste pero mejora mucho la operatividad            |
+| 4  | ¿Es monobloc o va dentro de una caja Plexo modular?   | Hay mecanismos solo para una instalación u otra          |
+| 5  | ¿Cuántos amperios necesita la base de enchufe?        | 16A es estándar; para equipos más grandes puede necesitar 32A|
+
+CONSEJO: El error más habitual es instalar mecanismos IP44 en zonas que realmente
+necesitan IP55 (o viceversa, pagando de más). La regla rápida: si el lugar se lava
+con manguera → IP55 mínimo. Si solo hay humedad ambiental o vapor → IP44 es suficiente.
+Los pulsadores luminosos cuestan algo más pero los clientes de mantenimiento los
+prefieren siempre porque facilitan mucho el diagnóstico de averías.
+
+============================================================
+Fuentes:
+- Legrand Plexo: https://www.legrand.es/plexo
+- Norma IP: IEC 60529 — Grados de protección por carcasas
+============================================================

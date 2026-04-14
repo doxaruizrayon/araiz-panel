@@ -1,0 +1,115 @@
+CUADRO RESUMEN — MECANISMOS DIVERSOS: CLAVIJAS, BASES MÚLTIPLES, USB Y TERMOSTATOS (Legrand, Simon)
+Familia: Electricidad > Pequeño material mecanismos > Pequeño material diverso
+Ejemplo en Araiz: LEGRAND Clavija 2P+TT 16A caucho / SIMON Termostato iO blanco
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"clavija industrial enchufe caucho" o "base múltiple regleta enchufes diferencias"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Son los mecanismos y accesorios eléctricos "sueltos" — los que no son exactamente
+interruptores empotrados en pared ni mecanismos de cuadro eléctrico, sino elementos
+de conexión portátiles, adaptadores y complementos para instalaciones domésticas
+e industriales.
+
+**1. ADAPTADORES Y BASES MÚLTIPLES**
+
+**Adaptador Standard 2×2P+T (Legrand):**
+El típico "ladrón" de dos enchufes schuko que convierte una toma en dos.
+Formato compacto — se conecta directamente al enchufe de pared sin cable.
+Para uso doméstico o de oficina donde se necesita doblar una toma.
+
+**Base múltiple Premium 6×2P+T con SPD y cable 1,5m (Legrand):**
+Regleta de 6 enchufes con protección contra sobretensiones integrada (SPD =
+Surge Protection Device). El diferenciador del premium: el SPD protege los
+equipos enchufados de picos de tensión (rayos, conmutaciones de red).
+Para proteger ordenadores, TV, equipos de laboratorio. 1,5m de cable de alimentación.
+
+**Adaptador USB (Legrand, negro):**
+Toma de carga USB para enchufar en tomas convencionales. Permite cargar móviles
+y tablets sin necesidad de cargador de bloque. Color negro para instalaciones
+con mecanismos oscuros (Niloé Step negro, Valena Next dark).
+
+**2. CLAVIJAS (ENCHUFES MACHO PORTÁTILES)**
+
+Las clavijas son el conector macho que se instala en el extremo de un cable
+para enchufarlo en una base (hembra). Se usan para alargar cables o reponer
+un enchufe dañado.
+
+**Clavija 2P+TT 16A caucho:** Para cables en ambientes húmedos o de uso intenso
+(taller, jardín). El caucho es más resistente que el plástico y sella mejor.
+"Sin lateral" = sin la patilla de tierra lateral (para algunas regletas antiguas).
+
+**Clavija 4P+TT 20A (industrial):** Para conexión de equipos trifásicos pequeños.
+4 polos (3 fases + neutro) + tierra. 20A — más corriente que el estándar doméstico.
+
+**Base 2P+TT 20A 380V trifásica:** Base hembra para equipos que necesitan
+conexión trifásica en instalaciones no industriales (lavadoras profesionales,
+pequeña maquinaria, bombas de calor).
+
+**3. TOMA TV+SAT SIMON**
+
+**Tapa SIMON 270 TV+SAT negro:** Mecanismo de toma de televisión y satélite
+para empotrar en pared. Negro para instalaciones con mecanismos oscuros Simon 270.
+La toma TV+SAT permite conectar el cable de antena (televisión TDT terrestre)
+y el cable de satélite (plato parabólico) en la misma roseta.
+
+**4. TERMOSTATO iO BLANCO (SIMON)**
+
+Termostato ambiente programable de Simon para control de calefacción/refrigeración.
+"iO" = gama de Simon con comunicación inalámbrica o control domótico.
+Permite programar temperatura por horarios y zonas. Se empotrada en caja estándar
+como un mecanismo más. Compatible con calderas, suelo radiante, fan-coils.
+
+Lo que facilita:
+- Ampliar tomas de corriente sin obra (adaptadores y regletas).
+- Proteger equipos sensibles de picos de tensión (regleta SPD).
+- Conectar equipos que necesitan tensiones o fases especiales (clavijas 4P+TT).
+- Control de temperatura en instalaciones domésticas (termostato).
+
+Lo que evita que ocurra:
+- Daños en ordenadores y electrónica por picos de tensión (regleta con SPD).
+- Conexiones improvisadas peligrosas con clavijas rotas o sin tierra.
+
+============================================================
+
+MODELOS EN ARAIZ (~9 artículos)
+--------------------------------------------------------------
+| Tipo                            | Marca   | Ref/Detalle             | Para qué                       |
+|---------------------------------|---------|-------------------------|-------------------------------|
+| Adaptador Standard 2×2P+T       | LEGRAND | Compacto sin cable      | Doblar enchufe sin cable       |
+| Base múltiple Premium 6×2P+T SPD| LEGRAND | 1,5m cable 230V         | Regleta 6 enchufes + protección|
+| Adaptador USB negro             | LEGRAND | Color negro             | Carga USB en toma estándar     |
+| Clavija 2P+TT 16A caucho        | LEGRAND | Caucho, con tierra      | Cable uso rudo / húmedo        |
+| Base 2P+TT 20A 380V             | LEGRAND | Trifásica pequeña       | Equipo monofásico 20A 380V     |
+| Clavija 4P+TT 20A               | LEGRAND | Trifásica 4 polos       | Equipo trifásico pequeño       |
+| Clavija 2P+TT sin lateral       | LEGRAND | Sin patilla lateral     | Regletas antiguas / específico |
+| Tapa SIMON 270 TV+SAT negro     | SIMON   | Negro, TDT+Sat          | Toma televisión+satélite       |
+| Termostato iO blanco            | SIMON   | Programable domótico    | Control calefacción/refrig.    |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                              | Por qué la necesitas                                     |
+|----|-------------------------------------------------------|----------------------------------------------------------|
+| 1  | Para la clavija: qué sección tiene el cable?          | La clavija debe ser compatible con la sección del cable  |
+| 2  | Para la regleta: qué equipos va a enchufar?           | Si son equipos sensibles → pedir la de SPD               |
+| 3  | Para la base trifásica: cuántos amperios y qué tensión?| 16A 230V o 20A 380V son diferentes modelos              |
+| 4  | Para el termostato: qué sistema de calefacción tiene? | No todos los termostatos son compatibles con todos los sistemas |
+| 5  | Color deseado?                                        | Hay artículos en negro (para gamas oscuras) y blanco     |
+
+CONSEJO: La diferencia entre "ladrón" (adaptador compacto sin cable) y "regleta"
+(base múltiple con cable) es importante: el ladrón no debe sobrecargarse porque
+pone mucho peso sobre la toma de pared. Para cargas de más de 2 equipos o equipos
+pesados, siempre recomendar regleta con cable. Si hay ordenadores de por medio,
+la regleta con SPD es una venta adicional fácil de justificar.
+
+============================================================
+Fuentes:
+- Legrand bases múltiples: https://www.legrand.es/bases-multiples-y-prolongadores
+- Simon termostatos: https://www.simonelectric.com/termostatos
+============================================================

@@ -1,0 +1,121 @@
+CUADRO RESUMEN — MECANISMOS PARA CANALES Y SUELO: GALLERY, MOSAIC, SCHNEIDER (Hager, Legrand, Schneider)
+Familia: Electricidad > Pequeño material mecanismos > Pequeño material para canales
+Ejemplo en Araiz: HAGER Gallery toma schuko doble canal / LEGRAND Mosaic 2×2P+T clipaje directo
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"mecanismos para canal eléctrico Hager Gallery" o "Legrand Mosaic enchufes canal zócalo"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Son mecanismos especiales diseñados para instalarse dentro de las canales eléctricas
+y columnas de distribución, o en cajas de suelo empotradas. No van en la pared
+empotrados en caja de registro — van "enganchados" directamente dentro del perfil
+de la canal o en cajas específicas de suelo.
+
+**¿Por qué existen mecanismos específicos para canal?**
+Una canal (zócalo de distribución) tiene un perfil de plástico estándar, pero las
+medidas no coinciden con las cajas de registro de pared. Los mecanismos para canal
+tienen:
+- Sistemas de clipaje (enganche a presión) al perfil de la canal.
+- Dimensiones adaptadas al ancho del canal (típicamente 40mm, 50mm, 65mm...).
+- Tapas que encajan con la estética del canal usado.
+
+**1. CAJAS DE SUELO EMPOTRADAS (SCHNEIDER)**
+
+**Caja suelo L 3 módulos gris oscuro (Schneider):**
+Caja empotrada en el suelo para oficinas en planta diáfana — donde no hay paredes
+cerca para instalar los mecanismos. Se empotra en el pavimento y queda al ras del
+suelo con una tapa abatible. "3 módulos" = admite 3 mecanismos (enchufes + datos).
+Gris oscuro para que destaque lo mínimo en el suelo de la oficina.
+
+**Base suelo schuko XS (Schneider):**
+Mecanismo específico para cajas de suelo. El "XS" indica tamaño muy compacto,
+optimizado para el espacio reducido de las cajas de suelo empotradas.
+Para dotar de corriente puestos de trabajo sin paredes cercanas.
+
+**2. LEGRAND MOSAIC — Sistema modular universal para canal**
+
+**Toma Mosaic 2×2P+T clipaje directo:**
+El sistema Mosaic de Legrand es una gama de mecanismos modulares de 22,5mm de
+ancho que se clipan directamente sobre el perfil de la canal. "Clipaje directo"
+significa que no necesita caja intermedia — el mecanismo se enganca directamente
+en el riel de la canal. Muy rápido de instalar.
+La toma 2×2P+T incluye 2 enchufes schuko en un solo módulo de 22,5mm.
+
+Mosaic es compatible con las canales Legrand y con la mayoría de canales del mercado
+que usan el perfil DIN de 22,5mm como base de mecanismo.
+
+**3. HAGER GALLERY — Sistema para canal con diseño integrado**
+
+La gama Gallery de Hager está diseñada para instalarse en las canales de la gama
+Hager (Tehalit SL, BRP...) y ofrece un diseño muy integrado: la tapa del canal
+y el mecanismo forman un conjunto estético uniforme.
+
+**Toma schuko doble canal (Hager Gallery):**
+Dos enchufes schuko integrados en la tapa de canal Hager. Para instalar corriente
+directamente en la canal de zócalo sin necesidad de módulos separados.
+
+**Toma Gallery 3 RCA:**
+Toma de tres conectores RCA (los conectores de audio/vídeo analógico — los "tulipanes"
+rojo/blanco/amarillo). Para instalaciones audiovisuales en salas de reuniones o
+aulas donde se necesitan tomas de vídeo/audio en el zócalo.
+
+**Toma Gallery RJ45 Cat.6:**
+Roseta de datos Cat6 integrada en la tapa de canal Gallery. Para puestos de trabajo
+en oficina con cableado estructurado, directamente en el canal de zócalo.
+
+**Tapas Gallery RJ45/Video:**
+Tapa ciega con abertura preparada para diferentes mecanismos Gallery (datos o vídeo).
+Para completar tramos de canal donde hay huecos sin mecanismo.
+
+Lo que facilita:
+- Instalar corriente y datos en oficinas de planta diáfana sin obra (cajas suelo).
+- Dotar de mecanismos las canales de zócalo de forma integrada y estética.
+- Hacer puestos de trabajo completos (corriente + datos + audiovisual) en canal.
+
+Lo que evita que ocurra:
+- Cables sueltos por el suelo en oficinas (cajas de suelo y canal resuelven la distribución).
+- Mecanismos domésticos instalados en canal que luego no encajan o se caen.
+
+============================================================
+
+MODELOS EN ARAIZ (~7 artículos)
+--------------------------------------------------------------
+| Tipo                            | Marca     | Sistema/Detalle        | Para qué                        |
+|---------------------------------|-----------|------------------------|---------------------------------|
+| Caja suelo L 3M gris oscuro     | SCHNEIDER | Empotrada suelo        | Corriente+datos en planta diáf. |
+| Base suelo schuko XS            | SCHNEIDER | Para caja suelo        | Enchufe en caja de suelo        |
+| Toma Mosaic 2×2P+T clipaje dir. | LEGRAND   | Mosaic para canal      | 2 enchufes directo en canal     |
+| Toma Gallery 3 RCA              | HAGER     | Gallery audiovisual    | Toma vídeo/audio en canal       |
+| Toma Gallery RJ45 Cat.6         | HAGER     | Gallery datos          | Red datos Cat6 en canal         |
+| Toma schuko doble canal         | HAGER     | Gallery corriente      | 2 enchufes integrados en canal  |
+| Tapas Gallery RJ45/Video        | HAGER     | Gallery tapas          | Cerrar huecos canal Gallery     |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                              | Por qué la necesitas                                     |
+|----|-------------------------------------------------------|----------------------------------------------------------|
+| 1  | ¿Qué marca/modelo de canal tiene instalado?           | Mosaic es universal; Gallery solo encaja en canales Hager |
+| 2  | ¿Necesita corriente, datos o ambos?                   | Define la combinación de mecanismos para el canal        |
+| 3  | ¿Es en suelo (caja empotrada) o en canal de zócalo?   | Son productos completamente diferentes                   |
+| 4  | ¿Cuántos módulos necesita por caja de suelo?          | Cajas de 3, 4 o 6 módulos según espacio disponible      |
+| 5  | ¿Necesita tomas audiovisuales (RCA, HDMI) además?     | Si es sala de reuniones → puede necesitar toma RCA/vídeo |
+
+CONSEJO: El error más frecuente es pedir "un enchufe para la canal" sin especificar
+la marca de la canal. Los mecanismos Hager Gallery SOLO van con canales Hager.
+Si la canal es Legrand, hay que usar Mosaic. Si la canal es de otra marca (Simon,
+Unex...) hay que verificar compatibilidad. Siempre pedir al cliente la marca y
+referencia de la canal antes de pedir el mecanismo — se ahorra mucho tiempo
+con devoluciones evitables.
+
+============================================================
+Fuentes:
+- Hager Gallery: https://www.hager.es/sistemas-de-distribucion/mecanismos-para-canales/
+- Legrand Mosaic: https://www.legrand.es/mosaic
+- Schneider cajas suelo: https://www.se.com/es/es/product-range/spacial/
+============================================================

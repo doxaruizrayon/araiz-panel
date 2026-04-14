@@ -1,0 +1,104 @@
+CUADRO RESUMEN — MECANISMOS DOMÉSTICOS: INTERRUPTORES Y ENCHUFES (Legrand Niloé Step, OTEO, Valena Next)
+Familia: Electricidad > Pequeño material mecanismos > Pequeño material instalación doméstica
+Ejemplo en Araiz: LEGRAND Niloé Step enchufe 2P+T 16A blanco / LEGRAND OTEO interruptor monobloc
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"mecanismos eléctricos empotrar interruptor enchufe" o "diferencia gamas legrand niloé valena"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Son los mecanismos eléctricos de uso doméstico que se instalan en las paredes:
+interruptores, conmutadores, enchufes y tapas decorativas. Se empotran en la
+caja de registro que va dentro de la pared y quedan a la vista solo la tapa y el
+mecanismo. Son lo que cualquier persona manipula a diario en casa o en oficina.
+
+**¿Qué diferencia las gamas?**
+- **OTEO**: gama económica de Legrand. La más sencilla, para viviendas sin
+  requisitos estéticos especiales. Monobloc = mecanismo completo en una pieza.
+  Componible = sistema modular (se combinan mecanismos en un mismo marco).
+- **NILOÉ STEP**: gama media de Legrand. Diseño más actual, mayor variedad de
+  acabados (blanco, negro grafito, aluminio). Mejor tacto y durabilidad.
+- **VALENA NEXT**: gama premium de Legrand. Diseño minimalista, líneas limpias,
+  acabados especiales como "dark" (antracita muy oscuro). Para proyectos de
+  interiorismo de nivel.
+
+**Los tipos de mecanismos más comunes:**
+
+**1. ENCHUFE 2P+T 16A (Schuko)**
+El enchufe estándar europeo: 2 polos + tierra, 16A (suficiente para hasta ~3.500W).
+Se llama "Schuko" del alemán — es el estándar en toda Europa continental.
+Niloé Step tiene versión empotrable estándar y versión con toma USB integrada.
+
+**2. INTERRUPTOR SIMPLE**
+Corta y da paso a la corriente con un solo botón. Para encender/apagar una luz
+desde un único punto.
+
+**3. CONMUTADOR (interruptor de dos vías)**
+Permite encender/apagar una misma luz desde dos puntos diferentes (entrada y
+salida de un pasillo, por ejemplo). Se reconoce porque tiene 3 terminales en
+lugar de 2.
+
+**4. INTERRUPTOR DOBLE**
+Dos interruptores independientes en un mismo bastidor. Ocupa el espacio de uno
+pero controla dos circuitos de iluminación diferentes.
+
+**5. CRUZAMIENTO**
+Se instala entre dos conmutadores para controlar la misma luz desde 3 o más
+puntos (típico en pasillos largos, salas de conferencias).
+
+**6. MARCO Y TAPA**
+El marco es el elemento decorativo que rodea los mecanismos y los fija a la caja
+de registro. La tapa es la cubierta de un hueco vacío. En Niloé Step hay marcos
+de 1, 2 y 3 elementos (admiten 1, 2 o 3 mecanismos lado a lado).
+
+Lo que facilita:
+- Controlar iluminación y dar tomas de corriente en viviendas y oficinas.
+- Acabados estéticos adaptados al nivel del proyecto (económico / medio / premium).
+- Instalaciones modulares que combinan distintos mecanismos en el mismo marco.
+
+Lo que evita que ocurra:
+- Instalaciones sin toma de tierra (todos llevan 2P+T — obligatorio por REBT).
+- Mecanismos que no encastran bien (cada gama tiene su sistema de fijación propio).
+
+============================================================
+
+MODELOS EN ARAIZ (~9 artículos)
+--------------------------------------------------------------
+| Tipo                          | Gama        | Color/Acabado | Para qué                         |
+|-------------------------------|-------------|---------------|----------------------------------|
+| Enchufe 2P+T 16A              | Niloé Step  | Blanco        | Toma corriente estándar empotrar |
+| Conmutador                    | Niloé Step  | Blanco        | Control luz desde 2 puntos       |
+| Interruptor doble             | Niloé Step  | Blanco        | 2 circuitos luz en 1 espacio     |
+| Interruptor monobloc          | OTEO        | Blanco        | Control luz económico            |
+| Interruptor componible        | OTEO        | Blanco        | Sistema modular económico        |
+| Interruptor doble             | Valena Next | Dark (antracita)| Control luz premium oscuro     |
+| Tapa ciega                    | Niloé Step  | Negro         | Tapar hueco vacío en marco       |
+| Placa/marco                   | Niloé Step  | Negro         | Marco decorativo mecanismos      |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                              | Por qué la necesitas                                     |
+|----|-------------------------------------------------------|----------------------------------------------------------|
+| 1  | ¿Qué gama tiene instalada ya (o prefiere)?            | OTEO, Niloé Step y Valena Next no mezclan marcos         |
+| 2  | ¿Qué color quiere? (blanco, negro, aluminio...)       | Cada gama tiene distintos acabados disponibles           |
+| 3  | ¿Cuántos mecanismos van en el mismo marco?            | Define el tamaño del marco (1, 2 o 3 elementos)          |
+| 4  | ¿Es interruptor simple, conmutador o cruzamiento?    | Depende de desde cuántos puntos se controla la luz       |
+| 5  | ¿Es para vivienda nueva o es sustitución?             | Si es sustitución, hay que respetar la gama existente    |
+
+CONSEJO: Lo más habitual es que el cliente pida "un interruptor" sin especificar gama.
+Pregunta siempre si ya tiene algo instalado y de qué color, porque si tiene Niloé Step
+negro y pides OTEO blanco no encaja ni en color ni en marco. La confusión más frecuente
+es conmutador vs interruptor: si la luz se controla desde dos sitios, siempre son
+conmutadores (aunque el cliente los llame "interruptores").
+
+============================================================
+Fuentes:
+- Legrand Niloé Step: https://www.legrand.es/niloe-step
+- Legrand OTEO: https://www.legrand.es/oteo
+- Legrand Valena Next: https://www.legrand.es/valena-next
+============================================================

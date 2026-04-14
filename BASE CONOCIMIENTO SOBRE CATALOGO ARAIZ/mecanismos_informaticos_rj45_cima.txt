@@ -1,0 +1,118 @@
+CUADRO RESUMEN — MECANISMOS INFORMÁTICOS: TOMAS RJ45 Y BASES DATO (Legrand OTEO, Simon CIMA)
+Familia: Electricidad > Pequeño material mecanismos > Pequeño material informático
+Ejemplo en Araiz: LEGRAND Toma RJ45 Cat6 FTP empotrar / SIMON CIMA Base doble schuko superficie
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"toma de datos RJ45 Cat6 instalación" o "Simon CIMA canal base superficie"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Son los mecanismos de telecomunicaciones y datos para instalaciones de red:
+tomas RJ45 para red de datos, bases de corriente para puestos de trabajo
+y sistemas de suelo/canal para oficinas y aulas. Son los que van en las
+paredes de las oficinas para conectar ordenadores, teléfonos IP y switches.
+
+**¿Qué es una toma RJ45 Cat5e / Cat6?**
+La toma RJ45 es el conector hembra que se empotrada en la pared (el "enchufe"
+de la red de datos). El cable de red del ordenador se conecta aquí, y por detrás
+va el cableado estructurado de la instalación hasta el armario de comunicaciones.
+
+- **Cat5e** (Categoría 5e): soporta hasta 1 Gbps a 100 metros. Suficiente para
+  la mayoría de instalaciones de empresa. Más económica.
+- **Cat6 UTP**: soporta 1 Gbps con mejor margen de ruido. Para instalaciones
+  que requieren algo más de rendimiento sin llegar al extremo.
+- **Cat6 FTP**: igual que Cat6 pero con pantalla metálica alrededor del cable.
+  Para entornos con interferencias electromagnéticas (cerca de variadores,
+  motores grandes, fluorescentes). La F = Foiled (pantallado).
+
+**UTP vs FTP:**
+- UTP (Unshielded Twisted Pair): sin pantalla. Para oficinas normales.
+- FTP (Foiled Twisted Pair): con lámina metálica. Para entornos industriales
+  o edificios con mucha interferencia eléctrica.
+
+**1. COMBINACIÓN + MECANISMO RJ45 OTEO (LEGRAND)**
+El sistema OTEO de Legrand incluye tanto el mecanismo RJ45 (la roseta de datos)
+como la combinación — un bastidor que permite instalar junto a la toma RJ45 una
+toma de corriente en el mismo marco. Permite hacer puestos de trabajo completos
+(datos + corriente) en el mismo hueco de pared.
+
+**2. TOMA RJ45 CAT5e UTP (LEGRAND)**
+Roseta de datos económica Cat5e, sin pantalla, para instalaciones de oficina
+estándar. Compatible con marcos Legrand OTEO/Niloé.
+
+**3. TOMA RJ45 CAT6 FTP / UTP (LEGRAND)**
+Versión de mayor categoría. La FTP con pantalla para entornos con interferencias,
+la UTP para oficinas sin perturbaciones. Mismo tamaño que el Cat5e.
+
+**4. SIMON CIMA — Sistema de superficie para canal**
+La gama CIMA de Simon está diseñada para instalaciones en canal (no empotradas
+en pared sino sobre la canal que recorre el zócalo de la pared). Son más gruesas
+que los mecanismos normales porque van en superficie.
+
+**Tapa/Base doble schuko SIMON CIMA con LED:**
+Base de dos enchufes para canal con piloto LED que indica presencia de tensión.
+El LED es útil en aulas, salas de formación y oficinas donde se quiere verificar
+rápidamente si el puesto tiene corriente.
+
+**Base caja superficie CIMA kit 4 módulos:**
+Caja de superficie para montar 4 mecanismos CIMA (mezcla de tomas de corriente,
+datos y otros). Se fija directamente en la pared o en la canal. Para puestos
+de trabajo en rehabilitaciones donde no se puede empotrar.
+
+**Marco empotrar CIMA 6 módulos:**
+Marco para empotrar 6 mecanismos CIMA. Para instalaciones nuevas donde sí se
+puede hacer rozas, pero se quiere la versatilidad modular de CIMA.
+
+Lo que facilita:
+- Instalar puestos de trabajo completos (corriente + datos) de forma estándar.
+- Construir redes de datos Cat5e/Cat6 en oficinas, aulas y espacios de trabajo.
+- Instalar mecanismos en canal sin obra de albañilería (rehabilitaciones, alquiler).
+
+Lo que evita que ocurra:
+- Conexiones de red inestables por usar Cat5e en entornos con interferencias
+  (debería ser Cat6 FTP en esos casos).
+- Instalaciones de datos sin corriente cerca (los puestos de trabajo siempre
+  necesitan ambas cosas juntas).
+
+============================================================
+
+MODELOS EN ARAIZ (~8 artículos)
+--------------------------------------------------------------
+| Tipo                          | Marca   | Categoría/Detalle    | Para qué                         |
+|-------------------------------|---------|----------------------|----------------------------------|
+| Combinación+Mec. RJ45 OTEO   | LEGRAND | Cat6 UTP empotrar    | Puesto trabajo datos+corriente   |
+| Toma RJ45                    | LEGRAND | Cat5e UTP            | Red datos oficina económica      |
+| Toma RJ45                    | LEGRAND | Cat6 FTP             | Red datos con interferencias     |
+| Toma RJ45                    | LEGRAND | Cat6 UTP             | Red datos oficina Cat6 estándar  |
+| Tapa/Base doble schuko+LED   | SIMON   | CIMA superficie      | 2 enchufes canal con piloto      |
+| Base caja superficie kit 4M  | SIMON   | CIMA 4 módulos       | Caja superficie canal 4 mecanism.|
+| Marco empotrar               | SIMON   | CIMA 6 módulos       | Marco 6 mecanismos empotrado     |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                              | Por qué la necesitas                                     |
+|----|-------------------------------------------------------|----------------------------------------------------------|
+| 1  | ¿Qué categoría de red tiene instalada (Cat5e/Cat6)?   | La toma debe ser igual o superior al cable instalado     |
+| 2  | ¿Hay fuentes de interferencia cerca (motores, cuadros)?| Si sí → Cat6 FTP con pantalla                           |
+| 3  | ¿Va empotrada o en canal/superficie?                  | Define si es OTEO/Niloé (empotrar) o CIMA (canal/superf.)|
+| 4  | ¿Necesita corriente y datos en el mismo hueco?        | Si sí → combinación RJ45+schuko en un solo marco        |
+| 5  | ¿Cuántos módulos necesita en la caja?                 | Para CIMA: kits de 4 módulos, 6 módulos...              |
+
+CONSEJO: En oficinas de nueva construcción, Cat6 UTP es el estándar mínimo
+recomendado hoy en día — Cat5e ya está quedando obsoleto para instalaciones nuevas.
+Cat6 FTP solo es necesario si hay variadores de frecuencia, cuadros eléctricos
+grandes o fluorescentes con balastos electrónicos muy cerca del cableado de datos.
+Para rehabilitaciones sin rozas, el sistema CIMA de Simon es la solución más
+limpia: los mecanismos van en canal sobre el zócalo y no hace falta obra.
+
+============================================================
+Fuentes:
+- Legrand OTEO tomas datos: https://www.legrand.es/oteo
+- Simon CIMA: https://www.simonelectric.com/cima
+- ISO/IEC 11801: Estándar de cableado estructurado
+============================================================
