@@ -1,0 +1,101 @@
+CUADRO RESUMEN — CABLE DE COBRE DESNUDO PARA TOMA DE TIERRA (TERRANAX, distintas secciones)
+Familia: Electricidad > Hilos y cables > Cobre desnudo
+Ejemplo en Araiz: MIGUELEZ / CABLE ref. BOBINACOBRE135 (Cable TERRANAX cobre desnudo 35mm²)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"toma de tierra instalación eléctrica" o "cable cobre desnudo pica tierra"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+El cable de cobre desnudo (sin aislamiento) se usa exclusivamente para las
+instalaciones de puesta a tierra. Va enterrado en el terreno o conectado a
+las picas de tierra, y su función es disipar de forma segura las corrientes
+de defecto (fugas a tierra) al terreno.
+
+**¿Por qué sin aislamiento?**
+La toma de tierra necesita estar en contacto directo con el terreno para crear
+un buen camino conductor hacia la masa de tierra. El aislamiento lo impediría.
+La conductividad del cobre + el contacto directo con el suelo es lo que funciona.
+
+**¿Qué es la toma de tierra?**
+La toma de tierra es la conexión eléctrica intencional entre la instalación y el
+terreno. Sirve para:
+1. Proteger a las personas de descargas eléctricas en caso de defecto en un aparato
+2. Permitir que el diferencial (interruptor diferencial) detecte y corte la corriente
+3. Disipar sobretensiones (rayos, transitorios) de forma segura
+
+**Gama TERRANAX (GENERAL CABLE / MIGUELEZ)**
+Cable de cobre electrolítico recocido sin aislamiento. Disponible en varias secciones:
+- 6mm²: tomas de tierra de pequeñas instalaciones, conexión de picas individuales
+- 16mm²: instalaciones domésticas estándar (viviendas)
+- 35mm²: instalaciones industriales medias, conductores principales de tierra
+- 50mm²: industrias con alta corriente de defecto potencial
+- 70mm²: instalaciones industriales de mayor potencia
+- 95mm²: grandes instalaciones industriales, acometidas importantes
+
+**Secciones mínimas según REBT (normativa española):**
+- Protegido mecánicamente (en tubo): 2,5mm²
+- No protegido mecánicamente: 16mm²
+- En contacto con tierra sin protección adicional: 25mm²
+La sección del conductor de tierra debe ser al menos la mitad de la sección del
+conductor de fase (con un máximo de 35mm² en instalaciones estándar).
+Ejemplo: instalación con fases de 70mm² → tierra de 35mm².
+
+**Sección de tierra para viviendas según REBT ITC-BT-18:**
+- Acometida ≤10mm² (cobre): tierra ≥16mm²
+- Acometida entre 10 y 35mm²: tierra = acometida (35mm²)
+- Acometida >35mm²: tierra = acometida/2 (con mínimo 35mm²)
+
+Lo que facilita:
+- Crear la puesta a tierra de la instalación eléctrica (obligatoria por REBT).
+- Conectar las picas de tierra entre sí y al cuadro general.
+- Cumplir normativa de seguridad en instalaciones industriales y residenciales.
+
+Lo que evita que ocurra:
+- Electrocuciones por fallo de aislamiento en aparatos sin toma de tierra.
+- Que el diferencial no detecte el defecto a tierra (tierra mal ejecutada).
+- Daños por rayos o sobretensiones sin descarga controlada a tierra.
+
+============================================================
+
+MODELOS EN ARAIZ (~9 artículos)
+--------------------------------------------------------------
+| Tipo                     | Marca     | Ref.          | Sección  | Uso típico                      |
+|--------------------------|-----------|---------------|----------|---------------------------------|
+| TERRANAX cobre desnudo   | CABLE     | BOBINACOBRE16 | 6mm²     | Pica tierra / instalación pequeña|
+| TERRANAX cobre desnudo   | MIGUELEZ  | BOBINACOBRE16 | 6mm²     | Pica tierra / instalación pequeña|
+| TERRANAX cobre desnudo   | CABLE     | BOBINACOBRE116| 16mm²    | Tierra vivienda estándar        |
+| TERRANAX cobre desnudo   | MIGUELEZ  | BOBINACOBRE116| 16mm²    | Tierra vivienda estándar        |
+| TERRANAX cobre desnudo   | CABLE     | BOBINACOBRE135| 35mm²    | Tierra industrial media         |
+| TERRANAX cobre desnudo   | MIGUELEZ  | BOBINACOBRE135| 35mm²    | Tierra industrial media         |
+| TERRANAX cobre desnudo   | MIGUELEZ  | BOBINACOBRE50 | 50mm²    | Tierra industrial grande        |
+| TERRANAX cobre desnudo   | CABLE     | BOBINACOBRE170| 70mm²    | Tierra industrial mayor potencia|
+| TERRANAX cobre desnudo   | MIGUELEZ  | BOBINACOBRE195| 95mm²    | Tierra grandes instalaciones    |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                              | Por qué la necesitas                                    |
+|----|-------------------------------------------------------|---------------------------------------------------------|
+| 1  | Cuál es la sección del conductor de fase?             | Define la sección mínima del conductor de tierra        |
+| 2  | Cuántos metros de cable de tierra necesita?           | Las bobinas varían en longitud según sección            |
+| 3  | Va enterrado directamente o en tubo?                  | En tubo puede reducirse la sección mínima               |
+| 4  | Cuántas picas de tierra lleva la instalación?         | Define cuánto cable de unión entre picas                |
+| 5  | Tiene medición de resistencia de tierra (ohmnios)?    | Define si la sección actual es suficiente para el terreno|
+
+CONSEJO: La resistencia de la puesta a tierra es tan importante como la sección
+del cable. Un cable de tierra bien dimensionado no sirve de nada si la resistencia
+del terreno es alta (terrenos rocosos, secos o arenosos). En esos casos se añaden
+más picas o se usa sales de tierra (bentonita) para mejorar la conductividad.
+El REBT ITC-BT-18 exige resistencia de tierra ≤37Ω en instalaciones domésticas
+(para que el diferencial de 30mA actúe correctamente).
+
+============================================================
+Fuentes:
+- General Cable / MIGUELEZ TERRANAX: https://www.generalcable.es/
+- REBT ITC-BT-18: Instalaciones de puesta a tierra
+============================================================

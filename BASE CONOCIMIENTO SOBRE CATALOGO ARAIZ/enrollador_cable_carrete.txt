@@ -1,0 +1,114 @@
+CUADRO RESUMEN — ENROLLADORES DE CABLE Y REPARTIDORES ÓPTICOS (carretes, enrolladores IP41, repartidores PAU FO)
+Familia: Electricidad > Hilos y cables > Enrollador de cable
+Ejemplo en Araiz: SCHNEIDER ref. IMT33140 (Enrollacables Classic 20m 3x1,5 IP20, 4 tomas)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"enrollador cable eléctrico obra" o "repartidor PAU fibra óptica ICT"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Este grupo mezcla dos tipos de productos muy distintos que el catálogo agrupa
+juntos: enrolladores de cable eléctrico (los "carretes" de obra) y repartidores
+de fibra óptica para instalaciones ICT.
+
+**PARTE 1 — ENROLLADORES DE CABLE ELÉCTRICO**
+
+**1. ENROLLACABLES CLASSIC (SCHNEIDER IMT33140)**
+El carrete de extensión estándar para obra e instalación:
+- 20 metros de cable 3x1,5mm² (3 conductores, 1,5mm² sección)
+- 4 tomas de corriente Schuko (enchufes redondos europeos)
+- IP20: para uso interior (no resistente al agua)
+El enrollacables se usa para llevar corriente provisional a zonas sin instalación
+definitiva (obra, mantenimiento, eventos). La limitación de potencia con cable 3x1,5
+es de unos 16A (≈3.500W a 230V).
+
+**2. ENROLLADOR AUTOROLLER IP41 (SCAME)**
+Ref. 751.0210-D: enrollador automático con retroceso:
+- IP41: resistente a goteo vertical (más protegido que el Schneider)
+- 16 metros de cable 2x1mm² — para iluminación o herramientas de baja potencia
+- Se desenrolla a mano y se recoge automáticamente al tirar del cable
+Uso: zonas con algo de humedad o donde se necesita recoger el cable rápidamente.
+
+**3. CONTENEDOR VH600 (ANGUILA)**
+Caja de almacenamiento para guías pasacables Anguila. No es un enrollador de cable
+eléctrico sino un accesorio para organizar las guías de instalación. Capacidad de
+almacenamiento para guías largas.
+
+**4. ENROLLADOR UNIVERSAL ANGUILA WINDER**
+Ref. 45006000: carrete universal para guías pasacables Anguila. Se usa para
+almacenar, transportar y desenvolver ordenadamente las guías. Compatible con
+todas las guías de la gama Anguila.
+
+---
+
+**PARTE 2 — REPARTIDORES DE FIBRA ÓPTICA PAU (TELEVES)**
+(Aparecen en este grupo aunque no son enrolladores)
+
+**¿Qué es un PAU?** El Punto de Acceso al Usuario es el dispositivo que en una
+instalación ICT (edificio residencial) divide la señal de fibra óptica del operador
+entre las distintas estancias de la vivienda.
+
+**Repartidores ópticos de edificio (ROTI/ROTU):**
+- 234450: Repartidor óptico SC/APC 8 salidas, 10dB de pérdida — para edificios de 8 viviendas
+- 234650: Repartidor óptico SC/APC 32 salidas, 17dB — para edificios de 32 viviendas
+El repartidor del edificio divide la fibra del operador en tantas fibras como viviendas hay.
+
+**PAU de vivienda:**
+- 231502: PAU FO de 1 entrada a 4 salidas, con 2 adaptadores SC/APC — para una vivienda con 4 estancias
+- 231521: PAU FO 4S+ 2 fibras preconectadas, 25m — con tramo de fibra hasta el punto de entrada
+- 231542: PAU FO 4S+ 2 fibras Dca 40m, preconectorizado — con 40m de fibra preinstalada
+
+Lo que facilita:
+- Llevar corriente provisional a zonas sin instalación definitiva (enrollacables).
+- Distribuir la fibra óptica del operador entre viviendas y estancias (PAU).
+- Organizar y transportar guías pasacables (Anguila).
+
+Lo que evita que ocurra:
+- Accidentes por cables de extensión en mal estado o con sección insuficiente.
+- Pérdida de señal óptica por exceso de divisiones sin amplificador.
+- Enredos y roturas en las guías de instalación sin carrete.
+
+============================================================
+
+MODELOS EN ARAIZ (~9 artículos)
+--------------------------------------------------------------
+| Tipo                          | Marca     | Ref.    | Para qué                          |
+|-------------------------------|-----------|---------|-----------------------------------|
+| Enrollacables 20m 3x1,5 4T    | SCHNEIDER | IMT33140| Corriente provisional obra        |
+| Enrollador AUTOROLLER 16m 2x1 | SCAME     | 751.0210-D| Herramientas/iluminación IP41   |
+| Contenedor VH600 guías        | ANGUILA   | 45017000| Almacenar guías pasacables        |
+| Enrollador universal Anguila  | ANGUILA   | 45006000| Carrete guías instalación         |
+| Repartidor óptico 8 sal. 10dB | TELEVES   | 234450  | ROTI edificio hasta 8 viviendas   |
+| Repartidor óptico 32 sal. 17dB| TELEVES   | 234650  | ROTU edificio hasta 32 viviendas  |
+| PAU FO 4 salidas SC/APC       | TELEVES   | 231502  | Distribución FO vivienda          |
+| PAU FO 4S+ fibra 25m          | TELEVES   | 231521  | PAU con tramo FO preinstalado     |
+| PAU FO 4S+ fibra Dca 40m      | TELEVES   | 231542  | PAU con 40m FO preconectorizado   |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                              | Por qué la necesitas                                     |
+|----|-------------------------------------------------------|----------------------------------------------------------|
+| 1  | El enrollador es para uso en obra o permanente?       | Obra → IP20 básico; permanente o húmedo → IP41/IP44      |
+| 2  | Cuántos amperios / kW va a enchufar?                  | Cable 1,5mm² aguanta hasta ~16A (no conectar herramientas pesadas)|
+| 3  | Para el PAU: cuántas viviendas tiene el edificio?     | Define el número de salidas del repartidor óptico        |
+| 4  | La instalación ICT es nueva o ampliación?             | Define si necesita repartidor de edificio o solo PAU     |
+| 5  | El PAU lo instala el electricista o el operador?      | En ICT el operador suele instalar el PAU — verificar     |
+
+CONSEJO: Los repartidores PAU de fibra óptica Televes son productos ICT específicos
+para edificios residenciales con instalación de fibra hasta el hogar (FTTH).
+Solo se usan en instalaciones nuevas o reformas de ICT. Si el cliente es un
+instalador de telecomunicaciones homologado, sabrá exactamente qué referencia
+necesita. Los enrollacables, en cambio, son un producto de venta habitual en
+cualquier instalación.
+
+============================================================
+Fuentes:
+- Scame enrolladores: https://www.scame.com/es/
+- Televes ICT/FO: https://www.televes.com/es/
+- RD 346/2011: Reglamento ICT (instalaciones telecomunicaciones edificios)
+============================================================

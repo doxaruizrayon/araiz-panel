@@ -1,0 +1,115 @@
+CUADRO RESUMEN — CABLES ESPECIALES (ATEX, soldadura, cable prefabricado, alta resistencia fuego)
+Familia: Electricidad > Hilos y cables > Otros tipos
+Ejemplo en Araiz: GENERAL CABLE ref. RZ1MZ1-K325 (Cable AFUMEX ATEX 1000V RZ1MZ1-K 3G2,5)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"cable ATEX zona explosiva" o "cable soldadura H01N2-D"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Son cables para aplicaciones donde el cable estándar no es suficiente: zonas con
+riesgo de explosión (ATEX), soldadura eléctrica, alta resistencia al fuego, o
+conexiones prefabricadas para instalaciones rápidas.
+
+**1. CABLE AFUMEX ATEX 1000V RZ1MZ1-K (GENERAL CABLE)**
+Cable para instalaciones en zonas ATEX (ATmosphères EXplosibles).
+Las zonas ATEX son áreas donde puede haber gases o polvos inflamables:
+- Refinerías y plantas petroquímicas
+- Industria alimentaria (harinas, azúcar)
+- Plantas de tratamiento de aguas (biogás)
+- Zonas de carga de baterías (H2 gaseoso)
+La nomenclatura RZ1MZ1-K indica:
+- R = conductor de cobre
+- Z1 = aislamiento XLPE libre de halógenos
+- M = cinta metálica de armado (protección mecánica)
+- Z1 = cubierta libre de halógenos
+- K = flexible
+El armado metálico (M) es la diferencia clave con el cable normal: protege el cable
+contra impactos, roedores y daños mecánicos en zonas de riesgo.
+Sección 3G2,5mm²: el estándar para circuitos de fuerza en zonas ATEX.
+Certificación: cumple norma IECEx y directiva ATEX 2014/34/UE.
+
+**2. CABLE DE SOLDADURA H01N2-D (NEXANS)**
+Cable ultraflexible para equipos de soldadura eléctrica:
+- H01N2-D: norma armonizada, conductor de cobre fino (N2), cubierta de policloropreno (D)
+- 1x35mm² y 1x50mm²: secciones habituales para equipos de soldadura de arco
+- Bobina de 1.000m para distribuidores (se vende por metros)
+Características diferenciales:
+- Cubierta de policloropreno (neopreno): resiste aceites, grasas, calor, ozono y rozamiento
+- Conductor muy flexible (clase 6): aguanta dobleces continuos sin rotura
+- Sin aislamiento de tierra (es unipolar, lleva la corriente al electrodo o la pinza)
+Uso: conecta el equipo de soldadura al portaelectrodos (el positivo) y a la pinza
+de masa (el negativo). El cable de soldadura NO es para instalación eléctrica fija.
+
+**3. CABLE AFIREFENIX SZ1-K (AS+) — Alta resistencia al fuego (MIGUELEZ)**
+El cable de máxima resistencia al fuego para sistemas de seguridad:
+- SZ1-K: silicona (S) + XLPE (Z1), sin halógenos, flexible (K)
+- AS+: clase de resistencia al fuego superior (mantiene el circuito activo >90 min en incendio)
+Sección 1x25mm²
+Usos obligatorios: alimentación de sistemas de detección de incendio, alumbrado
+de emergencia, bombas de extinción, sistemas de evacuación. El cable mantiene
+la continuidad eléctrica incluso cuando está ardiendo.
+Normativa: IEC 60331, EN 50200 (prueba de resistencia al fuego con choque mecánico).
+
+**4. CABLE PREFABRICADO WEIDMULLER PAC-S1500**
+Cable ya terminado en fábrica con conectores en ambos extremos:
+- PAC-S1500: cable de señal prefabricado para conexión rápida entre módulos
+- HE20-V4-4M: conector HE20, 4 metros de longitud
+- 4M: 4 metros de longitud
+Se usa para conectar PLCs, módulos de E/S y equipos de automatización sin
+tener que pelar, crimpar ni terminar el cable en obra. Reduce tiempo de instalación.
+
+Lo que facilita:
+- Instalar eléctricamente en zonas con riesgo de explosión (ATEX certificado).
+- Conectar equipos de soldadura de forma segura (cable especializado).
+- Garantizar funcionamiento de sistemas de seguridad en incendio (AS+).
+- Reducir tiempo de montaje en automatización (prefabricados).
+
+Lo que evita que ocurra:
+- Ignición en zonas explosivas por chispa de un cable no certificado ATEX.
+- Rotura del cable de soldadura por calor o doblez excesivo.
+- Corte de alimentación a sistemas de emergencia durante un incendio.
+
+============================================================
+
+MODELOS EN ARAIZ (~9 artículos)
+--------------------------------------------------------------
+| Tipo                          | Marca          | Ref.          | Para qué                      |
+|-------------------------------|----------------|---------------|-------------------------------|
+| AFUMEX ATEX RZ1MZ1-K 3G2,5   | CABLE          | RZ1MZ1-K325   | Instalación zona explosiva    |
+| AFUMEX ATEX RZ1MZ1-K 3G2,5   | GENERAL CABLE  | RZ1MZ1-K325   | Instalación zona explosiva    |
+| Soldadura H01N2-D 1x35mm²    | CABLE          | 000CS135      | Cable masa/electrodo soldadura|
+| Soldadura H01N2-D 1x50mm²    | CABLE          | CS150CON      | Cable masa/electrodo soldadura|
+| Soldadura H01N2-D 1x35mm²    | NEXANS         | 000CS135      | Cable masa/electrodo soldadura|
+| Soldadura H01N2-D 1x50mm²    | NEXANS         | CS150CON      | Cable masa/electrodo soldadura|
+| AFIREFENIX SZ1-K AS+ 1x25    | CABLE          | 20302969      | Sistemas seguridad en incendio|
+| AFIREFENIX SZ1-K AS+ 1x25    | MIGUELEZ       | 20302969      | Sistemas seguridad en incendio|
+| Cable prefabricado PAC-S1500  | WEIDMULLER     | 1994500040    | Conexión rápida automatización|
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                              | Por qué la necesitas                                       |
+|----|-------------------------------------------------------|------------------------------------------------------------|
+| 1  | La zona tiene clasificación ATEX? (zona 0, 1, 2...)   | Define si necesita cable ATEX certificado                  |
+| 2  | Es para soldadura fija o para equipo móvil?           | Equipo móvil → cable de soldadura; fijo → cable instalación|
+| 3  | El circuito alimenta sistemas de seguridad o emergencia? | Si sí, puede necesitar cable AS o AS+ resistente al fuego |
+| 4  | Tiene proyecto ATEX firmado por técnico habilitado?   | Las instalaciones ATEX siempre requieren proyecto específico|
+| 5  | Qué longitud de cable de soldadura necesita?          | El cable de soldadura se vende por metros, no en rollo fijo|
+
+CONSEJO: Los cables ATEX y de alta resistencia al fuego (AS+) son normalmente
+solicitados por técnicos que conocen exactamente lo que necesitan. No sustituir
+por cables similares sin verificar la certificación: un cable no certificado ATEX
+en zona explosiva puede ser una infracción grave y un riesgo de accidente.
+El cable de soldadura es un producto de uso habitual en talleres y naves industriales.
+
+============================================================
+Fuentes:
+- General Cable AFUMEX ATEX: https://www.generalcable.es/
+- Nexans cable soldadura: https://www.nexans.es/
+- Directiva ATEX 2014/34/UE: zonas con atmósfera explosiva
+============================================================

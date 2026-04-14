@@ -1,0 +1,104 @@
+CUADRO RESUMEN — CANALIZACIÓN PREFABRICADA ELECTRIFICADA (CEP, LBplus, bases empotrar IP67)
+Familia: Electricidad > Hilos y cables > Canalización prefabricada (CEP)
+Ejemplo en Araiz: SCHNEIDER ref. PKY32F735 (Base empotrar 32A 3P+N+TT 380-415V IP67)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"canalización electrificada prefabricada" o "canal LBplus Legrand iluminación"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+La canalización prefabricada electrificada (CEP) es un sistema donde el cable de
+alimentación ya va integrado dentro del canal. En lugar de instalar tubo + cable
+por separado, se coloca una canaleta que ya lleva la energía incorporada.
+Se usa para alimentar luminarias, maquinaria y puestos de trabajo de forma flexible:
+se puede conectar y desconectar equipos en cualquier punto del canal.
+
+**1. SISTEMA LBplus — CANAL CON ALIMENTACIÓN INTEGRADA (LEGRAND)**
+El LBplus es un canal de PVC que lleva dentro los conductores de alimentación.
+Permite instalar luminarias a lo largo de todo el canal conectándolas en cualquier punto,
+sin tener que llevar cable individual a cada luminaria.
+Componentes:
+- Canal de PVC 3 metros (ref. 71000104): el propio canal con conductores integrados
+- Bloque de alimentación fin de línea macho LBD632 (ref. 75241002D): conecta el
+  extremo del canal a la red eléctrica (la "entrada de corriente")
+- Bloque de alimentación LBD254/256/406 (ref. 75221002D): alternativa para otras
+  configuraciones de bloque de alimentación
+Uso típico: iluminación industrial en fila (naves logísticas, talleres), donde se
+quieren instalar muchas luminarias LED en línea recta con alimentación sencilla.
+
+**2. BASES DE ENCHUFE EMPOTRAR IP67 — SCHNEIDER PRAGMA**
+Son enchufes industriales de empotrar de alta protección (IP67 = completamente
+estanco contra agua). Se instalan en suelo técnico, mesas de trabajo o canaletas
+de suelo para dar servicio eléctrico en puestos de trabajo:
+- PKY16F723: 16A, 2P+TT, 200-250V (monofásico) — para equipos monofásicos estándar
+- PKY16F733: 16A, 2P+TT, inclinada — versión angular para instalación en laterales
+- PKY16F735: 16A, 3P+N+TT, 380-415V — para equipos trifásicos pequeños
+- PKY32F735: 32A, 3P+N+TT, 380-415V — para maquinaria trifásica de mayor potencia
+La referencia CEE/IEC 60309 es el estándar industrial para estos enchufes (los
+conocidos como "enchufes azules trifásicos" o "enchufes industriales rojos").
+IP67 significa que resisten inmersión temporal en agua: ideales para zonas de limpieza.
+
+**3. CONECTOR SELECTOR DE FASE (SCHNEIDER)**
+KBC10DCB20: conector de selección de fase de 10A para la canalización Canalis KBA
+de Schneider. Permite seleccionar manualmente qué fase alimenta cada toma de la
+canalización. Parte del sistema de distribución flexible en naves.
+
+**4. SISTEMA DE FIJACIÓN CANALIS (SCHNEIDER)**
+KBA40ZFU: soporte de fijación para canalización prefabricada y luminaria simultáneamente.
+Permite colgar la luminaria directamente del canal de distribución sin soportes
+adicionales. Muy usado en naves industriales donde luminaria y canalización van
+en el mismo recorrido.
+
+Lo que facilita:
+- Instalar luminarias en fila sin cablear individualmente cada punto.
+- Dar servicio eléctrico flexible a puestos de trabajo en suelo técnico.
+- Conectar y mover máquinas sin obras (enchufe IP67 en suelo).
+
+Lo que evita que ocurra:
+- Obras para cambiar la posición de luminarias o máquinas.
+- Accidentes por agua en enchufes de zonas de limpieza (IP67).
+- Pérdida de tiempo cableando luminaria por luminaria en instalaciones largas.
+
+============================================================
+
+MODELOS EN ARAIZ (~9 artículos)
+--------------------------------------------------------------
+| Tipo                           | Marca     | Ref.          | IP  | Para qué                        |
+|--------------------------------|-----------|---------------|-----|---------------------------------|
+| Base empotrar 16A 2P+TT 230V  | SCHNEIDER | PKY16F723     | 67  | Enchufe monofásico suelo        |
+| Base empotrar 16A inclinada    | SCHNEIDER | PKY16F733     | 44  | Enchufe monofásico lateral      |
+| Base empotrar 16A 3P+N+TT 400V| SCHNEIDER | PKY16F735     | 67  | Enchufe trifásico pequeño       |
+| Base empotrar 32A 3P+N+TT 400V| SCHNEIDER | PKY32F735     | 67  | Enchufe trifásico maquinaria    |
+| Conector selector fase 10A    | SCHNEIDER | KBC10DCB20    | —   | Seleccionar fase en Canalis     |
+| Sistema fijación canal+luminaria| SCHNEIDER| KBA40ZFU     | —   | Colgar luminaria en canal       |
+| Canal LBplus PVC 3m           | LEGRAND   | 71000104      | —   | Canal con cable integrado 3m    |
+| Bloque alimentación fin LBD632| LEGRAND   | 75241002D     | —   | Entrada corriente fin de canal  |
+| Bloque alimentación LBD254/406| LEGRAND   | 75221002D     | —   | Entrada corriente canal         |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                              | Por qué la necesitas                                       |
+|----|-------------------------------------------------------|------------------------------------------------------------|
+| 1  | Cuántas luminarias y en cuántos metros de canal?      | Define el número de tramos LBplus necesarios               |
+| 2  | El enchufe va en suelo, pared o encimera?             | Define si es empotrar (IP67) o superficie (IP44/IP20)      |
+| 3  | Monofásico o trifásico? A cuántos amperios?           | Define la referencia de base (16A/32A, 2P+T / 3P+N+T)     |
+| 4  | Va a haber agua o limpieza con agua en la zona?       | Si sí, imprescindible IP67 (IP44 no es suficiente)         |
+| 5  | El sistema de canal es Legrand LBplus o Schneider Canalis? | Los accesorios no son intercambiables entre marcas   |
+
+CONSEJO: Los enchufes industriales IP67 (CEE/IEC 60309) son el estándar en naves
+industriales. Se reconocen por su formato redondo y su cierre de bayoneta.
+El color indica la tensión: azul = 230V monofásico, rojo = 400V trifásico.
+No confundir con los enchufes Mennekes/Tipo 2 de cargadores de coche eléctrico
+(también son redondos pero para otro uso).
+
+============================================================
+Fuentes:
+- LEGRAND LBplus: https://www.legrand.es/catalogo/canalizaciones/lbplus
+- Schneider Canalis/Pragma: https://www.se.com/es/es/product-range/canalis/
+- IEC 60309: Enchufes y clavijas industriales
+============================================================

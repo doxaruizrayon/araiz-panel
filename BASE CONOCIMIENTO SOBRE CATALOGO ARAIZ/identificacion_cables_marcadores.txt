@@ -1,0 +1,105 @@
+CUADRO RESUMEN — SISTEMA DE IDENTIFICACIÓN DE CABLES (marcadores, etiquetas, rótulos, cintas, rotuladores)
+Familia: Electricidad > Hilos y cables > Sistema de identificación de cables
+Ejemplo en Araiz: PHOENIX CONTACT ref. 0829484 (Marcador para bornes UCT-TM 3,5)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"marcadores cables cuadro eléctrico" o "identificación bornes cabeceras phoenix contact"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Son todos los productos para etiquetar y marcar cables, bornes y circuitos dentro
+de cuadros eléctricos. La identificación correcta es obligatoria en instalaciones
+industriales (facilita el mantenimiento y evita errores) y muy recomendable en
+cualquier instalación eléctrica profesional.
+
+**1. MARCADORES PARA BORNES (PHOENIX CONTACT)**
+Se insertan en los bornes de regleta para identificar cada circuito:
+- UCT-TM 3,5 (ref. 0829484): marcador de inserción para bornes de 3,5mm de paso.
+  Formato de tira, se imprimen con impresora de etiquetas THERMOMARK de Phoenix Contact.
+- US-EML (20X8) YE (ref. 0800460): etiqueta de 20x8mm amarilla, para bornes estándar.
+  Se imprime en impresora Phoenix Contact o se escribe a mano.
+- US-EMLP (15X5) YE (ref. 0828873): rótulo de plástico más pequeño (15x5mm) amarillo.
+- US-EMLF (104X70) (ref. 1014294): rótulo grande de 104x70mm para frontal de cuadro
+  o tapa de bornero. Para etiquetas de grupo o sección del cuadro.
+El amarillo es el color estándar para identificación de bornes en cuadros.
+
+**2. MARCADOR DE CABLE PARA BRIDA (PHOENIX CONTACT)**
+US-WMTB (29X8) (ref. 0828772): etiqueta con brida integrada, se sujeta al cable
+sin necesidad de pegatina. Se imprime y la brida lo fija al cable. Muy práctico
+para cables en mazo o bandejas donde no se puede pegar una etiqueta plana.
+
+**3. CINTA VINILO IDENTIFICADORA 3M SCOTCHCODE**
+Cinta vinilo blanca de 9mm (3/8") para identificar cables y conductores.
+Se enrolla alrededor del cable y se escribe encima con rotulador. Es la solución
+más económica y rápida para marcar cables en campo sin impresora.
+Cinta adhesiva resistente a aceites y humedad.
+
+**4. ROTULADOR PERMANENTE (UNEX ref. 1751)**
+Rotulador negro permanente estándar para marcar directamente sobre cintas de
+identificación, cajas, tapas y cualquier superficie. El más básico de los sistemas
+de identificación — manual pero rápido y económico.
+
+**5. ETIQUETA PARA PULSADORES OMRON (ref. 160852)**
+Etiqueta A22Z-3443B para los marcos de pulsadores OMRON serie A22. Se inserta en
+la ventana del marco del pulsador para identificar su función (MARCHA, PARO,
+EMERGENCIA, etc.). Específica de los pulsadores OMRON de la gama aparellaje.
+
+**6. PLACA DE IDENTIFICACIÓN MURRPLASTIK**
+Placa KSO 35x9 (ref. 86421065): placa de plástico que se engancha en carril DIN
+de 35mm para identificar secciones del cuadro. Formato placa grande visible.
+Muy usada para separar visualmente los grupos de bornes (ej: "ENTRADAS 24VDC",
+"SALIDAS 230VAC", "ALIMENTACIÓN", etc.).
+
+Lo que facilita:
+- Identificar cada cable y borne de forma clara y duradera.
+- Facilitar el mantenimiento y diagnóstico de averías.
+- Cumplir normativa de instalaciones industriales (IEC 60445).
+
+Lo que evita que ocurra:
+- Errores en el mantenimiento por confundir cables no identificados.
+- Tiempo perdido en diagnósticos porque no se sabe a qué corresponde cada cable.
+- Peligros por conectar cables intercambiados al no estar marcados.
+
+============================================================
+
+MODELOS EN ARAIZ (~9 artículos)
+--------------------------------------------------------------
+| Tipo                           | Marca           | Ref.    | Para qué                          |
+|--------------------------------|-----------------|---------|-----------------------------------|
+| Placa id. carril DIN 35x9      | MURRPLASTIK     | 86421065| Identificar secciones cuadro      |
+| Rotulador negro permanente     | UNEX            | 1751    | Marcar manual sobre cintas/cajas  |
+| Etiqueta marco pulsador OMRON  | OMRON           | 160852  | Identificar función pulsadores    |
+| Cinta vinilo 9mm blanca 3M     | 3M ELECTRICOS   | DE272939625| Enrollar en cable + rotular    |
+| Marcador bornes UCT-TM 3,5     | PHOENIX CONTACT | 0829484 | Identificar bornes 3,5mm paso     |
+| Etiqueta bornero 20x8mm amarilla| PHOENIX CONTACT | 0800460| Etiqueta borne estándar amarilla  |
+| Rótulo plástico 15x5mm amarillo| PHOENIX CONTACT | 0828873 | Rótulo pequeño para bornes        |
+| Marcador cable con brida 29x8  | PHOENIX CONTACT | 0828772 | Etiqueta fija a cable con brida   |
+| Rótulo frontal 104x70mm        | PHOENIX CONTACT | 1014294 | Etiqueta grande sección cuadro    |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                              | Por qué la necesitas                                     |
+|----|-------------------------------------------------------|----------------------------------------------------------|
+| 1  | Tiene impresora de etiquetas Phoenix Contact?         | Si no tiene, mejor recomendar cinta vinilo + rotulador   |
+| 2  | Es para bornes de qué paso? (3,5mm, 5mm, 6mm...)     | El marcador de borne es específico por paso              |
+| 3  | Necesita identificar cables sueltos o en mazo?        | Cable suelto → cinta enrollable; mazo → brida            |
+| 4  | Es para instalación industrial (normativa exige)?     | Si sí, marcado obligatorio según IEC 60445               |
+| 5  | Cuántos bornes / cables necesita marcar?              | Comprar por paquetes (marcadores van en tiras)           |
+
+CONSEJO: Las impresoras de etiquetas THERMOMARK de Phoenix Contact permiten imprimir
+automáticamente todos los marcadores de un cuadro directamente desde el software
+de diseño (EPLAN, Wscad). Si el cliente tiene esta impresora, el sistema Phoenix
+Contact es el más profesional. Si no, la cinta de vinilo 3M + rotulador es la
+solución más rápida y económica para instalaciones pequeñas o en campo.
+
+============================================================
+Fuentes:
+- Phoenix Contact marcadores: https://www.phoenixcontact.com/es-es/productos/identificacion/
+- 3M Scotchcode: https://www.3m.es/
+- IEC 60445: Identificación de equipos e instalaciones eléctricas
+============================================================

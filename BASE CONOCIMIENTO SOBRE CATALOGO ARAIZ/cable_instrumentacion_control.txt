@@ -1,0 +1,103 @@
+CUADRO RESUMEN — CABLE DE INSTRUMENTACIÓN, SEÑALIZACIÓN Y CONTROL (LAPP KABEL, apantallado, servo, compensación)
+Familia: Electricidad > Hilos y cables > Cable instrumentación, señalización y control
+Ejemplo en Araiz: LAPP KABEL ref. 0032401 (Cable UNITRONIC RE-2Y(ST)Yv 2x2x0,5 para bus industrial)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"cable Lapp Kabel instrumentación industrial" o "cable apantallado señal control PLC"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Son cables especializados para transmitir señales de control (4-20mA, 0-10V, RS485,
+etc.) y para conectar servomotores y sensores en instalaciones industriales.
+A diferencia del cable de energía, aquí lo importante no es llevar potencia sino
+transmitir señales sin distorsión ni interferencias.
+
+**Marca principal: LAPP KABEL** — empresa alemana referente mundial en cables industriales.
+
+**1. CABLE UNITRONIC RE-2Y(ST)Yv — Bus industrial (LAPP)**
+Diseñado para comunicaciones industriales (Profibus, RS485, MODBUS).
+La nomenclatura indica:
+- RE = conductores de cobre reconocidos
+- 2Y(ST)Y = doble par trenzado con pantalla individual (ST) y pantalla global
+- v = cubierta PVC flexible
+- 2x2x0,5: 2 pares × 2 conductores × 0,5mm² — el tamaño estándar para Profibus
+La pantalla individual en cada par es clave para buses industriales: evita diafonías
+(señales que "se filtran" de un par al otro).
+
+**2. CABLE ÖLFLEX SERVO FD 798 CP — Servomotores (LAPP)**
+Para conectar servomotores en aplicaciones de cadena portacables (FD = Flex Dynamic):
+- FD: diseñado para movimiento continuo (robot, eje CNC, carro desplazamiento)
+- CP: pantalla de cobre para blindaje EMC
+- 4x2x0,25mm²: 4 pares para señales de encoder y realimentación del servoamplificador
+Aguanta millones de ciclos de flexión sin rotura. Crítico en máquinas CNC y robots.
+
+**3. CABLE DE COMPENSACIÓN KN (LAPP)**
+Cables para termopares (sensores de temperatura que generan pequeñísimas tensiones).
+Un termopar KN (NiCr/Ni, también llamado tipo K) requiere un cable de compensación
+del mismo material para que la señal llegue sin error al instrumento.
+- KCA PVC 2x1,5mm²: cable compensación tipo K con aislamiento PVC
+Si se usa cable de cobre normal en lugar de compensación, la temperatura medida
+tendrá un error importante (puede ser de decenas de grados).
+
+**4. OTROS CABLES LAPP (referencias genéricas)**
+Varios cables LAPP con descripción genérica "Electricidad" en el catálogo —
+son cables de la gama ÖLFLEX para control y señal con diferentes configuraciones
+(multipolar, pantallado, alta flex). Se identifican por código de fabricante.
+
+**5. MANGUERA H05VV-F (CABLE)**
+La manguera flexible 5G1 aparece en este grupo como cable de control multipolar
+para pequeñas instalaciones o cuadros con control básico sin requisitos industriales.
+
+Lo que facilita:
+- Comunicar PLCs con variadores, sensores y actuadores (bus industrial).
+- Controlar servomotores con precisión y sin interferencias.
+- Medir temperaturas con exactitud usando termopares (cable compensación).
+
+Lo que evita que ocurra:
+- Errores de comunicación por interferencias en cables de bus sin pantalla.
+- Roturas de cable en aplicaciones de movimiento continuo (ÖLFLEX FD).
+- Errores de temperatura por usar cable incorrecto con termopares.
+
+============================================================
+
+MODELOS EN ARAIZ (~9 artículos)
+--------------------------------------------------------------
+| Tipo                          | Marca      | Ref.       | Para qué                            |
+|-------------------------------|------------|------------|-------------------------------------|
+| Manguera H05VV-F 5G1          | CABLE      | 00000A51   | Control básico multipolar           |
+| UNITRONIC RE-2Y(ST)Yv 2x2x0,5| LAPP KABEL | 0032401    | Bus Profibus / RS485                |
+| ÖLFLEX SERVO FD 798 CP 4x2x0,25| LAPP KABEL| 0036921   | Cable servo en cadena portacables   |
+| Compensación KN KCA PVC 2x1,5 | LAPP KABEL | 0152001    | Termopar tipo K (NiCr/Ni)           |
+| Cable control LAPP (varios)   | LAPP KABEL | 0026273    | Control y señal industrial          |
+| Cable control LAPP (varios)   | LAPP KABEL | 70002732   | Control y señal industrial          |
+| Cable control LAPP (varios)   | LAPP KABEL | 281803     | Control y señal industrial          |
+| Cable control LAPP (varios)   | LAPP KABEL | 1591305    | Control y señal industrial          |
+| Cable control LAPP (varios)   | LAPP KABEL | 1123167    | Control y señal industrial          |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                              | Por qué la necesitas                                      |
+|----|-------------------------------------------------------|-----------------------------------------------------------|
+| 1  | Es para bus de comunicaciones (Profibus, RS485)?      | Necesita cable con pantalla por par (UNITRONIC)           |
+| 2  | Es para servomotor o eje con movimiento continuo?     | Necesita cable flexible FD para cadena portacables        |
+| 3  | Es para termopar? De qué tipo (K, J, T...)?           | El cable de compensación debe ser del mismo tipo          |
+| 4  | Cuántos metros necesita?                              | Cables Lapp suelen ir por metros sueltos o bobinas        |
+| 5  | Hay variadores de frecuencia cerca del cableado?      | Si sí, necesita cable con pantalla EMC para evitar ruidos |
+
+CONSEJO: Los cables LAPP KABEL son productos especializados que normalmente piden
+los integradores de automatización y los departamentos de mantenimiento de fábricas.
+No son de venta habitual en presupuestos de instalador. Si un cliente pide un cable
+LAPP por código, probablemente sabe exactamente lo que necesita — no sustituir
+por otro cable aunque parezca similar: los cables de señal e instrumentación
+son muy específicos y no son intercambiables fácilmente.
+
+============================================================
+Fuentes:
+- LAPP KABEL ÖLFLEX: https://www.lappgroup.com/es-es/productos/cable/
+- LAPP UNITRONIC: https://www.lappgroup.com/es-es/productos/cable/bus-y-datos/
+============================================================

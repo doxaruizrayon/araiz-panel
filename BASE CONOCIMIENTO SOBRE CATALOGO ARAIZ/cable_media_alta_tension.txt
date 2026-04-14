@@ -1,0 +1,103 @@
+CUADRO RESUMEN — CABLE DE MEDIA Y ALTA TENSIÓN (HEPRZ1, RHZ1, 12/20kV, 18/30kV, aluminio)
+Familia: Electricidad > Hilos y cables > Cable de MEDIA y ALTA TENSION
+Ejemplo en Araiz: GENERAL CABLE ref. 20303285 (Cable HERSATENE RHZ1-2OL 12/20kV Al 1x95)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"cable media tensión instalación 20kV" o "cable XLPE aluminio media tensión"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Son cables para transportar electricidad a tensiones entre 1kV y 36kV (media tensión).
+Se usan para conectar subestaciones de transformación con centros de transformación
+(CT), para líneas de alimentación industrial de gran potencia, o para redes de
+distribución de las compañías eléctricas.
+
+**¿Cuándo aparecen en un presupuesto de Araiz?**
+Casos habituales:
+- Industria pesada con transformador propio (necesita cable MT entre red y transformador)
+- Obra civil con suministro en MT (polígono industrial, grandes edificios)
+- Compañía distribuidora que necesita reposición de tramos de red
+
+**Cómo leer la nomenclatura:**
+
+**HERSATENE RHZ1-2OL (GENERAL CABLE)**
+- R = conductor de aluminio ("R" viene de "round", conductores redondos compactos)
+- H = conductor de aluminio compacto
+- Z1 = aislamiento de polietileno reticulado XLPE sin halógenos
+- 2O = pantalla de semiconductores y pantalla metálica de cobre (alambres)
+- L = cubierta exterior LSFH (libre halógenos)
+- Tensiones: 12/20(24)kV o 18/30(36)kV
+- Secciones: 1x95, 1x150, 1x240, 1x400mm² — en aluminio (más económico que cobre para MT)
+- Color: rojo (convención para MT en España)
+El sufijo "2OL" indica doble pantalla semiconductora + pantalla de cobre + cubierta LSFH.
+El sufijo "OL" (sin 2) tiene una sola pantalla semiconductora.
+El sufijo "5Z1-OL" es otra variante de pantalla.
+
+**VULPREN HEPRZ1 (GENERAL CABLE)**
+- HEPR = aislamiento de etileno propileno de alta módulo (EPR)
+- Z1 = sin halógenos
+El HEPRZ1 usa aislamiento EPR en lugar de XLPE: más flexible, mejor comportamiento
+a bajas temperaturas. Se usa cuando hay curvaturas estrechas o en ambientes fríos.
+Tensiones: 12/20(24)kV y 18/30(36)kV. Secciones 1x95, 1x400mm².
+
+**Secciones y corrientes típicas (aluminio, unipolares, MT):**
+- 1x95mm² → ~200-250A en función de la instalación
+- 1x150mm² → ~280-320A
+- 1x240mm² → ~360-400A
+- 1x400mm² → ~470-520A
+(Valores orientativos — siempre calcular según normativa IEC 60502)
+
+Lo que facilita:
+- Llevar energía eléctrica en media tensión desde la red hasta el centro de transformación del cliente.
+- Conectar subestaciones y centros de transformación industriales.
+- Reposición de tramos de red de distribución en MT.
+
+Lo que evita que ocurra:
+- Fallo dieléctrico (perforación del aislamiento) a 12/20kV o 18/30kV.
+- Incendios en túneles y galerías de cable (libre halógenos).
+- Sobrecalentamiento por sección insuficiente en cables de gran potencia.
+
+============================================================
+
+MODELOS EN ARAIZ (~9 artículos)
+--------------------------------------------------------------
+| Tipo               | Ref.       | Tensión      | Sección   | Para qué                  |
+|--------------------|------------|--------------|-----------|---------------------------|
+| HERSATENE RHZ1-2OL | 20303285   | 12/20(24)kV  | Al 1x95   | Entrada CT pequeño        |
+| HERSATENE RHZ1-2OL | 20303286   | 12/20(24)kV  | Al 1x150  | Línea MT estándar         |
+| HERSATENE RHZ1-2OL | 20303288   | 12/20(24)kV  | Al 1x400  | Línea MT gran potencia    |
+| HERSATENE RH5Z1-OL | 20303271   | 12/20(24)kV  | Al 1x240  | Línea MT gran potencia    |
+| HERSATENE RH5Z1-OL | 7392122RJP | 12/20(24)kV  | Al 1x400  | Línea MT muy alta potencia|
+| HERSATENE RHZ1-OL  | 20303283   | 18/30(36)kV  | Al 1x240  | Red AT distribución       |
+| HERSATENE RH5Z1-OL | 20303275   | 18/30(36)kV  | Al 1x240  | Red AT distribución       |
+| VULPREN HEPRZ1 EPR | 20315969   | 18/30(36)kV  | Al 1x95   | MT flexible, frio         |
+| VULPREN HEPRZ1 EPR | 20303264   | 12/20(24)kV  | Al 1x400  | MT flexible gran potencia |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                              | Por qué la necesitas                                       |
+|----|-------------------------------------------------------|------------------------------------------------------------|
+| 1  | Cuál es la tensión de la red? (10kV, 20kV, 30kV...)   | Define la categoría de tensión nominal del cable           |
+| 2  | Cuántos amperios / MVA necesita transportar?          | Define la sección mínima                                   |
+| 3  | Qué longitud de tramo?                                | Caída de tensión y calentamiento dependen de la longitud   |
+| 4  | Va en zanja, en bandeja o en galería?                 | Define el tipo de instalación y la corriente admisible     |
+| 5  | Tiene proyecto de ingeniería firmado?                 | Las instalaciones en MT siempre requieren proyecto         |
+
+CONSEJO: Los cables de media tensión son un producto muy especializado que casi
+siempre va con proyecto de ingeniería eléctrica. Raramente un instalador los pide
+sin proyecto previo. Si un cliente los solicita sin proyecto, preguntar si tiene
+autorización de la compañía distribuidora — instalar en MT sin los permisos
+correspondientes está prohibido. En Araiz probablemente se pidan puntualmente
+para proyectos industriales grandes o suministros a empresas distribuidoras.
+
+============================================================
+Fuentes:
+- General Cable MT: https://www.generalcable.es/
+- IEC 60502-2: Cables de energía para tensiones de 6kV a 30kV
+- Reglamento Técnico de Líneas Eléctricas (RLAT) RD 223/2008
+============================================================

@@ -1,0 +1,97 @@
+CUADRO RESUMEN — CABLE DE LISTÍN Y CABLECILLO FLEXIBLE (H05VV-F, H07V-K, H05V-K, libre halógenos)
+Familia: Electricidad > Hilos y cables > Cable de listín
+Ejemplo en Araiz: GENERAL CABLE M315B (Cable BIGGFLEX H05VV-F 3G1,5, rollo 100m)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"cable manguera H05VV-F" o "cablecillo flexible H07V-K instalación cuadro"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Son cables muy flexibles para usos interiores: conexionado de cuadros, cableado
+de aparatos, luminarias, pequeños electrodomésticos y trabajos de electricista.
+La diferencia principal con el cable de instalación (H07Z1-K) es la flexibilidad:
+el cablecillo tiene muchos hilos finísimos en lugar de pocos hilos gruesos.
+
+**Tipos principales:**
+
+**1. MANGUERA H05VV-F (BIGGFLEX — GENERAL CABLE)**
+H=armonizado, 05=500V, V=aislamiento PVC, V=cubierta PVC, F=flexible.
+Cable multipolar con todos los conductores dentro de una cubierta exterior común.
+Es "el cable naranja/blanco de las extensiones" pero en versiones para instalación.
+- 2x1mm²: 2 conductores, para luminarias y pequeños aparatos monofásicos sin tierra
+- 3G1mm² y 3G1,5mm²: 3 conductores con tierra, para aparatos con toma de tierra
+Se vende en rollos de 100m. Muy habitual para alimentar luminarias de techo,
+pequeños aparatos fijos, cableado en cuadros de distribución.
+
+**2. CABLECILLO H07V-K (CIR)**
+H=armonizado, 07=750V, V=PVC, K=flexible de clase 5 (muchos hilos finos).
+Cable unipolar (1 solo conductor) con PVC, muy flexible. El estándar para
+conexionado interior de cuadros eléctricos industriales.
+- 1x25mm² azul y 1x35mm² negro: secciones grandes para bus de potencia en cuadros
+Se vende en rollos de 100m o bobinas. En cuadros industriales se usan colores
+estandarizados: negro/marrón/gris para fases, azul para neutro, verde-amarillo para tierra.
+
+**3. CABLECILLO H05V-K (circuito impreso)**
+Versión de 500V, más fino. Para cableado de señal, circuitos de control a baja tensión,
+y conexionado de pequeños equipos electrónicos.
+- 1x0,75mm² gris: muy delgado, para señales y circuitos de control
+- 1mm² azul: circuitos de control en cuadros
+Se vende en rollos de 200m.
+
+**4. CABLE LIBRE DE HALÓGENOS ES05Z1-K (AS)**
+Versión sin halógenos del cablecillo de control (500V, flexible, unipolar).
+El color violeta facilita identificar circuitos especiales (seguridad, emergencia)
+dentro de un cuadro de distribución. 200m en rollo.
+
+Lo que facilita:
+- Conexionado flexible dentro de cuadros eléctricos.
+- Cableado de luminarias y pequeños aparatos fijos.
+- Identificación de circuitos de control o seguridad por color.
+
+Lo que evita que ocurra:
+- Roturas de cable por vibración o movimiento (la flexibilidad lo hace resistente).
+- Confusiones en el conexionado de cuadros (colores normalizados).
+- Accidentes por falsos contactos en conexiones de aparatos (cable flexible bien terminado).
+
+============================================================
+
+MODELOS EN ARAIZ (~9 artículos)
+--------------------------------------------------------------
+| Tipo                         | Marca          | Ref.       | Tensión | Sección      | Rollo  |
+|------------------------------|----------------|------------|---------|--------------|--------|
+| BIGGFLEX H05VV-F manguera    | GENERAL CABLE  | 20303123   | 500V    | 2x1mm²       | 100m   |
+| BIGGFLEX H05VV-F manguera    | GENERAL CABLE  | M315B      | 500V    | 3G1,5mm²     | 100m   |
+| BIGGFLEX H05VV-F manguera    | GENERAL CABLE  | 20303128   | 500V    | 3G1mm²       | 100m   |
+| ES05Z1-K libre halógenos     | CABLE          | Z111VIOLETA| 500V    | 1mm² violeta | 200m   |
+| CIR H07V-K cablecillo        | CABLE          | CK135NE    | 750V    | 1x35mm² neg  | Bobina |
+| CIR H07V-K cablecillo        | CABLE          | CK125AZ    | 750V    | 1x25mm² azul | 100m   |
+| H05V-K circuito impreso      | CABLE          | CK11AZ5010 | 500V    | 1mm² azul    | 200m   |
+| H05V-K circuito impreso fino | CABLE          | CK1075GR   | 500V    | 0,75mm² gris | 100m   |
+| BIGGFLEX H05VV-F (duplic.)   | CABLE          | 20303123   | 500V    | 2x1mm²       | 100m   |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                              | Por qué la necesitas                                     |
+|----|-------------------------------------------------------|----------------------------------------------------------|
+| 1  | Es para conexionado de cuadro o para aparato fijo?    | Cuadro → H07V-K 750V; aparato → H05VV-F 500V           |
+| 2  | Necesita libre de halógenos?                          | Obligatorio en pública concurrencia                      |
+| 3  | Cuántos conductores necesita?                         | Unipolar (H07V-K) o multipolar (H05VV-F)                |
+| 4  | Qué sección? Cuántos amperios circulan?               | Muy fino (0,75-1mm²) para señal; más grueso para fuerza  |
+| 5  | En qué color?                                         | El color facilita identificar circuitos en el cuadro     |
+
+CONSEJO: El H07V-K flexible es el cable preferido por electricistas para conexionado
+de cuadros porque dobla y enruta mucho mejor que el rígido. La manguera H05VV-F
+(naranja/blanca) es la más solicitada para luminarias y pequeños electrodomésticos
+fijos (campanas, extractores, hornos empotrados...). Tener en stock 3G1,5 y 3G2,5
+cubre el 80% de los pedidos de manguera.
+
+============================================================
+Fuentes:
+- General Cable BIGGFLEX: https://www.generalcable.es/
+- REBT ITC-BT-19: Secciones mínimas según uso
+============================================================

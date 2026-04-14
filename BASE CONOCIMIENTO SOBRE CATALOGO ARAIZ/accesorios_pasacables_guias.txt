@@ -1,0 +1,96 @@
+CUADRO RESUMEN — ACCESORIOS PARA CABLES: PASACABLES Y GUÍAS (ANGUILA, guías nylon, trenzas, enrolladores)
+Familia: Electricidad > Hilos y cables > Accesorios
+Ejemplo en Araiz: ANGUILA ref. 14103020 (Pasacables fijo flexible nylon 3mm 20m negro)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"pasacables eléctrico tubo empotrado" o "guía cable Anguila instalación"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Son las herramientas para pasar cables a través de tubos, conductos, paredes y
+techos. Cuando se instala cable en un tubo ya colocado (sin acceso directo), se
+necesita una guía flexible para empujar o tirar el cable desde un extremo al otro.
+
+**Marca principal: ANGUILA** — fabricante español de referencia en herramientas
+de instalación de cables (Bilbao). Muy conocida entre electricistas e instaladores.
+
+**1. PASACABLES FIJOS — Nylon (ANGUILA)**
+La guía más básica: varilla de nylon flexible que se empuja dentro del tubo.
+- 14003010: 3mm × 10m, natural — para tubos pequeños (Ø16-20mm)
+- 14103020: 3mm × 20m, negro — para tubos medianos (Ø20-25mm)
+La guía entra por un extremo del tubo, sale por el otro, y entonces se ata el cable
+a la punta para tirar de él hasta dejarlo en posición.
+"Fijo" significa que la cabeza no se puede cambiar (termina en gancho fijo).
+
+**2. PASACABLES INTERCAMBIABLES — Nylon (ANGUILA)**
+- 12004015: 4mm × 15m — para tubos medianos
+- 12004025: 4mm × 25m — para recorridos largos
+La diferencia con el fijo: la cabeza se puede cambiar por otros accesorios
+(gancho giratoria, bola de paso estrecho, etc.). Más versátiles.
+
+**3. TRENZAS ANGUILA MAX — Alta flexibilidad y resistencia**
+Para tubos muy curvados o recorridos complicados donde las guías de nylon se doblan:
+- 75045022: Trenza triple poliéster 4,5mm × 22m, azul — para conductos con muchas curvas
+- 75330012: Trenza mono 3mm × 12m, verde fluor — más fina, para tubos pequeños con curvas
+La trenza (en lugar de varilla maciza) dobla mejor en las curvas sin romperse
+ni atascarse. Las "terminales intercambiables" permiten cambiar la punta.
+
+**4. ACCESORIO: ANILLA DE ENGANCHE (ANGUILA)**
+Ref. 43001000: anilla de latón de 6mm rosca M5. Se atornilla en la punta de la guía
+para hacer la unión con el cable. Es el accesorio básico para atar el cable a la guía.
+
+**5. ACCESORIO: CABEZA GUÍA GIRATORIA (ANGUILA)**
+Ref. 41001003: cabeza guía flexible de 7mm con cabeza giratoria (swivel) rosca M5.
+La cabeza giratoria evita que la guía se enrosque sobre sí misma al girar dentro
+del tubo en recorridos con curvas en distintos planos. M5 para guías estándar.
+
+Lo que facilita:
+- Pasar cables por tubos empotrados en pared, suelo o techo.
+- Recuperar cables en tubos ya instalados (reforma, ampliación).
+- Instalación en conductos con curvas complicadas.
+
+Lo que evita que ocurra:
+- Destrozar la pared para sacar el cable atascado.
+- Perder tiempo intentando pasar el cable a mano en tubos largos.
+- Rotura de la guía en curvas (trenzas flexibles vs varillas rígidas).
+
+============================================================
+
+MODELOS EN ARAIZ (~9 artículos)
+--------------------------------------------------------------
+| Tipo                              | Marca  | Ref.     | Diám. | Longitud | Para qué                |
+|-----------------------------------|--------|----------|-------|----------|-------------------------|
+| Pasacables fijo nylon negro       | ANGUILA| 14103020 | 3mm   | 20m      | Tubo Ø16-25mm estándar  |
+| Pasacables intercambiable nylon   | ANGUILA| 12004025 | 4mm   | 25m      | Tubo mediano, recorrido largo|
+| Pasacables intercambiable nylon   | ANGUILA| 12004015 | 4mm   | 15m      | Tubo mediano, recorrido corto|
+| Trenza mono intercambiable        | ANGUILA| 75330012 | 3mm   | 12m      | Tubo pequeño con curvas  |
+| Trenza triple poliéster           | ANGUILA| 75045022 | 4,5mm | 22m      | Muchas curvas, recorrido complicado|
+| Pasacables fijo nylon natural     | ANGUILA| 14003010 | 3mm   | 10m      | Tubo pequeño, recorrido corto|
+| Anilla enganche latón M5          | ANGUILA| 43001000 | 6mm   | —        | Unir cable a guía       |
+| Cabeza guía giratoria M5          | ANGUILA| 41001003 | 7mm   | —        | Evitar enroscado en curvas|
+| Enrollador universal Anguila      | ANGUILA| 45006000 | —     | —        | Almacenar y desenvolver guías|
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                              | Por qué la necesitas                                    |
+|----|-------------------------------------------------------|---------------------------------------------------------|
+| 1  | Qué diámetro tiene el tubo?                           | Define el diámetro de la guía (3mm, 4mm, 4,5mm...)     |
+| 2  | Cuántos metros tiene el recorrido?                    | Define la longitud necesaria de la guía                 |
+| 3  | El tubo tiene muchas curvas?                          | Si sí, mejor trenza que varilla (más flexible)          |
+| 4  | Es tubo nuevo o ya instalado con cables?              | Si ya hay cables, puede necesitar mayor sección de guía  |
+| 5  | Necesita cabeza intercambiable o vale fija?           | Fija es más económica; intercambiable es más versátil   |
+
+CONSEJO: El kit básico que todo instalador debería tener: una guía de 3mm×20m
+para tubos pequeños y una de 4mm×25m para tubos medianos. Si trabaja mucho con
+reformas (tubos ya existentes con muchas curvas), añadir una trenza flexible.
+Los accesorios (anilla, cabeza giratoria) se compran una vez y duran mucho.
+
+============================================================
+Fuentes:
+- ANGUILA: https://www.anguila.com/es/
+============================================================

@@ -1,0 +1,119 @@
+CUADRO RESUMEN — CABLE DE TELECOMUNICACIONES (Cat5e, Cat6A, coaxial, fibra óptica, altavoz)
+Familia: Electricidad > Hilos y cables > Cable telecomunicaciones
+Ejemplo en Araiz: BELDEN ref. 10GB24C.B6500 (Cable U/UTP Cat.6A 10GX 625MHz, bobina)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"cable UTP categoría 6A instalación" o "cable coaxial antena instalación"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Son cables para transmitir datos (red informática), señal de antena (televisión)
+y audio (altavoces, megafonía). No llevan energía eléctrica sino señales de alta
+frecuencia o baja potencia.
+
+**1. CABLE DE RED UTP/FTP — Categoría 5e y 6A**
+
+**Cat5e F/UTP (CABLE / GENERAL CABLE)**
+- F/UTP: un par trenzado con pantalla exterior de aluminio (F) y 4 pares sin pantalla individual (UTP)
+- Categoría 5e: hasta 100MHz, velocidades hasta 1 Gbps
+- AWG 24: sección estándar para instalaciones de edificio
+- Dca: clasificación de reacción al fuego (baja propagación)
+- Se suministra en bobina de 1.000m — para instaladores que cablan edificios completos
+Uso: red local de ordenadores en oficinas, cámaras IP, teléfonos VoIP en edificios.
+
+**Cat6A U/UTP (BELDEN 10GB24C)**
+- U/UTP: sin pantalla exterior ni individual (más fácil de instalar que F/UTP)
+- Categoría 6A: hasta 625MHz, velocidades 10 Gbps hasta 100m
+- 10GX: diseño específico para 10 Gigabit Ethernet
+- Bobina de 500m (B6500 = Blue 6500 feet)
+- ISP: Independent Shielded Pairs (diseño de par que reduce interferencias sin pantalla metálica)
+Uso: redes de alto rendimiento, centros de datos pequeños, instalaciones donde se
+necesita 10Gbps o preparar la red para el futuro.
+
+**2. CABLE COAXIAL CXT LSFH (TELEVES)**
+Para distribución de señal de antena de televisión:
+- CXT: tipo de coaxial para distribución interior de señal TV
+- LSFH: Low Smoke Free Halogen (libre de halógenos, poca emisión de humos en incendio)
+- Dca/A: clasificación reacción al fuego
+- 19AtC: 19 dB/100m de atenuación a frecuencia de referencia (cuanto menor, mejor)
+- 250m: se suministra en bobina de 250m
+Uso: instalaciones ICT en edificios residenciales para distribución de TV, TDT, satélite.
+
+**3. LATIGUILLO DE FIBRA ÓPTICA PRECONECTORIZADO (TELEVES)**
+Cable corto de fibra óptica con conectores SC/APC ya montados en fábrica:
+- SC/APC: conector cuadrado con pulido en ángulo (APC=angle polished connector, verde)
+- 2 metros de longitud
+- LSFH: libre de halógenos
+Se usa para conectar el repartidor óptico del edificio (PAU o ROTI) con el equipo
+del operador de telecomunicaciones. En instalaciones de fibra óptica hasta el hogar (FTTH).
+
+**4. CABLE DE ALTAVOZ LIBRE DE HALÓGENOS**
+Cable paralelo bicolor (rojo-negro) para instalaciones de sonido y megafonía:
+- 2x0,5mm²: para altavoces de pequeña potencia (fondos musicales, mensajes)
+- 2x0,7mm²: para altavoces de potencia media
+- 2x1,0mm²: para altavoces de mayor potencia o distancias largas
+- Libre de halógenos: obligatorio en locales de pública concurrencia
+- Rollos de 100m
+Uso: megafonía en tiendas, almacenes, sistemas de evacuación sonora.
+
+**5. CABLE DE DATOS LiYCY (CABLE)**
+Cable de datos apantallado para pequeñas instalaciones de control:
+- LiYCY: norma alemana (Li=aislamiento PVC, Y=cubierta PVC, CY=pantalla de cobre)
+- 3x0,5mm²: 3 conductores (señal + tierra) para sensores o pequeñas comunicaciones
+- Eca: clasificación reacción al fuego básica
+- Rollo 100m
+
+Lo que facilita:
+- Instalar redes informáticas en oficinas y edificios (Cat5e/Cat6A).
+- Distribuir señal de televisión en instalaciones ICT (coaxial).
+- Conectar sistemas de megafonía y evacuación sonora (altavoz).
+- Conectar la red de fibra óptica del edificio al operador (latiguillo FO).
+
+Lo que evita que ocurra:
+- Pérdida de velocidad de red por usar cable de baja categoría (Cat5 vs Cat6A).
+- Incendios propagados por cables con halógenos en locales con mucha gente.
+- Pérdida de señal de TV por usar coaxial de mala calidad o sección inadecuada.
+
+============================================================
+
+MODELOS EN ARAIZ (~9 artículos)
+--------------------------------------------------------------
+| Tipo                         | Marca          | Ref.         | Para qué                     |
+|------------------------------|----------------|--------------|------------------------------|
+| Altavoz 2x0,5mm² LSFH        | CABLE          | 33CPPBC0055R25| Megafonía potencia baja      |
+| Altavoz 2x0,7mm² LSFH        | CABLE          | 33CPPBC0071R25| Megafonía potencia media     |
+| Altavoz 2x1,0mm² LSFH        | CABLE          | 33CPPBC0095R25| Megafonía distancias largas  |
+| Cat5e F/UTP 4P AWG24 Dca     | CABLE          | 60080881     | Red local hasta 1Gbps        |
+| Cat5e F/UTP 4P AWG24 Dca     | GENERAL CABLE  | 60080881     | Red local hasta 1Gbps        |
+| LiYCY datos 3x0,5 Eca        | CABLE          | ROLLODATAX3050| Control/señal apantallado   |
+| Latiguillo FO SC/APC 2m LSFH | TELEVES        | 232602       | Conexión FTTH/PAU edificio   |
+| Coaxial CXT LSFH 19AtC 250m  | TELEVES        | 212811       | Distribución TV/TDT edificio |
+| Cat6A U/UTP 10GX 625MHz Cca  | BELDEN         | 10GB24C.B6500| Red 10Gbps edificio          |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                              | Por qué la necesitas                                     |
+|----|-------------------------------------------------------|----------------------------------------------------------|
+| 1  | Es para red de datos o para antena/TV?                | Cables completamente distintos                           |
+| 2  | Qué velocidad de red necesita? 1Gbps o 10Gbps?        | Cat5e para 1G, Cat6A para 10G                            |
+| 3  | El edificio tiene ICT obligatorio?                    | Define qué tipo de coaxial y clasificación al fuego      |
+| 4  | Para altavoces: cuántos y a qué potencia?             | Define la sección del cable de altavoz                   |
+| 5  | Cuántos metros? Instalación nueva o ampliación?       | Cable de red suele ir en bobinas de 500-1000m            |
+
+CONSEJO: Cat5e cubre el 95% de las instalaciones de red actuales (todo lo que sea
+1 Gbps es suficiente para una oficina normal). Cat6A solo se justifica en centros
+de datos o cuando el cliente ya sabe que necesita 10Gbps. No sobre-especificar:
+Cat6A es más caro y más difícil de instalar (más rígido, más cuidado con radios
+de curvatura).
+
+============================================================
+Fuentes:
+- BELDEN: https://www.belden.com/
+- Televes: https://www.televes.com/es/
+- ISO/IEC 11801: Cableado genérico para locales de clientes
+============================================================

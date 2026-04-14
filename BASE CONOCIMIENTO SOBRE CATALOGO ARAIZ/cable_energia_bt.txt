@@ -1,0 +1,106 @@
+CUADRO RESUMEN — CABLE DE ENERGÍA BAJA TENSIÓN (H07Z1-K, RZ1-K, RV-K, apantallado, libre halógenos)
+Familia: Electricidad > Hilos y cables > Cable de energía BT
+Ejemplo en Araiz: CABLE ref. 20302839 (Cable EXZHELLENT H07Z1-K 750V 1x10 negro, caja 100m)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"cable eléctrico libre halógenos H07Z1-K" o "tipos cable instalación eléctrica baja tensión"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Son los cables que llevan la energía eléctrica desde el cuadro hasta los puntos de
+consumo (enchufes, iluminación, maquinaria). Es el producto más vendido en Araiz:
+prácticamente cualquier instalación eléctrica necesita cable de BT.
+
+**Cómo leer la nomenclatura de un cable:**
+- **H07V-K**: H=armonizado europeo, 07=0,7kV (750V), V=aislamiento PVC, K=flexible
+- **RZ1-K (AS)**: R=cobre, Z1=aislamiento XLPE sin halógenos, K=flexible, AS=baja emisión humos
+- **H07Z1-K**: versión sin halógenos del H07V-K (Z1 en lugar de V)
+- El número final: sección en mm² (1,5 / 2,5 / 4 / 6 / 10 / 16 / 25 / 35 / 50...)
+- La G antes del número de conductores = incluye conductor de tierra (ej: 3G2,5 = 3 conductores + tierra verde/amarillo)
+
+**1. CABLE EXZHELLENT H07Z1-K (GENERAL CABLE) — El estándar en España**
+El sustituto del H07V-K (con PVC) para instalaciones modernas. Libre de halógenos:
+en caso de incendio no emite gases tóxicos ni corrosivos. Obligatorio en muchos
+edificios por CTE (centros comerciales, hospitales, colegios, pública concurrencia).
+- 750V de tensión nominal (instalaciones interiores)
+- 1x10mm² negro y azul: para circuitos de fuerza o salidas del cuadro
+- Se suministra en caja/rollo de 100m
+
+**2. CABLE EXZHELLENT COMPACT RZ1-K (AS) (GENERAL CABLE)**
+Versión de 1.000V para instalaciones que necesitan mayor aislamiento:
+- 1.000V (vs 750V del H07Z1-K): para salidas de cuadro, acometidas cortas
+- RZ1 = aislamiento XLPE, más resistente al calor (90°C en servicio permanente vs 70°C del PVC)
+- 3G2,5 verde: 3 conductores de 2,5mm² con tierra — el más habitual para tomas de corriente y circuitos de uso general
+Muy utilizado para el cableado desde cuadros de distribución a subcuadros.
+
+**3. CABLE MT-2 RV 0,6/1kV (CABLE)**
+Cable con aislamiento PVC básico (no libre halógenos). Para instalaciones donde
+no es obligatorio el libre de halógenos (industrial, vivienda unifamiliar sin
+normativa especial). Sección 1x6mm² — para circuitos de potencia media.
+
+**4. CABLES APANTALLADOS RC4Z1-K (AS)**
+Con pantalla metálica (trenza o cinta de cobre) que protege contra interferencias
+electromagnéticas. Se usan para cableado de señal en entornos industriales con
+variadores de frecuencia, motores, etc. Secciones 3G2,5, 4G10, 5G1,5.
+
+**5. CABLES FLEXIBLES DE GRAN SECCIÓN (ARAFLEX)**
+- RV-K 4G50mm²: cable de gran sección (50mm² × 4 conductores) para alimentaciones
+  de alta potencia (cuadros principales, transformadores, máquinas grandes).
+- VV-K 16G2,5: cable multipolar con 16 conductores de 2,5mm² — para cableado
+  de máquinas con muchos circuitos de control y fuerza.
+
+Lo que facilita:
+- Llevar energía eléctrica desde el cuadro a cada punto de consumo.
+- Cumplir normativa CTE en edificios de pública concurrencia (libre halógenos).
+- Reducir interferencias en instalaciones con variadores o electrónica sensible.
+
+Lo que evita que ocurra:
+- Incendios propagados por cables con PVC que emiten gases tóxicos y arden.
+- Averías en equipos electrónicos por interferencias electromagnéticas (apantallado).
+- Sobrecalentamiento por sección insuficiente (cálculo correcto de sección).
+
+============================================================
+
+MODELOS EN ARAIZ (~9 artículos)
+--------------------------------------------------------------
+| Tipo                       | Ref.        | Tensión | Sección       | Suministro    |
+|----------------------------|-------------|---------|---------------|---------------|
+| EXZHELLENT H07Z1-K negro   | 20302839    | 750V    | 1x10mm²       | Caja 100m     |
+| EXZHELLENT H07Z1-K azul    | 20302836    | 750V    | 1x10mm²       | Caja 100m     |
+| EXZHELLENT COMPACT RZ1-K   | 20302937    | 1000V   | 3G2,5mm²      | Rollo 100m    |
+| Cable MT-2 RV PVC          | RV16        | 1000V   | 1x6mm²        | Bobina        |
+| Apantallado RC4Z1-K        | 20344308    | 1000V   | 3G2,5mm²      | Bobina        |
+| Apantallado RC4Z1-K        | —           | 1000V   | 4G10mm²       | Bobina        |
+| Apantallado RC4Z1-K        | —           | 1000V   | 5G1,5mm²      | Bobina        |
+| Araflex RV-K gran sección  | BOBINA4G50  | 1000V   | 4G50mm²       | Bobina        |
+| Araflex VV-K multipolar    | BOBINA1625  | 1000V   | 16G2,5mm²     | Bobina        |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                              | Por qué la necesitas                                        |
+|----|-------------------------------------------------------|-------------------------------------------------------------|
+| 1  | Es para un edificio de pública concurrencia?          | Si sí, obligatorio libre de halógenos (Z1/AS)               |
+| 2  | Cuántos amperios / kW necesita el circuito?           | Define la sección mínima necesaria                          |
+| 3  | Cuántos metros necesita?                              | Se suministra en rollos de 100m o bobinas                   |
+| 4  | Hay variadores de frecuencia o equipos sensibles?     | Si sí, considerar cable apantallado                         |
+| 5  | En qué color lo necesita?                             | Normativa: fase=negro/marrón/gris, neutro=azul, tierra=V/A  |
+
+CONSEJO CÁLCULO SECCIÓN:
+- 1,5mm² → hasta 16A (iluminación)
+- 2,5mm² → hasta 20A (enchufes domésticos, tomas de uso general)
+- 4mm² → hasta 25A (cocina, lavadora, lavavajillas)
+- 6mm² → hasta 32A (termo eléctrico, aire acondicionado)
+- 10mm² → hasta 40A (cuadro secundario, entrada vivienda)
+- 16mm² → hasta 63A (subcuadro industrial pequeño)
+Estos valores son orientativos — siempre verificar con la tabla del REBT según longitud y tipo de instalación.
+
+============================================================
+Fuentes:
+- General Cable EXZHELLENT: https://www.generalcable.es/
+- REBT ITC-BT-19: Instalaciones interiores — secciones mínimas
+============================================================
