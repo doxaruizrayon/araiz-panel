@@ -1,0 +1,114 @@
+CUADRO RESUMEN — AUTOTRANSFORMADORES, FILTROS DE ARMÓNICOS Y ESTABILIZADORES (Polylux, Schneider Accusine/PCS+)
+Familia: Electricidad > Equipo de seguridad y almacenamiento de energía > Autotransformadores y estabilizadores
+Ejemplo en Araiz: POLYLUX AUT 10kVA 400/230V trifásico reversible / SCHNEIDER Filtro armónicos activo PCS+ 300A
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"autotransformador qué es" o "filtro armónicos activo instalación eléctrica"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Son equipos para adaptar tensiones, compensar reactiva y filtrar armónicos en
+instalaciones eléctricas industriales y terciarias complejas.
+
+**1. AUTOTRANSFORMADORES TRIFÁSICOS REVERSIBLES (POLYLUX)**
+Un autotransformador es un transformador con una sola bobina en lugar de dos.
+Convierte tensiones sin aislamiento galvánico entre primario y secundario.
+
+**¿Para qué sirven?**
+El modelo POLYLUX AUT xkVA reversible 400/230V adapta entre:
+- Red trifásica 400V → salida 230V trifásico (para alimentar equipos que necesitan 230V trifásico)
+- Red 230V trifásico → salida 400V (para subir tensión)
+"Reversible" = funciona en ambas direcciones.
+Potencias: 5kVA, 8kVA, 10kVA.
+Usos habituales:
+- Alimentar maquinaria importada de países con red diferente
+- Adaptar equipos monofásicos a sistemas trifásicos o viceversa
+- Pequeños cuadros donde se necesita 230V trifásico pero la red es 400V
+
+**2. FILTROS DE ARMÓNICOS ACTIVOS (SCHNEIDER — Accusine PCSN y PCS+)**
+Los variadores de frecuencia, ordenadores y fuentes conmutadas generan armónicos
+(distorsiones de la forma de onda sinusoidal). Los armónicos:
+- Calientan transformadores y motores innecesariamente
+- Provocan disparos falsos de protecciones
+- Interfieren con equipos de medida
+- Pueden dañar condensadores de compensación de reactiva
+
+**Filtro activo PCS+ 300A (Schneider):**
+El filtro activo más potente del catálogo. Inyecta corrientes de signo contrario
+a los armónicos detectados en tiempo real, cancelándolos. Corriente de 300A
+para instalaciones con mucha carga no lineal. IP31.
+Es como un "altavoz inverso" de armónicos: mide el ruido y genera el ruido inverso
+para cancelarlo.
+
+**Unidad Accusine PCSN (Schneider):**
+- PCSN 20A y 30A: versiones de menor corriente para instalaciones medianas.
+  380-415V trifásico + neutro (ph+N). IP00 = para montaje en armario cerrado.
+  También compensa la energía reactiva (función dual: armónicos + reactiva).
+El sistema Accusine es modular — se pueden combinar varias unidades PCSN para
+mayor corriente de filtrado.
+
+**3. EQUIPO DE PROTECCIÓN IED (SCHNEIDER Easergy P3U30)**
+IED = Intelligent Electronic Device. El P3U30 es un relé de protección digital
+para redes de media tensión y distribución:
+- Protecciones: sobrecorriente, falta a tierra, sobreintensidad...
+- Integración en redes de protección y automatización de subestaciones
+- Se usa en centros de transformación y subestaciones de media tensión
+Este es un equipo muy especializado — solo aparece en proyectos de media tensión.
+
+**4. TRANSFORMADOR LVCT (ya visto en TC)**
+Los LVCT RJ45 60A y 250A de Schneider también aparecen en este grupo del catálogo.
+Son TCs de salida en voltaje para contadores inteligentes (explicados en el cuadro de transformadores).
+
+Lo que facilita:
+- Adaptar tensiones para equipos con requisitos diferentes (autotransformador).
+- Eliminar distorsión armónica que degrada la calidad de la red (filtro activo).
+- Proteger subestaciones y centros de transformación (IED).
+
+Lo que evita que ocurra:
+- Calentamiento de transformadores y motores por armónicos.
+- Disparos falsos de protecciones por distorsión de la corriente.
+- Problemas de compatibilidad por tensiones inadecuadas para los equipos.
+
+============================================================
+
+MODELOS EN ARAIZ (~9 artículos)
+--------------------------------------------------------------
+| Tipo                          | Marca     | Potencia/Corriente | Para qué                        |
+|-------------------------------|-----------|--------------------|---------------------------------|
+| Autotransf. 3F AUT 5kVA       | POLYLUX   | 5kVA 400/230V      | Adaptar tensión pequeña carga   |
+| Autotransf. 3F AUT 8kVA       | POLYLUX   | 8kVA 400/230V      | Adaptar tensión carga media     |
+| Autotransf. 3F AUT 10kVA      | POLYLUX   | 10kVA 400/230V     | Adaptar tensión carga grande    |
+| Filtro armónicos activo PCS+  | SCHNEIDER | 300A IP31          | Filtrado armónicos alta carga   |
+| Accusine PCSN 20A ph+N        | SCHNEIDER | 20A 380-415V       | Filtrado + reactiva mediano     |
+| Accusine PCSN 30A ph+N        | SCHNEIDER | 30A 380-415V       | Filtrado + reactiva grande      |
+| IED Easergy P3U30             | SCHNEIDER | —                  | Protección relé media tensión   |
+| LVCT RJ45 35mm 60A 0,333V     | SCHNEIDER | 60A                | TC salida voltaje contador      |
+| LVCT RJ45 35mm 250A 0,333V    | SCHNEIDER | 250A               | TC salida voltaje contador      |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                              | Por qué la necesitas                                     |
+|----|-------------------------------------------------------|----------------------------------------------------------|
+| 1  | Para el autotransf.: cuántos kVA y qué tensiones?     | Define el modelo (5/8/10 kVA, 400→230V o al revés)       |
+| 2  | Hay variadores de frecuencia o UPS en la instalación? | Si sí → puede necesitar filtro de armónicos              |
+| 3  | Hay problemas de calor en el transformador o disparos falsos? | Pueden ser síntoma de armónicos                    |
+| 4  | Cuántos amperios de carga no lineal tiene?            | Define la corriente del filtro activo (20A, 30A, 300A)   |
+| 5  | Es una subestación de MT? Necesita relé de protección?| Si sí → equipo IED especializado (P3U30)                 |
+
+CONSEJO: Los filtros de armónicos activos son productos de alta especialización
+que normalmente requieren un estudio previo de la instalación (analizador de red).
+Si un cliente dice que tiene problemas de calor en sus transformadores, disparos
+inexplicables de protecciones o fallo de condensadores de reactiva, casi seguro
+tiene problemas de armónicos. El siguiente paso es medir con analizador de redes.
+
+============================================================
+Fuentes:
+- POLYLUX transformadores: https://www.polylux.es/
+- Schneider Accusine: https://www.se.com/es/es/product-range/accusine/
+- IEC 61000-3-2: Límites de armónicos en instalaciones
+============================================================

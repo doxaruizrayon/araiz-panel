@@ -1,0 +1,115 @@
+CUADRO RESUMEN — SERVOMOTORES Y CABLES PARA EJES CNC (Schneider SH3/BRS, cables encoder, tarjetas E/S variador)
+Familia: Electricidad > Equipo de seguridad y almacenamiento de energía > Motores normalizados y aplicaciones especiales
+Ejemplo en Araiz: SCHNEIDER ref. Motor BRS397W360FBA 2,26Nm IP41 12mm (servomotor compacto)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"servomotor qué es control movimiento" o "variador servomotor encoder instalación"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Son los componentes de sistemas de control de movimiento de precisión: servomotores,
+sus cables específicos y las tarjetas de expansión para los variadores.
+Se usan en máquinas CNC, robots, sistemas de posicionamiento y cualquier aplicación
+donde la velocidad y posición del motor deben controlarse con exactitud.
+
+**¿Qué diferencia un servomotor de un motor normal?**
+- Un motor normal gira a velocidad aproximada según la frecuencia de la red o del variador.
+- Un servomotor lleva incorporado un encoder (sensor de posición) que informa
+  al variador de la posición y velocidad exactas en todo momento. El sistema
+  corrige continuamente → control de posición con precisión de décimas de grado.
+Usos: eje X-Y-Z de fresadora CNC, brazo robot, mesa giratoria, bobinadora...
+
+**1. SERVOMOTOR SH3 OMC 70.1 (SCHNEIDER)**
+De la gama Lexium de Schneider para sistemas servo de alta precisión:
+- SH3: familia de servomotores compactos de alto par
+- OMC 70.1: variante de la gama
+- P1AF4000: encoder absoluto de 4000 pulsos/vuelta
+El encoder absoluto (vs incremental) conoce su posición exacta en todo momento,
+incluso después de cortar la corriente — no necesita buscar el cero en el arranque.
+
+**2. SERVOMOTOR BRS397W360FBA (SCHNEIDER)**
+Motor servo más compacto:
+- 2,26Nm de par nominal: motor de control de movimiento para ejes pequeños
+- IP41: resistente al goteo vertical (ambientes algo húmedos)
+- Eje de 12mm: el diámetro del eje de salida
+Forma parte de la gama BSH/BRS de Schneider para automatización de máquinas.
+
+**3. CABLES DE ENCODER (SCHNEIDER)**
+El encoder del servomotor necesita un cable especial para transmitir las señales:
+- Cable encoder M23-RJ45 10m: conector industrial M23 en el motor y RJ45 en el variador.
+  10m es la longitud estándar para instalaciones de máquina.
+El cable de encoder es diferente al cable de potencia — lleva señales muy pequeñas
+(mV) que son sensibles a interferencias. Debe ser apantallado y específico.
+
+**4. CABLES DE POTENCIA/FRENO (SCHNEIDER)**
+El servomotor necesita dos cables separados:
+- Cable potencia/freno 1,5mm² 10m: alimenta el motor y el freno de parada de emergencia
+- Cable potencia/freno 2,5mm² 10m: versión de mayor sección para motores más potentes
+El "freno" es un freno electromagnético que bloquea el eje del motor cuando se corta
+la corriente (imprescindible en ejes verticales que no deben caer por gravedad).
+
+**5. TARJETAS DE EXPANSIÓN PARA VARIADOR (SCHNEIDER VW3A36xx)**
+Son módulos que se insertan en los variadores Altivar para añadir funciones:
+- VW3A3607: tarjeta de E/S extendida — añade entradas y salidas digitales y analógicas
+  adicionales al variador para control más complejo.
+- VW3A3608: tarjeta de E/S extendida versión diferente (más entradas o tipo de señal)
+- VW3A3616: tarjeta de E/S extendida de mayor capacidad
+Se usan cuando el variador estándar no tiene suficientes entradas/salidas para
+el sistema de control que se quiere implementar.
+
+**6. MÓDULO COMUNICACIÓN CONFIGURACIÓN (SCHNEIDER)**
+Para los variadores EM, EI, EC, EP: módulo que permite configurar el variador
+mediante distintos protocolos o interfaces de comunicación.
+
+Lo que facilita:
+- Control preciso de posición y velocidad en máquinas CNC y robots.
+- Integración de sistemas servo con variadores y PLCs.
+- Ampliar las capacidades de los variadores con tarjetas adicionales.
+
+Lo que evita que ocurra:
+- Errores de posición en máquinas de mecanizado (encoder de alta resolución).
+- Caída de ejes verticales por falta de freno de parada.
+- Interferencias en señales de encoder por cable incorrecto.
+
+============================================================
+
+MODELOS EN ARAIZ (~9 artículos)
+--------------------------------------------------------------
+| Tipo                          | Marca     | Ref.          | Para qué                        |
+|-------------------------------|-----------|---------------|---------------------------------|
+| Servomotor SH3 OMC encoder abs| SCHNEIDER | SH3 OMC 70.1  | Eje CNC alta precisión          |
+| Servomotor BRS 2,26Nm IP41    | SCHNEIDER | BRS397W360FBA | Eje pequeño servomotor compacto |
+| Cable encoder M23-RJ45 10m    | SCHNEIDER | —             | Señal encoder motor-variador    |
+| Cable potencia/freno 1,5mm² 10m| SCHNEIDER| —            | Alimentación servo pequeño      |
+| Cable potencia/freno 2,5mm² 10m| SCHNEIDER| —            | Alimentación servo mediano      |
+| Tarjeta E/S extendida VW3A3607| SCHNEIDER | VW3A3607      | Más E/S digitales en variador   |
+| Tarjeta E/S extendida VW3A3608| SCHNEIDER | VW3A3608      | Más E/S en variador (variante)  |
+| Tarjeta E/S extendida VW3A3616| SCHNEIDER | VW3A3616      | Máxima expansión E/S variador   |
+| Módulo comunicación EM/EI/EC  | SCHNEIDER | —             | Configuración variador          |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                              | Por qué la necesitas                                     |
+|----|-------------------------------------------------------|----------------------------------------------------------|
+| 1  | Qué máquina es? Necesita control de posición preciso? | Define si necesita servo o basta variador estándar       |
+| 2  | Cuántos Nm de par necesita el eje?                    | Define el modelo de servomotor                           |
+| 3  | El eje es vertical? Hay carga suspendida?             | Si sí → necesita freno mecánico en el motor              |
+| 4  | Qué variador Altivar tiene? Qué tarjeta necesita?     | Las tarjetas son específicas de cada serie de variador   |
+| 5  | Cuántos metros de cable encoder y potencia necesita?  | Los cables se piden en longitud exacta                   |
+
+CONSEJO: Los servomotores y sus componentes son productos muy especializados que
+rara vez se piden en Araiz sin un proyecto de automatización detrás. Si un cliente
+los solicita, es casi seguro un integrador de sistemas o el departamento técnico
+de una fábrica. Siempre pedir la referencia exacta del variador para confirmar
+la compatibilidad de los cables y tarjetas.
+
+============================================================
+Fuentes:
+- Schneider Lexium servo: https://www.se.com/es/es/product-range/lexium/
+- Schneider Altivar tarjetas: https://www.se.com/es/es/product-range/altivar-machine/
+============================================================

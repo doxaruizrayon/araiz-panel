@@ -1,0 +1,120 @@
+CUADRO RESUMEN — TRANSFORMADORES (de corriente TC, de medida, monofásicos alimentación — Circutor, Siemens, Polylux, Murrelektronik)
+Familia: Electricidad > Equipo de seguridad y almacenamiento de energía > Transformadores
+Ejemplo en Araiz: CIRCUTOR TD5.2 (Transformador corriente 400/5A pletina 25x10mm, clase 0,5)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"transformador de corriente toroidal medida" o "transformador monofásico instalación"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Este grupo incluye dos tipos de transformadores muy distintos: los transformadores
+de corriente (TC) para medida y protección, y los transformadores de tensión de
+alimentación para circuitos auxiliares.
+
+**PARTE 1 — TRANSFORMADORES DE CORRIENTE (TC)**
+
+Un transformador de corriente (TC) reduce corrientes grandes a una corriente
+pequeña estándar (5A) para que los equipos de medida y protección puedan medirlas
+sin conectarse directamente a circuitos de alta corriente.
+
+Ejemplo: una línea trifásica de 400A. Un amperímetro no puede conectarse directamente
+— se instala un TC 400/5A y el amperímetro mide los 5A secundarios. La relación
+es proporcional: si mide 3A → la línea lleva 240A.
+
+**¿Qué es "la pletina"?**
+La pletina es el cable o barra de cobre que pasa por dentro del TC. El TC se coloca
+rodeando el cable de potencia sin necesidad de interrumpirlo. La pletina 25×10mm,
+30×10mm, etc. indica el tamaño máximo del conductor que cabe por el hueco interior.
+El "diámetro 21mm" indica que cabe un cable redondo de hasta 21mm Ø.
+
+**Gama CIRCUTOR (los más habituales en medida industrial):**
+- TD4 75/5A Ø21mm: TC de menor relación, para circuitos de potencia baja. El hueco
+  circular de 21mm permite pasar cables de hasta 25mm² fácilmente.
+- TD5 75/5A pletina 15x15mm: para barras pequeñas de cobre
+- TD5 150/5A pletina 15x15mm: para circuitos de potencia media
+- TD5.2 400/5A pletina 25x10 / 30x10 / 20x12mm, clase 0,5: para circuitos de
+  hasta 400A con pletina estándar. Clase 0,5 = error máximo del 0,5% (alta precisión).
+  Clase 3 = error del 3% (para protecciones, no para facturación).
+- TD6 250/5A pletina 20x25mm: para corrientes grandes en pletinas anchas
+- TD6 400/5A pletina 20x25mm: el más grande de la gama TD6
+
+**TC de Siemens:**
+- TC 2500/5A 12,5VA KL1,0: transformador para corrientes muy grandes (2.500A).
+  12,5VA = potencia que puede suministrar al circuito de medida.
+  KL1,0 = clase de exactitud 1,0 (error máximo 1%).
+
+**TRANSFORMADOR LVCT (SCHNEIDER) — para contadores inteligentes:**
+- LVCT RJ45 35mm 60A y 250A 0,333V: transformador de corriente especial con
+  salida de tensión (en lugar de 5A da 0,333V proporcional). RJ45 = salida con
+  conector RJ45 para conexión directa a contadores inteligentes. Se usa para
+  telemetrías y contadores de energía en cuadros modernos.
+
+---
+
+**PARTE 2 — TRANSFORMADORES DE TENSIÓN / ALIMENTACIÓN**
+
+**TRANSFORMADORES MONOFÁSICOS ENCAPSULADOS (POLYLUX)**
+- MTL 200VA 12/24V IP20: transforma 230V a 12V o 24V AC. Para alimentar
+  circuitos de seguridad, señalización, alarmas y pequeños aparatos a baja tensión.
+  "Encapsulado" = la bobina va en resina — resistente a humedad y vibraciones.
+
+**TRANSFORMADOR MURRELEKTRONIK MTL 25VA:**
+- Entrada 230/400V ±15V, salida 2×24V AC, 25VA
+  Pequeño transformador para circuitos de control a 24V AC (algunas electroválvulas
+  y sensores más antiguos trabajaban a 24V AC en lugar de 24V DC).
+  Los bornes de tornillo facilitan el conexionado en cuadros.
+
+Lo que facilita:
+- Medir corrientes grandes de forma segura sin contacto directo (TC).
+- Adaptar tensiones para circuitos de señalización y control auxiliar.
+- Integrar medida de energía en cuadros de distribución.
+
+Lo que evita que ocurra:
+- Daños en equipos de medida por corrientes excesivas (TC).
+- Electrocuciones al medir corrientes en líneas de alta corriente.
+- Errores de facturación por TCs de baja clase de exactitud.
+
+============================================================
+
+MODELOS EN ARAIZ (~9 artículos)
+--------------------------------------------------------------
+| Tipo                          | Marca        | Relación   | Clase | Para qué                     |
+|-------------------------------|--------------|------------|-------|------------------------------|
+| TC TD4 Ø21mm                  | CIRCUTOR     | 75/5A      | —     | Circuito bajo potencia       |
+| TC TD5 pletina 15x15          | CIRCUTOR     | 75/5A      | —     | Barra cobre pequeña          |
+| TC TD5 pletina 15x15          | CIRCUTOR     | 150/5A     | —     | Potencia media               |
+| TC TD5.2 pletina 25x10mm      | CIRCUTOR     | 400/5A     | 0,5   | Medida facturación (preciso) |
+| TC TD6 pletina 20x25          | CIRCUTOR     | 250/5A     | —     | Corriente alta pletina ancha |
+| TC TD6 pletina 20x25          | CIRCUTOR     | 400/5A     | —     | Corriente muy alta           |
+| TC gran corriente 12,5VA      | SIEMENS      | 2500/5A    | 1,0   | Líneas de altísima corriente |
+| LVCT RJ45 60A 0,333V          | SCHNEIDER    | 60/0,333V  | —     | Contador inteligente         |
+| LVCT RJ45 250A 0,333V         | SCHNEIDER    | 250/0,333V | —     | Contador inteligente medio   |
+| Transformador 200VA 12/24V    | POLYLUX      | 230→12/24V | —     | Alimentación circuito control|
+| Transformador 25VA 2×24V AC   | MURRELEKTRONIK| 230→24V AC| —    | Circuito control 24V AC      |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                              | Por qué la necesitas                                     |
+|----|-------------------------------------------------------|----------------------------------------------------------|
+| 1  | Para qué se usa el TC? (medida, facturación o protección)| Define la clase de exactitud necesaria (0,5 o 1,0 para facturación)|
+| 2  | Cuál es la corriente nominal de la línea?             | Define la relación primaria (75A, 150A, 400A, 2500A...)  |
+| 3  | Qué diámetro o sección tiene el cable/pletina?        | Define el modelo (Ø21mm o pletinas de distintos tamaños) |
+| 4  | El transformador de tensión es para AC o DC?          | La mayoría de circuitos modernos son DC (fuente conmutada)|
+| 5  | Cuántos VA necesita para el circuito auxiliar?        | Define la potencia del transformador de alimentación     |
+
+CONSEJO: Los TCs de Circutor son los más vendidos en España para instalaciones
+industriales. Siempre verificar que la clase de exactitud sea la adecuada:
+- Para amperímetros de panel y control: clase 1 o 3 es suficiente
+- Para contadores de energía de facturación: clase 0,5 o 0,2 es obligatorio
+- Para protecciones de relé: clase 5P o 10P (clases de protección específicas)
+
+============================================================
+Fuentes:
+- CIRCUTOR TC: https://www.circutor.com/es/productos/medida/
+- Siemens TC: https://www.siemens.com/es/es/productos/automatizacion/aparamenta.html
+============================================================

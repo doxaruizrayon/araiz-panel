@@ -1,0 +1,107 @@
+CUADRO RESUMEN — CONDENSADORES Y COMPENSACIÓN DE ENERGÍA REACTIVA (Circutor, Onda Radio — factor de potencia)
+Familia: Electricidad > Equipo de seguridad y almacenamiento de energía > Condensadores y equipos compensación
+Ejemplo en Araiz: CIRCUTOR CLZ-FP-44/25-HD (Condensador tubular trifásico 25kvar, desintonizado)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"batería de condensadores factor de potencia" o "compensación energía reactiva industria"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Los condensadores se usan en instalaciones industriales para corregir el factor de
+potencia (cos φ). Una industria con muchos motores consume energía reactiva además
+de la activa — la compañía eléctrica cobra por ello (penalización por bajo factor
+de potencia). Los condensadores compensan esa energía reactiva y reducen la factura.
+
+**¿Qué es la energía reactiva y el factor de potencia?**
+- **Potencia activa (kW)**: la que hace trabajo real (mueve motores, calienta...)
+- **Potencia reactiva (kvar)**: la que los motores necesitan para crear el campo magnético,
+  pero no hace trabajo útil. Los motores la consumen y la devuelven en cada ciclo.
+- **Factor de potencia (cos φ)**: relación entre potencia activa y potencia aparente.
+  Cos φ = 1 = perfecto (solo potencia activa). Cos φ = 0,7 = mucha reactiva.
+  Las compañías eléctricas penalizan si cos φ < 0,95 en horas punta.
+
+Los condensadores generan potencia reactiva en sentido contrario a la que consumen
+los motores → se compensan y la red solo ve potencia activa.
+
+**1. CONDENSADORES TUBULARES TRIFÁSICOS CLZ-FP CIRCUTOR (desintonizados)**
+Son condensadores para batería de condensadores automática. La batería controla
+cuántos condensadores conecta en función de la reactiva medida en tiempo real.
+Potencias: 12,5kvar, 15kvar, 25kvar, 30kvar — la potencia indica cuánta reactiva compensa.
+"44" en la referencia: tensión de trabajo 440V (aunque la red sea 400V, los condensadores
+soportan algo más de tensión para mayor seguridad).
+"HD": Heavy Duty — reforzado para instalaciones con armónicos (muy habitual hoy en día
+porque los variadores de frecuencia y electrónica generan armónicos).
+"FP": tipo de condensador tubular específico de Circutor.
+"Desintonizado": llevan una reactancia en serie que evita resonancias con los armónicos
+de la red. Imprescindible en instalaciones con variadores de frecuencia.
+
+**2. CONDENSADOR CFB-46/100 100kvar 440V CIRCUTOR**
+Condensador de gran potencia (100kvar) para instalaciones industriales con mucha
+carga de motores. Va dentro de las baterías de compensación de mayor tamaño.
+440V: soporta la tensión con cierto margen respecto a la red de 400V.
+
+**3. CONDENSADORES DE MOTOR (ONDA RADIO)**
+Son condensadores para corregir el factor de potencia de un motor concreto en su
+propio cuadro de arranque (compensación individual, en lugar de batería centralizada):
+- 4µF, 10µF, 12µF, 14µF (microfaradios) a 400-450V con terminales FASTON
+- Se conectan en paralelo con el motor para compensar su reactiva propia
+- Los tamaños 30x55, 30x70, 35x70mm indican las dimensiones del condensador
+El FASTON es el tipo de terminal: es el conector plano de empuje que se usa en la
+automoción y en equipos eléctricos donde se necesita una conexión rápida y segura.
+Uso típico: motores de bomba pequeños, compresores de aire acondicionado, lavadoras
+industriales, motores de ventilador — cualquier motor monofásico que necesita condensador
+para arrancar o para mejorar su factor de potencia.
+
+Lo que facilita:
+- Reducir la factura eléctrica eliminando penalizaciones por reactiva.
+- Mejorar el rendimiento de la instalación eléctrica (menos pérdidas en cables).
+- Arrancar motores monofásicos que necesitan condensador de arranque.
+
+Lo que evita que ocurra:
+- Penalizaciones en la factura eléctrica por bajo factor de potencia.
+- Sobrecalentamiento de cables por corriente reactiva excesiva.
+- Sobrecarga del transformador de la empresa por exceso de corriente aparente.
+
+============================================================
+
+MODELOS EN ARAIZ (~9 artículos)
+--------------------------------------------------------------
+| Tipo                        | Marca     | Potencia/Capacidad | Para qué                         |
+|-----------------------------|-----------|-------------------|----------------------------------|
+| CLZ-FP-44/12,5-HD trifásico | CIRCUTOR  | 12,5kvar 440V     | Batería condensadores pequeña    |
+| CLZ-FP-44/15-HD trifásico   | CIRCUTOR  | 15kvar 440V       | Batería condensadores estándar   |
+| CLZ-FP-44/25-HD trifásico   | CIRCUTOR  | 25kvar 440V       | Batería compensación media       |
+| CLZ-FP-44/30-HD trifásico   | CIRCUTOR  | 30kvar 440V       | Batería compensación grande      |
+| CFB-46/100 100kvar 440V     | CIRCUTOR  | 100kvar 440V      | Gran industria mucha reactiva    |
+| Condensador motor 4µF 400V  | ONDA RADIO| 4µF 400-450V      | Motor pequeño (bomba, ventilador)|
+| Condensador motor 10µF 400V | ONDA RADIO| 10µF 400-450V     | Motor mediano                    |
+| Condensador motor 12µF 400V | ONDA RADIO| 12µF 400-450V     | Motor mediano-grande             |
+| Condensador motor 14µF 400V | ONDA RADIO| 14µF 400-450V     | Motor de mayor potencia          |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                              | Por qué la necesitas                                     |
+|----|-------------------------------------------------------|----------------------------------------------------------|
+| 1  | ¿Le están penalizando en la factura por reactiva?     | Si sí → necesita batería de condensadores                |
+| 2  | Cuántos kvar de reactiva consume? (dato de la factura)| Define el tamaño de la batería necesaria                 |
+| 3  | Hay variadores de frecuencia o electrónica en la instalación? | Si sí → condensadores HD desintonizados (no estándar) |
+| 4  | Es compensación centralizada (batería) o individual (por motor)?| Define el tipo de condensador                     |
+| 5  | Para el condensador de motor: cuántos µF necesita?    | Lo indica el fabricante del motor en la placa o manual   |
+
+CONSEJO: En instalaciones con muchos variadores de frecuencia (industria moderna),
+los condensadores estándar pueden resonar con los armónicos generados por los variadores.
+Siempre usar condensadores HD desintonizados (como los CLZ-FP de Circutor) en estas
+instalaciones — los estándar pueden explotar o dañarse pronto.
+Para los condensadores de motor: si el motor no indica los µF, regla orientativa:
+1 µF por cada 100W de potencia del motor (muy aproximado, mejor consultar fabricante).
+
+============================================================
+Fuentes:
+- CIRCUTOR condensadores: https://www.circutor.com/es/productos/compensacion-de-energia-reactiva/
+- Reglamento de Puntos de Medida RPM: penalizaciones por reactiva en España
+============================================================

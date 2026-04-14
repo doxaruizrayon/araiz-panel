@@ -1,0 +1,113 @@
+CUADRO RESUMEN — PROTECTORES DE SOBRETENSIÓN (SPD / Limitadores — Schneider ACTI9/IPRD, Hager)
+Familia: Electricidad > Equipo de seguridad y almacenamiento de energía > Protector sobretensión y otras protecciones
+Ejemplo en Araiz: SCHNEIDER ref. IPRD40 (Limitador sobretensión 40kA 350V 3P+N, clase II)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"protector sobretensión instalación eléctrica" o "SPD limitador descargas atmosféricas"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Los protectores de sobretensión (SPD = Surge Protection Device, también llamados
+limitadores o descargadores) protegen la instalación eléctrica y los equipos
+conectados de las sobretensiones transitorias: rayos que caen cerca, maniobras
+en la red, y transitorios de conexión/desconexión de cargas.
+
+**¿Qué es una sobretensión transitoria?**
+Un pico de tensión de muy corta duración (microsegundos) pero de muy alta amplitud
+(miles de voltios). Puede destruir equipos electrónicos en décimas de segundo.
+Causas: caída de rayo (aunque no impacte directamente), apertura de seccionadores
+de la compañía eléctrica, arranque/parada de grandes motores.
+
+**Clases de SPD:**
+- **Clase I (tipo 1)**: se instala en la cabeza de la instalación. Diseñado para
+  descargas directas de rayo (corriente de impulso hasta 100kA). Solo se instala
+  si hay pararrayos en el edificio.
+- **Clase II (tipo 2)**: el más habitual. Protege contra sobretensiones inducidas
+  por rayos cercanos y transitorios de la red. Va en el cuadro general y subcuadros.
+  Corriente de impulso típica: 20-40kA.
+- **Clase III (tipo 3)**: protección final en el punto de consumo. Se instala
+  junto al equipo a proteger (enchufes con protección de sobretensión).
+
+**¿Cuándo es obligatorio el SPD?**
+El REBT (ITC-BT-23) indica que es obligatorio en instalaciones con nivel de riesgo
+de rayo elevado y en instalaciones críticas. En la práctica se recomienda siempre
+en instalaciones con equipos electrónicos sensibles (PLCs, PCs industriales, VFDs).
+
+**1. LIMITADORES IPRD (SCHNEIDER) — Clase II estándar**
+La gama IPRD es la referencia de Schneider para protección clase II:
+- IPRD40 40kA 350V 3P+N: para redes trifásicas con neutro (el más habitual en industria)
+- IPRD40R 40kA 460V 3P: para redes trifásicas sin neutro o con tensión más alta
+- IPRD20R (Quick): versión de 20kA de extracción rápida — el cartucho se cambia
+  fácilmente cuando se ha agotado (los SPD tienen vida útil limitada tras descargas)
+La R al final indica que el cartucho es extraíble (replaceable) para sustituirlo
+sin desmontar el circuito.
+
+**2. DISPOSITIVOS COMBI SPU ACTI9 (SCHNEIDER) — Clase I + II en uno**
+- ACTI9 Combi SPU 3P+N 25A: combina protección clase I y clase II en un solo
+  aparato. Para cuadros donde hay riesgo de descarga directa (con pararrayos) y
+  también de sobretensiones inducidas.
+- ACTI9 Combi SPU 3P+N 63A: versión para cuadros con mayor corriente nominal.
+El "Combi" elimina la necesidad de instalar dos aparatos separados (clase I + clase II).
+
+**3. LIMITADOR IPF (SCHNEIDER) — Clase II básico**
+- IPF20 20kA 340V 3P+N: versión más económica, corriente de impulso de 20kA.
+  Para instalaciones con bajo riesgo de rayo o como protección secundaria.
+- IPF K65 65kA 340V 3P+N: versión de alta capacidad (65kA) para instalaciones
+  cerca de líneas de alta tensión o con histórico de muchas sobretensiones.
+
+**4. LIMITADOR MONOBLOC HAGER (1P+N 15kA Clase II)**
+Versión compacta de 1 polo + neutro para instalaciones monofásicas (viviendas,
+pequeños locales). 15kA de corriente de impulso. Se instala en el cuadro doméstico.
+
+Lo que facilita:
+- Proteger equipos electrónicos caros de sobretensiones transitorias.
+- Cumplir normativa REBT en instalaciones con riesgo de rayo.
+- Alargar la vida de PLCs, variadores y equipos industriales.
+
+Lo que evita que ocurra:
+- Destrucción de PLCs, PCs y variadores por rayos o transitorios.
+- Paradas de producción por quema de equipos electrónicos.
+- Pérdida de datos en sistemas de control y supervisión.
+
+============================================================
+
+MODELOS EN ARAIZ (~9 artículos)
+--------------------------------------------------------------
+| Tipo                        | Marca     | Ref.          | kA  | Clase | Para qué                  |
+|-----------------------------|-----------|---------------|-----|-------|---------------------------|
+| Limitador IPRD40 3P+N       | SCHNEIDER | IPRD40        | 40  | II    | Cuadro industrial estándar|
+| Limitador IPRD40R 3P        | SCHNEIDER | IPRD40R       | 40  | II    | Red trifásica sin neutro  |
+| Limitador QUICK PRD20R 3P+N | SCHNEIDER | PRD20R        | 20  | II    | Instalación ligera        |
+| Limitador IPF20 3P+N        | SCHNEIDER | IPF20         | 20  | II    | Protección básica económica|
+| Limitador IPF K65 3P+N      | SCHNEIDER | IPF K65       | 65  | II    | Alta corriente impulso    |
+| Combi SPU 3P+N 25A          | SCHNEIDER | Combi SPU 25A | —   | I+II  | Con pararrayos, cuadro pequeño|
+| Combi SPU 3P+N 63A          | SCHNEIDER | Combi SPU 63A | —   | I+II  | Con pararrayos, cuadro grande |
+| Limitador monobloc 1P+N 15kA| HAGER     | —             | 15  | II    | Vivienda / pequeño local  |
+| Cable USB/RJ45 ATS22        | SCHNEIDER | —             | —   | —     | Cable programación ATS22  |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                              | Por qué la necesitas                                     |
+|----|-------------------------------------------------------|----------------------------------------------------------|
+| 1  | El edificio tiene pararrayos?                         | Con pararrayos → Clase I+II (Combi SPU); sin él → Clase II|
+| 2  | La instalación es monofásica o trifásica?             | Define el tipo: 1P+N o 3P+N                              |
+| 3  | Qué equipos sensibles hay? (PLC, variadores, PCs)     | Justifica la necesidad del SPD                           |
+| 4  | En qué zona geográfica está? (nivel keraunífico)      | Zonas con muchas tormentas → mayor kA                    |
+| 5  | Va en el cuadro general o en un subcuadro?            | Cuadro general → mayor kA; subcuadro → menor kA           |
+
+CONSEJO: Un SPD de calidad puede ser la inversión más rentable de una instalación.
+Un PLC de 2.000€ destruido por un rayo se ahorra con un SPD de 80€. En instalaciones
+industriales, siempre recomendar instalar SPD en el cuadro general. El IPRD40
+de Schneider es el estándar que la mayoría de instaladores industriales conocen y piden.
+
+============================================================
+Fuentes:
+- Schneider IPRD/ACTI9 SPD: https://www.se.com/es/es/product-range/surge-protection/
+- REBT ITC-BT-23: Protección contra sobretensiones
+- EN 61643-11: Norma SPD instalaciones de baja tensión
+============================================================

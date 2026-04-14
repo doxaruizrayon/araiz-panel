@@ -1,0 +1,107 @@
+CUADRO RESUMEN — FUENTES DE ALIMENTACIÓN (24VDC carril DIN — Schneider, ABB, Omron)
+Familia: Electricidad > Equipo de seguridad y almacenamiento de energía > Fuentes de alimentación
+Ejemplo en Araiz: SCHNEIDER ref. (Fuente conmutada 10A 24VDC 240W filtro armario)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"fuente alimentación 24V carril DIN" o "power supply 24VDC industrial"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Las fuentes de alimentación industriales convierten la tensión de red (230V o 400V AC)
+en tensión continua de 24V DC para alimentar los circuitos de control y seguridad:
+PLCs, sensores, relés, electroválvulas, indicadores luminosos, y cualquier elemento
+que funcione a 24VDC en un cuadro de automatización.
+
+**¿Por qué 24V DC en lugar de 230V AC para el control?**
+- Seguridad: 24V es tensión de seguridad (SELV) — no es peligrosa para las personas
+- Los PLCs y sensores modernos trabajan a 24V DC
+- Permite usar cables más finos para el cableado de control
+- Las señales de control son más limpias y menos susceptibles a interferencias
+
+**1. FUENTES CONMUTADAS SCHNEIDER (con filtro de armario)**
+Son las fuentes estándar para cuadros de automatización industrial:
+- 3A / 24VDC / 72W: para cuadros pequeños con pocos sensores y salidas
+- 5A / 24VDC / 120W: tamaño medio, el más habitual en cuadros de control estándar
+- 10A / 24VDC / 240W: para cuadros con muchos módulos de E/S y actuadores
+- 20A / 24VDC / 480W: para instalaciones grandes con mucha carga a 24V
+El "filtro de armario" indica que incluye filtro EMC integrado para reducir
+interferencias electromagnéticas generadas por la fuente (importante en cuadros
+con variadores de frecuencia y PLCs sensibles).
+Módulo protección BIPOLAR: accesorio que protege la fuente contra cortocircuitos
+en la salida de 24V — evita que un cable pellizcado queme la fuente.
+
+**2. FUENTE MODULAR SCHNEIDER DIN POWER SUPPLY 24V 2,5A**
+Versión modular (se puede enchufar y extraer del carril DIN sin herramientas).
+2,5A a 24V = 60W. Para cuadros pequeños de automatización o reposición.
+
+**3. FUENTE ABB CP-E 24/1.25**
+Fuente compacta de 1,25A a 24VDC = 30W. La más pequeña de la gama — para
+pequeños sistemas de mando con 1-2 relés y algún sensor.
+
+**4. FUENTE OMRON 60W/24V/2,5A con Push-in+**
+Fuente de 60W con terminales push-in (conexión sin tornillo — se inserta el cable
+directamente). La tecnología push-in agiliza enormemente el conexionado en cuadros
+con muchos módulos. Referencia "Electricidad" indica otros modelos OMRON del catálogo.
+
+**Cómo calcular la fuente que necesita el cliente:**
+Sumar el consumo de 24VDC de todos los elementos del cuadro:
+- PLC básico: ~1A
+- Módulo de E/S por 16 puntos: ~0,5A
+- Sensor inductivo/capacitivo: ~50mA
+- Relé de carril DIN: ~20mA
+- Electroválvula: ~100-200mA
+Total + 20% de margen = corriente de la fuente necesaria.
+Ejemplo: PLC + 4 módulos E/S + 10 sensores + 5 relés = ~4A → fuente de 5A.
+
+Lo que facilita:
+- Alimentar todos los circuitos de control y automatización a 24VDC.
+- Proteger los circuitos de control de la tensión de red.
+- Tener una tensión de control estable y libre de perturbaciones.
+
+Lo que evita que ocurra:
+- Daños en PLCs y sensores por tensión incorrecta.
+- Interferencias en señales de control por fuentes de mala calidad.
+- Paradas de producción por caída de tensión de control.
+
+============================================================
+
+MODELOS EN ARAIZ (~9 artículos)
+--------------------------------------------------------------
+| Tipo                          | Marca     | Corriente | Potencia | Para qué                    |
+|-------------------------------|-----------|-----------|----------|-----------------------------|
+| Fuente CP-E 24V carril DIN    | ABB       | 1,25A     | 30W      | Cuadros muy pequeños        |
+| Fuente DIN POWER SUPPLY       | SCHNEIDER | 2,5A      | 60W      | Mando pequeño modular       |
+| Fuente conmutada filtro 3A    | SCHNEIDER | 3A        | 72W      | Cuadro básico automatización|
+| Fuente conmutada filtro 5A    | SCHNEIDER | 5A        | 120W     | Cuadro estándar (el + usado)|
+| Fuente conmutada filtro 10A   | SCHNEIDER | 10A       | 240W     | Cuadro grande               |
+| Fuente conmutada 20A          | SCHNEIDER | 20A       | 480W     | Instalación con mucha carga |
+| Módulo protección BIPOLAR     | SCHNEIDER | —         | —        | Proteger salida fuente      |
+| Fuente 60W/24V Push-in+       | OMRON     | 2,5A      | 60W      | Conexión rápida sin tornillo|
+| Fuente OMRON (otros modelos)  | OMRON     | Varios    | Varios   | Alternativa industrial      |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                              | Por qué la necesitas                                     |
+|----|-------------------------------------------------------|----------------------------------------------------------|
+| 1  | Cuántos amperios a 24VDC necesita en total?           | Define la potencia de la fuente                          |
+| 2  | Hay variadores de frecuencia en el cuadro?            | Si sí → fuente con filtro EMC (armario)                  |
+| 3  | Necesita módulo de protección en la salida?           | Recomendable en cuadros donde puede haber cortocircuitos  |
+| 4  | El cliente prefiere tornillo o push-in?               | Push-in = más rápido de cablear; tornillo = más habitual  |
+| 5  | Hay redundancia? (dos fuentes en paralelo)            | Para sistemas críticos se duplica la fuente              |
+
+CONSEJO: La fuente de 5A/120W de Schneider es la más vendida — cubre la mayoría
+de cuadros de control estándar (1 PLC pequeño + módulos E/S + sensores). Para
+cuadros con muchos actuadores (electroválvulas, cilindros neumáticos electrónicos)
+calcular bien antes de pedir porque puede que se necesite la de 10A.
+
+============================================================
+Fuentes:
+- Schneider fuentes industriales: https://www.se.com/es/es/product-range/phaseo/
+- ABB CP-E: https://www.abb.com/es/
+- Omron power supply: https://www.omron.es/
+============================================================

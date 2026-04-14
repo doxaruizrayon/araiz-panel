@@ -1,0 +1,124 @@
+CUADRO RESUMEN — SAI / UPS — SISTEMAS DE ALIMENTACIÓN ININTERRUMPIDA (APC, Phoenix Contact, Weidmuller)
+Familia: Electricidad > Equipo de seguridad y almacenamiento de energía > SAI - Sistemas de alimentación ininterrumpida
+Ejemplo en Araiz: APC Easy UPS On-Line SRV 1000VA 900W 230V / APC Smart-UPS RV 6000VA 230V
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"SAI UPS qué es cómo funciona" o "APC Smart-UPS instalación industrial"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Un SAI (Sistema de Alimentación Ininterrumpida) o UPS (Uninterruptible Power Supply)
+mantiene la corriente eléctrica durante cortes de red y protege los equipos de
+fluctuaciones de tensión. Es imprescindible para equipos críticos que no pueden
+apagarse: servidores, sistemas de control, equipos médicos, cámaras de seguridad.
+
+**¿Cómo funciona un SAI?**
+Tiene una batería interna. Cuando hay corriente de red, carga la batería y alimenta
+los equipos. Cuando hay un corte, cambia automáticamente a batería en milisegundos
+(en los online) o en 2-20ms (en los offline). Los equipos no notan el corte.
+
+**Tipos de SAI:**
+
+**1. OFF-LINE (standby)**: Normalmente la red alimenta directamente. Al detectar
+corte, conmuta a batería. Protección básica y económica. Para PCs de oficina.
+**2. LINE-INTERACTIVE**: Regula la tensión mientras trabaja con red (corrige caídas
+y picos sin usar batería). Al corte, conmuta a batería. El más habitual en PYME.
+**3. ON-LINE (doble conversión)**: Siempre alimenta desde la batería (que se carga
+continuamente desde la red). Protección máxima — los equipos nunca ven la red
+directamente. Para servidores y equipos críticos.
+
+**1. APC EASY UPS ON-LINE SRV 1000VA — SAI On-line básico**
+- 1000VA / 900W: para servidores pequeños, NAS, router+switch de oficina
+- On-line doble conversión: máxima protección
+- 230V: monofásico estándar europeo
+- Gestión mediante tarjeta de red (opcional)
+La relación VA/W (1000VA = 900W) indica el factor de potencia = 0,9.
+"Easy UPS" = gama de entrada de APC, más económica que Smart-UPS.
+
+**2. APC SMART-UPS RV 6000VA — SAI para sala de servidores**
+- 6000VA / 4200W: para racks completos de servidores, CPD pequeños
+- RV = formato rack vertical (se integra en rack 19")
+- On-line con gestión avanzada
+- 230V monofásico
+Incluye funciones de gestión (señal de baja batería, tiempo restante, apagado
+ordenado de servidores mediante NMC — Network Management Card).
+
+**3. APC BVS 800VA — SAI Line-Interactive básico**
+- 800VA: para 1-2 PCs, monitor, router
+- AVR (Automatic Voltage Regulation): corrige fluctuaciones de tensión sin usar batería
+- Salidas Schuko: enchufes europeos estándar
+El más económico para proteger equipos ofimáticos sin requisitos críticos.
+
+**4. TARJETA DE GESTIÓN DE RED APC**
+Módulo adicional que se instala en el SAI para gestionarlo en red:
+permite ver el estado de la batería, configurar alertas, apagar servidores
+de forma ordenada antes de que se agote la batería. Imprescindible en CPDs.
+
+**5. CARTUCHO BATERÍA APC (reemplazo)**
+Las baterías de plomo-ácido de los SAI tienen una vida útil de 3-5 años.
+Pasado ese tiempo hay que sustituir el cartucho. El modelo es específico
+para cada SAI — siempre verificar el número de modelo antes de pedir.
+
+**6. ACUMULADOR VRLA-AGM (PHOENIX CONTACT) — Para SAI industrial**
+Batería 24V DC / 4Ah para el SAI industrial QUINT UPS-IQ de Phoenix Contact.
+VRLA = Valve Regulated Lead Acid (batería de plomo sellada).
+AGM = Absorbent Glass Mat (tecnología de electrolito absorbido = no derrama).
+Se usa en cuadros de automatización donde se necesita UPS de 24VDC para PLCs
+y sistemas de control (en lugar de los SAI domésticos/de servidor en 230V AC).
+
+**7. CONECTORES SAI M8 (WEIDMULLER) — Para sistemas de 24VDC**
+Conectores M8 de 3 y 4 pines para conexión de módulos de acumulación de energía
+en sistemas de automatización. Los conectores SAI B (hembra) y SAI S (macho) son
+estándar para la conexión de baterías de backup en cuadros industriales.
+
+Lo que facilita:
+- Mantener servidores y sistemas de control funcionando durante cortes de red.
+- Proteger equipos electrónicos de picos y caídas de tensión.
+- Apagar ordenadamente servidores antes de que se acabe la batería.
+
+Lo que evita que ocurra:
+- Pérdida de datos por corte brusco de corriente en servidores.
+- Daños en equipos por fluctuaciones de tensión.
+- Paradas de producción por corte de corriente en sistemas de control.
+
+============================================================
+
+MODELOS EN ARAIZ (~9 artículos)
+--------------------------------------------------------------
+| Tipo                          | Marca          | VA/W        | Tipo SAI   | Para qué                    |
+|-------------------------------|----------------|-------------|------------|-----------------------------|
+| Easy UPS On-Line SRV 1000VA   | APC            | 1000VA/900W | On-line    | Servidor pequeño / NAS      |
+| Smart-UPS RV 6000VA rack      | APC            | 6000VA/4200W| On-line    | Rack servidores / CPD       |
+| BVS 800VA AVR Schuko          | APC            | 800VA       | Line-inter.| PC oficina básico           |
+| Tarjeta gestión red Easy UPS  | APC            | —           | Accesorio  | Gestión remota SAI          |
+| Cartucho batería SUA500PDR    | APC            | —           | Recambio   | Reposición batería          |
+| Acumulador VRLA-AGM 24V 4Ah   | PHOENIX CONTACT| 24VDC 4Ah   | Industrial | Backup PLC 24VDC            |
+| Conector H SAI B M8 4P        | WEIDMULLER     | —           | Conector   | Conexión batería industrial |
+| Conector M SAI S M8 4P        | WEIDMULLER     | —           | Conector   | Conexión batería industrial |
+| Conector H SAI B M8 3P        | WEIDMULLER     | —           | Conector   | Conexión batería 3 pines    |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                              | Por qué la necesitas                                     |
+|----|-------------------------------------------------------|----------------------------------------------------------|
+| 1  | Qué equipos quiere proteger y cuántos vatios consumen?| Define la potencia del SAI necesaria                     |
+| 2  | Cuántos minutos de autonomía necesita?                | A mayor batería → más VA o batería externa               |
+| 3  | Es para servidor (crítico) o para ofimática?          | Crítico → On-line (doble conversión); básico → Line-inter.|
+| 4  | Va en rack o es sobremesa/suelo?                      | RV = rack; torre = sobremesa                             |
+| 5  | Necesita gestión remota?                              | Si sí → añadir tarjeta de gestión de red                 |
+
+CONSEJO: Para calcular el SAI: sumar el consumo en vatios de todos los equipos a
+proteger y añadir un 20% de margen. Luego convertir a VA: VA = W / 0,9 (factor
+de potencia típico). Ejemplo: servidor 400W + switch 50W = 450W → 450/0,9 = 500VA
+mínimo → pedir el de 1000VA para tener autonomía y margen.
+
+============================================================
+Fuentes:
+- APC SAI: https://www.apc.com/es/es/
+- Phoenix Contact QUINT UPS: https://www.phoenixcontact.com/es-es/
+============================================================

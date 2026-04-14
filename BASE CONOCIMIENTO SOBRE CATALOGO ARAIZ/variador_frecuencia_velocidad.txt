@@ -1,0 +1,129 @@
+CUADRO RESUMEN — VARIADORES DE FRECUENCIA Y VELOCIDAD (Schneider Altivar, Siemens G120, Omron Q2V/SX)
+Familia: Electricidad > Equipo de seguridad y almacenamiento de energía > Variadores de velocidad y de tensión / Convertidores
+Ejemplo en Araiz: SIEMENS ref. G120C 2,2kW PROFINET (Variador compacto trifásico IP20)
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"variador de frecuencia qué es" o "variador velocidad motor instalación Siemens G120"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Un variador de frecuencia (también llamado convertidor de frecuencia, VFD o drive)
+es el equipo que controla la velocidad de un motor eléctrico variando la frecuencia
+y tensión de la corriente que le llega. En lugar de motor a todo gas o apagado,
+el variador permite cualquier velocidad intermedia.
+
+**¿Por qué usar un variador en lugar de arrancar directo?**
+- **Ahorro energético**: un motor de bomba o ventilador al 80% de velocidad
+  consume un 50% menos de energía (la potencia varía con el cubo de la velocidad)
+- **Protección del motor**: arranque suave sin picos de corriente (hasta 6-8× la nominal)
+- **Control preciso**: ajuste exacto de velocidad para el proceso
+- **Menos mantenimiento mecánico**: sin golpes ni picos en arranques
+
+**1. GAMA SIEMENS G120C — Variador compacto (el más vendido en industria)**
+El G120C es el variador de referencia en automatización industrial española:
+- 0,75kW PROFINET: el más pequeño, para motores pequeños con red industrial
+- 2,2kW PROFINET: el más habitual en aplicaciones estándar (cintas, bombas pequeñas)
+- 3,0kW MODBUS/USS: versión con protocolo de comunicación más simple
+Características:
+- 380-480V trifásico (alimentación industrial estándar)
+- Filtro clase A integrado (cumple normativa EMC sin filtro externo)
+- PROFINET o EtherNet/IP: se integra directamente en redes industriales
+- IP20: para montaje en armario eléctrico
+El "C" de G120C indica versión Compact (todo integrado, sin módulos separados).
+
+**Accesorios G120:**
+- Panel IOP-2: pantalla de programación y operación inteligente, se conecta
+  al variador y permite programarlo sin PC. También sirve para copiar parámetros.
+- Panel BOP-2 (Siemens): panel básico de operación (más sencillo que IOP-2)
+- Módulo energía PM240-2 sin filtro 0,7kW: módulo de potencia para sistema G120
+  modular (sin filtro EMC, cuando el filtro es externo)
+- Convertidor MM430 11kW: la gama MM430 son variadores para bombas y ventiladores
+  con funciones específicas de control PID. 11kW = bombas medianas industriales.
+- Resistencia frenado FS-C 11-18,5kW: cuando el motor frena activamente (cargas
+  que se paran rápido), la energía hay que disiparla en una resistencia. El
+  variador sin resistencia solo puede frenar lentamente por inercia.
+
+**2. GAMA SCHNEIDER ALTIVAR (ATV)**
+- Altivar-320C 3kW 400V trifásico compacto: el equivalente al G120C de Siemens
+  en la gama Schneider. Para bombas, cintas y ventiladores.
+- ATV 30kW IP21: para motores de mayor potencia (compresores, grandes bombas).
+  IP21 = protegido contra goteos verticales, se puede instalar en exterior protegido.
+- ATV 132kW IP21: variadores de alta potencia para industria pesada.
+- Resistencia frenado ATVP 100Ω 0,1kW: resistencia de frenado para ATV pequeño.
+- Convertidor RS485: módulo para comunicación serie RS485 con equipos externos.
+- Cable USB/RJ45 ATS22: cable de programación para el arrancador suave ATS22.
+
+**3. GAMA OMRON Q2V — Variadores modernos con EtherCAT**
+- Q2V 1,5kW 400V HD IP20: variador industrial con bus EtherCAT de alta velocidad
+- Q2V 5,5kW 400V IP20: para motores medianos
+- Variador M1 200V 0,7-2,7kW EtherCAT + STO: variador con funciones de seguridad
+  STO (Safe Torque Off) integradas — apaga el par del motor sin cortar la alimentación,
+  cumpliendo normas de seguridad funcional (ISO 13849, IEC 62061).
+
+**4. GAMA OMRON SX — Inversores industriales de alta potencia**
+Nota: Aunque el catálogo los llama "inversores solares", son variadores industriales
+de alta potencia para motores grandes:
+- SX 45kW a 800kW, 400V AC, IP20/IP54
+- Control de par directo o V/f
+- Para grandes motores industriales (compresores centrífugos, bombas grandes, ventiladores industriales)
+No son para energía solar — son convertidores de frecuencia industriales de alta gama.
+
+Lo que facilita:
+- Regular la velocidad de motores según la demanda real del proceso.
+- Ahorrar energía en bombas, ventiladores y compresores.
+- Proteger el motor y la instalación en el arranque.
+
+Lo que evita que ocurra:
+- Golpes mecánicos por arranque directo de motores grandes.
+- Sobreconsumo eléctrico a velocidad máxima siempre.
+- Disparos del diferencial por pico de corriente en arranque.
+
+============================================================
+
+MODELOS EN ARAIZ (~18 artículos en 2 grupos)
+--------------------------------------------------------------
+| Tipo                          | Marca     | Potencia   | Bus/Prot | Para qué                    |
+|-------------------------------|-----------|------------|----------|-----------------------------|
+| G120C PROFINET IP20           | SIEMENS   | 0,75kW     | PROFINET | Motor pequeño red industrial|
+| G120C PROFINET IP20           | SIEMENS   | 2,2kW      | PROFINET | Motor estándar (el + usado) |
+| G120C USS/MODBUS IP20         | SIEMENS   | 3,0kW      | MODBUS   | Motor mediano protocolo simple|
+| MM430 3AC trifásico           | SIEMENS   | 11kW       | Analógico| Bomba/ventilador mediano    |
+| PM240-2 módulo energía        | SIEMENS   | 0,7kW      | —        | Módulo potencia G120 modular|
+| Resistencia frenado FS-C      | SIEMENS   | 11-18,5kW  | —        | Frenado rápido G120         |
+| Panel IOP-2 SINAMICS G        | SIEMENS   | —          | —        | Programar G120 sin PC       |
+| Panel BOP-2                   | SIEMENS   | —          | —        | Panel básico G120           |
+| Altivar-320C compacto         | SCHNEIDER | 3kW        | Modbus   | Motor estándar Schneider    |
+| Altivar IP21                  | SCHNEIDER | 30kW       | —        | Motor grande exterior prot. |
+| Altivar IP21 alta potencia    | SCHNEIDER | 132kW      | —        | Industria pesada            |
+| Q2V IP20 HD filtro EMC C2     | OMRON     | 1,5kW      | EtherCAT | Motor pequeño bus rápido    |
+| Q2V IP20 HD filtro EMC C2     | OMRON     | 5,5kW      | EtherCAT | Motor mediano EtherCAT      |
+| Variador M1 STO EtherCAT      | OMRON     | 0,7/2,7kW  | EtherCAT | Motor con seguridad funcional|
+| SX IP54 alta potencia         | OMRON     | 45-800kW   | Ethernet | Grandes motores industriales|
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                              | Por qué la necesitas                                     |
+|----|-------------------------------------------------------|----------------------------------------------------------|
+| 1  | Cuántos kW tiene el motor a controlar?                | Define la potencia del variador (siempre ≥ motor)        |
+| 2  | Es monofásico o trifásico?                            | La mayoría de variadores industriales son trifásicos     |
+| 3  | Qué bus de comunicación usa? (PROFINET, MODBUS, etc.) | Define el modelo de variador                             |
+| 4  | El motor necesita frenar rápidamente?                 | Si sí → añadir resistencia de frenado                   |
+| 5  | Hay requisitos de seguridad funcional? (STO, SLS....) | Si sí → variador con funciones safety integradas (Omron M1)|
+
+CONSEJO: El variador Siemens G120C con PROFINET es el más instalado en la
+industria española. Cuando un técnico pide "un G120C de X kW" ya sabe lo que
+quiere. Para presupuesto, siempre especificar: potencia en kW, tensión de alimentación
+(400V es lo estándar), protocolo de comunicación, y si necesita filtro EMC o
+resistencia de frenado (suelen olvidarse de pedirlos).
+
+============================================================
+Fuentes:
+- Siemens SINAMICS G120: https://www.siemens.com/es/es/products/drives/sinamics/
+- Schneider Altivar: https://www.se.com/es/es/product-range/altivar-machine/
+- Omron Q2V: https://www.omron.es/productos/variadores/
+============================================================
