@@ -1,0 +1,93 @@
+CUADRO RESUMEN — LUMINARIAS INDUSTRIALES (campanas LED, estancas, naves y almacenes)
+Familia: Iluminación > Alumbrado industrial y de seguridad > Luminarias industriales
+Ejemplo en Araiz: LEDVANCE Campana High Bay Compact 133W 4000K IP65 / LEDVANCE Estanca DAMP PROOF 1200 32W IP65
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"campana LED industrial nave almacén instalación" o "luminaria estanca IP65 nave industrial"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Son luminarias diseñadas para entornos industriales: naves de producción, almacenes
+logísticos, talleres mecánicos, garajes colectivos, aparcamientos cubiertos.
+Se diferencian de las luminarias domésticas en tres aspectos clave:
+- **Resistencia:** soportan polvo, humedad, vibraciones (IP65, IP66, IK08+)
+- **Potencia:** generan mucha más luz (desde 3.000 hasta 20.000 lúmenes o más)
+- **Eficiencia:** muchas horas de uso diario exigen el máximo rendimiento energético
+
+Tipos principales:
+
+**1. CAMPANA LED (High Bay) — para techos altos (>6m)**
+La "campana" es la luminaria industrial por excelencia para techos altos.
+Cuelga del techo y proyecta un haz concentrado hacia abajo.
+- COMPACTA (ángulo amplio ~110°): para naves con techos de 6-10m
+- CONVENCIONAL: para techos de más de 10m, haz más cerrado
+- Marcas en Araiz: LEDVANCE (High Bay Compact 133W, control remoto con sensor)
+- IP65: resiste el polvo y los chorros de agua directos
+
+**2. LUMINARIA ESTANCA (Damp Proof) — para techos bajos o húmedos**
+Es la regleta industrial. Formato lineal (1200mm, 1500mm), se monta en techo
+de nave o aparcamiento a poca altura (<6m). Carcasa estanca IP65/IP66.
+- LEDVANCE DAMP PROOF 1200: 32W, IP65, disponible en 4000K y 6500K
+- DAMP PROOF COMPACT IP66: versión más resistente aún (soporta chorro de agua)
+- NORMALIT Hermetic Avant: versión con difusor opal (luz más uniforme y suave)
+- Se distingue de la regleta doméstica en la carcasa y el IP
+
+**3. SENSOR REMOTO PARA CAMPANAS**
+Las campanas de alta gama incluyen la posibilidad de añadir un sensor de presencia
+y luz natural externo (plug-in). Cuando no hay nadie en la nave, la luz baja
+al 10% automáticamente. Ahorro energético muy significativo en naves grandes.
+- LEDVANCE: control remoto campana HB Sensor
+
+Términos clave:
+- **IP65:** protegido contra polvo (total) y chorros de agua
+- **IP66:** protegido contra chorros de agua potentes (nave con manguera)
+- **IK08/IK10:** resistencia a impactos mecánicos (pasillos con carretillas)
+- **High Bay:** luminaria para techo alto (>6m); Low Bay: para techo bajo (<6m)
+- **lm (lúmenes):** cantidad de luz emitida. Una campana de 133W da ~18.000 lm
+
+Lo que facilita:
+- Iluminación reglamentaria de puestos de trabajo en naves industriales.
+- Sustitución de vapores de mercurio y halogenuros metálicos por LED (ahorro >60%).
+- Cumplimiento de niveles mínimos de iluminancia del RD 486/1997 (lugares de trabajo).
+
+============================================================
+
+MODELOS EN ARAIZ (~1.700 artículos)
+--------------------------------------------------------------
+| Tipo                        | Marca    | Ejemplo                              | Para qué                            |
+|-----------------------------|----------|--------------------------------------|-------------------------------------|
+| Campana High Bay 133W IP65  | LEDVANCE | HB Compact 133W/4000K 110DEG IP65    | Naves 6-10m techo                   |
+| Sensor para campana         | LEDVANCE | Control remoto HB Sensor             | Ahorro automático por presencia      |
+| Estanca 32W 1200mm IP65     | LEDVANCE | DAMP PROOF LED 1200 32W/4000K IP65   | Aparcamientos, naves baja altura    |
+| Estanca 32W 1200mm IP65 frío| LEDVANCE | DAMP PROOF LED 1200 32W/6500K IP65   | Talleres, cámaras frías             |
+| Estanca compact IP66 1200   | LEDVANCE | DAMP PROOF COMPACT 1200 23W IP66     | Zonas con limpieza a presión        |
+| Estanca estanca 52W 1500mm  | LEDVANCE | DP 1500 E 52W 865 VW IP65 7020lm     | Naves grandes baja altura           |
+| Estanca Hermetic 1110mm     | NORMALIT | Hermetic Avant 4950lm 6000K IP65     | Instalación limpia, aspecto lineal  |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                 | Por qué la necesitas                                       |
+|----|----------------------------------------------------------|------------------------------------------------------------|
+| 1  | Cuántos metros tiene el techo de la nave?               | <6m → estanca; 6-10m → High Bay compact; >10m → High Bay  |
+| 2  | Hay polvo, humedad o se limpia con manguera?            | Define el IP necesario (IP65 vs IP66)                      |
+| 3  | Cuántos m² tiene la nave?                               | Para calcular el número de puntos de luz                   |
+| 4  | Hay carretillas elevadoras o riesgo de impactos?        | Sí → IK08 o IK10                                           |
+| 5  | Cuántas horas al día está encendida la luz?             | Muchas horas → justifica sensor de presencia               |
+| 6  | Tiene instalación existente? Qué tecnología usa ahora?  | Halogenuro/vapor → ahorro enorme al pasar a LED            |
+
+CONSEJO: En naves industriales el cliente no suele saber la diferencia entre
+una campana y una estanca. La pregunta clave es siempre la altura del techo.
+Con eso solo ya se define el tipo de luminaria. Si la nave tiene más de 300m²
+y más de 8 horas de uso diario, recomendar siempre las campanas con sensor —
+el ahorro en electricidad amortiza el sobrecoste en menos de 2 años.
+
+============================================================
+Fuentes:
+- LEDVANCE industrial: https://www.ledvance.es/productos/luminarias/industriales/
+- NORMALIT Hermetic: https://www.normalit.es/
+============================================================

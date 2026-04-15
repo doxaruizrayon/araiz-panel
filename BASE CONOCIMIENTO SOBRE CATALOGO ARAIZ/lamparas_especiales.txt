@@ -1,0 +1,103 @@
+CUADRO RESUMEN — LÁMPARAS ESPECIALES Y ACCESORIOS (germicidas, UVA, lentes de señalización)
+Familia: Iluminación > Lámparas y bombillas > Especiales + Accesorios
+Ejemplo en Araiz: OSRAM PURITEC HNS 9W G23 germicida / PHILIPS TUV PL-L 36W desinfección / SCHNEIDER Lentes colores para torretas
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"lámpara germicida UV-C desinfección" o "lente torreta señalización colores"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Este grupo reúne dos categorías muy distintas: lámparas para usos técnicos
+específicos (no iluminación general) y accesorios de repuesto para torretas
+y balizas de señalización.
+
+**PARTE 1 — LÁMPARAS ESPECIALES**
+
+Son lámparas que emiten radiación en espectros no visibles o muy específicos,
+para usos que van más allá de la iluminación: desinfección, atracción de insectos,
+cuidado de plantas, iluminación de efectos...
+
+Tipos en Araiz:
+
+**Germicidas (UV-C) — desinfección de aire y agua**
+Emiten luz ultravioleta de onda corta (UV-C, 254nm) que destruye bacterias,
+virus y hongos alterando su ADN. Se usan en:
+- Purificadores de aire en hospitales, clínicas y laboratorios
+- Depuración de agua (acuarios, piscinas, industria alimentaria)
+- Cámaras de desinfección en quirófanos y salas limpias
+- OSRAM PURITEC HNS 9W G23: tubo compacto germicida, casquillo G23
+- PHILIPS TUV PL-L 36W: tubo germicida de mayor potencia para sistemas de agua
+⚠️ PRECAUCIÓN: La luz UV-C es peligrosa para la piel y los ojos. Nunca encender
+con personas presentes sin protección.
+
+**UVA (luz negra) — efectos y atrapaluz**
+Emiten ultravioleta de onda larga (UV-A, 365nm), visible como luz violeta/negra.
+Usos:
+- Discotecas y efectos especiales (hace brillar lo blanco y fluorescente)
+- Trampas para insectos (moscas, mosquitos — se atraen hacia el UV)
+- Inspección de tintas fluorescentes y billetes en seguridad
+- Polimerización de resinas UV en odontología e industria
+- PHILIPS PL-L 18W/10/4P UV-A: lámpara de 4 pines para equipos profesionales
+- PHILIPS TUV 15W G13: tubo desinfección UVA
+
+**OSRAM NATURA — reproducción de colores para alimentos**
+Tubo fluorescente con espectro especialmente equilibrado para hacer que los
+alimentos (carne, fruta, verdura) se vean con colores apetecibles.
+IRC muy alto (Ra>90). Se usa en charcuterías, fruterías y lineales de supermercado.
+
+**PARTE 2 — ACCESORIOS PARA LÁMPARAS DE SEÑALIZACIÓN**
+
+Son las lentes de repuesto o adicionales para las torretas SCHNEIDER (Harmony XVB/XVU).
+La lente es la "cúpula de color" de la torreta — se puede cambiar o añadir sin
+sustituir todo el módulo.
+- Lente fija roja / verde / amarilla / blanca
+- Lente intermitente naranja / roja (la luz parpadea en lugar de ser fija)
+El intermitente se usa para llamar la atención en alarmas — visualmente más urgente
+que una luz fija.
+
+Lo que facilita:
+- Desinfección profesional sin productos químicos (UV-C).
+- Iluminación especializada para conservas, alimentos y efectos especiales.
+- Mantenimiento y personalización de torretas de señalización industrial.
+
+============================================================
+
+MODELOS EN ARAIZ (~183 artículos combinados)
+--------------------------------------------------------------
+| Tipo                         | Marca    | Ejemplo                          | Para qué                              |
+|------------------------------|----------|----------------------------------|---------------------------------------|
+| Germicida 9W G23             | OSRAM    | PURITEC HNS 9W G23               | Desinfección aire/agua pequeño volumen|
+| Germicida PL-L 36W           | PHILIPS  | TUV PL-L 36W 4 polos             | Sistemas desinfección agua industrial |
+| UV-A 15W desinfección        | PHILIPS  | Fluorescente TUV 15W             | Atrapaluz, efectos, inspección UV     |
+| UV-A 18W PL-L 4 pines        | PHILIPS  | PL-L 18W/10/4P G23               | Equipos profesionales UV-A            |
+| NATURA 18W alimentación      | OSRAM    | NATURA L18W/76                   | Iluminar carne/fruta en comercios     |
+| Lente fija roja torreta      | SCHNEIDER| Lente fija rojo                  | Repuesto/cambio color torreta         |
+| Lente fija verde torreta     | SCHNEIDER| Lente fija verde                 | Repuesto/cambio color torreta         |
+| Lente intermitente naranja   | SCHNEIDER| Lente intermitente naranja       | Alarma visual parpadeante             |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                                | Por qué la necesitas                                        |
+|----|----------------------------------------------------------|-------------------------------------------------------------|
+| 1  | Es para desinfección de aire o de agua?                 | Aire → potencia baja; Agua → potencia mayor, carcasa IP     |
+| 2  | Qué modelo de torreta SCHNEIDER tiene?                  | Las lentes son específicas por modelo (XV6, XVB, XVU...)    |
+| 3  | La lente que necesita es fija o intermitente?           | Alarma urgente → intermitente; estado estable → fija        |
+| 4  | Es para un expositor de alimentos?                      | Sí → OSRAM NATURA (IRC>90 para carnes y frutas)             |
+
+CONSEJO: Las lámparas germicidas y UV son una venta muy especializada —
+el cliente que las pide normalmente ya sabe exactamente lo que necesita
+(referencia exacta del equipo). Si no la sabe, escalar al técnico de Araiz.
+Las lentes de torreta son un repuesto de mantenimiento frecuente en fábricas:
+se rompen o el cliente quiere cambiar el código de colores de sus máquinas.
+
+============================================================
+Fuentes:
+- OSRAM germicidas: https://www.osram.es/uv/
+- PHILIPS TUV: https://www.lighting.philips.es/
+- SCHNEIDER torretas: https://www.se.com/es/es/product-range/2306-harmony-xvb/
+============================================================

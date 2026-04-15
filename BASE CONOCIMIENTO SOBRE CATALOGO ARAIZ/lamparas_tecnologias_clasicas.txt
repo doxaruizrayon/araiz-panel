@@ -1,0 +1,105 @@
+CUADRO RESUMEN — LÁMPARAS TECNOLOGÍAS CLÁSICAS (descarga, fluorescentes, halógenas, compactas, incandescentes)
+Familia: Iluminación > Lámparas y bombillas > Descarga / Fluorescentes / Halógenas / Compactas / Incandescentes
+Ejemplo en Araiz: OSRAM NAV-T 70W E27 / PHILIPS CDM-TC 70W G8.5 / OSRAM Halopar 50W / PHILIPS Genie E14 8W / PHILIPS EcoClassic 28W
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"tipos de lámparas tecnologías iluminación diferencias" o "lámpara descarga halogenuro metálico para qué sirve"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Son las tecnologías de iluminación anteriores al LED. Aunque en instalaciones nuevas
+ya no se usan (o se usan muy poco), siguen vendiéndose como repuesto para
+instalaciones existentes que no han sido actualizadas. El electricista o el cliente
+de mantenimiento las pide para sustituir una lámpara fundida sin cambiar toda la armadura.
+
+**1. LÁMPARAS DE DESCARGA (vapor de sodio, halogenuro metálico)**
+Tecnología de alta potencia para grandes instalaciones: naves industriales con
+techo muy alto, alumbrado público antiguo, estadios, polideportivos.
+Necesitan un equipo auxiliar (balastro + arrancador + condensador) para funcionar.
+Tipos habituales:
+- **NAV (vapor de sodio alta presión):** luz amarilla-dorada muy eficiente.
+  OSRAM NAV-T 70W E27. Se usa en alumbrado público antiguo y naves.
+- **HQI / CDM / CMH (halogenuro metálico):** luz blanca de alta calidad cromática.
+  PHILIPS CDM-TC 70W G8.5, OSRAM HCI-TS 150W. Para tiendas y escaparates de alta gama.
+- **HQL (vapor de mercurio):** ya en desuso, sustituido por sodio o halogenuro.
+
+**2. TUBOS FLUORESCENTES T8 Y T5**
+Tubo de vidrio con polvo fluorescente y vapor de mercurio. Se activan con balastro.
+- **T8 (26mm):** el estándar durante décadas en oficinas y talleres. Longitudes 600/900/1200/1500mm.
+  OSRAM LUMILUX L30/865. Prácticamente sustituido por LED, pero siguen vendiéndose como repuesto.
+- **T5 (16mm):** más eficiente que T8 y más delgado. Longitudes diferentes a T8 (549mm, 1149mm).
+  OSRAM LUMILUX FH14/FH28 HE (High Efficiency). Requiere balastro específico T5.
+- **T5-HO (High Output):** alta potencia para espacios donde se necesita mucha luz en poco espacio.
+
+**3. LÁMPARAS HALÓGENAS**
+Bombillas con filamento de tungsteno y gas halógeno. Luz cálida y excelente IRC (100).
+Ya prohibidas en su mayoría por normativa energética europea desde 2018.
+Se siguen vendiendo como repuesto en instalaciones antiguas:
+- **GU5.3 / MR16 (12V):** dicroicos para focos empotrados. OSRAM DECOSTAR 50W GU5.3.
+- **G9 (230V):** para apliques y lámparas de diseño. OSRAM 20W G9.
+- **PAR20 (E27, 230V):** reflector PAR para focos. PHILIPS HALOPAR PAR20 50W.
+- **Lámpara emergencia E10 3,6V:** la pequeña lámpara de la señal de emergencia antigua.
+  PRILUX 3,6V 0,45A E10 — repuesto para cartelería de emergencia analógica.
+
+**4. LÁMPARAS COMPACTAS (bajo consumo / CFL)**
+La "bombilla de bajo consumo" en espiral que precedió al LED. Casquillos E27, E14, G24.
+Consumo un 75% menor que incandescente pero de 5 a 10 veces más que LED.
+Prácticamente sustituidas por LED, siguen en uso en instalaciones antiguas:
+- PHILIPS Genie E14 8W/827: para apliques y lámparas de mesa
+- OSRAM DULUX D/E 13W G24: para downlights con portalámparas específico
+- PHILIPS TL MINI 13W G5: tubo compacto para apliques de bajo perfil
+
+**5. LÁMPARAS INCANDESCENTES ESPECIALES**
+Las bombillas de filamento estándar están prohibidas en Europa desde 2012.
+Siguen vendiéndose solo versiones especiales para usos concretos:
+- **Horno:** resisten temperaturas de hasta 300°C. OSRAM Horno Pebetero 15W E14.
+- **Lámpara de señalización pequeña:** para pilotos de máquinas. OSRAM T26/57 15-25W E14.
+- **Reflectoras:** para proyectores y escaparates antiguos. SYLVANIA BRS-40M R80 E27.
+
+Lo que facilita:
+- Mantenimiento de instalaciones antiguas sin obra ni cambio de armadura.
+- Repuestos específicos para equipos que no admiten LED (hornos, señalización analógica).
+
+============================================================
+
+MODELOS EN ARAIZ (~500 artículos combinados)
+--------------------------------------------------------------
+| Tipo                       | Marca    | Ejemplo                           | Para qué                              |
+|----------------------------|----------|-----------------------------------|---------------------------------------|
+| Vapor sodio 70W E27        | OSRAM    | NAV-T 70W SUPER E27               | Alumbrado público y nave antiguo      |
+| Halogenuro metálico 70W    | PHILIPS  | CDM-TC 70W/842 G8.5               | Tiendas, escaparates calidad          |
+| Tubo T8 36W 1200mm         | OSRAM    | LUMILUX L30/865 30W               | Repuesto armadura T8 existente        |
+| Tubo T5 HE 14W 549mm       | OSRAM    | LUMILUX FH14/830HE                | Repuesto armadura T5 (más delgado)    |
+| Dicroico halógeno GU5.3    | OSRAM    | DECOSTAR 50W GU5.3 24°            | Foco empotrado antiguo 12V            |
+| Halógena G9 20W            | OSRAM    | Lámpara 20W 230V G9               | Aplique o luminaria diseño con G9     |
+| CFL E14 8W                 | PHILIPS  | Genie6YR E14 8W/827               | Repuesto bajo consumo en aplique      |
+| CFL G24 13W                | OSRAM    | DULUX D/E 13W/827 G24q-1          | Downlight con portalámparas G24       |
+| Incandescente horno 15W    | OSRAM    | Pebetero 15W 230V E14             | Horno doméstico / industrial          |
+| Señalización E10 3,6V      | PRILUX   | Lámpara emergencia 3,6V E10       | Cartelería emergencia analógica       |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                              | Por qué la necesitas                                        |
+|----|-------------------------------------------------------|-------------------------------------------------------------|
+| 1  | Qué tecnología tiene la armadura? (sodio/halogenuro)  | Define exactamente el tipo de lámpara de repuesto           |
+| 2  | Qué casquillo tiene la lámpara fundida?               | E27, E14, G9, GU5.3, G24, R7s... son todos distintos        |
+| 3  | Puede ver la referencia en la lámpara fundida?        | La ref. del fabricante es lo más fiable para dar el repuesto|
+| 4  | Ha considerado actualizar a LED?                      | Muchas armaduras admiten retrofit LED — ahorro enorme        |
+| 5  | Es para horno o uso especial?                         | Las lámparas de horno son específicas — no usar normales     |
+
+CONSEJO: Cuando el cliente pide una lámpara de descarga o fluorescente,
+siempre preguntarle si ha valorado la actualización a LED. En muchos casos
+el payback (recuperación de inversión) por ahorro energético es de 1-2 años.
+Las únicas excepciones donde el LED no es fácil son las lámparas de horno,
+algunas señalizaciones analógicas y equipos con dimmer muy específico.
+
+============================================================
+Fuentes:
+- OSRAM lámparas: https://www.osram.es/
+- PHILIPS lámparas: https://www.lighting.philips.es/
+============================================================

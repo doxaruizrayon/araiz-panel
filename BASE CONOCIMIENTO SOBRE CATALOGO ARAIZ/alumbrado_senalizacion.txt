@@ -1,0 +1,96 @@
+CUADRO RESUMEN — ALUMBRADO DE SEÑALIZACIÓN (balizas, torretas, pilotos luminosos industriales)
+Familia: Iluminación > Alumbrado industrial y de seguridad > Alumbrado de señalización
+Ejemplo en Araiz: SCHNEIDER Baliza 4 etapas RAGB 24V LED / SCHNEIDER Torreta modular XV6 / SCHNEIDER Elemento LED XVU rojo/verde
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"baliza señalización industrial LED colores" o "torreta luminosa máquina CNC instalación"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+El alumbrado de señalización industrial no ilumina espacios — indica estados.
+Son los pilotos, balizas y torretas que en una fábrica, almacén o cuadro eléctrico
+comunican visualmente si una máquina está en marcha, en fallo, en pausa o en
+modo de emergencia, sin que el operario tenga que acercarse a leer ningún display.
+
+Es el lenguaje visual de las instalaciones industriales. El color tiene un
+significado normalizado internacional (ISO 13850 / EN 60204):
+- **Rojo:** alarma, peligro, parada de emergencia
+- **Naranja/Ámbar:** aviso, precaución, fallo
+- **Verde:** funcionamiento normal, marcha, permiso
+- **Azul:** condición específica que requiere acción
+- **Blanco/Incoloro:** información general, neutro
+- **Zumbador:** alarma acústica (suele combinarse con la baliza luminosa)
+
+Tipos principales:
+
+**1. BALIZA COMPACTA (una sola luz)**
+Lámpara de señalización de un solo color, normalmente montada en máquina o cuadro.
+- SCHNEIDER Baliza luz 24V CA
+- Se usan como piloto de marcha, piloto de fallo o piloto de presencia de tensión
+
+**2. TORRETA MODULAR (varias etapas apilables)**
+La "torreta" es la señalización por excelencia en máquinas industriales (tornos,
+fresadoras, robots, transportadores). Se compone de módulos de colores apilables
+que se pueden combinar según las necesidades del proceso.
+- SCHNEIDER XV6: torreta modular diámetro 60mm, con elementos de colores intercambiables
+- SCHNEIDER XVU: elementos luminosos LED individuales (rojo, verde, ámbar, azul, blanco)
+- La base del tubo se vende por separado (base tubo 100mm negro)
+
+**3. BALIZA MULTIETAPA INTEGRADA**
+Baliza con varios colores y zumbador ya integrados en una sola unidad.
+Más compacta que la torreta modular, menos flexible para personalizar.
+- SCHNEIDER Baliza 4 etapas RAGB 24V LED zumbador (R=rojo, A=ámbar, G=verde, B=azul)
+
+Tensiones más comunes:
+- **24V DC:** la más habitual en automatización industrial (PLC, cuadros de control)
+- **230V AC:** para instalaciones directamente en red (balizas de aviso en naves)
+- **24V AC:** menos habitual, algunos equipos europeos
+
+Lo que facilita:
+- Indicación visual del estado de máquinas y procesos sin acercarse.
+- Alarmas sonoras + visuales combinadas para entornos ruidosos.
+- Cumplimiento de la directiva de maquinaria en señalización de estados.
+
+Lo que hay que saber:
+- La tensión (24V DC, 24V AC, 230V AC) es determinante — no son intercambiables.
+- Los elementos de la torreta modular XV6 son específicos de SCHNEIDER — no mezclar marcas.
+
+============================================================
+
+MODELOS EN ARAIZ (~730 artículos)
+--------------------------------------------------------------
+| Tipo                         | Marca     | Ejemplo                                     | Para qué                              |
+|------------------------------|-----------|---------------------------------------------|---------------------------------------|
+| Torreta modular lente blanca | SCHNEIDER | Harmony XV6 60mm lente blanca fija          | Señalización máquina, personalizable  |
+| Baliza 4 etapas + zumbador   | SCHNEIDER | Baliza RAGB 24V LED zumbador                | Señalización completa proceso         |
+| Baliza simple 24V            | SCHNEIDER | Baliza luz 24V CA                           | Piloto de estado en cuadro o máquina  |
+| Base para torreta 100mm      | SCHNEIDER | Base tubo 100mm negro                       | Soporte estándar de torretas          |
+| Elemento LED rojo XVU        | SCHNEIDER | Elemento luminoso LED XVU rojo              | Módulo alerta/parada para torreta     |
+| Elemento LED verde XVU       | SCHNEIDER | Elemento luminoso LED XVU verde             | Módulo marcha/OK para torreta         |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                              | Por qué la necesitas                                        |
+|----|-------------------------------------------------------|-------------------------------------------------------------|
+| 1  | Es para máquina, cuadro o nave?                      | Define el tamaño y tipo de baliza                           |
+| 2  | Cuántos estados distintos necesita indicar?          | Cada estado = un color (o un módulo de torreta)             |
+| 3  | Qué tensión tiene disponible? (24V DC / 230V AC)     | Imprescindible — si no coincide, no funciona               |
+| 4  | Necesita también alarma sonora (zumbador)?           | Entornos ruidosos → sí; oficinas → normalmente no          |
+| 5  | Los módulos son de SCHNEIDER o de otra marca?        | Los módulos de torreta no son intercambiables entre marcas  |
+
+CONSEJO: El alumbrado de señalización casi siempre lo pide el departamento
+de mantenimiento o el integrador de automatización, no el electricista general.
+Suelen saber exactamente lo que quieren (referencia, tensión, color). Si el
+cliente no sabe la referencia, la pregunta clave es: "¿A qué tensión trabaja
+el cuadro de control?" — con eso ya se acota la selección.
+
+============================================================
+Fuentes:
+- SCHNEIDER Harmony: https://www.se.com/es/es/product-range/2306-harmony-xvb/
+- Normativa señalización maquinaria: ISO 13850, EN 60204-1
+============================================================

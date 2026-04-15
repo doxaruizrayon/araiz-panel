@@ -1,0 +1,82 @@
+CUADRO RESUMEN — LUMINARIAS PARA HÁBITAT Y COMERCIAL (paneles LED, luminarias de techo, oficina, tiendas)
+Familia: Iluminación > Alumbrado de interior > Luminarias para hábitat y comercial
+Ejemplo en Araiz: LEDVANCE Panel LED PL COMP 1200x600V 53W 840 / SIMON Luminaria modular 729.50 60x60 4000K
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"luminaria LED panel 60x60 instalación" o "luminaria oficina LED empotrada techo"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Son las luminarias destinadas a iluminar espacios interiores habitables:
+viviendas, oficinas, tiendas, hoteles, restaurantes, colegios y hospitales.
+Es el grupo más amplio de iluminación interior — incluye desde una lámpara de techo
+doméstica hasta un panel LED de 60x60 para oficina de 300 personas.
+
+El formato más vendido hoy es el panel LED de 60x60 cm, que sustituye a los antiguos
+fluorescentes en techos de escayola tipo Armstrong. Se empotran en el techo o se
+cuelgan con cables y dan una luz uniforme y eficiente.
+
+Tipos principales:
+
+**1. PANELES LED (los más vendidos en oficinas y comercios)**
+Luminaria plana cuadrada o rectangular que encaja en techos modulares de 60x60 o
+60x120 cm. Luz muy uniforme, bajo consumo. Los hay empotrados (para falso techo)
+y de superficie (para techos lisos).
+- Potencias habituales: 36W, 40W, 53W
+- Temperaturas de color: 840 = blanco neutro (oficinas), 865 = blanco frío (talleres)
+- Marcas en Araiz: LEDVANCE, SIMON
+
+**2. LUMINARIAS MODULARES (tipo grid/troffers)**
+Luminarias rectangulares para techos modulares. Más sofisticadas que los paneles:
+incorporan difusores especiales para evitar deslumbramiento en pantallas de ordenador.
+Se usan en oficinas de alta calidad.
+- Marca destacada: SIMON (serie 729)
+
+**3. LUMINARIAS INDUSTRIALES PARA INTERIOR ALTO (>6m)**
+Para naves con techos altos. No confundir con las del grupo "Alumbrado industrial".
+- Marca destacada: SIMON LIGHTING (serie 816)
+- Potencias altas: 160W, 19.500 lm
+
+Lo que facilita:
+- Iluminar cualquier espacio interior con bajo consumo y larga vida útil (>50.000h).
+- Cumplir los niveles de iluminancia requeridos por el RITE y normativa laboral.
+- Sustituir instalaciones antiguas de fluorescentes por LED sin obras.
+
+============================================================
+
+MODELOS EN ARAIZ (~2.600 artículos)
+--------------------------------------------------------------
+| Tipo                       | Marca         | Ejemplo                        | Para qué                          |
+|----------------------------|---------------|--------------------------------|-----------------------------------|
+| Panel LED 60x60 empotrado  | LEDVANCE      | PL COMP 1200x600V 53W 840      | Oficinas, falso techo             |
+| Panel LED superficie        | LEDVANCE      | Kit montaje superficie 1200    | Techos sin falso techo            |
+| Luminaria modular 60x60    | SIMON         | 729.50 60x60 4000K             | Oficinas de alta calidad          |
+| Luminaria industrial        | SIMON LIGHTING| 816.41 NW GN 160W              | Naves, almacenes (techo alto)     |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                              | Por qué la necesitas                                        |
+|----|-------------------------------------------------------|-------------------------------------------------------------|
+| 1  | Tipo de espacio? (oficina, tienda, vivienda, nave)    | Define el tipo de luminaria y el nivel de iluminación       |
+| 2  | Tiene falso techo modular de 60x60?                   | Sí → panel empotrado / No → panel de superficie o aplique  |
+| 3  | Altura del techo?                                     | >6m → luminaria de alto rendimiento; <4m → panel estándar  |
+| 4  | Temperatura de color preferida?                       | 3000K cálido (tiendas/hoteles), 4000K neutro (oficinas)     |
+| 5  | Cuántos m² tiene el local?                           | Para calcular el número de luminarias necesarias            |
+| 6  | Hay pantallas de ordenador? Se necesita anti-deslumbramiento? | Sí → luminaria con difusor UGR<19                   |
+
+CONSEJO: En oficinas con ordenadores siempre preguntar si necesitan UGR bajo
+(Unified Glare Rating — índice de deslumbramiento). Un panel estándar puede
+molestar a las personas que trabajan de cara a la ventana. Las luminarias SIMON
+modulares ya incorporan control de deslumbramiento. Si el cliente dice que "la luz
+molesta en las pantallas", la solución es una luminaria con UGR<19.
+
+============================================================
+Fuentes:
+- LEDVANCE paneles: https://www.ledvance.es/productos/luminarias/
+- SIMON iluminación: https://www.simonlighting.com/es/
+============================================================

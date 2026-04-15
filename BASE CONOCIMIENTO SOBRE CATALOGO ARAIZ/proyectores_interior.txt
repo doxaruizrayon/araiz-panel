@@ -1,0 +1,92 @@
+CUADRO RESUMEN — PROYECTORES DE INTERIOR (focos LED orientables, floodlights interiores)
+Familia: Iluminación > Alumbrado de interior > Proyectores
+Ejemplo en Araiz: LEDVANCE Proyector FL 10P 8W 840 / CONALUX Proyector LED P6000 30W / PHILIPS Plafón foco FREMONT 4W
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"proyector LED interior instalación" o "foco LED orientable exterior vs interior"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Un proyector es una luminaria con un haz de luz concentrado y dirigible.
+A diferencia de un panel (que ilumina en área) o un downlight (que ilumina un punto
+fijo hacia abajo), el proyector puede orientarse para iluminar exactamente donde
+se quiere: una fachada interior, un expositor, un cuadro, una zona de trabajo.
+
+Aunque en este grupo están catalogados bajo "interior", muchos proyectores son
+reversibles (sirven para interior y exterior) según su grado IP.
+
+Tipos principales:
+
+**1. PROYECTOR COMPACTO (8W–30W) — iluminación acento**
+Pequeño y ligero, se usa para iluminar objetos concretos: escaparates, cuadros,
+zonas de producto en tienda, fachadas interiores. Se monta en techo o pared.
+- Marcas en Araiz: LEDVANCE (serie FL P), CONALUX (serie P5000/P6000)
+- El PHILIPS FREMONT es un plafón con foco integrado para vivienda
+
+**2. PROYECTOR MEDIANO (30W–100W) — iluminación fachadas y polivalente**
+Para iluminar fachadas interiores grandes, almacenes, parking, zonas deportivas
+cubiertas. También se usa en exterior cuando tiene IP65 o superior.
+- Marcas en Araiz: LEDVANCE, CONALUX
+
+**3. PROYECTOR POTENTE (150W–300W) — grandes superficies**
+Para naves industriales con techo alto (>8m), polideportivos, grandes almacenes.
+Alto flujo luminoso (25.000–41.000 lm). Requieren instalación fija y cableado de
+sección mayor que los compactos.
+- Marcas en Araiz: LEDVANCE (FL 250 P 167W, ECO HP FLOOD 300W)
+
+Dato clave — ángulo de apertura:
+- Haz estrecho (15°–30°): para iluminar objetos lejanos o crear efectos de acento
+- Haz medio (40°–60°): uso general
+- Haz abierto (80°–120°): para inundar de luz una zona amplia (similar a un panel)
+
+Lo que facilita:
+- Iluminación dirigida sin necesidad de falso techo.
+- Resaltar productos en comercios (iluminación de acento).
+- Iluminar naves y polideportivos con techos altos.
+
+Lo que hay que saber:
+- Un proyector de 300W consume tanto como 3 termos de agua caliente — solo para
+  instalaciones grandes con muchas horas de uso se justifica frente a soluciones
+  más eficientes.
+- Muchos proyectores de interior y exterior son el mismo producto; la diferencia
+  es el IP y el tipo de montaje.
+
+============================================================
+
+MODELOS EN ARAIZ (~1.900 artículos)
+--------------------------------------------------------------
+| Tipo                     | Marca    | Ejemplo                          | Para qué                          |
+|--------------------------|----------|----------------------------------|-----------------------------------|
+| Proyector compacto 8W    | LEDVANCE | FL 10 P 8W 1K2LM 840 negro       | Escaparates, iluminación acento   |
+| Proyector 30W            | CONALUX  | P6000 30W 6000K blanco            | Almacén, parking cubierto         |
+| Proyector 50W            | CONALUX  | P5000 50W 3000K gris              | Naves medianas, polideportivos    |
+| Proyector gran potencia  | LEDVANCE | FL 250 P 167W 25KLM 865 negro    | Grandes naves, polideportivos     |
+| Proyector 300W eco       | LEDVANCE | ECO HP FLOOD 300W 41100lm negro  | Instalaciones industriales        |
+| Plafón con foco          | PHILIPS  | FREMONT LED 4W cromo mate         | Vivienda, iluminación acento      |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                            | Por qué la necesitas                                      |
+|----|-----------------------------------------------------|-----------------------------------------------------------|
+| 1  | Interior o exterior? O los dos?                    | Define el IP necesario (IP44 interior, IP65 exterior)     |
+| 2  | Qué quiere iluminar exactamente?                   | Objeto concreto → compacto; zona grande → potente         |
+| 3  | A qué altura va instalado?                         | >8m → proyector de alta potencia con haz concentrado      |
+| 4  | Temperatura de color? (3000K cálido / 6000K frío)  | Comercios suelen pedir cálido (3000K)                     |
+| 5  | Cuántos m² o metros lineales quiere iluminar?      | Para calcular potencia y número de unidades               |
+
+CONSEJO: El proyector es una de esas referencias donde el cliente suele pedir
+"algo para iluminar esto" sin saber el nombre. Con la descripción del espacio
+y la distancia al objeto a iluminar es suficiente para orientarle.
+Si el cliente tiene una tienda y quiere "resaltar los productos", la solución
+son proyectores compactos en carril (ver cuadro de Estructuras decorativas).
+
+============================================================
+Fuentes:
+- LEDVANCE proyectores: https://www.ledvance.es/productos/luminarias/proyectores/
+- CONALUX: https://www.conalux.com/
+============================================================

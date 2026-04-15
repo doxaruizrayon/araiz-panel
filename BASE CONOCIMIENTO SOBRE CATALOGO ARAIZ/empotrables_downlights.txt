@@ -1,0 +1,94 @@
+CUADRO RESUMEN — EMPOTRABLES Y DOWNLIGHTS (focos empotrados de techo, spots LED)
+Familia: Iluminación > Alumbrado de interior > Empotrables y downlights
+Ejemplo en Araiz: LEDVANCE Downlight DL SLIM ALU D205 19W 840 / CONALUX Downlight 54028 LED 6W 4000K
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"instalar downlight LED empotrable techo" o "diferencia downlight empotrable ojo de buey"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Un downlight (también llamado empotrable o "ojo de buey") es una luminaria que se
+instala dentro del techo, dejando visible solo la cara frontal. Da una luz dirigida
+hacia abajo, limpia y discreta. Es el tipo de iluminación más habitual en viviendas
+reformadas, hoteles, restaurantes y locales comerciales modernos.
+
+La diferencia con un panel LED es estética y funcional: el panel ilumina en área
+(toda una zona de forma uniforme) mientras que el downlight ilumina en punto
+(un foco concreto), aunque colocando varios se consigue iluminación general.
+
+Partes de un downlight:
+- **Aro o marco:** la parte visible desde abajo (blanco, negro, cromado, níquel)
+- **Cuerpo (housing):** la parte que queda dentro del techo con la electrónica
+- **LED y driver:** la fuente de luz y su controlador de corriente
+
+Tipos principales:
+
+**1. DOWNLIGHT FIJO (el más común)**
+Emite luz recta hacia abajo. Se usa para iluminación general de techos.
+- Diámetros habituales: D90, D105, D155, D205 mm (el hueco que hay que hacer en el techo)
+- Potencias habituales: 6W, 9W, 12W, 19W, 25W
+- Marcas en Araiz: LEDVANCE, CONALUX
+
+**2. DOWNLIGHT ORIENTABLE**
+El cuerpo puede inclinarse para dirigir el haz. Se usa para iluminar cuadros,
+estanterías o zonas específicas sin instalar un proyector de carril.
+
+**3. DOWNLIGHT IP44 (para baños y cocinas)**
+El grado IP44 significa que está protegido contra salpicaduras de agua.
+Obligatorio en zonas húmedas: baños, cocinas, vestuarios, piscinas cubiertas.
+Se reconoce porque el fabricante lo indica con "IP44" en el nombre.
+- Marcas en Araiz: LEDVANCE (DL IP44 FRAME)
+
+**4. MARCOS Y AROS DE REPUESTO**
+Los marcos se venden por separado del cuerpo. Sirven para cambiar el acabado
+(blanco a negro, por ejemplo) sin cambiar toda la luminaria, o como repuesto.
+Los marcos son específicos por diámetro y marca — no son intercambiables.
+
+Lo que facilita:
+- Iluminación elegante y discreta sin luminarias colgantes.
+- Uso en baños y zonas húmedas con versión IP44.
+- Reformas: se empotran en el falso techo existente con un simple hueco de sierra.
+
+Lo que hay que saber:
+- Necesitan falso techo (mínimo 8-10 cm de profundidad) para empotrarse.
+- Sin falso techo → aplique de superficie o plafón.
+
+============================================================
+
+MODELOS EN ARAIZ (~2.400 artículos)
+--------------------------------------------------------------
+| Tipo                    | Marca    | Ejemplo                       | Para qué                         |
+|-------------------------|----------|-------------------------------|----------------------------------|
+| Downlight slim fijo     | LEDVANCE | DL SLIM ALU D205 19W 840      | Viviendas, oficinas              |
+| Downlight básico IP44   | CONALUX  | 54028 LED 6W 4000K            | Baños, cocinas, economico        |
+| Marco redondo D210      | LEDVANCE | Marco DL DN210 blanco         | Repuesto / cambio estético       |
+| Marco IP44 D215         | LEDVANCE | DL IP44 FRAME DN215 blanco    | Zona húmeda                      |
+| Downlight 25W           | LEDVANCE | Downlight LED 25W 6500K       | Espacios grandes, alto flujo     |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                            | Por qué la necesitas                                       |
+|----|-----------------------------------------------------|------------------------------------------------------------|
+| 1  | Hay falso techo? De qué grosor?                    | Sin falso techo no se pueden empotrables                   |
+| 2  | Es para baño, cocina o zona húmeda?                | Sí → obligatorio IP44                                      |
+| 3  | Qué diámetro de hueco tiene ya hecho?              | Los marcos van por diámetro — D90, D105, D155, D205…       |
+| 4  | Quiere solo el marco o también el cuerpo LED?      | A veces piden solo el marco como repuesto                  |
+| 5  | Color del aro? (blanco, negro, cromo, níquel)      | Los acabados disponibles varían por modelo                 |
+| 6  | Temperatura de color? (cálido 3000K / neutro 4000K)| Viviendas suelen pedir 3000K, oficinas 4000K               |
+
+CONSEJO: Cuando el cliente dice "quiero focos de techo" casi siempre habla de downlights.
+La primera pregunta es si tiene falso techo — si no lo tiene, la solución correcta
+es un aplique de superficie o un plafón, no un empotrable.
+El IP44 es muy habitual en reformas de baños — preguntar siempre si hay algún
+punto de luz en zona de ducha o bañera.
+
+============================================================
+Fuentes:
+- LEDVANCE downlights: https://www.ledvance.es/productos/luminarias/downlights/
+- CONALUX: https://www.conalux.com/
+============================================================

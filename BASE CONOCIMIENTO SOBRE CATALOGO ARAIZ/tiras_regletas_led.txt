@@ -1,0 +1,92 @@
+CUADRO RESUMEN — TIRAS Y REGLETAS LED (tiras flexibles, cintas LED, strips)
+Familia: Iluminación > Alumbrado de interior > Tiras y regletas LED
+Ejemplo en Araiz: NEXIA Tira LED Colosseo 14,4W 1354lm/m 3000K / NEXIA Tira LED 230V 100m / PRILUX Regleta ARGOS LED
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"instalar tira LED bajo mueble cocina" o "tira LED 12V vs 24V diferencias"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Una tira LED (también llamada cinta LED o strip LED) es una tira flexible con
+LEDs soldados a intervalos regulares. Se puede cortar, pegar y doblar, lo que
+permite iluminar superficies donde no cabe ninguna otra luminaria: bajo los
+muebles de cocina, detrás de televisores, en perfiles de escaleras, en cornisas
+decorativas o en expositores.
+
+La regleta LED es la versión rígida: una barra de aluminio con LEDs integrados.
+Más robusta, más lumínica y más fácil de instalar en superficies planas.
+
+Tipos principales:
+
+**1. TIRA LED DE BAJA TENSIÓN (12V o 24V) — la más habitual**
+Necesita un transformador/driver para bajar de 230V a 12V o 24V.
+Ventajas: segura, se puede cortar fácilmente cada 3-5 LEDs, flexible.
+Inconveniente: hay que añadir el driver (un coste más).
+Se vende por metro o en rollos de 5m.
+- Marcas en Araiz: NEXIA (Colosseo, Picadilly, Picadilly mini)
+- Potencias típicas: 4,8W/m (decorativa), 9,6W/m (media), 14,4W/m (alta)
+
+**2. TIRA LED 230V — sin transformador**
+Se conecta directamente a la red eléctrica. Más fácil de instalar en
+tramos largos (no hay caída de tensión). Ideal para almacenes, pasillos,
+instalaciones de 100m lineales.
+- Marcas en Araiz: NEXIA (Tira LED 230V 120 LED 15W 100m)
+- Inconveniente: menos flexible para cortar, requiere más precauciones de seguridad
+
+**3. REGLETA LED RÍGIDA**
+Barra de aluminio de longitud fija (600mm, 1200mm, 1500mm) con LEDs integrados.
+Más resistente mecánicamente que la tira flexible. IP65 disponible para zonas húmedas.
+Se usa en talleres, almacenes, garajes, cocinas industriales.
+- Marcas en Araiz: PRILUX (ARGOS LED, DACIL LED)
+
+Términos clave:
+- **lm/m (lúmenes por metro):** indica cuánta luz da. 400 lm/m = decorativa; 1.300 lm/m = funcional
+- **IP (grado de protección):** IP20 = interior seco; IP65 = salpicaduras/ducha; IP68 = sumergible
+- **CCT (temperatura de color):** 3000K cálido (hogar), 4000K neutro (cocina/comercio), 6000K frío (taller)
+- **IRC (índice de reproducción de color):** >80 para uso general; >90 para joyería/textil/museística
+
+Lo que facilita:
+- Iluminación de espacios donde no caben luminarias convencionales.
+- Iluminación decorativa y ambiental (detrás de muebles, cornisas, retroiluminación).
+- Instalaciones lineales largas sin juntas visibles.
+
+============================================================
+
+MODELOS EN ARAIZ (~1.000 artículos)
+--------------------------------------------------------------
+| Tipo                      | Marca  | Ejemplo                              | Para qué                            |
+|---------------------------|--------|--------------------------------------|-------------------------------------|
+| Tira LED 14,4W/m 3000K   | NEXIA  | Colosseo 14,4W 1354lm/m (metro)      | Cocinas, comercio, alta luminosidad |
+| Tira LED 14,4W/m rollo5m | NEXIA  | Picadilly 14,4W 1195lm/m (5m)        | Instalaciones continuas             |
+| Tira LED 4,8W/m 3000K    | NEXIA  | Picadilly 4,8W 418lm/m (metro)       | Decorativa, bajo consumo            |
+| Tira LED 230V 100m        | NEXIA  | Tira 230V 120LED 15W 700lm 100m      | Almacenes, pasillos largos          |
+| Regleta LED estanca 40W   | PRILUX | DACIL LED 40W 230V 5637lm 6500K IP65 | Talleres, garajes, zonas húmedas    |
+| Regleta tubo LED 1200mm   | PRILUX | ARGOS LED G13 2x1200mm IP65          | Almacenes, pasillos industriales    |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                              | Por qué la necesitas                                        |
+|----|-------------------------------------------------------|-------------------------------------------------------------|
+| 1  | Cuántos metros lineales necesita?                    | Para calcular rollos/metros y potencia del driver           |
+| 2  | Uso decorativo o funcional (necesita leer/trabajar)? | Decorativo → baja densidad LED; funcional → alta densidad   |
+| 3  | Zona húmeda (baño, cocina, exterior)?                | Sí → mínimo IP65                                            |
+| 4  | Tiene ya transformador o necesita uno?               | Sin transformador 12/24V la tira no funciona               |
+| 5  | Va a cortar la tira en tramos cortos?                | Sí → 12V/24V; No → 230V más sencillo                       |
+| 6  | Temperatura de color? (cálido/neutro/frío)           | Hogar → 3000K; Cocina/comercio → 4000K; Taller → 6000K     |
+
+CONSEJO: La pregunta más olvidada es el driver (transformador). Una tira LED de 12V
+no sirve de nada sin su fuente de alimentación. Cuando el cliente pide tiras LED,
+preguntar siempre si ya tiene driver o si hay que incluirlo.
+Para instalaciones largas (>5m), el 24V aguanta mejor que el 12V sin caída de luz
+al final del tramo — dato técnico importante para no tener reclamaciones.
+
+============================================================
+Fuentes:
+- NEXIA tiras LED: https://www.nexia.es/
+- PRILUX regletas: https://www.prilux.com/
+============================================================

@@ -1,0 +1,95 @@
+CUADRO RESUMEN — EQUIPOS Y ACCESORIOS DE ILUMINACIÓN (sensores, balastros, drivers, kits de montaje)
+Familia: Iluminación > Equipos, linternas, pilas y otros > Equipos y accesorios
+Ejemplo en Araiz: LEDVANCE Sensor pared ON/OFF 110° IP44 / CONALUX Pastilla ON/OFF PUSH+WIFI 250W / OSRAM Equipo HF 2x36W DIM
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"sensor presencia iluminación instalación" o "driver LED qué es para qué sirve"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Este grupo recoge todos los equipos auxiliares que hacen funcionar o controlan
+las luminarias: los "cerebros" y los "interruptores inteligentes" de la iluminación.
+No son luminarias en sí — son los componentes que van detrás o junto a ellas.
+
+Tipos principales:
+
+**1. SENSORES DE PRESENCIA Y LUZ (detectores)**
+Se instalan en pared o techo y encienden/apagan la luz según si detectan
+movimiento o según el nivel de luz natural disponible.
+- Sensor de pared 110°: detecta movimiento en un semicírculo de 110°. Ideal para
+  pasillos, entradas y despachos.
+- IP44: versión para zonas húmedas (baños, exteriores cubiertos)
+- Marcas en Araiz: LEDVANCE (sensor pared ON/OFF 110° IP44 DG)
+- Se instalan sustituyendo el interruptor existente, sin obras adicionales
+
+**2. INTERRUPTORES INTELIGENTES (smart switches)**
+Pastillas que sustituyen al interruptor convencional y añaden control WiFi,
+temporización o control por pulsador. Compatibles con cargas LED.
+- CONALUX PUSH+WIFI 250W: permite controlar la luz desde el móvil o con pulsación física
+- Sin necesidad de cambiar el cableado existente
+- Potencia máxima importante: 250W LED es suficiente para la mayoría de estancias
+
+**3. BALASTROS ELECTRÓNICOS (para fluorescente)**
+El balastro es el componente que regula la corriente de los tubos fluorescentes.
+Sin balastro el fluorescente no funciona.
+- OSRAM Quicktronic DeLuxe 2x36W DIM: balastro regulable (dimable) para 2 tubos de 36W
+- CONALUX 2x36W: versión económica no regulable
+- Se venden como repuesto cuando el tubo funciona pero la luz parpadea o no arranca
+- T5 y T8 necesitan balastros diferentes — no son intercambiables
+
+**4. KITS DE MONTAJE Y ACCESORIOS**
+Soportes y kits para instalar paneles LED en techos sin falso techo o en
+superficies especiales.
+- LEDVANCE Kit montaje superficie VALUE panel 1200: para instalar el panel 60x120
+  directamente en techo liso sin necesidad de falso techo
+
+Términos clave:
+- **DIM / Dimable:** regulable en intensidad (se puede poner al 20%, 50%, 100%)
+- **HF (Alta Frecuencia):** balastro electrónico moderno (silencioso, sin parpadeo)
+  vs magnético antiguo (zumba y hace parpadear)
+- **Driver LED:** equivalente al balastro pero para LED. Convierte 230V AC en
+  tensión continua regulada para los LEDs
+
+Lo que facilita:
+- Ahorro energético automático gracias a sensores de presencia.
+- Control inteligente de la iluminación desde móvil sin cambiar el cableado.
+- Mantenimiento de instalaciones fluorescentes existentes (balastros de repuesto).
+
+============================================================
+
+MODELOS EN ARAIZ (~2.875 artículos)
+--------------------------------------------------------------
+| Tipo                        | Marca    | Ejemplo                              | Para qué                           |
+|-----------------------------|----------|--------------------------------------|------------------------------------|
+| Sensor pared 110° IP44      | LEDVANCE | Sensor ON/OFF 110° IP44 DG           | Pasillos, baños, entradas          |
+| Interruptor WiFi 250W LED   | CONALUX  | Pastilla ON/OFF PUSH+WIFI 250W LED   | Control móvil sin cambiar cableado |
+| Balastro 2x36W dimable      | OSRAM    | Quicktronic DeLuxe 2x36W DIM         | Fluorescente regulable T8          |
+| Balastro 2x36W estándar     | CONALUX  | Balasto electrónico 2x36W            | Repuesto fluorescente T8           |
+| Kit montaje superficie 1200 | LEDVANCE | Kit montaje superficie VALUE 1200    | Panel LED en techo sin falso techo |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                              | Por qué la necesitas                                        |
+|----|-------------------------------------------------------|-------------------------------------------------------------|
+| 1  | Es para zona húmeda (baño, exterior)?                | Sí → sensor IP44; No → sensor estándar IP20                |
+| 2  | El balastro es para tubo T5 o T8? Cuántos tubos?     | T5 y T8 necesitan balastros diferentes; 1 o 2 tubos también |
+| 3  | Necesita que sea regulable (dimable)?                | Si tiene regulador de luz → balastro dimable obligatorio    |
+| 4  | El kit de montaje es para qué modelo de panel?       | Los kits son específicos por modelo de luminaria            |
+| 5  | Quiere control WiFi o solo sensor físico?            | Define si necesita la pastilla inteligente o solo el sensor |
+
+CONSEJO: Los balastros son un repuesto muy habitual y de venta fácil.
+Cuando el cliente dice "el fluorescente parpadea o no arranca pero el tubo
+es nuevo", casi siempre es el balastro. Preguntar qué tubo tiene (T5/T8,
+longitud, número de tubos en la armadura) para dar la referencia correcta.
+
+============================================================
+Fuentes:
+- LEDVANCE sensores: https://www.ledvance.es/
+- OSRAM balastros: https://www.osram.es/
+- CONALUX smart: https://www.conalux.com/
+============================================================

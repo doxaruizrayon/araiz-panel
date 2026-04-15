@@ -1,0 +1,111 @@
+CUADRO RESUMEN — ALUMBRADO DE EMERGENCIA (luces de emergencia, señalización de evacuación)
+Familia: Iluminación > Alumbrado industrial y de seguridad > Alumbrado de emergencia
+Ejemplo en Araiz: LEGRAND URA21LED PLUS 100lm 1h / LEGRAND URA NEXT AUTOTEST 70lm / SCHNEIDER EXW-TREND IP65
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"luminaria emergencia obligatoria edificio instalación" o "diferencia emergencia permanente no permanente"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+La luminaria de emergencia es la que se enciende automáticamente cuando falla
+la luz normal. Su única función es iluminar las vías de evacuación para que
+las personas puedan salir del edificio con seguridad en caso de incendio,
+corte de suministro u otra emergencia.
+
+No es opcional: el Código Técnico de la Edificación (CTE DB SI) y el
+Reglamento de Instalaciones de Protección Contra Incendios (RIPCI) obligan
+a instalar alumbrado de emergencia en una larga lista de edificios y locales.
+
+¿Dónde es obligatoria?
+- Todos los locales de pública concurrencia (bares, tiendas, oficinas, colegios)
+- Escaleras y salidas de todos los edificios de uso colectivo
+- Aparcamientos con más de 5 plazas
+- Locales con riesgo de pánico (salas de espectáculos, hospitales)
+- Cualquier local con más de 100 personas
+
+Tipos principales:
+
+**1. EMERGENCIA NO PERMANENTE (la más habitual)**
+Solo se enciende cuando falla la luz normal. En condiciones normales está apagada.
+Lleva una batería interna que se recarga con la corriente normal y se activa
+al detectar el corte de suministro.
+- LEGRAND URA NEXT 70lm 1h
+- LEGRAND URA21LED PLUS 100lm 1h
+
+**2. EMERGENCIA PERMANENTE**
+Está encendida siempre, 24 horas, tanto con luz normal como en emergencia.
+Se usa en escaleras sin ventanas naturales, salas de cine, locales oscuros.
+- Las referencias de LEGRAND URA21LED PLUS admiten modo permanente/no permanente
+
+**3. EMERGENCIA CON AUTOTEST**
+Incorpora un sistema electrónico que comprueba automáticamente el estado de
+la batería y la lámpara periódicamente, sin necesidad de personal que lo haga.
+Genera un informe de estado. Obligatorio en muchos edificios públicos según
+el mantenimiento que exige el RIPCI.
+- LEGRAND URA NEXT AUTOTEST
+
+**4. EMERGENCIA ESTANCA (IP65)**
+Para zonas húmedas o exteriores: aparcamientos, cocinas industriales, naves.
+- SCHNEIDER EXW-TREND IP65 / LEGRAND Caja estanca IP65 para URA21LED
+
+**5. MARCOS DE EMPOTRAR**
+Accesorios para empotrar la luminaria de emergencia en falso techo, quedando
+al mismo nivel que el techo. Más estético que la emergencia de superficie.
+- LEGRAND Marco empotrar URA21LED PLUS para falso techo
+
+Términos clave:
+- **lm (lúmenes):** flujo de la emergencia en modo emergencia. El CTE exige mínimo
+  1 lux en el eje de los pasillos de evacuación y 5 lux ante las puertas de salida
+- **1h / 2h / 3h:** duración de la batería en emergencia. Edificios públicos → mínimo 1h
+- **Permanente / No permanente:** encendida siempre / solo en corte
+- **Autotest:** revisión automática de batería (evita el mantenimiento manual mensual)
+
+Lo que facilita:
+- Cumplimiento legal obligatorio en casi cualquier edificio o local comercial.
+- Evacuación segura en caso de incendio o corte de suministro.
+
+Lo que hay que saber:
+- Las emergencias tienen batería de NiCd o LiFePO4 con vida útil de 4-8 años.
+  Después hay que sustituirlas (o toda la luminaria).
+- El mantenimiento es obligatorio por ley — el autotest simplifica mucho este trabajo.
+
+============================================================
+
+MODELOS EN ARAIZ (~1.270 artículos)
+--------------------------------------------------------------
+| Tipo                          | Marca     | Ejemplo                                   | Para qué                             |
+|-------------------------------|-----------|-------------------------------------------|--------------------------------------|
+| Emergencia 70lm 1h            | LEGRAND   | URA NEXT 70lm 1h no permanente            | Escaleras, pasillos pequeños         |
+| Emergencia autotest 70lm      | LEGRAND   | URA NEXT AUTOTEST 70lm 1h                 | Locales donde se exige mantenimiento |
+| Emergencia 100lm 1h           | LEGRAND   | URA21LED PLUS 100lm 1h perm/no perm       | Locales con más afluencia            |
+| Marco empotrar URA21LED PLUS  | LEGRAND   | Marco empotrar falso techo blanco         | Instalación en falso techo           |
+| Caja estanca IP65 URA21LED    | LEGRAND   | Caja IP65 difusor transparente            | Aparcamientos, naves, exteriores     |
+| Emergencia estanca IP65       | SCHNEIDER | EXW-TREND IP65 LMR/110SA/1LFP            | Industrial, zonas húmedas            |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                              | Por qué la necesitas                                        |
+|----|-------------------------------------------------------|-------------------------------------------------------------|
+| 1  | Tipo de local? (bar, oficina, nave, parking…)         | Define la normativa aplicable y los lúmenes necesarios      |
+| 2  | Cuántos m² tiene el local y cuántas salidas?          | Para calcular el número de luminarias de emergencia         |
+| 3  | Necesita autotest o hace mantenimiento manual?        | Muchos clientes no saben que el autotest es casi obligatorio|
+| 4  | Va en falso techo o en superficie?                    | Superficie → estándar; Falso techo → necesita marco         |
+| 5  | Hay zonas húmedas (parking, cocina, exterior)?        | Sí → versión estanca IP65                                   |
+| 6  | Duración de batería necesaria? (1h / 3h)             | Uso residencial → 1h; hospitales y grandes locales → 3h    |
+
+CONSEJO: La emergencia es una venta casi segura cada vez que el cliente abre
+o reforma un local. Es obligatoria por ley y el instalador o la inspección
+de apertura la exigirán. Si el cliente menciona que va a abrir un negocio,
+preguntar siempre cuántas luminarias de emergencia necesita.
+El autotest es fácil de vender: "le ahorra las revisiones mensuales obligatorias".
+
+============================================================
+Fuentes:
+- LEGRAND emergencias URA: https://www.legrand.es/productos/iluminacion-de-seguridad/
+- Normativa: CTE DB SI, RIPCI (RD 513/2017)
+============================================================

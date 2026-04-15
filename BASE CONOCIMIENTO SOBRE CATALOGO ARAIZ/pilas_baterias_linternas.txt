@@ -1,0 +1,94 @@
+CUADRO RESUMEN — PILAS, BATERÍAS, ACUMULADORES Y LINTERNAS (portátiles de iluminación)
+Familia: Iluminación > Equipos, linternas, pilas y otros > Pilas/Baterías + Linternas
+Ejemplo en Araiz: LEGRAND Batería repuesto URA21LED 100lm / FAMATEL Lámpara portátil IP20 / LEGRAND Linterna recargable LED
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"batería repuesto luminaria emergencia" o "lámpara portátil obra taller"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Este grupo agrupa dos tipos de producto relacionados con la iluminación portátil
+y el suministro de energía para luminarias de emergencia.
+
+**PARTE 1 — BATERÍAS DE REPUESTO PARA EMERGENCIAS**
+
+Las luminarias de emergencia llevan una batería interna recargable que se degrada
+con el tiempo (vida útil: 4-8 años). Cuando la batería envejece, la emergencia ya
+no aguanta la hora de autonomía mínima exigida por la normativa.
+
+La solución es cambiar la batería (más económico que cambiar toda la luminaria).
+LEGRAND vende baterías de repuesto para sus gamas URA:
+
+- **Batería repuesto U21LED 100lm:** para LEGRAND URA21LED PLUS
+- **Batería repuesto U34 70-100lm NI-MH:** para la gama URA con 70-100 lúmenes
+- **Batería repuesto U34 150lm NI-MH:** mayor capacidad, para modelos de 150lm
+- **Batería repuesto U34 450lm NI-MH:** para emergencias de alta potencia (escaleras, halls)
+- **Central LVS2 (LEGRAND):** unidad de control centralizado para sistemas de emergencia
+  con telegestión — monitoriza el estado de varias luminarias desde un punto central
+
+Tipos de batería:
+- **NI-MH (níquel-metal hidruro):** la más habitual en emergencias. Buen ciclo de
+  carga/descarga, sin efecto memoria, más ecológica que NI-CD
+- **NI-CD (níquel-cadmio):** la clásica en instalaciones antiguas. Resistente al frío.
+  Actualmente en desuso por su impacto medioambiental
+
+**PARTE 2 — LINTERNAS Y LÁMPARAS PORTÁTILES**
+
+Iluminación portátil para trabajo en instalaciones, inspecciones y emergencias
+cuando no hay luz fija disponible.
+
+- **FAMATEL Lámpara portátil IP20 (sin cable):** lámpara de mano para inspecciones
+  rápidas en cuadros eléctricos, armarios y espacios pequeños. Sin cable = cordless.
+- **FAMATEL Lámpara portátil IP20 con pinza y 5m cable:** para trabajar con las manos
+  libres. La pinza sujeta la lámpara a scaffolding, tuberías o estructuras.
+  Cable H03VV-F 2x0,75mm² incluido.
+- **LEGRAND Linterna recargable LED:** linterna compacta para el instalador.
+  Recargable por USB, alta autonomía.
+- **ROBLAN Lámpara Linestra LED (S14s / S14d):** tubo de luz decorativo para
+  apliques de diseño vintage. Sustituye las antiguas lámparas lineales de filamento.
+
+Lo que facilita:
+- Mantenimiento de emergencias sin cambiar toda la luminaria (solo la batería).
+- Iluminación de trabajo en instalaciones sin punto de luz disponible.
+- Sustitución de baterías envejecidas para cumplir la normativa de emergencias.
+
+============================================================
+
+MODELOS EN ARAIZ (~166 artículos en ambos grupos)
+--------------------------------------------------------------
+| Tipo                          | Marca    | Ejemplo                              | Para qué                             |
+|-------------------------------|----------|--------------------------------------|--------------------------------------|
+| Batería repuesto 100lm        | LEGRAND  | Repuesto batería U21LED 100lm        | Mantenimiento emergencias URA21LED   |
+| Batería repuesto 70-100lm     | LEGRAND  | Batería U34 70-100lm NI-MH           | Emergencias gama URA básica          |
+| Batería repuesto 150lm        | LEGRAND  | Batería U34 150lm NI-MH              | Emergencias de mayor potencia        |
+| Batería repuesto 450lm        | LEGRAND  | Batería U34 450lm NI-MH              | Emergencias alta potencia (hospitales)|
+| Central control emergencias   | LEGRAND  | Central LVS2                         | Telegestión de varias emergencias    |
+| Lámpara portátil sin cable    | FAMATEL  | Portátil mango goma sin cable IP20   | Inspecciones rápidas en armarios     |
+| Lámpara portátil con pinza 5m | FAMATEL  | Portátil pinza 5m cable H03VV-F IP20 | Trabajo en altura sin manos          |
+| Linterna LED recargable       | LEGRAND  | Linterna recargable LED              | Instaladores, mantenimiento          |
+| Tubo LED linestra S14s 8W     | ROBLAN   | LINES LED 8W 500lm 2700K S14s        | Apliques decorativos vintage         |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                              | Por qué la necesitas                                        |
+|----|-------------------------------------------------------|-------------------------------------------------------------|
+| 1  | Qué modelo de emergencia tiene? (ref. LEGRAND)       | Las baterías son específicas por modelo de luminaria        |
+| 2  | Cuántos lúmenes tiene la emergencia?                 | 70lm, 100lm, 150lm, 450lm → cada una tiene su batería      |
+| 3  | La lámpara portátil es para qué uso?                 | Inspección → sin cable; trabajo continuado → con pinza+cable|
+| 4  | La Linestra es para casquillo S14s o S14d?           | Son casquillos distintos — no intercambiables               |
+
+CONSEJO: Las baterías de emergencia son un consumible garantizado. Todo local
+con emergencias LEGRAND instaladas hace más de 4 años es un cliente potencial
+para baterías de repuesto. Es una venta de mantenimiento recurrente y fácil
+de presupuestar: preguntar cuántas emergencias tiene el local y de qué modelo.
+
+============================================================
+Fuentes:
+- LEGRAND baterías emergencia: https://www.legrand.es/
+- FAMATEL: https://www.famatel.com/
+============================================================

@@ -14,7 +14,7 @@ Los cuadros se leen desde el panel local en **http://localhost:5192**
 
 ## DÓNDE ESTAMOS AHORA
 
-**Total cuadros escritos: 260**
+**Total cuadros escritos: 280**
 
 ### Familia Electricidad — COMPLETADA AL 100%
 
@@ -32,8 +32,21 @@ Los cuadros se leen desde el panel local en **http://localhost:5192**
 | Media y alta tensión | 3 | 3 |
 | **TOTAL** | **252** | **106** |
 
+### Familia Iluminación — COMPLETADA AL 100%
+
+| Subfamilia | Cuadros |
+|---|---|
+| Alumbrado de interior | 8 |
+| Alumbrado industrial y de seguridad | 4 |
+| Equipos, linternas, pilas y otros | 2 |
+| Lámparas y bombillas | 3 |
+| Alumbrado público | 1 |
+| Alumbrado festivo | 1 |
+| Domótica (iluminación) | 1 |
+| **TOTAL** | **20** |
+
 ### Familias pendientes (sin ningún cuadro aún)
-- Iluminación, Comunicaciones, Domótica, Climatización, Neumática, Renovables,
+- Comunicaciones, Domótica, Climatización, Neumática, Renovables,
   Herramientas, Ferretería, Seguridad
 
 ## PANEL VERCEL — LISTO PARA PUBLICAR

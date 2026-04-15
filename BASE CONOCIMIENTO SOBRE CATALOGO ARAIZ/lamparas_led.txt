@@ -1,0 +1,93 @@
+CUADRO RESUMEN — LÁMPARAS Y BOMBILLAS LED (tubos LED, bombillas LED retrofit)
+Familia: Iluminación > Lámparas y bombillas > LED
+Ejemplo en Araiz: LEDVANCE Tubo LED T8 1200mm 15W 840 / PHILIPS Lamp. LED Linear R7s 14W 840 / LEDVANCE NAV 70 LED FIL 35W E27
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"tipos de bombillas LED casquillos explicación" o "tubo LED T8 cómo sustituir fluorescente"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Las lámparas LED son la fuente de luz que va dentro de una luminaria o directamente
+en un portalámparas. A diferencia de las luminarias (que son completas con carcasa
+y electrónica integrada), las lámparas son el "consumible" — se sustituyen cuando
+se funden o cuando se quiere actualizar tecnología.
+
+Hoy prácticamente todas las lámparas nuevas son LED. Consumen entre 5 y 10 veces
+menos que sus equivalentes incandescentes y duran 15-25 veces más.
+
+Tipos principales por formato:
+
+**1. TUBO LED T8 (el más vendido en profesional)**
+Sustituye al tubo fluorescente T8 (26mm de diámetro, casquillo G13) en armaduras
+existentes. Longitudes normalizadas:
+- 600mm (6,6W) → sustituto del F18W
+- 1200mm (15W) → sustituto del F36W
+- 1500mm (18,3W) → sustituto del F58W
+Marcas en Araiz: LEDVANCE (LEDTUBE T8 EM V)
+Tipos de instalación: EM V = con balastro electrónico (plug & play)
+
+**2. BOMBILLA LED E27 / E14 (uso doméstico)**
+El casquillo E27 (rosca gruesa) es el más habitual en viviendas. El E14 (rosca fina)
+para apliques y lámparas decorativas.
+Marcas en Araiz: LEDVANCE, PHILIPS
+
+**3. LÁMPARA LED FILAMENTO (decorativa)**
+Imita la estética de la bombilla incandescente con filamento visible. Temperatura
+de color muy cálida (2200K-2700K). Para hostelería, hoteles y decoración vintage.
+- LEDVANCE NAV 70 LED FIL: lámpara LED de filamento con casquillo E27
+
+**4. LÁMPARA LED LINEAL R7s (halogenuros lineales)**
+Formato lineal con casquillo R7s (bayoneta en los dos extremos). Sustituye a las
+lámparas halógenas lineales de 118mm o 78mm muy usadas en proyectores de obra y
+focos de jardín. Regulable en potencia.
+- PHILIPS 14W R7s 118mm: sustituto del halógeno lineal 120W
+
+**5. LÁMPARA LED GU10 / MR16 (focos empotrados y de carril)**
+GU10 (230V directa) y MR16 (12V con transformador) son los casquillos para
+focos empotrados orientables. Sustituyen a los halógenos dicroicos.
+Marcas en Araiz: LEDVANCE, PHILIPS
+
+Términos clave de las bombillas:
+- **Kelvin (K):** temperatura de color. 2700K=muy cálido; 3000K=cálido; 4000K=neutro; 6500K=frío
+- **Lúmenes (lm):** cantidad de luz. 800lm≈60W incandescente; 1600lm≈100W
+- **IRC (Ra):** fidelidad de colores. >80 general; >90 joyería/textil
+- **Casquillo:** la "conexión" de la bombilla. E27, E14, GU10, MR16, G13, R7s... son distintos
+
+============================================================
+
+MODELOS EN ARAIZ (~2.200 artículos)
+--------------------------------------------------------------
+| Tipo                     | Marca    | Ejemplo                              | Para qué                              |
+|--------------------------|----------|--------------------------------------|---------------------------------------|
+| Tubo LED T8 1200mm 15W   | LEDVANCE | LEDTUBE T8 EM V 1200 15W 840         | Sustituir F36W en armadura existente  |
+| Tubo LED T8 1500mm 18W   | LEDVANCE | LEDTUBE T8 EM V 1500 18,3W 865       | Sustituir F58W en armadura existente  |
+| Tubo LED T8 600mm 6,6W   | LEDVANCE | LEDTUBE T8 EM V 600 6,6W 865         | Sustituir F18W (armadura corta)       |
+| Lámpara LED filamento E27 | LEDVANCE | NAV 70 LED FIL 35W 5400lm E27        | Grandes portalámparas, almacenes      |
+| Lámpara LED lineal R7s   | PHILIPS  | 14W-120W 840 R7s 118mm regulable     | Focos de obra, proyectores jardín     |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                               | Por qué la necesitas                                       |
+|----|--------------------------------------------------------|------------------------------------------------------------|
+| 1  | Qué casquillo tiene la lámpara que quiere sustituir?  | E27, E14, GU10, G13, R7s — cada uno es distinto           |
+| 2  | Qué longitud tiene el tubo fluorescente?              | 600/1200/1500mm → define el tubo LED equivalente           |
+| 3  | El tubo LED es para armadura con balastro electrónico?| Hay tubos plug&play (con balastro) y bypass (sin balastro) |
+| 4  | Temperatura de color? (cálida/neutra/fría)            | 2700K hogar, 4000K oficina/comercio, 6500K taller          |
+| 5  | Cuántos lúmenes necesita?                             | Orientación: 800lm≈60W; 1200lm≈75W; 1600lm≈100W           |
+| 6  | El espacio necesita alta fidelidad de color (IRC>90)? | Joyerías, fruterías, museos → sí; uso general → no         |
+
+CONSEJO: La pregunta más importante con bombillas es siempre el casquillo.
+Un cliente que dice "quiero una bombilla de 10W" sin indicar el casquillo
+puede necesitar cualquiera de 10 tipos diferentes. Con casquillo + potencia
+o lúmenes deseados + temperatura de color ya se puede dar la referencia exacta.
+
+============================================================
+Fuentes:
+- LEDVANCE lámparas: https://www.ledvance.es/productos/lamparas/
+- PHILIPS lámparas: https://www.lighting.philips.es/
+============================================================

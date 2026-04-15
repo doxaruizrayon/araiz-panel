@@ -1,0 +1,108 @@
+CUADRO RESUMEN — ALUMBRADO ANTIDEFLAGRANTE (luminarias para zonas ATEX, atmósferas explosivas)
+Familia: Iluminación > Alumbrado industrial y de seguridad > Alumbrado antideflagrante
+Ejemplo en Araiz: SICCIS Contratuerca latón niquelado M25 ATEX / NORMALIT Hermetic Avant estanca / PRILUX SILENT LED IP65
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"zona ATEX iluminación antideflagrante explicación" o "qué es una zona ATEX clasificación"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Una luminaria antideflagrante (o ATEX) está diseñada para funcionar en zonas donde
+hay riesgo de explosión porque el ambiente puede contener gases, vapores o polvos
+inflamables. Una chispa eléctrica normal en ese ambiente podría provocar una explosión,
+por eso estas luminarias tienen una construcción especial que evita que cualquier arco
+o chispa interna salga al exterior.
+
+ATEX viene de "ATmosphères EXplosibles" — es la normativa europea (Directiva 2014/34/UE)
+que regula los equipos eléctricos en estas zonas.
+
+¿Dónde se usan?
+- Estaciones de servicio y depósitos de combustible
+- Plantas químicas y petroquímicas
+- Bodegas y depósitos de vino/alcohol
+- Silos de cereales (el polvo también puede explotar)
+- Pintura industrial (vapores de disolvente)
+- Plantas de tratamiento de aguas residuales (metano)
+
+Clasificación de zonas ATEX (gases):
+- **Zona 0:** atmósfera explosiva presente de forma continua → equipos categoría 1G
+- **Zona 1:** atmósfera explosiva probable en operación normal → equipos categoría 2G
+- **Zona 2:** atmósfera explosiva solo en condiciones anormales → equipos categoría 3G
+(Para polvo hay zonas 20, 21, 22 con la misma lógica pero con la letra D en lugar de G)
+
+Lo que significa la marca ATEX en un producto:
+Los equipos ATEX llevan el símbolo ⊛ (Ex) y un código como:
+**Ex ec IIC T4 Gc** — cada letra indica el modo de protección, el grupo de gas
+y la temperatura máxima de superficie. Hay que elegir el equipo según la zona
+y el tipo de gas presente.
+
+Productos en Araiz (este grupo tiene muy pocos artículos — es un nicho especializado):
+
+**SICCIS Contratuerca ATEX M25:**
+Es un accesorio de conexión (no una luminaria) — la contratuerca asegura la
+estanqueidad de la entrada de cable en una caja o luminaria ATEX. El latón niquelado
+es el material estándar para estos accesorios.
+
+**NORMALIT Hermetic Avant:**
+Luminaria estanca de alta calidad con carcasa de policarbonato. El modelo estándar
+NO es ATEX pero aparece en este grupo probablemente por error de clasificación
+en el catálogo. Es una luminaria IP65 de muy buena calidad para zonas húmedas.
+
+**PRILUX SILENT LED IP65:**
+Panel estanco 60x60 de alta calidad con certificación IP65 y UGR<19. Tampoco
+es estrictamente ATEX — está clasificado aquí posiblemente por sus características
+de resistencia y seguridad en entornos industriales.
+
+Nota importante: el catálogo de Araiz tiene muy pocos artículos específicamente
+ATEX (solo 9 en este grupo). Para proyectos que requieran equipos ATEX certificados,
+es necesario consultar directamente con el departamento técnico de Araiz o con
+proveedores especializados en este segmento.
+
+Lo que facilita:
+- Instalación eléctrica segura en zonas con riesgo de explosión.
+- Cumplimiento de la Directiva ATEX 2014/34/UE obligatoria en estas instalaciones.
+
+Lo que hay que saber:
+- Solo personal formado en ATEX debe diseñar estas instalaciones.
+- Si un cliente pregunta por iluminación ATEX, escalar al técnico de Araiz — no es
+  una venta estándar.
+
+============================================================
+
+MODELOS EN ARAIZ (~9 artículos — grupo muy reducido)
+--------------------------------------------------------------
+| Tipo                        | Marca    | Ejemplo                                  | Para qué                              |
+|-----------------------------|----------|------------------------------------------|---------------------------------------|
+| Contratuerca ATEX M25       | SICCIS   | D4325109 Contratuerca latón M25 ATEX     | Entrada de cable en caja ATEX         |
+| Luminaria estanca 4950lm    | NORMALIT | Hermetic Avant 1110mm 6000K PC opal      | Zona industrial húmeda (IP65, no ATEX)|
+| Luminaria estanca 2475lm    | NORMALIT | Hermetic Avant 600mm 6000K PC opal       | Zona industrial húmeda compacta       |
+| Luminaria estanca 8250lm    | NORMALIT | Hermetic Avant 1500mm 6000K PC opal      | Nave grande, alta luminosidad         |
+| Panel estanco UGR<19        | PRILUX   | SILENT LED I IP65 60x60 40W 840          | Industrial/oficina con exig. IP65     |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                              | Por qué la necesitas                                          |
+|----|-------------------------------------------------------|---------------------------------------------------------------|
+| 1  | La zona tiene clasificación ATEX oficial?             | Si hay estudio ATEX → escalar al técnico, no venta estándar   |
+| 2  | Qué tipo de gas o polvo hay en el ambiente?          | Define el grupo de gas (IIA, IIB, IIC) del equipo ATEX        |
+| 3  | Es zona 0, 1 o 2?                                    | Define la categoría del equipo necesario (1G, 2G, 3G)         |
+| 4  | Solo necesita la contratuerca o también la luminaria? | A veces solo piden el accesorio de entrada de cable            |
+
+CONSEJO: Si un cliente menciona ATEX, gasolinera, planta química o zona con
+gases inflamables, no intentar resolver esto solo con el catálogo.
+Avisar al técnico o al responsable de producto — una instalación ATEX mal
+ejecutada puede tener consecuencias muy graves y responsabilidad legal.
+Las contratuercas SICCIS son el artículo más habitual: se piden como recambio
+en mantenimiento de instalaciones ATEX existentes.
+
+============================================================
+Fuentes:
+- Directiva ATEX 2014/34/UE
+- SICCIS accesorios ATEX: consultar catálogo técnico
+- Guía ATEX: https://www.insst.es/materias/riesgos/atex
+============================================================

@@ -1,0 +1,98 @@
+CUADRO RESUMEN — ESTRUCTURAS DECORATIVAS: SISTEMAS DE CARRIL (track lighting, focos en carril)
+Familia: Iluminación > Alumbrado de interior > Estructuras decorativas (sistemas de carril)
+Ejemplo en Araiz: PHILIPS Base montaje ZRS750-3C / PHILIPS Unidad eléctrica 4MX400 LED 40S 58W / PRILUX Aro decorativo VIESSA 36W
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"sistema de carril LED tienda instalación" o "track lighting focos carril cómo funciona"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Un sistema de carril (track lighting) es una instalación de iluminación en la que
+se monta un carril electrificado en el techo y sobre él se enchufan proyectores
+o focos orientables. La gran ventaja es la flexibilidad: los focos se deslizan
+y orientan sin necesidad de electricista — el cliente puede recolocarlos cuando
+reorganiza la tienda o el espacio.
+
+Es la solución preferida en:
+- Tiendas y locales comerciales (iluminar escaparates y expositores)
+- Galerías de arte y museos (iluminar cuadros y esculturas)
+- Restaurantes y hoteles (iluminación de acento)
+- Oficinas modernas (sustituto elegante del panel)
+
+Componentes del sistema:
+
+**1. EL CARRIL (track)**
+La "barra" que se instala en el techo. Puede ser de 1, 2 o 3 metros.
+Tiene conductores eléctricos integrados en su interior para alimentar los focos.
+Los hay de superficie (se atornilla al techo) y empotrados (queda al ras del techo).
+- Fase simple (2 conductores): todos los focos van al mismo circuito
+- Trifásico (3 circuitos): permite encender/apagar grupos de focos por separado
+
+**2. LAS LUMINARIAS DE CARRIL (focos / proyectores)**
+Los focos que se enchufan al carril. Se deslizan y rotan para orientar la luz.
+Los hay de muchos estilos: industriales, minimalistas, decorativos (como el aro VIESSA de PRILUX).
+- Marcas en Araiz: PHILIPS (Unidad 4MX400), PRILUX (VIESSA), NEXIA
+
+**3. ACCESORIOS DEL CARRIL**
+- Conectores: para unir dos tramos de carril en línea, en L o en T
+- Tapas finales: cierran el extremo del carril
+- Alimentadores: punto de entrada de corriente al carril (inicio, centro, extremo)
+- Adaptadores de suspensión: para colgar el carril del techo con cable
+
+**4. PERFILES PARA TIRAS LED (Nexia serie 15)**
+Perfiles de aluminio donde se aloja la tira LED. El perfil protege la tira y
+actúa como disipador de calor. También mejora el acabado estético.
+- Los soportes y perfiles de NEXIA (serie 15, 10mm) son para este uso.
+
+Lo que facilita:
+- Flexibilidad total: mover focos sin electricista.
+- Iluminación de acento en comercios con renovación frecuente de escaparates.
+- Aspecto profesional y moderno para cualquier espacio.
+
+Lo que hay que saber:
+- Hay que definir el carril (marca y modelo) antes de comprar los focos — no todos
+  los focos son compatibles con todos los carriles.
+- Los sistemas trifásicos permiten zonificar la iluminación (muy útil en restaurantes).
+
+============================================================
+
+MODELOS EN ARAIZ (~400 artículos)
+--------------------------------------------------------------
+| Tipo                        | Marca    | Ejemplo                             | Para qué                             |
+|-----------------------------|----------|-------------------------------------|--------------------------------------|
+| Unidad eléctrica carril     | PHILIPS  | 4MX400 LED 40S/840 58W WB blanco    | Oficinas, instalación profesional    |
+| Base de montaje carril      | PHILIPS  | ZRS750-3C GA70-3 blanco             | Fijación carril trifásico al techo   |
+| Aro decorativo 36W negro    | PRILUX   | VIESSA 36W negro                    | Tiendas, restaurantes, estética      |
+| Aro decorativo 36W blanco   | PRILUX   | VIESSA 36W blanco                   | Cocinas, espacios luminosos          |
+| Aro decorativo 36W madera   | PRILUX   | VIESSA 36W madera                   | Interiorismo nórdico/natural         |
+| Perfil aluminio 10mm        | NEXIA    | Perfil 200 aluminio 10mm serie 15   | Alojar tira LED en carril decorativo |
+| Soporte perfil 10mm         | NEXIA    | Soporte perfil 10mm serie 15        | Sujetar perfil al techo/pared        |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                            | Por qué la necesitas                                        |
+|----|-----------------------------------------------------|-------------------------------------------------------------|
+| 1  | Cuántos metros lineales de carril necesita?         | Para calcular tramos y conectores                           |
+| 2  | Cuántos focos quiere por tramo?                     | Para calcular la carga eléctrica total del circuito         |
+| 3  | Carril monofásico o trifásico?                      | Trifásico si quiere encender zonas por separado             |
+| 4  | De qué marca es el carril ya instalado?             | Los focos deben ser compatibles con el carril               |
+| 5  | Superficie (atornillado) o empotrado en techo?      | Define el tipo de carril a pedir                            |
+| 6  | Estilo del espacio? (industrial, minimalista, cálido)| Define el modelo de foco (VIESSA madera vs negro industrial)|
+
+CONSEJO: En tiendas y locales comerciales, el sistema de carril es una venta
+mucho más completa que un simple proyector. Implica carril + focos + accesorios
++ posiblemente dimmer. Cuando el cliente tiene una tienda y quiere mejorar la
+iluminación, preguntar si ya tiene carril instalado — si no lo tiene, es una
+oportunidad de venta de todo el sistema.
+
+============================================================
+Fuentes:
+- PHILIPS track systems: https://www.lighting.philips.es/
+- PRILUX VIESSA: https://www.prilux.com/
+- NEXIA perfiles: https://www.nexia.es/
+============================================================

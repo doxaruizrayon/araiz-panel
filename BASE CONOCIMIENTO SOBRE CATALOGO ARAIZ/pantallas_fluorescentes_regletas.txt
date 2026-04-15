@@ -1,0 +1,98 @@
+CUADRO RESUMEN — PANTALLAS FLUORESCENTES Y REGLETAS (luminarias lineales, regletas estancas, tubos LED)
+Familia: Iluminación > Alumbrado de interior > Pantallas fluorescentes y regletas
+Ejemplo en Araiz: LEDVANCE Regleta Linear LED 1200 14W/4000K / TRILUX Regleta estanca OLEVEON 1x58W / CONALUX Luminaria estanca vacía 1x58W
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"regleta LED instalación taller garaje" o "luminaria estanca fluorescente vs LED"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Son luminarias de formato lineal (largas y estrechas) herederas directas del
+fluorescente tubular. Siguen siendo muy habituales en talleres, garajes, almacenes,
+pasillos largos, cocinas industriales y cualquier espacio donde se necesita
+iluminación funcional a bajo coste.
+
+Hoy la mayoría de las instalaciones nuevas ya usan tubo LED en lugar de fluorescente,
+pero muchos clientes aún tienen las armaduras antiguas y solo quieren cambiar
+el tubo (retro-fit LED).
+
+Tipos principales:
+
+**1. REGLETA LED (sin tubo, todo integrado)**
+La luminaria completa ya lleva el LED integrado. No hay tubo que sustituir.
+Son las más modernas y eficientes. Se reconocen porque el nombre dice "LED" y
+tienen una barra de luz continua sin espacio para un tubo.
+- Longitudes: 300mm, 600mm, 900mm, 1200mm, 1500mm
+- Marcas en Araiz: LEDVANCE (Linear LED), CONALUX
+- Uso: garajes domésticos, pasillos, almacenes pequeños, bajo mostradores
+
+**2. LUMINARIA ESTANCA (para zonas húmedas o polvorientas)**
+Tiene carcasa con grado de protección IP65 o superior. Resiste polvo, humedad,
+salpicaduras. Se usa en talleres, naves industriales, aparcamientos, lavaderos.
+El interior puede ser fluorescente (antiguo) o LED.
+- Marcas en Araiz: CONALUX, TRILUX (OLEVEON)
+- Las hay vacías (el cliente pone el tubo) o completas con tubo LED incluido
+
+**3. PANTALLA FLUORESCENTE (instalación antigua)**
+La armadura o carcasa donde va el tubo fluorescente T8 (26mm) o T5 (16mm).
+Aún se venden como repuesto para instalaciones existentes. Requieren balastro
+(electrónico o magnético) para funcionar.
+- Referencia en Araiz: CONALUX armadura vacía 1x58W con opción emergencia
+
+**4. BALASTROS ELECTRÓNICOS (accesorios)**
+El componente electrónico que regula la corriente del tubo fluorescente.
+Se venden como repuesto cuando el tubo funciona pero la luz parpadea o no arranca.
+- Marcas en Araiz: PRILUX (239585 Balastro 1x58W T5-HO)
+
+Dato clave — sustitución LED:
+Existen tres tipos de tubo LED para sustituir fluorescentes:
+- **Tipo A (plug & play):** se pone directamente sin cambiar el balastro
+- **Tipo B (bypass):** hay que retirar el balastro y reconectar directamente a la red
+- **Tipo C (driver externo):** requiere un driver LED dedicado
+
+Lo que facilita:
+- Iluminación funcional de espacios de trabajo a bajo coste.
+- Actualización de instalaciones fluorescentes a LED sin cambiar la armadura.
+
+============================================================
+
+MODELOS EN ARAIZ (~180 artículos)
+--------------------------------------------------------------
+| Tipo                        | Marca    | Ejemplo                             | Para qué                           |
+|-----------------------------|----------|-------------------------------------|------------------------------------|
+| Regleta LED 1200 14W        | LEDVANCE | Linear LED 1200 14W/4000K IP20      | Garaje, pasillo, almacén           |
+| Regleta LED 300 4W          | LEDVANCE | Linear LED 300 4W/4000K IP20        | Bajo mostradores, armarios         |
+| Regleta LED compact 1500    | LEDVANCE | Linear COMPACT SWITCH 1500 17W 4000K| Con interruptor integrado          |
+| Luminaria estanca vacía     | CONALUX  | 1x58W emergencia ABS+PC             | Nave, aparcamiento (pone tubo)     |
+| Regleta estanca 1x58W       | TRILUX   | OLEVEON 158 A3 SANE 1x58W          | Industrial, IP65                   |
+| Regleta estanca 1x18W       | TRILUX   | OLEVEON 118 A3 SANE 1x18W          | Zona húmeda compacta               |
+| Balastro electrónico 1x58W  | PRILUX   | 239585 Balastro 1x58W T5-HO        | Repuesto para fluorescente T5-HO   |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                              | Por qué la necesitas                                        |
+|----|-------------------------------------------------------|-------------------------------------------------------------|
+| 1  | Es zona húmeda, con polvo o agua?                    | Sí → luminaria estanca IP65; No → regleta IP20 estándar    |
+| 2  | Tiene instalación fluorescente que quiere actualizar? | Sí → preguntar si quiere cambiar solo el tubo o todo       |
+| 3  | Qué longitud de tubo tiene la armadura existente?    | 600mm (18W), 1200mm (36W), 1500mm (58W)                    |
+| 4  | Sabe si el balastro es electrónico o magnético?      | Define qué tubo LED de retro-fit puede usar                |
+| 5  | Qué longitud necesita para la nueva instalación?     | Para elegir entre 300, 600, 1200 o 1500mm                  |
+| 6  | Tiene ya emergencia en la instalación?               | Hay armaduras con emergencia integrada                      |
+
+CONSEJO: Muchos clientes llaman pidiendo "una regleta fluorescente" cuando en
+realidad lo que necesitan ya es LED. La pregunta clave es: "¿Es para una
+instalación nueva o para sustituir una existente?". Si es nueva, siempre LED
+integrado. Si es sustitución, preguntar si quiere mantener las armaduras
+(solo cambiar el tubo) o cambiar todo.
+
+============================================================
+Fuentes:
+- LEDVANCE regletas: https://www.ledvance.es/
+- TRILUX: https://www.trilux.com/es/
+- CONALUX: https://www.conalux.com/
+============================================================

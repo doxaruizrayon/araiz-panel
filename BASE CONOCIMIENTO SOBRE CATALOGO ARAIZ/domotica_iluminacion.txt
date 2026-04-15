@@ -1,0 +1,107 @@
+CUADRO RESUMEN — DOMÓTICA DE ILUMINACIÓN (detectores PIR, sensores de presencia para automatización)
+Familia: Iluminación > Domótica > Iluminación
+Ejemplo en Araiz: LEGRAND Detector PIR 360° superficie / LEGRAND Detector PIR 360° empotrar / LEGRAND Detector IR estanco 360° gris
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"detector presencia PIR 360 instalación techo" o "diferencia detector PIR interior exterior"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Los detectores de presencia PIR (Passive Infrared) son sensores que detectan
+el calor corporal de las personas en movimiento y envían una señal para encender
+o apagar la luz automáticamente. Son la base de la automatización de iluminación
+más sencilla y económica: sin aplicación móvil, sin programación, sin WiFi.
+
+Se llaman "pasivos" porque no emiten ninguna señal — solo reciben la radiación
+infrarroja que emite cualquier cuerpo caliente.
+
+Funcionamiento:
+1. La persona entra en la zona de detección.
+2. El sensor detecta el cambio de temperatura (infrarrojo).
+3. Envía señal de cierre al circuito → la luz se enciende.
+4. Si no detecta movimiento durante X tiempo (regulable) → la luz se apaga.
+
+Tipos en Araiz (todos LEGRAND):
+
+**1. DETECTOR PIR 360° SUPERFICIE**
+Se instala en el techo, montaje en superficie. Detecta en un círculo completo
+de 360° a su alrededor. Cubre un radio de ~8m (área de unos 200m²).
+Ideal para: salas de reuniones, despachos, aseos, almacenes.
+- LEGRAND Detector PIR 360° superficie
+
+**2. DETECTOR PIR 360° EMPOTRAR**
+La misma función pero se empotrar en falso techo, quedando al ras. Más estético.
+Ideal para: oficinas con falso techo, hoteles, espacios de representación.
+- LEGRAND Detector PIR 360° empotrar
+- LEGRAND Detector PIR 360° 90m² empotrar: modelo de mayor alcance (hasta 90m²)
+
+**3. DETECTOR PIR 360° 8M**
+Versión con alcance especificado de 8m de diámetro.
+- LEGRAND Detector PIR 360° 8m
+
+**4. DETECTOR IR ESTANCO IP (EXTERIOR)**
+Versión con carcasa estanca para instalación en exterior o zonas húmedas.
+Detecta hasta 10m en pasillo o 360° para espacios abiertos.
+- LEGRAND Detector IR estanco 360° gris: para portales, garajes, exteriores cubiertos
+
+Parámetros regulables habituales:
+- **Tiempo de apagado:** de 30 segundos a 30 minutos tras el último movimiento
+- **Nivel de luz (lux):** umbral a partir del cual no actúa (si ya hay suficiente luz natural)
+- **Alcance:** en algunos modelos se puede reducir la zona de detección
+
+Diferencia entre detector de presencia y detector de movimiento:
+- **Detector de movimiento:** solo detecta si la persona se mueve activamente.
+  Si se queda quieta, puede apagar la luz.
+- **Detector de presencia (más avanzado):** detecta también personas quietas
+  (sentadas en el escritorio). Más caro, para oficinas donde no se puede
+  permitir que la luz se apague con alguien trabajando.
+Los de Araiz son detectores de movimiento (más habituales y económicos).
+
+Lo que facilita:
+- Ahorro energético automático en zonas de paso (pasillos, aseos, almacenes).
+- Comodidad: la luz se enciende y apaga sola sin tocar interruptores.
+- Instalación simple: se sustituye la caja de derivación o se añade en el circuito.
+
+Lo que hay que saber:
+- Los PIR no funcionan bien con personas muy abrigadas (menos emisión infrarroja).
+- Las corrientes de aire frío/calor (climatización) pueden causar falsas activaciones.
+- Para baños en zonas de trabajo o locales públicos, el PIR con apagado a 5-10min
+  es casi estándar — ahorro energético muy visible.
+
+============================================================
+
+MODELOS EN ARAIZ (~43 artículos)
+--------------------------------------------------------------
+| Tipo                          | Marca   | Ejemplo                           | Para qué                              |
+|-------------------------------|---------|-----------------------------------|---------------------------------------|
+| PIR 360° superficie           | LEGRAND | Detector PIR 360° superficie      | Salas, despachos, almacenes           |
+| PIR 360° empotrar             | LEGRAND | Detector PIR 360° empotrar        | Oficinas con falso techo (estético)   |
+| PIR 360° empotrar 90m²        | LEGRAND | Detector PIR 360° 90m² empotrar   | Espacios grandes (salas de >50m²)    |
+| PIR 360° 8m compacto          | LEGRAND | Detector PIR 360° 8m              | Espacios medianos, fácil instalación  |
+| Detector IR estanco exterior  | LEGRAND | Detector IR estanco 360° gris     | Portales, garajes, exteriores cubierto|
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                               | Por qué la necesitas                                        |
+|----|--------------------------------------------------------|-------------------------------------------------------------|
+| 1  | Es para interior o exterior?                          | Exterior → versión estanca IP                               |
+| 2  | Tiene falso techo?                                    | Sí → empotrar (estético); No → superficie                   |
+| 3  | Cuántos m² tiene el espacio a detectar?               | Define el alcance del sensor necesario (8m, 90m²...)        |
+| 4  | Es para aseo, pasillo o sala de trabajo?              | Aseo → 5min apagado; Sala de trabajo → mayor tiempo / presencia|
+| 5  | Hay equipos de climatización que puedan activarlo?   | Puede causar falsas activaciones — orientar el sensor lejos |
+
+CONSEJO: El detector PIR es una de las mejores ventas cruzadas con luminarias
+de pasillo, aseo y almacén. Cuando el cliente compra plafones o downlights para
+estas zonas, mencionar siempre el detector: "¿Quiere que la luz se encienda
+y apague sola? Es un pequeño extra que ahorra mucho en la factura de luz."
+En locales con muchos aseos o pasillos, el retorno de la inversión es casi inmediato.
+
+============================================================
+Fuentes:
+- LEGRAND detectores: https://www.legrand.es/productos/control-de-iluminacion/detectores-de-presencia/
+============================================================

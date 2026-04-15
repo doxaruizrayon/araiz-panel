@@ -1,0 +1,97 @@
+CUADRO RESUMEN — ESTRUCTURAS DECORATIVAS (suspensiones, perfiles, pantallas decorativas)
+Familia: Iluminación > Alumbrado de interior > Estructuras decorativas
+Ejemplo en Araiz: NORMALIT Suspensión cable acero 2m/4m / NEXIA Perfil aluminio 10mm serie 15 / PRILUX Pantalla SILENT LED 60x60 36W
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"suspensión cable acero luminaria diseño" o "perfil aluminio tira LED instalación"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Este grupo recoge los elementos estructurales y decorativos que sirven para
+montar o complementar luminarias, y también algunas luminarias con diseño
+especialmente cuidado destinadas a espacios de representación.
+
+Es un grupo de artículos de apoyo — no son luminarias completas en su mayoría,
+sino los componentes que hacen posible instalaciones de diseño.
+
+Componentes principales:
+
+**1. SUSPENSIONES DE CABLE (NORMALIT)**
+Son los cables de acero trenzado con corredera ajustable que se usan para
+colgar luminarias de techo a distintas alturas sin necesidad de obra.
+Se anclan al techo con un gancho o tornillo y al otro extremo va la luminaria.
+- NORMALIT ofrece 2m y 4m con el mismo sistema de corredera
+- Se usan en: lámparas de diseño suspendidas, luminarias de carril colgado,
+  paneles LED suspendidos sobre mesas de trabajo o mostrador
+- Son accesorios, no incluyen la luminaria
+
+**2. PERFILES DE ALUMINIO PARA TIRAS LED (NEXIA serie 15)**
+Perfiles extruidos de aluminio donde se aloja y protege la tira LED.
+El aluminio actúa como disipador térmico (alarga la vida de la tira LED)
+y como acabado estético (tapa difusora blanca o transparente incluida).
+Se usan en:
+- Mobiliario iluminado (cocinas, armarios, bajo muebles)
+- Cornisas y remates decorativos
+- Escaleras y peldaños con luz
+- Expositores y vitrinas
+El perfil serie 15 de NEXIA tiene 10mm de ancho — para tiras LED de baja
+densidad (decorativas).
+
+**3. PANTALLAS DECORATIVAS LED (PRILUX SILENT)**
+Panel LED de alta calidad con tratamiento acústico o marco decorativo.
+La SILENT LED es un panel 60x60 de 36W que incorpora material absorbente
+acústico — reduce el ruido ambiental además de iluminar. Se usa en:
+- Salas de reuniones, aulas, open spaces
+- Donde se necesita controlar el ruido además de la luz
+
+**4. BALASTROS PARA FLUORESCENTES T5-HO (PRILUX)**
+El balastro electrónico es el "cerebro" del tubo fluorescente. Regula la
+corriente para que el tubo funcione de forma estable y eficiente.
+T5-HO = tubo de 16mm de diámetro, alta salida luminosa.
+Se vende como recambio cuando la luminaria falla pero el tubo está bien.
+
+Lo que facilita:
+- Instalaciones de iluminación suspendida sin obras de albañilería.
+- Integración de tiras LED en mobiliario y remates decorativos.
+- Mejora acústica y lumínica combinada en espacios de trabajo.
+
+============================================================
+
+MODELOS EN ARAIZ (~27 artículos)
+--------------------------------------------------------------
+| Tipo                         | Marca     | Ejemplo                             | Para qué                               |
+|------------------------------|-----------|-------------------------------------|----------------------------------------|
+| Suspensión cable 2m          | NORMALIT  | Suspensión cable acero corredera 2m | Luminarias colgantes regulables        |
+| Suspensión cable 4m          | NORMALIT  | Suspensión cable acero corredera 4m | Techos altos, naves, atrios            |
+| Suspensión cable 2000mm      | NORMALIT  | Suspensión cable acero 2000mm       | Variante de longitud fija              |
+| Perfil aluminio 10mm 200mm   | NEXIA     | Perfil 200 aluminio 10mm serie 15   | Tiras LED en muebles y remates         |
+| Pantalla LED acústica 60x60  | PRILUX    | SILENT LED 60x60 36W 840            | Oficinas con control acústico          |
+| Balastro electrónico 1x58W   | PRILUX    | 239585 Balastro 1x58W T5-HO         | Repuesto fluorescente T5-HO            |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                              | Por qué la necesitas                                        |
+|----|-------------------------------------------------------|-------------------------------------------------------------|
+| 1  | Las suspensiones son para qué luminaria?             | Verificar que el peso y el sistema de anclaje son correctos |
+| 2  | A qué altura de techo va la luminaria?               | 2m puede ser suficiente; techos altos necesitan 4m          |
+| 3  | El perfil de aluminio es para qué tira LED?          | El ancho del perfil debe coincidir con el ancho de la tira  |
+| 4  | La pantalla acústica es para sala de reuniones?      | Confirmar que necesita la función acústica o solo la lumínica|
+| 5  | El balastro es T5 o T8? Cuántos tubos alimenta?      | T5-HO ≠ T8 — no son intercambiables                        |
+
+CONSEJO: Las suspensiones de NORMALIT son fáciles de vender junto con paneles LED
+o luminarias de diseño suspendidas. Cuando el cliente quiere que la lámpara "quede
+a media altura" sobre una mesa o mostrador, la suspensión de cable con corredera
+es la solución limpia y sin obras. Siempre preguntar la altura del techo para
+recomendar 2m o 4m.
+
+============================================================
+Fuentes:
+- NORMALIT: proveedor de accesorios de suspensión (consultar catálogo físico)
+- NEXIA perfiles: https://www.nexia.es/
+- PRILUX SILENT: https://www.prilux.com/
+============================================================

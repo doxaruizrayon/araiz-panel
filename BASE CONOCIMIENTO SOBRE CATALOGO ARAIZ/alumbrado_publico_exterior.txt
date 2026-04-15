@@ -1,0 +1,111 @@
+CUADRO RESUMEN — ALUMBRADO PÚBLICO Y EXTERIOR (vial, parques, jardines, grandes superficies, sumergible)
+Familia: Iluminación > Alumbrado público > Parques y jardines / Vial / Grandes superficies / Sumergible
+Ejemplo en Araiz: GEWISS Luminaria vial LED ROAD(5) 4000K / PHILIPS BVP130 LED 260W / LEDVANCE Lantern 500 12W exterior / PRILUX AGUA AVANT PAR56 18W RGB piscina
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"luminaria LED farola vial instalación" o "luminaria jardín exterior IP65 instalar"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+El alumbrado público y exterior cubre toda la iluminación que va fuera de los
+edificios: calles, carreteras, aparcamientos exteriores, parques, jardines, fachadas,
+piscinas y grandes superficies (estadios, polígonos industriales, aeropuertos).
+
+Es un segmento muy diferente al interior: los productos deben soportar lluvia,
+viento, frío, calor y vandalismo. El mínimo siempre es IP65.
+
+Grupos principales:
+
+**1. ALUMBRADO DE PARQUES Y JARDINES (~1.326 art.)**
+Luminarias para espacios verdes, senderos peatonales, entradas de edificios
+y zonas residenciales. Más estéticos que las farolas viales.
+
+Tipos:
+- **Farola / luminaria de jardín colgante:** estética decorativa, se instala en poste
+  o se cuelga entre puntos (PHILIPS CREEK colgante E27 60W 2700K negro)
+- **Proyector exterior pequeño:** para iluminar fachadas, árboles o elementos del jardín
+  (LEDVANCE Decor Lantern 500 12W/3000K gris IP44)
+- **Proyector de suelo / balizas:** empotrables en suelo o pequeñas balizas que
+  marcan caminos peatonales (SIMON Baliza exterior BL Mesh 60cm 9W antracita)
+- **Proyector de alta potencia para jardines grandes:**
+  PRILUX BOX TANEK ARQ NEO 58,8W DALI con regulación / KENIA 50W 840 IP65
+- **Portalámparas para farola convencional:**
+  GEWISS Extro portalámparas E27 100W gris — para renovar una farola existente
+  cambiando solo el portalámparas
+
+**2. ALUMBRADO VIAL (~897 art.)**
+Farolas y luminarias para calles, carreteras y polígonos industriales.
+Normalmente se instalan en postes de 6-12m de altura. Requieren homologación
+para uso en vía pública.
+- GEWISS ROAD(5): luminaria modular de alto rendimiento, 6 módulos LED intercambiables,
+  regulable con dimmer. Óptica ancha (para calles) o estrecha (para carreteras).
+- SYLVANIA START Flood IP65: proyector exterior 26W o 42W para polígonos y accesos
+- ECOLUX LANZA E27 30W: luminaria para brazo de farola convencional (retrofit E27)
+
+**3. ALUMBRADO GRANDES SUPERFICIES PÚBLICAS (~89 art.)**
+Para estadios, polígonos industriales, aparcamientos abiertos, puertos, aeropuertos.
+Proyectores de muy alta potencia montados en mástiles o estructuras elevadas.
+- PHILIPS BVP125 LED 80-4S/740: proyector compacto de alta potencia
+- PHILIPS BVP130 LED 260W simétrico: gran proyector de fachada/campo deportivo
+- TELEVES Flex Mini 90LED 200W T5000K S60: proyector modular 200W con óptica intercambiable
+
+**4. ALUMBRADO SUMERGIBLE (~12 art.)**
+Para piscinas, estanques y fuentes. Deben tener IP68 (sumergibles de forma continua)
+y certificación para uso en contacto con agua.
+- PRILUX AGUA AVANT: empotrable para piscina. Formato PAR56 (estándar universal de piscinas).
+  18W, disponible en blanco frío (750K), blanco cálido (730K) y RGB (multicolor).
+- PRILUX HYDRA AVANT: luminaria de superficie para estanques y fuentes ornamentales.
+  24W, IP68, RGB o blanco neutro.
+
+Aspectos técnicos importantes para exterior:
+- **IP65 mínimo** para cualquier instalación exterior (polvo total + chorro agua)
+- **IK08/IK10** en zonas con riesgo de vandalismo
+- **Clase I o Clase II:** Clase I (con tierra); Clase II (doble aislamiento, sin tierra)
+- **Temperatura de color exterior:** 4000K-5000K para viales (mejor visibilidad);
+  3000K para parques y jardines (más acogedor)
+- **DALI/0-10V:** sistemas de regulación y control remoto del nivel de luz
+
+============================================================
+
+MODELOS EN ARAIZ (~2.324 artículos)
+--------------------------------------------------------------
+| Tipo                         | Marca    | Ejemplo                              | Para qué                             |
+|------------------------------|----------|--------------------------------------|--------------------------------------|
+| Luminaria vial LED modular   | GEWISS   | ROAD(5) 6 módulos 4000K óptica ancha | Calles urbanas, polígonos            |
+| Proyector exterior 26W       | SYLVANIA | START Flood IP65 26W 3000lm 840      | Accesos, aparcamientos ext. pequeños |
+| Proyector exterior 42W       | SYLVANIA | START Flood IP65 42W 5000lm 865      | Polígonos, accesos medianos          |
+| Farola colgante jardín       | PHILIPS  | CREEK colgante 2700K E27 negro       | Terrazas, jardines, senderos         |
+| Proyector jardín 50W         | PRILUX   | KENIA 50W 840 IP65 RAL7045           | Fachadas, jardines comerciales       |
+| Gran proyector fachada       | PHILIPS  | BVP130 LED 260W simétrica            | Estadios, fachadas grandes           |
+| Empotrable piscina RGB       | PRILUX   | AGUA AVANT PAR56 18W RGB IP68        | Piscinas con iluminación de color    |
+| Luminaria sumergible 24W     | PRILUX   | HYDRA AVANT HT 24W IP68             | Estanques y fuentes ornamentales     |
+| Portalámparas farola E27     | GEWISS   | Extro E27 100W gris grafito          | Renovar farola existente             |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                              | Por qué la necesitas                                       |
+|----|-------------------------------------------------------|-------------------------------------------------------------|
+| 1  | Es vía pública o zona privada?                       | Vía pública → puede necesitar homologación municipal        |
+| 2  | Hay riesgo de vandalismo o impactos?                 | Sí → IK08 o IK10                                           |
+| 3  | Altura de instalación del punto de luz?              | Define la óptica y la potencia necesaria                   |
+| 4  | Qué superficie en m² o metros lineales hay que iluminar? | Para calcular el número de luminarias                   |
+| 5  | Se necesita regulación horaria o por sensor?         | Sí → versión DALI o con célula fotoeléctrica               |
+| 6  | La piscina es doméstica o pública?                   | Pública → normativa específica (UNE-EN 60598-2-18)         |
+| 7  | RGB o blanco fijo para la piscina?                   | RGB = multicolor (efecto visual); blanco = iluminación útil |
+
+CONSEJO: Las instalaciones de alumbrado público para municipios o comunidades
+de propietarios requieren a menudo proyecto firmado por ingeniero. Araiz puede
+proveer el material pero el diseño debe hacerlo un profesional. Para jardines
+privados y zonas comunitarias pequeñas es más directo.
+
+============================================================
+Fuentes:
+- GEWISS exterior: https://www.gewiss.com/es/
+- PHILIPS outdoor: https://www.lighting.philips.es/
+- PRILUX sumergible: https://www.prilux.com/
+============================================================
