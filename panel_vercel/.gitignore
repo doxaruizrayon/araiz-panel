@@ -1,0 +1,2 @@
+# catalogo_full.json es demasiado grande para Vercel (86MB) — solo se usa en local
+catalogo_full.json
