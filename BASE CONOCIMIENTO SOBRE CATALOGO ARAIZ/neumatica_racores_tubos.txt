@@ -1,0 +1,85 @@
+CUADRO RESUMEN — NEUMÁTICA: RACORES Y TUBOS (racores de empuje, tubos técnicos, accesorios neumáticos)
+Familia: Neumática > Racores y tubos + Accesorios neumáticos
+Ejemplo en Araiz: SMC KQ2H06-02S racor codo 6mm / SMC Tubo técnico poliuretano Ø6mm azul / SMC AR20-02G regulador
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"racor neumático de empuje cómo funciona" o "instalación neumática básica taller"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+La neumática usa aire comprimido para mover o accionar mecanismos.
+En Araiz el catálogo neumático está orientado principalmente a talleres,
+maquinaria industrial y automatización: se conectan cilindros, pinzas y
+herramientas neumáticas mediante tuberías de aire comprimido.
+
+Marca dominante en Araiz: **SMC** — el mayor fabricante mundial de componentes neumáticos.
+
+**RACORES DE EMPUJE (push-in fittings)**
+Los racores son los conectores que unen el tubo a los equipos neumáticos.
+Los racores de empuje (push-in) son los más habituales: se introduce el tubo
+y queda bloqueado automáticamente. Para soltar, se presiona el anillo de liberación.
+- **KQ2 (SMC):** la serie más vendida. Cubren codos, tes, en línea, reductores...
+  - KQ2H: codo 90°
+  - KQ2U: codo universal (unión tubo a tubo)
+  - KQ2T: TE (tres salidas)
+  - KQ2Y: TE reductora
+- La referencia incluye el diámetro del tubo y la rosca: KQ2H**06**-**02**S → tubo Ø6mm, rosca 1/4"
+
+**TUBOS NEUMÁTICOS**
+El tubo flexible que conduce el aire comprimido entre componentes.
+- Materiales habituales: poliuretano (PU) — flexible, resistente al desgaste; poliamida (PA) — más rígido.
+- Colores: azul (líneas de trabajo), negro (presión de retorno o uso general), rojo (alta presión).
+- Diámetros habituales: Ø4mm, Ø6mm, Ø8mm, Ø10mm, Ø12mm.
+  Los más usados en talleres pequeños: Ø6 y Ø8mm.
+
+**REGULADORES DE PRESIÓN**
+Se instalan antes de cada máquina o zona para regular la presión de trabajo.
+- SMC AR20-02G: regulador con manómetro, para presiones de 0,05 a 0,85 MPa (0,5-8,5 bar).
+  La "02" indica la rosca: 1/4" BSP.
+
+**FILTROS DE AIRE COMPRIMIDO**
+Eliminan el agua, aceite y partículas del aire antes de que lleguen a los equipos.
+El aire comprimido siempre arrastra humedad y aceite del compresor — sin filtrar
+deteriora los componentes neumáticos rápidamente.
+
+**UNIDADES FRL (Filtro-Regulador-Lubricador)**
+Las tres etapas del tratamiento del aire en un solo módulo.
+Muy habituales al inicio de toda instalación neumática de máquina.
+
+============================================================
+
+MODELOS EN ARAIZ (~906 artículos en toda la familia Neumática)
+--------------------------------------------------------------
+| Tipo                           | Marca | Ejemplo                             | Para qué                              |
+|--------------------------------|-------|-------------------------------------|---------------------------------------|
+| Racor codo push-in Ø6mm 1/4"  | SMC   | KQ2H06-02S codo 90°                 | Conectar tubo Ø6 con rosca 1/4"      |
+| Racor TE Ø8mm                 | SMC   | KQ2T08-00 TE igual                  | Bifurcar línea de aire Ø8mm           |
+| Tubo PU Ø6mm azul             | SMC   | Tubo poliuretano Ø6x4mm azul       | Conexión entre componentes neumáticos |
+| Tubo PA Ø8mm negro            | SMC   | Tubo poliamida Ø8x6mm negro        | Aplicaciones de mayor presión         |
+| Regulador presión 1/4"        | SMC   | AR20-02G 0,05-0,85MPa              | Regular presión antes de máquina     |
+| Filtro + regulador FRL        | SMC   | AC20-02G filtro+regulador           | Unidad tratamiento aire completa      |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                              | Por qué la necesitas                                      |
+|----|-------------------------------------------------------|-----------------------------------------------------------|
+| 1  | Qué diámetro de tubo usa? (4, 6, 8, 10, 12mm)       | El racor debe coincidir exactamente con el diámetro       |
+| 2  | Qué tipo de conexión necesita? (codo, TE, en línea)  | Cada geometría tiene su referencia KQ2                    |
+| 3  | Qué rosca tiene el equipo al que conecta? (1/8, 1/4) | La rosca del racor debe coincidir con la del equipo       |
+| 4  | Es para tubo nuevo o para sustituir uno roto?        | Ayuda a entender si necesita solo el racor o también tubo |
+| 5  | Tiene filtro/regulador de aire antes del equipo?     | Si no → recomendar FRL para proteger los componentes      |
+
+CONSEJO: Los racores KQ2 de SMC son prácticamente el estándar en neumática industrial.
+La referencia es lógica: KQ2 + tipo (H=codo, T=TE, Y=TE reductora) + diámetro tubo + rosca.
+Si el cliente trae el racor roto, con leer la referencia grabada en el cuerpo basta.
+Nunca mezclar diámetros de tubo: si el tubo es Ø6 y el racor es para Ø8 no enganchará.
+
+============================================================
+Fuentes:
+- SMC: https://www.smcworld.com/es-es/
+============================================================

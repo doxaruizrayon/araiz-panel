@@ -1,0 +1,109 @@
+CUADRO RESUMEN — CALEFACCIÓN Y AIRE ACONDICIONADO (radiadores, splits, termostatos, resistencias)
+Familia: Climatización > Calefacción + Aire acondicionado y refrigeración
+Ejemplo en Araiz: DUCASA Radiador iEM 3G Wifi 750W / DUCASA Turboconvector 2000W / GREE CLIVIA+ 5,1kW R32 / AKO Controlador temperatura
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"radiador eléctrico programable instalación" o "split inverter instalar por qué ahorra"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Este grupo cubre los equipos que calientan o enfrían los espacios. En Araiz el
+catálogo está orientado a instaladores eléctricos, por lo que predominan los
+equipos eléctricos (no de gas) y los accesorios de control.
+
+**PARTE 1 — CALEFACCIÓN (~441 art.)**
+
+**Radiadores y emisores eléctricos (~139 art.)**
+Convierten electricidad en calor. Son los más fáciles de instalar (solo enchufar
+o conectar al circuito) pero los más caros de usar si el precio de la electricidad
+es alto.
+
+- **DUCASA iEM 3G Wifi 750W:** radiador de bajo consumo con control WiFi desde móvil.
+  Tecnología de inercia (tarda en calentar pero mantiene el calor). Ideal para
+  habitaciones de uso constante.
+  58x58x9,8cm — diseño plano para montar en pared.
+- **DUCASA Turboconvector M-SPLIT 1000/2000W:** convector eléctrico (aire caliente por
+  convección forzada con ventilador). Calienta más rápido que el radiador de inercia
+  pero pierde el calor más rápidamente. Para espacios de uso intermitente.
+
+**Resistencias calefactoras (~83 art.)**
+Son elementos calefactores que se instalan dentro de otros equipos:
+- Resistencias para armarios eléctricos: evitan condensación en armarios exteriores.
+- Resistencias para suelo radiante: calefacción mediante cable calefactor en el suelo.
+- AKO tiene resistencias y controladores para refrigeración industrial.
+
+**Reguladores de temperatura / termostatos de calefacción (~87 art.)**
+- AKO Controlador temperatura multisonda 1000°C 320V: para aplicaciones industriales
+  (hornos, procesos industriales, cámaras frigoríficas). No es doméstico.
+- AKO Sonda PT-100 hasta 180°C: sensor de temperatura para el controlador.
+
+**PARTE 2 — AIRE ACONDICIONADO Y REFRIGERACIÓN (~223 art.)**
+
+**Splits y acondicionadores (~119 art.)**
+El split es el sistema de climatización más habitual en España.
+Tiene dos unidades: interior (evaporador) y exterior (condensador).
+- **GREE CLIVIA+ Inverter 5,1/5,6kW R32:** unidad interior + exterior.
+  Inverter = regula la potencia según la necesidad (más eficiente, más silencioso).
+  R32 = el nuevo gas refrigerante con menor impacto ambiental (sustituye al R410A).
+  5,1kW de frío / 5,6kW de calor → para habitaciones de ~40-50m².
+
+**Sistemas de control splits (~35 art.)**
+Mandos a distancia, controladores por cable y sistemas de control centralizado
+para flotas de splits (hoteles, centros comerciales).
+- DAIKIN BRC1H52W: control multifunción por cable blanco para splits Daikin.
+
+**Fan-coil (~14 art.)**
+Sistema de climatización con agua. La unidad interior (fan-coil) recibe agua
+caliente o fría de una caldera/bomba de calor y la distribuye.
+Más eficiente que el split eléctrico en edificios grandes con caldera centralizada.
+
+**Cortinas de aire (~13 art.)**
+Se instalan sobre las puertas de acceso de tiendas y supermercados.
+Crean una "pared de aire" invisible que impide la entrada de frío, calor e insectos
+sin obstruir el paso. Reducen el consumo de climatización del local hasta un 30%.
+
+Lo que facilita:
+- Climatización eléctrica sin necesidad de gas ni calderas.
+- Control inteligente de temperatura para ahorro energético.
+- Instalaciones de confort en viviendas, oficinas y comercios.
+
+============================================================
+
+MODELOS EN ARAIZ (~664 artículos combinados)
+--------------------------------------------------------------
+| Tipo                         | Marca  | Ejemplo                           | Para qué                            |
+|------------------------------|--------|-----------------------------------|-------------------------------------|
+| Radiador WiFi 750W inercia   | DUCASA | iEM 3G Wifi 750W 58x58cm          | Dormitorio, habitación de uso diario|
+| Turboconvector 2000W         | DUCASA | M-SPLIT 1000/2000W 2,6kg          | Espacios de uso intermitente        |
+| Split inverter 5,1kW R32     | GREE   | CLIVIA+ 18 interior + exterior    | Habitación o despacho ~40-50m²      |
+| Control por cable split      | DAIKIN | BRC1H52W multifunción blanco      | Control fijo en pared splits Daikin |
+| Controlador temp. industrial | AKO    | Multisonda 1000°C 320V            | Hornos, procesos, cámaras frío      |
+| Sonda PT-100 temperatura     | AKO    | PT-100 hasta 180°C 2m cable       | Sensor para controlador industrial  |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                             | Por qué la necesitas                                       |
+|----|------------------------------------------------------|------------------------------------------------------------|
+| 1  | Cuántos m² tiene el espacio a climatizar?           | Determina la potencia necesaria (kW)                       |
+| 2  | Solo calefacción o también refrigeración?           | Solo calor → radiador; Frío+calor → split                  |
+| 3  | Uso continuo o intermitente?                        | Continuo → inercia; Intermitente → convector rápido        |
+| 4  | Quiere control WiFi o programador?                  | Define el modelo (básico vs conectado)                     |
+| 5  | El split es Daikin, Gree u otra marca?              | Los controles y accesorios son específicos por marca        |
+
+CONSEJO: La instalación de splits requiere técnico certificado en gases
+fluorados (F-Gas) para manipular el refrigerante. El instalador eléctrico
+puede hacer la parte eléctrica pero no conectar las tuberías del gas.
+Los radiadores y convectores eléctricos sí los puede instalar cualquier
+electricista — es una venta más sencilla y accesible para Araiz.
+
+============================================================
+Fuentes:
+- DUCASA: https://www.ducasa.com/
+- GREE: https://www.gree-electric.es/
+- AKO: https://www.ako.com/es/
+============================================================

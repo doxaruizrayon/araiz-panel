@@ -1,0 +1,83 @@
+CUADRO RESUMEN — NEUMÁTICA: ACTUADORES Y ELECTROVÁLVULAS (cilindros, electroválvulas, pinzas, vacío)
+Familia: Neumática > Cilindros y actuadores + Electroválvulas y distribuidores
+Ejemplo en Araiz: SMC CDJ2B16-100Z cilindro compacto / SMC VF3130-5G1-02 electroválvula / SMC ZH10BS-K15LZ eyector vacío
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"cilindro neumático SMC cómo funciona" o "electroválvula neumática 5/2 explicación"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Los actuadores son los "músculos" de un sistema neumático: convierten el aire
+comprimido en movimiento mecánico (empujar, tirar, girar, sujetar).
+Las electroválvulas son el "cerebro": dirigen el aire al actuador correcto en el
+momento correcto, controladas por señal eléctrica (24VDC normalmente).
+
+**CILINDROS NEUMÁTICOS (actuadores lineales)**
+Convierten la presión del aire en movimiento lineal (empuje/retroceso).
+- **Cilindro de doble efecto:** el aire empuja en los dos sentidos (avance y retroceso).
+  El más habitual en automatización.
+- **Cilindro de simple efecto:** el aire empuja en un solo sentido; vuelve por muelle.
+  Se usa cuando el retorno debe ser pasivo (por seguridad, por ejemplo).
+- **Cilindro compacto (CDJ2B):** diseño corto para espacios reducidos.
+  SMC CDJ2B16-100Z: diámetro del émbolo 16mm, carrera 100mm.
+  "Z" = con sensores de posición instalables.
+- **Cilindro estándar (C85/C96):** para aplicaciones generales con mayor fuerza.
+
+**ELECTROVÁLVULAS Y DISTRIBUIDORES**
+La electroválvula dirige el flujo de aire según la señal eléctrica que recibe.
+- **Nomenclatura:** 5/2 vías = 5 conexiones, 2 posiciones (avance/retroceso).
+  3/2 vías = 3 conexiones, 2 posiciones (normalmente abierta o cerrada).
+- SMC VF3130-5G1-02: electroválvula de la serie VF3000.
+  Monoestable (un solo solenoide), 24VDC, rosca 1/4".
+  Se usan para controlar cilindros de doble efecto.
+- **Distribuidor (manifold):** varios solenoides montados en bloque para ahorrar espacio
+  en cuadros neumáticos con muchos cilindros.
+
+**PINZAS NEUMÁTICAS Y ROTATIVAS**
+Actuadores para sujetar piezas (pinzas) o girar (actuadores rotativos).
+Se usan en robots pick&place, líneas de montaje y máquinas especiales.
+
+**VACÍO / EYECTORES**
+Generan vacío para sujetar piezas mediante ventosas (sin mecanismo de cierre).
+- SMC ZH10BS: eyector de vacío Ø1,0mm. Se conecta al circuito de aire comprimido
+  y genera vacío por efecto Venturi — no necesita bomba de vacío separada.
+
+============================================================
+
+MODELOS EN ARAIZ (dentro de los ~906 artículos de Neumática)
+--------------------------------------------------------------
+| Tipo                           | Marca | Ejemplo                             | Para qué                              |
+|--------------------------------|-------|-------------------------------------|---------------------------------------|
+| Cilindro compacto Ø16 100mm   | SMC   | CDJ2B16-100Z doble efecto           | Automatización en espacio reducido    |
+| Cilindro estándar Ø32 50mm    | SMC   | C85N32-50 serie estándar            | Aplicaciones generales de empuje      |
+| Electroválvula 5/2 monoestable| SMC   | VF3130-5G1-02 24VDC 1/4"           | Controlar cilindro doble efecto       |
+| Manifold 4 solenoides         | SMC   | VF3000 manifold 4 salidas           | Cuadro neumático múltiples cilindros  |
+| Eyector vacío Venturi         | SMC   | ZH10BS-K15LZ Ø1,0mm                | Sujeción piezas por ventosa           |
+| Actuador rotativo             | SMC   | CRBU2 rotativo Ø15                  | Giro de piezas en línea de montaje    |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                              | Por qué la necesitas                                      |
+|----|-------------------------------------------------------|-----------------------------------------------------------|
+| 1  | Qué mueve: empuja/tira (lineal) o gira (rotativo)?   | Lineal → cilindro; Rotativo → actuador rotativo           |
+| 2  | Qué fuerza necesita y cuánto recorrido?              | Define el diámetro del émbolo y la carrera del cilindro   |
+| 3  | Doble efecto (aire en los dos sentidos) o simple?    | Doble → más control; Simple → retorno por muelle          |
+| 4  | Cómo se activa? (manual, eléctrico, PLC)             | Eléctrico → electroválvula; Manual → válvula manual       |
+| 5  | Voltaje de la señal de control? (24VDC, 230VAC)     | Define el modelo de electroválvula compatible             |
+
+CONSEJO: Los cilindros SMC son los más habituales en la industria española.
+Si el cliente trae la referencia del cilindro que hay que reponer, con esa referencia
+se puede dar exactamente el mismo. Si no la tiene, preguntar: diámetro, carrera,
+doble o simple efecto. Con esos 3 datos se puede buscar el equivalente.
+Las electroválvulas son más sensibles: el voltaje (24V o 230V) y las vías (5/2 o 3/2)
+deben coincidir exactamente con el sistema existente.
+
+============================================================
+Fuentes:
+- SMC: https://www.smcworld.com/es-es/
+============================================================

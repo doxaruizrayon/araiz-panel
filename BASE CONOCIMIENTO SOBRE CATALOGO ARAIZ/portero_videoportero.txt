@@ -1,0 +1,100 @@
+CUADRO RESUMEN — PORTERO ELECTRÓNICO Y VIDEOPORTERO (kits portero, monitores, placas calle, abrepuertas)
+Familia: Comunicaciones > Portero electrónico y videoportero
+Ejemplo en Araiz: FERMAX Teléfono VEO 4+N / FERMAX Teléfono LOFT VDS / FERMAX Caja empotrar CITY / TEGUI Módulo 4 pulsadores
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"instalar videoportero FERMAX VEO" o "portero electrónico 4 hilos diferencia videoportero"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+El portero y el videoportero permiten comunicarse con quien llama a la puerta del
+edificio desde dentro de la vivienda, y abrir la puerta sin bajar.
+La diferencia es simple: el portero solo tiene audio (escuchas la voz), el videoportero
+añade imagen (ves quién llama en una pantalla).
+
+Son sistemas muy habituales en comunidades de vecinos, viviendas unifamiliares,
+oficinas y edificios comerciales.
+
+Componentes de un sistema completo:
+
+**1. PLACA DE CALLE (exterior)**
+El panel que instala el visitante fuera del edificio. Tiene el pulsador para llamar
+y, en el caso del videoportero, la cámara.
+- Pueden ser modulares: se componen de marcos + módulos de pulsadores por vivienda
+- TEGUI Módulo 4 pulsadores 1 columna: módulo que aloja 4 botones de llamada
+- Las placas FERMAX CITY son de las más vendidas en España
+
+**2. TELÉFONO / MONITOR (interior, en la vivienda)**
+Lo que instala cada vecino en su vivienda para recibir la llamada:
+- **Teléfono (portero):** solo audio. Más económico.
+  FERMAX VEO 4+N: teléfono universal, compatible con sistemas de 4 hilos y con bus.
+- **Monitor (videoportero):** pantalla + audio. Ve al visitante.
+  FERMAX LOFT VDS: monitor con auricular y soporte de pared, sistema VDS (bus 3 hilos).
+- Los teléfonos "universales" son compatibles con más sistemas que los específicos de gama.
+
+**3. ABREPUERTAS (~75 art.)**
+El dispositivo eléctrico que abre la cerradura al pulsar el botón desde dentro.
+Se instala en el marco de la puerta de entrada del edificio.
+- Funcionan a 12V AC/DC normalmente. Algunos incluyen retardo de apertura.
+- Se venden solos como repuesto muy habitual.
+
+**4. KIT PORTERO Y KIT VIDEOPORTERO**
+Paquetes completos con todos los componentes necesarios para instalar el sistema:
+placa de calle + teléfono/monitor + abrepuertas + fuente de alimentación.
+- Kit portero (~95 art.): solo audio, más económico
+- Kit videoportero (~33 art.): con cámara y monitor, más completo
+
+**5. COMPLEMENTOS Y ACCESORIOS (~289 art.)**
+Cajas de empotrar, marcos, fuentes de alimentación, cables específicos, accesorios
+de montaje. La caja de empotrar define si la placa queda empotrada en la pared o
+en superficie.
+- FERMAX Caja empotrar CITY-1: para empotrar 1 módulo de placa CITY en la pared
+
+Tipos de sistemas:
+- **2 hilos (bus digital):** los más modernos. Solo 2 cables para toda la instalación.
+  Audio + video + alimentación van por el mismo par. Más fácil de instalar.
+- **3 hilos VDS:** sistema FERMAX. Muy extendido en España.
+- **4 hilos + coaxial (analógico):** el sistema clásico. Más cables pero más sencillo
+  de reparar y compatible con equipos más antiguos.
+- **IP:** sistema basado en red Ethernet. Permite recibir la llamada en el móvil
+  estés donde estés. El más avanzado y el más caro.
+
+============================================================
+
+MODELOS EN ARAIZ (~611 artículos)
+--------------------------------------------------------------
+| Tipo                       | Marca  | Ejemplo                              | Para qué                             |
+|----------------------------|--------|--------------------------------------|--------------------------------------|
+| Teléfono universal 4+N     | FERMAX | VEO 4+N universal plástico ABS       | Vivienda, compatible múltiples sistemas|
+| Monitor VDS con auricular  | FERMAX | LOFT VDS bus 3 hilos                 | Videoportero sistema FERMAX VDS      |
+| Módulo 4 pulsadores        | TEGUI  | Módulo 4 pulsadores 1 columna        | Placa calle modular hasta 4 viviendas|
+| Caja empotrar placa CITY   | FERMAX | Caja empotrar CITY-1                 | Instalación empotrada placa calle    |
+| Terminación línea DUOX     | FERMAX | Terminación línea DUOX               | Accesorio técnico sistema DUOX       |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                             | Por qué la necesitas                                       |
+|----|------------------------------------------------------|------------------------------------------------------------|
+| 1  | Es portero (solo audio) o videoportero (con imagen)? | Define el tipo de sistema y el precio                      |
+| 2  | Cuántas viviendas tiene el edificio?                | Define el número de pulsadores y monitores                 |
+| 3  | Qué sistema tiene ya instalado? (marca, hilos)      | Para dar repuesto o ampliación compatible                  |
+| 4  | La placa va empotrada en la pared o en superficie?  | Define la caja de montaje                                  |
+| 5  | Quiere que funcione también en el móvil (IP)?       | Sistema IP vs sistema convencional — precio muy diferente  |
+| 6  | Solo repuesto o instalación nueva completa?         | Repuesto → pedir referencia exacta; Nueva → presupuestar kit|
+
+CONSEJO: El portero y videoportero son de los productos más vendidos en reformas de
+comunidades de vecinos. Cuando un vecino llama pidiendo "un teléfono del portero"
+normalmente es un repuesto — la pregunta clave es la marca y sistema que tiene
+(2 hilos, 3 hilos VDS, 4 hilos). Con eso se da la referencia correcta.
+Los kits completos se venden en obras nuevas y en sustituciones completas del sistema.
+
+============================================================
+Fuentes:
+- FERMAX: https://www.fermax.com/es/
+- TEGUI: https://www.tegui.es/
+============================================================

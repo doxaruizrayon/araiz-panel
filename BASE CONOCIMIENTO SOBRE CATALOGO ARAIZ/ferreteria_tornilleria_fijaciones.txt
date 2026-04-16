@@ -1,0 +1,93 @@
+CUADRO RESUMEN — FERRETERÍA, TORNILLERÍA Y FIJACIONES (tornillos, perfiles DIN, bridas, borneros, herrajes)
+Familia: Ferretería > Tornillería y herrajes + Fijaciones y soportes
+Ejemplo en Araiz: PHOENIX CONTACT Perfil DIN TS35 acero / Tornillos cabeza hexagonal M6 / Bridas nylon 4,8x300mm
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"carril DIN para cuadro eléctrico" o "brida de nylon sujetar cables instalación"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+La ferretería es el grupo más numeroso del catálogo de Araiz (~5.843 art.).
+Cubre todos los elementos auxiliares de fijación y montaje que se usan en
+instalaciones eléctricas: perfiles de montaje para los bornes y protecciones,
+tornillería normalizada, bridas para cable y herrajes de soporte.
+
+Es el "material de consumo" por excelencia: en cualquier presupuesto de instalación
+van a aparecer unidades de tornillos, bridas o perfiles DIN.
+
+**PERFILES DIN (CARRIL DIN)**
+El perfil metálico donde se instalan los magnetotérmicos, diferenciales, bornes
+y todos los módulos del cuadro eléctrico.
+- **TS35 (DIN 35mm):** el estándar universal. Prácticamente todos los componentes
+  de cuadro eléctrico se diseñan para montar en TS35.
+  PHOENIX CONTACT Perfil TS35 acero: en tiras de 1 o 2 metros, se corta a medida.
+- **TS15:** perfil más estrecho para bornes pequeños o instalaciones compactas.
+- **G32:** perfil en "U" para montaje de relés y componentes especiales.
+- Se venden por metro o en longitudes estándar. Siempre acero galvanizado (resistencia).
+
+**TORNILLERÍA PARA CUADROS Y MONTAJE**
+Tornillos normalizados para ensamblar cajas, fijar perfiles, cerrar cubiertas.
+- Tornillos M4, M5, M6 de cabeza hexagonal: para fijaciones estructurales.
+- Tornillos M3 con cabeza Phillips: para tapas y elementos del cuadro.
+- Tuercas de carril: se encajan en el perfil TS35 para atornillar componentes sin taladrar.
+- Remaches: para unir chapas sin tornillo accesible por el otro lado.
+
+**BRIDAS Y ORGANIZADORES DE CABLE**
+Las bridas (abrazaderas de nylon) agrupan y ordenan los cables en bandejas y cuadros.
+- **Brida nylon 4,8x200mm:** la brida estándar de cables medianos.
+- **Brida nylon 7,6x300mm:** para grupos de cables o mangueras más gruesas.
+- **Brida con tornillo de cabeza:** permite aflojar y repasar sin cortar la brida.
+- **Brida con base:** lleva un pie adhesivo o atornillable para fijar al fondo del cuadro.
+- **Canaletas de PVC:** perfiles de plástico con tapa que ocultan y organizan los cables
+  dentro del cuadro. UNEX, IBOCO — marcas habituales.
+
+**TACOS, ANCLAJES Y FIJACIONES A OBRA**
+- Taco Fisher S8 con tornillo: para colgar cajas en pared de ladrillo u hormigón.
+- Taco de nylon para pared hueca (placas de yeso).
+- Tubo corrugado + grapas: para tendido de cable empotrado en obra.
+- Clips y clamex para canal portacables.
+
+**HERRAJES Y PERFILES DE ESTRUCTURA**
+- Varilla roscada M8/M10: para suspensión de bandejas o conducciones.
+- Ángulos, escuadras y perfiles: para construir soportes de equipos.
+
+============================================================
+
+MODELOS EN ARAIZ (~5.843 artículos en Ferretería)
+--------------------------------------------------------------
+| Tipo                           | Marca          | Ejemplo                            | Para qué                              |
+|--------------------------------|----------------|------------------------------------|---------------------------------------|
+| Perfil DIN TS35 acero 1m      | PHOENIX CONTACT| TS35/7,5 acero estañado 1m         | Base para montar cualquier módulo cuadro|
+| Perfil DIN TS35 acero 2m      | PHOENIX CONTACT| TS35/7,5 acero 2m                  | Cuadros grandes, se corta a medida    |
+| Tuerca de carril M4            | PHOENIX CONTACT| Tuerca deslizante TS35 M4          | Fijar componente al perfil sin taladrar|
+| Brida nylon 4,8x200mm         | varios         | Brida blanca/negra estándar        | Organizar cables en cuadro o bandeja  |
+| Brida nylon 7,6x300mm         | varios         | Brida para mangueras o grupos      | Cables grandes o haces gruesos        |
+| Canaleta PVC ranurada 40x40   | UNEX/IBOCO     | Canal con tapa para cuadro         | Organización interna de cuadros       |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                              | Por qué la necesitas                                      |
+|----|-------------------------------------------------------|-----------------------------------------------------------|
+| 1  | Cuántos metros de carril DIN TS35 necesita?          | Se vende por metro o tiras de 1-2m, se corta a medida    |
+| 2  | Qué diámetro/grosor tienen los cables a bridar?      | Define el tamaño de brida (4,8mm para cables medios, más para grandes)|
+| 3  | Las bridas son para interior de cuadro o exterior?   | Exterior → brida resistente a UV (negra nylon); interior → cualquiera |
+| 4  | Necesita canaleta o solo bridas?                     | Cuadros grandes → canaleta PVC más ordenada y profesional |
+| 5  | La tornillería es para cuadro o para obra (pared)?   | Cuadro → M3/M4/M6 hexagonal; Obra → tacos Fischer, varilla roscada |
+
+CONSEJO: El perfil DIN TS35 se vende mucho. Siempre preguntar cuántos metros necesita
+y si lo quiere en tiras de 1m o 2m. El TS35 se corta con sierra o cortadora de perfil —
+muchos clientes prefieren comprar en tiras de 2m y cortar ellos a la medida exacta.
+Las bridas de nylon son material de consumo puro: se compran en bolsas de 100 unidades.
+Negro = resistente a UV (para exterior); blanco = interior. Esta distinción es importante
+porque las blancas se ponen amarillas y quebradizas en exterior.
+
+============================================================
+Fuentes:
+- PHOENIX CONTACT: https://www.phoenixcontact.com/es-es/
+- UNEX (canaletas): https://www.unex.es/
+============================================================

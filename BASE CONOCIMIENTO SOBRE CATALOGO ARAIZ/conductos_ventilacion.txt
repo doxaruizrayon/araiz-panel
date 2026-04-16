@@ -1,0 +1,97 @@
+CUADRO RESUMEN — CONDUCTOS Y VENTILACIÓN (extractores, rejillas, conductos, ventiladores)
+Familia: Climatización > Conductos y ventilación
+Ejemplo en Araiz: SODECA Extractor doméstico GHOST MG-150LL / SODECA EDQUIET-S-100-T silencioso
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"instalar extractor baño" o "sistema ventilación mecánica controlada VMC vivienda"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Los equipos de ventilación renuevan el aire de los espacios, eliminan humedad,
+olores y contaminantes, y garantizan la calidad del aire interior.
+En viviendas son obligatorios en baños y cocinas. En instalaciones industriales
+son críticos para la seguridad (gases, humos, calor).
+
+Marca dominante en Araiz: **SODECA** — fabricante español especializado en ventilación industrial.
+
+**1. EXTRACTORES DOMÉSTICOS (~97 art.)**
+Se instalan en baños y aseos para extraer el vapor y los olores.
+Funcionan conectados a la red eléctrica (230V) y expulsan el aire al exterior
+por un conducto o directamente a través de la pared.
+- SODECA GHOST MG-100LL / MG-120LL / MG-150LL: la serie más vendida, diseño discreto,
+  bajo nivel de ruido. El número indica el diámetro del conducto (100mm, 120mm, 150mm).
+- SODECA EDQUIET-S-100-T: versión ultras ilenciosa para dormitorios o zonas donde el ruido molesta.
+  El sufijo "T" indica temporizador: sigue funcionando unos minutos después de apagar la luz.
+
+Características clave a preguntar:
+- Diámetro del conducto existente: 100mm (estándar baño), 120mm o 150mm (cocina/más caudal)
+- Con temporizador o sin: el temporizador extrae el aire varios minutos tras apagar la luz
+- Nivel de ruido (dB): importante en dormitorios o estudios
+
+**2. EXTRACTORES INDUSTRIALES (~467 art. — el grupo más grande)**
+Para naves industriales, aparcamientos, locales comerciales y grandes espacios.
+Mucho mayor caudal (m³/h) y potencia que los domésticos.
+- Axiales: para instalación en pared o conducto, flujo recto.
+- Centrífugos: para conductos con resistencia, más presión.
+- En línea: se instalan dentro del conducto, invisibles.
+Marca: SODECA domina este segmento en el catálogo de Araiz.
+
+**3. REJILLAS Y DEFENSAS (~134 art.)**
+Las rejillas cubren las bocas de los conductos (estéticas + seguridad).
+- Rejilla de impulsión: donde entra el aire al local.
+- Rejilla de extracción: por donde sale el aire hacia el exterior.
+- Las defensas protegen los ventiladores industriales de objetos que puedan caer.
+
+**4. CONDUCTOS Y ACCESORIOS (~132 art.)**
+Tubos rígidos o flexibles por los que circula el aire.
+- Conducto circular rígido de chapa: para instalaciones fijas y de larga duración.
+- Conducto flexible aluminio: para conexiones finales y adaptaciones.
+- Codos, reducciones, "T", abrazaderas: accesorios de montaje.
+
+**5. VENTILADORES DOMÉSTICOS (~54 art.)**
+Ventiladores de pie o de techo para circulación de aire sin extracción.
+No conectados a conductos — simplemente mueven el aire de la habitación.
+
+Dato técnico importante:
+- **Caudal (m³/h):** los litros de aire movidos por hora. Un baño doméstico necesita
+  mínimo 15 litros/segundo = 54 m³/h según el RITE (Reglamento de Instalaciones Térmicas).
+- **Presión estática (Pa):** la capacidad de vencer la resistencia del conducto.
+  A más longitud y codos del conducto → más presión necesaria.
+
+============================================================
+
+MODELOS EN ARAIZ (~1.178 artículos)
+--------------------------------------------------------------
+| Tipo                        | Marca  | Ejemplo                          | Para qué                              |
+|-----------------------------|--------|----------------------------------|---------------------------------------|
+| Extractor doméstico 100mm   | SODECA | GHOST MG-100LL básico            | Baño estándar, conducto Ø100mm        |
+| Extractor doméstico 150mm   | SODECA | GHOST MG-150LL básico            | Cocina o baño grande, Ø150mm          |
+| Extractor silencioso 100T   | SODECA | EDQUIET-S-100-T silencioso       | Dormitorio, despacho, zona silenciosa |
+| Extractores industriales    | SODECA | Gama industrial axial/centrífugo | Naves, aparcamientos, locales         |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                              | Por qué la necesitas                                       |
+|----|-------------------------------------------------------|-------------------------------------------------------------|
+| 1  | Es para baño/cocina (doméstico) o nave/local?        | Define el tipo: doméstico o industrial                     |
+| 2  | Qué diámetro tiene el conducto? (100/120/150mm)      | El extractor debe coincidir con el conducto                |
+| 3  | Quiere temporizador (sigue extrayendo al apagar luz)?| Muy recomendable en baños para evitar humedad              |
+| 4  | Hay limitación de ruido? (dormitorio, consulta)      | Sí → versión silenciosa                                    |
+| 5  | En industrial: cuántos m³ tiene el espacio?          | Para calcular el caudal necesario                          |
+
+CONSEJO: El extractor de baño es un repuesto de venta habitual y fácil.
+Lo más importante es el diámetro del conducto (100mm es el estándar en baños),
+y si quiere temporizador. Con esos dos datos se da la referencia.
+Para extractores industriales siempre pedir asesoramiento técnico — el
+dimensionado incorrecto puede ser ineficiente o insuficiente.
+
+============================================================
+Fuentes:
+- SODECA: https://www.sodeca.com/es/
+- Normativa ventilación: RITE (RD 1027/2007), CTE DB HS3
+============================================================

@@ -1,0 +1,104 @@
+CUADRO RESUMEN — SONIDO, MEGAFONÍA E INTERCOMUNICACIÓN (altavoces, amplificadores, vigilabebés, avisadores)
+Familia: Comunicaciones > Sonido y megafonía + Intercomunicación y telefonía
+Ejemplo en Araiz: FONESTAR Altavoz activo FORCE-X12DSP / FONESTAR Micrófono inalámbrico / LEGRAND Kit SMILE EPA
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"sistema megafonía oficina instalación" o "intercomunicador industrial hospital instalación"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Este grupo cubre dos segmentos relacionados: los sistemas de difusión de sonido
+(megafonía) para espacios públicos o comerciales, y los sistemas de intercomunicación
+para comunicación interna en edificios, fábricas u hospitales.
+
+**PARTE 1 — SONIDO Y MEGAFONÍA (~248 art.)**
+
+Son los sistemas que distribuyen música, avisos o mensajes de emergencia por
+un edificio, tienda, fábrica o instalación pública.
+
+Tipos:
+**Altavoces (~39 art.)**
+- **Altavoz pasivo:** necesita un amplificador externo para funcionar.
+  Se instalan en techo, pared o sobre soporte de suelo.
+  FONESTAR Soporte de suelo RS-505 para altavoz.
+- **Altavoz activo:** lleva el amplificador integrado. Solo necesita corriente y señal de audio.
+  FONESTAR FORCE-X12DSP: altavoz activo de alta potencia con DSP (procesado digital de sonido).
+  Para salas de ensayo, pequeños eventos, instalaciones deportivas.
+
+**Amplificadores y columnas acústicas (~14 art.)**
+El amplificador central recibe la señal de audio y la envía a todos los altavoces.
+Las columnas acústicas son altavoces orientados (proyectan el sonido en una dirección)
+muy usados en tiendas, pasillos y salas de espera.
+
+**Micrófonos (~parte de fuentes de señal)**
+FONESTAR Micrófono inalámbrico de mano 582MHz 32 canales: para sistemas de megafonía
+portátil, presentaciones, eventos. Frecuencia regulable en 32 canales para evitar interferencias.
+
+**Fuentes de señal y aparatos de control (~13 + 12 art.)**
+Reproductores de audio (reproductor USB/SD), mezcladores de señal, selectores de zona.
+En megafonía de tienda se programan para reproducir música ambiental automáticamente.
+
+**PARTE 2 — INTERCOMUNICACIÓN Y TELEFONÍA (~51 art.)**
+
+Sistemas de comunicación interna para edificios y entornos especiales.
+
+**Intercomunicadores / vigilabebés (~33 art.)**
+El intercomunicador más básico: dos unidades que se comunican entre sí por cable
+o inalámbricamente. En doméstico son los vigilabebés. En industrial/hospitalario
+son los sistemas de llamada enfermera-paciente o operario-control.
+LEGRAND Kit SMILE EPA: sistema de llamada de enfermera para habitaciones de hospital.
+
+**Pulsador-avisador para hoteles y hospitales (~5 art.)**
+El botón que el paciente o cliente pulsa para llamar al personal.
+Se integra con la centralita de control (central de conserjería).
+
+**PAU ICT / Telefonía (~parte de Accesorios)**
+Elementos de distribución telefónica en edificios: regletas de conexión,
+etiquetas de identificación de pares (cables telefónicos de 5 pares).
+TELEVES Etiqueta identificadora 5 pares: para identificar los pares del cable
+telefónico en la regleta de distribución de la planta.
+
+Lo que facilita:
+- Comunicación de avisos y música ambiental en tiendas, supermercados y fábricas.
+- Comunicación interna entre habitaciones, plantas o zonas de un edificio.
+- Sistemas de llamada en hospitales, hoteles y residencias.
+
+============================================================
+
+MODELOS EN ARAIZ (~299 artículos combinados)
+--------------------------------------------------------------
+| Tipo                         | Marca    | Ejemplo                            | Para qué                              |
+|------------------------------|----------|------------------------------------|---------------------------------------|
+| Altavoz activo DSP            | FONESTAR | FORCE-X12DSP alta potencia         | Salas, eventos, instalaciones deportivas|
+| Soporte suelo altavoz        | FONESTAR | Soporte RS-505                     | Posicionar altavoz en sala            |
+| Micrófono inalámbrico 32ch   | FONESTAR | 582MHz 32 canales                  | Eventos, presentaciones               |
+| Sistema llamada enfermera    | LEGRAND  | Kit SMILE EPA                      | Hospitales, residencias, hoteles      |
+| Etiqueta id. 5 pares         | TELEVES  | Etiqueta identificadora 5 pares    | Identificar cable telefónico          |
+| Terminación línea DUOX       | FERMAX   | Terminación línea DUOX             | Sistemas videoportero FERMAX          |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                             | Por qué la necesitas                                       |
+|----|------------------------------------------------------|------------------------------------------------------------|
+| 1  | Para qué espacio es? (tienda, fábrica, hospital)    | Define el tipo de sistema necesario                        |
+| 2  | Cuántos puntos de audio / tomas necesita?           | Define el número de altavoces y la potencia del amplificador|
+| 3  | Quiere zonificar el sonido? (música en zona A, avisos en zona B)| Sí → amplificador multizona                   |
+| 4  | Es para llamada de personal (hospital, hotel)?      | Kit SMILE EPA o similar                                   |
+| 5  | Tiene ya sistema instalado? Marca?                  | Para dar accesorios o ampliaciones compatibles             |
+
+CONSEJO: La megafonía de tienda y la megafonía de emergencia son muy diferentes.
+La megafonía de emergencia (para evacuación) está regulada por normativa
+(UNE-EN 60849) y requiere equipos certificados. Si el cliente menciona
+"megafonía para emergencias" o "para evacuación", preguntar si tienen proyecto
+técnico — no es una instalación estándar.
+
+============================================================
+Fuentes:
+- FONESTAR: https://www.fonestar.com/
+- LEGRAND sistemas hospitalarios: https://www.legrand.es/
+============================================================

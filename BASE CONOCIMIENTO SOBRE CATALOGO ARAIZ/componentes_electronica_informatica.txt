@@ -1,0 +1,92 @@
+CUADRO RESUMEN — COMPONENTES ELECTRÓNICA E INFORMÁTICA (software industrial, latiguillos, switches red, módulos, conectores)
+Familia: Comunicaciones > Componentes electrónica e informática
+Ejemplo en Araiz: PHOENIX CONTACT Router 4G LTE industrial / SIEMENS Software SIMATIC STEP 7 Basic V19 / PHOENIX CONTACT Pinza crimpar CRIMPFOX
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"switch ethernet industrial instalación" o "router 4G industrial panel eléctrico"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Este grupo recoge componentes de red, informática industrial y software de programación
+que se usan en instalaciones eléctricas avanzadas y sistemas de automatización.
+No es electrónica de consumo — es infraestructura de comunicaciones para entornos
+industriales y de automatización.
+
+Tipos principales:
+
+**1. SOFTWARE INDUSTRIAL (~3.023 art. — el grupo más grande)**
+Licencias de software para programar y configurar sistemas de automatización:
+- **SIEMENS SIMATIC STEP 7 / TIA Portal:** el software estándar para programar PLCs Siemens.
+  Floating License = una licencia que puede usarse en varios ordenadores.
+  PowerTags = número de variables/señales que puede gestionar (512, 2048, ilimitadas...).
+- **SIEMENS WinCC:** software de supervisión SCADA (paneles de control en pantalla).
+Son licencias caras (cientos o miles de euros) que piden los integradores de automatización.
+
+**2. LATIGUILLOS (~891 art.)**
+Cables de conexión cortos con conectores en ambos extremos.
+- Latiguillos Ethernet (RJ45): para conectar equipos en rack o armario de control.
+  Cat5e, Cat6, Cat6A — longitudes de 0,5m a 5m.
+- Latiguillos de fibra óptica: para conexiones de alta velocidad o largas distancias.
+Los latiguillos de Araiz van orientados a entornos industriales (más robustos que los domésticos).
+
+**3. SWITCHES ETHERNET INDUSTRIALES (~128 art.)**
+El "concentrador" de red en versión industrial. Permite conectar varios equipos
+(PLCs, HMIs, cámaras, sensores) en una red local dentro del armario eléctrico.
+- Montaje en carril DIN (dentro del cuadro)
+- Temperatura de trabajo: -40°C a +70°C (entornos industriales)
+- Marcas en Araiz: PHOENIX CONTACT, SIEMENS
+Diferencia vs switch doméstico: diseñado para funcionar 24/7 durante años sin fallos,
+con protecciones contra interferencias eléctricas.
+
+**4. ROUTERS Y GATEWAYS 4G/VPN (~parte de "Otros")**
+Permiten conexión remota a instalaciones industriales a través de red móvil 4G.
+El instalador puede acceder al PLC de una fábrica desde su ordenador en la oficina.
+- PHOENIX CONTACT mGuard: router industrial con VPN IPsec, cortafuegos, 4G LTE.
+Muy usado en mantenimiento remoto de instalaciones distribuidas.
+
+**5. MÓDULOS Y CONECTORES (~373 + 207 art.)**
+Módulos de comunicación (Profibus, Profinet, EtherNet/IP) y conectores industriales
+para interconectar sistemas de diferentes fabricantes.
+
+Lo que facilita:
+- Comunicación fiable entre equipos industriales en entornos hostiles.
+- Acceso remoto y mantenimiento sin desplazamiento físico.
+- Programación y supervisión de instalaciones automatizadas.
+
+============================================================
+
+MODELOS EN ARAIZ (~5.254 artículos)
+--------------------------------------------------------------
+| Tipo                        | Marca           | Ejemplo                          | Para qué                           |
+|-----------------------------|-----------------|----------------------------------|------------------------------------|
+| Software STEP 7 Basic V19   | SIEMENS         | Floating License DVD+USB         | Programar PLCs Siemens S7          |
+| Software WinCC 512 tags     | SIEMENS         | Professional V19 TIA Portal      | SCADA supervisión industrial       |
+| Router 4G LTE industrial    | PHOENIX CONTACT | mGuard 4G 2DI/2DO IPsec          | Acceso remoto a instalaciones      |
+| Switch industrial DIN       | PHOENIX CONTACT | FL SWITCH varios puertos         | Red local en armario eléctrico     |
+| Latiguillo Ethernet Cat6    | Varios          | 0,5m a 5m RJ45-RJ45              | Conexión equipos en rack/armario   |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                              | Por qué la necesitas                                       |
+|----|-------------------------------------------------------|-------------------------------------------------------------|
+| 1  | Qué marca de PLC tiene? (Siemens, Omron, Schneider)  | El software de programación es específico por fabricante    |
+| 2  | Qué versión de TIA Portal usa actualmente?           | Las licencias son por versión — no compatibles entre versiones|
+| 3  | Necesita acceso remoto a la instalación?             | Sí → router 4G industrial                                  |
+| 4  | Cuántos puertos necesita el switch?                  | Contar equipos a conectar + 20% de margen                  |
+
+CONSEJO: El software y las licencias industriales son ventas de alto valor pero
+muy específicas. Casi siempre el cliente sabe exactamente la referencia que necesita
+(la tiene en una oferta anterior o en el proyecto). Si no la sabe, escalar al técnico.
+Los latiguillos Ethernet son venta fácil y recurrente — todo armario de control
+los necesita y se reponen con frecuencia.
+
+============================================================
+Fuentes:
+- SIEMENS TIA Portal: https://www.siemens.com/es/es/productos/automatizacion/sistemas/simatic.html
+- PHOENIX CONTACT redes: https://www.phoenixcontact.com/es-es/productos/redes-industriales/
+============================================================

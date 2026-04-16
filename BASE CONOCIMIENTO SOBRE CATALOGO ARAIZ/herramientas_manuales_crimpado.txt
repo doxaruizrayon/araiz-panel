@@ -1,0 +1,86 @@
+CUADRO RESUMEN — HERRAMIENTAS MANUALES Y DE CRIMPADO (alicates, herramientas de crimpado, pelacables, PHOENIX CONTACT)
+Familia: Herramientas > Herramientas manuales + Herramientas neumáticas e hidráulicas
+Ejemplo en Araiz: PHOENIX CONTACT Crimpadora CRIMPFOX-ES 6 / PHOENIX CONTACT Alicate de inserción WIREFOX / SOFAMEL Guantes BT
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"crimpar terminal puntero electricidad" o "alicate crimpador ferrules electricista"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Las herramientas manuales en el catálogo de Araiz están orientadas al trabajo
+del instalador eléctrico: crimpar terminales, pelar cables, insertar conductores
+en bornes y proteger las manos en trabajos eléctricos.
+
+Marca dominante en herramientas de crimpado: **PHOENIX CONTACT** — el mismo fabricante
+de los bornes y terminales que vende Araiz. Sus herramientas están diseñadas para sus
+propios terminales, lo que garantiza la compatibilidad y la calidad del crimpado.
+
+**HERRAMIENTAS DE CRIMPADO (crimpadoras)**
+Prensa el terminal sobre el conductor para crear una unión eléctrica y mecánica sólida.
+Es la herramienta más importante del instalador de cuadros eléctricos.
+
+Tipos en Araiz:
+- **CRIMPFOX-ES 6 (PHOENIX CONTACT):** crimpadora para ferrules (punteros) de 0,25 a 6mm².
+  Formato QUATTRO: crimpa en cuatro lados simultáneamente → conexión más segura y profesional
+  que la crimpadora de dos lados (hexagonal).
+- **CRIMPFOX-QUATTRO 10 (PHOENIX CONTACT):** versión para secciones mayores hasta 10mm².
+- **Crimpadora de terminales de presión:** para terminales de pala, ojal y pin sin aislamiento.
+
+¿Por qué crimpar en lugar de enrollar?
+El terminal crimpado cumple la normativa (IEC 60947-7), no afloja con el tiempo y soporta
+vibraciones. En cuadros de automatización industrial es obligatorio.
+
+**PELACABLES Y ALICATES**
+- Pelacables automático: regula la profundidad de corte para no dañar el conductor.
+- Alicate de puntas/corte: para trabajos finos en armarios.
+- **WIREFOX (PHOENIX CONTACT):** alicate de inserción para empujar conductores en bornes
+  de conexión directa (Push-In). Evita doblar el conductor al introducirlo.
+
+**EQUIPOS DE PROTECCIÓN INDIVIDUAL (EPIs) — SOFAMEL**
+Los EPIs eléctricos son los equipos que protegen al electricista en trabajos con tensión.
+- **SOFAMEL Guantes dieléctricos BT:** guantes de látex para trabajos en baja tensión.
+  Clasificación 00 (500V) o 0 (1.000V). Obligatorios en trabajos con tensión.
+- **Señales y carteles de seguridad:** carteles de "peligro eléctrico", "prohibido",
+  "primeros auxilios" — obligatorios en instalaciones eléctricas.
+- **Tapetes y alfombras dieléctricas:** aislamiento en el puesto de trabajo en maniobras.
+- **Pértigas de maniobra:** para maniobrar seccionadores en instalaciones de MT.
+
+============================================================
+
+MODELOS EN ARAIZ (dentro de los ~3.964 artículos de Herramientas)
+--------------------------------------------------------------
+| Tipo                           | Marca          | Ejemplo                            | Para qué                              |
+|--------------------------------|----------------|------------------------------------|---------------------------------------|
+| Crimpadora ferrules 0,25-6mm² | PHOENIX CONTACT| CRIMPFOX-ES 6 QUATTRO              | Crimpar punteros en cuadros eléctricos|
+| Crimpadora ferrules hasta 10mm²| PHOENIX CONTACT| CRIMPFOX-QUATTRO 10                | Ferrules de secciones mayores         |
+| Alicate inserción Push-In      | PHOENIX CONTACT| WIREFOX alicate de inserción       | Insertar conductores en bornes Push-In|
+| Guantes dieléctricos BT        | SOFAMEL        | Guantes clase 00 / clase 0         | Trabajos con tensión en BT            |
+| Tapete dieléctrico             | SOFAMEL        | Alfombra aislante puesto trabajo   | Aislamiento en maniobras eléctricas   |
+| Señal peligro eléctrico        | SOFAMEL        | Cartel PVC normativo               | Señalización obligatoria instalaciones|
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                              | Por qué la necesitas                                      |
+|----|-------------------------------------------------------|-----------------------------------------------------------|
+| 1  | Para qué sección de cable necesita la crimpadora?    | Define el modelo: hasta 6mm² o hasta 10mm²                |
+| 2  | Usa bornes Push-In (sin tornillo)?                   | Sí → recomendar WIREFOX para inserción sin dañar el cable |
+| 3  | Es para EPIs eléctricos (trabajo con tensión)?       | Define la clase de guante (00=500V, 0=1000V, 1=7500V)    |
+| 4  | Necesita señalización obligatoria?                   | Carteles, señales de seguridad — habituales en obras nuevas|
+| 5  | Es para taller industrial o instalación doméstica?   | Taller → gama profesional; Doméstico → herramienta básica |
+
+CONSEJO: La crimpadora CRIMPFOX de PHOENIX CONTACT es la más vendida en cuadros eléctricos.
+Si un cliente monta cuadros con bornes PHOENIX CONTACT, la herramienta complementaria
+natural es también PHOENIX CONTACT — están diseñadas para trabajar juntas.
+Los EPIs (guantes, tapetes) son de venta garantizada en inspecciones y auditorías:
+cualquier instalador eléctrico habilitado debe tenerlos. No son opcionales.
+
+============================================================
+Fuentes:
+- PHOENIX CONTACT: https://www.phoenixcontact.com/es-es/
+- SOFAMEL: https://www.sofamel.com/
+============================================================

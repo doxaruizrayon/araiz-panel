@@ -1,0 +1,103 @@
+CUADRO RESUMEN — SEGURIDAD: SONERÍA, ALARMAS Y DETECCIÓN (timbres, sirenas, detectores de movimiento, humo y gas)
+Familia: Seguridad > Sonería y alarma + Detección
+Ejemplo en Araiz: SCHNEIDER Timbre 230V / DINUY sirena interior / ORBIS detector PIR / HAGER detector humo / THEBEN detector crepuscular
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"instalar detector de movimiento PIR" o "detector de humo instalación eléctrica"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+El grupo de Seguridad en Araiz (~2.324 art.) cubre dos grandes bloques:
+los dispositivos de aviso sonoro/luminoso (timbres, sirenas, avisadores) y los
+sensores de detección (movimiento, humo, gas, luminosidad).
+
+**PARTE 1 — SONERÍA Y ALARMA (~aprox. 300 art.)**
+
+**Timbres y zumbadores**
+El timbre de puerta clásico: se instala junto a la puerta de entrada y suena
+cuando alguien pulsa el pulsador exterior.
+- Tipos de alimentación: 230V AC (conectado al circuito eléctrico) o 8-12V AC/DC
+  (para sistemas de portero eléctrico convencional).
+- SCHNEIDER Electric: su gama de mecanismos incluye timbres, zumbadores y
+  avisadores luminosos para cuadro.
+
+**Sirenas y avisadores**
+Dispositivos de alarma de mayor potencia (más decibelios y más visibles).
+- Sirena interior: para alarmas de intrusión, señales de proceso industrial.
+  DINUY: fabricante español de sirenas y pilotos para automatización y alarma.
+- Sirena exterior: diseñada para resistir la intemperie, avisa a vecinos en robo.
+- Avisadores lumínicos (flash, rotativo): muy habituales en almacenes, naves
+  industriales y sistemas de emergencia industrial.
+- Pilotos luminosos de señalización: para cuadros eléctricos, indican estado
+  de circuitos (verde = OK, rojo = fallo, amarillo = aviso).
+
+**PARTE 2 — DETECCIÓN (~aprox. 500 art.)**
+
+**Detectores de movimiento / PIR (infrarrojo pasivo)**
+Detectan el calor corporal de una persona en movimiento.
+- Uso interior: para encendido automático de luces o alarma antirrobo.
+  ORBIS DOMO360: detector PIR de 360° para montaje en techo — cubre toda la habitación.
+  THEBEN PIR: gama de detectores de presencia y movimiento con temporizador ajustable.
+- Uso exterior: con protección IP65 y filtro antimascotas para evitar falsas alarmas.
+- Parámetro clave: el **ángulo de cobertura** (90°, 120°, 180°, 360°) y el **alcance** (6m, 12m...).
+
+**Detectores crepusculares (células fotosensibles)**
+Encienden las luces automáticamente al anochecer y las apagan al amanecer.
+- THEBEN detector crepuscular: para alumbrado exterior, luminarias de fachada.
+  Se ajusta el umbral de luminosidad (lux) a partir del cual se activa.
+
+**Detectores de humo**
+- **Óptico:** detecta partículas de humo (incendios con llama viva). Para oficinas y viviendas.
+- **Térmico:** detecta el aumento brusco de temperatura. Para cocinas donde el humo de cocinar
+  daría falsas alarmas con el óptico.
+- HAGER: entre los más usados en instalaciones de BT en España. Su gama incluye detectores
+  autónomos (pilas) e interconectables (cableados).
+- Normativa en viviendas nuevas: el CTE DB SI obliga a instalar detectores de humo.
+
+**Detectores de gas**
+Para fugas de gas natural (metano) o propano. Se instalan en cocinas y garajes.
+La alarma suena y corta el suministro mediante una electroválvula.
+
+============================================================
+
+MODELOS EN ARAIZ (~2.324 artículos en Seguridad)
+--------------------------------------------------------------
+| Tipo                           | Marca    | Ejemplo                             | Para qué                              |
+|--------------------------------|----------|-------------------------------------|---------------------------------------|
+| Timbre 230V                   | SCHNEIDER| Timbre estándar mecanismo           | Puerta entrada vivienda u oficina     |
+| Sirena interior alarma        | DINUY    | Sirena interior 12V/230V            | Alarma antirrobo o señal industrial   |
+| Piloto luminoso cuadro 24V    | DINUY    | Piloto LED rojo/verde panel         | Señalización estado en cuadro         |
+| Detector PIR 360° techo       | ORBIS    | DOMO360 cobertura total habitación  | Presencia/intrusión montaje en techo  |
+| Detector movimiento exterior  | THEBEN   | PIR exterior IP65 antimascotas      | Encendido exterior o alarma exterior  |
+| Detector crepuscular          | THEBEN   | Célula fotosensible ajustable       | Alumbrado exterior automático día/noche|
+| Detector humo óptico          | HAGER    | Óptico interconectable              | Vivienda, oficina — detección incendio|
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                              | Por qué la necesitas                                      |
+|----|-------------------------------------------------------|-----------------------------------------------------------|
+| 1  | Es para encender luz (presencia) o para alarma?     | Presencia → detector PIR con salida; Alarma → sistema completo|
+| 2  | Interior o exterior?                                 | Exterior → IP65, antimascotas; Interior → estándar        |
+| 3  | El detector es de techo o de pared?                 | Techo → PIR 360°; Pared → PIR sectorial 120-180°          |
+| 4  | Detecta humo, movimiento o gas?                      | Define el tipo de sensor                                   |
+| 5  | Tiene sistema de alarma ya instalado? Marca?        | Para dar el detector compatible con la central de alarma  |
+
+CONSEJO: Los detectores de movimiento son muy habituales como repuesto o mejora.
+La pregunta clave es el ángulo de cobertura y si es para activar luz (detector de
+presencia con relé de salida) o para alarma (con contacto NO/NC para central).
+Los detectores de humo son obligatorios en viviendas nuevas por el CTE — el instalador
+eléctrico suele incluirlos en el presupuesto de la instalación. Siempre ofrecer
+interconectables: si uno detecta humo, todos suenan.
+
+============================================================
+Fuentes:
+- ORBIS: https://www.orbis.es/
+- THEBEN: https://www.theben.es/
+- HAGER: https://www.hager.es/
+- DINUY: https://www.dinuy.com/
+============================================================

@@ -1,0 +1,110 @@
+CUADRO RESUMEN — SEGURIDAD: PROTECCIÓN, PARARRAYOS Y VIDEOVIGILANCIA (EPIs, señales, pararrayos, cámaras, grabadores)
+Familia: Seguridad > Protección y prevención + Pararrayos y señalización + Videovigilancia
+Ejemplo en Araiz: SOFAMEL guantes AT / SOFAMEL señal peligro eléctrico / RODMAN cámara domo / FERMAX grabador IP
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"cámara IP instalación básica NVR" o "pararrayos instalación normativa"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Este cuadro agrupa tres subfamilias dentro de Seguridad que tienen en común
+la protección de personas, instalaciones y bienes.
+
+**PARTE 1 — PROTECCIÓN Y PREVENCIÓN (EPIs eléctricos)**
+
+EPIs son los Equipos de Protección Individual — las protecciones personales
+obligatorias para el electricista que trabaja con tensión.
+Marca de referencia: **SOFAMEL** — fabricante español especializado en EPIs eléctricos.
+
+- **Guantes dieléctricos:**
+  - Clase 00: para BT hasta 500V (instalaciones domésticas, cuadros BT).
+  - Clase 0: hasta 1.000V (cuadros industriales BT, CGP).
+  - Clase 1: hasta 7.500V (transformadores, centros de transformación).
+  - Clase 2: hasta 17.000V (líneas de media tensión MT).
+  Los guantes dieléctricos se prueban eléctricamente y tienen fecha de caducidad
+  (reglamentaria: prueba cada 6 meses si se usan regularmente).
+- **Casco dieléctrico:** para protección de cabeza en entornos eléctricos.
+- **Pantalla facial:** para protección de arco eléctrico en maniobras en BT/MT.
+- **Pértigas y detectores de tensión:** para operar con cables energizados en MT.
+- **Alfombras y tapetes dieléctricos:** aislamiento del suelo en el puesto de trabajo.
+
+**PARTE 2 — PARARRAYOS Y SEÑALIZACIÓN**
+
+**Pararrayos**
+El pararrayos capta el rayo y lo conduce a tierra para proteger el edificio.
+En España la normativa (UNE 21186) distingue:
+- **Pararrayos de punta simple:** el clásico. Protección limitada a la zona de influencia.
+- **Pararrayos de dispositivo de cebado (PDC):** activa un líder ascendente anticipado.
+  Cubre un radio mayor. Marca SOFAMEL: su gama de pararrayos PDC de alta eficiencia.
+- Obligatorio en edificios de cierta altura, depósitos de combustible y zonas de riesgo.
+
+**Señalización de seguridad**
+Los carteles y señales obligatorios en instalaciones eléctricas:
+- "Peligro eléctrico" (rayo en triángulo amarillo): junto a cuadros y centros de transformación.
+- "Prohibido" (círculo rojo): prohibido pasar, prohibido operar.
+- "Primeros auxilios" (cruz verde): indicación de equipos de socorro.
+- "Tierra de protección": identificación del conductor de tierra.
+Se fabrican en PVC rígido, adhesivo o aluminio. Obligatorios por el REBT y el RD 485/1997.
+
+**PARTE 3 — VIDEOVIGILANCIA**
+Cámaras de seguridad y grabadores para instalaciones de CCTV.
+Instalación habitual en comercios, parking, naves industriales y edificios de viviendas.
+
+- **RODMAN:** marca española de cámaras y accesorios CCTV.
+  - Cámara domo IP: diseño empotrado en techo, discreta. Para interiores.
+  - Cámara bullet exterior: forma cilíndrica, resistente a intemperie (IP66). Para fachadas.
+  - Resolución: la mayoría ya es 2MP (Full HD) o 4MP. Cuanto más MP, más detalle y más almacenamiento.
+
+- **FERMAX:** conocido por videoporteros, también tiene grabadores IP (NVR).
+  - **NVR (Network Video Recorder):** grabador de cámaras IP. Se conecta a la red local.
+    Las cámaras le envían el vídeo por red Ethernet.
+  - **DVR (Digital Video Recorder):** grabador analógico. Para cámaras HDCVI/HDTVI clásicas.
+
+Conceptos clave:
+- **IP vs analógica:** IP = más resolución, más flexibilidad, más instalación de red;
+  Analógica = más sencilla, más barata, menos resolución.
+- **PoE (Power over Ethernet):** la cámara recibe alimentación por el mismo cable de red.
+  Elimina el cableado eléctrico independiente para cada cámara.
+
+============================================================
+
+MODELOS EN ARAIZ (dentro de los ~2.324 artículos de Seguridad)
+--------------------------------------------------------------
+| Tipo                           | Marca   | Ejemplo                              | Para qué                              |
+|--------------------------------|---------|--------------------------------------|---------------------------------------|
+| Guantes dieléctricos clase 00 | SOFAMEL | Látex hasta 500V BT uso general      | Trabajos en cuadros BT domésticos     |
+| Guantes dieléctricos clase 1  | SOFAMEL | Látex hasta 7.500V MT                | Operaciones en centro de transformación|
+| Pararrayos PDC                | SOFAMEL | PDC radio protección ampliado        | Protección edificios, depósitos        |
+| Señal peligro eléctrico       | SOFAMEL | PVC rígido normativo triángulo       | Señalización obligatoria cuadros      |
+| Cámara domo IP 2MP interior   | RODMAN  | Domo IP 1080p techo interior         | Vigilancia interior comercio/edificio |
+| Cámara bullet exterior IP65   | RODMAN  | Bullet IP66 exterior 2MP             | Vigilancia fachada, parking exterior  |
+| Grabador NVR 8 canales PoE    | FERMAX  | NVR 8ch con PoE para cámaras IP     | Central de grabación sistema CCTV IP  |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                              | Por qué la necesitas                                      |
+|----|-------------------------------------------------------|-----------------------------------------------------------|
+| 1  | Los EPIs: para qué tensión trabaja? (BT o MT)        | Define la clase de guante                                 |
+| 2  | El pararrayos: es edificio, depósito o zona abierta? | Define el tipo y radio de protección necesario            |
+| 3  | Las cámaras: interior o exterior?                    | Interior → domo; Exterior → bullet IP65/66               |
+| 4  | Cámaras IP (red) o analógicas?                       | IP → NVR; Analógica → DVR; Define todo el sistema         |
+| 5  | Cuántas cámaras y cuántos días de grabación?         | Define capacidad del NVR y el disco duro necesario        |
+
+CONSEJO: Los EPIs son de venta fácil y recurrente — los guantes tienen caducidad
+y hay que renovarlos. Cualquier instalador habilitado debe tenerlos. Si piden guantes
+dieléctricos, siempre preguntar la clase (tensión de trabajo).
+Para videovigilancia, lo más habitual es un sistema IP con PoE: un switch PoE,
+cámaras IP y un NVR. El instalador eléctrico hace el cableado de red y la alimentación;
+la configuración del software la hace el instalador de seguridad.
+
+============================================================
+Fuentes:
+- SOFAMEL: https://www.sofamel.com/
+- RODMAN: https://www.rodman.es/
+- FERMAX: https://www.fermax.com/es/
+============================================================

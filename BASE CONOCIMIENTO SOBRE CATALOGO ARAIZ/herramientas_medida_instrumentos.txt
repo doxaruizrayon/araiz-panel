@@ -1,0 +1,96 @@
+CUADRO RESUMEN — INSTRUMENTOS DE MEDIDA (multímetros, pinzas amperimétricas, luxómetros, verificadores)
+Familia: Herramientas > Instrumentos de medida
+Ejemplo en Araiz: FLUKE 115 multímetro digital / FLUKE 323 pinza amperimétrica / FLUKE T6-1000 verificador tensión
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"cómo usar multímetro electricista" o "pinza amperimétrica medir consumo sin cortar cable"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Los instrumentos de medida son imprescindibles para el electricista: verifican que
+la instalación funciona correctamente, miden tensión, intensidad, resistencia y
+continuidad. En Araiz la marca de referencia es **FLUKE** — el estándar profesional
+en instrumentación eléctrica a nivel mundial.
+
+**MULTÍMETROS**
+El instrumento universal del electricista. Mide:
+- **Tensión (V):** alterna (VAC) y continua (VDC). Verificar que hay 230V en una toma.
+- **Intensidad (A):** corriente que circula por un circuito (requiere abrir el circuito).
+- **Resistencia (Ω):** para medir resistencias y verificar continuidad.
+- **Continuidad:** zumbador que suena si hay circuito cerrado — para detectar cables cortados.
+- **Diodos, condensadores, temperatura:** según el modelo.
+
+Gama FLUKE en Araiz:
+- **FLUKE 115:** multímetro de campo para electricistas. CAT III 600V.
+  Mide VAC/VDC, A, Ω, continuidad y frecuencia. El más vendido para instalaciones residenciales.
+- **FLUKE 117:** añade detección de tensión sin contacto (NCV) — muy útil para verificar
+  rápidamente si un cable tiene tensión antes de tocarlo.
+- **FLUKE 87V:** el modelo avanzado — alta precisión, mide True RMS (valor real en corrientes
+  no sinusoidales, habitual en cargas con variadores de velocidad o LEDs).
+
+**PINZAS AMPERIMÉTRICAS (clamp meters)**
+Miden la intensidad que circula por un cable SIN abrir el circuito ni cortar el cable.
+Se rodea el cable con la pinza y la lectura magnética da el amperaje.
+- **FLUKE 323:** mide hasta 400A AC. El más básico y más vendido. Para instalaciones
+  monofásicas y trifásicas, verificar cargas, comprobar consumos.
+- **FLUKE 325:** añade medida de tensión y continuidad — pinza + multímetro básico.
+- **FLUKE 365:** mide corriente de fuga (muy baja intensidad) — para diagnóstico de
+  diferenciales que disparan sin causa aparente.
+
+**VERIFICADORES DE TENSIÓN (testers)**
+- **FLUKE T6-1000:** verificador de campo. Detecta tensión hasta 1.000V AC/DC con solo
+  acercar el instrumento al cable o al terminal (tecnología FieldSense).
+  Más rápido que el multímetro para una verificación rápida de "hay tensión / no hay tensión".
+- **Lápiz de tensión / tester de fase:** el verificador más básico. Indica si hay tensión
+  con un LED o zumbador. No da valor numérico.
+
+**LUXÓMETROS**
+Miden la iluminación (lux) de un espacio para verificar que cumple la normativa.
+- Muy habitual en proyectos de iluminación industrial y oficinas (UNE 12464.1).
+- Mínimos habituales: 500 lux en oficinas, 300 lux en zonas de paso, 200 lux en almacenes.
+
+**ANALIZADORES DE REDES**
+Para instalaciones industriales: miden calidad de red eléctrica, armónicos, factor
+de potencia. Más especializados, para técnicos de mantenimiento industrial.
+
+============================================================
+
+MODELOS EN ARAIZ (dentro de los ~3.964 artículos de Herramientas)
+--------------------------------------------------------------
+| Tipo                           | Marca | Ejemplo                             | Para qué                              |
+|--------------------------------|-------|-------------------------------------|---------------------------------------|
+| Multímetro campo CAT III 600V | FLUKE | 115 VAC/VDC/Ω/Hz                   | Instalaciones residenciales e industriales|
+| Multímetro NCV True RMS       | FLUKE | 117 con detector sin contacto       | Verificar tensión sin tocar el cable  |
+| Multímetro avanzado True RMS  | FLUKE | 87V alta precisión                  | Variadores, LEDs, cargas no lineales  |
+| Pinza amperimétrica 400A      | FLUKE | 323 AC hasta 400A                   | Medir consumo sin abrir circuito      |
+| Pinza + multímetro            | FLUKE | 325 pinza + tensión + continuidad   | Versatilidad en campo                 |
+| Verificador de tensión        | FLUKE | T6-1000 FieldSense hasta 1.000V    | Verificación rápida sin tocar cable   |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                              | Por qué la necesitas                                      |
+|----|-------------------------------------------------------|-----------------------------------------------------------|
+| 1  | Mide tensión, intensidad o las dos?                  | Solo tensión → tester; Ambas → multímetro o pinza+tester |
+| 2  | Necesita medir sin abrir el circuito?                | Sí → pinza amperimétrica                                  |
+| 3  | Es para instalaciones con variadores o LEDs?         | Sí → necesita True RMS (FLUKE 87V o 117)                 |
+| 4  | Es para obra o para mantenimiento diario?            | Obra → modelo robusto; Mantenimiento → según especialidad |
+| 5  | Tiene un presupuesto aproximado?                     | FLUKE es gama media-alta; si es muy ajustado hay alternativas|
+
+CONSEJO: FLUKE es la marca de referencia — sus instrumentos son robustos, precisos
+y bien calibrados. No todos los multímetros son iguales: un multímetro barato sin
+certificación CAT III no es seguro para trabajar en cuadros eléctricos con tensión.
+La categoría de seguridad (CAT I, II, III, IV) indica contra qué transitorios de
+tensión protege el instrumento. Para cuadros eléctricos: mínimo CAT III.
+True RMS es importante cuando el cliente trabaja con variadores de frecuencia, SAIs
+o iluminación LED — las formas de onda no son sinusoidales y un multímetro sin RMS
+da lecturas incorrectas.
+
+============================================================
+Fuentes:
+- FLUKE: https://www.fluke.com/es-es/
+============================================================

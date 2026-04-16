@@ -1,0 +1,102 @@
+CUADRO RESUMEN — ANTENAS Y SEÑAL TV (antenas TDT, satélite, amplificadores, repartidores, mástiles)
+Familia: Comunicaciones > Antenas
+Ejemplo en Araiz: TELEVES Mezclador FM-DAB-UHF / TELEVES Amplificador vivienda 2S+TV G10/20 ajustable / TELEVES Amplificador FI 20dB
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"instalar antena TDT colectiva edificio" o "amplificador señal TV coeficiente reparto"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+El sistema de antenas de un edificio capta la señal de televisión del aire
+(TDT) y/o del satélite, la amplifica si es necesario y la distribuye por cable
+coaxial hasta cada vivienda. En España esta infraestructura se llama ICT
+(Infraestructura Común de Telecomunicaciones) y es obligatoria en edificios nuevos.
+
+Marca dominante en Araiz: **TELEVES** — el fabricante español líder en señal TV.
+
+Componentes del sistema:
+
+**1. ANTENAS (~15 TDT + 12 satélite)**
+La antena exterior que capta la señal del aire.
+- **Antena terrestre (TDT/UHF):** directiva (apunta al transmisor), se instala en mástil.
+  Bandas: UHF (canales TDT), VHF (algún canal local), DAB (radio digital), FM.
+- **Antena satélite (parabólica):** capta señal de satélite (Astra, Hispasat).
+  El tamaño de la parabólica depende de la distancia y la señal del satélite.
+
+**2. AMPLIFICADORES (~65 art.)**
+Amplifican la señal para compensar las pérdidas en la distribución por cable.
+Sin amplificador, en edificios con muchas viviendas la señal llegaría demasiado débil.
+- **Amplificador de vivienda:** se instala en el punto de conexión de una sola vivienda.
+  TELEVES Amplificador vivienda 2S+TV 47-790MHz G10/20dB ajustable:
+  2 entradas de satélite + 1 terrestre, ganancia regulable.
+- **Amplificador de cabecera (FI):** amplifica la señal de satélite antes del reparto.
+  TELEVES Amplificador FI 20dB VS95: para la señal de satélite (FI = Frecuencia Intermedia).
+- **Amplificador de mástil:** se instala en el propio mástil, justo después de la antena.
+
+**3. MEZCLADORES (~parte de "Complementos")**
+Combinan las señales de diferentes fuentes (FM + DAB + UHF) en un solo cable.
+TELEVES Mezclador FM-DAB-UHF: combina las tres bandas en el punto de entrada.
+Se instalan en la cabecera del sistema, antes de la amplificación.
+
+**4. REPARTIDORES Y DERIVADORES (~51 art.)**
+Dividen la señal para distribuirla a varias viviendas o habitaciones.
+- **Repartidor:** divide la señal en partes iguales (2, 4, 6, 8 salidas).
+  Cada división reduce la señal: repartir en 2 = -4dB de pérdida aprox.
+- **Derivador:** extrae solo una parte de la señal para una planta, dejando
+  el resto del cable con más señal para las plantas superiores.
+
+**5. MÁSTILES Y TORRETAS (~31 art.)**
+Estructuras metálicas para fijar las antenas en la cubierta del edificio.
+- Mástil simple: tubo de acero galvanizado de 1-3m de altura.
+- Torreta: estructura más robusta para antenas grandes o zonas con viento.
+
+**6. COMPLEMENTOS (~163 art.)**
+Conectores F, cable coaxial, bases de toma (rosetas de pared), cajas de derivación,
+PAU (Punto de Acceso al Usuario) — el punto de conexión en la vivienda donde
+llegan todos los servicios (TV + teléfono + internet).
+
+Términos clave:
+- **dB (decibelios):** la ganancia o pérdida de señal. Más dB = más amplificación.
+- **UHF (Ultra High Frequency):** la banda de los canales TDT en España (470-790 MHz)
+- **FI (Frecuencia Intermedia):** la señal de satélite procesada por el LNB de la parabólica
+- **PAU:** Punto de Acceso al Usuario — la caja en la vivienda que separa señales
+
+============================================================
+
+MODELOS EN ARAIZ (~356 artículos)
+--------------------------------------------------------------
+| Tipo                        | Marca   | Ejemplo                              | Para qué                            |
+|-----------------------------|---------|--------------------------------------|-------------------------------------|
+| Mezclador FM-DAB-UHF        | TELEVES | Mezclador universal mastil           | Combinar señales en cabecera        |
+| Amplificador vivienda 2S+TV | TELEVES | 2S+TV 47-790MHz G10/20 ajustable     | Amplificar señal en una vivienda    |
+| Amplificador FI satélite    | TELEVES | Amplificador FI 20dB VS95            | Amplificar señal satélite sistema   |
+| PAU ICT 1 línea 1 salida    | TELEVES | PAU ICT TB 1L 1S                     | Punto acceso usuario ICT            |
+| Etiqueta identificadora     | TELEVES | Etiqueta identificadora 5 pares      | Identificar cables en distribución  |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                             | Por qué la necesitas                                       |
+|----|------------------------------------------------------|------------------------------------------------------------|
+| 1  | Cuántas viviendas o tomas tiene el edificio?        | Define el número de repartidores/derivadores y la ganancia |
+| 2  | Tiene satélite o solo TDT?                          | Satélite → necesita parabólica + amplificador FI           |
+| 3  | El edificio tiene ICT (infraestructura común)?      | Edificios >2003 lo tienen obligatorio por ley             |
+| 4  | Es instalación nueva o reparación/ampliación?       | Define si hay que replantear toda la cabecera o solo sustituir|
+| 5  | Hay problemas de señal en pisos concretos?          | Define si el problema es el amplificador, el reparto o la antena|
+
+CONSEJO: Las instalaciones de antenas colectivas (ICT) requieren un instalador
+de telecomunicaciones habilitado. Para reparaciones o amplificaciones pequeñas
+(cambiar un amplificador de vivienda, añadir una toma), cualquier electricista
+puede hacerlo. Para proyectos nuevos o grandes rehabilitaciones → instalador ICT.
+TELEVES domina el mercado español — si el cliente tiene TELEVES instalado,
+dar siempre TELEVES como repuesto para asegurar compatibilidad.
+
+============================================================
+Fuentes:
+- TELEVES: https://www.televes.com/es/
+- Normativa ICT: Real Decreto 346/2011
+============================================================

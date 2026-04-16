@@ -1,0 +1,82 @@
+CUADRO RESUMEN — AISLAMIENTOS Y TERMORRETRÁCTIL (fundas termorretráctiles, manguitos, cintas aislantes)
+Familia: Climatización > Aislamientos
+Ejemplo en Araiz: 3M Termorretráctil negro Ø6,4/3,2mm / 3M Termorretráctil RNF-100 colores / 3M Cinta aislante Scotch 33+
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"fundar termorretráctil cable eléctrico" o "termorretráctil uso electricista"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Los materiales de aislamiento protegen uniones, empalmes y extremos de cable
+contra la humedad, el polvo, la corrosión y los cortocircuitos.
+Están agrupados en la familia Climatización en el catálogo de Araiz, aunque
+su uso principal es en instalaciones eléctricas generales.
+
+Marca dominante en Araiz: **3M** — el fabricante de referencia en cintas y termorretráctiles.
+
+**TERMORRETRÁCTIL (~la mayor parte de los ~291 art.)**
+Una funda de plástico termorretráctil (normalmente poliolefina o PVC) que se
+contrae al aplicarle calor (pistola de calor o mechero).
+Se usa para:
+- Proteger empalmes de cable: la funda tapa el cobre desnudo.
+- Identificar cables por colores: rojo, negro, azul, amarillo/verde...
+- Reforzar zonas de cable que han perdido el aislamiento.
+- Cubrir bornes y conexiones en armarios eléctricos.
+
+Datos clave del termorretráctil:
+- **Diámetro nominal / contraído:** ej. "Ø6,4/3,2mm" → antes de encoger mide 6,4mm, después 3,2mm.
+  La relación de contracción más habitual es 2:1 (se divide a la mitad).
+- **Color:** negro (el más vendido), transparente, y colores para identificación.
+- **RNF-100 (3M):** la serie más estándar, ratio 2:1, rango de temperatura -55°C a +135°C.
+- **MDT-A (3M):** termorretráctil de pared gruesa con adhesivo interior para sellado hermético.
+  Se usa en exteriores o instalaciones donde puede entrar humedad (climatización, solar).
+
+**CINTAS AISLANTES**
+La cinta aislante clásica de PVC para aislar empalmes o reforzar cables.
+- **3M Scotch 33+:** la cinta profesional de referencia. Resistente a la intemperie,
+  temperaturas de -18°C a +105°C. Color negro.
+- **3M Scotch 88:** versión premium de la 33+, para alta tensión y condiciones extremas.
+- **Cintas de colores:** para identificar fases (marrón, negro, gris en monofásico / trifásico).
+
+**ESPUMA AISLANTE Y COQUILLAS**
+Materiales para aislar tuberías de climatización (frío, calor) y evitar condensaciones.
+Muy habitual en instalaciones de split de aire acondicionado.
+
+============================================================
+
+MODELOS EN ARAIZ (~291 artículos)
+--------------------------------------------------------------
+| Tipo                          | Marca | Ejemplo                              | Para qué                              |
+|-------------------------------|-------|--------------------------------------|---------------------------------------|
+| Termorretráctil 2:1 negro     | 3M    | RNF-100 Ø6,4/3,2mm negro x1,2m      | Proteger empalmes cable, uso general  |
+| Termorretráctil 2:1 colores   | 3M    | RNF-100 varios colores               | Identificación de cables por fase     |
+| Termorretráctil adhesivo 3:1  | 3M    | MDT-A pared gruesa sellado           | Exteriores, instalaciones húmedas     |
+| Cinta aislante profesional    | 3M    | Scotch 33+ negro -18/+105°C          | Aislar empalmes, reforzar aislamiento |
+| Cinta aislante alta tensión   | 3M    | Scotch 88 premium AT                 | Alta tensión y condiciones extremas   |
+| Cinta identificación fases    | 3M    | Cinta colores marrón/negro/gris      | Marcar fases L1/L2/L3                 |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                              | Por qué la necesitas                                      |
+|----|-------------------------------------------------------|-----------------------------------------------------------|
+| 1  | Qué diámetro tiene el cable o la zona a cubrir?      | Define el diámetro nominal del termorretráctil            |
+| 2  | Es para interior o exterior / zona húmeda?           | Interior → RNF-100; Exterior/húmedo → MDT-A con adhesivo |
+| 3  | Necesita colores específicos (identificación)?       | Para dar el color de fase correcto                        |
+| 4  | Es para cinta o para funda termorretráctil?          | Cinta → uso general; Termorretráctil → empalme/protección |
+| 5  | Cuánto necesita? (metros o unidades)                 | El termorretráctil se vende por tira o en rollos          |
+
+CONSEJO: El termorretráctil y la cinta aislante son consumibles que se venden mucho
+como repuesto habitual. La pregunta más importante es el diámetro: hay que saber
+el grosor del cable o conector que se quiere cubrir para dar el tamaño correcto.
+El termorretráctil adhesivo (MDT-A) se usa en instalaciones solares y de split donde
+puede haber humedad — cuesta más pero es imprescindible en esas aplicaciones.
+
+============================================================
+Fuentes:
+- 3M Electrical: https://www.3m.com/3M/es_ES/p/c/ppe/electrical/
+============================================================

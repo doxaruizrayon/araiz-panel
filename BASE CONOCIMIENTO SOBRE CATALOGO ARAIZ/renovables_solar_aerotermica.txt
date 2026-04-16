@@ -1,0 +1,96 @@
+CUADRO RESUMEN — RENOVABLES (solar fotovoltaica, solar térmica, aerotérmica)
+Familia: Renovables > Solar fotovoltaica + Solar térmica + Aerotérmica
+Ejemplo en Araiz: PHILIPS Panel solar 550Wp / WEIDMULLER Conector MC4 / DAIKIN Altherma 3 bomba calor
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"instalar panel solar fotovoltaico autoconsumo" o "bomba de calor aerotérmica cómo funciona"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+Las renovables cubren los equipos para generar energía sin combustibles fósiles.
+En Araiz el catálogo de renovables (~111 art.) es compacto pero estratégico:
+el mercado del autoconsumo solar ha crecido mucho y los instaladores eléctricos
+son quienes hacen la mayor parte de estas instalaciones.
+
+Aurora tiene ya formación sólida en solar fotovoltaica — este cuadro es repaso.
+
+**PARTE 1 — SOLAR FOTOVOLTAICA (~la mayoría de los 111 art.)**
+
+**Paneles solares**
+- **PHILIPS 550Wp:** panel monocristalino de alta eficiencia (~21%).
+  550W de pico = la potencia que genera en condiciones estándar (1.000W/m², 25°C).
+  Dimensiones habituales para 550Wp: ~2,2m x 1,1m.
+  Para vivienda de 3-4 personas: 6-10 paneles de 550Wp → 3,3kW a 5,5kWp instalados.
+
+**Inversores y optimizadores**
+- El inversor convierte la corriente continua (CC) de los paneles a alterna (CA) para el consumo.
+- Tipos habituales: string inverter (1 inversor para todo el array), microinversor (uno por panel).
+- Los optimizadores de potencia (Power Optimizer) se instalan panel a panel para reducir
+  las pérdidas por sombras parciales.
+
+**Conectores y cableado solar**
+- **WEIDMULLER MC4:** el conector estándar de la industria solar.
+  Son los enchufes macho/hembra que conectan los paneles entre sí en serie/paralelo.
+  Requieren herramienta de crimpado específica (no se pueden hacer a mano).
+- Cable solar (H1Z2Z2-K): cable especial para instalaciones fotovoltaicas, resistente
+  a UV y a altas temperaturas. Se distingue del cable eléctrico normal porque está
+  diseñado para estar en exterior toda su vida útil (25-30 años).
+
+**Kits de autoconsumo**
+Paquetes con panel(es) + inversor + estructura + cableado para instalaciones pequeñas.
+Habituales para segunda residencia, caseta de campo o instalación balcón (sin estructura en tejado).
+
+**PARTE 2 — SOLAR TÉRMICA**
+Paneles que calientan agua sanitaria (ACS) mediante la energía del sol.
+A diferencia del panel fotovoltaico (genera electricidad), el panel térmico calienta
+directamente un fluido que transfiere el calor al depósito de ACS.
+Muy habitual antes del boom fotovoltaico; ahora compite con aerotérmica.
+
+**PARTE 3 — AEROTÉRMICA**
+- **DAIKIN Altherma 3:** la gama de bombas de calor aerotérmicas más vendida en España.
+  Extrae calor del aire exterior (incluso a -15°C) para calentar/enfriar la vivienda
+  y producir ACS con un COP (rendimiento) de 3-5: por cada 1 kWh eléctrico consumido
+  genera 3-5 kWh de calor útil.
+  Sustituye la caldera de gas — es la alternativa principal para descarbonizar la calefacción.
+  Requiere instalador homologado (F-Gas para la parte del refrigerante).
+
+============================================================
+
+MODELOS EN ARAIZ (~111 artículos)
+--------------------------------------------------------------
+| Tipo                          | Marca      | Ejemplo                            | Para qué                              |
+|-------------------------------|------------|------------------------------------|---------------------------------------|
+| Panel solar monocristalino    | PHILIPS    | 550Wp ~21% eficiencia              | Autoconsumo residencial/industrial    |
+| Conector solar MC4 macho      | WEIDMULLER | MC4 macho cable 4-6mm²             | Conectar paneles en serie/paralelo    |
+| Conector solar MC4 hembra     | WEIDMULLER | MC4 hembra cable 4-6mm²            | Par con macho, conexión entre paneles |
+| Bomba calor aerotérmica       | DAIKIN     | Altherma 3 R32 calefacción+ACS     | Sustitución caldera gas en vivienda   |
+| Kit autoconsumo pequeño       | varios     | Kit 1-2 paneles + microinversor    | Segunda residencia, caseta            |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                              | Por qué la necesitas                                      |
+|----|-------------------------------------------------------|-----------------------------------------------------------|
+| 1  | Es para autoconsumo eléctrico o agua caliente?       | Fotovoltaico (electricidad) vs solar térmico (ACS)        |
+| 2  | Con o sin excedentes a red (con/sin vertido)?        | Define el tipo de inversor y la legalización              |
+| 3  | Cuántos kWp quiere instalar?                         | Define el número de paneles y potencia del inversor       |
+| 4  | Tiene ya sistema solar y necesita repuesto?          | MC4, cable solar → pedir exactamente lo que falta         |
+| 5  | Es para aerotérmica (calefacción)?                   | DAIKIN Altherma → requiere proyecto específico             |
+
+CONSEJO: El mercado solar ha cambiado mucho. Hoy casi todo es autoconsumo fotovoltaico.
+Las instalaciones requieren proyecto técnico si superan 100kW. Por debajo, el instalador
+eléctrico habilitado puede hacerlo con comunicación a distribuidora (Endesa, Iberdrola...).
+Los conectores MC4 son consumibles habituales — siempre preguntar la sección del cable
+(4mm² o 6mm²) para dar el conector correcto. Los MC4 de distintos fabricantes pueden
+NO ser compatibles entre sí aunque lo parezcan — recomendar siempre misma marca.
+
+============================================================
+Fuentes:
+- PHILIPS Solar: https://www.lighting.philips.es/
+- WEIDMULLER: https://www.weidmuller.com/es/
+- DAIKIN: https://www.daikin.es/
+============================================================

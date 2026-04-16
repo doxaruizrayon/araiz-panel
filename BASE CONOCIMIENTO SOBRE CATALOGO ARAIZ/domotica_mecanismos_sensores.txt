@@ -1,0 +1,100 @@
+CUADRO RESUMEN — DOMÓTICA (mecanismos inteligentes, sensores, termostatos, módulos X10)
+Familia: Comunicaciones > Domótica / Domótica > Domótica
+Ejemplo en Araiz: SCHNEIDER Sensor humedad ÚNICA / SCHNEIDER Detector humo CONNECT / SCHNEIDER Bastidor ZAMAK 2 módulos
+============================================================
+
+Búsqueda recomendada en YouTube (español):
+"domótica KNX instalación básica" o "módulos X10 qué es cómo funciona"
+
+============================================================
+
+¿QUÉ ES Y PARA QUÉ SIRVE?
+--------------------------------------------------------------
+La domótica son los sistemas que permiten automatizar y controlar de forma
+centralizada las instalaciones de un edificio: luces, persianas, climatización,
+seguridad, accesos y consumo energético. El nivel de sofisticación puede ir desde
+un simple temporizador hasta una instalación completa con bus KNX gestionada
+desde el móvil.
+
+En Araiz el catálogo de domótica está orientado principalmente al estándar
+**SCHNEIDER ELECTRIC** con su gama modular (serie ÚNICA y CONNECT).
+
+Tipos principales:
+
+**1. MECANISMOS DOMÓTICOS (~493 art.)**
+Interruptores, pulsadores, reguladores (dimmers) y controladores de persiana
+con protocolo de comunicación integrado. Se instalan como un mecanismo normal
+pero permiten ser controlados desde la central domótica o el móvil.
+- SCHNEIDER serie ÚNICA: mecanismos con estética modular, compatibles con KNX/Zigbee
+- Los bastidores ZAMAK son las "cajas" metálicas donde van los módulos
+
+**2. SENSORES (~217 art.)**
+Detectan condiciones ambientales y envían datos a la central:
+- **Sensor de humedad:** mide la humedad relativa. Activa ventilación automática en baños.
+- **Sensor de temperatura:** para regulación automática de climatización.
+- **Sensor de luminosidad:** apaga luces cuando hay suficiente luz natural.
+SCHNEIDER sensor humedad con tapa ciega ÚNICA blanco.
+
+**3. DETECTORES (~137 art.)**
+- **Detector de humo óptico CONNECT:** detecta partículas de humo. Obligatorio en
+  instalaciones domóticas de cierta categoría y recomendado en viviendas.
+  Versión CONNECT = comunicación inalámbrica con la central.
+- **Detectores de movimiento:** para automatización de luces (ver también familia Iluminación)
+
+**4. MÓDULOS X10 (~149 art.)**
+X10 es el protocolo domótico más antiguo y simple. Usa el propio cableado eléctrico
+de la vivienda para enviar señales de control (no necesita cable adicional).
+Bajo coste, fácil instalación, pero limitado en velocidad y fiabilidad.
+Cada vez más sustituido por Zigbee, Z-Wave y KNX, pero sigue vendiéndose para
+instalaciones económicas y retrofitting de viviendas existentes.
+
+**5. TERMOSTATOS Y CRONOTERMOSTATOS (~97 art.)**
+Controlan la calefacción o el aire acondicionado según horarios y temperaturas.
+- Analógico (rueda): el más básico y económico
+- Digital programable: permite hasta 7 programas diarios distintos
+- WiFi/KNX: integrado en el sistema domótico, controlable desde móvil
+
+**6. SUMINISTRO DE EMERGENCIA (~43 art.)**
+Módulos que mantienen el sistema domótico funcionando durante un corte de luz.
+SCHNEIDER Suministro emergencia 230V CA 50-60Hz.
+
+Términos clave:
+- **KNX:** el protocolo estándar europeo de domótica profesional. Fiable, escalable,
+  compatible entre fabricantes. Requiere cable bus KNX dedicado.
+- **Zigbee/Z-Wave:** protocolos inalámbricos más modernos. Sin cable adicional.
+- **X10:** el protocolo más antiguo, usa la red eléctrica existente.
+
+============================================================
+
+MODELOS EN ARAIZ (~1.504 artículos)
+--------------------------------------------------------------
+| Tipo                        | Marca     | Ejemplo                              | Para qué                            |
+|-----------------------------|-----------|--------------------------------------|-------------------------------------|
+| Sensor humedad mural        | SCHNEIDER | Sensor humedad tapa ciega ÚNICA blanco| Baños, cocinas, control ventilación |
+| Detector humo inalámbrico   | SCHNEIDER | Detector humo CONNECT blanco          | Seguridad contra incendios          |
+| Bastidor 2 módulos ZAMAK    | SCHNEIDER | Bastidor ZAMAK 2M Serie ÚNICA         | Montar mecanismos domóticos         |
+| Suministro emergencia 230V  | SCHNEIDER | Suministro emergencia 230V 50-60Hz   | Backup domótica en corte de luz     |
+
+============================================================
+
+PREGUNTAS QUE TIENES QUE HACER AL CLIENTE
+--------------------------------------------------------------
+| #  | Pregunta                                             | Por qué la necesitas                                        |
+|----|------------------------------------------------------|-------------------------------------------------------------|
+| 1  | Qué protocolo domótico tiene o quiere?              | KNX, X10, Zigbee — los productos no son intercambiables     |
+| 2  | Es obra nueva o instalación existente?              | Nueva → KNX es lo más profesional; existente → X10 o WiFi  |
+| 3  | Qué funciones quiere automatizar?                   | Luces, persianas, clima, seguridad → define los módulos     |
+| 4  | Tiene central domótica instalada? De qué marca?     | Los módulos deben ser compatibles con la central            |
+| 5  | Tiene técnico de domótica o lo instala un electricista general? | KNX requiere formación específica         |
+
+CONSEJO: La domótica es un mundo especializado. Un electricista general puede instalar
+mecanismos X10 o WiFi básicos, pero un sistema KNX requiere un integrador certificado.
+Si el cliente pregunta por domótica sin tener claro el protocolo, recomendarle que
+consulte con un integrador antes de comprar — las piezas de distintos protocolos
+no son compatibles entre sí.
+
+============================================================
+Fuentes:
+- SCHNEIDER domótica: https://www.se.com/es/es/product-category/6230-soluciones-de-gestion-de-edificios/
+- KNX Association: https://www.knx.org/es/
+============================================================
