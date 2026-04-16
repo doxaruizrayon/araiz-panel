@@ -216,8 +216,22 @@
   .resultado-item.fam-seguridad     { background: #fee2e2; }
   .resultado-item.fam-seguridad:hover     { background: #fecaca; }
   .resultado-item.fam-seguridad.activo    { background: #fecaca; border-left: 3px solid #dc2626; }
-  .alfa-item.aparellaje { background: #e0f2fe; border-color: #7dd3fc; }
-  .alfa-item.aparellaje:hover { background: #bae6fd; border-color: var(--azul2); }
+  .alfa-item.fam-electricidad  { background: #dbeafe; border-color: #7dd3fc; }
+  .alfa-item.fam-electricidad:hover  { background: #bfdbfe; border-color: var(--azul2); }
+  .alfa-item.fam-iluminacion   { background: #fef9c3; border-color: #fde047; }
+  .alfa-item.fam-iluminacion:hover   { background: #fef08a; border-color: #ca8a04; }
+  .alfa-item.fam-comunicaciones { background: #dcfce7; border-color: #86efac; }
+  .alfa-item.fam-comunicaciones:hover { background: #bbf7d0; border-color: #16a34a; }
+  .alfa-item.fam-domotica      { background: #ede9fe; border-color: #c4b5fd; }
+  .alfa-item.fam-domotica:hover      { background: #ddd6fe; border-color: #7c3aed; }
+  .alfa-item.fam-climatizacion { background: #ffedd5; border-color: #fdba74; }
+  .alfa-item.fam-climatizacion:hover { background: #fed7aa; border-color: #ea580c; }
+  .alfa-item.fam-renovables    { background: #d1fae5; border-color: #6ee7b7; }
+  .alfa-item.fam-renovables:hover    { background: #a7f3d0; border-color: #059669; }
+  .alfa-item.fam-herramientas  { background: #fce7f3; border-color: #f9a8d4; }
+  .alfa-item.fam-herramientas:hover  { background: #fbcfe8; border-color: #db2777; }
+  .alfa-item.fam-seguridad     { background: #fee2e2; border-color: #fca5a5; }
+  .alfa-item.fam-seguridad:hover     { background: #fecaca; border-color: #dc2626; }
 
   ::-webkit-scrollbar { width: 6px; }
   ::-webkit-scrollbar-track { background: transparent; }
@@ -446,7 +460,7 @@ function filtrarLetra(letra) {
 
   document.getElementById('alfa-lista').innerHTML = items.length
     ? items.map(a =>
-        '<div class="alfa-item' + (a.aparellaje ? ' aparellaje' : '') + '" onclick="irAArticulo(\'' + escapeHtml(a.filename) + '\')">' +
+        '<div class="alfa-item' + (a.familiaTop ? ' fam-' + a.familiaTop.replace(/\s+/g,'-') : '') + '" onclick="irAArticulo(\'' + escapeHtml(a.filename) + '\')">' +
           '<div class="a-titulo">' + escapeHtml(a.title) + '</div>' +
           '<div class="a-ref">' + escapeHtml(a.ref) + '</div>' +
         '</div>'
