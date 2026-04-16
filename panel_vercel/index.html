@@ -192,9 +192,30 @@
   .alfa-item .a-titulo { font-weight: 600; font-size: .88rem; color: var(--azul); }
   .alfa-item .a-ref { font-size: .75rem; color: var(--gris3); margin-top: 3px; }
 
-  .resultado-item.aparellaje { background: #e0f2fe; }
-  .resultado-item.aparellaje:hover { background: #bae6fd; }
-  .resultado-item.aparellaje.activo { background: #bae6fd; border-left: 3px solid var(--azul2); }
+  .resultado-item.fam-electricidad  { background: #dbeafe; }
+  .resultado-item.fam-electricidad:hover  { background: #bfdbfe; }
+  .resultado-item.fam-electricidad.activo { background: #bfdbfe; border-left: 3px solid var(--azul2); }
+  .resultado-item.fam-iluminacion   { background: #fef9c3; }
+  .resultado-item.fam-iluminacion:hover   { background: #fef08a; }
+  .resultado-item.fam-iluminacion.activo  { background: #fef08a; border-left: 3px solid #ca8a04; }
+  .resultado-item.fam-comunicaciones { background: #dcfce7; }
+  .resultado-item.fam-comunicaciones:hover { background: #bbf7d0; }
+  .resultado-item.fam-comunicaciones.activo { background: #bbf7d0; border-left: 3px solid #16a34a; }
+  .resultado-item.fam-domotica      { background: #ede9fe; }
+  .resultado-item.fam-domotica:hover      { background: #ddd6fe; }
+  .resultado-item.fam-domotica.activo     { background: #ddd6fe; border-left: 3px solid #7c3aed; }
+  .resultado-item.fam-climatizacion { background: #ffedd5; }
+  .resultado-item.fam-climatizacion:hover { background: #fed7aa; }
+  .resultado-item.fam-climatizacion.activo { background: #fed7aa; border-left: 3px solid #ea580c; }
+  .resultado-item.fam-renovables    { background: #d1fae5; }
+  .resultado-item.fam-renovables:hover    { background: #a7f3d0; }
+  .resultado-item.fam-renovables.activo   { background: #a7f3d0; border-left: 3px solid #059669; }
+  .resultado-item.fam-herramientas  { background: #fce7f3; }
+  .resultado-item.fam-herramientas:hover  { background: #fbcfe8; }
+  .resultado-item.fam-herramientas.activo { background: #fbcfe8; border-left: 3px solid #db2777; }
+  .resultado-item.fam-seguridad     { background: #fee2e2; }
+  .resultado-item.fam-seguridad:hover     { background: #fecaca; }
+  .resultado-item.fam-seguridad.activo    { background: #fecaca; border-left: 3px solid #dc2626; }
   .alfa-item.aparellaje { background: #e0f2fe; border-color: #7dd3fc; }
   .alfa-item.aparellaje:hover { background: #bae6fd; border-color: var(--azul2); }
 
@@ -302,7 +323,7 @@ function renderLista(items, query) {
     return;
   }
   lista.innerHTML = items.map(a => {
-    const cls = a.aparellaje ? ' aparellaje' : '';
+    const cls = a.familiaTop ? ' fam-' + a.familiaTop.replace(/\s+/g,'-') : '';
     return '<div class="resultado-item' + cls + '" onclick="verArticulo(\'' + escapeHtml(a.filename) + '\', this)">' +
       '<div class="r-titulo">' + escapeHtml(a.title) + '</div>' +
       '<div class="r-ref">' + escapeHtml(a.ref) + '</div>' +

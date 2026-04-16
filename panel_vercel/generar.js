@@ -39,7 +39,9 @@ const articulos = files.map(filename => {
   const family  = familyLine ? familyLine.replace('Familia:','').trim() : '';
   const refLine = lines.find(l => l.startsWith('Ejemplo en Araiz:'));
   const ref     = refLine ? refLine.replace('Ejemplo en Araiz:','').trim() : '';
-  return { filename, title, family, ref, content, normContent: normText(content) };
+  const familiaTop = family.split('>')[0].trim().toLowerCase()
+    .normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+  return { filename, title, family, familiaTop, ref, content, normContent: normText(content) };
 });
 
 fs.writeFileSync(OUT_BASE, JSON.stringify(articulos), 'utf8');
