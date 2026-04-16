@@ -309,7 +309,7 @@ async function cargarDatos() {
   CATALOGO = await catRes.json();
 
   document.getElementById('stats-header').textContent =
-    BASE.length + ' cuadros · ' + CATALOGO.length + ' artículos catálogo';
+    BASE.length + ' cuadros · +60.000 artículos catálogo';
 
   renderLista(BASE, '');
   iniciarAlfabetico();
