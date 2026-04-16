@@ -1,10 +1,22 @@
 node_modules/
-debug_error.png
 *.png
 
-# JSONs grandes de extracción completa (no entran en git — regenerables con araiz_ninja_v4.js)
+# JSONs grandes de extracción completa (regenerables con araiz_ninja_v4.js)
 catalogo_total_v4.json
 *_completo.json
 araiz_v4_temp.ndjson
 araiz_v4_uids.json
 araiz_v4_checkpoint.json
+
+# Archivos de caché y logs de runtime
+logs/panel.log
+logs/servidor_5192.log
+
+# Carpeta de archivos históricos pesados
+_archivo/
+
+# Archivos temporales de Word
+~$*
+
+# Carpeta interna de Claude
+.claude/
